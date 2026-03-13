@@ -32,10 +32,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -74,7 +74,7 @@ jobs:
 
     steps:
       - name: 📥 Checkout (with latest data)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: main  # Get the commit from update-data job
 
@@ -90,10 +90,10 @@ jobs:
           echo '{"status":"ok","updated":"'"$(date -u '+%Y-%m-%dT%H:%M:%SZ')"'"}' > _site/api/health.json
 
       - name: 📤 Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
       - name: 🌐 Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

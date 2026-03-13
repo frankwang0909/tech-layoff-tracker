@@ -56,7 +56,7 @@ The dashboard features:
 
 ```bash
 # Clone & start — one command!
-git clone https://github.com/YOUR_USERNAME/tech-layoff-tracker.git
+git clone https://github.com/frankwang0909/tech-layoff-tracker.git
 cd tech-layoff-tracker
 docker compose up --build
 ```
@@ -67,7 +67,7 @@ Open **http://localhost:8080/layoff_chart.html** in your browser. Done! 🎉
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/tech-layoff-tracker.git
+git clone https://github.com/frankwang0909/tech-layoff-tracker.git
 cd tech-layoff-tracker
 
 # Create virtual environment
@@ -115,7 +115,7 @@ This project uses **GitHub Actions** to automatically update the data every day:
 2. Go to **Settings → Pages → Source** and select **GitHub Actions**
 3. The workflow will run automatically — your dashboard will be live at:
    ```
-   https://YOUR_USERNAME.github.io/tech-layoff-tracker/
+   https://frankwang0909.github.io/tech-layoff-tracker/ 
    ```
 4. To trigger manually: **Actions → Daily Layoff Data Update → Run workflow**
 

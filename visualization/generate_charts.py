@@ -529,7 +529,21 @@ function renderCharts(t) {
             radius: ['40%', '72%'],
             center: ['38%', '50%'],
             itemStyle: { borderRadius: 8, borderColor: '#0a0f1e', borderWidth: 3 },
-            label: { show: false },
+            label: {
+                show: true,
+                position: 'outside',
+                formatter: '{b}\n{d}%',
+                color: '#cbd5e1',
+                fontSize: 12,
+                fontWeight: 500,
+                lineHeight: 18
+            },
+            labelLine: {
+                show: true,
+                length: 15,
+                length2: 10,
+                lineStyle: { color: '#475569', width: 1.5 }
+            },
             emphasis: {
                 label: { show: true, fontSize: 16, fontWeight: 700, color: '#f8fafc' },
                 scaleSize: 6

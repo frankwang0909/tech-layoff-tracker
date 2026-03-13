@@ -26,14 +26,22 @@
 
 ## 📸 Dashboard Preview
 
-> Open `visualization/layoff_chart.html` in your browser to see the full interactive dashboard.
+<div align="center">
 
-The dashboard features:
-- 🏢 **Top 15 Company Breakdown** — Horizontal bar chart of the most impacted companies
-- 📈 **Monthly Trend Analysis** — Bar + line combo chart showing layoff volume over time
-- 🏭 **Industry Distribution** — Donut chart of layoffs by sector
-- 🌍 **Geographic Breakdown** — Layoffs by country/region
-- 🧠 **Root Cause Analysis** — Key drivers: AI transformation, economic uncertainty, etc.
+### 🇺🇸 English Mode (Default)
+
+![Dashboard - English](docs/images/dashboard_en.png)
+
+![Dashboard - Charts](docs/images/dashboard_charts.png)
+
+### 🇨🇳 中文模式
+
+![Dashboard - Chinese](docs/images/dashboard_cn.png)
+
+> 💡 Supports **EN / 中文** language toggle — switch instantly without page reload.
+
+</div>
+
 
 ---
 

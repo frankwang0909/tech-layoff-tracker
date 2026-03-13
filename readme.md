@@ -66,7 +66,6 @@
 # Clone & start — one command!
 git clone https://github.com/frankwang0909/tech-layoff-tracker.git
 cd tech-layoff-tracker
-docker compose up --build
 ```
 
 Open **http://localhost:8080/layoff_chart.html** in your browser. Done! 🎉

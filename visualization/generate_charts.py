@@ -520,9 +520,9 @@ function renderCharts(t) {
     reasonChart.setOption({
         tooltip: { trigger: 'item', ...TOOLTIP, formatter: '{b}: {d}%' },
         legend: {
-            orient: 'vertical', right: 10, top: 'middle',
+            orient: 'horizontal', right: 10, top: 10,
             textStyle: { color: TX, fontSize: 11 },
-            itemWidth: 12, itemHeight: 12, itemGap: 10
+            itemWidth: 12, itemHeight: 12, itemGap: 12
         },
         series: [{
             type: 'pie',

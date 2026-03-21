@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://debugcanada.com/zh/layoffs",
+      "permanent": true
+    }
+  ]
+}

@@ -30,24 +30,26 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         super().__init__(*args, directory=str(PROJECT_ROOT / "visualization"), **kwargs)
 
     def do_GET(self):
-        # Simple API endpoint for stats
-        if self.path == "/api/stats":
-            self._serve_json("stats.json")
-        elif self.path == "/api/companies":
-            self._serve_json("company_summary.json")
-        elif self.path == "/api/monthly":
-            self._serve_json("monthly_trend.json")
-        elif self.path == "/api/industries":
-            self._serve_json("industry_breakdown.json")
-        elif self.path == "/api/countries":
-            self._serve_json("country_breakdown.json")
-        elif self.path == "/health":
+        self._handle_all()
+
+    def do_HEAD(self):
+        self._handle_all()
+
+    def _handle_all(self):
+        # Health check for monitoring
+        if self.path == "/health":
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
             self.end_headers()
-            self.wfile.write(json.dumps({"status": "ok"}).encode())
-        else:
-            super().do_GET()
+            if self.command == "GET":
+                self.wfile.write(json.dumps({"status": "ok"}).encode())
+            return
+
+        # 301 Redirect all other traffic to layoffscanada.com
+        # This consolidates SEO for the legacy domain tech.debugcanada.com
+        self.send_response(301)
+        self.send_header("Location", f"https://layoffscanada.com{self.path}")
+        self.end_headers()
 
     def _serve_json(self, filename: str):
         filepath = self.data_dir / filename

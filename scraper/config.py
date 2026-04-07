@@ -10,22 +10,20 @@ from datetime import date
 class ScraperConfig:
     """Configuration settings for the scraper."""
 
-    # Target URL — layoffs.fyi exposes data via a publicly accessible Google Sheet
-    # which can be exported as CSV. This is the standard approach used by researchers.
-    LAYOFFS_FYI_CSV_URL: str = (
-        "https://layoffs.fyi/getData/"
+    # Primary Airtable Embed URL
+    LAYOFFS_FYI_AIRTABLE_URL: str = (
+        "https://airtable.com/embed/shrqYt5kSqMzHV9R5?backgroundColor=green"
     )
 
-    # Fallback: Google Sheets public export URL
-    # The underlying data is maintained in a Google Sheet that is publicly readable.
-    GOOGLE_SHEET_CSV_URL: str = (
-        "https://docs.google.com/spreadsheets/d/"
-        "1annGUhBMFRMeFip2sORbbKNkJX1bMPaRi9qiiSfFgTs/"
-        "export?format=csv"
+    # Fallback: Community-maintained GitHub mirror
+    # This repository is frequently used for data tutorials and contains a reliable snapshot.
+    GITHUB_MIRROR_CSV_URL: str = (
+        "https://raw.githubusercontent.com/AlexTheAnalyst/"
+        "MySQL-YouTube-Series/main/layoffs.csv"
     )
 
     # Date range filter
-    START_DATE: date = field(default_factory=lambda: date(2025, 1, 1))
+    START_DATE: date = field(default_factory=lambda: date(2020, 1, 1))
     END_DATE: date = field(default_factory=lambda: date.today())
 
     # Request settings

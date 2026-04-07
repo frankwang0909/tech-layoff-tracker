@@ -45,11 +45,15 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"status": "ok"}).encode())
             return
 
-        # 301 Redirect all other traffic to debugcanada.com/zh/layoffs
-        # This consolidates SEO for the legacy domain tech.debugcanada.com into the main root domain
-        self.send_response(301)
-        self.send_header("Location", "https://debugcanada.com/zh/layoffs")
-        self.end_headers()
+        # Serve static files or API
+        if self.path == "/api/stats":
+            self._serve_json("stats.json")
+            return
+
+        if self.command == "GET":
+            super().do_GET()
+        else:
+            super().do_HEAD()
 
     def _serve_json(self, filename: str):
         filepath = self.data_dir / filename

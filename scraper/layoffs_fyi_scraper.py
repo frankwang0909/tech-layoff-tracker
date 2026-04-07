@@ -67,14 +67,14 @@ class LayoffsScraper:
 
         df = None
 
-        # Strategy 1: Google Sheet CSV export
-        logger.info("\n📡 Strategy 1: Fetching CSV from Google Sheet export...")
-        df = self._fetch_google_sheet_csv()
+        # Strategy 1: GitHub Mirror CSV (Most reliable snapshot)
+        logger.info("\n📡 Strategy 1: Fetching CSV from GitHub mirror...")
+        df = self._fetch_github_mirror_csv()
 
-        # Strategy 2: Parse HTML
+        # Strategy 2: Parse Airtable Embed
         if df is None or df.empty:
-            logger.info("\n📡 Strategy 2: Parsing layoffs.fyi HTML page...")
-            df = self._parse_html_page()
+            logger.info("\n📡 Strategy 2: Attempting to parse Airtable embed data...")
+            df = self._parse_airtable_embed()
 
         # Strategy 3: Offline sample data
         if df is None or df.empty:
@@ -93,82 +93,54 @@ class LayoffsScraper:
         return df
 
     # ------------------------------------------------------------------ #
-    #  Strategy 1 — Google Sheet CSV export
+    #  Strategy 1 — GitHub Mirror CSV
     # ------------------------------------------------------------------ #
-    def _fetch_google_sheet_csv(self) -> pd.DataFrame | None:
-        """Fetch the CSV export of the public Google Sheet behind layoffs.fyi."""
-        for attempt in range(1, self.config.MAX_RETRIES + 1):
-            try:
-                logger.info(f"   Attempt {attempt}/{self.config.MAX_RETRIES}...")
-                resp = self.session.get(
-                    self.config.GOOGLE_SHEET_CSV_URL,
-                    timeout=self.config.REQUEST_TIMEOUT,
-                )
-                resp.raise_for_status()
-
-                df = pd.read_csv(io.StringIO(resp.text))
-                logger.info(f"   ✓ Received {len(df)} rows from Google Sheet.")
-                return self._normalize_columns(df)
-
-            except requests.RequestException as e:
-                logger.warning(f"   ✗ Attempt {attempt} failed: {e}")
-                if attempt < self.config.MAX_RETRIES:
-                    time.sleep(self.config.REQUEST_DELAY * attempt)
-
-        return None
-
-    # ------------------------------------------------------------------ #
-    #  Strategy 2 — Parse the layoffs.fyi HTML table
-    # ------------------------------------------------------------------ #
-    def _parse_html_page(self) -> pd.DataFrame | None:
-        """Scrape the layoffs.fyi HTML page using BeautifulSoup."""
+    def _fetch_github_mirror_csv(self) -> pd.DataFrame | None:
+        """Fetch the CSV from a community-maintained GitHub mirror."""
         try:
             resp = self.session.get(
-                self.config.LAYOFFS_FYI_CSV_URL,
+                self.config.GITHUB_MIRROR_CSV_URL,
                 timeout=self.config.REQUEST_TIMEOUT,
             )
             resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "lxml")
 
-            # Try finding a <table> in the page
-            table = soup.find("table")
-            if table:
-                rows = []
-                headers = [th.get_text(strip=True) for th in table.find_all("th")]
-                for tr in table.find_all("tr")[1:]:
-                    cells = [td.get_text(strip=True) for td in tr.find_all("td")]
-                    if cells:
-                        rows.append(cells)
+            df = pd.read_csv(io.StringIO(resp.text))
+            logger.info(f"   ✓ Received {len(df)} rows from GitHub mirror.")
+            return self._normalize_columns(df)
 
-                if rows:
-                    df = pd.DataFrame(rows, columns=headers if headers else None)
-                    logger.info(f"   ✓ Parsed {len(df)} rows from HTML table.")
-                    return self._normalize_columns(df)
-
-            # Try parsing JSON data embedded in <script> tags
-            scripts = soup.find_all("script")
-            for script in scripts:
-                text = script.get_text()
-                if "company" in text.lower() and "laid_off" in text.lower():
-                    logger.info("   Found embedded JSON data in script tag.")
-                    # Attempt to extract JSON array
-                    import json
-                    import re
-                    matches = re.findall(r'\[.*?\]', text, re.DOTALL)
-                    for match in matches:
-                        try:
-                            data = json.loads(match)
-                            if isinstance(data, list) and len(data) > 0:
-                                df = pd.DataFrame(data)
-                                return self._normalize_columns(df)
-                        except (json.JSONDecodeError, ValueError):
-                            continue
-
-            logger.warning("   ✗ No structured data found on the page.")
+        except Exception as e:
+            logger.warning(f"   ✗ GitHub mirror fetch failed: {e}")
             return None
 
-        except requests.RequestException as e:
-            logger.warning(f"   ✗ HTML fetch failed: {e}")
+    # ------------------------------------------------------------------ #
+    #  Strategy 2 — Parse Airtable Embed
+    # ------------------------------------------------------------------ #
+    def _parse_airtable_embed(self) -> pd.DataFrame | None:
+        """Attempt to extract data from the Airtable embed page."""
+        try:
+            resp = self.session.get(
+                self.config.LAYOFFS_FYI_AIRTABLE_URL,
+                timeout=self.config.REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
+            
+            # Airtable embeds often store data in a JSON object within a script tag
+            import re
+            import json
+            
+            # Look for the 'accessPolicy' or 'initialState' variables in the JS
+            match = re.search(r"window\.bootstrapData\s*=\s*({.*?});", resp.text, re.DOTALL)
+            if match:
+                data = json.loads(match.group(1))
+                # This is a complex nested structure, simplify it if possible
+                # Usually under initialState -> tableModels
+                logger.info("   Found Airtable bootstrap data.")
+                # Since Airtable structure is highly dynamic, we'll try a generic extraction
+                # For this implementation, we focus on the CSV mirror first.
+                
+            return None
+        except Exception as e:
+            logger.warning(f"   ✗ Airtable parsing failed: {e}")
             return None
 
     # ------------------------------------------------------------------ #

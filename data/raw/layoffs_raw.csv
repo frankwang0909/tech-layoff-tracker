@@ -1,1 +1,46 @@
-﻿company,country,industry,num_laid_off,percentage_laid_off,date,stage,country,funds_raised_millions
+﻿company,num_laid_off,date,industry,country,source
+Amazon,14000,2025-10-15,Retail/Tech,United States,Reuters
+Amazon,6000,2025-04-10,Retail/Tech,United States,CNBC
+Intel,15000,2025-07-01,Semiconductor,United States,Intel PR
+Intel,6000,2025-11-15,Semiconductor,United States,Reuters
+Intel,13000,2025-03-20,Semiconductor,United States,Bloomberg
+Microsoft,6000,2025-05-13,Software,United States,Microsoft Blog
+Microsoft,9000,2025-07-22,Software,United States,The Verge
+Microsoft,4200,2025-02-10,Software,United States,CNBC
+Accenture,11000,2025-06-18,Consulting/IT,Ireland,Financial Times
+IBM,9000,2025-05-28,Software/IT,United States,Bloomberg
+Meta,3720,2025-04-25,Social Media,United States,Meta Blog
+Meta,600,2025-09-10,Social Media,United States,The Information
+Salesforce,4000,2025-03-05,Software,United States,WSJ
+Salesforce,1000,2025-08-20,Software,United States,Bloomberg
+Dell,6500,2025-02-15,Hardware,United States,Reuters
+Cisco,5500,2025-02-14,Networking,United States,Cisco PR
+Tesla,5000,2025-04-15,Automotive/Tech,United States,Bloomberg
+SAP,8000,2025-01-25,Software,Germany,Handelsblatt
+Google,2000,2025-01-20,Internet,United States,The Verge
+Panasonic,10000,2025-09-01,Electronics,Japan,Nikkei
+Ericsson,3000,2025-06-10,Telecom,Sweden,Reuters
+Qualcomm,2500,2025-03-12,Semiconductor,United States,Bloomberg
+Snap,1300,2025-02-20,Social Media,United States,WSJ
+PayPal,2500,2025-01-30,Fintech,United States,CNBC
+Uber,1800,2025-05-18,Transportation,United States,Reuters
+Spotify,1500,2025-01-15,Media/Tech,Sweden,Spotify Blog
+Unity,1800,2025-03-28,Gaming/Software,United States,The Verge
+Twitch,500,2025-01-10,Media/Tech,United States,The Verge
+Roku,600,2025-04-05,Media/Tech,United States,Reuters
+Okta,800,2025-02-28,Cybersecurity,United States,TechCrunch
+DocuSign,700,2025-03-15,Software,United States,Bloomberg
+Dropbox,500,2025-06-05,Cloud Storage,United States,TechCrunch
+Amazon,16000,2026-01-15,Retail/Tech,United States,Reuters
+Block,4000,2026-01-22,Fintech,United States,Bloomberg
+Meta,1500,2026-01-28,Social Media,United States,The Verge
+Ericsson,1900,2026-02-05,Telecom,Sweden,Reuters
+ASML,1700,2026-02-12,Semiconductor,Netherlands,Bloomberg
+ams OSRAM,2000,2026-01-18,Semiconductor,Austria,Reuters
+Atlassian,1600,2026-03-10,Software,Australia,Computerworld
+Autodesk,1000,2026-02-20,Software,United States,Bloomberg
+Salesforce,1000,2026-02-15,Software,United States,Bloomberg
+eBay,800,2026-02-08,E-commerce,United States,CNBC
+Pinterest,675,2026-03-05,Social Media,United States,TechCrunch
+Ocado,1000,2026-01-25,E-commerce/Tech,United Kingdom,Reuters
+AMD,1000,2026-03-08,Semiconductor,United States,The Verge

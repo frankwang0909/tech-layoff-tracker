@@ -86,6 +86,15 @@ class LayoffsScraper:
         # Apply date filter
         df = self._filter_by_date(df)
 
+        # If an upstream source returns rows but none survive normalization/date
+        # filtering, fall back to the bundled dataset instead of publishing zeros.
+        if df.empty:
+            logger.warning(
+                "\n⚠️  Upstream data produced an empty filtered dataset. "
+                "Falling back to offline sample data."
+            )
+            df = self._filter_by_date(self._load_sample_data())
+
         # Save raw data
         self._save_raw(df)
 

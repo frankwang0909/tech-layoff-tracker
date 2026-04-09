@@ -23,7 +23,7 @@ class ScraperConfig:
     )
 
     # Date range filter
-    START_DATE: date = field(default_factory=lambda: date(2020, 1, 1))
+    START_DATE: date = field(default_factory=lambda: date(2025, 1, 1))
     END_DATE: date = field(default_factory=lambda: date.today())
 
     # Request settings

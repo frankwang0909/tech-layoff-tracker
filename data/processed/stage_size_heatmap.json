@@ -1,0 +1,195 @@
+{
+  "stages": [
+    "Post-IPO",
+    "Series D+",
+    "Series A-C",
+    "Seed / Early",
+    "Acquired / PE",
+    "Unknown",
+    "Other"
+  ],
+  "size_buckets": [
+    "<100",
+    "100-499",
+    "500-999",
+    "1k-4.9k",
+    "5k+"
+  ],
+  "cells": [
+    {
+      "stage": "Post-IPO",
+      "size_bucket": "<100",
+      "event_count": 28
+    },
+    {
+      "stage": "Post-IPO",
+      "size_bucket": "100-499",
+      "event_count": 57
+    },
+    {
+      "stage": "Post-IPO",
+      "size_bucket": "500-999",
+      "event_count": 12
+    },
+    {
+      "stage": "Post-IPO",
+      "size_bucket": "1k-4.9k",
+      "event_count": 20
+    },
+    {
+      "stage": "Post-IPO",
+      "size_bucket": "5k+",
+      "event_count": 7
+    },
+    {
+      "stage": "Series D+",
+      "size_bucket": "<100",
+      "event_count": 24
+    },
+    {
+      "stage": "Series D+",
+      "size_bucket": "100-499",
+      "event_count": 26
+    },
+    {
+      "stage": "Series D+",
+      "size_bucket": "500-999",
+      "event_count": 1
+    },
+    {
+      "stage": "Series D+",
+      "size_bucket": "1k-4.9k",
+      "event_count": 1
+    },
+    {
+      "stage": "Series D+",
+      "size_bucket": "5k+",
+      "event_count": 0
+    },
+    {
+      "stage": "Series A-C",
+      "size_bucket": "<100",
+      "event_count": 25
+    },
+    {
+      "stage": "Series A-C",
+      "size_bucket": "100-499",
+      "event_count": 13
+    },
+    {
+      "stage": "Series A-C",
+      "size_bucket": "500-999",
+      "event_count": 0
+    },
+    {
+      "stage": "Series A-C",
+      "size_bucket": "1k-4.9k",
+      "event_count": 0
+    },
+    {
+      "stage": "Series A-C",
+      "size_bucket": "5k+",
+      "event_count": 0
+    },
+    {
+      "stage": "Seed / Early",
+      "size_bucket": "<100",
+      "event_count": 2
+    },
+    {
+      "stage": "Seed / Early",
+      "size_bucket": "100-499",
+      "event_count": 1
+    },
+    {
+      "stage": "Seed / Early",
+      "size_bucket": "500-999",
+      "event_count": 0
+    },
+    {
+      "stage": "Seed / Early",
+      "size_bucket": "1k-4.9k",
+      "event_count": 0
+    },
+    {
+      "stage": "Seed / Early",
+      "size_bucket": "5k+",
+      "event_count": 0
+    },
+    {
+      "stage": "Acquired / PE",
+      "size_bucket": "<100",
+      "event_count": 6
+    },
+    {
+      "stage": "Acquired / PE",
+      "size_bucket": "100-499",
+      "event_count": 15
+    },
+    {
+      "stage": "Acquired / PE",
+      "size_bucket": "500-999",
+      "event_count": 5
+    },
+    {
+      "stage": "Acquired / PE",
+      "size_bucket": "1k-4.9k",
+      "event_count": 2
+    },
+    {
+      "stage": "Acquired / PE",
+      "size_bucket": "5k+",
+      "event_count": 0
+    },
+    {
+      "stage": "Unknown",
+      "size_bucket": "<100",
+      "event_count": 11
+    },
+    {
+      "stage": "Unknown",
+      "size_bucket": "100-499",
+      "event_count": 23
+    },
+    {
+      "stage": "Unknown",
+      "size_bucket": "500-999",
+      "event_count": 1
+    },
+    {
+      "stage": "Unknown",
+      "size_bucket": "1k-4.9k",
+      "event_count": 3
+    },
+    {
+      "stage": "Unknown",
+      "size_bucket": "5k+",
+      "event_count": 0
+    },
+    {
+      "stage": "Other",
+      "size_bucket": "<100",
+      "event_count": 0
+    },
+    {
+      "stage": "Other",
+      "size_bucket": "100-499",
+      "event_count": 0
+    },
+    {
+      "stage": "Other",
+      "size_bucket": "500-999",
+      "event_count": 0
+    },
+    {
+      "stage": "Other",
+      "size_bucket": "1k-4.9k",
+      "event_count": 0
+    },
+    {
+      "stage": "Other",
+      "size_bucket": "5k+",
+      "event_count": 0
+    }
+  ]
+}

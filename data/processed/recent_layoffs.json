@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2026-04-07",
+    "company": "GoPro",
+    "num_laid_off": 145,
+    "percentage_laid_off": 0.23,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
+  },
+  {
+    "date": "2026-04-07",
+    "company": "Pendo",
+    "num_laid_off": 90,
+    "percentage_laid_off": 0.1,
+    "industry": "Product",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+  },
+  {
+    "date": "2026-04-02",
+    "company": "Meta",
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+  },
+  {
+    "date": "2026-03-31",
+    "company": "Oracle",
+    "num_laid_off": 30000,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
+  },
+  {
+    "date": "2026-03-31",
+    "company": "Monzo",
+    "num_laid_off": 50,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United Kingdom",
+    "stage": "Series F",
+    "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+  },
+  {
+    "date": "2026-03-27",
+    "company": "Enpal",
+    "num_laid_off": 100,
+    "percentage_laid_off": null,
+    "industry": "Energy",
+    "country": "Germany",
+    "stage": "Series E",
+    "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+  },
+  {
+    "date": "2026-03-24",
+    "company": "Epic Games",
+    "num_laid_off": 1000,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+  },
+  {
+    "date": "2026-03-24",
+    "company": "Zendesk",
+    "num_laid_off": 100,
+    "percentage_laid_off": null,
+    "industry": "Support",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "Internal memo"
+  },
+  {
+    "date": "2026-03-23",
+    "company": "Spotify",
+    "num_laid_off": 15,
+    "percentage_laid_off": null,
+    "industry": "Media",
+    "country": "Sweden",
+    "stage": "Post-IPO",
+    "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+  },
+  {
+    "date": "2026-03-13",
+    "company": "Stone",
+    "num_laid_off": 400,
+    "percentage_laid_off": 0.03,
+    "industry": "Finance",
+    "country": "Brazil",
+    "stage": "Post-IPO",
+    "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
+  },
+  {
+    "date": "2026-03-11",
+    "company": "Atlassian",
+    "num_laid_off": 1600,
+    "percentage_laid_off": 0.1,
+    "industry": "Other",
+    "country": "Australia",
+    "stage": "Post-IPO",
+    "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+  },
+  {
+    "date": "2026-03-10",
+    "company": "InvestCloud",
+    "num_laid_off": 150,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Private Equity",
+    "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
+  }
+]

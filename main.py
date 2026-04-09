@@ -104,7 +104,7 @@ Examples:
     logger.info("\n━━━ STEP 3/3: Chart Generation ━━━━━━━━━━━━━━━━━━━━━━━━━━")
     chart_path = generate_chart(
         data_dir=config.PROCESSED_DATA_DIR,
-        output_path="visualization/layoff_chart.html",
+        output_path="index.html",
     )
 
     # ────────────────────── Done ───────────────────────────────

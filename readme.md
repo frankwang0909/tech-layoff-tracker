@@ -51,7 +51,7 @@
 |---|---|
 | 🕷️ **Web Scraper** | Multi-strategy scraper with live Airtable shared-view extraction, CSV mirror fallback, and offline sample data |
 | 🧹 **Data Processing** | Pandas-based pipeline that cleans, normalizes, and aggregates raw data into analysis-ready JSON |
-| 📊 **Interactive Dashboard** | Glassmorphism-styled ECharts dashboard with animated gradients, responsive layout, and dynamic date-range subtitles |
+| 📊 **Interactive Dashboard** | Glassmorphism-styled ECharts dashboard with animated gradients, responsive layout, dynamic date-range subtitles, and homepage-first analysis modules |
 | 🚀 **One-Command Pipeline** | `python main.py` runs the complete scrape → process → visualize workflow |
 | 🐳 **Docker Ready** | Multi-stage Dockerfile + Compose — `docker compose up` for instant deployment |
 | 🔄 **Offline-Capable** | Built-in curated dataset ensures the project works even without network access |
@@ -68,7 +68,7 @@ git clone https://github.com/frankwang0909/tech-layoff-tracker.git
 cd tech-layoff-tracker
 ```
 
-Open **http://localhost:8080/layoff_chart.html** in your browser. Done! 🎉
+Open **http://localhost:8080/** in your browser. Done! 🎉
 
 ### Option B: Local Python
 
@@ -91,7 +91,7 @@ python main.py
 python server.py
 ```
 
-Open **http://localhost:8080/layoff_chart.html** or directly open `visualization/layoff_chart.html`.
+Open **http://localhost:8080/** or directly open `index.html`.
 
 ### CLI Options
 
@@ -113,7 +113,7 @@ This project uses **GitHub Actions** to deploy the generated static site to **Gi
 | 🔄 **Trigger** | Push to `main` and manual dispatch |
 | 📦 **Artifact** | Entire repository root (including `index.html` and `visualization/`) |
 | 🌐 **Deploy** | GitHub Pages with optional custom domain |
-| 🧭 **Entry Point** | Root `index.html` redirects to `visualization/layoff_chart.html` |
+| 🧭 **Entry Point** | Root `index.html` serves the dashboard homepage directly |
 
 ### Setup Instructions
 
@@ -124,7 +124,7 @@ This project uses **GitHub Actions** to deploy the generated static site to **Gi
    ```
    https://frankwang0909.github.io/tech-layoff-tracker/ 
    ```
-   If you configure a custom domain, the root path should resolve through `index.html`.
+   If you configure a custom domain, the root path should render the dashboard directly.
 
 
 ## 🏗️ Architecture
@@ -132,6 +132,8 @@ This project uses **GitHub Actions** to deploy the generated static site to **Gi
 ```
 tech-layoff-tracker/
 │
+├── index.html                       # 🌐 Generated homepage dashboard
+├── layoff_chart.html                # ↪ Root-level legacy redirect
 ├── main.py                          # 🚀 One-command entry point
 ├── requirements.txt                 # Python dependencies
 ├── .gitignore
@@ -147,7 +149,7 @@ tech-layoff-tracker/
 │
 ├── visualization/                   # 📊 Chart Generation
 │   ├── generate_charts.py           # Jinja2 template → HTML dashboard
-│   └── layoff_chart.html            # Generated interactive dashboard
+│   └── layoff_chart.html            # Legacy redirect kept for old links
 │
 ├── data/
 │   ├── raw/                         # Raw scraped CSV
@@ -197,6 +199,15 @@ The scraper uses a **3-tier strategy** for maximum reliability:
 - When the live Airtable source is reachable, `python main.py` now captures current layoffs.fyi records, including post-March 2026 entries.
 - If the live source fails or returns an unusable filtered result, the pipeline falls back to the CSV mirror and then to the bundled offline sample dataset.
 - The current snapshot metrics can always be read from `data/processed/stats.json`.
+
+## 📈 Homepage Analytics
+
+The homepage dashboard now combines overview KPIs with additional analysis slices generated from `data/processed/`:
+
+- `monthly_comparison.json` powers a side-by-side `2025 vs 2026` monthly comparison chart
+- `stage_size_heatmap.json` powers a `Stage × Layoff Size` event heatmap
+- `layoff_pct_distribution.json` powers the `Layoff % Distribution` chart
+- `recent_layoffs.json` powers the latest layoff events table shown on the homepage
 
 ---
 

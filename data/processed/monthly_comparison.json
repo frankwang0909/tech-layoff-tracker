@@ -1,0 +1,74 @@
+[
+  {
+    "month_num": 1,
+    "month_label": "Jan",
+    "layoffs_2025": 2537,
+    "layoffs_2026": 24928
+  },
+  {
+    "month_num": 2,
+    "month_label": "Feb",
+    "layoffs_2025": 18474,
+    "layoffs_2026": 11019
+  },
+  {
+    "month_num": 3,
+    "month_label": "Mar",
+    "layoffs_2025": 8834,
+    "layoffs_2026": 34800
+  },
+  {
+    "month_num": 4,
+    "month_label": "Apr",
+    "layoffs_2025": 25345,
+    "layoffs_2026": 435
+  },
+  {
+    "month_num": 5,
+    "month_label": "May",
+    "layoffs_2025": 10577,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 6,
+    "month_label": "Jun",
+    "layoffs_2025": 1606,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 7,
+    "month_label": "Jul",
+    "layoffs_2025": 16648,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 8,
+    "month_label": "Aug",
+    "layoffs_2025": 6452,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 9,
+    "month_label": "Sep",
+    "layoffs_2025": 4174,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 10,
+    "month_label": "Oct",
+    "layoffs_2025": 19070,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 11,
+    "month_label": "Nov",
+    "layoffs_2025": 8932,
+    "layoffs_2026": 0
+  },
+  {
+    "month_num": 12,
+    "month_label": "Dec",
+    "layoffs_2025": 1552,
+    "layoffs_2026": 0
+  }
+]

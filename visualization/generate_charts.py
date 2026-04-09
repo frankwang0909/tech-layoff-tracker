@@ -191,6 +191,47 @@ CHART_TEMPLATE = r"""<!DOCTYPE html>
             border-left: 3px solid #818cf8;
         }
         .chart-container { width: 100%; height: 420px; }
+        .chart-container-tall { height: 500px; }
+
+        .table-panel { overflow: hidden; }
+        .table-wrap {
+            overflow-x: auto;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 1rem;
+        }
+        .recent-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 860px;
+        }
+        .recent-table th,
+        .recent-table td {
+            padding: 0.85rem 0.9rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 0.85rem;
+        }
+        .recent-table th {
+            color: #cbd5e1;
+            font-weight: 700;
+            background: rgba(15, 23, 42, 0.92);
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .recent-table td {
+            color: #94a3b8;
+        }
+        .recent-table tr:nth-child(even) td {
+            background: rgba(15, 23, 42, 0.35);
+        }
+        .recent-table a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        .recent-table a:hover {
+            text-decoration: underline;
+        }
 
         footer {
             text-align: center;
@@ -276,6 +317,44 @@ CHART_TEMPLATE = r"""<!DOCTYPE html>
             <div id="reasonChart" class="chart-container"></div>
         </div>
     </div>
+    <div class="chart-grid chart-grid-2">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle6"></h2>
+            <div id="monthlyCompareChart" class="chart-container"></div>
+        </div>
+        <div class="glass chart-panel">
+            <h2 id="chartTitle7"></h2>
+            <div id="percentageChart" class="chart-container"></div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-1">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle8"></h2>
+            <div id="stageHeatmapChart" class="chart-container chart-container-tall"></div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-1">
+        <div class="glass chart-panel table-panel">
+            <h2 id="tableTitle1"></h2>
+            <div class="table-wrap">
+                <table class="recent-table">
+                    <thead>
+                        <tr>
+                            <th id="recentHeadDate"></th>
+                            <th id="recentHeadCompany"></th>
+                            <th id="recentHeadLayoffs"></th>
+                            <th id="recentHeadPct"></th>
+                            <th id="recentHeadIndustry"></th>
+                            <th id="recentHeadCountry"></th>
+                            <th id="recentHeadStage"></th>
+                            <th id="recentHeadSource"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="recentLayoffsBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
     <footer id="pageFooter"></footer>
 </div>
@@ -301,10 +380,28 @@ const i18n = {
         chartTitle3: 'Monthly Layoff Trend',
         chartTitle4: 'Layoffs by Region',
         chartTitle5: 'Key Drivers of Layoffs',
+        chartTitle6: '2025 vs 2026 Monthly Comparison',
+        chartTitle7: 'Layoff % Distribution',
+        chartTitle8: 'Stage × Layoff Size Heatmap',
+        tableTitle1: 'Recent Layoffs',
+        recentHeadDate: 'Date',
+        recentHeadCompany: 'Company',
+        recentHeadLayoffs: 'Laid Off',
+        recentHeadPct: 'Layoff %',
+        recentHeadIndustry: 'Industry',
+        recentHeadCountry: 'Country',
+        recentHeadStage: 'Stage',
+        recentHeadSource: 'Source',
+        recentNoData: 'No recent layoff records available.',
+        recentSourceLink: 'Open',
         footer: 'Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>Disclaimer: Some figures are estimates or planned reductions<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a>',
         yAxisName: 'Layoffs',
         seriesBar: 'Layoffs',
         seriesLine: 'Trend',
+        series2025: '2025',
+        series2026: '2026',
+        heatmapLegend: 'Event Count',
+        monthLabels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         reasons: [
             { value: 45, name: 'Economic Uncertainty & Inflation' },
             { value: 30, name: 'AI Transformation & Automation' },
@@ -328,10 +425,28 @@ const i18n = {
         chartTitle3: '逐月裁员趋势变化',
         chartTitle4: '裁员地区分布',
         chartTitle5: '裁员核心驱动因素拆解',
+        chartTitle6: '2025 与 2026 月度对比',
+        chartTitle7: '裁员比例分布',
+        chartTitle8: '融资阶段 × 裁员规模热力图',
+        tableTitle1: '最近裁员记录',
+        recentHeadDate: '日期',
+        recentHeadCompany: '公司',
+        recentHeadLayoffs: '裁员人数',
+        recentHeadPct: '裁员比例',
+        recentHeadIndustry: '行业',
+        recentHeadCountry: '国家',
+        recentHeadStage: '阶段',
+        recentHeadSource: '来源',
+        recentNoData: '暂无最近裁员记录。',
+        recentSourceLink: '查看',
         footer: '数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a>',
         yAxisName: '裁员人数',
         seriesBar: '裁员人数',
         seriesLine: '趋势线',
+        series2025: '2025年',
+        series2026: '2026年',
+        heatmapLegend: '事件数',
+        monthLabels: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
         reasons: [
             { value: 45, name: '经济不确定性与通胀' },
             { value: 30, name: 'AI转型与自动化升级' },
@@ -364,6 +479,10 @@ const companyData = {{ company_summary | tojson }};
 const industryData = {{ industry_breakdown | tojson }};
 const monthlyData = {{ monthly_trend | tojson }};
 const countryData = {{ country_breakdown | tojson }};
+const monthlyComparisonData = {{ monthly_comparison | tojson }};
+const stageHeatmapData = {{ stage_size_heatmap | tojson }};
+const layoffPctDistribution = {{ layoff_pct_distribution | tojson }};
+const recentLayoffs = {{ recent_layoffs | tojson }};
 const industryColors = ['#818cf8','#38bdf8','#c084fc','#f472b6','#34d399','#fbbf24','#fb923c','#64748b','#94a3b8','#475569'];
 
 const companyChart = initChart('companyChart');
@@ -371,6 +490,51 @@ const industryChart = initChart('industryChart');
 const monthlyChart = initChart('monthlyChart');
 const countryChart = initChart('countryChart');
 const reasonChart = initChart('reasonChart');
+const monthlyCompareChart = initChart('monthlyCompareChart');
+const percentageChart = initChart('percentageChart');
+const stageHeatmapChart = initChart('stageHeatmapChart');
+
+function formatCount(value) {
+    return value == null ? '—' : Number(value).toLocaleString();
+}
+
+function formatPct(value) {
+    if (value == null || Number.isNaN(Number(value))) return '—';
+    const pct = Number(value) * 100;
+    return Number.isInteger(pct) ? `${pct}%` : `${pct.toFixed(1)}%`;
+}
+
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+}
+
+function renderRecentLayoffs(t) {
+    const body = document.getElementById('recentLayoffsBody');
+    if (!recentLayoffs.length) {
+        body.innerHTML = `<tr><td colspan="8">${t.recentNoData}</td></tr>`;
+        return;
+    }
+
+    body.innerHTML = recentLayoffs.map(row => `
+        <tr>
+            <td>${row.date}</td>
+            <td>${row.company}</td>
+            <td>${formatCount(row.num_laid_off)}</td>
+            <td>${formatPct(row.percentage_laid_off)}</td>
+            <td>${row.industry}</td>
+            <td>${row.country}</td>
+            <td>${row.stage}</td>
+            <td>${/^https?:\/\//.test(row.source)
+                ? `<a href="${escapeHtml(row.source)}" target="_blank" rel="noopener noreferrer">${t.recentSourceLink}</a>`
+                : escapeHtml(row.source || '—')}</td>
+        </tr>
+    `).join('');
+}
 
 // ═══════════════════════════════════════════════════════
 //  Render Charts (language-aware)
@@ -555,6 +719,130 @@ function renderCharts(t) {
             }))
         }]
     });
+
+    monthlyCompareChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
+        legend: {
+            top: 0,
+            textStyle: { color: TX },
+        },
+        grid: { left: '3%', right: '4%', top: '16%', bottom: '10%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: t.monthLabels,
+            axisLabel: { color: TX },
+            axisLine: { lineStyle: { color: AX } },
+            axisTick: { show: false }
+        },
+        yAxis: {
+            type: 'value',
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v },
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } }
+        },
+        series: [
+            {
+                name: t.series2025,
+                type: 'bar',
+                data: monthlyComparisonData.map(d => d.layoffs_2025),
+                itemStyle: { color: '#38bdf8', borderRadius: [6, 6, 0, 0] }
+            },
+            {
+                name: t.series2026,
+                type: 'bar',
+                data: monthlyComparisonData.map(d => d.layoffs_2026),
+                itemStyle: { color: '#f59e0b', borderRadius: [6, 6, 0, 0] }
+            }
+        ]
+    });
+
+    percentageChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
+        grid: { left: '3%', right: '4%', top: '8%', bottom: '8%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: layoffPctDistribution.map(d => d.bucket),
+            axisLabel: { color: TX },
+            axisLine: { lineStyle: { color: AX } },
+            axisTick: { show: false }
+        },
+        yAxis: {
+            type: 'value',
+            axisLabel: { color: TX },
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } }
+        },
+        series: [{
+            type: 'bar',
+            data: layoffPctDistribution.map(d => d.event_count),
+            itemStyle: {
+                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                    { offset: 0, color: '#22c55e' },
+                    { offset: 1, color: '#14b8a6' }
+                ]),
+                borderRadius: [6, 6, 0, 0]
+            },
+            label: {
+                show: true,
+                position: 'top',
+                color: '#94a3b8',
+                formatter: p => p.value.toLocaleString()
+            }
+        }]
+    });
+
+    stageHeatmapChart.setOption({
+        tooltip: {
+            position: 'top',
+            ...TOOLTIP,
+            formatter: params => {
+                const cell = stageHeatmapData.cells[params.dataIndex];
+                return `${cell.stage}<br>${cell.size_bucket}: ${cell.event_count.toLocaleString()} ${t.heatmapLegend.toLowerCase()}`;
+            }
+        },
+        grid: { left: '10%', right: '10%', top: '10%', bottom: '12%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: stageHeatmapData.size_buckets,
+            splitArea: { show: true },
+            axisLabel: { color: TX },
+            axisLine: { lineStyle: { color: AX } },
+        },
+        yAxis: {
+            type: 'category',
+            data: stageHeatmapData.stages,
+            splitArea: { show: true },
+            axisLabel: { color: TX },
+            axisLine: { lineStyle: { color: AX } },
+        },
+        visualMap: {
+            min: 0,
+            max: Math.max(...stageHeatmapData.cells.map(c => c.event_count), 1),
+            calculable: true,
+            orient: 'horizontal',
+            left: 'center',
+            bottom: 0,
+            textStyle: { color: TX },
+        },
+        series: [{
+            name: t.heatmapLegend,
+            type: 'heatmap',
+            data: stageHeatmapData.cells.map(cell => ([
+                stageHeatmapData.size_buckets.indexOf(cell.size_bucket),
+                stageHeatmapData.stages.indexOf(cell.stage),
+                cell.event_count,
+            ])),
+            label: {
+                show: true,
+                color: '#f8fafc',
+                formatter: params => params.value[2] ? params.value[2].toLocaleString() : ''
+            },
+            emphasis: {
+                itemStyle: {
+                    shadowBlur: 10,
+                    shadowColor: 'rgba(0, 0, 0, 0.4)',
+                }
+            }
+        }]
+    });
 }
 
 // ═══════════════════════════════════════════════════════
@@ -591,12 +879,25 @@ function switchLang(lang) {
     document.getElementById('chartTitle3').textContent = t.chartTitle3;
     document.getElementById('chartTitle4').textContent = t.chartTitle4;
     document.getElementById('chartTitle5').textContent = t.chartTitle5;
+    document.getElementById('chartTitle6').textContent = t.chartTitle6;
+    document.getElementById('chartTitle7').textContent = t.chartTitle7;
+    document.getElementById('chartTitle8').textContent = t.chartTitle8;
+    document.getElementById('tableTitle1').textContent = t.tableTitle1;
+    document.getElementById('recentHeadDate').textContent = t.recentHeadDate;
+    document.getElementById('recentHeadCompany').textContent = t.recentHeadCompany;
+    document.getElementById('recentHeadLayoffs').textContent = t.recentHeadLayoffs;
+    document.getElementById('recentHeadPct').textContent = t.recentHeadPct;
+    document.getElementById('recentHeadIndustry').textContent = t.recentHeadIndustry;
+    document.getElementById('recentHeadCountry').textContent = t.recentHeadCountry;
+    document.getElementById('recentHeadStage').textContent = t.recentHeadStage;
+    document.getElementById('recentHeadSource').textContent = t.recentHeadSource;
 
     // Footer (uses innerHTML for links)
     document.getElementById('pageFooter').innerHTML = t.footer;
 
     // Re-render charts with translated labels
     renderCharts(t);
+    renderRecentLayoffs(t);
 }
 
 // ═══════════════════════════════════════════════════════
@@ -605,11 +906,30 @@ function switchLang(lang) {
 switchLang('en');
 
 window.addEventListener('resize', () => {
-    [companyChart, industryChart, monthlyChart, countryChart, reasonChart].forEach(c => c.resize());
+    [companyChart, industryChart, monthlyChart, countryChart, reasonChart, monthlyCompareChart, percentageChart, stageHeatmapChart].forEach(c => c.resize());
 });
 </script>
 </body>
 </html>"""
+
+
+LEGACY_REDIRECT_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoff Tracker</title>
+    <link rel="canonical" href="/" />
+    <meta http-equiv="refresh" content="0; url=/">
+    <script>
+        window.location.replace("/" + window.location.search + window.location.hash);
+    </script>
+</head>
+<body>
+    <p>Redirecting to <a href="/">Tech Layoff Tracker</a>...</p>
+</body>
+</html>
+"""
 
 
 def format_number(value: int | float) -> str:
@@ -644,7 +964,7 @@ def build_subtitles(stats: dict) -> tuple[str, str]:
     return subtitle_en, subtitle_zh
 
 
-def generate_chart(data_dir: str = "data/processed", output_path: str = "visualization/layoff_chart.html"):
+def generate_chart(data_dir: str = "data/processed", output_path: str = "index.html"):
     """
     Load processed JSON data and render the interactive HTML dashboard.
 
@@ -668,6 +988,10 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "visuali
     monthly_trend = load_json("monthly_trend")
     industry_breakdown = load_json("industry_breakdown")
     country_breakdown = load_json("country_breakdown")
+    monthly_comparison = load_json("monthly_comparison")
+    stage_size_heatmap = load_json("stage_size_heatmap")
+    layoff_pct_distribution = load_json("layoff_pct_distribution")
+    recent_layoffs = load_json("recent_layoffs")
     stats = load_json("stats")
     subtitle_en, subtitle_zh = build_subtitles(stats)
 
@@ -683,6 +1007,10 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "visuali
         monthly_trend=monthly_trend,
         industry_breakdown=industry_breakdown,
         country_breakdown=country_breakdown,
+        monthly_comparison=monthly_comparison,
+        stage_size_heatmap=stage_size_heatmap,
+        layoff_pct_distribution=layoff_pct_distribution,
+        recent_layoffs=recent_layoffs,
         stats=stats,
         subtitle_en=subtitle_en,
         subtitle_zh=subtitle_zh,
@@ -690,6 +1018,18 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "visuali
 
     output_path.write_text(html, encoding="utf-8")
     logger.info(f"   💾 Chart saved to: {output_path}")
+
+    # Preserve old entry points so existing links keep working after moving the
+    # dashboard to the homepage.
+    legacy_paths = [
+        Path("layoff_chart.html"),
+        Path("visualization/layoff_chart.html"),
+    ]
+    for legacy_path in legacy_paths:
+        legacy_path.parent.mkdir(parents=True, exist_ok=True)
+        legacy_path.write_text(LEGACY_REDIRECT_TEMPLATE, encoding="utf-8")
+        logger.info(f"   ↪ Legacy redirect written to: {legacy_path}")
+
     logger.info("✅ Chart generation complete.")
 
     return output_path

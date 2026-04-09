@@ -27,7 +27,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
 
     def __init__(self, *args, data_dir: Path = None, **kwargs):
         self.data_dir = data_dir or PROJECT_ROOT / "data" / "processed"
-        super().__init__(*args, directory=str(PROJECT_ROOT / "visualization"), **kwargs)
+        super().__init__(*args, directory=str(PROJECT_ROOT), **kwargs)
 
     def do_GET(self):
         self._handle_all()
@@ -84,7 +84,7 @@ def run_server(port: int = 8080):
     print("║   📊 Tech Layoff Dashboard Server                      ║")
     print("╚══════════════════════════════════════════════════════════╝")
     print("")
-    print(f"   🌐 Dashboard:  http://localhost:{port}/layoff_chart.html")
+    print(f"   🌐 Dashboard:  http://localhost:{port}/")
     print(f"   📡 API Stats:  http://localhost:{port}/api/stats")
     print(f"   ❤️  Health:     http://localhost:{port}/health")
     print("")

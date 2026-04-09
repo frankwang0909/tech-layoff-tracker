@@ -208,23 +208,23 @@
     <div class="kpi-grid">
         <div class="glass kpi-card kpi-rose">
             <div class="label" id="kpi1Label"></div>
-            <div class="value">157,020</div>
+            <div class="value">124,201</div>
             <div class="hint" id="kpi1Hint"></div>
         </div>
         <div class="glass kpi-card kpi-amber">
             <div class="label" id="kpi2Label"></div>
-            <div class="value">34,175</div>
+            <div class="value">71,182</div>
             <div class="hint" id="kpi2Hint"></div>
         </div>
         <div class="glass kpi-card kpi-sky">
             <div class="label" id="kpi3Label"></div>
-            <div class="value">34</div>
+            <div class="value">229</div>
             <div class="hint" id="kpi3Hint"></div>
         </div>
         <div class="glass kpi-card kpi-purple">
             <div class="label" id="kpi4Label"></div>
-            <div class="value">191,195</div>
-            <div class="hint">2025-01-10 – 2026-03-10</div>
+            <div class="value">195,383</div>
+            <div class="hint">2025-01-06 – 2026-04-07</div>
         </div>
     </div>
 
@@ -266,14 +266,14 @@
 const i18n = {
     en: {
         title: 'Global Tech Layoff Insights',
-        subtitle: 'Jan 2025 – Mar 2026 | Industry Restructuring & Workforce Optimization',
+        subtitle: 'Jan 2025 – Apr 2026 | Industry Restructuring & Workforce Optimization',
         badge: '🔴 LIVE DATA · Auto-scraped',
         kpi1Label: '2025 TOTAL LAYOFFS',
         kpi1Hint: 'Highest on record in tech history',
         kpi2Label: '2026 YTD LAYOFFS',
         kpi2Hint: 'Over 50% YoY increase',
         kpi3Label: 'COMPANIES AFFECTED',
-        kpi3Hint: 'Across ' + 9 + ' countries',
+        kpi3Hint: 'Across ' + 18 + ' countries',
         kpi4Label: 'TOTAL IMPACTED',
         chartTitle1: 'Top Tech Companies by Total Layoffs',
         chartTitle2: 'Layoffs by Industry',
@@ -293,14 +293,14 @@ const i18n = {
     },
     zh: {
         title: '全球科技公司裁员全景洞察',
-        subtitle: '2025年1月 – 2026年3月 ｜ 科技行业深度洗牌与结构优化分析',
+        subtitle: '2025年1月 – 2026年4月 ｜ 科技行业深度洗牌与结构优化分析',
         badge: '🔴 实时数据 · 自动爬取',
         kpi1Label: '2025年 总裁员',
         kpi1Hint: '科技史上最高纪录之一',
         kpi2Label: '2026年初至今',
         kpi2Hint: '同比增速超过 50%',
         kpi3Label: '涉及公司数量',
-        kpi3Hint: '遍布 ' + 9 + ' 个国家/地区',
+        kpi3Hint: '遍布 ' + 18 + ' 个国家/地区',
         kpi4Label: '总计受影响人数',
         chartTitle1: '各大科技巨头累计裁员人数 (Top 15)',
         chartTitle2: '裁员行业分布',
@@ -339,10 +339,10 @@ function initChart(id) {
     return echarts.init(document.getElementById(id), null, { renderer: 'canvas' });
 }
 
-const companyData = [{"company": "Amazon", "total_laid_off": 36000}, {"company": "Intel", "total_laid_off": 34000}, {"company": "Microsoft", "total_laid_off": 19200}, {"company": "Accenture", "total_laid_off": 11000}, {"company": "Panasonic", "total_laid_off": 10000}, {"company": "IBM", "total_laid_off": 9000}, {"company": "SAP", "total_laid_off": 8000}, {"company": "Dell", "total_laid_off": 6500}, {"company": "Salesforce", "total_laid_off": 6000}, {"company": "Meta", "total_laid_off": 5820}, {"company": "Cisco", "total_laid_off": 5500}, {"company": "Tesla", "total_laid_off": 5000}, {"company": "Ericsson", "total_laid_off": 4900}, {"company": "Block", "total_laid_off": 4000}, {"company": "Qualcomm", "total_laid_off": 2500}];
-const industryData = [{"industry": "Semiconductor", "total_laid_off": 41200}, {"industry": "Software", "total_laid_off": 36500}, {"industry": "Retail/Tech", "total_laid_off": 36000}, {"industry": "Consulting/IT", "total_laid_off": 11000}, {"industry": "Electronics", "total_laid_off": 10000}, {"industry": "Software/IT", "total_laid_off": 9000}, {"industry": "Social Media", "total_laid_off": 7795}, {"industry": "Fintech", "total_laid_off": 6500}, {"industry": "Hardware", "total_laid_off": 6500}, {"industry": "Networking", "total_laid_off": 5500}];
-const monthlyData = [{"month": "2025-01", "total_laid_off": 14500}, {"month": "2025-02", "total_laid_off": 18300}, {"month": "2025-03", "total_laid_off": 22000}, {"month": "2025-04", "total_laid_off": 15320}, {"month": "2025-05", "total_laid_off": 16800}, {"month": "2025-06", "total_laid_off": 14500}, {"month": "2025-07", "total_laid_off": 24000}, {"month": "2025-08", "total_laid_off": 1000}, {"month": "2025-09", "total_laid_off": 10600}, {"month": "2025-10", "total_laid_off": 14000}, {"month": "2025-11", "total_laid_off": 6000}, {"month": "2026-01", "total_laid_off": 24500}, {"month": "2026-02", "total_laid_off": 6400}, {"month": "2026-03", "total_laid_off": 3275}];
-const countryData = [{"country": "United States", "total_laid_off": 149495}, {"country": "Ireland", "total_laid_off": 11000}, {"country": "Japan", "total_laid_off": 10000}, {"country": "Germany", "total_laid_off": 8000}, {"country": "Sweden", "total_laid_off": 6400}, {"country": "Austria", "total_laid_off": 2000}, {"country": "Netherlands", "total_laid_off": 1700}, {"country": "Australia", "total_laid_off": 1600}, {"country": "United Kingdom", "total_laid_off": 1000}];
+const companyData = [{"company": "Oracle", "total_laid_off": 31094}, {"company": "Amazon", "total_laid_off": 30284}, {"company": "Intel", "total_laid_off": 27058}, {"company": "Microsoft", "total_laid_off": 15347}, {"company": "HP", "total_laid_off": 8000}, {"company": "Meta", "total_laid_off": 6000}, {"company": "Salesforce", "total_laid_off": 5385}, {"company": "Block", "total_laid_off": 4931}, {"company": "Northvolt", "total_laid_off": 2800}, {"company": "Hewlett Packard Enterprise", "total_laid_off": 2552}, {"company": "Autodesk", "total_laid_off": 2350}, {"company": "Workday", "total_laid_off": 2150}, {"company": "Synopsys", "total_laid_off": 2000}, {"company": "WiseTech", "total_laid_off": 2000}, {"company": "Atlassian", "total_laid_off": 1950}];
+const industryData = [{"industry": "Other", "total_laid_off": 56552}, {"industry": "Hardware", "total_laid_off": 40087}, {"industry": "Retail", "total_laid_off": 34097}, {"industry": "Consumer", "total_laid_off": 15469}, {"industry": "Finance", "total_laid_off": 8524}, {"industry": "Sales", "total_laid_off": 5942}, {"industry": "HR", "total_laid_off": 4695}, {"industry": "Transportation", "total_laid_off": 4584}, {"industry": "Food", "total_laid_off": 3607}, {"industry": "Energy", "total_laid_off": 3464}];
+const monthlyData = [{"month": "2025-01", "total_laid_off": 2537}, {"month": "2025-02", "total_laid_off": 18474}, {"month": "2025-03", "total_laid_off": 8834}, {"month": "2025-04", "total_laid_off": 25345}, {"month": "2025-05", "total_laid_off": 10577}, {"month": "2025-06", "total_laid_off": 1606}, {"month": "2025-07", "total_laid_off": 16648}, {"month": "2025-08", "total_laid_off": 6452}, {"month": "2025-09", "total_laid_off": 4174}, {"month": "2025-10", "total_laid_off": 19070}, {"month": "2025-11", "total_laid_off": 8932}, {"month": "2025-12", "total_laid_off": 1552}, {"month": "2026-01", "total_laid_off": 24928}, {"month": "2026-02", "total_laid_off": 11019}, {"month": "2026-03", "total_laid_off": 34800}, {"month": "2026-04", "total_laid_off": 435}];
+const countryData = [{"country": "United States", "total_laid_off": 162416}, {"country": "India", "total_laid_off": 8755}, {"country": "Israel", "total_laid_off": 4781}, {"country": "Sweden", "total_laid_off": 4615}, {"country": "Australia", "total_laid_off": 4220}, {"country": "Netherlands", "total_laid_off": 2570}, {"country": "Canada", "total_laid_off": 2491}, {"country": "Germany", "total_laid_off": 1785}, {"country": "United Kingdom", "total_laid_off": 1732}, {"country": "Brazil", "total_laid_off": 516}];
 const industryColors = ['#818cf8','#38bdf8','#c084fc','#f472b6','#34d399','#fbbf24','#fb923c','#64748b','#94a3b8','#475569'];
 
 const companyChart = initChart('companyChart');

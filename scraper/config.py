@@ -10,9 +10,15 @@ from datetime import date
 class ScraperConfig:
     """Configuration settings for the scraper."""
 
-    # Primary Airtable Embed URL
+    # Source page where layoffs.fyi embeds the current Airtable tracker.
+    LAYOFFS_FYI_PAGE_URL: str = "https://layoffs.fyi/"
+
+    # Fallback Airtable embed URL discovered from the live page on 2026-04-09.
+    # We still prefer parsing the source page first so future embed rotations
+    # do not require a code change.
     LAYOFFS_FYI_AIRTABLE_URL: str = (
-        "https://airtable.com/embed/shrqYt5kSqMzHV9R5?backgroundColor=green"
+        "https://airtable.com/embed/app1PaujS9zxVGUZ4/"
+        "shroKsHx3SdYYOzeh?backgroundColor=green&viewControls=on"
     )
 
     # Fallback: Community-maintained GitHub mirror

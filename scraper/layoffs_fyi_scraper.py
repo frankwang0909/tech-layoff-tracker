@@ -5,9 +5,9 @@ Scraper for collecting tech industry layoff data.
 
 Data Source:
   layoffs.fyi — the most widely recognized public tracker for tech layoffs.
-  The site maintains a Google Sheet that is publicly accessible. We fetch the
-  underlying CSV export directly, which is a common and respectful approach
-  used by researchers and journalists.
+  The tracker is embedded on the public site as an Airtable shared view. We
+  discover that embed dynamically, then read the shared-view payload with the
+  same access policy exposed to public visitors.
 
 Usage:
     from scraper import LayoffsScraper, ScraperConfig
@@ -16,11 +16,12 @@ Usage:
 """
 
 import io
-import csv
-import time
+import json
 import logging
+import re
+import time
 from pathlib import Path
-from datetime import datetime
+from urllib.parse import urljoin
 
 import requests
 import pandas as pd
@@ -36,9 +37,9 @@ class LayoffsScraper:
     A scraper that fetches tech layoff data from layoffs.fyi.
 
     Strategy:
-      1. Primary: Attempt to fetch the publicly exported CSV from layoffs.fyi's
-         underlying Google Sheet (the site's data is backed by a public Sheet).
-      2. Fallback: Parse the layoffs.fyi HTML page directly using BeautifulSoup.
+      1. Primary: Discover the current Airtable embed from layoffs.fyi and read
+         the shared-view data payload.
+      2. Fallback: Fetch a community-maintained CSV mirror.
       3. Final Fallback: Use offline sample data bundled with the project.
 
     Rate Limiting:
@@ -67,14 +68,14 @@ class LayoffsScraper:
 
         df = None
 
-        # Strategy 1: GitHub Mirror CSV (Most reliable snapshot)
-        logger.info("\n📡 Strategy 1: Fetching CSV from GitHub mirror...")
-        df = self._fetch_github_mirror_csv()
+        # Strategy 1: Live Airtable shared view embedded on layoffs.fyi
+        logger.info("\n📡 Strategy 1: Fetching live data from layoffs.fyi Airtable view...")
+        df = self._fetch_live_airtable_shared_view()
 
-        # Strategy 2: Parse Airtable Embed
+        # Strategy 2: Community mirror CSV
         if df is None or df.empty:
-            logger.info("\n📡 Strategy 2: Attempting to parse Airtable embed data...")
-            df = self._parse_airtable_embed()
+            logger.info("\n📡 Strategy 2: Fetching CSV from GitHub mirror...")
+            df = self._fetch_github_mirror_csv()
 
         # Strategy 3: Offline sample data
         if df is None or df.empty:
@@ -102,7 +103,191 @@ class LayoffsScraper:
         return df
 
     # ------------------------------------------------------------------ #
-    #  Strategy 1 — GitHub Mirror CSV
+    #  Strategy 1 — Live Airtable shared view
+    # ------------------------------------------------------------------ #
+    def _fetch_live_airtable_shared_view(self) -> pd.DataFrame | None:
+        """Load the currently embedded Airtable shared view and convert it to a DataFrame."""
+        try:
+            embed_url = self._discover_airtable_embed_url()
+            if not embed_url:
+                logger.warning("   ✗ Could not discover Airtable embed URL from layoffs.fyi.")
+                return None
+
+            embed_resp = self.session.get(embed_url, timeout=self.config.REQUEST_TIMEOUT)
+            embed_resp.raise_for_status()
+
+            init_data = self._extract_airtable_init_data(embed_resp.text)
+            if not init_data:
+                logger.warning("   ✗ Could not extract Airtable init data from embed page.")
+                return None
+
+            api_resp = self.session.get(
+                self._build_airtable_shared_view_api_url(init_data),
+                params=self._build_airtable_shared_view_params(init_data),
+                headers=self._build_airtable_shared_view_headers(init_data, embed_url),
+                timeout=self.config.REQUEST_TIMEOUT,
+            )
+            api_resp.raise_for_status()
+
+            payload = api_resp.json()
+            if payload.get("msg") != "SUCCESS":
+                logger.warning(f"   ✗ Airtable API returned unexpected status: {payload.get('msg')}")
+                return None
+
+            df = self._airtable_payload_to_dataframe(payload)
+            logger.info(f"   ✓ Received {len(df)} rows from Airtable shared view.")
+            return df
+
+        except Exception as e:
+            logger.warning(f"   ✗ Live Airtable fetch failed: {e}")
+            return None
+
+    def _discover_airtable_embed_url(self) -> str | None:
+        """Discover the current Airtable embed URL from the layoffs.fyi landing page."""
+        try:
+            resp = self.session.get(
+                self.config.LAYOFFS_FYI_PAGE_URL,
+                timeout=self.config.REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            for iframe in soup.find_all("iframe"):
+                src = (iframe.get("src") or "").strip()
+                if "airtable.com/embed/" in src:
+                    embed_url = urljoin(self.config.LAYOFFS_FYI_PAGE_URL, src)
+                    logger.info(f"   ✓ Found Airtable embed on layoffs.fyi: {embed_url}")
+                    return embed_url
+
+        except Exception as e:
+            logger.warning(f"   ✗ Failed to inspect layoffs.fyi page for Airtable embed: {e}")
+
+        logger.info(f"   ↪ Falling back to configured Airtable embed: {self.config.LAYOFFS_FYI_AIRTABLE_URL}")
+        return self.config.LAYOFFS_FYI_AIRTABLE_URL
+
+    def _extract_airtable_init_data(self, html: str) -> dict | None:
+        """Extract the initData bootstrap object from an Airtable embed page."""
+        match = re.search(r"window\.initData = (\{.*?\});\s*</script>", html, re.DOTALL)
+        if not match:
+            return None
+
+        init_data = json.loads(match.group(1))
+        required_keys = ["csrfToken", "pageLoadId", "sharedViewId", "accessPolicy"]
+        if not all(init_data.get(key) for key in required_keys):
+            return None
+
+        return init_data
+
+    def _build_airtable_shared_view_api_url(self, init_data: dict) -> str:
+        """Build the Airtable shared-view data endpoint URL."""
+        return f"https://airtable.com/v0.3/view/{init_data['sharedViewId']}/readSharedViewData"
+
+    def _build_airtable_shared_view_params(self, init_data: dict) -> dict[str, str]:
+        """Build query parameters for the Airtable shared-view data request."""
+        return {
+            "stringifiedObjectParams": json.dumps(
+                {"shouldUseNestedResponseFormat": True},
+                separators=(",", ":"),
+            ),
+            "requestId": f"req{int(time.time() * 1000)}",
+            "accessPolicy": init_data["accessPolicy"],
+        }
+
+    def _build_airtable_shared_view_headers(self, init_data: dict, embed_url: str) -> dict[str, str]:
+        """Build the headers required to read Airtable shared-view data."""
+        application_id = (
+            init_data.get("sharedModelParentApplicationId")
+            or init_data.get("applicationIdOfInitialPageLoadForLogging")
+        )
+        return {
+            "x-csrf-token": init_data["csrfToken"],
+            "x-airtable-application-id": application_id,
+            "x-airtable-page-load-id": init_data["pageLoadId"],
+            "X-Requested-With": "XMLHttpRequest",
+            "x-airtable-inter-service-client": "webClient",
+            "x-user-locale": "en",
+            "x-time-zone": "UTC",
+            "referer": embed_url,
+        }
+
+    def _airtable_payload_to_dataframe(self, payload: dict) -> pd.DataFrame:
+        """Convert Airtable shared-view JSON into a normalized DataFrame."""
+        table = payload.get("data", {}).get("table", {})
+        columns = table.get("columns", [])
+        rows = table.get("rows", [])
+
+        normalized_records = []
+        for row in rows:
+            cells = row.get("cellValuesByColumnId", {})
+            record = {}
+            for column in columns:
+                normalized_name = self._normalize_airtable_column_name(column["name"])
+                if not normalized_name:
+                    continue
+                record[normalized_name] = self._decode_airtable_cell_value(
+                    cells.get(column["id"]),
+                    column,
+                )
+            normalized_records.append(record)
+
+        return pd.DataFrame(normalized_records)
+
+    def _normalize_airtable_column_name(self, column_name: str) -> str | None:
+        """Map Airtable column names to this project's normalized schema."""
+        column_mapping = {
+            "Company": "company",
+            "Location HQ": "location_hq",
+            "# Laid Off": "num_laid_off",
+            "Date": "date",
+            "%": "percentage_laid_off",
+            "Industry": "industry",
+            "Source": "source",
+            "Stage": "stage",
+            "$ Raised (mm)": "funds_raised_millions",
+            "Country": "country",
+            "Date Added": "date_added",
+        }
+        return column_mapping.get(column_name)
+
+    def _decode_airtable_cell_value(self, value, column: dict):
+        """Decode select and multi-select Airtable cell values into human-readable strings."""
+        if value is None:
+            return None
+
+        column_type = column.get("type")
+        choice_lookup = self._build_airtable_choice_lookup(column)
+
+        if column_type == "select":
+            return choice_lookup.get(value, value)
+
+        if column_type == "multiSelect":
+            if not isinstance(value, list):
+                return value
+            decoded = [choice_lookup.get(choice_id, choice_id) for choice_id in value]
+            return ", ".join(decoded)
+
+        return value
+
+    def _build_airtable_choice_lookup(self, column: dict) -> dict[str, str]:
+        """Build an id -> label mapping for Airtable select-style columns."""
+        choices = (column.get("typeOptions") or {}).get("choices") or {}
+        if isinstance(choices, dict):
+            return {
+                choice_id: choice.get("name", choice_id)
+                for choice_id, choice in choices.items()
+            }
+
+        if isinstance(choices, list):
+            return {
+                choice.get("id"): choice.get("name", choice.get("id"))
+                for choice in choices
+                if choice.get("id")
+            }
+
+        return {}
+
+    # ------------------------------------------------------------------ #
+    #  Strategy 2 — GitHub Mirror CSV
     # ------------------------------------------------------------------ #
     def _fetch_github_mirror_csv(self) -> pd.DataFrame | None:
         """Fetch the CSV from a community-maintained GitHub mirror."""
@@ -119,37 +304,6 @@ class LayoffsScraper:
 
         except Exception as e:
             logger.warning(f"   ✗ GitHub mirror fetch failed: {e}")
-            return None
-
-    # ------------------------------------------------------------------ #
-    #  Strategy 2 — Parse Airtable Embed
-    # ------------------------------------------------------------------ #
-    def _parse_airtable_embed(self) -> pd.DataFrame | None:
-        """Attempt to extract data from the Airtable embed page."""
-        try:
-            resp = self.session.get(
-                self.config.LAYOFFS_FYI_AIRTABLE_URL,
-                timeout=self.config.REQUEST_TIMEOUT,
-            )
-            resp.raise_for_status()
-            
-            # Airtable embeds often store data in a JSON object within a script tag
-            import re
-            import json
-            
-            # Look for the 'accessPolicy' or 'initialState' variables in the JS
-            match = re.search(r"window\.bootstrapData\s*=\s*({.*?});", resp.text, re.DOTALL)
-            if match:
-                data = json.loads(match.group(1))
-                # This is a complex nested structure, simplify it if possible
-                # Usually under initialState -> tableModels
-                logger.info("   Found Airtable bootstrap data.")
-                # Since Airtable structure is highly dynamic, we'll try a generic extraction
-                # For this implementation, we focus on the CSV mirror first.
-                
-            return None
-        except Exception as e:
-            logger.warning(f"   ✗ Airtable parsing failed: {e}")
             return None
 
     # ------------------------------------------------------------------ #
@@ -264,7 +418,12 @@ class LayoffsScraper:
     def _filter_by_date(self, df: pd.DataFrame) -> pd.DataFrame:
         """Filter the DataFrame to the configured date range."""
         try:
-            df["date"] = pd.to_datetime(df["date"], format="mixed", dayfirst=False)
+            df["date"] = pd.to_datetime(
+                df["date"],
+                format="mixed",
+                dayfirst=False,
+                utc=True,
+            ).dt.tz_localize(None)
             mask = (
                 (df["date"] >= pd.Timestamp(self.config.START_DATE))
                 & (df["date"] <= pd.Timestamp(self.config.END_DATE))

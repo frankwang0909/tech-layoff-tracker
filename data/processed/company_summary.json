@@ -1,62 +1,62 @@
 [
   {
+    "company": "Oracle",
+    "total_laid_off": 31094
+  },
+  {
     "company": "Amazon",
-    "total_laid_off": 36000
+    "total_laid_off": 30284
   },
   {
     "company": "Intel",
-    "total_laid_off": 34000
+    "total_laid_off": 27058
   },
   {
     "company": "Microsoft",
-    "total_laid_off": 19200
+    "total_laid_off": 15347
   },
   {
-    "company": "Accenture",
-    "total_laid_off": 11000
-  },
-  {
-    "company": "Panasonic",
-    "total_laid_off": 10000
-  },
-  {
-    "company": "IBM",
-    "total_laid_off": 9000
-  },
-  {
-    "company": "SAP",
+    "company": "HP",
     "total_laid_off": 8000
   },
   {
-    "company": "Dell",
-    "total_laid_off": 6500
-  },
-  {
-    "company": "Salesforce",
+    "company": "Meta",
     "total_laid_off": 6000
   },
   {
-    "company": "Meta",
-    "total_laid_off": 5820
-  },
-  {
-    "company": "Cisco",
-    "total_laid_off": 5500
-  },
-  {
-    "company": "Tesla",
-    "total_laid_off": 5000
-  },
-  {
-    "company": "Ericsson",
-    "total_laid_off": 4900
+    "company": "Salesforce",
+    "total_laid_off": 5385
   },
   {
     "company": "Block",
-    "total_laid_off": 4000
+    "total_laid_off": 4931
   },
   {
-    "company": "Qualcomm",
-    "total_laid_off": 2500
+    "company": "Northvolt",
+    "total_laid_off": 2800
+  },
+  {
+    "company": "Hewlett Packard Enterprise",
+    "total_laid_off": 2552
+  },
+  {
+    "company": "Autodesk",
+    "total_laid_off": 2350
+  },
+  {
+    "company": "Workday",
+    "total_laid_off": 2150
+  },
+  {
+    "company": "Synopsys",
+    "total_laid_off": 2000
+  },
+  {
+    "company": "WiseTech",
+    "total_laid_off": 2000
+  },
+  {
+    "company": "Atlassian",
+    "total_laid_off": 1950
   }
 ]

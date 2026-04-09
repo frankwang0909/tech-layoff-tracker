@@ -75,7 +75,12 @@ class DataProcessor:
         df["num_laid_off"] = df["num_laid_off"].astype(int)
 
         # Parse dates
-        df["date"] = pd.to_datetime(df["date"], format="mixed", errors="coerce")
+        df["date"] = pd.to_datetime(
+            df["date"],
+            format="mixed",
+            errors="coerce",
+            utc=True,
+        ).dt.tz_localize(None)
         df = df.dropna(subset=["date"])
 
         # Extract year-month

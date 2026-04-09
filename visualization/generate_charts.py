@@ -9,6 +9,7 @@ Uses Jinja2 templating to dynamically embed data into the HTML.
 
 import json
 import logging
+from datetime import datetime
 from pathlib import Path
 
 from jinja2 import Environment
@@ -286,7 +287,7 @@ CHART_TEMPLATE = r"""<!DOCTYPE html>
 const i18n = {
     en: {
         title: 'Global Tech Layoff Insights',
-        subtitle: 'Jan 2025 – Mar 2026 | Industry Restructuring & Workforce Optimization',
+        subtitle: '{{ subtitle_en }}',
         badge: '🔴 LIVE DATA · Auto-scraped',
         kpi1Label: '2025 TOTAL LAYOFFS',
         kpi1Hint: 'Highest on record in tech history',
@@ -313,7 +314,7 @@ const i18n = {
     },
     zh: {
         title: '全球科技公司裁员全景洞察',
-        subtitle: '2025年1月 – 2026年3月 ｜ 科技行业深度洗牌与结构优化分析',
+        subtitle: '{{ subtitle_zh }}',
         badge: '🔴 实时数据 · 自动爬取',
         kpi1Label: '2025年 总裁员',
         kpi1Hint: '科技史上最高纪录之一',
@@ -619,6 +620,30 @@ def format_number(value: int | float) -> str:
         return str(value)
 
 
+def build_subtitles(stats: dict) -> tuple[str, str]:
+    """Build localized subtitle strings from the actual processed date range."""
+    date_range = stats.get("date_range", {})
+
+    try:
+        start_dt = datetime.fromisoformat(date_range["start"])
+        end_dt = datetime.fromisoformat(date_range["end"])
+    except (KeyError, TypeError, ValueError):
+        return (
+            "Latest available range | Industry Restructuring & Workforce Optimization",
+            "最新可用数据范围 ｜ 科技行业深度洗牌与结构优化分析",
+        )
+
+    subtitle_en = (
+        f"{start_dt.strftime('%b %Y')} – {end_dt.strftime('%b %Y')} | "
+        "Industry Restructuring & Workforce Optimization"
+    )
+    subtitle_zh = (
+        f"{start_dt.year}年{start_dt.month}月 – {end_dt.year}年{end_dt.month}月 ｜ "
+        "科技行业深度洗牌与结构优化分析"
+    )
+    return subtitle_en, subtitle_zh
+
+
 def generate_chart(data_dir: str = "data/processed", output_path: str = "visualization/layoff_chart.html"):
     """
     Load processed JSON data and render the interactive HTML dashboard.
@@ -644,6 +669,7 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "visuali
     industry_breakdown = load_json("industry_breakdown")
     country_breakdown = load_json("country_breakdown")
     stats = load_json("stats")
+    subtitle_en, subtitle_zh = build_subtitles(stats)
 
     logger.info(f"   📂 Loaded data: {len(company_summary)} companies, {len(monthly_trend)} months")
 
@@ -658,6 +684,8 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "visuali
         industry_breakdown=industry_breakdown,
         country_breakdown=country_breakdown,
         stats=stats,
+        subtitle_en=subtitle_en,
+        subtitle_zh=subtitle_zh,
     )
 
     output_path.write_text(html, encoding="utf-8")

@@ -1,58 +1,66 @@
 [
   {
     "month": "2025-01",
-    "total_laid_off": 14500
+    "total_laid_off": 2537
   },
   {
     "month": "2025-02",
-    "total_laid_off": 18300
+    "total_laid_off": 18474
   },
   {
     "month": "2025-03",
-    "total_laid_off": 22000
+    "total_laid_off": 8834
   },
   {
     "month": "2025-04",
-    "total_laid_off": 15320
+    "total_laid_off": 25345
   },
   {
     "month": "2025-05",
-    "total_laid_off": 16800
+    "total_laid_off": 10577
   },
   {
     "month": "2025-06",
-    "total_laid_off": 14500
+    "total_laid_off": 1606
   },
   {
     "month": "2025-07",
-    "total_laid_off": 24000
+    "total_laid_off": 16648
   },
   {
     "month": "2025-08",
-    "total_laid_off": 1000
+    "total_laid_off": 6452
   },
   {
     "month": "2025-09",
-    "total_laid_off": 10600
+    "total_laid_off": 4174
   },
   {
     "month": "2025-10",
-    "total_laid_off": 14000
+    "total_laid_off": 19070
   },
   {
     "month": "2025-11",
-    "total_laid_off": 6000
+    "total_laid_off": 8932
+  },
+  {
+    "month": "2025-12",
+    "total_laid_off": 1552
   },
   {
     "month": "2026-01",
-    "total_laid_off": 24500
+    "total_laid_off": 24928
   },
   {
     "month": "2026-02",
-    "total_laid_off": 6400
+    "total_laid_off": 11019
   },
   {
     "month": "2026-03",
-    "total_laid_off": 3275
+    "total_laid_off": 34800
+  },
+  {
+    "month": "2026-04",
+    "total_laid_off": 435
   }
 ]

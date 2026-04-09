@@ -1,38 +1,42 @@
 [
   {
     "country": "United States",
-    "total_laid_off": 149495
+    "total_laid_off": 162416
   },
   {
-    "country": "Ireland",
-    "total_laid_off": 11000
+    "country": "India",
+    "total_laid_off": 8755
   },
   {
-    "country": "Japan",
-    "total_laid_off": 10000
-  },
-  {
-    "country": "Germany",
-    "total_laid_off": 8000
+    "country": "Israel",
+    "total_laid_off": 4781
   },
   {
     "country": "Sweden",
-    "total_laid_off": 6400
-  },
-  {
-    "country": "Austria",
-    "total_laid_off": 2000
-  },
-  {
-    "country": "Netherlands",
-    "total_laid_off": 1700
+    "total_laid_off": 4615
   },
   {
     "country": "Australia",
-    "total_laid_off": 1600
+    "total_laid_off": 4220
+  },
+  {
+    "country": "Netherlands",
+    "total_laid_off": 2570
+  },
+  {
+    "country": "Canada",
+    "total_laid_off": 2491
+  },
+  {
+    "country": "Germany",
+    "total_laid_off": 1785
   },
   {
     "country": "United Kingdom",
-    "total_laid_off": 1000
+    "total_laid_off": 1732
+  },
+  {
+    "country": "Brazil",
+    "total_laid_off": 516
   }
 ]

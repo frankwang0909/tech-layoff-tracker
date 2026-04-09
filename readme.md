@@ -9,7 +9,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![ECharts](https://img.shields.io/badge/ECharts-5.x-AA344D?style=for-the-badge)](https://echarts.apache.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](Dockerfile)
-[![GitHub Actions](https://img.shields.io/badge/CI%2FCD-Daily_Auto--Update-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](.github/workflows/daily_update.yml)
+[![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Pages_Deploy-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](.github/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 <br>
@@ -49,9 +49,9 @@
 
 | Feature | Description |
 |---|---|
-| 🕷️ **Web Scraper** | Multi-strategy scraper with Google Sheet CSV export, HTML parsing fallback, and offline sample data |
+| 🕷️ **Web Scraper** | Multi-strategy scraper with live Airtable shared-view extraction, CSV mirror fallback, and offline sample data |
 | 🧹 **Data Processing** | Pandas-based pipeline that cleans, normalizes, and aggregates raw data into analysis-ready JSON |
-| 📊 **Interactive Dashboard** | Glassmorphism-styled ECharts dashboard with animated gradients and responsive layout |
+| 📊 **Interactive Dashboard** | Glassmorphism-styled ECharts dashboard with animated gradients, responsive layout, and dynamic date-range subtitles |
 | 🚀 **One-Command Pipeline** | `python main.py` runs the complete scrape → process → visualize workflow |
 | 🐳 **Docker Ready** | Multi-stage Dockerfile + Compose — `docker compose up` for instant deployment |
 | 🔄 **Offline-Capable** | Built-in curated dataset ensures the project works even without network access |
@@ -104,27 +104,27 @@ python server.py --port 3000    # Serve on custom port
 
 ---
 
-## ⚙️ CI/CD: Daily Auto-Update
+## ⚙️ CI/CD: GitHub Pages Deploy
 
-This project uses **GitHub Actions** to automatically update the data every day:
+This project uses **GitHub Actions** to deploy the generated static site to **GitHub Pages**:
 
 | Setting | Value |
 |---|---|
-| ⏰ **Schedule** | Daily at 08:00 UTC |
-| 🔄 **Trigger** | Also runs on push to `main` and manual dispatch |
-| 📊 **Pipeline** | Scrape → Process → Generate Chart |
-| 💾 **Data** | Auto-committed back to the repo |
-| 🌐 **Deploy** | Dashboard deployed to GitHub Pages |
+| 🔄 **Trigger** | Push to `main` and manual dispatch |
+| 📦 **Artifact** | Entire repository root (including `index.html` and `visualization/`) |
+| 🌐 **Deploy** | GitHub Pages with optional custom domain |
+| 🧭 **Entry Point** | Root `index.html` redirects to `visualization/layoff_chart.html` |
 
 ### Setup Instructions
 
 1. Push this repo to GitHub
 2. Go to **Settings → Pages → Source** and select **GitHub Actions**
-3. The workflow will run automatically — your dashboard will be live at:
+3. Push a commit to `main` or run **Actions → Deploy Static Redirects → Run workflow**
+4. Your dashboard will be live at:
    ```
    https://frankwang0909.github.io/tech-layoff-tracker/ 
    ```
-4. To trigger manually: **Actions → Daily Layoff Data Update → Run workflow**
+   If you configure a custom domain, the root path should resolve through `index.html`.
 
 
 ## 🏗️ Architecture
@@ -164,8 +164,8 @@ tech-layoff-tracker/
 │   SCRAPE     │────▶│   PROCESS    │────▶│  VISUALIZE   │
 │              │     │              │     │              │
 │ layoffs.fyi  │     │  pandas      │     │  Jinja2 +    │
-│ Google Sheet │     │  aggregation │     │  ECharts     │
-│ BeautifulSoup│     │  → JSON      │     │  → HTML      │
+│ Airtable API │     │  aggregation │     │  ECharts     │
+│ + fallbacks  │     │  → JSON      │     │  → HTML      │
 └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
@@ -177,8 +177,8 @@ The scraper uses a **3-tier strategy** for maximum reliability:
 
 | Priority | Strategy | Description |
 |---|---|---|
-| 1️⃣ | Google Sheet CSV | Direct download from the public Google Sheet backing layoffs.fyi |
-| 2️⃣ | HTML Parsing | BeautifulSoup fallback — parse tables and embedded JSON from the page |
+| 1️⃣ | Live Airtable Shared View | Discover the current Airtable iframe from `layoffs.fyi`, then read the shared-view payload exposed to public visitors |
+| 2️⃣ | GitHub CSV Mirror | Fallback snapshot from a community-maintained CSV mirror |
 | 3️⃣ | Offline Dataset | Curated sample data from verified public reports (always works) |
 
 **Ethical scraping practices:**
@@ -186,26 +186,17 @@ The scraper uses a **3-tier strategy** for maximum reliability:
 - Proper `User-Agent` header
 - Configurable retry with backoff
 - Only targets publicly available data
+- Preserves current embed rotations by discovering the Airtable URL from the live page first
+- Normalizes Airtable UTC timestamps before applying the configured date filter
 
 ---
 
-## 📊 Key Findings
+## 📊 Dataset Notes
 
-### 2025 — Record-Breaking Year
-- **~245,000** tech workers laid off globally
-- **69.7%** concentrated in the United States
-- Top impacted: Amazon (36K), Intel (34K), Microsoft (19K)
-
-### 2026 (Jan–Mar) — Accelerating Trend
-- **>45,000** laid off in the first ~2.5 months
-- **51% increase** year-over-year
-- Projected to exceed 2025 if pace continues
-
-### Root Causes
-- 🤖 **AI & Automation** (~30%) — Structural workforce shift
-- 📉 **Economic Uncertainty** (~45%) — Inflation, high rates
-- 🦠 **Post-Pandemic Correction** (~15%) — Overhiring correction
-- 🔄 **Business Restructuring** (~10%) — Strategic pivots (e.g., Meta: VR → AI)
+- The dashboard subtitle is generated from `data/processed/stats.json`, so the displayed range tracks the latest processed snapshot instead of a hard-coded month.
+- When the live Airtable source is reachable, `python main.py` now captures current layoffs.fyi records, including post-March 2026 entries.
+- If the live source fails or returns an unusable filtered result, the pipeline falls back to the CSV mirror and then to the bundled offline sample dataset.
+- The current snapshot metrics can always be read from `data/processed/stats.json`.
 
 ---
 

@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Layoff Tracker 2025-2026</title>
-    <meta name="description" content="Interactive dashboard tracking global tech industry layoffs from Jan 2025 to present, powered by Python scrapers and ECharts.">
+    <title>Tech Layoff Tracker 2025-2026 | Global Tech Industry Layoffs Dashboard (layoffs.fyi data)</title>
+    <meta name="description" content="Interactive tech layoff tracker and dashboard for 2025-2026. Real-time data on global tech industry layoffs, startup downsizing, and corporate restructuring. Alternative to layoffs.fyi with deep insights and visualization.">
+    <meta name="keywords" content="tech layoffs 2025, tech layoffs 2026, layoffs.fyi tracker, global tech layoff list, startup layoff tracker, silicon valley layoffs, industry restructuring, workforce optimization, tech job market trend, software engineer layoffs">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tech.debugcanada.com/">
+    <meta property="og:title" content="Global Tech Layoff Tracker 2025-2026 | Industry Insights">
+    <meta property="og:description" content="Track live tech layoffs across the globe. Interactive charts, industry breakdowns, and company-specific data for 2025 and 2026.">
+    <meta property="og:image" content="https://tech.debugcanada.com/docs/images/dashboard_en.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tech.debugcanada.com/">
+    <meta property="twitter:title" content="Tech Layoff Tracker 2025-2026 | Global Dashboard">
+    <meta property="twitter:description" content="Real-time tracking of tech industry layoffs. Data-driven insights into global workforce trends.">
+    <meta property="twitter:image" content="https://tech.debugcanada.com/docs/images/dashboard_en.png">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E96QTV0M7W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-E96QTV0M7W');
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -12,13 +37,17 @@
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+
         body {
             background: #0a0f1e;
             color: #e2e8f0;
             font-family: 'Inter', system-ui, -apple-system, sans-serif;
             min-height: 100vh;
             padding: 2rem 1rem;
-            overflow-x: hidden;
         }
 
         body::before {
@@ -39,7 +68,7 @@
             50% { transform: scale(1.1) rotate(3deg); }
         }
 
-        .container { max-width: 1280px; margin: 0 auto; }
+        .container { max-width: 1280px; margin: 0 auto; width: 100%; }
 
         header {
             text-align: center;
@@ -47,7 +76,7 @@
             position: relative;
         }
         header h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-size: clamp(1.75rem, 5vw, 3.5rem);
             font-weight: 900;
             background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc, #f472b6);
             background-size: 200% 200%;
@@ -177,6 +206,7 @@
             overflow-x: auto;
             border: 1px solid rgba(255, 255, 255, 0.06);
             border-radius: 1rem;
+            width: 100%;
         }
         .recent-table {
             width: 100%;
@@ -200,6 +230,7 @@
         }
         .recent-table td {
             color: #94a3b8;
+            word-break: break-word;
         }
         .recent-table tr:nth-child(even) td {
             background: rgba(15, 23, 42, 0.35);
@@ -222,11 +253,29 @@
         footer a { color: #818cf8; text-decoration: none; }
         footer a:hover { text-decoration: underline; }
 
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
             body { padding: 1rem 0.5rem; }
-            .chart-container { height: 300px; }
-            .kpi-card .value { font-size: 2rem; }
-            .lang-toggle { position: static; margin: 0 auto 1rem; }
+            .container { padding: 0 0.5rem; }
+            header { padding: 2rem 0 1.5rem; }
+            header h1 { font-size: 1.75rem; }
+            .lang-toggle { position: static; margin: 0 auto 1.5rem; width: fit-content; }
+            
+            .kpi-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; margin: 1rem 0; }
+            .kpi-card { padding: 1rem; }
+            .kpi-card .value { font-size: 1.5rem; }
+            .kpi-card .label { font-size: 0.6rem; }
+            
+            .chart-grid-2 { grid-template-columns: 1fr; }
+            .chart-panel { padding: 1rem; border-radius: 1rem; }
+            .chart-container { height: 320px; }
+            .chart-container-tall { height: 400px; }
+            
+            .recent-table th, .recent-table td { padding: 0.6rem 0.5rem; font-size: 0.75rem; }
+        }
+
+        @media (max-width: 480px) {
+            .kpi-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
         }
     </style>
 </head>
@@ -307,12 +356,6 @@
         </div>
     </div>
     <div class="chart-grid chart-grid-1">
-        <div class="glass chart-panel">
-            <h2 id="chartTitle8"></h2>
-            <div id="stageHeatmapChart" class="chart-container chart-container-tall"></div>
-        </div>
-    </div>
-    <div class="chart-grid chart-grid-1">
         <div class="glass chart-panel table-panel">
             <h2 id="tableTitle1"></h2>
             <div class="table-wrap">
@@ -332,6 +375,12 @@
                     <tbody id="recentLayoffsBody"></tbody>
                 </table>
             </div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-1">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle8"></h2>
+            <div id="stageHeatmapChart" class="chart-container chart-container-tall"></div>
         </div>
     </div>
 
@@ -373,7 +422,7 @@ const i18n = {
         recentHeadSource: 'Source',
         recentNoData: 'No recent layoff records available.',
         recentSourceLink: 'Open',
-        footer: 'Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>Disclaimer: Some figures are estimates or planned reductions<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a>',
+        footer: 'Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>Disclaimer: Some figures are estimates or planned reductions<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
         yAxisName: 'Layoffs',
         seriesBar: 'Layoffs',
         seriesLine: 'Trend',
@@ -418,7 +467,7 @@ const i18n = {
         recentHeadSource: '来源',
         recentNoData: '暂无最近裁员记录。',
         recentSourceLink: '查看',
-        footer: '数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a>',
+        footer: '数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
         yAxisName: '裁员人数',
         seriesBar: '裁员人数',
         seriesLine: '趋势线',
@@ -452,6 +501,11 @@ const reasonColors = ['#64748b', '#818cf8', '#38bdf8', '#c084fc'];
 
 function initChart(id) {
     return echarts.init(document.getElementById(id), null, { renderer: 'canvas' });
+}
+
+// Helper to determine if we are on a small screen
+function isMobile() {
+    return window.innerWidth <= 768;
 }
 
 const companyData = [{"company": "Oracle", "total_laid_off": 31094}, {"company": "Amazon", "total_laid_off": 30284}, {"company": "Intel", "total_laid_off": 27058}, {"company": "Microsoft", "total_laid_off": 15347}, {"company": "HP", "total_laid_off": 8000}, {"company": "Meta", "total_laid_off": 6000}, {"company": "Salesforce", "total_laid_off": 5385}, {"company": "Block", "total_laid_off": 4931}, {"company": "Northvolt", "total_laid_off": 2800}, {"company": "Hewlett Packard Enterprise", "total_laid_off": 2552}, {"company": "Autodesk", "total_laid_off": 2350}, {"company": "Workday", "total_laid_off": 2150}, {"company": "Synopsys", "total_laid_off": 2000}, {"company": "WiseTech", "total_laid_off": 2000}, {"company": "Atlassian", "total_laid_off": 1950}];
@@ -519,18 +573,20 @@ function renderRecentLayoffs(t) {
 //  Render Charts (language-aware)
 // ═══════════════════════════════════════════════════════
 function renderCharts(t) {
+    const mobile = isMobile();
+
     companyChart.setOption({
         tooltip: { trigger: 'axis', axisPointer: {type: 'shadow'}, ...TOOLTIP },
-        grid: { left: '2%', right: '12%', top: '4%', bottom: '4%', containLabel: true },
+        grid: { left: '2%', right: mobile ? '15%' : '12%', top: '4%', bottom: '4%', containLabel: true },
         xAxis: {
             type: 'value',
             splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v }
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 }
         },
         yAxis: {
             type: 'category',
             data: companyData.map(d => d.company).reverse(),
-            axisLabel: { color: TX, fontWeight: 600 },
+            axisLabel: { color: TX, fontWeight: 600, fontSize: mobile ? 10 : 12 },
             axisLine: { show: false },
             axisTick: { show: false }
         },
@@ -545,7 +601,7 @@ function renderCharts(t) {
                 borderRadius: [0, 6, 6, 0]
             },
             label: {
-                show: true, position: 'right', color: '#94a3b8', fontSize: 12,
+                show: true, position: 'right', color: '#94a3b8', fontSize: mobile ? 10 : 12,
                 formatter: p => p.value.toLocaleString()
             },
             emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(56,189,248,0.3)' } }
@@ -555,19 +611,22 @@ function renderCharts(t) {
     industryChart.setOption({
         tooltip: { trigger: 'item', ...TOOLTIP, formatter: '{b}: {c} ({d}%)' },
         legend: {
-            orient: 'vertical', right: 10, top: 'middle',
-            textStyle: { color: TX, fontSize: 11 },
-            itemWidth: 12, itemHeight: 12, itemGap: 8
+            orient: mobile ? 'horizontal' : 'vertical',
+            right: mobile ? 'center' : 10,
+            bottom: mobile ? 0 : 'auto',
+            top: mobile ? 'auto' : 'middle',
+            textStyle: { color: TX, fontSize: 10 },
+            itemWidth: 10, itemHeight: 10, itemGap: 8
         },
         series: [{
             type: 'pie',
-            radius: ['40%', '72%'],
-            center: ['40%', '50%'],
+            radius: mobile ? ['35%', '60%'] : ['40%', '72%'],
+            center: mobile ? ['50%', '40%'] : ['40%', '50%'],
             avoidLabelOverlap: true,
             itemStyle: { borderRadius: 8, borderColor: '#0a0f1e', borderWidth: 3 },
             label: { show: false },
             emphasis: {
-                label: { show: true, fontSize: 16, fontWeight: 700, color: '#f8fafc' },
+                label: { show: true, fontSize: mobile ? 12 : 16, fontWeight: 700, color: '#f8fafc' },
                 scaleSize: 6
             },
             data: industryData.map((d, i) => ({
@@ -580,19 +639,19 @@ function renderCharts(t) {
 
     monthlyChart.setOption({
         tooltip: { trigger: 'axis', axisPointer: { type: 'cross', label: { backgroundColor: '#1e293b' } }, ...TOOLTIP },
-        grid: { left: '3%', right: '4%', top: '12%', bottom: '10%', containLabel: true },
+        grid: { left: '3%', right: '4%', top: '12%', bottom: mobile ? '15%' : '10%', containLabel: true },
         xAxis: {
             type: 'category',
             data: monthlyData.map(d => d.month),
-            axisLabel: { color: TX, rotate: 30 },
+            axisLabel: { color: TX, rotate: 45, fontSize: mobile ? 9 : 11 },
             axisLine: { lineStyle: { color: AX } },
             axisTick: { show: false }
         },
         yAxis: {
             type: 'value',
             name: t.yAxisName,
-            nameTextStyle: { color: TX },
-            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v },
+            nameTextStyle: { color: TX, fontSize: mobile ? 10 : 12 },
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 },
             splitLine: { lineStyle: { color: AX, type: 'dashed' } }
         },
         series: [
@@ -631,16 +690,16 @@ function renderCharts(t) {
 
     countryChart.setOption({
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
-        grid: { left: '3%', right: '10%', top: '4%', bottom: '4%', containLabel: true },
+        grid: { left: '3%', right: '12%', top: '4%', bottom: '4%', containLabel: true },
         xAxis: {
             type: 'value',
             splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v }
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 }
         },
         yAxis: {
             type: 'category',
             data: countryData.map(d => d.country).reverse(),
-            axisLabel: { color: TX, fontWeight: 500 },
+            axisLabel: { color: TX, fontWeight: 500, fontSize: mobile ? 10 : 12 },
             axisLine: { show: false },
             axisTick: { show: false }
         },
@@ -655,7 +714,7 @@ function renderCharts(t) {
                 borderRadius: [0, 6, 6, 0]
             },
             label: {
-                show: true, position: 'right', color: '#94a3b8', fontSize: 12,
+                show: true, position: 'right', color: '#94a3b8', fontSize: mobile ? 10 : 12,
                 formatter: p => p.value.toLocaleString()
             }
         }]
@@ -664,32 +723,27 @@ function renderCharts(t) {
     reasonChart.setOption({
         tooltip: { trigger: 'item', ...TOOLTIP, formatter: '{b}: {d}%' },
         legend: {
-            orient: 'horizontal', right: 10, top: 10,
-            textStyle: { color: TX, fontSize: 11 },
-            itemWidth: 12, itemHeight: 12, itemGap: 12
+            orient: 'horizontal',
+            bottom: 0,
+            left: 'center',
+            textStyle: { color: TX, fontSize: 10 },
+            itemWidth: 10, itemHeight: 10, itemGap: 10
         },
         series: [{
             type: 'pie',
-            radius: ['40%', '72%'],
-            center: ['38%', '50%'],
+            radius: mobile ? ['35%', '60%'] : ['40%', '72%'],
+            center: mobile ? ['50%', '40%'] : ['38%', '50%'],
             itemStyle: { borderRadius: 8, borderColor: '#0a0f1e', borderWidth: 3 },
             label: {
-                show: true,
+                show: !mobile,
                 position: 'outside',
                 formatter: '{b}\n{d}%',
                 color: '#cbd5e1',
-                fontSize: 12,
-                fontWeight: 500,
-                lineHeight: 18
-            },
-            labelLine: {
-                show: true,
-                length: 15,
-                length2: 10,
-                lineStyle: { color: '#475569', width: 1.5 }
+                fontSize: 11,
+                fontWeight: 500
             },
             emphasis: {
-                label: { show: true, fontSize: 16, fontWeight: 700, color: '#f8fafc' },
+                label: { show: true, fontSize: mobile ? 13 : 16, fontWeight: 700, color: '#f8fafc' },
                 scaleSize: 6
             },
             data: t.reasons.map((r, i) => ({
@@ -703,19 +757,20 @@ function renderCharts(t) {
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
         legend: {
             top: 0,
-            textStyle: { color: TX },
+            textStyle: { color: TX, fontSize: mobile ? 10 : 12 },
+            itemWidth: 12, itemHeight: 12
         },
-        grid: { left: '3%', right: '4%', top: '16%', bottom: '10%', containLabel: true },
+        grid: { left: '3%', right: '4%', top: '16%', bottom: mobile ? '10%' : '10%', containLabel: true },
         xAxis: {
             type: 'category',
             data: t.monthLabels,
-            axisLabel: { color: TX },
+            axisLabel: { color: TX, fontSize: mobile ? 9 : 11 },
             axisLine: { lineStyle: { color: AX } },
             axisTick: { show: false }
         },
         yAxis: {
             type: 'value',
-            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v },
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 },
             splitLine: { lineStyle: { color: AX, type: 'dashed' } }
         },
         series: [
@@ -723,30 +778,30 @@ function renderCharts(t) {
                 name: t.series2025,
                 type: 'bar',
                 data: monthlyComparisonData.map(d => d.layoffs_2025),
-                itemStyle: { color: '#38bdf8', borderRadius: [6, 6, 0, 0] }
+                itemStyle: { color: '#38bdf8', borderRadius: [4, 4, 0, 0] }
             },
             {
                 name: t.series2026,
                 type: 'bar',
                 data: monthlyComparisonData.map(d => d.layoffs_2026),
-                itemStyle: { color: '#f59e0b', borderRadius: [6, 6, 0, 0] }
+                itemStyle: { color: '#f59e0b', borderRadius: [4, 4, 0, 0] }
             }
         ]
     });
 
     percentageChart.setOption({
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
-        grid: { left: '3%', right: '4%', top: '8%', bottom: '8%', containLabel: true },
+        grid: { left: '3%', right: '4%', top: '10%', bottom: '8%', containLabel: true },
         xAxis: {
             type: 'category',
             data: layoffPctDistribution.map(d => d.bucket),
-            axisLabel: { color: TX },
+            axisLabel: { color: TX, fontSize: mobile ? 10 : 12 },
             axisLine: { lineStyle: { color: AX } },
             axisTick: { show: false }
         },
         yAxis: {
             type: 'value',
-            axisLabel: { color: TX },
+            axisLabel: { color: TX, fontSize: mobile ? 10 : 12 },
             splitLine: { lineStyle: { color: AX, type: 'dashed' } }
         },
         series: [{
@@ -763,6 +818,7 @@ function renderCharts(t) {
                 show: true,
                 position: 'top',
                 color: '#94a3b8',
+                fontSize: mobile ? 10 : 12,
                 formatter: p => p.value.toLocaleString()
             }
         }]
@@ -777,19 +833,19 @@ function renderCharts(t) {
                 return `${cell.stage}<br>${cell.size_bucket}: ${cell.event_count.toLocaleString()} ${t.heatmapLegend.toLowerCase()}`;
             }
         },
-        grid: { left: '10%', right: '10%', top: '10%', bottom: '12%', containLabel: true },
+        grid: { left: '3%', right: '3%', top: '10%', bottom: '15%', containLabel: true },
         xAxis: {
             type: 'category',
             data: stageHeatmapData.size_buckets,
             splitArea: { show: true },
-            axisLabel: { color: TX },
+            axisLabel: { color: TX, fontSize: mobile ? 9 : 11, rotate: mobile ? 30 : 0 },
             axisLine: { lineStyle: { color: AX } },
         },
         yAxis: {
             type: 'category',
             data: stageHeatmapData.stages,
             splitArea: { show: true },
-            axisLabel: { color: TX },
+            axisLabel: { color: TX, fontSize: mobile ? 9 : 11 },
             axisLine: { lineStyle: { color: AX } },
         },
         visualMap: {
@@ -799,7 +855,9 @@ function renderCharts(t) {
             orient: 'horizontal',
             left: 'center',
             bottom: 0,
-            textStyle: { color: TX },
+            itemWidth: mobile ? 10 : 20,
+            itemHeight: mobile ? 100 : 140,
+            textStyle: { color: TX, fontSize: 10 },
         },
         series: [{
             name: t.heatmapLegend,
@@ -812,6 +870,7 @@ function renderCharts(t) {
             label: {
                 show: true,
                 color: '#f8fafc',
+                fontSize: mobile ? 9 : 11,
                 formatter: params => params.value[2] ? params.value[2].toLocaleString() : ''
             },
             emphasis: {

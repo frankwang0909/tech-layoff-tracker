@@ -11,6 +11,16 @@
   },
   {
     "date": "2026-04-15",
+    "company": "Productboard",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.3,
+    "industry": "Product",
+    "country": "United States",
+    "stage": "Series D",
+    "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+  },
+  {
+    "date": "2026-04-15",
     "company": "Snap",
     "num_laid_off": 1000,
     "percentage_laid_off": 0.16,
@@ -28,6 +38,46 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+  },
+  {
+    "date": "2026-04-13",
+    "company": "StarkWare",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
+    "country": "Israel",
+    "stage": "Series D",
+    "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+  },
+  {
+    "date": "2026-04-13",
+    "company": "Eventbrite",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+  },
+  {
+    "date": "2026-04-09",
+    "company": "Cars.com",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.11,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
+  },
+  {
+    "date": "2026-04-09",
+    "company": "Pepper Pay",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
   },
   {
     "date": "2026-04-07",
@@ -50,73 +100,23 @@
     "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
   },
   {
-    "date": "2026-04-02",
-    "company": "Meta",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
-  },
-  {
-    "date": "2026-03-31",
-    "company": "Oracle",
-    "num_laid_off": 30000,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-  },
-  {
-    "date": "2026-03-31",
-    "company": "Monzo",
-    "num_laid_off": 50,
-    "percentage_laid_off": null,
+    "date": "2026-04-05",
+    "company": "Bolt",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.33,
     "industry": "Finance",
-    "country": "United Kingdom",
-    "stage": "Series F",
-    "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
-  },
-  {
-    "date": "2026-03-27",
-    "company": "Enpal",
-    "num_laid_off": 100,
-    "percentage_laid_off": null,
-    "industry": "Energy",
-    "country": "Germany",
+    "country": "United States",
     "stage": "Series E",
-    "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+    "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
   },
   {
-    "date": "2026-03-24",
-    "company": "Epic Games",
-    "num_laid_off": 1000,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
-  },
-  {
-    "date": "2026-03-24",
-    "company": "Zendesk",
-    "num_laid_off": 100,
-    "percentage_laid_off": null,
-    "industry": "Support",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "Internal memo"
-  },
-  {
-    "date": "2026-03-23",
-    "company": "Spotify",
-    "num_laid_off": 15,
-    "percentage_laid_off": null,
-    "industry": "Media",
-    "country": "Sweden",
-    "stage": "Post-IPO",
-    "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+    "date": "2026-04-03",
+    "company": "NeuroPixel.AI",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Retail",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
   }
 ]

@@ -79,8 +79,6 @@ class DataProcessor:
 
         # Ensure numeric
         df["num_laid_off"] = pd.to_numeric(df["num_laid_off"], errors="coerce")
-        df = df.dropna(subset=["num_laid_off"])
-        df["num_laid_off"] = df["num_laid_off"].astype(int)
 
         # Parse dates
         df["date"] = pd.to_datetime(
@@ -115,6 +113,13 @@ class DataProcessor:
 
         # Standardize company names
         df["company"] = df["company"].str.strip()
+
+        # Keep all date-valid records for the recent table (num_laid_off may be missing)
+        self.df_all = df.reset_index(drop=True)
+
+        # Drop rows without layoff counts for aggregation
+        df = df.dropna(subset=["num_laid_off"])
+        df["num_laid_off"] = df["num_laid_off"].astype(int)
 
         self.df = df.reset_index(drop=True)
         logger.info(f"   🧹 Cleaned: {len(self.df)} valid records.")
@@ -280,18 +285,24 @@ class DataProcessor:
         return result
 
     def _recent_layoffs(self) -> list[dict]:
-        """Return latest layoff records for homepage table."""
+        """Return latest layoff records for homepage table.
+
+        Uses df_all (includes entries without layoff counts) so that the most
+        recently reported companies appear even before layoffs.fyi fills in the
+        exact headcount.
+        """
         recent = (
-            self.df.sort_values(["date", "num_laid_off"], ascending=[False, False])
+            self.df_all.sort_values("date", ascending=False)
             .head(12)
         )
         result = []
         for _, row in recent.iterrows():
             percentage = row.get("percentage_laid_off")
+            num = row.get("num_laid_off")
             result.append({
                 "date": str(row["date"].date()),
                 "company": row["company"],
-                "num_laid_off": int(row["num_laid_off"]),
+                "num_laid_off": int(num) if pd.notna(num) else None,
                 "percentage_laid_off": float(percentage) if pd.notna(percentage) else None,
                 "industry": row["industry"],
                 "country": row["country"],

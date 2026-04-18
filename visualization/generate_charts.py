@@ -46,15 +46,15 @@ CHART_TEMPLATE = r"""<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Layoff Tracker 2025-2026 | Global Tech Industry Layoffs Dashboard (layoffs.fyi data)</title>
-    <meta name="description" content="Interactive tech layoff tracker and dashboard for 2025-2026. Real-time data on global tech industry layoffs, startup downsizing, and corporate restructuring. Alternative to layoffs.fyi with deep insights and visualization.">
-    <meta name="keywords" content="tech layoffs 2025, tech layoffs 2026, layoffs.fyi tracker, global tech layoff list, startup layoff tracker, silicon valley layoffs, industry restructuring, workforce optimization, tech job market trend, software engineer layoffs">
-    
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+    <meta name="keywords" content="{{ seo_keywords }}">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tech.debugcanada.com/">
-    <meta property="og:title" content="Global Tech Layoff Tracker 2025-2026 | Industry Insights">
-    <meta property="og:description" content="Track live tech layoffs across the globe. Interactive charts, industry breakdowns, and company-specific data for 2025 and 2026.">
+    <meta property="og:title" content="{{ og_title }}">
+    <meta property="og:description" content="{{ og_description }}">
     <meta property="og:image" content="https://tech.debugcanada.com/docs/images/dashboard_en.png">
 
     <!-- Twitter -->
@@ -1062,17 +1062,18 @@ TREND_REPORT_TEMPLATE = r"""<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Layoffs Trend Report 2025-2026 | Industry, Country and Company Analysis</title>
-    <meta name="description" content="Explore global tech layoff trends for 2025-2026 with monthly charts, industry breakdowns, country comparisons, company rankings, funding-stage analysis, and data-driven insights.">
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+    <meta name="keywords" content="{{ seo_keywords }}">
     <link rel="canonical" href="https://tech.debugcanada.com/trend-report.html">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://tech.debugcanada.com/trend-report.html">
-    <meta property="og:title" content="Tech Layoffs Trend Report 2025-2026">
-    <meta property="og:description" content="Monthly trend, industry, country, company, funding-stage, and layoff intensity analysis based on public tech layoff records.">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
     <meta property="og:image" content="https://tech.debugcanada.com/docs/images/dashboard_charts.png">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Tech Layoffs Trend Report 2025-2026">
-    <meta property="twitter:description" content="Data-driven analysis of global tech layoffs by month, industry, country, company, and funding stage.">
+    <meta property="twitter:title" content="{{ seo_title }}">
+    <meta property="twitter:description" content="{{ seo_description }}">
     <meta property="twitter:image" content="https://tech.debugcanada.com/docs/images/dashboard_charts.png">
     <link rel="alternate" type="application/json" href="/ai-summary.json" title="AI-readable tech layoffs summary">
     <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM guidance for Tech Layoff Tracker">
@@ -1518,13 +1519,13 @@ REPORTS_INDEX_TEMPLATE = r"""<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Layoffs Reports Archive | Daily, Weekly, Monthly and Quarterly Reports</title>
-    <meta name="description" content="Browse tech layoff trend reports, including daily, weekly, monthly, and quarterly analysis archives.">
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
     <link rel="canonical" href="https://tech.debugcanada.com/reports/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tech.debugcanada.com/reports/">
-    <meta property="og:title" content="Tech Layoffs Reports Archive">
-    <meta property="og:description" content="Browse the latest tech layoffs trend reports and analysis archive.">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
     <script type="application/ld+json">{{ breadcrumb_jsonld | tojson }}</script>
     <style>
         * { box-sizing: border-box; }
@@ -1685,6 +1686,7 @@ PERIOD_REPORT_TEMPLATE = r"""<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} | Tech Layoff Tracker</title>
     <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ seo_keywords }}">
     <link rel="canonical" href="https://tech.debugcanada.com{{ report.canonical_url }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://tech.debugcanada.com{{ report.canonical_url }}">
@@ -2040,6 +2042,7 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | Tech Layoff Tracker</title>
     <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ seo_keywords }}">
     <link rel="canonical" href="https://tech.debugcanada.com{{ page.canonical_url }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://tech.debugcanada.com{{ page.canonical_url }}">
@@ -2512,6 +2515,30 @@ def build_report_context(
         ],
     }
 
+    _start_yr = start_date[:4] if start_date else "2025"
+    _end_yr = end_date[:4] if end_date else "2026"
+    trend_seo_title = (
+        f"Tech Layoffs Trend Report {_start_yr}–{_end_yr} | "
+        f"{format_number(total)} Layoffs, {format_number(companies)} Companies"
+    )
+    trend_seo_description = (
+        f"{format_number(total)} reported tech layoffs from {start_date} to {end_date} "
+        f"across {format_number(companies)} companies. Monthly trends, industry and country "
+        f"analysis, company rankings, and funding-stage breakdown — updated daily."
+    )
+    trend_seo_keywords = ", ".join(filter(None, [
+        f"tech layoffs {_start_yr}",
+        f"tech layoffs {_end_yr}",
+        f"{top_company['company']} layoffs" if top_company.get("company", "N/A") != "N/A" else None,
+        f"{top_industry['industry']} layoffs" if top_industry.get("industry", "N/A") != "N/A" else None,
+        f"{top_country['country']} tech layoffs" if top_country.get("country", "N/A") != "N/A" else None,
+        f"{peak_month['month']} tech layoffs",
+        "layoffs.fyi tracker",
+        "tech layoff trend report",
+        "global tech layoffs analysis",
+        "tech industry workforce reduction",
+    ]))
+
     return {
         "company_summary": company_summary,
         "monthly_trend": monthly_trend,
@@ -2522,6 +2549,9 @@ def build_report_context(
         "recent_layoffs": recent_layoffs,
         "stats": stats,
         "executive_summary": executive_summary,
+        "seo_title": trend_seo_title,
+        "seo_description": trend_seo_description,
+        "seo_keywords": trend_seo_keywords,
         "answer_engine_summary": answer_engine_summary,
         "ai_facts": ai_facts,
         "insights": insights,
@@ -2607,8 +2637,21 @@ def write_report_pages(env: Environment, context: dict, report_data_dir: Path) -
     reports_dir = Path("reports")
     reports_dir.mkdir(parents=True, exist_ok=True)
     reports_index_path = reports_dir / "index.html"
+    _rdr = context["stats"].get("date_range", {})
+    _rs, _re = _rdr.get("start", ""), _rdr.get("end", "")
+    _rs_yr, _re_yr = (_rs[:4] if _rs else "2025"), (_re[:4] if _re else "2026")
+    reports_seo_title = (
+        f"Tech Layoffs Reports Archive {_rs_yr}–{_re_yr} | "
+        f"Weekly, Monthly & Quarterly Analysis"
+    )
+    reports_seo_description = (
+        f"Browse weekly, monthly, quarterly, and yearly tech layoff reports from {_rs} to {_re}. "
+        f"Track trends by company, industry, and country with data-driven analysis."
+    )
     reports_index_html = env.from_string(REPORTS_INDEX_TEMPLATE).render(
         stats=context["stats"],
+        seo_title=reports_seo_title,
+        seo_description=reports_seo_description,
         latest_weekly=latest_weekly,
         latest_monthly=latest_monthly,
         latest_quarterly=latest_quarterly,
@@ -2728,10 +2771,22 @@ def build_topic_page_context(page: dict) -> dict:
             },
         ],
     }
+    _end_yr = page["date_range"]["end"][:4] if page["date_range"].get("end") else ""
+    _tco_list = [x["company"] for x in page.get("charts", {}).get("company_top", [])[:2]]
+    seo_keywords = ", ".join(filter(None, [
+        f"{page['name']} tech layoffs",
+        f"{page['name']} tech layoffs {_end_yr}" if _end_yr else None,
+        *[f"{c} layoffs" for c in _tco_list],
+        f"tech layoffs by {topic_label.lower()}",
+        "layoffs.fyi tracker",
+        "tech layoff statistics",
+        "tech workforce reduction",
+    ]))
     return {
         "page": page,
         "topic_label": topic_label,
         "description": description,
+        "seo_keywords": seo_keywords,
         "article_jsonld": article_jsonld,
         "breadcrumb_jsonld": breadcrumb_jsonld,
         "COMMON_FOOTER_EN": COMMON_FOOTER_EN,
@@ -2836,6 +2891,23 @@ def build_period_page_context(
         f"{format_number(kpis['country_count'])} countries or regions."
     )
     comparison_summary = build_comparison_summary(report)
+    _charts = report.get("charts", {})
+    _top_co = (_charts.get("company_top") or [{}])[0]
+    _top_ind = next(
+        (x for x in _charts.get("industry_top", [])
+         if x.get("industry") not in (None, "", "Other", "Unknown")), {}
+    )
+    _top_cty = (_charts.get("country_top") or [{}])[0]
+    seo_keywords = ", ".join(filter(None, [
+        f"tech layoffs {period}",
+        f"{report_type_label.lower()} tech layoff report",
+        f"{_top_co.get('company', '')} layoffs" if _top_co.get("company") else None,
+        f"{_top_ind.get('industry', '')} layoffs" if _top_ind.get("industry") else None,
+        f"{_top_cty.get('country', '')} tech layoffs" if _top_cty.get("country") else None,
+        "layoffs.fyi tracker",
+        "tech layoff statistics",
+        "tech workforce reduction",
+    ]))
     site_url = "https://tech.debugcanada.com"
     article_jsonld = {
         "@context": "https://schema.org",
@@ -2883,6 +2955,7 @@ def build_period_page_context(
         "report": report,
         "title": title,
         "description": description,
+        "seo_keywords": seo_keywords,
         "summary": summary,
         "comparison_summary": comparison_summary,
         "report_type_label": report_type_label,
@@ -3116,6 +3189,49 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "index.h
     env.filters["format_pct_change"] = format_pct_change
     template = env.from_string(CHART_TEMPLATE)
 
+    # Dynamic SEO for homepage
+    _dr = stats.get("date_range", {})
+    _start, _end = _dr.get("start", ""), _dr.get("end", "")
+    _start_yr, _end_yr = (_start[:4] if _start else "2025"), (_end[:4] if _end else "2026")
+    _total = stats.get("total_laid_off", 0)
+    _companies = stats.get("num_companies", 0)
+    _countries = stats.get("num_countries", 0)
+    _top_co = company_summary[0]["company"] if company_summary else ""
+    _top_ind = next(
+        (x["industry"] for x in industry_breakdown
+         if x.get("industry") not in (None, "", "Other", "Unknown")), ""
+    )
+    _top_cty = country_breakdown[0]["country"] if country_breakdown else ""
+    home_seo_title = (
+        f"Tech Layoff Tracker {_start_yr}–{_end_yr} | "
+        f"{format_number(_total)} Reported Layoffs"
+    )
+    home_seo_description = (
+        f"Track {format_number(_total)} reported tech layoffs across "
+        f"{format_number(_companies)} companies and {_countries} countries, "
+        f"from {_start} to {_end}. Updated daily with interactive charts, "
+        f"industry breakdowns, and company rankings."
+    )
+    home_seo_keywords = ", ".join(filter(None, [
+        f"tech layoffs {_start_yr}",
+        f"tech layoffs {_end_yr}",
+        f"{_top_co} layoffs" if _top_co else None,
+        f"{_top_ind} industry layoffs" if _top_ind else None,
+        f"{_top_cty} tech layoffs" if _top_cty else None,
+        "layoffs.fyi tracker",
+        "layoffs.fyi alternative",
+        "global tech layoff tracker",
+        "startup layoffs",
+        "software engineer layoffs",
+        "tech job cuts",
+        "tech workforce reduction",
+    ]))
+    home_og_title = f"Tech Layoff Tracker {_start_yr}–{_end_yr} | {format_number(_total)} Layoffs"
+    home_og_description = (
+        f"Track {format_number(_total)} reported tech layoffs from {_start} to {_end}. "
+        f"Interactive charts, industry breakdowns, and company rankings."
+    )
+
     html = template.render(
         company_summary=company_summary,
         monthly_trend=monthly_trend,
@@ -3128,6 +3244,11 @@ def generate_chart(data_dir: str = "data/processed", output_path: str = "index.h
         stats=stats,
         subtitle_en=subtitle_en,
         subtitle_zh=subtitle_zh,
+        seo_title=home_seo_title,
+        seo_description=home_seo_description,
+        seo_keywords=home_seo_keywords,
+        og_title=home_og_title,
+        og_description=home_og_description,
         COMMON_FOOTER_EN=COMMON_FOOTER_EN,
         COMMON_FOOTER_ZH=COMMON_FOOTER_ZH,
     )

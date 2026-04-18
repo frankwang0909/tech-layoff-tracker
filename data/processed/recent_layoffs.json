@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-16",
+    "company": "Shutterfly",
+    "num_laid_off": 80,
+    "percentage_laid_off": null,
+    "industry": "Manufacturing",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+  },
+  {
+    "date": "2026-04-15",
+    "company": "Snap",
+    "num_laid_off": 1000,
+    "percentage_laid_off": 0.16,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+  },
+  {
+    "date": "2026-04-15",
+    "company": "UKG",
+    "num_laid_off": 950,
+    "percentage_laid_off": null,
+    "industry": "HR",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+  },
+  {
     "date": "2026-04-07",
     "company": "GoPro",
     "num_laid_off": 145,
@@ -88,35 +118,5 @@
     "country": "Sweden",
     "stage": "Post-IPO",
     "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
-  },
-  {
-    "date": "2026-03-13",
-    "company": "Stone",
-    "num_laid_off": 400,
-    "percentage_laid_off": 0.03,
-    "industry": "Finance",
-    "country": "Brazil",
-    "stage": "Post-IPO",
-    "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
-  },
-  {
-    "date": "2026-03-11",
-    "company": "Atlassian",
-    "num_laid_off": 1600,
-    "percentage_laid_off": 0.1,
-    "industry": "Other",
-    "country": "Australia",
-    "stage": "Post-IPO",
-    "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
-  },
-  {
-    "date": "2026-03-10",
-    "company": "InvestCloud",
-    "num_laid_off": 150,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Private Equity",
-    "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
   }
 ]

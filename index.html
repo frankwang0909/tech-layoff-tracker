@@ -1,1083 +1,559 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>
-			Tech Layoff Tracker 2025-2026 | Global Tech Industry Layoffs Dashboard
-			(layoffs.fyi data)
-		</title>
-		<meta
-			name="description"
-			content="Interactive tech layoff tracker and dashboard for 2025-2026. Real-time data on global tech industry layoffs, startup downsizing, and corporate restructuring. Alternative to layoffs.fyi with deep insights and visualization."
-		/>
-		<meta
-			name="keywords"
-			content="tech layoffs 2025, tech layoffs 2026, layoffs.fyi tracker, global tech layoff list, startup layoff tracker, silicon valley layoffs, industry restructuring, workforce optimization, tech job market trend, software engineer layoffs"
-		/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoff Tracker 2025-2026 | Global Tech Industry Layoffs Dashboard (layoffs.fyi data)</title>
+    <meta name="description" content="Interactive tech layoff tracker and dashboard for 2025-2026. Real-time data on global tech industry layoffs, startup downsizing, and corporate restructuring. Alternative to layoffs.fyi with deep insights and visualization.">
+    <meta name="keywords" content="tech layoffs 2025, tech layoffs 2026, layoffs.fyi tracker, global tech layoff list, startup layoff tracker, silicon valley layoffs, industry restructuring, workforce optimization, tech job market trend, software engineer layoffs">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tech.debugcanada.com/">
+    <meta property="og:title" content="Global Tech Layoff Tracker 2025-2026 | Industry Insights">
+    <meta property="og:description" content="Track live tech layoffs across the globe. Interactive charts, industry breakdowns, and company-specific data for 2025 and 2026.">
+    <meta property="og:image" content="https://tech.debugcanada.com/docs/images/dashboard_en.png">
 
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://tech.debugcanada.com/" />
-		<meta
-			property="og:title"
-			content="Global Tech Layoff Tracker 2025-2026 | Industry Insights"
-		/>
-		<meta
-			property="og:description"
-			content="Track live tech layoffs across the globe. Interactive charts, industry breakdowns, and company-specific data for 2025 and 2026."
-		/>
-		<meta
-			property="og:image"
-			content="https://tech.debugcanada.com/docs/images/dashboard_en.png"
-		/>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tech.debugcanada.com/">
+    <meta property="twitter:title" content="Tech Layoff Tracker 2025-2026 | Global Dashboard">
+    <meta property="twitter:description" content="Real-time tracking of tech industry layoffs. Data-driven insights into global workforce trends.">
+    <meta property="twitter:image" content="https://tech.debugcanada.com/docs/images/dashboard_en.png">
 
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://tech.debugcanada.com/" />
-		<meta
-			property="twitter:title"
-			content="Tech Layoff Tracker 2025-2026 | Global Dashboard"
-		/>
-		<meta
-			property="twitter:description"
-			content="Real-time tracking of tech industry layoffs. Data-driven insights into global workforce trends."
-		/>
-		<meta
-			property="twitter:image"
-			content="https://tech.debugcanada.com/docs/images/dashboard_en.png"
-		/>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-60H1FN74DN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-60H1FN74DN');
+    </script>
 
-		<!-- Google tag (gtag.js) -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-60H1FN74DN"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', 'G-60H1FN74DN');
-		</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-			rel="stylesheet"
-		/>
-		<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-		<style>
-			*,
-			*::before,
-			*::after {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-			}
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
 
-			html,
-			body {
-				overflow-x: hidden;
-				width: 100%;
-			}
+        body {
+            background: #0a0f1e;
+            color: #e2e8f0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
 
-			body {
-				background: #0a0f1e;
-				color: #e2e8f0;
-				font-family:
-					'Inter',
-					system-ui,
-					-apple-system,
-					sans-serif;
-				min-height: 100vh;
-				padding: 2rem 1rem;
-			}
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 20% 80%, rgba(56, 189, 248, 0.05) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(129, 140, 252, 0.05) 0%, transparent 50%),
+                        radial-gradient(circle at 50% 50%, rgba(192, 132, 252, 0.03) 0%, transparent 50%);
+            animation: bgPulse 15s ease-in-out infinite;
+            z-index: -1;
+        }
+        @keyframes bgPulse {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(3deg); }
+        }
 
-			body::before {
-				content: '';
-				position: fixed;
-				top: -50%;
-				left: -50%;
-				width: 200%;
-				height: 200%;
-				background:
-					radial-gradient(
-						circle at 20% 80%,
-						rgba(56, 189, 248, 0.05) 0%,
-						transparent 50%
-					),
-					radial-gradient(
-						circle at 80% 20%,
-						rgba(129, 140, 252, 0.05) 0%,
-						transparent 50%
-					),
-					radial-gradient(
-						circle at 50% 50%,
-						rgba(192, 132, 252, 0.03) 0%,
-						transparent 50%
-					);
-				animation: bgPulse 15s ease-in-out infinite;
-				z-index: -1;
-			}
-			@keyframes bgPulse {
-				0%,
-				100% {
-					transform: scale(1) rotate(0deg);
-				}
-				50% {
-					transform: scale(1.1) rotate(3deg);
-				}
-			}
+        .container { max-width: 1280px; margin: 0 auto; width: 100%; }
 
-			.container {
-				max-width: 1280px;
-				margin: 0 auto;
-				width: 100%;
-			}
+        header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            position: relative;
+        }
+        header h1 {
+            font-size: clamp(1.75rem, 5vw, 3.5rem);
+            font-weight: 900;
+            background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc, #f472b6);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradientShift 5s ease infinite;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        header .subtitle {
+            color: #64748b;
+            font-size: 1.1rem;
+            margin-top: 0.75rem;
+            font-weight: 300;
+        }
+        header .badge {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.35rem 1rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            background: rgba(244, 63, 94, 0.15);
+            color: #fb7185;
+            border: 1px solid rgba(244, 63, 94, 0.3);
+        }
 
-			header {
-				text-align: center;
-				padding: 3rem 0 2rem;
-				position: relative;
-			}
-			header h1 {
-				font-size: clamp(1.75rem, 5vw, 3.5rem);
-				font-weight: 900;
-				background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc, #f472b6);
-				background-size: 200% 200%;
-				-webkit-background-clip: text;
-				background-clip: text;
-				color: transparent;
-				animation: gradientShift 5s ease infinite;
-				letter-spacing: -0.02em;
-				line-height: 1.2;
-			}
-			@keyframes gradientShift {
-				0%,
-				100% {
-					background-position: 0% 50%;
-				}
-				50% {
-					background-position: 100% 50%;
-				}
-			}
-			header .subtitle {
-				color: #64748b;
-				font-size: 1.1rem;
-				margin-top: 0.75rem;
-				font-weight: 300;
-			}
-			header .badge {
-				display: inline-block;
-				margin-top: 1rem;
-				padding: 0.35rem 1rem;
-				border-radius: 999px;
-				font-size: 0.75rem;
-				font-weight: 600;
-				letter-spacing: 0.05em;
-				text-transform: uppercase;
-				background: rgba(244, 63, 94, 0.15);
-				color: #fb7185;
-				border: 1px solid rgba(244, 63, 94, 0.3);
-			}
+        /* Language Toggle */
+        .lang-toggle {
+            position: absolute;
+            top: 1.5rem;
+            right: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 999px;
+            padding: 0.3rem;
+            cursor: pointer;
+            user-select: none;
+            transition: box-shadow 0.3s ease;
+        }
+        .lang-toggle:hover {
+            box-shadow: 0 0 20px rgba(129, 140, 252, 0.2);
+        }
+        .lang-btn {
+            padding: 0.4rem 0.85rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #64748b;
+            transition: all 0.3s ease;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            letter-spacing: 0.03em;
+        }
+        .lang-btn.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
 
-			/* Language Toggle */
-			.lang-toggle {
-				position: absolute;
-				top: 1.5rem;
-				right: 0;
-				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-				background: rgba(15, 23, 42, 0.7);
-				backdrop-filter: blur(12px);
-				border: 1px solid rgba(255, 255, 255, 0.1);
-				border-radius: 999px;
-				padding: 0.3rem;
-				cursor: pointer;
-				user-select: none;
-				transition: box-shadow 0.3s ease;
-			}
-			.lang-toggle:hover {
-				box-shadow: 0 0 20px rgba(129, 140, 252, 0.2);
-			}
-			.lang-btn {
-				padding: 0.4rem 0.85rem;
-				border-radius: 999px;
-				font-size: 0.75rem;
-				font-weight: 600;
-				color: #64748b;
-				transition: all 0.3s ease;
-				border: none;
-				background: transparent;
-				cursor: pointer;
-				letter-spacing: 0.03em;
-			}
-			.lang-btn.active {
-				background: linear-gradient(135deg, #818cf8, #c084fc);
-				color: #fff;
-				box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
-			}
+        .glass {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 1.25rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .glass:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        }
 
-			.glass {
-				background: rgba(15, 23, 42, 0.6);
-				backdrop-filter: blur(20px);
-				-webkit-backdrop-filter: blur(20px);
-				border: 1px solid rgba(255, 255, 255, 0.06);
-				border-radius: 1.25rem;
-				box-shadow:
-					0 8px 32px rgba(0, 0, 0, 0.4),
-					inset 0 1px 0 rgba(255, 255, 255, 0.05);
-				transition:
-					transform 0.3s ease,
-					box-shadow 0.3s ease;
-			}
-			.glass:hover {
-				transform: translateY(-2px);
-				box-shadow:
-					0 12px 40px rgba(0, 0, 0, 0.5),
-					inset 0 1px 0 rgba(255, 255, 255, 0.08);
-			}
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.25rem;
+            margin: 2rem 0;
+        }
+        .kpi-card { padding: 1.75rem; text-align: center; }
+        .kpi-card .label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #64748b;
+            margin-bottom: 0.5rem;
+        }
+        .kpi-card .value { font-size: 2.75rem; font-weight: 800; line-height: 1; }
+        .kpi-card .hint { font-size: 0.7rem; color: #475569; margin-top: 0.5rem; }
+        .kpi-rose .value { color: #f43f5e; }
+        .kpi-amber .value { color: #f59e0b; }
+        .kpi-sky .value { color: #38bdf8; }
+        .kpi-purple .value { color: #a78bfa; }
 
-			.kpi-grid {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-				gap: 1.25rem;
-				margin: 2rem 0;
-			}
-			.kpi-card {
-				padding: 1.75rem;
-				text-align: center;
-			}
-			.kpi-card .label {
-				font-size: 0.7rem;
-				text-transform: uppercase;
-				letter-spacing: 0.12em;
-				color: #64748b;
-				margin-bottom: 0.5rem;
-			}
-			.kpi-card .value {
-				font-size: 2.75rem;
-				font-weight: 800;
-				line-height: 1;
-			}
-			.kpi-card .hint {
-				font-size: 0.7rem;
-				color: #475569;
-				margin-top: 0.5rem;
-			}
-			.kpi-rose .value {
-				color: #f43f5e;
-			}
-			.kpi-amber .value {
-				color: #f59e0b;
-			}
-			.kpi-sky .value {
-				color: #38bdf8;
-			}
-			.kpi-purple .value {
-				color: #a78bfa;
-			}
+        .chart-grid { display: grid; gap: 1.25rem; margin: 1.25rem 0; }
+        .chart-grid-2 { grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+        .chart-grid-1 { grid-template-columns: 1fr; }
+        .chart-panel { padding: 1.5rem; }
+        .chart-panel h2 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #cbd5e1;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            border-left: 3px solid #818cf8;
+        }
+        .chart-container { width: 100%; height: 420px; }
+        .chart-container-tall { height: 500px; }
 
-			.chart-grid {
-				display: grid;
-				gap: 1.25rem;
-				margin: 1.25rem 0;
-			}
-			.chart-grid-2 {
-				grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-			}
-			.chart-grid-1 {
-				grid-template-columns: 1fr;
-			}
-			.chart-panel {
-				padding: 1.5rem;
-			}
-			.chart-panel h2 {
-				font-size: 1.05rem;
-				font-weight: 600;
-				color: #cbd5e1;
-				margin-bottom: 1rem;
-				padding-left: 0.5rem;
-				border-left: 3px solid #818cf8;
-			}
-			.chart-container {
-				width: 100%;
-				height: 420px;
-			}
-			.chart-container-tall {
-				height: 500px;
-			}
+        .table-panel { overflow: hidden; }
+        .table-wrap {
+            overflow-x: auto;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 1rem;
+            width: 100%;
+        }
+        .recent-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 860px;
+        }
+        .recent-table th,
+        .recent-table td {
+            padding: 0.85rem 0.9rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 0.85rem;
+        }
+        .recent-table th {
+            color: #cbd5e1;
+            font-weight: 700;
+            background: rgba(15, 23, 42, 0.92);
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .recent-table td {
+            color: #94a3b8;
+            word-break: break-word;
+        }
+        .recent-table tr:nth-child(even) td {
+            background: rgba(15, 23, 42, 0.35);
+        }
+        .recent-table a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        .recent-table a:hover {
+            text-decoration: underline;
+        }
 
-			.table-panel {
-				overflow: hidden;
-			}
-			.table-wrap {
-				overflow-x: auto;
-				border: 1px solid rgba(255, 255, 255, 0.06);
-				border-radius: 1rem;
-				width: 100%;
-			}
-			.recent-table {
-				width: 100%;
-				border-collapse: collapse;
-				min-width: 860px;
-			}
-			.recent-table th,
-			.recent-table td {
-				padding: 0.85rem 0.9rem;
-				text-align: left;
-				border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-				font-size: 0.85rem;
-			}
-			.recent-table th {
-				color: #cbd5e1;
-				font-weight: 700;
-				background: rgba(15, 23, 42, 0.92);
-				position: sticky;
-				top: 0;
-				z-index: 1;
-			}
-			.recent-table td {
-				color: #94a3b8;
-				word-break: break-word;
-			}
-			.recent-table tr:nth-child(even) td {
-				background: rgba(15, 23, 42, 0.35);
-			}
-			.recent-table a {
-				color: #38bdf8;
-				text-decoration: none;
-			}
-			.recent-table a:hover {
-				text-decoration: underline;
-			}
+        footer {
+            text-align: center;
+            padding: 3rem 0 1rem;
+            color: #475569;
+            font-size: 0.75rem;
+            line-height: 1.8;
+        }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
 
-			footer {
-				text-align: center;
-				padding: 3rem 0 1rem;
-				color: #475569;
-				font-size: 0.75rem;
-				line-height: 1.8;
-			}
-			footer a {
-				color: #818cf8;
-				text-decoration: none;
-			}
-			footer a:hover {
-				text-decoration: underline;
-			}
+        @media (max-width: 768px) {
+            body { padding: 1rem 0.5rem; }
+            .container { padding: 0 0.5rem; }
+            header { padding: 2rem 0 1.5rem; }
+            header h1 { font-size: 1.75rem; }
+            .lang-toggle { position: static; margin: 0 auto 1.5rem; width: fit-content; }
+            
+            .kpi-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; margin: 1rem 0; }
+            .kpi-card { padding: 1rem; }
+            .kpi-card .value { font-size: 1.5rem; }
+            .kpi-card .label { font-size: 0.6rem; }
+            
+            .chart-grid-2 { grid-template-columns: 1fr; }
+            .chart-panel { padding: 1rem; border-radius: 1rem; }
+            .chart-container { height: 320px; }
+            .chart-container-tall { height: 400px; }
+            
+            .recent-table th, .recent-table td { padding: 0.6rem 0.5rem; font-size: 0.75rem; }
+        }
 
-			@media (max-width: 768px) {
-				body {
-					padding: 1rem 0.5rem;
-				}
-				.container {
-					padding: 0 0.5rem;
-				}
-				header {
-					padding: 2rem 0 1.5rem;
-				}
-				header h1 {
-					font-size: 1.75rem;
-				}
-				.lang-toggle {
-					position: static;
-					margin: 0 auto 1.5rem;
-					width: fit-content;
-				}
+        @media (max-width: 480px) {
+            .kpi-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
 
-				.kpi-grid {
-					grid-template-columns: 1fr 1fr;
-					gap: 0.75rem;
-					margin: 1rem 0;
-				}
-				.kpi-card {
-					padding: 1rem;
-				}
-				.kpi-card .value {
-					font-size: 1.5rem;
-				}
-				.kpi-card .label {
-					font-size: 0.6rem;
-				}
+<div class="container">
+    <header>
+        <!-- Language Toggle -->
+        <div class="lang-toggle" id="langToggle">
+            <button class="lang-btn active" id="btnEN" onclick="switchLang('en')">EN</button>
+            <button class="lang-btn" id="btnCN" onclick="switchLang('zh')">中文</button>
+        </div>
 
-				.chart-grid-2 {
-					grid-template-columns: 1fr;
-				}
-				.chart-panel {
-					padding: 1rem;
-					border-radius: 1rem;
-				}
-				.chart-container {
-					height: 320px;
-				}
-				.chart-container-tall {
-					height: 400px;
-				}
+        <h1 id="pageTitle"></h1>
+        <p class="subtitle" id="pageSubtitle"></p>
+        <span class="badge" id="pageBadge"></span>
+    </header>
 
-				.recent-table th,
-				.recent-table td {
-					padding: 0.6rem 0.5rem;
-					font-size: 0.75rem;
-				}
-			}
+    <!-- KPI Cards -->
+    <div class="kpi-grid">
+        <div class="glass kpi-card kpi-rose">
+            <div class="label" id="kpi1Label"></div>
+            <div class="value">124,201</div>
+            <div class="hint" id="kpi1Hint"></div>
+        </div>
+        <div class="glass kpi-card kpi-amber">
+            <div class="label" id="kpi2Label"></div>
+            <div class="value">73,212</div>
+            <div class="hint" id="kpi2Hint"></div>
+        </div>
+        <div class="glass kpi-card kpi-sky">
+            <div class="label" id="kpi3Label"></div>
+            <div class="value">231</div>
+            <div class="hint" id="kpi3Hint"></div>
+        </div>
+        <div class="glass kpi-card kpi-purple">
+            <div class="label" id="kpi4Label"></div>
+            <div class="value">197,413</div>
+            <div class="hint">2025-01-06 – 2026-04-16</div>
+        </div>
+    </div>
 
-			@media (max-width: 480px) {
-				.kpi-grid {
-					grid-template-columns: 1fr;
-				}
-				header h1 {
-					font-size: 1.5rem;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<!-- Language Toggle -->
-				<div class="lang-toggle" id="langToggle">
-					<button class="lang-btn active" id="btnEN" onclick="switchLang('en')">
-						EN
-					</button>
-					<button class="lang-btn" id="btnCN" onclick="switchLang('zh')">
-						中文
-					</button>
-				</div>
+    <!-- Charts -->
+    <div class="chart-grid chart-grid-2">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle1"></h2>
+            <div id="companyChart" class="chart-container"></div>
+        </div>
+        <div class="glass chart-panel">
+            <h2 id="chartTitle2"></h2>
+            <div id="industryChart" class="chart-container"></div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-1">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle3"></h2>
+            <div id="monthlyChart" class="chart-container"></div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-2">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle4"></h2>
+            <div id="countryChart" class="chart-container"></div>
+        </div>
+        <div class="glass chart-panel">
+            <h2 id="chartTitle5"></h2>
+            <div id="reasonChart" class="chart-container"></div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-2">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle6"></h2>
+            <div id="monthlyCompareChart" class="chart-container"></div>
+        </div>
+        <div class="glass chart-panel">
+            <h2 id="chartTitle7"></h2>
+            <div id="percentageChart" class="chart-container"></div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-1">
+        <div class="glass chart-panel table-panel">
+            <h2 id="tableTitle1"></h2>
+            <div class="table-wrap">
+                <table class="recent-table">
+                    <thead>
+                        <tr>
+                            <th id="recentHeadDate"></th>
+                            <th id="recentHeadCompany"></th>
+                            <th id="recentHeadLayoffs"></th>
+                            <th id="recentHeadPct"></th>
+                            <th id="recentHeadIndustry"></th>
+                            <th id="recentHeadCountry"></th>
+                            <th id="recentHeadStage"></th>
+                            <th id="recentHeadSource"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="recentLayoffsBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="chart-grid chart-grid-1">
+        <div class="glass chart-panel">
+            <h2 id="chartTitle8"></h2>
+            <div id="stageHeatmapChart" class="chart-container chart-container-tall"></div>
+        </div>
+    </div>
 
-				<h1 id="pageTitle"></h1>
-				<p class="subtitle" id="pageSubtitle"></p>
-				<span class="badge" id="pageBadge"></span>
-			</header>
+    <footer id="pageFooter"></footer>
+</div>
 
-			<!-- KPI Cards -->
-			<div class="kpi-grid">
-				<div class="glass kpi-card kpi-rose">
-					<div class="label" id="kpi1Label"></div>
-					<div class="value">124,201</div>
-					<div class="hint" id="kpi1Hint"></div>
-				</div>
-				<div class="glass kpi-card kpi-amber">
-					<div class="label" id="kpi2Label"></div>
-					<div class="value">71,182</div>
-					<div class="hint" id="kpi2Hint"></div>
-				</div>
-				<div class="glass kpi-card kpi-sky">
-					<div class="label" id="kpi3Label"></div>
-					<div class="value">229</div>
-					<div class="hint" id="kpi3Hint"></div>
-				</div>
-				<div class="glass kpi-card kpi-purple">
-					<div class="label" id="kpi4Label"></div>
-					<div class="value">195,383</div>
-					<div class="hint">2025-01-06 – 2026-04-07</div>
-				</div>
-			</div>
+<script>
+// ═══════════════════════════════════════════════════════
+//  i18n Translation Dictionary
+// ═══════════════════════════════════════════════════════
+const i18n = {
+    en: {
+        title: 'Global Tech Layoff Insights',
+        subtitle: 'Jan 2025 – Apr 2026 | Industry Restructuring & Workforce Optimization',
+        badge: '🔴 LIVE DATA · Auto-scraped',
+        kpi1Label: '2025 TOTAL LAYOFFS',
+        kpi1Hint: 'Highest on record in tech history',
+        kpi2Label: '2026 YTD LAYOFFS',
+        kpi2Hint: 'Over 50% YoY increase',
+        kpi3Label: 'COMPANIES AFFECTED',
+        kpi3Hint: 'Across ' + 18 + ' countries',
+        kpi4Label: 'TOTAL IMPACTED',
+        chartTitle1: 'Top Tech Companies by Total Layoffs',
+        chartTitle2: 'Layoffs by Industry',
+        chartTitle3: 'Monthly Layoff Trend',
+        chartTitle4: 'Layoffs by Region',
+        chartTitle5: 'Key Drivers of Layoffs',
+        chartTitle6: '2025 vs 2026 Monthly Comparison',
+        chartTitle7: 'Layoff % Distribution',
+        chartTitle8: 'Stage × Layoff Size Heatmap',
+        tableTitle1: 'Recent Layoffs',
+        recentHeadDate: 'Date',
+        recentHeadCompany: 'Company',
+        recentHeadLayoffs: 'Laid Off',
+        recentHeadPct: 'Layoff %',
+        recentHeadIndustry: 'Industry',
+        recentHeadCountry: 'Country',
+        recentHeadStage: 'Stage',
+        recentHeadSource: 'Source',
+        recentNoData: 'No recent layoff records available.',
+        recentSourceLink: 'Open',
+        footer: 'Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>Disclaimer: Some figures are estimates or planned reductions<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
+        yAxisName: 'Layoffs',
+        seriesBar: 'Layoffs',
+        seriesLine: 'Trend',
+        series2025: '2025',
+        series2026: '2026',
+        heatmapLegend: 'Event Count',
+        monthLabels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        reasons: [
+            { value: 45, name: 'Economic Uncertainty & Inflation' },
+            { value: 30, name: 'AI Transformation & Automation' },
+            { value: 15, name: 'Post-Pandemic Overhire Correction' },
+            { value: 10, name: 'Business Restructuring' }
+        ]
+    },
+    zh: {
+        title: '全球科技公司裁员全景洞察',
+        subtitle: '2025年1月 – 2026年4月 ｜ 科技行业深度洗牌与结构优化分析',
+        badge: '🔴 实时数据 · 自动爬取',
+        kpi1Label: '2025年 总裁员',
+        kpi1Hint: '科技史上最高纪录之一',
+        kpi2Label: '2026年初至今',
+        kpi2Hint: '同比增速超过 50%',
+        kpi3Label: '涉及公司数量',
+        kpi3Hint: '遍布 ' + 18 + ' 个国家/地区',
+        kpi4Label: '总计受影响人数',
+        chartTitle1: '各大科技巨头累计裁员人数 (Top 15)',
+        chartTitle2: '裁员行业分布',
+        chartTitle3: '逐月裁员趋势变化',
+        chartTitle4: '裁员地区分布',
+        chartTitle5: '裁员核心驱动因素拆解',
+        chartTitle6: '2025 与 2026 月度对比',
+        chartTitle7: '裁员比例分布',
+        chartTitle8: '融资阶段 × 裁员规模热力图',
+        tableTitle1: '最近裁员记录',
+        recentHeadDate: '日期',
+        recentHeadCompany: '公司',
+        recentHeadLayoffs: '裁员人数',
+        recentHeadPct: '裁员比例',
+        recentHeadIndustry: '行业',
+        recentHeadCountry: '国家',
+        recentHeadStage: '阶段',
+        recentHeadSource: '来源',
+        recentNoData: '暂无最近裁员记录。',
+        recentSourceLink: '查看',
+        footer: '数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
+        yAxisName: '裁员人数',
+        seriesBar: '裁员人数',
+        seriesLine: '趋势线',
+        series2025: '2025年',
+        series2026: '2026年',
+        heatmapLegend: '事件数',
+        monthLabels: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+        reasons: [
+            { value: 45, name: '经济不确定性与通胀' },
+            { value: 30, name: 'AI转型与自动化升级' },
+            { value: 15, name: '疫情后过度扩张修正' },
+            { value: 10, name: '业务重组与效率提升' }
+        ]
+    }
+};
 
-			<!-- Charts -->
-			<div class="chart-grid chart-grid-2">
-				<div class="glass chart-panel">
-					<h2 id="chartTitle1"></h2>
-					<div id="companyChart" class="chart-container"></div>
-				</div>
-				<div class="glass chart-panel">
-					<h2 id="chartTitle2"></h2>
-					<div id="industryChart" class="chart-container"></div>
-				</div>
-			</div>
-			<div class="chart-grid chart-grid-1">
-				<div class="glass chart-panel">
-					<h2 id="chartTitle3"></h2>
-					<div id="monthlyChart" class="chart-container"></div>
-				</div>
-			</div>
-			<div class="chart-grid chart-grid-2">
-				<div class="glass chart-panel">
-					<h2 id="chartTitle4"></h2>
-					<div id="countryChart" class="chart-container"></div>
-				</div>
-				<div class="glass chart-panel">
-					<h2 id="chartTitle5"></h2>
-					<div id="reasonChart" class="chart-container"></div>
-				</div>
-			</div>
-			<div class="chart-grid chart-grid-2">
-				<div class="glass chart-panel">
-					<h2 id="chartTitle6"></h2>
-					<div id="monthlyCompareChart" class="chart-container"></div>
-				</div>
-				<div class="glass chart-panel">
-					<h2 id="chartTitle7"></h2>
-					<div id="percentageChart" class="chart-container"></div>
-				</div>
-			</div>
-			<div class="chart-grid chart-grid-1">
-				<div class="glass chart-panel table-panel">
-					<h2 id="tableTitle1"></h2>
-					<div class="table-wrap">
-						<table class="recent-table">
-							<thead>
-								<tr>
-									<th id="recentHeadDate"></th>
-									<th id="recentHeadCompany"></th>
-									<th id="recentHeadLayoffs"></th>
-									<th id="recentHeadPct"></th>
-									<th id="recentHeadIndustry"></th>
-									<th id="recentHeadCountry"></th>
-									<th id="recentHeadStage"></th>
-									<th id="recentHeadSource"></th>
-								</tr>
-							</thead>
-							<tbody id="recentLayoffsBody"></tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-			<div class="chart-grid chart-grid-1">
-				<div class="glass chart-panel">
-					<h2 id="chartTitle8"></h2>
-					<div
-						id="stageHeatmapChart"
-						class="chart-container chart-container-tall"
-					></div>
-				</div>
-			</div>
+let currentLang = 'en';
 
-			<footer id="pageFooter"></footer>
-		</div>
+// ═══════════════════════════════════════════════════════
+//  Chart Setup
+// ═══════════════════════════════════════════════════════
+const TX = '#94a3b8';
+const AX = '#1e293b';
+const TOOLTIP = {
+    backgroundColor: 'rgba(10, 15, 30, 0.95)',
+    borderColor: '#334155',
+    textStyle: { color: '#f8fafc', fontSize: 13 },
+    borderWidth: 1,
+};
+const reasonColors = ['#64748b', '#818cf8', '#38bdf8', '#c084fc'];
 
-		<script>
-			// ═══════════════════════════════════════════════════════
-			//  i18n Translation Dictionary
-			// ═══════════════════════════════════════════════════════
-			const i18n = {
-				en: {
-					title: 'Global Tech Layoff Insights',
-					subtitle:
-						'Jan 2025 – Apr 2026 | Industry Restructuring & Workforce Optimization',
-					badge: '🔴 LIVE DATA · Auto-scraped',
-					kpi1Label: '2025 TOTAL LAYOFFS',
-					kpi1Hint: 'Highest on record in tech history',
-					kpi2Label: '2026 YTD LAYOFFS',
-					kpi2Hint: 'Over 50% YoY increase',
-					kpi3Label: 'COMPANIES AFFECTED',
-					kpi3Hint: 'Across ' + 18 + ' countries',
-					kpi4Label: 'TOTAL IMPACTED',
-					chartTitle1: 'Top Tech Companies by Total Layoffs',
-					chartTitle2: 'Layoffs by Industry',
-					chartTitle3: 'Monthly Layoff Trend',
-					chartTitle4: 'Layoffs by Region',
-					chartTitle5: 'Key Drivers of Layoffs',
-					chartTitle6: '2025 vs 2026 Monthly Comparison',
-					chartTitle7: 'Layoff % Distribution',
-					chartTitle8: 'Stage × Layoff Size Heatmap',
-					tableTitle1: 'Recent Layoffs',
-					recentHeadDate: 'Date',
-					recentHeadCompany: 'Company',
-					recentHeadLayoffs: 'Laid Off',
-					recentHeadPct: 'Layoff %',
-					recentHeadIndustry: 'Industry',
-					recentHeadCountry: 'Country',
-					recentHeadStage: 'Stage',
-					recentHeadSource: 'Source',
-					recentNoData: 'No recent layoff records available.',
-					recentSourceLink: 'Open',
-					footer: `Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>Disclaimer: Some figures are estimates or planned reductions<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> 
-						&nbsp;|&nbsp; <a href="https://layoffscanada.com?utm_source=tech-layoff-tracker" target="_blank">Layoffs Canada</a> 
-						&nbsp;|&nbsp; <a href="https://debugcanada.com?utm_source=tech-layoff-tracker" target="_blank">Debug Canada</a>
-						&nbsp;|&nbsp; <a href="https://canadainterest.com?utm_source=tech-layoff-tracker" target="_blank">Canada Interest</a>
-						&nbsp;|&nbsp; <a href="https://sbti.com?utm_source=tech-layoff-tracker" target="_blank">SBTI Test</a>
-						`,
-					yAxisName: 'Layoffs',
-					seriesBar: 'Layoffs',
-					seriesLine: 'Trend',
-					series2025: '2025',
-					series2026: '2026',
-					heatmapLegend: 'Event Count',
-					monthLabels: [
-						'Jan',
-						'Feb',
-						'Mar',
-						'Apr',
-						'May',
-						'Jun',
-						'Jul',
-						'Aug',
-						'Sep',
-						'Oct',
-						'Nov',
-						'Dec',
-					],
-					reasons: [
-						{ value: 45, name: 'Economic Uncertainty & Inflation' },
-						{ value: 30, name: 'AI Transformation & Automation' },
-						{ value: 15, name: 'Post-Pandemic Overhire Correction' },
-						{ value: 10, name: 'Business Restructuring' },
-					],
-				},
-				zh: {
-					title: '全球科技公司裁员全景洞察',
-					subtitle: '2025年1月 – 2026年4月 ｜ 科技行业深度洗牌与结构优化分析',
-					badge: '🔴 实时数据 · 自动爬取',
-					kpi1Label: '2025年 总裁员',
-					kpi1Hint: '科技史上最高纪录之一',
-					kpi2Label: '2026年初至今',
-					kpi2Hint: '同比增速超过 50%',
-					kpi3Label: '涉及公司数量',
-					kpi3Hint: '遍布 ' + 18 + ' 个国家/地区',
-					kpi4Label: '总计受影响人数',
-					chartTitle1: '各大科技巨头累计裁员人数 (Top 15)',
-					chartTitle2: '裁员行业分布',
-					chartTitle3: '逐月裁员趋势变化',
-					chartTitle4: '裁员地区分布',
-					chartTitle5: '裁员核心驱动因素拆解',
-					chartTitle6: '2025 与 2026 月度对比',
-					chartTitle7: '裁员比例分布',
-					chartTitle8: '融资阶段 × 裁员规模热力图',
-					tableTitle1: '最近裁员记录',
-					recentHeadDate: '日期',
-					recentHeadCompany: '公司',
-					recentHeadLayoffs: '裁员人数',
-					recentHeadPct: '裁员比例',
-					recentHeadIndustry: '行业',
-					recentHeadCountry: '国家',
-					recentHeadStage: '阶段',
-					recentHeadSource: '来源',
-					recentNoData: '暂无最近裁员记录。',
-					recentSourceLink: '查看',
-					footer:
-						'数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
-					yAxisName: '裁员人数',
-					seriesBar: '裁员人数',
-					seriesLine: '趋势线',
-					series2025: '2025年',
-					series2026: '2026年',
-					heatmapLegend: '事件数',
-					monthLabels: [
-						'1月',
-						'2月',
-						'3月',
-						'4月',
-						'5月',
-						'6月',
-						'7月',
-						'8月',
-						'9月',
-						'10月',
-						'11月',
-						'12月',
-					],
-					reasons: [
-						{ value: 45, name: '经济不确定性与通胀' },
-						{ value: 30, name: 'AI转型与自动化升级' },
-						{ value: 15, name: '疫情后过度扩张修正' },
-						{ value: 10, name: '业务重组与效率提升' },
-					],
-				},
-			};
+function initChart(id) {
+    return echarts.init(document.getElementById(id), null, { renderer: 'canvas' });
+}
 
-			let currentLang = 'en';
+// Helper to determine if we are on a small screen
+function isMobile() {
+    return window.innerWidth <= 768;
+}
 
-			// ═══════════════════════════════════════════════════════
-			//  Chart Setup
-			// ═══════════════════════════════════════════════════════
-			const TX = '#94a3b8';
-			const AX = '#1e293b';
-			const TOOLTIP = {
-				backgroundColor: 'rgba(10, 15, 30, 0.95)',
-				borderColor: '#334155',
-				textStyle: { color: '#f8fafc', fontSize: 13 },
-				borderWidth: 1,
-			};
-			const reasonColors = ['#64748b', '#818cf8', '#38bdf8', '#c084fc'];
+const companyData = [{"company": "Oracle", "total_laid_off": 31094}, {"company": "Amazon", "total_laid_off": 30284}, {"company": "Intel", "total_laid_off": 27058}, {"company": "Microsoft", "total_laid_off": 15347}, {"company": "HP", "total_laid_off": 8000}, {"company": "Meta", "total_laid_off": 6000}, {"company": "Salesforce", "total_laid_off": 5385}, {"company": "Block", "total_laid_off": 4931}, {"company": "Northvolt", "total_laid_off": 2800}, {"company": "Hewlett Packard Enterprise", "total_laid_off": 2552}, {"company": "Autodesk", "total_laid_off": 2350}, {"company": "Workday", "total_laid_off": 2150}, {"company": "Synopsys", "total_laid_off": 2000}, {"company": "WiseTech", "total_laid_off": 2000}, {"company": "Atlassian", "total_laid_off": 1950}];
+const industryData = [{"industry": "Other", "total_laid_off": 56552}, {"industry": "Hardware", "total_laid_off": 40087}, {"industry": "Retail", "total_laid_off": 34097}, {"industry": "Consumer", "total_laid_off": 16469}, {"industry": "Finance", "total_laid_off": 8524}, {"industry": "Sales", "total_laid_off": 5942}, {"industry": "HR", "total_laid_off": 5645}, {"industry": "Transportation", "total_laid_off": 4584}, {"industry": "Food", "total_laid_off": 3607}, {"industry": "Energy", "total_laid_off": 3464}];
+const monthlyData = [{"month": "2025-01", "total_laid_off": 2537}, {"month": "2025-02", "total_laid_off": 18474}, {"month": "2025-03", "total_laid_off": 8834}, {"month": "2025-04", "total_laid_off": 25345}, {"month": "2025-05", "total_laid_off": 10577}, {"month": "2025-06", "total_laid_off": 1606}, {"month": "2025-07", "total_laid_off": 16648}, {"month": "2025-08", "total_laid_off": 6452}, {"month": "2025-09", "total_laid_off": 4174}, {"month": "2025-10", "total_laid_off": 19070}, {"month": "2025-11", "total_laid_off": 8932}, {"month": "2025-12", "total_laid_off": 1552}, {"month": "2026-01", "total_laid_off": 24928}, {"month": "2026-02", "total_laid_off": 11019}, {"month": "2026-03", "total_laid_off": 34800}, {"month": "2026-04", "total_laid_off": 2465}];
+const countryData = [{"country": "United States", "total_laid_off": 164446}, {"country": "India", "total_laid_off": 8755}, {"country": "Israel", "total_laid_off": 4781}, {"country": "Sweden", "total_laid_off": 4615}, {"country": "Australia", "total_laid_off": 4220}, {"country": "Netherlands", "total_laid_off": 2570}, {"country": "Canada", "total_laid_off": 2491}, {"country": "Germany", "total_laid_off": 1785}, {"country": "United Kingdom", "total_laid_off": 1732}, {"country": "Brazil", "total_laid_off": 516}];
+const monthlyComparisonData = [{"layoffs_2025": 2537, "layoffs_2026": 24928, "month_label": "Jan", "month_num": 1}, {"layoffs_2025": 18474, "layoffs_2026": 11019, "month_label": "Feb", "month_num": 2}, {"layoffs_2025": 8834, "layoffs_2026": 34800, "month_label": "Mar", "month_num": 3}, {"layoffs_2025": 25345, "layoffs_2026": 2465, "month_label": "Apr", "month_num": 4}, {"layoffs_2025": 10577, "layoffs_2026": 0, "month_label": "May", "month_num": 5}, {"layoffs_2025": 1606, "layoffs_2026": 0, "month_label": "Jun", "month_num": 6}, {"layoffs_2025": 16648, "layoffs_2026": 0, "month_label": "Jul", "month_num": 7}, {"layoffs_2025": 6452, "layoffs_2026": 0, "month_label": "Aug", "month_num": 8}, {"layoffs_2025": 4174, "layoffs_2026": 0, "month_label": "Sep", "month_num": 9}, {"layoffs_2025": 19070, "layoffs_2026": 0, "month_label": "Oct", "month_num": 10}, {"layoffs_2025": 8932, "layoffs_2026": 0, "month_label": "Nov", "month_num": 11}, {"layoffs_2025": 1552, "layoffs_2026": 0, "month_label": "Dec", "month_num": 12}];
+const stageHeatmapData = {"cells": [{"event_count": 29, "size_bucket": "\u003c100", "stage": "Post-IPO"}, {"event_count": 57, "size_bucket": "100-499", "stage": "Post-IPO"}, {"event_count": 12, "size_bucket": "500-999", "stage": "Post-IPO"}, {"event_count": 21, "size_bucket": "1k-4.9k", "stage": "Post-IPO"}, {"event_count": 7, "size_bucket": "5k+", "stage": "Post-IPO"}, {"event_count": 24, "size_bucket": "\u003c100", "stage": "Series D+"}, {"event_count": 26, "size_bucket": "100-499", "stage": "Series D+"}, {"event_count": 1, "size_bucket": "500-999", "stage": "Series D+"}, {"event_count": 1, "size_bucket": "1k-4.9k", "stage": "Series D+"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Series D+"}, {"event_count": 25, "size_bucket": "\u003c100", "stage": "Series A-C"}, {"event_count": 13, "size_bucket": "100-499", "stage": "Series A-C"}, {"event_count": 0, "size_bucket": "500-999", "stage": "Series A-C"}, {"event_count": 0, "size_bucket": "1k-4.9k", "stage": "Series A-C"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Series A-C"}, {"event_count": 2, "size_bucket": "\u003c100", "stage": "Seed / Early"}, {"event_count": 1, "size_bucket": "100-499", "stage": "Seed / Early"}, {"event_count": 0, "size_bucket": "500-999", "stage": "Seed / Early"}, {"event_count": 0, "size_bucket": "1k-4.9k", "stage": "Seed / Early"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Seed / Early"}, {"event_count": 6, "size_bucket": "\u003c100", "stage": "Acquired / PE"}, {"event_count": 15, "size_bucket": "100-499", "stage": "Acquired / PE"}, {"event_count": 5, "size_bucket": "500-999", "stage": "Acquired / PE"}, {"event_count": 2, "size_bucket": "1k-4.9k", "stage": "Acquired / PE"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Acquired / PE"}, {"event_count": 11, "size_bucket": "\u003c100", "stage": "Unknown"}, {"event_count": 23, "size_bucket": "100-499", "stage": "Unknown"}, {"event_count": 2, "size_bucket": "500-999", "stage": "Unknown"}, {"event_count": 3, "size_bucket": "1k-4.9k", "stage": "Unknown"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Unknown"}, {"event_count": 0, "size_bucket": "\u003c100", "stage": "Other"}, {"event_count": 0, "size_bucket": "100-499", "stage": "Other"}, {"event_count": 0, "size_bucket": "500-999", "stage": "Other"}, {"event_count": 0, "size_bucket": "1k-4.9k", "stage": "Other"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Other"}], "size_buckets": ["\u003c100", "100-499", "500-999", "1k-4.9k", "5k+"], "stages": ["Post-IPO", "Series D+", "Series A-C", "Seed / Early", "Acquired / PE", "Unknown", "Other"]};
+const layoffPctDistribution = [{"bucket": "\u003c10%", "event_count": 56}, {"bucket": "10-24%", "event_count": 53}, {"bucket": "25-49%", "event_count": 24}, {"bucket": "50-99%", "event_count": 9}, {"bucket": "100%+", "event_count": 11}];
+const recentLayoffs = [{"company": "Shutterfly", "country": "United States", "date": "2026-04-16", "industry": "Manufacturing", "num_laid_off": 80, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg", "stage": "Post-IPO"}, {"company": "Snap", "country": "United States", "date": "2026-04-15", "industry": "Consumer", "num_laid_off": 1000, "percentage_laid_off": 0.16, "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html", "stage": "Post-IPO"}, {"company": "UKG", "country": "United States", "date": "2026-04-15", "industry": "HR", "num_laid_off": 950, "percentage_laid_off": null, "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/", "stage": "Unknown"}, {"company": "GoPro", "country": "United States", "date": "2026-04-07", "industry": "Consumer", "num_laid_off": 145, "percentage_laid_off": 0.23, "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b", "stage": "Post-IPO"}, {"company": "Pendo", "country": "United States", "date": "2026-04-07", "industry": "Product", "num_laid_off": 90, "percentage_laid_off": 0.1, "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs", "stage": "Series F"}, {"company": "Meta", "country": "United States", "date": "2026-04-02", "industry": "Consumer", "num_laid_off": 200, "percentage_laid_off": null, "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php", "stage": "Post-IPO"}, {"company": "Oracle", "country": "United States", "date": "2026-03-31", "industry": "Other", "num_laid_off": 30000, "percentage_laid_off": null, "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html", "stage": "Post-IPO"}, {"company": "Monzo", "country": "United Kingdom", "date": "2026-03-31", "industry": "Finance", "num_laid_off": 50, "percentage_laid_off": null, "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe", "stage": "Series F"}, {"company": "Enpal", "country": "Germany", "date": "2026-03-27", "industry": "Energy", "num_laid_off": 100, "percentage_laid_off": null, "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/", "stage": "Series E"}, {"company": "Epic Games", "country": "United States", "date": "2026-03-24", "industry": "Consumer", "num_laid_off": 1000, "percentage_laid_off": null, "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs", "stage": "Unknown"}, {"company": "Zendesk", "country": "United States", "date": "2026-03-24", "industry": "Support", "num_laid_off": 100, "percentage_laid_off": null, "source": "Internal memo", "stage": "Acquired"}, {"company": "Spotify", "country": "Sweden", "date": "2026-03-23", "industry": "Media", "num_laid_off": 15, "percentage_laid_off": null, "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/", "stage": "Post-IPO"}];
+const industryColors = ['#818cf8','#38bdf8','#c084fc','#f472b6','#34d399','#fbbf24','#fb923c','#64748b','#94a3b8','#475569'];
 
-			function initChart(id) {
-				return echarts.init(document.getElementById(id), null, {
-					renderer: 'canvas',
-				});
-			}
+const companyChart = initChart('companyChart');
+const industryChart = initChart('industryChart');
+const monthlyChart = initChart('monthlyChart');
+const countryChart = initChart('countryChart');
+const reasonChart = initChart('reasonChart');
+const monthlyCompareChart = initChart('monthlyCompareChart');
+const percentageChart = initChart('percentageChart');
+const stageHeatmapChart = initChart('stageHeatmapChart');
 
-			// Helper to determine if we are on a small screen
-			function isMobile() {
-				return window.innerWidth <= 768;
-			}
+function formatCount(value) {
+    return value == null ? '—' : Number(value).toLocaleString();
+}
 
-			const companyData = [
-				{ company: 'Oracle', total_laid_off: 31094 },
-				{ company: 'Amazon', total_laid_off: 30284 },
-				{ company: 'Intel', total_laid_off: 27058 },
-				{ company: 'Microsoft', total_laid_off: 15347 },
-				{ company: 'HP', total_laid_off: 8000 },
-				{ company: 'Meta', total_laid_off: 6000 },
-				{ company: 'Salesforce', total_laid_off: 5385 },
-				{ company: 'Block', total_laid_off: 4931 },
-				{ company: 'Northvolt', total_laid_off: 2800 },
-				{ company: 'Hewlett Packard Enterprise', total_laid_off: 2552 },
-				{ company: 'Autodesk', total_laid_off: 2350 },
-				{ company: 'Workday', total_laid_off: 2150 },
-				{ company: 'Synopsys', total_laid_off: 2000 },
-				{ company: 'WiseTech', total_laid_off: 2000 },
-				{ company: 'Atlassian', total_laid_off: 1950 },
-			];
-			const industryData = [
-				{ industry: 'Other', total_laid_off: 56552 },
-				{ industry: 'Hardware', total_laid_off: 40087 },
-				{ industry: 'Retail', total_laid_off: 34097 },
-				{ industry: 'Consumer', total_laid_off: 15469 },
-				{ industry: 'Finance', total_laid_off: 8524 },
-				{ industry: 'Sales', total_laid_off: 5942 },
-				{ industry: 'HR', total_laid_off: 4695 },
-				{ industry: 'Transportation', total_laid_off: 4584 },
-				{ industry: 'Food', total_laid_off: 3607 },
-				{ industry: 'Energy', total_laid_off: 3464 },
-			];
-			const monthlyData = [
-				{ month: '2025-01', total_laid_off: 2537 },
-				{ month: '2025-02', total_laid_off: 18474 },
-				{ month: '2025-03', total_laid_off: 8834 },
-				{ month: '2025-04', total_laid_off: 25345 },
-				{ month: '2025-05', total_laid_off: 10577 },
-				{ month: '2025-06', total_laid_off: 1606 },
-				{ month: '2025-07', total_laid_off: 16648 },
-				{ month: '2025-08', total_laid_off: 6452 },
-				{ month: '2025-09', total_laid_off: 4174 },
-				{ month: '2025-10', total_laid_off: 19070 },
-				{ month: '2025-11', total_laid_off: 8932 },
-				{ month: '2025-12', total_laid_off: 1552 },
-				{ month: '2026-01', total_laid_off: 24928 },
-				{ month: '2026-02', total_laid_off: 11019 },
-				{ month: '2026-03', total_laid_off: 34800 },
-				{ month: '2026-04', total_laid_off: 435 },
-			];
-			const countryData = [
-				{ country: 'United States', total_laid_off: 162416 },
-				{ country: 'India', total_laid_off: 8755 },
-				{ country: 'Israel', total_laid_off: 4781 },
-				{ country: 'Sweden', total_laid_off: 4615 },
-				{ country: 'Australia', total_laid_off: 4220 },
-				{ country: 'Netherlands', total_laid_off: 2570 },
-				{ country: 'Canada', total_laid_off: 2491 },
-				{ country: 'Germany', total_laid_off: 1785 },
-				{ country: 'United Kingdom', total_laid_off: 1732 },
-				{ country: 'Brazil', total_laid_off: 516 },
-			];
-			const monthlyComparisonData = [
-				{
-					layoffs_2025: 2537,
-					layoffs_2026: 24928,
-					month_label: 'Jan',
-					month_num: 1,
-				},
-				{
-					layoffs_2025: 18474,
-					layoffs_2026: 11019,
-					month_label: 'Feb',
-					month_num: 2,
-				},
-				{
-					layoffs_2025: 8834,
-					layoffs_2026: 34800,
-					month_label: 'Mar',
-					month_num: 3,
-				},
-				{
-					layoffs_2025: 25345,
-					layoffs_2026: 435,
-					month_label: 'Apr',
-					month_num: 4,
-				},
-				{
-					layoffs_2025: 10577,
-					layoffs_2026: 0,
-					month_label: 'May',
-					month_num: 5,
-				},
-				{
-					layoffs_2025: 1606,
-					layoffs_2026: 0,
-					month_label: 'Jun',
-					month_num: 6,
-				},
-				{
-					layoffs_2025: 16648,
-					layoffs_2026: 0,
-					month_label: 'Jul',
-					month_num: 7,
-				},
-				{
-					layoffs_2025: 6452,
-					layoffs_2026: 0,
-					month_label: 'Aug',
-					month_num: 8,
-				},
-				{
-					layoffs_2025: 4174,
-					layoffs_2026: 0,
-					month_label: 'Sep',
-					month_num: 9,
-				},
-				{
-					layoffs_2025: 19070,
-					layoffs_2026: 0,
-					month_label: 'Oct',
-					month_num: 10,
-				},
-				{
-					layoffs_2025: 8932,
-					layoffs_2026: 0,
-					month_label: 'Nov',
-					month_num: 11,
-				},
-				{
-					layoffs_2025: 1552,
-					layoffs_2026: 0,
-					month_label: 'Dec',
-					month_num: 12,
-				},
-			];
-			const stageHeatmapData = {
-				cells: [
-					{ event_count: 28, size_bucket: '\u003c100', stage: 'Post-IPO' },
-					{ event_count: 57, size_bucket: '100-499', stage: 'Post-IPO' },
-					{ event_count: 12, size_bucket: '500-999', stage: 'Post-IPO' },
-					{ event_count: 20, size_bucket: '1k-4.9k', stage: 'Post-IPO' },
-					{ event_count: 7, size_bucket: '5k+', stage: 'Post-IPO' },
-					{ event_count: 24, size_bucket: '\u003c100', stage: 'Series D+' },
-					{ event_count: 26, size_bucket: '100-499', stage: 'Series D+' },
-					{ event_count: 1, size_bucket: '500-999', stage: 'Series D+' },
-					{ event_count: 1, size_bucket: '1k-4.9k', stage: 'Series D+' },
-					{ event_count: 0, size_bucket: '5k+', stage: 'Series D+' },
-					{ event_count: 25, size_bucket: '\u003c100', stage: 'Series A-C' },
-					{ event_count: 13, size_bucket: '100-499', stage: 'Series A-C' },
-					{ event_count: 0, size_bucket: '500-999', stage: 'Series A-C' },
-					{ event_count: 0, size_bucket: '1k-4.9k', stage: 'Series A-C' },
-					{ event_count: 0, size_bucket: '5k+', stage: 'Series A-C' },
-					{ event_count: 2, size_bucket: '\u003c100', stage: 'Seed / Early' },
-					{ event_count: 1, size_bucket: '100-499', stage: 'Seed / Early' },
-					{ event_count: 0, size_bucket: '500-999', stage: 'Seed / Early' },
-					{ event_count: 0, size_bucket: '1k-4.9k', stage: 'Seed / Early' },
-					{ event_count: 0, size_bucket: '5k+', stage: 'Seed / Early' },
-					{ event_count: 6, size_bucket: '\u003c100', stage: 'Acquired / PE' },
-					{ event_count: 15, size_bucket: '100-499', stage: 'Acquired / PE' },
-					{ event_count: 5, size_bucket: '500-999', stage: 'Acquired / PE' },
-					{ event_count: 2, size_bucket: '1k-4.9k', stage: 'Acquired / PE' },
-					{ event_count: 0, size_bucket: '5k+', stage: 'Acquired / PE' },
-					{ event_count: 11, size_bucket: '\u003c100', stage: 'Unknown' },
-					{ event_count: 23, size_bucket: '100-499', stage: 'Unknown' },
-					{ event_count: 1, size_bucket: '500-999', stage: 'Unknown' },
-					{ event_count: 3, size_bucket: '1k-4.9k', stage: 'Unknown' },
-					{ event_count: 0, size_bucket: '5k+', stage: 'Unknown' },
-					{ event_count: 0, size_bucket: '\u003c100', stage: 'Other' },
-					{ event_count: 0, size_bucket: '100-499', stage: 'Other' },
-					{ event_count: 0, size_bucket: '500-999', stage: 'Other' },
-					{ event_count: 0, size_bucket: '1k-4.9k', stage: 'Other' },
-					{ event_count: 0, size_bucket: '5k+', stage: 'Other' },
-				],
-				size_buckets: ['\u003c100', '100-499', '500-999', '1k-4.9k', '5k+'],
-				stages: [
-					'Post-IPO',
-					'Series D+',
-					'Series A-C',
-					'Seed / Early',
-					'Acquired / PE',
-					'Unknown',
-					'Other',
-				],
-			};
-			const layoffPctDistribution = [
-				{ bucket: '\u003c10%', event_count: 56 },
-				{ bucket: '10-24%', event_count: 52 },
-				{ bucket: '25-49%', event_count: 24 },
-				{ bucket: '50-99%', event_count: 9 },
-				{ bucket: '100%+', event_count: 11 },
-			];
-			const recentLayoffs = [
-				{
-					company: 'GoPro',
-					country: 'United States',
-					date: '2026-04-07',
-					industry: 'Consumer',
-					num_laid_off: 145,
-					percentage_laid_off: 0.23,
-					source:
-						'https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b',
-					stage: 'Post-IPO',
-				},
-				{
-					company: 'Pendo',
-					country: 'United States',
-					date: '2026-04-07',
-					industry: 'Product',
-					num_laid_off: 90,
-					percentage_laid_off: 0.1,
-					source:
-						'https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs',
-					stage: 'Series F',
-				},
-				{
-					company: 'Meta',
-					country: 'United States',
-					date: '2026-04-02',
-					industry: 'Consumer',
-					num_laid_off: 200,
-					percentage_laid_off: null,
-					source:
-						'https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php',
-					stage: 'Post-IPO',
-				},
-				{
-					company: 'Oracle',
-					country: 'United States',
-					date: '2026-03-31',
-					industry: 'Other',
-					num_laid_off: 30000,
-					percentage_laid_off: null,
-					source:
-						'https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html',
-					stage: 'Post-IPO',
-				},
-				{
-					company: 'Monzo',
-					country: 'United Kingdom',
-					date: '2026-03-31',
-					industry: 'Finance',
-					num_laid_off: 50,
-					percentage_laid_off: null,
-					source:
-						'https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe',
-					stage: 'Series F',
-				},
-				{
-					company: 'Enpal',
-					country: 'Germany',
-					date: '2026-03-27',
-					industry: 'Energy',
-					num_laid_off: 100,
-					percentage_laid_off: null,
-					source:
-						'https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/',
-					stage: 'Series E',
-				},
-				{
-					company: 'Epic Games',
-					country: 'United States',
-					date: '2026-03-24',
-					industry: 'Consumer',
-					num_laid_off: 1000,
-					percentage_laid_off: null,
-					source: 'https://www.epicgames.com/site/en-US/news/todays-layoffs',
-					stage: 'Unknown',
-				},
-				{
-					company: 'Zendesk',
-					country: 'United States',
-					date: '2026-03-24',
-					industry: 'Support',
-					num_laid_off: 100,
-					percentage_laid_off: null,
-					source: 'Internal memo',
-					stage: 'Acquired',
-				},
-				{
-					company: 'Spotify',
-					country: 'Sweden',
-					date: '2026-03-23',
-					industry: 'Media',
-					num_laid_off: 15,
-					percentage_laid_off: null,
-					source:
-						'https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/',
-					stage: 'Post-IPO',
-				},
-				{
-					company: 'Stone',
-					country: 'Brazil',
-					date: '2026-03-13',
-					industry: 'Finance',
-					num_laid_off: 400,
-					percentage_laid_off: 0.03,
-					source:
-						'https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html',
-					stage: 'Post-IPO',
-				},
-				{
-					company: 'Atlassian',
-					country: 'Australia',
-					date: '2026-03-11',
-					industry: 'Other',
-					num_laid_off: 1600,
-					percentage_laid_off: 0.1,
-					source:
-						'https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1',
-					stage: 'Post-IPO',
-				},
-				{
-					company: 'InvestCloud',
-					country: 'United States',
-					date: '2026-03-10',
-					industry: 'Finance',
-					num_laid_off: 150,
-					percentage_laid_off: null,
-					source:
-						'https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606',
-					stage: 'Private Equity',
-				},
-			];
-			const industryColors = [
-				'#818cf8',
-				'#38bdf8',
-				'#c084fc',
-				'#f472b6',
-				'#34d399',
-				'#fbbf24',
-				'#fb923c',
-				'#64748b',
-				'#94a3b8',
-				'#475569',
-			];
+function formatPct(value) {
+    if (value == null || Number.isNaN(Number(value))) return '—';
+    const pct = Number(value) * 100;
+    return Number.isInteger(pct) ? `${pct}%` : `${pct.toFixed(1)}%`;
+}
 
-			const companyChart = initChart('companyChart');
-			const industryChart = initChart('industryChart');
-			const monthlyChart = initChart('monthlyChart');
-			const countryChart = initChart('countryChart');
-			const reasonChart = initChart('reasonChart');
-			const monthlyCompareChart = initChart('monthlyCompareChart');
-			const percentageChart = initChart('percentageChart');
-			const stageHeatmapChart = initChart('stageHeatmapChart');
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+}
 
-			function formatCount(value) {
-				return value == null ? '—' : Number(value).toLocaleString();
-			}
+function renderRecentLayoffs(t) {
+    const body = document.getElementById('recentLayoffsBody');
+    if (!recentLayoffs.length) {
+        body.innerHTML = `<tr><td colspan="8">${t.recentNoData}</td></tr>`;
+        return;
+    }
 
-			function formatPct(value) {
-				if (value == null || Number.isNaN(Number(value))) return '—';
-				const pct = Number(value) * 100;
-				return Number.isInteger(pct) ? `${pct}%` : `${pct.toFixed(1)}%`;
-			}
-
-			function escapeHtml(value) {
-				return String(value ?? '')
-					.replaceAll('&', '&amp;')
-					.replaceAll('<', '&lt;')
-					.replaceAll('>', '&gt;')
-					.replaceAll('"', '&quot;')
-					.replaceAll("'", '&#39;');
-			}
-
-			function renderRecentLayoffs(t) {
-				const body = document.getElementById('recentLayoffsBody');
-				if (!recentLayoffs.length) {
-					body.innerHTML = `<tr><td colspan="8">${t.recentNoData}</td></tr>`;
-					return;
-				}
-
-				body.innerHTML = recentLayoffs
-					.map(
-						(row) => `
+    body.innerHTML = recentLayoffs.map(row => `
         <tr>
             <td>${row.date}</td>
             <td>${row.company}</td>
@@ -1086,564 +562,390 @@
             <td>${row.industry}</td>
             <td>${row.country}</td>
             <td>${row.stage}</td>
-            <td>${
-							/^https?:\/\//.test(row.source)
-								? `<a href="${escapeHtml(row.source)}" target="_blank" rel="noopener noreferrer">${t.recentSourceLink}</a>`
-								: escapeHtml(row.source || '—')
-						}</td>
+            <td>${/^https?:\/\//.test(row.source)
+                ? `<a href="${escapeHtml(row.source)}" target="_blank" rel="noopener noreferrer">${t.recentSourceLink}</a>`
+                : escapeHtml(row.source || '—')}</td>
         </tr>
-    `,
-					)
-					.join('');
-			}
+    `).join('');
+}
 
-			// ═══════════════════════════════════════════════════════
-			//  Render Charts (language-aware)
-			// ═══════════════════════════════════════════════════════
-			function renderCharts(t) {
-				const mobile = isMobile();
+// ═══════════════════════════════════════════════════════
+//  Render Charts (language-aware)
+// ═══════════════════════════════════════════════════════
+function renderCharts(t) {
+    const mobile = isMobile();
 
-				companyChart.setOption({
-					tooltip: {
-						trigger: 'axis',
-						axisPointer: { type: 'shadow' },
-						...TOOLTIP,
-					},
-					grid: {
-						left: '2%',
-						right: mobile ? '15%' : '12%',
-						top: '4%',
-						bottom: '4%',
-						containLabel: true,
-					},
-					xAxis: {
-						type: 'value',
-						splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-						axisLabel: {
-							color: TX,
-							formatter: (v) => (v >= 1000 ? v / 1000 + 'k' : v),
-							fontSize: mobile ? 10 : 12,
-						},
-					},
-					yAxis: {
-						type: 'category',
-						data: companyData.map((d) => d.company).reverse(),
-						axisLabel: {
-							color: TX,
-							fontWeight: 600,
-							fontSize: mobile ? 10 : 12,
-						},
-						axisLine: { show: false },
-						axisTick: { show: false },
-					},
-					series: [
-						{
-							type: 'bar',
-							data: companyData.map((d) => d.total_laid_off).reverse(),
-							itemStyle: {
-								color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [
-									{ offset: 0, color: '#38bdf8' },
-									{ offset: 1, color: '#818cf8' },
-								]),
-								borderRadius: [0, 6, 6, 0],
-							},
-							label: {
-								show: true,
-								position: 'right',
-								color: '#94a3b8',
-								fontSize: mobile ? 10 : 12,
-								formatter: (p) => p.value.toLocaleString(),
-							},
-							emphasis: {
-								itemStyle: {
-									shadowBlur: 10,
-									shadowColor: 'rgba(56,189,248,0.3)',
-								},
-							},
-						},
-					],
-				});
+    companyChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: {type: 'shadow'}, ...TOOLTIP },
+        grid: { left: '2%', right: mobile ? '15%' : '12%', top: '4%', bottom: '4%', containLabel: true },
+        xAxis: {
+            type: 'value',
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } },
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 }
+        },
+        yAxis: {
+            type: 'category',
+            data: companyData.map(d => d.company).reverse(),
+            axisLabel: { color: TX, fontWeight: 600, fontSize: mobile ? 10 : 12 },
+            axisLine: { show: false },
+            axisTick: { show: false }
+        },
+        series: [{
+            type: 'bar',
+            data: companyData.map(d => d.total_laid_off).reverse(),
+            itemStyle: {
+                color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                    { offset: 0, color: '#38bdf8' },
+                    { offset: 1, color: '#818cf8' }
+                ]),
+                borderRadius: [0, 6, 6, 0]
+            },
+            label: {
+                show: true, position: 'right', color: '#94a3b8', fontSize: mobile ? 10 : 12,
+                formatter: p => p.value.toLocaleString()
+            },
+            emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(56,189,248,0.3)' } }
+        }]
+    });
 
-				industryChart.setOption({
-					tooltip: {
-						trigger: 'item',
-						...TOOLTIP,
-						formatter: '{b}: {c} ({d}%)',
-					},
-					legend: {
-						orient: mobile ? 'horizontal' : 'vertical',
-						right: mobile ? 'center' : 10,
-						bottom: mobile ? 0 : 'auto',
-						top: mobile ? 'auto' : 'middle',
-						textStyle: { color: TX, fontSize: 10 },
-						itemWidth: 10,
-						itemHeight: 10,
-						itemGap: 8,
-					},
-					series: [
-						{
-							type: 'pie',
-							radius: mobile ? ['35%', '60%'] : ['40%', '72%'],
-							center: mobile ? ['50%', '40%'] : ['40%', '50%'],
-							avoidLabelOverlap: true,
-							itemStyle: {
-								borderRadius: 8,
-								borderColor: '#0a0f1e',
-								borderWidth: 3,
-							},
-							label: { show: false },
-							emphasis: {
-								label: {
-									show: true,
-									fontSize: mobile ? 12 : 16,
-									fontWeight: 700,
-									color: '#f8fafc',
-								},
-								scaleSize: 6,
-							},
-							data: industryData.map((d, i) => ({
-								name: d.industry,
-								value: d.total_laid_off,
-								itemStyle: { color: industryColors[i % industryColors.length] },
-							})),
-						},
-					],
-				});
+    industryChart.setOption({
+        tooltip: { trigger: 'item', ...TOOLTIP, formatter: '{b}: {c} ({d}%)' },
+        legend: {
+            orient: mobile ? 'horizontal' : 'vertical',
+            right: mobile ? 'center' : 10,
+            bottom: mobile ? 0 : 'auto',
+            top: mobile ? 'auto' : 'middle',
+            textStyle: { color: TX, fontSize: 10 },
+            itemWidth: 10, itemHeight: 10, itemGap: 8
+        },
+        series: [{
+            type: 'pie',
+            radius: mobile ? ['35%', '60%'] : ['40%', '72%'],
+            center: mobile ? ['50%', '40%'] : ['40%', '50%'],
+            avoidLabelOverlap: true,
+            itemStyle: { borderRadius: 8, borderColor: '#0a0f1e', borderWidth: 3 },
+            label: { show: false },
+            emphasis: {
+                label: { show: true, fontSize: mobile ? 12 : 16, fontWeight: 700, color: '#f8fafc' },
+                scaleSize: 6
+            },
+            data: industryData.map((d, i) => ({
+                name: d.industry,
+                value: d.total_laid_off,
+                itemStyle: { color: industryColors[i % industryColors.length] }
+            }))
+        }]
+    });
 
-				monthlyChart.setOption({
-					tooltip: {
-						trigger: 'axis',
-						axisPointer: {
-							type: 'cross',
-							label: { backgroundColor: '#1e293b' },
-						},
-						...TOOLTIP,
-					},
-					grid: {
-						left: '3%',
-						right: '4%',
-						top: '12%',
-						bottom: mobile ? '15%' : '10%',
-						containLabel: true,
-					},
-					xAxis: {
-						type: 'category',
-						data: monthlyData.map((d) => d.month),
-						axisLabel: { color: TX, rotate: 45, fontSize: mobile ? 9 : 11 },
-						axisLine: { lineStyle: { color: AX } },
-						axisTick: { show: false },
-					},
-					yAxis: {
-						type: 'value',
-						name: t.yAxisName,
-						nameTextStyle: { color: TX, fontSize: mobile ? 10 : 12 },
-						axisLabel: {
-							color: TX,
-							formatter: (v) => (v >= 1000 ? v / 1000 + 'k' : v),
-							fontSize: mobile ? 10 : 12,
-						},
-						splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-					},
-					series: [
-						{
-							name: t.seriesBar,
-							type: 'bar',
-							data: monthlyData.map((d) => d.total_laid_off),
-							barWidth: '50%',
-							itemStyle: {
-								color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-									{ offset: 0, color: '#f43f5e' },
-									{ offset: 1, color: '#881337' },
-								]),
-								borderRadius: [6, 6, 0, 0],
-							},
-							emphasis: {
-								itemStyle: {
-									shadowBlur: 10,
-									shadowColor: 'rgba(244,63,94,0.3)',
-								},
-							},
-						},
-						{
-							name: t.seriesLine,
-							type: 'line',
-							smooth: true,
-							symbol: 'circle',
-							symbolSize: 6,
-							data: monthlyData.map((d) => d.total_laid_off),
-							lineStyle: { color: '#c084fc', width: 2.5 },
-							itemStyle: {
-								color: '#c084fc',
-								borderWidth: 2,
-								borderColor: '#0a0f1e',
-							},
-							areaStyle: {
-								color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-									{ offset: 0, color: 'rgba(192, 132, 252, 0.25)' },
-									{ offset: 1, color: 'rgba(192, 132, 252, 0)' },
-								]),
-							},
-						},
-					],
-				});
+    monthlyChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: { type: 'cross', label: { backgroundColor: '#1e293b' } }, ...TOOLTIP },
+        grid: { left: '3%', right: '4%', top: '12%', bottom: mobile ? '15%' : '10%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: monthlyData.map(d => d.month),
+            axisLabel: { color: TX, rotate: 45, fontSize: mobile ? 9 : 11 },
+            axisLine: { lineStyle: { color: AX } },
+            axisTick: { show: false }
+        },
+        yAxis: {
+            type: 'value',
+            name: t.yAxisName,
+            nameTextStyle: { color: TX, fontSize: mobile ? 10 : 12 },
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 },
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } }
+        },
+        series: [
+            {
+                name: t.seriesBar,
+                type: 'bar',
+                data: monthlyData.map(d => d.total_laid_off),
+                barWidth: '50%',
+                itemStyle: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                        { offset: 0, color: '#f43f5e' },
+                        { offset: 1, color: '#881337' }
+                    ]),
+                    borderRadius: [6, 6, 0, 0]
+                },
+                emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(244,63,94,0.3)' } }
+            },
+            {
+                name: t.seriesLine,
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 6,
+                data: monthlyData.map(d => d.total_laid_off),
+                lineStyle: { color: '#c084fc', width: 2.5 },
+                itemStyle: { color: '#c084fc', borderWidth: 2, borderColor: '#0a0f1e' },
+                areaStyle: {
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                        { offset: 0, color: 'rgba(192, 132, 252, 0.25)' },
+                        { offset: 1, color: 'rgba(192, 132, 252, 0)' }
+                    ])
+                }
+            }
+        ]
+    });
 
-				countryChart.setOption({
-					tooltip: {
-						trigger: 'axis',
-						axisPointer: { type: 'shadow' },
-						...TOOLTIP,
-					},
-					grid: {
-						left: '3%',
-						right: '12%',
-						top: '4%',
-						bottom: '4%',
-						containLabel: true,
-					},
-					xAxis: {
-						type: 'value',
-						splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-						axisLabel: {
-							color: TX,
-							formatter: (v) => (v >= 1000 ? v / 1000 + 'k' : v),
-							fontSize: mobile ? 10 : 12,
-						},
-					},
-					yAxis: {
-						type: 'category',
-						data: countryData.map((d) => d.country).reverse(),
-						axisLabel: {
-							color: TX,
-							fontWeight: 500,
-							fontSize: mobile ? 10 : 12,
-						},
-						axisLine: { show: false },
-						axisTick: { show: false },
-					},
-					series: [
-						{
-							type: 'bar',
-							data: countryData.map((d) => d.total_laid_off).reverse(),
-							itemStyle: {
-								color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [
-									{ offset: 0, color: '#34d399' },
-									{ offset: 1, color: '#059669' },
-								]),
-								borderRadius: [0, 6, 6, 0],
-							},
-							label: {
-								show: true,
-								position: 'right',
-								color: '#94a3b8',
-								fontSize: mobile ? 10 : 12,
-								formatter: (p) => p.value.toLocaleString(),
-							},
-						},
-					],
-				});
+    countryChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
+        grid: { left: '3%', right: '12%', top: '4%', bottom: '4%', containLabel: true },
+        xAxis: {
+            type: 'value',
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } },
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 }
+        },
+        yAxis: {
+            type: 'category',
+            data: countryData.map(d => d.country).reverse(),
+            axisLabel: { color: TX, fontWeight: 500, fontSize: mobile ? 10 : 12 },
+            axisLine: { show: false },
+            axisTick: { show: false }
+        },
+        series: [{
+            type: 'bar',
+            data: countryData.map(d => d.total_laid_off).reverse(),
+            itemStyle: {
+                color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                    { offset: 0, color: '#34d399' },
+                    { offset: 1, color: '#059669' }
+                ]),
+                borderRadius: [0, 6, 6, 0]
+            },
+            label: {
+                show: true, position: 'right', color: '#94a3b8', fontSize: mobile ? 10 : 12,
+                formatter: p => p.value.toLocaleString()
+            }
+        }]
+    });
 
-				reasonChart.setOption({
-					tooltip: { trigger: 'item', ...TOOLTIP, formatter: '{b}: {d}%' },
-					legend: {
-						orient: 'horizontal',
-						bottom: 0,
-						left: 'center',
-						textStyle: { color: TX, fontSize: 10 },
-						itemWidth: 10,
-						itemHeight: 10,
-						itemGap: 10,
-					},
-					series: [
-						{
-							type: 'pie',
-							radius: mobile ? ['35%', '60%'] : ['40%', '72%'],
-							center: mobile ? ['50%', '40%'] : ['38%', '50%'],
-							itemStyle: {
-								borderRadius: 8,
-								borderColor: '#0a0f1e',
-								borderWidth: 3,
-							},
-							label: {
-								show: !mobile,
-								position: 'outside',
-								formatter: '{b}\n{d}%',
-								color: '#cbd5e1',
-								fontSize: 11,
-								fontWeight: 500,
-							},
-							emphasis: {
-								label: {
-									show: true,
-									fontSize: mobile ? 13 : 16,
-									fontWeight: 700,
-									color: '#f8fafc',
-								},
-								scaleSize: 6,
-							},
-							data: t.reasons.map((r, i) => ({
-								...r,
-								itemStyle: { color: reasonColors[i] },
-							})),
-						},
-					],
-				});
+    reasonChart.setOption({
+        tooltip: { trigger: 'item', ...TOOLTIP, formatter: '{b}: {d}%' },
+        legend: {
+            orient: 'horizontal',
+            bottom: 0,
+            left: 'center',
+            textStyle: { color: TX, fontSize: 10 },
+            itemWidth: 10, itemHeight: 10, itemGap: 10
+        },
+        series: [{
+            type: 'pie',
+            radius: mobile ? ['35%', '60%'] : ['40%', '72%'],
+            center: mobile ? ['50%', '40%'] : ['38%', '50%'],
+            itemStyle: { borderRadius: 8, borderColor: '#0a0f1e', borderWidth: 3 },
+            label: {
+                show: !mobile,
+                position: 'outside',
+                formatter: '{b}\n{d}%',
+                color: '#cbd5e1',
+                fontSize: 11,
+                fontWeight: 500
+            },
+            emphasis: {
+                label: { show: true, fontSize: mobile ? 13 : 16, fontWeight: 700, color: '#f8fafc' },
+                scaleSize: 6
+            },
+            data: t.reasons.map((r, i) => ({
+                ...r,
+                itemStyle: { color: reasonColors[i] }
+            }))
+        }]
+    });
 
-				monthlyCompareChart.setOption({
-					tooltip: {
-						trigger: 'axis',
-						axisPointer: { type: 'shadow' },
-						...TOOLTIP,
-					},
-					legend: {
-						top: 0,
-						textStyle: { color: TX, fontSize: mobile ? 10 : 12 },
-						itemWidth: 12,
-						itemHeight: 12,
-					},
-					grid: {
-						left: '3%',
-						right: '4%',
-						top: '16%',
-						bottom: mobile ? '10%' : '10%',
-						containLabel: true,
-					},
-					xAxis: {
-						type: 'category',
-						data: t.monthLabels,
-						axisLabel: { color: TX, fontSize: mobile ? 9 : 11 },
-						axisLine: { lineStyle: { color: AX } },
-						axisTick: { show: false },
-					},
-					yAxis: {
-						type: 'value',
-						axisLabel: {
-							color: TX,
-							formatter: (v) => (v >= 1000 ? v / 1000 + 'k' : v),
-							fontSize: mobile ? 10 : 12,
-						},
-						splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-					},
-					series: [
-						{
-							name: t.series2025,
-							type: 'bar',
-							data: monthlyComparisonData.map((d) => d.layoffs_2025),
-							itemStyle: { color: '#38bdf8', borderRadius: [4, 4, 0, 0] },
-						},
-						{
-							name: t.series2026,
-							type: 'bar',
-							data: monthlyComparisonData.map((d) => d.layoffs_2026),
-							itemStyle: { color: '#f59e0b', borderRadius: [4, 4, 0, 0] },
-						},
-					],
-				});
+    monthlyCompareChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
+        legend: {
+            top: 0,
+            textStyle: { color: TX, fontSize: mobile ? 10 : 12 },
+            itemWidth: 12, itemHeight: 12
+        },
+        grid: { left: '3%', right: '4%', top: '16%', bottom: mobile ? '10%' : '10%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: t.monthLabels,
+            axisLabel: { color: TX, fontSize: mobile ? 9 : 11 },
+            axisLine: { lineStyle: { color: AX } },
+            axisTick: { show: false }
+        },
+        yAxis: {
+            type: 'value',
+            axisLabel: { color: TX, formatter: v => v >= 1000 ? (v/1000)+'k' : v, fontSize: mobile ? 10 : 12 },
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } }
+        },
+        series: [
+            {
+                name: t.series2025,
+                type: 'bar',
+                data: monthlyComparisonData.map(d => d.layoffs_2025),
+                itemStyle: { color: '#38bdf8', borderRadius: [4, 4, 0, 0] }
+            },
+            {
+                name: t.series2026,
+                type: 'bar',
+                data: monthlyComparisonData.map(d => d.layoffs_2026),
+                itemStyle: { color: '#f59e0b', borderRadius: [4, 4, 0, 0] }
+            }
+        ]
+    });
 
-				percentageChart.setOption({
-					tooltip: {
-						trigger: 'axis',
-						axisPointer: { type: 'shadow' },
-						...TOOLTIP,
-					},
-					grid: {
-						left: '3%',
-						right: '4%',
-						top: '10%',
-						bottom: '8%',
-						containLabel: true,
-					},
-					xAxis: {
-						type: 'category',
-						data: layoffPctDistribution.map((d) => d.bucket),
-						axisLabel: { color: TX, fontSize: mobile ? 10 : 12 },
-						axisLine: { lineStyle: { color: AX } },
-						axisTick: { show: false },
-					},
-					yAxis: {
-						type: 'value',
-						axisLabel: { color: TX, fontSize: mobile ? 10 : 12 },
-						splitLine: { lineStyle: { color: AX, type: 'dashed' } },
-					},
-					series: [
-						{
-							type: 'bar',
-							data: layoffPctDistribution.map((d) => d.event_count),
-							itemStyle: {
-								color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-									{ offset: 0, color: '#22c55e' },
-									{ offset: 1, color: '#14b8a6' },
-								]),
-								borderRadius: [6, 6, 0, 0],
-							},
-							label: {
-								show: true,
-								position: 'top',
-								color: '#94a3b8',
-								fontSize: mobile ? 10 : 12,
-								formatter: (p) => p.value.toLocaleString(),
-							},
-						},
-					],
-				});
+    percentageChart.setOption({
+        tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' }, ...TOOLTIP },
+        grid: { left: '3%', right: '4%', top: '10%', bottom: '8%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: layoffPctDistribution.map(d => d.bucket),
+            axisLabel: { color: TX, fontSize: mobile ? 10 : 12 },
+            axisLine: { lineStyle: { color: AX } },
+            axisTick: { show: false }
+        },
+        yAxis: {
+            type: 'value',
+            axisLabel: { color: TX, fontSize: mobile ? 10 : 12 },
+            splitLine: { lineStyle: { color: AX, type: 'dashed' } }
+        },
+        series: [{
+            type: 'bar',
+            data: layoffPctDistribution.map(d => d.event_count),
+            itemStyle: {
+                color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                    { offset: 0, color: '#22c55e' },
+                    { offset: 1, color: '#14b8a6' }
+                ]),
+                borderRadius: [6, 6, 0, 0]
+            },
+            label: {
+                show: true,
+                position: 'top',
+                color: '#94a3b8',
+                fontSize: mobile ? 10 : 12,
+                formatter: p => p.value.toLocaleString()
+            }
+        }]
+    });
 
-				stageHeatmapChart.setOption({
-					tooltip: {
-						position: 'top',
-						...TOOLTIP,
-						formatter: (params) => {
-							const cell = stageHeatmapData.cells[params.dataIndex];
-							return `${cell.stage}<br>${cell.size_bucket}: ${cell.event_count.toLocaleString()} ${t.heatmapLegend.toLowerCase()}`;
-						},
-					},
-					grid: {
-						left: '3%',
-						right: '3%',
-						top: '10%',
-						bottom: '15%',
-						containLabel: true,
-					},
-					xAxis: {
-						type: 'category',
-						data: stageHeatmapData.size_buckets,
-						splitArea: { show: true },
-						axisLabel: {
-							color: TX,
-							fontSize: mobile ? 9 : 11,
-							rotate: mobile ? 30 : 0,
-						},
-						axisLine: { lineStyle: { color: AX } },
-					},
-					yAxis: {
-						type: 'category',
-						data: stageHeatmapData.stages,
-						splitArea: { show: true },
-						axisLabel: { color: TX, fontSize: mobile ? 9 : 11 },
-						axisLine: { lineStyle: { color: AX } },
-					},
-					visualMap: {
-						min: 0,
-						max: Math.max(
-							...stageHeatmapData.cells.map((c) => c.event_count),
-							1,
-						),
-						calculable: true,
-						orient: 'horizontal',
-						left: 'center',
-						bottom: 0,
-						itemWidth: mobile ? 10 : 20,
-						itemHeight: mobile ? 100 : 140,
-						textStyle: { color: TX, fontSize: 10 },
-					},
-					series: [
-						{
-							name: t.heatmapLegend,
-							type: 'heatmap',
-							data: stageHeatmapData.cells.map((cell) => [
-								stageHeatmapData.size_buckets.indexOf(cell.size_bucket),
-								stageHeatmapData.stages.indexOf(cell.stage),
-								cell.event_count,
-							]),
-							label: {
-								show: true,
-								color: '#f8fafc',
-								fontSize: mobile ? 9 : 11,
-								formatter: (params) =>
-									params.value[2] ? params.value[2].toLocaleString() : '',
-							},
-							emphasis: {
-								itemStyle: {
-									shadowBlur: 10,
-									shadowColor: 'rgba(0, 0, 0, 0.4)',
-								},
-							},
-						},
-					],
-				});
-			}
+    stageHeatmapChart.setOption({
+        tooltip: {
+            position: 'top',
+            ...TOOLTIP,
+            formatter: params => {
+                const cell = stageHeatmapData.cells[params.dataIndex];
+                return `${cell.stage}<br>${cell.size_bucket}: ${cell.event_count.toLocaleString()} ${t.heatmapLegend.toLowerCase()}`;
+            }
+        },
+        grid: { left: '3%', right: '3%', top: '10%', bottom: '15%', containLabel: true },
+        xAxis: {
+            type: 'category',
+            data: stageHeatmapData.size_buckets,
+            splitArea: { show: true },
+            axisLabel: { color: TX, fontSize: mobile ? 9 : 11, rotate: mobile ? 30 : 0 },
+            axisLine: { lineStyle: { color: AX } },
+        },
+        yAxis: {
+            type: 'category',
+            data: stageHeatmapData.stages,
+            splitArea: { show: true },
+            axisLabel: { color: TX, fontSize: mobile ? 9 : 11 },
+            axisLine: { lineStyle: { color: AX } },
+        },
+        visualMap: {
+            min: 0,
+            max: Math.max(...stageHeatmapData.cells.map(c => c.event_count), 1),
+            calculable: true,
+            orient: 'horizontal',
+            left: 'center',
+            bottom: 0,
+            itemWidth: mobile ? 10 : 20,
+            itemHeight: mobile ? 100 : 140,
+            textStyle: { color: TX, fontSize: 10 },
+        },
+        series: [{
+            name: t.heatmapLegend,
+            type: 'heatmap',
+            data: stageHeatmapData.cells.map(cell => ([
+                stageHeatmapData.size_buckets.indexOf(cell.size_bucket),
+                stageHeatmapData.stages.indexOf(cell.stage),
+                cell.event_count,
+            ])),
+            label: {
+                show: true,
+                color: '#f8fafc',
+                fontSize: mobile ? 9 : 11,
+                formatter: params => params.value[2] ? params.value[2].toLocaleString() : ''
+            },
+            emphasis: {
+                itemStyle: {
+                    shadowBlur: 10,
+                    shadowColor: 'rgba(0, 0, 0, 0.4)',
+                }
+            }
+        }]
+    });
+}
 
-			// ═══════════════════════════════════════════════════════
-			//  Language Switching
-			// ═══════════════════════════════════════════════════════
-			function switchLang(lang) {
-				currentLang = lang;
-				const t = i18n[lang];
+// ═══════════════════════════════════════════════════════
+//  Language Switching
+// ═══════════════════════════════════════════════════════
+function switchLang(lang) {
+    currentLang = lang;
+    const t = i18n[lang];
 
-				// Update HTML lang attribute
-				document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    // Update HTML lang attribute
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
 
-				// Toggle button styles
-				document
-					.getElementById('btnEN')
-					.classList.toggle('active', lang === 'en');
-				document
-					.getElementById('btnCN')
-					.classList.toggle('active', lang === 'zh');
+    // Toggle button styles
+    document.getElementById('btnEN').classList.toggle('active', lang === 'en');
+    document.getElementById('btnCN').classList.toggle('active', lang === 'zh');
 
-				// Update page text
-				document.getElementById('pageTitle').textContent = t.title;
-				document.getElementById('pageSubtitle').textContent = t.subtitle;
-				document.getElementById('pageBadge').textContent = t.badge;
+    // Update page text
+    document.getElementById('pageTitle').textContent = t.title;
+    document.getElementById('pageSubtitle').textContent = t.subtitle;
+    document.getElementById('pageBadge').textContent = t.badge;
 
-				// KPI cards
-				document.getElementById('kpi1Label').textContent = t.kpi1Label;
-				document.getElementById('kpi1Hint').textContent = t.kpi1Hint;
-				document.getElementById('kpi2Label').textContent = t.kpi2Label;
-				document.getElementById('kpi2Hint').textContent = t.kpi2Hint;
-				document.getElementById('kpi3Label').textContent = t.kpi3Label;
-				document.getElementById('kpi3Hint').textContent = t.kpi3Hint;
-				document.getElementById('kpi4Label').textContent = t.kpi4Label;
+    // KPI cards
+    document.getElementById('kpi1Label').textContent = t.kpi1Label;
+    document.getElementById('kpi1Hint').textContent = t.kpi1Hint;
+    document.getElementById('kpi2Label').textContent = t.kpi2Label;
+    document.getElementById('kpi2Hint').textContent = t.kpi2Hint;
+    document.getElementById('kpi3Label').textContent = t.kpi3Label;
+    document.getElementById('kpi3Hint').textContent = t.kpi3Hint;
+    document.getElementById('kpi4Label').textContent = t.kpi4Label;
 
-				// Chart titles
-				document.getElementById('chartTitle1').textContent = t.chartTitle1;
-				document.getElementById('chartTitle2').textContent = t.chartTitle2;
-				document.getElementById('chartTitle3').textContent = t.chartTitle3;
-				document.getElementById('chartTitle4').textContent = t.chartTitle4;
-				document.getElementById('chartTitle5').textContent = t.chartTitle5;
-				document.getElementById('chartTitle6').textContent = t.chartTitle6;
-				document.getElementById('chartTitle7').textContent = t.chartTitle7;
-				document.getElementById('chartTitle8').textContent = t.chartTitle8;
-				document.getElementById('tableTitle1').textContent = t.tableTitle1;
-				document.getElementById('recentHeadDate').textContent =
-					t.recentHeadDate;
-				document.getElementById('recentHeadCompany').textContent =
-					t.recentHeadCompany;
-				document.getElementById('recentHeadLayoffs').textContent =
-					t.recentHeadLayoffs;
-				document.getElementById('recentHeadPct').textContent = t.recentHeadPct;
-				document.getElementById('recentHeadIndustry').textContent =
-					t.recentHeadIndustry;
-				document.getElementById('recentHeadCountry').textContent =
-					t.recentHeadCountry;
-				document.getElementById('recentHeadStage').textContent =
-					t.recentHeadStage;
-				document.getElementById('recentHeadSource').textContent =
-					t.recentHeadSource;
+    // Chart titles
+    document.getElementById('chartTitle1').textContent = t.chartTitle1;
+    document.getElementById('chartTitle2').textContent = t.chartTitle2;
+    document.getElementById('chartTitle3').textContent = t.chartTitle3;
+    document.getElementById('chartTitle4').textContent = t.chartTitle4;
+    document.getElementById('chartTitle5').textContent = t.chartTitle5;
+    document.getElementById('chartTitle6').textContent = t.chartTitle6;
+    document.getElementById('chartTitle7').textContent = t.chartTitle7;
+    document.getElementById('chartTitle8').textContent = t.chartTitle8;
+    document.getElementById('tableTitle1').textContent = t.tableTitle1;
+    document.getElementById('recentHeadDate').textContent = t.recentHeadDate;
+    document.getElementById('recentHeadCompany').textContent = t.recentHeadCompany;
+    document.getElementById('recentHeadLayoffs').textContent = t.recentHeadLayoffs;
+    document.getElementById('recentHeadPct').textContent = t.recentHeadPct;
+    document.getElementById('recentHeadIndustry').textContent = t.recentHeadIndustry;
+    document.getElementById('recentHeadCountry').textContent = t.recentHeadCountry;
+    document.getElementById('recentHeadStage').textContent = t.recentHeadStage;
+    document.getElementById('recentHeadSource').textContent = t.recentHeadSource;
 
-				// Footer (uses innerHTML for links)
-				document.getElementById('pageFooter').innerHTML = t.footer;
+    // Footer (uses innerHTML for links)
+    document.getElementById('pageFooter').innerHTML = t.footer;
 
-				// Re-render charts with translated labels
-				renderCharts(t);
-				renderRecentLayoffs(t);
-			}
+    // Re-render charts with translated labels
+    renderCharts(t);
+    renderRecentLayoffs(t);
+}
 
-			// ═══════════════════════════════════════════════════════
-			//  Init
-			// ═══════════════════════════════════════════════════════
-			switchLang('en');
+// ═══════════════════════════════════════════════════════
+//  Init
+// ═══════════════════════════════════════════════════════
+switchLang('en');
 
-			window.addEventListener('resize', () => {
-				[
-					companyChart,
-					industryChart,
-					monthlyChart,
-					countryChart,
-					reasonChart,
-					monthlyCompareChart,
-					percentageChart,
-					stageHeatmapChart,
-				].forEach((c) => c.resize());
-			});
-		</script>
-	</body>
+window.addEventListener('resize', () => {
+    [companyChart, industryChart, monthlyChart, countryChart, reasonChart, monthlyCompareChart, percentageChart, stageHeatmapChart].forEach(c => c.resize());
+});
+</script>
+</body>
 </html>

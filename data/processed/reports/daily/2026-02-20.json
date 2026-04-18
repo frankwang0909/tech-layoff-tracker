@@ -1,0 +1,139 @@
+{
+  "report_type": "daily",
+  "period": "2026-02-20",
+  "status": "final",
+  "date_range": {
+    "start": "2026-02-20",
+    "end": "2026-02-20"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-02-20.html",
+  "kpis": {
+    "total_laid_off": 1000,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 1000.0,
+    "median_layoffs_per_headcount_event": 1000.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-02-19",
+      "total_laid_off": 0,
+      "event_count": 1,
+      "total_laid_off_delta": 1000,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-02-20",
+      "total_laid_off": 150,
+      "event_count": 1,
+      "total_laid_off_delta": 850,
+      "total_laid_off_pct_change": 5.6667,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Livspace",
+        "total_laid_off": 1000
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 1000
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 1000
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series F",
+        "total_laid_off": 1000
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-02-20",
+        "company": "Livspace",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.12,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-02-20",
+        "company": "Livspace",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.12,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+      },
+      {
+        "date": "2026-02-20",
+        "company": "Lucid Motors",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.12,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-02-20 includes 2 public layoff events and 1,000 reported layoffs.",
+    "The largest company contributor is Livspace with 1,000 reported layoffs.",
+    "The leading named industry is Consumer with 1,000 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

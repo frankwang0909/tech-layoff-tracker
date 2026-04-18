@@ -1,0 +1,563 @@
+{
+  "report_type": "monthly",
+  "period": "2026-01",
+  "status": "final",
+  "date_range": {
+    "start": "2026-01-05",
+    "end": "2026-01-30"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/monthly/2026-01.html",
+  "kpis": {
+    "total_laid_off": 24928,
+    "event_count": 30,
+    "headcount_event_count": 22,
+    "company_count": 29,
+    "country_count": 11,
+    "industry_count": 14,
+    "average_layoffs_per_headcount_event": 1133.09,
+    "median_layoffs_per_headcount_event": 210.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-12",
+      "total_laid_off": 1552,
+      "event_count": 20,
+      "total_laid_off_delta": 23376,
+      "total_laid_off_pct_change": 15.0619,
+      "event_count_delta": 10,
+      "event_count_pct_change": 0.5,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-01",
+      "total_laid_off": 2537,
+      "event_count": 32,
+      "total_laid_off_delta": 22391,
+      "total_laid_off_pct_change": 8.8258,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.0625,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Amazon",
+        "total_laid_off": 16000
+      },
+      {
+        "company": "ASML",
+        "total_laid_off": 1700
+      },
+      {
+        "company": "Ericsson",
+        "total_laid_off": 1600
+      },
+      {
+        "company": "Meta",
+        "total_laid_off": 1500
+      },
+      {
+        "company": "Autodesk",
+        "total_laid_off": 1000
+      },
+      {
+        "company": "Pinterest",
+        "total_laid_off": 700
+      },
+      {
+        "company": "Playtika",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Angi",
+        "total_laid_off": 350
+      },
+      {
+        "company": "Kaseya",
+        "total_laid_off": 250
+      },
+      {
+        "company": "Kiwi.com",
+        "total_laid_off": 250
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 16116
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 3360
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 2600
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 1700
+      },
+      {
+        "industry": "Manufacturing",
+        "total_laid_off": 250
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 250
+      },
+      {
+        "industry": "Travel",
+        "total_laid_off": 250
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 205
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 60
+      },
+      {
+        "industry": "Education",
+        "total_laid_off": 55
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 20123
+      },
+      {
+        "country": "Netherlands",
+        "total_laid_off": 1700
+      },
+      {
+        "country": "Sweden",
+        "total_laid_off": 1600
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 774
+      },
+      {
+        "country": "Czech Republic",
+        "total_laid_off": 250
+      },
+      {
+        "country": "India",
+        "total_laid_off": 200
+      },
+      {
+        "country": "Brazil",
+        "total_laid_off": 116
+      },
+      {
+        "country": "Cayman Islands",
+        "total_laid_off": 60
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 55
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 50
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 23686
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 528
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 250
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 250
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 59
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 55
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 5
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 6
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-01-28",
+        "company": "Amazon",
+        "num_laid_off": 16000,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+      },
+      {
+        "date": "2026-01-28",
+        "company": "ASML",
+        "num_laid_off": 1700,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
+      },
+      {
+        "date": "2026-01-13",
+        "company": "Meta",
+        "num_laid_off": 1500,
+        "percentage_laid_off": 0.02,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
+      },
+      {
+        "date": "2026-01-22",
+        "company": "Autodesk",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.07,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
+      },
+      {
+        "date": "2026-01-27",
+        "company": "Pinterest",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation"
+      },
+      {
+        "date": "2026-01-14",
+        "company": "Playtika",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
+      },
+      {
+        "date": "2026-01-07",
+        "company": "Angi",
+        "num_laid_off": 350,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://ir.angi.com/node/12951/html"
+      },
+      {
+        "date": "2026-01-29",
+        "company": "Kiwi.com",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.36,
+        "industry": "Travel",
+        "country": "Czech Republic",
+        "stage": "Unknown",
+        "source": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Kaseya",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-01-30",
+        "company": "Zupee",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
+      },
+      {
+        "date": "2026-01-30",
+        "company": "Peloton",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.11,
+        "industry": "Fitness",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/peloton-cuts-11-staff-including-engineering-teams-bloomberg-news-reports-2026-01-30/"
+      },
+      {
+        "date": "2026-01-29",
+        "company": "Kiwi.com",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.36,
+        "industry": "Travel",
+        "country": "Czech Republic",
+        "stage": "Unknown",
+        "source": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/"
+      },
+      {
+        "date": "2026-01-29",
+        "company": "Gloo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html"
+      },
+      {
+        "date": "2026-01-28",
+        "company": "Amazon",
+        "num_laid_off": 16000,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+      },
+      {
+        "date": "2026-01-28",
+        "company": "ASML",
+        "num_laid_off": 1700,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
+      },
+      {
+        "date": "2026-01-27",
+        "company": "Pinterest",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation"
+      },
+      {
+        "date": "2026-01-27",
+        "company": "Moon Active",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.05,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
+      },
+      {
+        "date": "2026-01-26",
+        "company": "Expedia",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/seattle/news/2026/01/26/expedia-layoffs-tech-team-interbay-travel.html"
+      },
+      {
+        "date": "2026-01-25",
+        "company": "Entropy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
+      },
+      {
+        "date": "2026-01-22",
+        "company": "Autodesk",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.07,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
+      },
+      {
+        "date": "2026-01-22",
+        "company": "Shopify",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+      },
+      {
+        "date": "2026-01-21",
+        "company": "Vimeo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/vimeo-laying-off-staff-after-billion-sale-to-bending-spoons-2026-1"
+      },
+      {
+        "date": "2026-01-20",
+        "company": "Vimeo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/sjtjgbabzx"
+      },
+      {
+        "date": "2026-01-16",
+        "company": "Polygon",
+        "num_laid_off": 60,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Cayman Islands",
+        "stage": "Unknown",
+        "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Tipalti",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
+      },
+      {
+        "date": "2026-01-14",
+        "company": "Playtika",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
+      },
+      {
+        "date": "2026-01-14",
+        "company": "Aleph Alpha",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.16,
+        "industry": "AI",
+        "country": "Germany",
+        "stage": "Series B",
+        "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+      },
+      {
+        "date": "2026-01-13",
+        "company": "Meta",
+        "num_laid_off": 1500,
+        "percentage_laid_off": 0.02,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-01-25",
+        "company": "Entropy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
+      },
+      {
+        "date": "2026-01-29",
+        "company": "Kiwi.com",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.36,
+        "industry": "Travel",
+        "country": "Czech Republic",
+        "stage": "Unknown",
+        "source": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-01 includes 30 public layoff events and 24,928 reported layoffs.",
+    "The largest company contributor is Amazon with 16,000 reported layoffs.",
+    "The leading named industry is Retail with 16,116 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "report_type": "daily",
+  "period": "2025-11-13",
+  "status": "final",
+  "date_range": {
+    "start": "2025-11-13",
+    "end": "2025-11-13"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-11-13.html",
+  "kpis": {
+    "total_laid_off": 37,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 37.0,
+    "median_layoffs_per_headcount_event": 37.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-11-12",
+      "total_laid_off": 2080,
+      "event_count": 2,
+      "total_laid_off_delta": -2043,
+      "total_laid_off_pct_change": -0.9822,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-11-13",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "BharatAgri",
+        "total_laid_off": 37
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Food",
+        "total_laid_off": 37
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 37
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series A",
+        "total_laid_off": 37
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      },
+      {
+        "date": "2025-11-13",
+        "company": "AI Fleet",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.bizjournals.com/austin/news/2025/11/13/layoffs-hit-at-austin-ai-startup.html"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-11-13 includes 2 public layoff events and 37 reported layoffs.",
+    "The largest company contributor is BharatAgri with 37 reported layoffs.",
+    "The leading named industry is Food with 37 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

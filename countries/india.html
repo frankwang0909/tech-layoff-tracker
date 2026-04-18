@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs by Country: India | Tech Layoff Tracker</title>
+    <meta name="description" content="India tech layoffs analysis: 8,755 reported layoffs across 47 public events from 2025-01-15 to 2026-04-03.">
+    <link rel="canonical" href="https://tech.debugcanada.com/countries/india.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tech.debugcanada.com/countries/india.html">
+    <meta property="og:title" content="Tech Layoffs by Country: India">
+    <meta property="og:description" content="India tech layoffs analysis: 8,755 reported layoffs across 47 public events from 2025-01-15 to 2026-04-03.">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Frank Wang"}, "dateModified": "2026-04-03", "datePublished": "2026-04-03", "description": "India tech layoffs analysis: 8,755 reported layoffs across 47 public events from 2025-01-15 to 2026-04-03.", "headline": "Tech Layoffs by Country: India", "mainEntityOfPage": "https://tech.debugcanada.com/countries/india.html", "publisher": {"@type": "Organization", "name": "Tech Layoff Tracker", "url": "https://tech.debugcanada.com"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/", "name": "Country", "position": 2}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/india.html", "name": "India", "position": 3}]}</script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
+        .hero { padding: 42px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
+        .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
+        .kpi { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 16px; background: rgba(15, 23, 42, 0.6); }
+        .kpi span { display: block; color: #64748b; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+        .kpi strong { display: block; margin-top: 6px; font-size: 28px; line-height: 1.1; color: #f8fafc; }
+        main { padding: 30px 0 54px; }
+        section { padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        h2 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; color: #f8fafc; }
+        .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .chart { width: 100%; height: 380px; border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; background: rgba(15, 23, 42, 0.6); }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); }
+        th, td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; vertical-align: top; font-size: 14px; color: #e2e8f0; }
+        th { color: #94a3b8; background: rgba(255,255,255,0.04); }
+        tr:last-child td { border-bottom: 0; }
+        .note { color: #64748b; font-size: 14px; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .kpis, .chart-grid { grid-template-columns: 1fr; }
+            .chart { height: 280px; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            .kpi strong { font-size: 22px; }
+            h2 { font-size: 22px; }
+            table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/" class="active">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/">Reports</a>
+            </nav>
+            <p class="eyebrow">Country analysis</p>
+            <h1>Tech Layoffs by Country: India</h1>
+            <p class="dek">India has 8,755 reported tech layoffs across 47 public events from 2025-01-15 to 2026-04-03.</p>
+            <div class="meta">
+                <span>Data range: 2025-01-15 to 2026-04-03</span>
+                <span>Based on public layoff records</span>
+            </div>
+            <div class="kpis" aria-label="Topic key metrics">
+                <div class="kpi"><span>Total layoffs</span><strong>8,755</strong></div>
+                <div class="kpi"><span>Events</span><strong>47</strong></div>
+                <div class="kpi"><span>Companies</span><strong>38</strong></div>
+                <div class="kpi"><span>High intensity</span><strong>16</strong></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>India tech layoffs analysis: 8,755 reported layoffs across 47 public events from 2025-01-15 to 2026-04-03.</p>
+            <p class="note">This page is generated as a focused topic page. It should be interpreted with the same methodology limits as the main trend report.</p>
+        </section>
+
+        <section id="charts">
+            <h2>Trend and Companies</h2>
+            <div class="chart-grid">
+                <div id="monthlyChart" class="chart" aria-label="Monthly trend chart"></div>
+                <div id="companyChart" class="chart" aria-label="Top companies chart"></div>
+            </div>
+        </section>
+
+        <section id="recent-events">
+            <h2>Recent Events</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Company</th>
+                        <th>Laid off</th>
+                        <th>Industry</th>
+                        <th>Country</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>2026-04-03</td>
+                        <td>NeuroPixel.AI</td>
+                        <td>N/A</td>
+                        <td>Retail</td>
+                        <td>India</td>
+                        <td><a href="https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-03-31</td>
+                        <td>Covrzy</td>
+                        <td>N/A</td>
+                        <td>Finance</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-03-06</td>
+                        <td>Flipkart</td>
+                        <td>500</td>
+                        <td>Retail</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-02-20</td>
+                        <td>Livspace</td>
+                        <td>1,000</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-02-10</td>
+                        <td>Fi.Money</td>
+                        <td>N/A</td>
+                        <td>Finance</td>
+                        <td>India</td>
+                        <td><a href="https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-30</td>
+                        <td>Zupee</td>
+                        <td>200</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-12-09</td>
+                        <td>Whatfix</td>
+                        <td>60</td>
+                        <td>AI</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-12-09</td>
+                        <td>GenWise</td>
+                        <td>N/A</td>
+                        <td>Other</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-11-26</td>
+                        <td>Junglee Games</td>
+                        <td>350</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/junglee-games-parent-flutter-sheds-350-jobs-in-post-rmg-ban-recast/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-11-16</td>
+                        <td>Flipkart</td>
+                        <td>40</td>
+                        <td>Retail</td>
+                        <td>India</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/sk7ktewxwg" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-11-13</td>
+                        <td>BharatAgri</td>
+                        <td>37</td>
+                        <td>Food</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-11-10</td>
+                        <td>GamesKraft</td>
+                        <td>280</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-11-04</td>
+                        <td>Porter</td>
+                        <td>350</td>
+                        <td>Logistics</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-10-18</td>
+                        <td>Zepto</td>
+                        <td>300</td>
+                        <td>Retail</td>
+                        <td>India</td>
+                        <td><a href="https://www.moneycontrol.com/news/business/startup/around-300-employees-impacted-at-zepto-amid-cost-efficiency-drive-at-the-quick-commerce-company-13622853.html" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-10-01</td>
+                        <td>Simpl</td>
+                        <td>80</td>
+                        <td>Finance</td>
+                        <td>India</td>
+                        <td><a href="https://inc42.com/buzz/bnpl-startup-simpl-lays-off-80-employees-after-rbi-whiplash/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+Disclaimer: Some figures are estimates or planned reductions<br><br>
+<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp;
+<a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp;
+<a href="https://debugcanada.com" target="_blank">Debug Canada</a>
+    </footer>
+
+<script>
+const page = {"canonical_url": "/countries/india.html", "charts": {"company_top": [{"company": "Livspace", "total_laid_off": 1000}, {"company": "Ola Electric", "total_laid_off": 1000}, {"company": "Zomato", "total_laid_off": 600}, {"company": "Games 24x7", "total_laid_off": 580}, {"company": "Flipkart", "total_laid_off": 540}, {"company": "Cars24", "total_laid_off": 520}, {"company": "Head Digital Works", "total_laid_off": 500}, {"company": "GamesKraft", "total_laid_off": 400}, {"company": "Zupee", "total_laid_off": 370}, {"company": "VerSe Innovation copy", "total_laid_off": 350}], "monthly_trend": [{"month": "2025-01", "total_laid_off": 102}, {"month": "2025-03", "total_laid_off": 1000}, {"month": "2025-04", "total_laid_off": 1300}, {"month": "2025-05", "total_laid_off": 965}, {"month": "2025-07", "total_laid_off": 206}, {"month": "2025-08", "total_laid_off": 295}, {"month": "2025-09", "total_laid_off": 1690}, {"month": "2025-10", "total_laid_off": 380}, {"month": "2025-11", "total_laid_off": 1057}, {"month": "2025-12", "total_laid_off": 60}, {"month": "2026-01", "total_laid_off": 200}, {"month": "2026-02", "total_laid_off": 1000}, {"month": "2026-03", "total_laid_off": 500}]}, "date_range": {"end": "2026-04-03", "start": "2025-01-15"}, "kpis": {"company_count": 38, "country_count": 1, "event_count": 47, "headcount_event_count": 36, "high_intensity_event_count": 16, "industry_count": 13, "total_laid_off": 8755}, "name": "India", "slug": "india", "summary": "India has 8,755 reported tech layoffs across 47 public events from 2025-01-15 to 2026-04-03.", "tables": {"recent_events": [{"company": "NeuroPixel.AI", "country": "India", "date": "2026-04-03", "industry": "Retail", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982", "stage": "Seed"}, {"company": "Covrzy", "country": "India", "date": "2026-03-31", "industry": "Finance", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/", "stage": "Seed"}, {"company": "Flipkart", "country": "India", "date": "2026-03-06", "industry": "Retail", "num_laid_off": 500, "percentage_laid_off": null, "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/", "stage": "Acquired"}, {"company": "Livspace", "country": "India", "date": "2026-02-20", "industry": "Consumer", "num_laid_off": 1000, "percentage_laid_off": 0.12, "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/", "stage": "Series F"}, {"company": "Fi.Money", "country": "India", "date": "2026-02-10", "industry": "Finance", "num_laid_off": null, "percentage_laid_off": 0.4, "source": "https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded", "stage": "Series C"}, {"company": "Zupee", "country": "India", "date": "2026-01-30", "industry": "Consumer", "num_laid_off": 200, "percentage_laid_off": null, "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban", "stage": "Series B"}, {"company": "Whatfix", "country": "India", "date": "2025-12-09", "industry": "AI", "num_laid_off": 60, "percentage_laid_off": 0.06, "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/", "stage": "Series E"}, {"company": "GenWise", "country": "India", "date": "2025-12-09", "industry": "Other", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/", "stage": "Seed"}, {"company": "Junglee Games", "country": "India", "date": "2025-11-26", "industry": "Consumer", "num_laid_off": 350, "percentage_laid_off": null, "source": "https://inc42.com/buzz/junglee-games-parent-flutter-sheds-350-jobs-in-post-rmg-ban-recast/", "stage": "Seed"}, {"company": "Flipkart", "country": "India", "date": "2025-11-16", "industry": "Retail", "num_laid_off": 40, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg", "stage": "Acquired"}, {"company": "BharatAgri", "country": "India", "date": "2025-11-13", "industry": "Food", "num_laid_off": 37, "percentage_laid_off": 1.0, "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/", "stage": "Series A"}, {"company": "GamesKraft", "country": "India", "date": "2025-11-10", "industry": "Consumer", "num_laid_off": 280, "percentage_laid_off": null, "source": "https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/", "stage": "Unknown"}, {"company": "Porter", "country": "India", "date": "2025-11-04", "industry": "Logistics", "num_laid_off": 350, "percentage_laid_off": 0.18, "source": "https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/", "stage": "Series F"}, {"company": "Zepto", "country": "India", "date": "2025-10-18", "industry": "Retail", "num_laid_off": 300, "percentage_laid_off": 0.05, "source": "https://www.moneycontrol.com/news/business/startup/around-300-employees-impacted-at-zepto-amid-cost-efficiency-drive-at-the-quick-commerce-company-13622853.html", "stage": "Series H"}, {"company": "Simpl", "country": "India", "date": "2025-10-01", "industry": "Finance", "num_laid_off": 80, "percentage_laid_off": null, "source": "https://inc42.com/buzz/bnpl-startup-simpl-lays-off-80-employees-after-rbi-whiplash/", "stage": "Series B"}]}, "title": "Tech Layoffs by Country: India", "type": "country"};
+const tooltip = { backgroundColor: '#0a0f1e', borderColor: '#1e293b', textStyle: { color: '#e2e8f0' } };
+const TX = '#94a3b8', AX = '#1e293b';
+function init(id) { return echarts.init(document.getElementById(id), null, { renderer: 'canvas' }); }
+function shortNumber(v) { return v >= 1000 ? `${Math.round(v / 100) / 10}k` : v; }
+const monthlyChart = init('monthlyChart');
+monthlyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 54, right: 24, top: 28, bottom: 70 },
+    xAxis: { type: 'category', data: page.charts.monthly_trend.map(d => d.month), axisLabel: { rotate: 45, color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [{ type: 'bar', data: page.charts.monthly_trend.map(d => d.total_laid_off), itemStyle: { color: '#38bdf8' } }]
+});
+const companyChart = init('companyChart');
+companyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 130, right: 24, top: 28, bottom: 36 },
+    xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    yAxis: { type: 'category', data: page.charts.company_top.map(d => d.company).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    series: [{ type: 'bar', data: page.charts.company_top.map(d => d.total_laid_off).reverse(), itemStyle: { color: '#0e9384' } }]
+});
+window.addEventListener('resize', () => [monthlyChart, companyChart].forEach(chart => chart.resize()));
+</script>
+</body>
+</html>

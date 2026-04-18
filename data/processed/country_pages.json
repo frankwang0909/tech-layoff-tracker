@@ -1,0 +1,2027 @@
+[
+  {
+    "type": "country",
+    "name": "United States",
+    "slug": "united-states",
+    "title": "Tech Layoffs by Country: United States",
+    "canonical_url": "/countries/united-states.html",
+    "date_range": {
+      "start": "2025-01-02",
+      "end": "2026-04-16"
+    },
+    "kpis": {
+      "total_laid_off": 164446,
+      "event_count": 260,
+      "headcount_event_count": 171,
+      "company_count": 194,
+      "country_count": 1,
+      "industry_count": 29,
+      "high_intensity_event_count": 44
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 994
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 17629
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 4327
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 23835
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 7338
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 901
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 15937
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 6074
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 1584
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 18440
+        },
+        {
+          "month": "2025-11",
+          "total_laid_off": 6715
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 492
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 20123
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 5872
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 31720
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 2465
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Oracle",
+          "total_laid_off": 31094
+        },
+        {
+          "company": "Amazon",
+          "total_laid_off": 30284
+        },
+        {
+          "company": "Intel",
+          "total_laid_off": 27058
+        },
+        {
+          "company": "Microsoft",
+          "total_laid_off": 15347
+        },
+        {
+          "company": "HP",
+          "total_laid_off": 8000
+        },
+        {
+          "company": "Meta",
+          "total_laid_off": 6000
+        },
+        {
+          "company": "Salesforce",
+          "total_laid_off": 5385
+        },
+        {
+          "company": "Block",
+          "total_laid_off": 4931
+        },
+        {
+          "company": "Hewlett Packard Enterprise",
+          "total_laid_off": 2552
+        },
+        {
+          "company": "Autodesk",
+          "total_laid_off": 2350
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-04-16",
+          "company": "Shutterfly",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Manufacturing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Productboard",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Snap",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.16,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "UKG",
+          "num_laid_off": 950,
+          "percentage_laid_off": null,
+          "industry": "HR",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+        },
+        {
+          "date": "2026-04-13",
+          "company": "Eventbrite",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+        },
+        {
+          "date": "2026-04-09",
+          "company": "Cars.com",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.11,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
+        },
+        {
+          "date": "2026-04-09",
+          "company": "Pepper Pay",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+        },
+        {
+          "date": "2026-04-07",
+          "company": "GoPro",
+          "num_laid_off": 145,
+          "percentage_laid_off": 0.23,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
+        },
+        {
+          "date": "2026-04-07",
+          "company": "Pendo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.1,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        },
+        {
+          "date": "2026-04-05",
+          "company": "Bolt",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.33,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
+        },
+        {
+          "date": "2026-04-03",
+          "company": "Vimeo",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
+        },
+        {
+          "date": "2026-04-02",
+          "company": "Meta",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+        },
+        {
+          "date": "2026-04-01",
+          "company": "Sonos",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
+        },
+        {
+          "date": "2026-03-31",
+          "company": "Oracle",
+          "num_laid_off": 30000,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
+        },
+        {
+          "date": "2026-03-31",
+          "company": "Rec Room",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+        }
+      ]
+    },
+    "summary": "United States has 164,446 reported tech layoffs across 260 public events from 2025-01-02 to 2026-04-16."
+  },
+  {
+    "type": "country",
+    "name": "India",
+    "slug": "india",
+    "title": "Tech Layoffs by Country: India",
+    "canonical_url": "/countries/india.html",
+    "date_range": {
+      "start": "2025-01-15",
+      "end": "2026-04-03"
+    },
+    "kpis": {
+      "total_laid_off": 8755,
+      "event_count": 47,
+      "headcount_event_count": 36,
+      "company_count": 38,
+      "country_count": 1,
+      "industry_count": 13,
+      "high_intensity_event_count": 16
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 102
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 1000
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 1300
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 965
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 206
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 295
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 1690
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 380
+        },
+        {
+          "month": "2025-11",
+          "total_laid_off": 1057
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 1000
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 500
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Livspace",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Ola Electric",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Zomato",
+          "total_laid_off": 600
+        },
+        {
+          "company": "Games 24x7",
+          "total_laid_off": 580
+        },
+        {
+          "company": "Flipkart",
+          "total_laid_off": 540
+        },
+        {
+          "company": "Cars24",
+          "total_laid_off": 520
+        },
+        {
+          "company": "Head Digital Works",
+          "total_laid_off": 500
+        },
+        {
+          "company": "GamesKraft",
+          "total_laid_off": 400
+        },
+        {
+          "company": "Zupee",
+          "total_laid_off": 370
+        },
+        {
+          "company": "VerSe Innovation copy",
+          "total_laid_off": 350
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-04-03",
+          "company": "NeuroPixel.AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Retail",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+        },
+        {
+          "date": "2026-03-31",
+          "company": "Covrzy",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+        },
+        {
+          "date": "2026-03-06",
+          "company": "Flipkart",
+          "num_laid_off": 500,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "India",
+          "stage": "Acquired",
+          "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
+        },
+        {
+          "date": "2026-02-20",
+          "company": "Livspace",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.12,
+          "industry": "Consumer",
+          "country": "India",
+          "stage": "Series F",
+          "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+        },
+        {
+          "date": "2026-02-10",
+          "company": "Fi.Money",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.4,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Series C",
+          "source": "https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded"
+        },
+        {
+          "date": "2026-01-30",
+          "company": "Zupee",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "India",
+          "stage": "Series B",
+          "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
+        },
+        {
+          "date": "2025-12-09",
+          "company": "Whatfix",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.06,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Series E",
+          "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+        },
+        {
+          "date": "2025-12-09",
+          "company": "GenWise",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
+        },
+        {
+          "date": "2025-11-26",
+          "company": "Junglee Games",
+          "num_laid_off": 350,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/junglee-games-parent-flutter-sheds-350-jobs-in-post-rmg-ban-recast/"
+        },
+        {
+          "date": "2025-11-16",
+          "company": "Flipkart",
+          "num_laid_off": 40,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "India",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
+        },
+        {
+          "date": "2025-11-13",
+          "company": "BharatAgri",
+          "num_laid_off": 37,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Series A",
+          "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+        },
+        {
+          "date": "2025-11-10",
+          "company": "GamesKraft",
+          "num_laid_off": 280,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/"
+        },
+        {
+          "date": "2025-11-04",
+          "company": "Porter",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.18,
+          "industry": "Logistics",
+          "country": "India",
+          "stage": "Series F",
+          "source": "https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/"
+        },
+        {
+          "date": "2025-10-18",
+          "company": "Zepto",
+          "num_laid_off": 300,
+          "percentage_laid_off": 0.05,
+          "industry": "Retail",
+          "country": "India",
+          "stage": "Series H",
+          "source": "https://www.moneycontrol.com/news/business/startup/around-300-employees-impacted-at-zepto-amid-cost-efficiency-drive-at-the-quick-commerce-company-13622853.html"
+        },
+        {
+          "date": "2025-10-01",
+          "company": "Simpl",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Series B",
+          "source": "https://inc42.com/buzz/bnpl-startup-simpl-lays-off-80-employees-after-rbi-whiplash/"
+        }
+      ]
+    },
+    "summary": "India has 8,755 reported tech layoffs across 47 public events from 2025-01-15 to 2026-04-03."
+  },
+  {
+    "type": "country",
+    "name": "Israel",
+    "slug": "israel",
+    "title": "Tech Layoffs by Country: Israel",
+    "canonical_url": "/countries/israel.html",
+    "date_range": {
+      "start": "2025-01-06",
+      "end": "2026-04-13"
+    },
+    "kpis": {
+      "total_laid_off": 4781,
+      "event_count": 43,
+      "headcount_event_count": 29,
+      "company_count": 38,
+      "country_count": 1,
+      "industry_count": 17,
+      "high_intensity_event_count": 14
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 445
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 75
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 67
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 230
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 120
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 155
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 250
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 85
+        },
+        {
+          "month": "2025-11",
+          "total_laid_off": 700
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 920
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 774
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 960
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Playtika",
+          "total_laid_off": 1290
+        },
+        {
+          "company": "eBay",
+          "total_laid_off": 1020
+        },
+        {
+          "company": "Sapiens",
+          "total_laid_off": 700
+        },
+        {
+          "company": "SolarEdge",
+          "total_laid_off": 400
+        },
+        {
+          "company": "Fiverr",
+          "total_laid_off": 250
+        },
+        {
+          "company": "Mobileye",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Rewire",
+          "total_laid_off": 110
+        },
+        {
+          "company": "Moon Active",
+          "total_laid_off": 110
+        },
+        {
+          "company": "eToro",
+          "total_laid_off": 105
+        },
+        {
+          "company": "Lightricks",
+          "total_laid_off": 85
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-04-13",
+          "company": "StarkWare",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+        },
+        {
+          "date": "2026-02-26",
+          "company": "eBay",
+          "num_laid_off": 800,
+          "percentage_laid_off": 0.06,
+          "industry": "Retail",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+        },
+        {
+          "date": "2026-02-15",
+          "company": "Huawei",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
+        },
+        {
+          "date": "2026-02-15",
+          "company": "Firebolt",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
+        },
+        {
+          "date": "2026-02-04",
+          "company": "Rewire",
+          "num_laid_off": 110,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
+        },
+        {
+          "date": "2026-01-27",
+          "company": "Moon Active",
+          "num_laid_off": 110,
+          "percentage_laid_off": 0.05,
+          "industry": "Consumer",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
+        },
+        {
+          "date": "2026-01-14",
+          "company": "Playtika",
+          "num_laid_off": 500,
+          "percentage_laid_off": 0.15,
+          "industry": "Consumer",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
+        },
+        {
+          "date": "2026-01-13",
+          "company": "eToro",
+          "num_laid_off": 105,
+          "percentage_laid_off": 0.07,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
+        },
+        {
+          "date": "2026-01-13",
+          "company": "StoreDot",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
+        },
+        {
+          "date": "2026-01-08",
+          "company": "Foretellix",
+          "num_laid_off": 29,
+          "percentage_laid_off": 0.18,
+          "industry": "Transportation",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
+        },
+        {
+          "date": "2026-01-08",
+          "company": "Hailo",
+          "num_laid_off": 30,
+          "percentage_laid_off": 0.1,
+          "industry": "Manufacturing",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+        },
+        {
+          "date": "2025-12-28",
+          "company": "Sapiens",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.15,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
+        },
+        {
+          "date": "2025-12-11",
+          "company": "Believer Meats",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "Israel",
+          "stage": "Series B",
+          "source": "https://www.calcalistech.com/ctechnews/article/bknaajdzbe"
+        },
+        {
+          "date": "2025-12-08",
+          "company": "Mobileye",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.04,
+          "industry": "Transportation",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/hjznnzvzzl"
+        },
+        {
+          "date": "2025-12-03",
+          "company": "Cellebrite",
+          "num_laid_off": 20,
+          "percentage_laid_off": 0.01,
+          "industry": "Other",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/izmghyvm1"
+        }
+      ]
+    },
+    "summary": "Israel has 4,781 reported tech layoffs across 43 public events from 2025-01-06 to 2026-04-13."
+  },
+  {
+    "type": "country",
+    "name": "Sweden",
+    "slug": "sweden",
+    "title": "Tech Layoffs by Country: Sweden",
+    "canonical_url": "/countries/sweden.html",
+    "date_range": {
+      "start": "2025-01-13",
+      "end": "2026-03-23"
+    },
+    "kpis": {
+      "total_laid_off": 4615,
+      "event_count": 5,
+      "headcount_event_count": 4,
+      "company_count": 5,
+      "country_count": 1,
+      "industry_count": 5,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-03",
+          "total_laid_off": 2800
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 1600
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 15
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Northvolt",
+          "total_laid_off": 2800
+        },
+        {
+          "company": "Ericsson",
+          "total_laid_off": 1600
+        },
+        {
+          "company": "King.com",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Spotify",
+          "total_laid_off": 15
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-03-23",
+          "company": "Spotify",
+          "num_laid_off": 15,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "Sweden",
+          "stage": "Post-IPO",
+          "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+        },
+        {
+          "date": "2026-01-15",
+          "company": "Ericsson",
+          "num_laid_off": 1600,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Sweden",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
+        },
+        {
+          "date": "2025-07-14",
+          "company": "King.com",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Sweden",
+          "stage": "Acquired",
+          "source": "https://mobilegamer.biz/laid-off-king-staff-set-to-be-replaced-by-the-ai-tools-they-helped-build-say-sources/"
+        },
+        {
+          "date": "2025-03-31",
+          "company": "Northvolt",
+          "num_laid_off": 2800,
+          "percentage_laid_off": 0.62,
+          "industry": "Energy",
+          "country": "Sweden",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+        },
+        {
+          "date": "2025-01-13",
+          "company": "Boozt",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Retail",
+          "country": "Sweden",
+          "stage": "Post-IPO",
+          "source": "https://www.breakit.se/artikel/42184/boozt-sager-upp-var-tionde-pekar-pa-ai"
+        }
+      ]
+    },
+    "summary": "Sweden has 4,615 reported tech layoffs across 5 public events from 2025-01-13 to 2026-03-23."
+  },
+  {
+    "type": "country",
+    "name": "Australia",
+    "slug": "australia",
+    "title": "Tech Layoffs by Country: Australia",
+    "canonical_url": "/countries/australia.html",
+    "date_range": {
+      "start": "2025-04-02",
+      "end": "2026-03-11"
+    },
+    "kpis": {
+      "total_laid_off": 4220,
+      "event_count": 9,
+      "headcount_event_count": 7,
+      "company_count": 6,
+      "country_count": 1,
+      "industry_count": 6,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-04",
+          "total_laid_off": 10
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 150
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-11",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 2000
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 1800
+        }
+      ],
+      "company_top": [
+        {
+          "company": "WiseTech",
+          "total_laid_off": 2000
+        },
+        {
+          "company": "Atlassian",
+          "total_laid_off": 1950
+        },
+        {
+          "company": "Envato",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Culture Amp",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Canva",
+          "total_laid_off": 10
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-03-11",
+          "company": "Atlassian",
+          "num_laid_off": 1600,
+          "percentage_laid_off": 0.1,
+          "industry": "Other",
+          "country": "Australia",
+          "stage": "Post-IPO",
+          "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+        },
+        {
+          "date": "2026-03-04",
+          "company": "Envato",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.3,
+          "industry": "Marketing",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+        },
+        {
+          "date": "2026-02-24",
+          "company": "WiseTech",
+          "num_laid_off": 2000,
+          "percentage_laid_off": 0.3,
+          "industry": "Logistics",
+          "country": "Australia",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding"
+        },
+        {
+          "date": "2025-11-18",
+          "company": "Culture Amp",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.06,
+          "industry": "HR",
+          "country": "Australia",
+          "stage": "Series F",
+          "source": "https://www.capitalbrief.com/article/culture-amp-lays-off-6-of-its-staff-globally-as-it-focuses-on-new-ai-products-3d5073ac-879a-4e01-9a08-a513ead8834b/"
+        },
+        {
+          "date": "2025-09-10",
+          "company": "Atlassian",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Australia",
+          "stage": "Post-IPO",
+          "source": "https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/"
+        },
+        {
+          "date": "2025-07-30",
+          "company": "Atlassian",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Australia",
+          "stage": "Post-IPO",
+          "source": "https://au.finance.yahoo.com/news/atlassian-billionaire-spruiks-ai-as-ceo-fires-150-workers-over-video-in-scary-digital-revolution-052623412.html"
+        },
+        {
+          "date": "2025-07-23",
+          "company": "WiseTech",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Logistics",
+          "country": "Australia",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/world/asia-pacific/australias-wisetech-cut-some-jobs-ai-driven-efficiency-push-2025-07-23/"
+        },
+        {
+          "date": "2025-04-02",
+          "company": "Canva",
+          "num_laid_off": 10,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://www.afr.com/technology/canva-shocks-employees-with-ai-related-job-cuts-20250331-p5lo06"
+        },
+        {
+          "date": "2025-04-02",
+          "company": "WhyHive",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Data",
+          "country": "Australia",
+          "stage": "Seed",
+          "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+        }
+      ]
+    },
+    "summary": "Australia has 4,220 reported tech layoffs across 9 public events from 2025-04-02 to 2026-03-11."
+  },
+  {
+    "type": "country",
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "title": "Tech Layoffs by Country: Netherlands",
+    "canonical_url": "/countries/netherlands.html",
+    "date_range": {
+      "start": "2025-02-10",
+      "end": "2026-01-28"
+    },
+    "kpis": {
+      "total_laid_off": 2570,
+      "event_count": 4,
+      "headcount_event_count": 4,
+      "company_count": 4,
+      "country_count": 1,
+      "industry_count": 3,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 120
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 300
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 450
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 1700
+        }
+      ],
+      "company_top": [
+        {
+          "company": "ASML",
+          "total_laid_off": 1700
+        },
+        {
+          "company": "Just Eat",
+          "total_laid_off": 450
+        },
+        {
+          "company": "TomTom",
+          "total_laid_off": 300
+        },
+        {
+          "company": "MessageBird",
+          "total_laid_off": 120
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-01-28",
+          "company": "ASML",
+          "num_laid_off": 1700,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Netherlands",
+          "stage": "Post-IPO",
+          "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
+        },
+        {
+          "date": "2025-09-25",
+          "company": "Just Eat",
+          "num_laid_off": 450,
+          "percentage_laid_off": 0.05,
+          "industry": "Food",
+          "country": "Netherlands",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/"
+        },
+        {
+          "date": "2025-06-30",
+          "company": "TomTom",
+          "num_laid_off": 300,
+          "percentage_laid_off": 0.1,
+          "industry": "Other",
+          "country": "Netherlands",
+          "stage": "Post-IPO",
+          "source": "https://www.tomtom.com/newsroom/press-releases/earnings-other/29121/tomtom-advances-its-product-led-strategy-and-realigns-its-organization/"
+        },
+        {
+          "date": "2025-02-10",
+          "company": "MessageBird",
+          "num_laid_off": 120,
+          "percentage_laid_off": 0.33,
+          "industry": "Other",
+          "country": "Netherlands",
+          "stage": "Series C",
+          "source": "https://techcrunch.com/2025/02/10/bird-cuts-120-jobs-as-part-of-strategic-realignment/"
+        }
+      ]
+    },
+    "summary": "Netherlands has 2,570 reported tech layoffs across 4 public events from 2025-02-10 to 2026-01-28."
+  },
+  {
+    "type": "country",
+    "name": "Canada",
+    "slug": "canada",
+    "title": "Tech Layoffs by Country: Canada",
+    "canonical_url": "/countries/canada.html",
+    "date_range": {
+      "start": "2025-01-21",
+      "end": "2026-03-24"
+    },
+    "kpis": {
+      "total_laid_off": 2491,
+      "event_count": 16,
+      "headcount_event_count": 8,
+      "company_count": 13,
+      "country_count": 1,
+      "industry_count": 11,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 140
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 1738
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 235
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 83
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 80
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 215
+        }
+      ],
+      "company_top": [
+        {
+          "company": "OpenText",
+          "total_laid_off": 1600
+        },
+        {
+          "company": "SSense",
+          "total_laid_off": 215
+        },
+        {
+          "company": "ZoomInfo",
+          "total_laid_off": 150
+        },
+        {
+          "company": "SRTX",
+          "total_laid_off": 140
+        },
+        {
+          "company": "LeddarTech",
+          "total_laid_off": 138
+        },
+        {
+          "company": "Klue",
+          "total_laid_off": 85
+        },
+        {
+          "company": "BenchSci",
+          "total_laid_off": 83
+        },
+        {
+          "company": "Tenstorrent",
+          "total_laid_off": 80
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-03-24",
+          "company": "OpenText",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+        },
+        {
+          "date": "2026-03-05",
+          "company": "SSense",
+          "num_laid_off": 215,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Series A",
+          "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+        },
+        {
+          "date": "2026-02-11",
+          "company": "Dayforce",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.05,
+          "industry": "HR",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "Internal memo"
+        },
+        {
+          "date": "2026-01-22",
+          "company": "Shopify",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+        },
+        {
+          "date": "2025-12-09",
+          "company": "Tenstorrent",
+          "num_laid_off": 80,
+          "percentage_laid_off": 0.07,
+          "industry": "Hardware",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
+        },
+        {
+          "date": "2025-11-26",
+          "company": "Shopify",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
+        },
+        {
+          "date": "2025-10-27",
+          "company": "Hootsuite",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Canada",
+          "stage": "Series C",
+          "source": "https://www.biv.com/news/technology/hootsuite-laying-off-hundreds-of-staff-20-of-workforce-11405954"
+        },
+        {
+          "date": "2025-08-12",
+          "company": "BenchSci",
+          "num_laid_off": 83,
+          "percentage_laid_off": 0.23,
+          "industry": "Healthcare",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
+        },
+        {
+          "date": "2025-06-25",
+          "company": "Klue",
+          "num_laid_off": 85,
+          "percentage_laid_off": 0.4,
+          "industry": "Sales",
+          "country": "Canada",
+          "stage": "Series B",
+          "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
+        },
+        {
+          "date": "2025-06-09",
+          "company": "ZoomInfo",
+          "num_laid_off": 150,
+          "percentage_laid_off": 0.04,
+          "industry": "Sales",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://www.oregonlive.com/silicon-forest/2025/06/zoominfo-one-of-portland-areas-most-valuable-companies-will-cut-200-jobs.html"
+        },
+        {
+          "date": "2025-05-22",
+          "company": "LeddarTech",
+          "num_laid_off": 138,
+          "percentage_laid_off": 0.95,
+          "industry": "Transportation",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/leddartech-cuts-95-percent-of-staff-in-bid-to-rescue-its-business/"
+        },
+        {
+          "date": "2025-05-06",
+          "company": "OpenText",
+          "num_laid_off": 1600,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
+        },
+        {
+          "date": "2025-05-05",
+          "company": "General Fusion",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Energy",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://techcrunch.com/2025/05/05/layoffs-hit-general-fusion-as-the-fusion-power-startup-runs-short-on-cash/"
+        },
+        {
+          "date": "2025-02-26",
+          "company": "Dayforce",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.05,
+          "industry": "HR",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://www.marketwatch.com/story/dayforce-to-cut-about-5-of-workforce-in-efficiency-drive-2eabda38?mod=investing"
+        },
+        {
+          "date": "2025-02-05",
+          "company": "SRTX",
+          "num_laid_off": 140,
+          "percentage_laid_off": null,
+          "industry": "Manufacturing",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://substack.com/inbox/post/156526787"
+        }
+      ]
+    },
+    "summary": "Canada has 2,491 reported tech layoffs across 16 public events from 2025-01-21 to 2026-03-24."
+  },
+  {
+    "type": "country",
+    "name": "Germany",
+    "slug": "germany",
+    "title": "Tech Layoffs by Country: Germany",
+    "canonical_url": "/countries/germany.html",
+    "date_range": {
+      "start": "2025-01-10",
+      "end": "2026-03-27"
+    },
+    "kpis": {
+      "total_laid_off": 1785,
+      "event_count": 12,
+      "headcount_event_count": 8,
+      "company_count": 11,
+      "country_count": 1,
+      "industry_count": 8,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 930
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 340
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 165
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 50
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 100
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Wayfair",
+          "total_laid_off": 1070
+        },
+        {
+          "company": "Forto",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Personio",
+          "total_laid_off": 165
+        },
+        {
+          "company": "Chrono24",
+          "total_laid_off": 110
+        },
+        {
+          "company": "Enpal",
+          "total_laid_off": 100
+        },
+        {
+          "company": "HeyJobs",
+          "total_laid_off": 90
+        },
+        {
+          "company": "Aleph Alpha",
+          "total_laid_off": 50
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-03-27",
+          "company": "Enpal",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Energy",
+          "country": "Germany",
+          "stage": "Series E",
+          "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+        },
+        {
+          "date": "2026-03-26",
+          "company": "Quandoo",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "Germany",
+          "stage": "Acquired",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+        },
+        {
+          "date": "2026-01-14",
+          "company": "Aleph Alpha",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.16,
+          "industry": "AI",
+          "country": "Germany",
+          "stage": "Series B",
+          "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+        },
+        {
+          "date": "2025-12-11",
+          "company": "EyeEm",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "Germany",
+          "stage": "Acquired",
+          "source": "https://petapixel.com/2025/12/11/eyeem-is-shutting-down/"
+        },
+        {
+          "date": "2025-10-29",
+          "company": "Personio",
+          "num_laid_off": 165,
+          "percentage_laid_off": 0.1,
+          "industry": "HR",
+          "country": "Germany",
+          "stage": "Series E",
+          "source": "Internal memo"
+        },
+        {
+          "date": "2025-07-28",
+          "company": "Eyeo",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.4,
+          "industry": "Other",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://www.adexchanger.com/privacy/eyeo-names-new-ceo-cuts-40-of-staff-and-refocuses-the-business-on-privacy/"
+        },
+        {
+          "date": "2025-04-12",
+          "company": "Forto",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Logistics",
+          "country": "Germany",
+          "stage": "Series D",
+          "source": "https://www.businessinsider.de/gruenderszene/automotive-mobility/forto-entlassungen-gruende/"
+        },
+        {
+          "date": "2025-03-07",
+          "company": "Wayfair",
+          "num_laid_off": 340,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Germany",
+          "stage": "Post-IPO",
+          "source": "https://finance.yahoo.com/news/retailer-wayfair-restructures-technology-team-135556649.html"
+        },
+        {
+          "date": "2025-02-26",
+          "company": "Commercetools",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Retail",
+          "country": "Germany",
+          "stage": "Series C",
+          "source": "https://techcrunch.com/2025/02/26/commercetools-a-pioneer-in-headless-commerce-lays-off-dozens-of-staff/"
+        },
+        {
+          "date": "2025-01-16",
+          "company": "Chrono24",
+          "num_laid_off": 110,
+          "percentage_laid_off": 0.24,
+          "industry": "Retail",
+          "country": "Germany",
+          "stage": "Series C",
+          "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
+        },
+        {
+          "date": "2025-01-15",
+          "company": "HeyJobs",
+          "num_laid_off": 90,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "Germany",
+          "stage": "Series B",
+          "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
+        },
+        {
+          "date": "2025-01-10",
+          "company": "Wayfair",
+          "num_laid_off": 730,
+          "percentage_laid_off": 0.03,
+          "industry": "Retail",
+          "country": "Germany",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2025/01/10/wayfair-to-exit-germany-cut-730-jobs-in-latest-layoffs.html"
+        }
+      ]
+    },
+    "summary": "Germany has 1,785 reported tech layoffs across 12 public events from 2025-01-10 to 2026-03-27."
+  },
+  {
+    "type": "country",
+    "name": "United Kingdom",
+    "slug": "united-kingdom",
+    "title": "Tech Layoffs by Country: United Kingdom",
+    "canonical_url": "/countries/united-kingdom.html",
+    "date_range": {
+      "start": "2025-02-12",
+      "end": "2026-03-31"
+    },
+    "kpis": {
+      "total_laid_off": 1732,
+      "event_count": 13,
+      "headcount_event_count": 7,
+      "company_count": 13,
+      "country_count": 1,
+      "industry_count": 10,
+      "high_intensity_event_count": 4
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 240
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 55
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 1187
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 50
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Ocado",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Beam",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Zepz",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Deliveroo",
+          "total_laid_off": 187
+        },
+        {
+          "company": "Multiverse",
+          "total_laid_off": 55
+        },
+        {
+          "company": "Monzo",
+          "total_laid_off": 50
+        },
+        {
+          "company": "Logically",
+          "total_laid_off": 40
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-03-31",
+          "company": "Monzo",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series F",
+          "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+        },
+        {
+          "date": "2026-02-26",
+          "company": "Ocado",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.05,
+          "industry": "Food",
+          "country": "United Kingdom",
+          "stage": "Post-IPO",
+          "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+        },
+        {
+          "date": "2026-02-25",
+          "company": "Deliveroo",
+          "num_laid_off": 187,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "United Kingdom",
+          "stage": "Post-IPO",
+          "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
+        },
+        {
+          "date": "2026-01-05",
+          "company": "Multiverse",
+          "num_laid_off": 55,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United Kingdom",
+          "stage": "Series D",
+          "source": "https://sifted.eu/articles/multiverse-job-cuts-euan-blair"
+        },
+        {
+          "date": "2025-10-24",
+          "company": "Robin AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.33,
+          "industry": "Legal",
+          "country": "United Kingdom",
+          "stage": "Series B",
+          "source": "https://sifted.eu/articles/robin-ai-cuts-a-third-of-staff"
+        },
+        {
+          "date": "2025-08-22",
+          "company": "TikTok",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://www.wsj.com/tech/tiktok-to-lay-off-hundreds-of-u-k-content-moderators-in-ai-push-d040ae21"
+        },
+        {
+          "date": "2025-05-20",
+          "company": "Builder.ai",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "United Kingdom",
+          "stage": "Series D",
+          "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
+        },
+        {
+          "date": "2025-05-01",
+          "company": "Beam",
+          "num_laid_off": 200,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "United Kingdom",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+        },
+        {
+          "date": "2025-04-03",
+          "company": "Tract",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United Kingdom",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
+        },
+        {
+          "date": "2025-03-10",
+          "company": "Arrival",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Transportation",
+          "country": "United Kingdom",
+          "stage": "Post-IPO",
+          "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
+        },
+        {
+          "date": "2025-02-17",
+          "company": "Logically",
+          "num_laid_off": 40,
+          "percentage_laid_off": 0.2,
+          "industry": "AI",
+          "country": "United Kingdom",
+          "stage": "Series A",
+          "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Sophos",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.06,
+          "industry": "Security",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://techcrunch.com/2025/02/13/sophos-lays-off-6-of-workforce-following-secureworks-acquisition/"
+        },
+        {
+          "date": "2025-02-12",
+          "company": "Zepz",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.2,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series E",
+          "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
+        }
+      ]
+    },
+    "summary": "United Kingdom has 1,732 reported tech layoffs across 13 public events from 2025-02-12 to 2026-03-31."
+  },
+  {
+    "type": "country",
+    "name": "Brazil",
+    "slug": "brazil",
+    "title": "Tech Layoffs by Country: Brazil",
+    "canonical_url": "/countries/brazil.html",
+    "date_range": {
+      "start": "2026-01-12",
+      "end": "2026-03-13"
+    },
+    "kpis": {
+      "total_laid_off": 516,
+      "event_count": 2,
+      "headcount_event_count": 2,
+      "company_count": 2,
+      "country_count": 1,
+      "industry_count": 2,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2026-01",
+          "total_laid_off": 116
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 400
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Stone",
+          "total_laid_off": 400
+        },
+        {
+          "company": "MercadoLibre",
+          "total_laid_off": 116
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-03-13",
+          "company": "Stone",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.03,
+          "industry": "Finance",
+          "country": "Brazil",
+          "stage": "Post-IPO",
+          "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
+        },
+        {
+          "date": "2026-01-12",
+          "company": "MercadoLibre",
+          "num_laid_off": 116,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Brazil",
+          "stage": "Post-IPO",
+          "source": "https://eleconomista.com.ar/economia/despidos-mercado-libre-entrenamos-ia-nos-reemplazo-n91871"
+        }
+      ]
+    },
+    "summary": "Brazil has 516 reported tech layoffs across 2 public events from 2026-01-12 to 2026-03-13."
+  },
+  {
+    "type": "country",
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "title": "Tech Layoffs by Country: Nigeria",
+    "canonical_url": "/countries/nigeria.html",
+    "date_range": {
+      "start": "2025-02-13",
+      "end": "2026-02-28"
+    },
+    "kpis": {
+      "total_laid_off": 320,
+      "event_count": 5,
+      "headcount_event_count": 3,
+      "company_count": 5,
+      "country_count": 1,
+      "industry_count": 4,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 270
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 50
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Metro Africa Xpress",
+          "total_laid_off": 150
+        },
+        {
+          "company": "Vendease",
+          "total_laid_off": 120
+        },
+        {
+          "company": "Sabi",
+          "total_laid_off": 50
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-02-28",
+          "company": "Zap Africa",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.44,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Seed",
+          "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+        },
+        {
+          "date": "2025-07-02",
+          "company": "Okra",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Series A",
+          "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
+        },
+        {
+          "date": "2025-06-19",
+          "company": "Sabi",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.2,
+          "industry": "Retail",
+          "country": "Nigeria",
+          "stage": "Series B",
+          "source": "https://techcrunch.com/2025/06/20/after-raising-38m-african-e-commerce-startup-sabi-lays-off-20-pivots-to-traceable-exports/"
+        },
+        {
+          "date": "2025-02-19",
+          "company": "Vendease",
+          "num_laid_off": 120,
+          "percentage_laid_off": 0.44,
+          "industry": "Food",
+          "country": "Nigeria",
+          "stage": "Series A",
+          "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Metro Africa Xpress",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Logistics",
+          "country": "Nigeria",
+          "stage": "Unknown",
+          "source": "https://techcabal.com/2025/02/13/max-laid-off-150-employees/"
+        }
+      ]
+    },
+    "summary": "Nigeria has 320 reported tech layoffs across 5 public events from 2025-02-13 to 2026-02-28."
+  }
+]

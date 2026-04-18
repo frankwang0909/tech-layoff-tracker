@@ -1,0 +1,469 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W36",
+  "status": "final",
+  "date_range": {
+    "start": "2025-09-01",
+    "end": "2025-09-05"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W36.html",
+  "kpis": {
+    "total_laid_off": 2340,
+    "event_count": 17,
+    "headcount_event_count": 12,
+    "company_count": 13,
+    "country_count": 3,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 195.0,
+    "median_layoffs_per_headcount_event": 150.5,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W35",
+      "total_laid_off": 4141,
+      "event_count": 5,
+      "total_laid_off_delta": -1801,
+      "total_laid_off_pct_change": -0.4349,
+      "event_count_delta": 12,
+      "event_count_pct_change": 2.4,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W36",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Head Digital Works",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Games 24x7",
+        "total_laid_off": 400
+      },
+      {
+        "company": "Salesforce",
+        "total_laid_off": 385
+      },
+      {
+        "company": "Oracle",
+        "total_laid_off": 355
+      },
+      {
+        "company": "Mobile Premier League",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Rivian",
+        "total_laid_off": 200
+      },
+      {
+        "company": "GupShup",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Bobble AI",
+        "total_laid_off": 50
+      },
+      {
+        "company": "Krutrim",
+        "total_laid_off": 50
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 1250
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 455
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 385
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 50
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 1400
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 940
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 940
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 300
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 100
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-09-04",
+        "company": "Head Digital Works",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
+      },
+      {
+        "date": "2025-09-01",
+        "company": "Games 24x7",
+        "num_laid_off": 400,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.peoplematters.in/news/strategic-hr/after-mpl-games24x7-lays-off-400-employees-govt-steps-in-43232"
+      },
+      {
+        "date": "2025-09-01",
+        "company": "Mobile Premier League",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Series E",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/online-gaming-app-ban-mpl-to-layoff-60-of-india-staff/articleshow/123618820.cms"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Salesforce",
+        "num_laid_off": 262,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Oracle",
+        "num_laid_off": 254,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/"
+      },
+      {
+        "date": "2025-09-05",
+        "company": "Rivian",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "Oracle",
+        "num_laid_off": 101,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.seattletimes.com/business/cloud-computing-giant-oracle-lays-off-more-seattle-workers/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "GupShup",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "Salesforce",
+        "num_laid_off": 93,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Bobble AI",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://entrackr.com/exclusive/exclusive-bobble-ai-lays-off-50-employees-amid-organizational-redesign-9888363"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-09-05",
+        "company": "Rivian",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits"
+      },
+      {
+        "date": "2025-09-05",
+        "company": "Scope3",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.adweek.com/media/scope3-lays-off-sales-staff-ai-agentic-advertising-restructuring/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Head Digital Works",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Salesforce",
+        "num_laid_off": 262,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Oracle",
+        "num_laid_off": 254,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "GupShup",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Bobble AI",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://entrackr.com/exclusive/exclusive-bobble-ai-lays-off-50-employees-amid-organizational-redesign-9888363"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "The Gist",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "Vimeo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.linkedin.com/posts/phmoyer_today-we-announced-that-we-will-be-reducing-activity-7369003115422851074-qHt-/"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "theGist",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "Salesforce",
+        "num_laid_off": 93,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "Salesforce",
+        "num_laid_off": 30,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/salesforce-ireland-redundancies-6806486-Sep2025/"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "Oracle",
+        "num_laid_off": 101,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.seattletimes.com/business/cloud-computing-giant-oracle-lays-off-more-seattle-workers/"
+      },
+      {
+        "date": "2025-09-02",
+        "company": "Oracle",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kmbc.com/article/oracle-layoffs-kansas-city-cerner-employees/65961940"
+      },
+      {
+        "date": "2025-09-01",
+        "company": "Games 24x7",
+        "num_laid_off": 400,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.peoplematters.in/news/strategic-hr/after-mpl-games24x7-lays-off-400-employees-govt-steps-in-43232"
+      },
+      {
+        "date": "2025-09-01",
+        "company": "Mobile Premier League",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Series E",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/online-gaming-app-ban-mpl-to-layoff-60-of-india-staff/articleshow/123618820.cms"
+      },
+      {
+        "date": "2025-09-01",
+        "company": "Krutrim",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.techinasia.com/news/olas-krutrim-cuts-nearly-50-linguistics-staff-in-third-layoff"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-09-03",
+        "company": "The Gist",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "theGist",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W36 includes 17 public layoff events and 2,340 reported layoffs.",
+    "The largest company contributor is Head Digital Works with 500 reported layoffs.",
+    "The leading named industry is Consumer with 1,250 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

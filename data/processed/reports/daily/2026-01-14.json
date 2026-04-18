@@ -1,0 +1,165 @@
+{
+  "report_type": "daily",
+  "period": "2026-01-14",
+  "status": "final",
+  "date_range": {
+    "start": "2026-01-14",
+    "end": "2026-01-14"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-01-14.html",
+  "kpis": {
+    "total_laid_off": 550,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 275.0,
+    "median_layoffs_per_headcount_event": 275.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-01-13",
+      "total_laid_off": 1605,
+      "event_count": 3,
+      "total_laid_off_delta": -1055,
+      "total_laid_off_pct_change": -0.6573,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-01-14",
+      "total_laid_off": 0,
+      "event_count": 3,
+      "total_laid_off_delta": 550,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Playtika",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Aleph Alpha",
+        "total_laid_off": 50
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 50
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 500
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 50
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 50
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-01-14",
+        "company": "Playtika",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
+      },
+      {
+        "date": "2026-01-14",
+        "company": "Aleph Alpha",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.16,
+        "industry": "AI",
+        "country": "Germany",
+        "stage": "Series B",
+        "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-01-14",
+        "company": "Playtika",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
+      },
+      {
+        "date": "2026-01-14",
+        "company": "Aleph Alpha",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.16,
+        "industry": "AI",
+        "country": "Germany",
+        "stage": "Series B",
+        "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-01-14 includes 2 public layoff events and 550 reported layoffs.",
+    "The largest company contributor is Playtika with 500 reported layoffs.",
+    "The leading named industry is Consumer with 500 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

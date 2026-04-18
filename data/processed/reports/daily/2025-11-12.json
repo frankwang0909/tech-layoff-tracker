@@ -1,0 +1,173 @@
+{
+  "report_type": "daily",
+  "period": "2025-11-12",
+  "status": "final",
+  "date_range": {
+    "start": "2025-11-12",
+    "end": "2025-11-12"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-11-12.html",
+  "kpis": {
+    "total_laid_off": 2080,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 1,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 1040.0,
+    "median_layoffs_per_headcount_event": 1040.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-11-11",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-11-12",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Synopsys",
+        "total_laid_off": 2000
+      },
+      {
+        "company": "Deepwatch",
+        "total_laid_off": 80
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 2000
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 80
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 2080
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 2000
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 80
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-11-12",
+        "company": "Synopsys",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/synopsys-cut-about-10-its-workforce-2025-11-12/"
+      },
+      {
+        "date": "2025-11-12",
+        "company": "Deepwatch",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.32,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-11-12",
+        "company": "Synopsys",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/synopsys-cut-about-10-its-workforce-2025-11-12/"
+      },
+      {
+        "date": "2025-11-12",
+        "company": "Deepwatch",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.32,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-11-12",
+        "company": "Deepwatch",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.32,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-11-12 includes 2 public layoff events and 2,080 reported layoffs.",
+    "The largest company contributor is Synopsys with 2,000 reported layoffs.",
+    "The leading named industry is Security with 80 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

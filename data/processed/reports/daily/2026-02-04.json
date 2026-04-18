@@ -1,0 +1,175 @@
+{
+  "report_type": "daily",
+  "period": "2026-02-04",
+  "status": "final",
+  "date_range": {
+    "start": "2026-02-04",
+    "end": "2026-02-04"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-02-04.html",
+  "kpis": {
+    "total_laid_off": 510,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 255.0,
+    "median_layoffs_per_headcount_event": 255.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-02-03",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2025-02-04",
+      "total_laid_off": 1553,
+      "event_count": 7,
+      "total_laid_off_delta": -1043,
+      "total_laid_off_pct_change": -0.6716,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.5714,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Workday",
+        "total_laid_off": 400
+      },
+      {
+        "company": "Rewire",
+        "total_laid_off": 110
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "HR",
+        "total_laid_off": 400
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 110
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 400
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 110
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 400
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 110
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-02-04",
+        "company": "Workday",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support"
+      },
+      {
+        "date": "2026-02-04",
+        "company": "Rewire",
+        "num_laid_off": 110,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-02-04",
+        "company": "Workday",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support"
+      },
+      {
+        "date": "2026-02-04",
+        "company": "Rewire",
+        "num_laid_off": 110,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
+      },
+      {
+        "date": "2026-02-04",
+        "company": "Smartsheet",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-02-04 includes 3 public layoff events and 510 reported layoffs.",
+    "The largest company contributor is Workday with 400 reported layoffs.",
+    "The leading named industry is HR with 400 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

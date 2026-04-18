@@ -1,0 +1,597 @@
+{
+  "report_type": "monthly",
+  "period": "2025-01",
+  "status": "final",
+  "date_range": {
+    "start": "2025-01-02",
+    "end": "2025-01-30"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/monthly/2025-01.html",
+  "kpis": {
+    "total_laid_off": 2537,
+    "event_count": 32,
+    "headcount_event_count": 18,
+    "company_count": 31,
+    "country_count": 7,
+    "industry_count": 16,
+    "average_layoffs_per_headcount_event": 140.94,
+    "median_layoffs_per_headcount_event": 82.0,
+    "high_intensity_event_count": 7
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2024-12",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-01",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Wayfair",
+        "total_laid_off": 730
+      },
+      {
+        "company": "SolarEdge",
+        "total_laid_off": 400
+      },
+      {
+        "company": "Stripe",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Placer.ai",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Digital River",
+        "total_laid_off": 122
+      },
+      {
+        "company": "Icon",
+        "total_laid_off": 114
+      },
+      {
+        "company": "Chrono24",
+        "total_laid_off": 110
+      },
+      {
+        "company": "HeyJobs",
+        "total_laid_off": 90
+      },
+      {
+        "company": "AppLovin",
+        "total_laid_off": 89
+      },
+      {
+        "company": "Pocket FM",
+        "total_laid_off": 75
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 962
+      },
+      {
+        "industry": "Energy",
+        "total_laid_off": 458
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 337
+      },
+      {
+        "industry": "Data",
+        "total_laid_off": 150
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 116
+      },
+      {
+        "industry": "Construction",
+        "total_laid_off": 114
+      },
+      {
+        "industry": "Recruiting",
+        "total_laid_off": 105
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 75
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 66
+      },
+      {
+        "industry": "Logistics",
+        "total_laid_off": 63
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 994
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 930
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 445
+      },
+      {
+        "country": "India",
+        "total_laid_off": 102
+      },
+      {
+        "country": "Portugal",
+        "total_laid_off": 66
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 1265
+      },
+      {
+        "stage": "Series I",
+        "total_laid_off": 300
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 267
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 221
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 165
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 160
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 122
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 37
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 3
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 3
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-01-10",
+        "company": "Wayfair",
+        "num_laid_off": 730,
+        "percentage_laid_off": 0.03,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/01/10/wayfair-to-exit-germany-cut-730-jobs-in-latest-layoffs.html"
+      },
+      {
+        "date": "2025-01-06",
+        "company": "SolarEdge",
+        "num_laid_off": 400,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/energy/solaredge-technologies-lay-off-400-employees-globally-2025-01-06/"
+      },
+      {
+        "date": "2025-01-21",
+        "company": "Stripe",
+        "num_laid_off": 300,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series I",
+        "source": "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1"
+      },
+      {
+        "date": "2025-01-29",
+        "company": "Placer.ai",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.18,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/sj6ptuddye"
+      },
+      {
+        "date": "2025-01-28",
+        "company": "Digital River",
+        "num_laid_off": 122,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.startribune.com/digital-river-ecommerce-close-layoff-shut-down-microsoft-online-shop/601213069"
+      },
+      {
+        "date": "2025-01-09",
+        "company": "Icon",
+        "num_laid_off": 114,
+        "percentage_laid_off": null,
+        "industry": "Construction",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.statesman.com/story/business/2025/01/09/icon-layoffs-austin-texas-3d-printing-company-100-employees/77573345007/"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Chrono24",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.24,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Series C",
+        "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
+      },
+      {
+        "date": "2025-01-15",
+        "company": "HeyJobs",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Germany",
+        "stage": "Series B",
+        "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
+      },
+      {
+        "date": "2025-01-15",
+        "company": "AppLovin",
+        "num_laid_off": 89,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pocketgamer.biz/applovin-lays-off-97-staff/"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Pocket FM",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-01-30",
+        "company": "Cushion",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/"
+      },
+      {
+        "date": "2025-01-29",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-01-29/amazon-cuts-dozens-of-corporate-jobs-in-latest-round-of-layoffs"
+      },
+      {
+        "date": "2025-01-29",
+        "company": "Placer.ai",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.18,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/sj6ptuddye"
+      },
+      {
+        "date": "2025-01-28",
+        "company": "Digital River",
+        "num_laid_off": 122,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.startribune.com/digital-river-ecommerce-close-layoff-shut-down-microsoft-online-shop/601213069"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Aurora Labs",
+        "num_laid_off": 45,
+        "percentage_laid_off": 0.6,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjh2d64ukx"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Moon Active",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjejkmruyg"
+      },
+      {
+        "date": "2025-01-21",
+        "company": "Stripe",
+        "num_laid_off": 300,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series I",
+        "source": "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1"
+      },
+      {
+        "date": "2025-01-21",
+        "company": "Turso",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "Canada",
+        "stage": "Seed",
+        "source": "https://turso.tech/blog/upcoming-changes-to-the-turso-platform-and-roadmap"
+      },
+      {
+        "date": "2025-01-20",
+        "company": "Unbabel",
+        "num_laid_off": 66,
+        "percentage_laid_off": 0.25,
+        "industry": "Support",
+        "country": "Portugal",
+        "stage": "Series C",
+        "source": "https://observador.pt/2025/01/20/unbabel-reduz-equipa-tecnologica-portuguesa-fala-processo-de-reestruturacao-em-curso/"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Chrono24",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.24,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Series C",
+        "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Pocket FM",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Aurora Solar",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.sfexaminer.com/news/technology/sf-green-tech-startup-aurora-solar-laying-off-dozens-again/article_a5fc0dbc-d450-11ef-95d2-03eab04fe214.html"
+      },
+      {
+        "date": "2025-01-15",
+        "company": "HeyJobs",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Germany",
+        "stage": "Series B",
+        "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
+      },
+      {
+        "date": "2025-01-15",
+        "company": "AppLovin",
+        "num_laid_off": 89,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pocketgamer.biz/applovin-lays-off-97-staff/"
+      },
+      {
+        "date": "2025-01-15",
+        "company": "ShareChat",
+        "num_laid_off": 27,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://entrackr.com/news/sharechat-cuts-5-jobs-as-part-of-performance-review-cycle-8623795"
+      },
+      {
+        "date": "2025-01-15",
+        "company": "Textio",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.geekwire.com/2025/augmented-writing-startup-textio-lays-off-more-employees-will-invest-in-different-mix-of-roles/"
+      },
+      {
+        "date": "2025-01-14",
+        "company": "TechCrunch",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.businessinsider.com/techcrunch-cuts-staff-amid-evolving-needs-2025-1"
+      },
+      {
+        "date": "2025-01-14",
+        "company": "Advisor Credit Exchange",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://citywire.com/ria/news/envestnet-backed-advisor-credit-exchange-to-shut-down-sources/a2457772"
+      },
+      {
+        "date": "2025-01-14",
+        "company": "Microsoft",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/microsoft-layoffs-hit-security-devices-sales-gaming-2025-1"
+      },
+      {
+        "date": "2025-01-13",
+        "company": "Alza",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://fortune.com/2025/01/13/alza-fintech-latino-thrive-capital-stripe-level-employer-com-shut-down-venture/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-01-30",
+        "company": "Cushion",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/"
+      },
+      {
+        "date": "2025-01-14",
+        "company": "Advisor Credit Exchange",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://citywire.com/ria/news/envestnet-backed-advisor-credit-exchange-to-shut-down-sources/a2457772"
+      },
+      {
+        "date": "2025-01-13",
+        "company": "Alza",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://fortune.com/2025/01/13/alza-fintech-latino-thrive-capital-stripe-level-employer-com-shut-down-venture/"
+      },
+      {
+        "date": "2025-01-10",
+        "company": "Pandion",
+        "num_laid_off": 63,
+        "percentage_laid_off": 1.0,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.geekwire.com/2025/heavily-funded-pandion-delivery-startup-closes-abruptly-in-latest-logistics-industry-fallout/"
+      },
+      {
+        "date": "2025-01-02",
+        "company": "Level",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.pymnts.com/acquisitions/2025/report-benefits-startup-level-shuts-down-after-acquisition-falls-through"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Aurora Labs",
+        "num_laid_off": 45,
+        "percentage_laid_off": 0.6,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjh2d64ukx"
+      },
+      {
+        "date": "2025-01-20",
+        "company": "Unbabel",
+        "num_laid_off": 66,
+        "percentage_laid_off": 0.25,
+        "industry": "Support",
+        "country": "Portugal",
+        "stage": "Series C",
+        "source": "https://observador.pt/2025/01/20/unbabel-reduz-equipa-tecnologica-portuguesa-fala-processo-de-reestruturacao-em-curso/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-01 includes 32 public layoff events and 2,537 reported layoffs.",
+    "The largest company contributor is Wayfair with 730 reported layoffs.",
+    "The leading named industry is Retail with 962 reported layoffs.",
+    "7 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

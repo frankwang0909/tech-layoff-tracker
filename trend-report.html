@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs Trend Report 2025-2026 | Industry, Country and Company Analysis</title>
+    <meta name="description" content="Explore global tech layoff trends for 2025-2026 with monthly charts, industry breakdowns, country comparisons, company rankings, funding-stage analysis, and data-driven insights.">
+    <link rel="canonical" href="https://tech.debugcanada.com/trend-report.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tech.debugcanada.com/trend-report.html">
+    <meta property="og:title" content="Tech Layoffs Trend Report 2025-2026">
+    <meta property="og:description" content="Monthly trend, industry, country, company, funding-stage, and layoff intensity analysis based on public tech layoff records.">
+    <meta property="og:image" content="https://tech.debugcanada.com/docs/images/dashboard_charts.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Tech Layoffs Trend Report 2025-2026">
+    <meta property="twitter:description" content="Data-driven analysis of global tech layoffs by month, industry, country, company, and funding stage.">
+    <meta property="twitter:image" content="https://tech.debugcanada.com/docs/images/dashboard_charts.png">
+    <link rel="alternate" type="application/json" href="/ai-summary.json" title="AI-readable tech layoffs summary">
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM guidance for Tech Layoff Tracker">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Frank Wang"}, "dateModified": "2026-04-16", "datePublished": "2026-04-16", "description": "Global tech layoffs analysis by month, industry, country, company, funding stage, and layoff intensity.", "headline": "Tech Layoffs Trend Report 2025-2026", "mainEntityOfPage": "https://tech.debugcanada.com/trend-report.html", "publisher": {"@type": "Organization", "name": "Tech Layoff Tracker", "url": "https://tech.debugcanada.com"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "description": "Processed public technology layoff records used for trend reports and dashboard visualizations.", "isBasedOn": "https://layoffs.fyi/", "name": "Tech Layoff Tracker Processed Dataset", "spatialCoverage": "Global", "temporalCoverage": "2025-01-06/2026-04-16", "variableMeasured": ["company", "date", "num_laid_off", "industry", "country", "funding stage", "percentage laid off"]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The current data covers 2025-01-06 to 2026-04-16. The month with the highest reported layoff total is 2026-03."}, "name": "What is the latest tech layoff trend?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Oracle ranks first in the current company summary with 31,094 reported layoffs."}, "name": "Which tech company had the most layoffs in this dataset?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Hardware is the largest industry category in the current this data, with 40,087 reported layoffs."}, "name": "Which industry is most affected by tech layoffs?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "No. The structured dataset tracks public layoff records and related dimensions, but it does not contain a complete causal field for AI. Any AI-related discussion should be treated as source attribution or market context, not as a direct causal proof."}, "name": "Does this report prove that AI caused tech layoffs?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Data is updated daily from public layoff records. The report shows the current date range so you can verify how recent the data is."}, "name": "How often is the data updated?"}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/trend-report.html", "name": "Trend Report", "position": 2}]}</script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
+        .hero {
+            padding: 42px 0 32px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            background: transparent;
+        }
+        .eyebrow {
+            margin: 0 0 12px;
+            color: #f87171;
+            font-size: 13px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        h1 {
+            max-width: 920px;
+            margin: 0;
+            font-size: clamp(36px, 6vw, 72px);
+            line-height: 0.98;
+            letter-spacing: 0;
+        }
+        .dek {
+            max-width: 850px;
+            margin: 18px 0 0;
+            color: #94a3b8;
+            font-size: 20px;
+        }
+        .meta {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 22px;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .kpis {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 12px;
+            margin: 28px 0 0;
+        }
+        .kpi {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 18px;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .kpi span {
+            display: block;
+            color: #64748b;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        .kpi strong {
+            display: block;
+            margin-top: 6px;
+            font-size: 30px;
+            line-height: 1.1;
+            color: #f8fafc;
+        }
+        main { padding: 32px 0 56px; }
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        h2 {
+            margin: 0 0 12px;
+            font-size: clamp(26px, 4vw, 40px);
+            line-height: 1.08;
+            letter-spacing: 0;
+            color: #f8fafc;
+        }
+        h3 { margin: 22px 0 8px; font-size: 22px; }
+        p { max-width: 860px; }
+        .summary-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin: 20px 0 0;
+            padding: 0;
+            list-style: none;
+        }
+        .summary-list li {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 16px;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .chart {
+            width: 100%;
+            height: 420px;
+            margin: 18px 0;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            text-align: left;
+            vertical-align: top;
+            font-size: 14px;
+            color: #e2e8f0;
+        }
+        th { color: #94a3b8; background: rgba(255,255,255,0.04); }
+        tr:last-child td { border-bottom: 0; }
+        .note {
+            color: #64748b;
+            font-size: 14px;
+        }
+        .answer-box {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 18px;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .facts {
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 8px 18px;
+            margin: 16px 0 0;
+        }
+        .facts dt { color: #94a3b8; font-weight: 800; }
+        .facts dd { margin: 0; color: #94a3b8; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
+        footer {
+            text-align: center;
+            padding: 3rem 0 1rem;
+            color: #475569;
+            font-size: 0.75rem;
+            line-height: 1.8;
+        }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .kpis, .summary-list, .facts { grid-template-columns: 1fr; }
+            .chart { height: 280px; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            .kpi strong { font-size: 22px; }
+            h2 { font-size: 22px; }
+            table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/">Dashboard</a>
+                <a href="/trend-report.html" class="active">Trend Report</a>
+                <a href="/reports/">Reports</a>
+            </nav>
+            <p class="eyebrow">Global tech layoffs analysis</p>
+            <h1>Tech Layoffs Trend Report 2025-2026</h1>
+            <p class="dek">A data-driven report on global technology layoffs by month, industry, country, company, funding stage, and layoff intensity.</p>
+            <div class="meta">
+                <span>Data range: 2025-01-06 to 2026-04-16</span>
+                <span>Based on public layoff records</span>
+            </div>
+            <div class="kpis" aria-label="Report key metrics">
+                <div class="kpi"><span>Total layoffs</span><strong>197,413</strong></div>
+                <div class="kpi"><span>2026 YTD layoffs</span><strong>73,212</strong></div>
+                <div class="kpi"><span>Companies affected</span><strong>231</strong></div>
+                <div class="kpi"><span>Countries / regions</span><strong>18</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <main class="wrap">
+        <section id="executive-summary">
+            <h2>Summary</h2>
+            <p>From 2025-01-06 to 2026-04-16, public records track 197,413 reported tech layoffs across 231 companies and 18 countries or regions. The 2026 year-to-date total is 73,212, while the largest monthly spike in the current dataset is 2026-03.</p>
+            <ul class="summary-list">
+                
+                <li>Oracle is the highest-ranked company by reported layoffs in the current company summary, with 31,094 layoffs.</li>
+                
+                <li>Hardware is the largest industry category, accounting for 40,087 reported layoffs.</li>
+                
+                <li>United States is the leading country or region in the current dataset, with 164,446 reported layoffs.</li>
+                
+                <li>The peak month is 2026-03, with 34,800 reported layoffs.</li>
+                
+            </ul>
+        </section>
+
+        <section id="monthly-trend">
+            <h2>Monthly Layoff Trend</h2>
+            <p>The monthly trend shows whether the market is moving through isolated large events or a broader sequence of layoffs. The current peak month in this dataset is <strong>2026-03</strong>, with <strong>34,800</strong> reported layoffs.</p>
+            <div id="monthlyTrendChart" class="chart" aria-label="Monthly tech layoff trend chart"></div>
+            <p class="note">Note: Monthly totals can spike when a single large company announces mass cuts. Check the company breakdown alongside this chart for a fuller picture.</p>
+        </section>
+
+        <section id="industry-breakdown">
+            <h2>Industry Breakdown</h2>
+            <p>The industry with the most reported layoffs is <strong>Hardware</strong>, accounting for <strong>40,087</strong> reported layoffs.</p>
+            <div id="industryChart" class="chart" aria-label="Tech layoffs by industry chart"></div>
+        </section>
+
+        <section id="country-breakdown">
+            <h2>Country and Region Breakdown</h2>
+            <p>The geographic view helps separate local labor market pressure from global technology restructuring. The top country or region in the dataset is <strong>United States</strong>, with <strong>164,446</strong> reported layoffs.</p>
+            <div id="countryChart" class="chart" aria-label="Tech layoffs by country chart"></div>
+        </section>
+
+        <section id="company-ranking">
+            <h2>Company Ranking and Concentration</h2>
+            <p>Company rankings identify whether layoffs are concentrated in a few major employers or spread across the broader startup and technology market. The leading company in this dataset is <strong>Oracle</strong>, with <strong>31,094</strong> reported layoffs.</p>
+            <div id="companyChart" class="chart" aria-label="Top companies by tech layoffs chart"></div>
+        </section>
+
+        <section id="funding-stage">
+            <h2>Funding Stage and Layoff Size</h2>
+            <p>Funding stage analysis helps distinguish public-company restructuring from private-company pressure. The heatmap counts layoff events by stage and size bucket rather than summing headcount.</p>
+            <div id="stageHeatmapChart" class="chart" aria-label="Funding stage by layoff size heatmap"></div>
+        </section>
+
+        <section id="layoff-intensity">
+            <h2>Layoff Intensity</h2>
+            <p>Layoff percentage is available only for records where the source data includes it. When available, it gives a clearer picture of company-level stress than raw headcount alone.</p>
+            <div id="percentageChart" class="chart" aria-label="Layoff percentage distribution chart"></div>
+        </section>
+
+        <section id="recent-events">
+            <h2>Recent Layoff Events</h2>
+            <p>Recent events provide source-level context for the trend data. Records without reported headcount can still appear here when they have valid dates.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Company</th>
+                        <th>Laid off</th>
+                        <th>Industry</th>
+                        <th>Country</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>2026-04-16</td>
+                        <td>Shutterfly</td>
+                        <td>80</td>
+                        <td>Manufacturing</td>
+                        <td>United States</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/rkx2avanzg" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-15</td>
+                        <td>Productboard</td>
+                        <td>N/A</td>
+                        <td>Product</td>
+                        <td>United States</td>
+                        <td><a href="https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-15</td>
+                        <td>Snap</td>
+                        <td>1,000</td>
+                        <td>Consumer</td>
+                        <td>United States</td>
+                        <td><a href="https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-15</td>
+                        <td>UKG</td>
+                        <td>950</td>
+                        <td>HR</td>
+                        <td>United States</td>
+                        <td><a href="https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-13</td>
+                        <td>StarkWare</td>
+                        <td>N/A</td>
+                        <td>Crypto</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-13</td>
+                        <td>Eventbrite</td>
+                        <td>N/A</td>
+                        <td>Consumer</td>
+                        <td>United States</td>
+                        <td><a href="https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-09</td>
+                        <td>Cars.com</td>
+                        <td>N/A</td>
+                        <td>Transportation</td>
+                        <td>United States</td>
+                        <td><a href="https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-09</td>
+                        <td>Pepper Pay</td>
+                        <td>N/A</td>
+                        <td>Finance</td>
+                        <td>United States</td>
+                        <td><a href="https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-07</td>
+                        <td>GoPro</td>
+                        <td>145</td>
+                        <td>Consumer</td>
+                        <td>United States</td>
+                        <td><a href="https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-07</td>
+                        <td>Pendo</td>
+                        <td>90</td>
+                        <td>Product</td>
+                        <td>United States</td>
+                        <td><a href="https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-05</td>
+                        <td>Bolt</td>
+                        <td>N/A</td>
+                        <td>Finance</td>
+                        <td>United States</td>
+                        <td><a href="https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-04-03</td>
+                        <td>NeuroPixel.AI</td>
+                        <td>N/A</td>
+                        <td>Retail</td>
+                        <td>India</td>
+                        <td><a href="https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <section id="methodology">
+            <h2>Methodology</h2>
+            <p>This report is based on public tech layoff records. Entries with invalid dates are excluded from time-series charts. Entries without a reported headcount are excluded from totals but may still appear in event lists if a valid date is available.</p>
+            <p class="note">Data source coverage changes over time, and some fields such as layoff percentage, funding stage, and funds raised are incomplete. The report should be read as a structured public-record analysis, not as a complete labor-market census.</p>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+            
+            <details>
+                <summary>What is the latest tech layoff trend?</summary>
+                <p>The current data covers 2025-01-06 to 2026-04-16. The month with the highest reported layoff total is 2026-03.</p>
+            </details>
+            
+            <details>
+                <summary>Which tech company had the most layoffs in this dataset?</summary>
+                <p>Oracle ranks first in the current company summary with 31,094 reported layoffs.</p>
+            </details>
+            
+            <details>
+                <summary>Which industry is most affected by tech layoffs?</summary>
+                <p>Hardware is the largest industry category in the current this data, with 40,087 reported layoffs.</p>
+            </details>
+            
+            <details>
+                <summary>Does this report prove that AI caused tech layoffs?</summary>
+                <p>No. The structured dataset tracks public layoff records and related dimensions, but it does not contain a complete causal field for AI. Any AI-related discussion should be treated as source attribution or market context, not as a direct causal proof.</p>
+            </details>
+            
+            <details>
+                <summary>How often is the data updated?</summary>
+                <p>Data is updated daily from public layoff records. The report shows the current date range so you can verify how recent the data is.</p>
+            </details>
+            
+        </section>
+    </main>
+
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+Disclaimer: Some figures are estimates or planned reductions<br><br>
+<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp;
+<a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp;
+<a href="https://debugcanada.com" target="_blank">Debug Canada</a>
+    </footer>
+
+<script>
+const monthlyData = [{"month": "2025-01", "total_laid_off": 2537}, {"month": "2025-02", "total_laid_off": 18474}, {"month": "2025-03", "total_laid_off": 8834}, {"month": "2025-04", "total_laid_off": 25345}, {"month": "2025-05", "total_laid_off": 10577}, {"month": "2025-06", "total_laid_off": 1606}, {"month": "2025-07", "total_laid_off": 16648}, {"month": "2025-08", "total_laid_off": 6452}, {"month": "2025-09", "total_laid_off": 4174}, {"month": "2025-10", "total_laid_off": 19070}, {"month": "2025-11", "total_laid_off": 8932}, {"month": "2025-12", "total_laid_off": 1552}, {"month": "2026-01", "total_laid_off": 24928}, {"month": "2026-02", "total_laid_off": 11019}, {"month": "2026-03", "total_laid_off": 34800}, {"month": "2026-04", "total_laid_off": 2465}];
+const industryData = [{"industry": "Other", "total_laid_off": 56552}, {"industry": "Hardware", "total_laid_off": 40087}, {"industry": "Retail", "total_laid_off": 34097}, {"industry": "Consumer", "total_laid_off": 16469}, {"industry": "Finance", "total_laid_off": 8524}, {"industry": "Sales", "total_laid_off": 5942}, {"industry": "HR", "total_laid_off": 5645}, {"industry": "Transportation", "total_laid_off": 4584}, {"industry": "Food", "total_laid_off": 3607}, {"industry": "Energy", "total_laid_off": 3464}];
+const countryData = [{"country": "United States", "total_laid_off": 164446}, {"country": "India", "total_laid_off": 8755}, {"country": "Israel", "total_laid_off": 4781}, {"country": "Sweden", "total_laid_off": 4615}, {"country": "Australia", "total_laid_off": 4220}, {"country": "Netherlands", "total_laid_off": 2570}, {"country": "Canada", "total_laid_off": 2491}, {"country": "Germany", "total_laid_off": 1785}, {"country": "United Kingdom", "total_laid_off": 1732}, {"country": "Brazil", "total_laid_off": 516}];
+const companyData = [{"company": "Oracle", "total_laid_off": 31094}, {"company": "Amazon", "total_laid_off": 30284}, {"company": "Intel", "total_laid_off": 27058}, {"company": "Microsoft", "total_laid_off": 15347}, {"company": "HP", "total_laid_off": 8000}, {"company": "Meta", "total_laid_off": 6000}, {"company": "Salesforce", "total_laid_off": 5385}, {"company": "Block", "total_laid_off": 4931}, {"company": "Northvolt", "total_laid_off": 2800}, {"company": "Hewlett Packard Enterprise", "total_laid_off": 2552}, {"company": "Autodesk", "total_laid_off": 2350}, {"company": "Workday", "total_laid_off": 2150}, {"company": "WiseTech", "total_laid_off": 2000}, {"company": "Synopsys", "total_laid_off": 2000}, {"company": "Atlassian", "total_laid_off": 1950}];
+const stageHeatmapData = {"cells": [{"event_count": 29, "size_bucket": "\u003c100", "stage": "Post-IPO"}, {"event_count": 57, "size_bucket": "100-499", "stage": "Post-IPO"}, {"event_count": 12, "size_bucket": "500-999", "stage": "Post-IPO"}, {"event_count": 21, "size_bucket": "1k-4.9k", "stage": "Post-IPO"}, {"event_count": 7, "size_bucket": "5k+", "stage": "Post-IPO"}, {"event_count": 24, "size_bucket": "\u003c100", "stage": "Series D+"}, {"event_count": 26, "size_bucket": "100-499", "stage": "Series D+"}, {"event_count": 1, "size_bucket": "500-999", "stage": "Series D+"}, {"event_count": 1, "size_bucket": "1k-4.9k", "stage": "Series D+"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Series D+"}, {"event_count": 25, "size_bucket": "\u003c100", "stage": "Series A-C"}, {"event_count": 13, "size_bucket": "100-499", "stage": "Series A-C"}, {"event_count": 0, "size_bucket": "500-999", "stage": "Series A-C"}, {"event_count": 0, "size_bucket": "1k-4.9k", "stage": "Series A-C"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Series A-C"}, {"event_count": 2, "size_bucket": "\u003c100", "stage": "Seed / Early"}, {"event_count": 1, "size_bucket": "100-499", "stage": "Seed / Early"}, {"event_count": 0, "size_bucket": "500-999", "stage": "Seed / Early"}, {"event_count": 0, "size_bucket": "1k-4.9k", "stage": "Seed / Early"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Seed / Early"}, {"event_count": 6, "size_bucket": "\u003c100", "stage": "Acquired / PE"}, {"event_count": 15, "size_bucket": "100-499", "stage": "Acquired / PE"}, {"event_count": 5, "size_bucket": "500-999", "stage": "Acquired / PE"}, {"event_count": 2, "size_bucket": "1k-4.9k", "stage": "Acquired / PE"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Acquired / PE"}, {"event_count": 11, "size_bucket": "\u003c100", "stage": "Unknown"}, {"event_count": 23, "size_bucket": "100-499", "stage": "Unknown"}, {"event_count": 2, "size_bucket": "500-999", "stage": "Unknown"}, {"event_count": 3, "size_bucket": "1k-4.9k", "stage": "Unknown"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Unknown"}, {"event_count": 0, "size_bucket": "\u003c100", "stage": "Other"}, {"event_count": 0, "size_bucket": "100-499", "stage": "Other"}, {"event_count": 0, "size_bucket": "500-999", "stage": "Other"}, {"event_count": 0, "size_bucket": "1k-4.9k", "stage": "Other"}, {"event_count": 0, "size_bucket": "5k+", "stage": "Other"}], "size_buckets": ["\u003c100", "100-499", "500-999", "1k-4.9k", "5k+"], "stages": ["Post-IPO", "Series D+", "Series A-C", "Seed / Early", "Acquired / PE", "Unknown", "Other"]};
+const layoffPctDistribution = [{"bucket": "\u003c10%", "event_count": 56}, {"bucket": "10-24%", "event_count": 53}, {"bucket": "25-49%", "event_count": 24}, {"bucket": "50-99%", "event_count": 9}, {"bucket": "100%+", "event_count": 11}];
+const tooltip = { backgroundColor: '#0a0f1e', borderColor: '#1e293b', textStyle: { color: '#e2e8f0' } };
+const TX = '#94a3b8', AX = '#1e293b';
+function init(id) { return echarts.init(document.getElementById(id), null, { renderer: 'canvas' }); }
+function shortNumber(v) { return v >= 1000 ? `${Math.round(v / 100) / 10}k` : v; }
+
+const monthlyChart = init('monthlyTrendChart');
+monthlyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 54, right: 24, top: 28, bottom: 70 },
+    xAxis: { type: 'category', data: monthlyData.map(d => d.month), axisLabel: { rotate: 45, color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [
+        { type: 'bar', name: 'Layoffs', data: monthlyData.map(d => d.total_laid_off), itemStyle: { color: '#38bdf8' } },
+        { type: 'line', name: 'Trend', data: monthlyData.map(d => d.total_laid_off), smooth: true, itemStyle: { color: '#c084fc' }, lineStyle: { color: '#c084fc' } }
+    ]
+});
+const industryChart = init('industryChart');
+industryChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 150, right: 24, top: 24, bottom: 30 },
+    xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    yAxis: { type: 'category', data: industryData.map(d => d.industry).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    series: [{ type: 'bar', data: industryData.map(d => d.total_laid_off).reverse(), itemStyle: { color: '#0e9384' } }]
+});
+const countryChart = init('countryChart');
+countryChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 150, right: 24, top: 24, bottom: 30 },
+    xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    yAxis: { type: 'category', data: countryData.map(d => d.country).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    series: [{ type: 'bar', data: countryData.map(d => d.total_laid_off).reverse(), itemStyle: { color: '#7a5af8' } }]
+});
+const companyChart = init('companyChart');
+companyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 150, right: 24, top: 24, bottom: 30 },
+    xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    yAxis: { type: 'category', data: companyData.map(d => d.company).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    series: [{ type: 'bar', data: companyData.map(d => d.total_laid_off).reverse(), itemStyle: { color: '#f43f5e' } }]
+});
+const stageHeatmapChart = init('stageHeatmapChart');
+stageHeatmapChart.setOption({
+    tooltip: {
+        position: 'top',
+        ...tooltip,
+        formatter: params => {
+            const cell = stageHeatmapData.cells[params.dataIndex];
+            return `${cell.stage}<br>${cell.size_bucket}: ${cell.event_count} events`;
+        }
+    },
+    grid: { left: 110, right: 30, top: 30, bottom: 90 },
+    xAxis: { type: 'category', data: stageHeatmapData.size_buckets, axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'category', data: stageHeatmapData.stages, axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    visualMap: {
+        min: 0,
+        max: Math.max(...stageHeatmapData.cells.map(c => c.event_count), 1),
+        calculable: true,
+        orient: 'horizontal',
+        left: 'center',
+        bottom: 16,
+        textStyle: { color: TX }
+    },
+    series: [{
+        type: 'heatmap',
+        data: stageHeatmapData.cells.map(cell => [
+            stageHeatmapData.size_buckets.indexOf(cell.size_bucket),
+            stageHeatmapData.stages.indexOf(cell.stage),
+            cell.event_count
+        ]),
+        label: { show: true, color: '#f8fafc' }
+    }]
+});
+const percentageChart = init('percentageChart');
+percentageChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 54, right: 24, top: 28, bottom: 42 },
+    xAxis: { type: 'category', data: layoffPctDistribution.map(d => d.bucket), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [{ type: 'bar', data: layoffPctDistribution.map(d => d.event_count), itemStyle: { color: '#f59e0b' } }]
+});
+window.addEventListener('resize', () => {
+    [monthlyChart, industryChart, countryChart, companyChart, stageHeatmapChart, percentageChart].forEach(chart => chart.resize());
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W15",
+  "status": "final",
+  "date_range": {
+    "start": "2025-04-09",
+    "end": "2025-04-12"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W15.html",
+  "kpis": {
+    "total_laid_off": 200,
+    "event_count": 4,
+    "headcount_event_count": 1,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 200.0,
+    "median_layoffs_per_headcount_event": 200.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W14",
+      "total_laid_off": 3814,
+      "event_count": 9,
+      "total_laid_off_delta": -3614,
+      "total_laid_off_pct_change": -0.9476,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.5556,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W15",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Forto",
+        "total_laid_off": 200
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Logistics",
+        "total_laid_off": 200
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Germany",
+        "total_laid_off": 200
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 200
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-04-12",
+        "company": "Forto",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Logistics",
+        "country": "Germany",
+        "stage": "Series D",
+        "source": "https://www.businessinsider.de/gruenderszene/automotive-mobility/forto-entlassungen-gruende/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-04-12",
+        "company": "Forto",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Logistics",
+        "country": "Germany",
+        "stage": "Series D",
+        "source": "https://www.businessinsider.de/gruenderszene/automotive-mobility/forto-entlassungen-gruende/"
+      },
+      {
+        "date": "2025-04-11",
+        "company": "Google",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/technology/google-lays-off-hundreds-employees-android-pixel-group-information-reports-2025-04-11/"
+      },
+      {
+        "date": "2025-04-10",
+        "company": "Marin Software",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://searchengineland.com/marin-software-shutting-down-454228"
+      },
+      {
+        "date": "2025-04-09",
+        "company": "Wing Cloud",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Infrastructure",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-04-10",
+        "company": "Marin Software",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://searchengineland.com/marin-software-shutting-down-454228"
+      },
+      {
+        "date": "2025-04-09",
+        "company": "Wing Cloud",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Infrastructure",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W15 includes 4 public layoff events and 200 reported layoffs.",
+    "The largest company contributor is Forto with 200 reported layoffs.",
+    "The leading named industry is Logistics with 200 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

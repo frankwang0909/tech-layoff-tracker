@@ -1,0 +1,149 @@
+{
+  "report_type": "daily",
+  "period": "2025-04-26",
+  "status": "final",
+  "date_range": {
+    "start": "2025-04-26",
+    "end": "2025-04-26"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-04-26.html",
+  "kpis": {
+    "total_laid_off": 400,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 200.0,
+    "median_layoffs_per_headcount_event": 200.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-04-25",
+      "total_laid_off": 77,
+      "event_count": 1,
+      "total_laid_off_delta": 323,
+      "total_laid_off_pct_change": 4.1948,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-04-26",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Cars24",
+        "total_laid_off": 400
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Transportation",
+        "total_laid_off": 400
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 400
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series G",
+        "total_laid_off": 400
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
+      },
+      {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
+      },
+      {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-04-26 includes 2 public layoff events and 400 reported layoffs.",
+    "The largest company contributor is Cars24 with 400 reported layoffs.",
+    "The leading named industry is Transportation with 400 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

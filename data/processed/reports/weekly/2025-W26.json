@@ -1,0 +1,269 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W26",
+  "status": "final",
+  "date_range": {
+    "start": "2025-06-24",
+    "end": "2025-06-26"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W26.html",
+  "kpis": {
+    "total_laid_off": 540,
+    "event_count": 7,
+    "headcount_event_count": 4,
+    "company_count": 7,
+    "country_count": 2,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 135.0,
+    "median_layoffs_per_headcount_event": 112.5,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W25",
+      "total_laid_off": 166,
+      "event_count": 3,
+      "total_laid_off_delta": 374,
+      "total_laid_off_pct_change": 2.253,
+      "event_count_delta": 4,
+      "event_count_pct_change": 1.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W26",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Bumble",
+        "total_laid_off": 240
+      },
+      {
+        "company": "Rivian",
+        "total_laid_off": 140
+      },
+      {
+        "company": "Klue",
+        "total_laid_off": 85
+      },
+      {
+        "company": "Google",
+        "total_laid_off": 75
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 315
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 140
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 85
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 455
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 85
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 455
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 85
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 2
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-06-25",
+        "company": "Bumble",
+        "num_laid_off": 240,
+        "percentage_laid_off": 0.3,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/06/25/bumble-layoffs.html"
+      },
+      {
+        "date": "2025-06-26",
+        "company": "Rivian",
+        "num_laid_off": 140,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2025/06/26/rivian-cuts-dozens-on-manufacturing-team-ahead-of-r2-launch/"
+      },
+      {
+        "date": "2025-06-25",
+        "company": "Klue",
+        "num_laid_off": 85,
+        "percentage_laid_off": 0.4,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Google",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theinformation.com/articles/google-cuts-smart-tv-budget-doubles-youtube"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-06-26",
+        "company": "Rivian",
+        "num_laid_off": 140,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2025/06/26/rivian-cuts-dozens-on-manufacturing-team-ahead-of-r2-launch/"
+      },
+      {
+        "date": "2025-06-25",
+        "company": "Bumble",
+        "num_laid_off": 240,
+        "percentage_laid_off": 0.3,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/06/25/bumble-layoffs.html"
+      },
+      {
+        "date": "2025-06-25",
+        "company": "Klue",
+        "num_laid_off": 85,
+        "percentage_laid_off": 0.4,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Google",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theinformation.com/articles/google-cuts-smart-tv-budget-doubles-youtube"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Intel",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/06/intel-will-shut-down-its-automotive-business-lay-off-most-of-the-departments-employees.html"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Microsoft",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-06-24/microsoft-plans-major-job-cuts-at-xbox-gaming-division?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc1MDc3Mjc0NiwiZXhwIjoxNzUxMzc3NTQ2LCJhcnRpY2xlSWQiOiJTWUQ0VkxEV1JHRzAwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.iMkVuxzB6m6hT_Rpwa-NQCTCvDapSt1DaRfpnGaqUSw&embedded-checkout=true&leadSource=uverify%20wall"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Pluralsight",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.17,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.sltrib.com/news/business/2025/06/26/pluralsight-is-leaving-utah-after/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-06-25",
+        "company": "Klue",
+        "num_laid_off": 85,
+        "percentage_laid_off": 0.4,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
+      },
+      {
+        "date": "2025-06-25",
+        "company": "Bumble",
+        "num_laid_off": 240,
+        "percentage_laid_off": 0.3,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/06/25/bumble-layoffs.html"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W26 includes 7 public layoff events and 540 reported layoffs.",
+    "The largest company contributor is Bumble with 240 reported layoffs.",
+    "The leading named industry is Consumer with 315 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

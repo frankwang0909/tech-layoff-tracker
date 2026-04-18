@@ -1,0 +1,187 @@
+{
+  "report_type": "daily",
+  "period": "2025-04-02",
+  "status": "final",
+  "date_range": {
+    "start": "2025-04-02",
+    "end": "2025-04-02"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-04-02.html",
+  "kpis": {
+    "total_laid_off": 291,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 145.5,
+    "median_layoffs_per_headcount_event": 145.5,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-04-01",
+      "total_laid_off": 600,
+      "event_count": 1,
+      "total_laid_off_delta": -309,
+      "total_laid_off_pct_change": -0.515,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-04-02",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Automattic",
+        "total_laid_off": 281
+      },
+      {
+        "company": "Canva",
+        "total_laid_off": 10
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 281
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 10
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 281
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 10
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series E",
+        "total_laid_off": 281
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 10
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-04-02",
+        "company": "Automattic",
+        "num_laid_off": 281,
+        "percentage_laid_off": 0.16,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://techcrunch.com/2025/04/02/wordpress-maker-automattic-lays-off-16-of-staff/"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "Canva",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.afr.com/technology/canva-shocks-employees-with-ai-related-job-cuts-20250331-p5lo06"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-04-02",
+        "company": "Automattic",
+        "num_laid_off": 281,
+        "percentage_laid_off": 0.16,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://techcrunch.com/2025/04/02/wordpress-maker-automattic-lays-off-16-of-staff/"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "Canva",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.afr.com/technology/canva-shocks-employees-with-ai-related-job-cuts-20250331-p5lo06"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "WhyHive",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Data",
+        "country": "Australia",
+        "stage": "Seed",
+        "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-04-02",
+        "company": "WhyHive",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Data",
+        "country": "Australia",
+        "stage": "Seed",
+        "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-04-02 includes 3 public layoff events and 291 reported layoffs.",
+    "The largest company contributor is Automattic with 281 reported layoffs.",
+    "The leading named industry is Consumer with 10 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

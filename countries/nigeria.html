@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs by Country: Nigeria | Tech Layoff Tracker</title>
+    <meta name="description" content="Nigeria tech layoffs analysis: 320 reported layoffs across 5 public events from 2025-02-13 to 2026-02-28.">
+    <link rel="canonical" href="https://tech.debugcanada.com/countries/nigeria.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tech.debugcanada.com/countries/nigeria.html">
+    <meta property="og:title" content="Tech Layoffs by Country: Nigeria">
+    <meta property="og:description" content="Nigeria tech layoffs analysis: 320 reported layoffs across 5 public events from 2025-02-13 to 2026-02-28.">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Frank Wang"}, "dateModified": "2026-02-28", "datePublished": "2026-02-28", "description": "Nigeria tech layoffs analysis: 320 reported layoffs across 5 public events from 2025-02-13 to 2026-02-28.", "headline": "Tech Layoffs by Country: Nigeria", "mainEntityOfPage": "https://tech.debugcanada.com/countries/nigeria.html", "publisher": {"@type": "Organization", "name": "Tech Layoff Tracker", "url": "https://tech.debugcanada.com"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/", "name": "Country", "position": 2}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/nigeria.html", "name": "Nigeria", "position": 3}]}</script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
+        .hero { padding: 42px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
+        .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
+        .kpi { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 16px; background: rgba(15, 23, 42, 0.6); }
+        .kpi span { display: block; color: #64748b; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+        .kpi strong { display: block; margin-top: 6px; font-size: 28px; line-height: 1.1; color: #f8fafc; }
+        main { padding: 30px 0 54px; }
+        section { padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        h2 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; color: #f8fafc; }
+        .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .chart { width: 100%; height: 380px; border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; background: rgba(15, 23, 42, 0.6); }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); }
+        th, td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; vertical-align: top; font-size: 14px; color: #e2e8f0; }
+        th { color: #94a3b8; background: rgba(255,255,255,0.04); }
+        tr:last-child td { border-bottom: 0; }
+        .note { color: #64748b; font-size: 14px; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .kpis, .chart-grid { grid-template-columns: 1fr; }
+            .chart { height: 280px; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            .kpi strong { font-size: 22px; }
+            h2 { font-size: 22px; }
+            table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/" class="active">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/">Reports</a>
+            </nav>
+            <p class="eyebrow">Country analysis</p>
+            <h1>Tech Layoffs by Country: Nigeria</h1>
+            <p class="dek">Nigeria has 320 reported tech layoffs across 5 public events from 2025-02-13 to 2026-02-28.</p>
+            <div class="meta">
+                <span>Data range: 2025-02-13 to 2026-02-28</span>
+                <span>Based on public layoff records</span>
+            </div>
+            <div class="kpis" aria-label="Topic key metrics">
+                <div class="kpi"><span>Total layoffs</span><strong>320</strong></div>
+                <div class="kpi"><span>Events</span><strong>5</strong></div>
+                <div class="kpi"><span>Companies</span><strong>5</strong></div>
+                <div class="kpi"><span>High intensity</span><strong>3</strong></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Nigeria tech layoffs analysis: 320 reported layoffs across 5 public events from 2025-02-13 to 2026-02-28.</p>
+            <p class="note">This page is generated as a focused topic page. It should be interpreted with the same methodology limits as the main trend report.</p>
+        </section>
+
+        <section id="charts">
+            <h2>Trend and Companies</h2>
+            <div class="chart-grid">
+                <div id="monthlyChart" class="chart" aria-label="Monthly trend chart"></div>
+                <div id="companyChart" class="chart" aria-label="Top companies chart"></div>
+            </div>
+        </section>
+
+        <section id="recent-events">
+            <h2>Recent Events</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Company</th>
+                        <th>Laid off</th>
+                        <th>Industry</th>
+                        <th>Country</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>2026-02-28</td>
+                        <td>Zap Africa</td>
+                        <td>N/A</td>
+                        <td>Finance</td>
+                        <td>Nigeria</td>
+                        <td><a href="https://techcabal.com/2026/02/28/zap-africa-layoffs/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-07-02</td>
+                        <td>Okra</td>
+                        <td>N/A</td>
+                        <td>Finance</td>
+                        <td>Nigeria</td>
+                        <td><a href="https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-06-19</td>
+                        <td>Sabi</td>
+                        <td>50</td>
+                        <td>Retail</td>
+                        <td>Nigeria</td>
+                        <td><a href="https://techcrunch.com/2025/06/20/after-raising-38m-african-e-commerce-startup-sabi-lays-off-20-pivots-to-traceable-exports/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-02-19</td>
+                        <td>Vendease</td>
+                        <td>120</td>
+                        <td>Food</td>
+                        <td>Nigeria</td>
+                        <td><a href="https://techcabal.com/2025/02/19/vendease-second-layoffs/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-02-13</td>
+                        <td>Metro Africa Xpress</td>
+                        <td>150</td>
+                        <td>Logistics</td>
+                        <td>Nigeria</td>
+                        <td><a href="https://techcabal.com/2025/02/13/max-laid-off-150-employees/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+Disclaimer: Some figures are estimates or planned reductions<br><br>
+<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp;
+<a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp;
+<a href="https://debugcanada.com" target="_blank">Debug Canada</a>
+    </footer>
+
+<script>
+const page = {"canonical_url": "/countries/nigeria.html", "charts": {"company_top": [{"company": "Metro Africa Xpress", "total_laid_off": 150}, {"company": "Vendease", "total_laid_off": 120}, {"company": "Sabi", "total_laid_off": 50}], "monthly_trend": [{"month": "2025-02", "total_laid_off": 270}, {"month": "2025-06", "total_laid_off": 50}]}, "date_range": {"end": "2026-02-28", "start": "2025-02-13"}, "kpis": {"company_count": 5, "country_count": 1, "event_count": 5, "headcount_event_count": 3, "high_intensity_event_count": 3, "industry_count": 4, "total_laid_off": 320}, "name": "Nigeria", "slug": "nigeria", "summary": "Nigeria has 320 reported tech layoffs across 5 public events from 2025-02-13 to 2026-02-28.", "tables": {"recent_events": [{"company": "Zap Africa", "country": "Nigeria", "date": "2026-02-28", "industry": "Finance", "num_laid_off": null, "percentage_laid_off": 0.44, "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/", "stage": "Seed"}, {"company": "Okra", "country": "Nigeria", "date": "2025-07-02", "industry": "Finance", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/", "stage": "Series A"}, {"company": "Sabi", "country": "Nigeria", "date": "2025-06-19", "industry": "Retail", "num_laid_off": 50, "percentage_laid_off": 0.2, "source": "https://techcrunch.com/2025/06/20/after-raising-38m-african-e-commerce-startup-sabi-lays-off-20-pivots-to-traceable-exports/", "stage": "Series B"}, {"company": "Vendease", "country": "Nigeria", "date": "2025-02-19", "industry": "Food", "num_laid_off": 120, "percentage_laid_off": 0.44, "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/", "stage": "Series A"}, {"company": "Metro Africa Xpress", "country": "Nigeria", "date": "2025-02-13", "industry": "Logistics", "num_laid_off": 150, "percentage_laid_off": null, "source": "https://techcabal.com/2025/02/13/max-laid-off-150-employees/", "stage": "Unknown"}]}, "title": "Tech Layoffs by Country: Nigeria", "type": "country"};
+const tooltip = { backgroundColor: '#0a0f1e', borderColor: '#1e293b', textStyle: { color: '#e2e8f0' } };
+const TX = '#94a3b8', AX = '#1e293b';
+function init(id) { return echarts.init(document.getElementById(id), null, { renderer: 'canvas' }); }
+function shortNumber(v) { return v >= 1000 ? `${Math.round(v / 100) / 10}k` : v; }
+const monthlyChart = init('monthlyChart');
+monthlyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 54, right: 24, top: 28, bottom: 70 },
+    xAxis: { type: 'category', data: page.charts.monthly_trend.map(d => d.month), axisLabel: { rotate: 45, color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [{ type: 'bar', data: page.charts.monthly_trend.map(d => d.total_laid_off), itemStyle: { color: '#38bdf8' } }]
+});
+const companyChart = init('companyChart');
+companyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 130, right: 24, top: 28, bottom: 36 },
+    xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    yAxis: { type: 'category', data: page.charts.company_top.map(d => d.company).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    series: [{ type: 'bar', data: page.charts.company_top.map(d => d.total_laid_off).reverse(), itemStyle: { color: '#0e9384' } }]
+});
+window.addEventListener('resize', () => [monthlyChart, companyChart].forEach(chart => chart.resize()));
+</script>
+</body>
+</html>

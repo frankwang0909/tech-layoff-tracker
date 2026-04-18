@@ -1,0 +1,555 @@
+{
+  "report_type": "monthly",
+  "period": "2025-08",
+  "status": "final",
+  "date_range": {
+    "start": "2025-08-01",
+    "end": "2025-08-31"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/monthly/2025-08.html",
+  "kpis": {
+    "total_laid_off": 6452,
+    "event_count": 26,
+    "headcount_event_count": 18,
+    "company_count": 23,
+    "country_count": 5,
+    "industry_count": 16,
+    "average_layoffs_per_headcount_event": 358.44,
+    "median_layoffs_per_headcount_event": 143.0,
+    "high_intensity_event_count": 4
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-07",
+      "total_laid_off": 16648,
+      "event_count": 31,
+      "total_laid_off_delta": -10196,
+      "total_laid_off_pct_change": -0.6124,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.1613,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-08",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Salesforce",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "Oracle",
+        "total_laid_off": 739
+      },
+      {
+        "company": "Micron",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Cisco",
+        "total_laid_off": 221
+      },
+      {
+        "company": "Yotpo",
+        "total_laid_off": 200
+      },
+      {
+        "company": "BeepKart",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Clear",
+        "total_laid_off": 145
+      },
+      {
+        "company": "Rec Room",
+        "total_laid_off": 141
+      },
+      {
+        "company": "F5",
+        "total_laid_off": 106
+      },
+      {
+        "company": "Restaurant365",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 739
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "Infrastructure",
+        "total_laid_off": 221
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 208
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 170
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 150
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 145
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 106
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 6074
+      },
+      {
+        "country": "India",
+        "total_laid_off": 295
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 83
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5503
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 245
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 150
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 141
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 130
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 83
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 2
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 4
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-08-31",
+        "company": "Salesforce",
+        "num_laid_off": 4000,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
+      },
+      {
+        "date": "2025-08-12",
+        "company": "Micron",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.scmp.com/tech/big-tech/article/3321613/micron-starts-lay-offs-china-us-memory-chipmaker-retreats-mobile-nand-market"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 289,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pleasantonweekly.com/business/2025/08/19/dozens-of-pleasanton-workers-hit-by-wave-of-oracle-layoffs/"
+      },
+      {
+        "date": "2025-08-19",
+        "company": "Cisco",
+        "num_laid_off": 221,
+        "percentage_laid_off": null,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      },
+      {
+        "date": "2025-08-05",
+        "company": "Yotpo",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.34,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 188,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/oracle-tech-layoffs-20818166.php"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 161,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/oracle-lays-off-161-employees-in-seattle-as-part-of-broader-reported-cuts-impacting-cloud-business/"
+      },
+      {
+        "date": "2025-08-23",
+        "company": "BeepKart",
+        "num_laid_off": 150,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
+      },
+      {
+        "date": "2025-08-01",
+        "company": "Clear",
+        "num_laid_off": 145,
+        "percentage_laid_off": 0.16,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Series C",
+        "source": "https://entrackr.com/news/clear-cuts-16-of-workforce-amid-peak-tax-filing-season-9628272"
+      },
+      {
+        "date": "2025-08-27",
+        "company": "Rec Room",
+        "num_laid_off": 141,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.geekwire.com/2025/filing-rec-room-layoffs-impact-141-employees-at-seattle-gaming-startup/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-08-31",
+        "company": "Salesforce",
+        "num_laid_off": 4000,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
+      },
+      {
+        "date": "2025-08-29",
+        "company": "Flip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.sfgate.com/tech/article/flip-startup-shuts-down-billion-21022297.php"
+      },
+      {
+        "date": "2025-08-27",
+        "company": "Rec Room",
+        "num_laid_off": 141,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.geekwire.com/2025/filing-rec-room-layoffs-impact-141-employees-at-seattle-gaming-startup/"
+      },
+      {
+        "date": "2025-08-26",
+        "company": "Verily",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.businessinsider.com/alphabets-verily-lays-off-staff-cuts-its-devices-program-2025-8"
+      },
+      {
+        "date": "2025-08-25",
+        "company": "Klaviyo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theinformation.com/briefings/klaviyo-restructures-r-d-teams-emphasizes-ai-technical-skills"
+      },
+      {
+        "date": "2025-08-23",
+        "company": "BeepKart",
+        "num_laid_off": 150,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
+      },
+      {
+        "date": "2025-08-22",
+        "company": "TikTok",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://www.wsj.com/tech/tiktok-to-lay-off-hundreds-of-u-k-content-moderators-in-ai-push-d040ae21"
+      },
+      {
+        "date": "2025-08-19",
+        "company": "Cisco",
+        "num_laid_off": 221,
+        "percentage_laid_off": null,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      },
+      {
+        "date": "2025-08-19",
+        "company": "Oracle",
+        "num_laid_off": 101,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      },
+      {
+        "date": "2025-08-15",
+        "company": "Kyte",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://techcrunch.com/2025/08/15/kyte-which-billed-itself-as-the-best-competitor-to-hertz-shuts-down/"
+      },
+      {
+        "date": "2025-08-14",
+        "company": "Restaurant365",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.09,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.restaurantbusinessonline.com/technology/tech-supplier-restaurant365-lays-9-staff"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "F5",
+        "num_laid_off": 106,
+        "percentage_laid_off": 0.02,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2024/f5-confirms-new-round-of-job-cuts-continuing-annual-pattern-of-workforce-reductions/"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 161,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/oracle-lays-off-161-employees-in-seattle-as-part-of-broader-reported-cuts-impacting-cloud-business/"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 188,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/oracle-tech-layoffs-20818166.php"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 289,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pleasantonweekly.com/business/2025/08/19/dozens-of-pleasanton-workers-hit-by-wave-of-oracle-layoffs/"
+      },
+      {
+        "date": "2025-08-12",
+        "company": "Micron",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.scmp.com/tech/big-tech/article/3321613/micron-starts-lay-offs-china-us-memory-chipmaker-retreats-mobile-nand-market"
+      },
+      {
+        "date": "2025-08-12",
+        "company": "BenchSci",
+        "num_laid_off": 83,
+        "percentage_laid_off": 0.23,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
+      },
+      {
+        "date": "2025-08-12",
+        "company": "Amdocs",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/legpd5dv7"
+      },
+      {
+        "date": "2025-08-12",
+        "company": "Crunchyroll",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "Japan",
+        "stage": "Acquired",
+        "source": "https://www.thewrap.com/crunchyroll-restructuring-layoffs/"
+      },
+      {
+        "date": "2025-08-07",
+        "company": "Kaltura",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/6a8duhohw"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-08-29",
+        "company": "Flip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.sfgate.com/tech/article/flip-startup-shuts-down-billion-21022297.php"
+      },
+      {
+        "date": "2025-08-23",
+        "company": "BeepKart",
+        "num_laid_off": 150,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
+      },
+      {
+        "date": "2025-08-15",
+        "company": "Kyte",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://techcrunch.com/2025/08/15/kyte-which-billed-itself-as-the-best-competitor-to-hertz-shuts-down/"
+      },
+      {
+        "date": "2025-08-05",
+        "company": "Yotpo",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.34,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
+      }
+    ]
+  },
+  "insights": [
+    "2025-08 includes 26 public layoff events and 6,452 reported layoffs.",
+    "The largest company contributor is Salesforce with 4,000 reported layoffs.",
+    "The leading named industry is Sales with 4,000 reported layoffs.",
+    "4 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

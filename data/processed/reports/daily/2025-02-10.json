@@ -1,0 +1,237 @@
+{
+  "report_type": "daily",
+  "period": "2025-02-10",
+  "status": "final",
+  "date_range": {
+    "start": "2025-02-10",
+    "end": "2025-02-10"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-02-10.html",
+  "kpis": {
+    "total_laid_off": 4220,
+    "event_count": 4,
+    "headcount_event_count": 4,
+    "company_count": 4,
+    "country_count": 2,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 1055.0,
+    "median_layoffs_per_headcount_event": 250.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-02-09",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-02-10",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Meta",
+        "total_laid_off": 3600
+      },
+      {
+        "company": "Wise",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Justworks",
+        "total_laid_off": 200
+      },
+      {
+        "company": "MessageBird",
+        "total_laid_off": 120
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 3600
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "HR",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 120
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 4100
+      },
+      {
+        "country": "Netherlands",
+        "total_laid_off": 120
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 3900
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 120
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-02-10",
+        "company": "Meta",
+        "num_laid_off": 3600,
+        "percentage_laid_off": 0.05,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/news/mark-zuckerberg-warned-employees-prepare-174916671.html"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "Wise",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.tampabay.com/news/business/2025/02/10/wise-close-tampa-offices-cutting-more-than-300-jobs/"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "Justworks",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.justworks.com/press/company-news/a-note-from-justworks-ceo-mike-seckler"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "MessageBird",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.33,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/02/10/bird-cuts-120-jobs-as-part-of-strategic-realignment/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-02-10",
+        "company": "Meta",
+        "num_laid_off": 3600,
+        "percentage_laid_off": 0.05,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/news/mark-zuckerberg-warned-employees-prepare-174916671.html"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "Wise",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.tampabay.com/news/business/2025/02/10/wise-close-tampa-offices-cutting-more-than-300-jobs/"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "Justworks",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.justworks.com/press/company-news/a-note-from-justworks-ceo-mike-seckler"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "MessageBird",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.33,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/02/10/bird-cuts-120-jobs-as-part-of-strategic-realignment/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-02-10",
+        "company": "MessageBird",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.33,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/02/10/bird-cuts-120-jobs-as-part-of-strategic-realignment/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-02-10 includes 4 public layoff events and 4,220 reported layoffs.",
+    "The largest company contributor is Meta with 3,600 reported layoffs.",
+    "The leading named industry is Consumer with 3,600 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

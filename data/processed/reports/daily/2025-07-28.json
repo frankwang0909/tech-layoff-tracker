@@ -1,0 +1,189 @@
+{
+  "report_type": "daily",
+  "period": "2025-07-28",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-28",
+    "end": "2025-07-28"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-07-28.html",
+  "kpis": {
+    "total_laid_off": 206,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 103.0,
+    "median_layoffs_per_headcount_event": 103.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-07-27",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-07-28",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Astra",
+        "total_laid_off": 106
+      },
+      {
+        "company": "Krutrim",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 106
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 100
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 206
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 206
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-28",
+        "company": "Astra",
+        "num_laid_off": 106,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-28",
+        "company": "Astra",
+        "num_laid_off": 106,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Eyeo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.adexchanger.com/privacy/eyeo-names-new-ceo-cuts-40-of-staff-and-refocuses-the-business-on-privacy/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-28",
+        "company": "Astra",
+        "num_laid_off": 106,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Eyeo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.adexchanger.com/privacy/eyeo-names-new-ceo-cuts-40-of-staff-and-refocuses-the-business-on-privacy/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-07-28 includes 3 public layoff events and 206 reported layoffs.",
+    "The largest company contributor is Astra with 106 reported layoffs.",
+    "The leading named industry is Sales with 106 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

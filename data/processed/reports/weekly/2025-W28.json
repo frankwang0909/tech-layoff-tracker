@@ -1,0 +1,299 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W28",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-07",
+    "end": "2025-07-12"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W28.html",
+  "kpis": {
+    "total_laid_off": 6459,
+    "event_count": 7,
+    "headcount_event_count": 5,
+    "company_count": 7,
+    "country_count": 3,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 1291.8,
+    "median_layoffs_per_headcount_event": 70.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W27",
+      "total_laid_off": 9320,
+      "event_count": 6,
+      "total_laid_off_delta": -2861,
+      "total_laid_off_pct_change": -0.307,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.1667,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W28",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Intel",
+        "total_laid_off": 5000
+      },
+      {
+        "company": "Indeed + Glassdoor",
+        "total_laid_off": 1300
+      },
+      {
+        "company": "Nayax",
+        "total_laid_off": 70
+      },
+      {
+        "company": "Augury",
+        "total_laid_off": 60
+      },
+      {
+        "company": "Eigen Labs",
+        "total_laid_off": 29
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 5000
+      },
+      {
+        "industry": "HR",
+        "total_laid_off": 1300
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 70
+      },
+      {
+        "industry": "Manufacturing",
+        "total_laid_off": 60
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 29
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 6389
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 70
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5070
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 1300
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 60
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 29
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-11",
+        "company": "Intel",
+        "num_laid_off": 5000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
+      },
+      {
+        "date": "2025-07-10",
+        "company": "Indeed + Glassdoor",
+        "num_laid_off": 1300,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-10/indeed-glassdoor-to-cut-1-300-jobs-in-ai-focused-consolidation"
+      },
+      {
+        "date": "2025-07-07",
+        "company": "Nayax",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.06,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjzblekrel"
+      },
+      {
+        "date": "2025-07-10",
+        "company": "Augury",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.18,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sk7t511thxx"
+      },
+      {
+        "date": "2025-07-08",
+        "company": "Eigen Labs",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-12",
+        "company": "Blip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
+      },
+      {
+        "date": "2025-07-11",
+        "company": "Intel",
+        "num_laid_off": 5000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
+      },
+      {
+        "date": "2025-07-11",
+        "company": "TripleLift",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.adexchanger.com/publishers/triplelift-quietly-lays-off-a-double-digit-percentage-of-its-workforce/"
+      },
+      {
+        "date": "2025-07-10",
+        "company": "Indeed + Glassdoor",
+        "num_laid_off": 1300,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-10/indeed-glassdoor-to-cut-1-300-jobs-in-ai-focused-consolidation"
+      },
+      {
+        "date": "2025-07-10",
+        "company": "Augury",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.18,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sk7t511thxx"
+      },
+      {
+        "date": "2025-07-08",
+        "company": "Eigen Labs",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+      },
+      {
+        "date": "2025-07-07",
+        "company": "Nayax",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.06,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjzblekrel"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-12",
+        "company": "Blip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
+      },
+      {
+        "date": "2025-07-08",
+        "company": "Eigen Labs",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W28 includes 7 public layoff events and 6,459 reported layoffs.",
+    "The largest company contributor is Intel with 5,000 reported layoffs.",
+    "The leading named industry is Hardware with 5,000 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

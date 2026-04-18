@@ -1,0 +1,96 @@
+{
+  "report_type": "daily",
+  "period": "2025-03-09",
+  "status": "final",
+  "date_range": {
+    "start": "2025-03-09",
+    "end": "2025-03-09"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-03-09.html",
+  "kpis": {
+    "total_laid_off": 0,
+    "event_count": 1,
+    "headcount_event_count": 0,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": null,
+    "median_layoffs_per_headcount_event": null,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-03-08",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-03-09",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [],
+    "industry_top": [],
+    "country_top": [],
+    "stage_top": [],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [],
+    "recent_events": [
+      {
+        "date": "2025-03-09",
+        "company": "Zonar Systems",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bizjournals.com/seattle/news/2025/03/09/zonar-systems-layoffs-gps-trackit-inverness-graham.html"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-03-09 includes 1 public layoff events and 0 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

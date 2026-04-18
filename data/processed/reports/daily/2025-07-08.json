@@ -1,0 +1,141 @@
+{
+  "report_type": "daily",
+  "period": "2025-07-08",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-08",
+    "end": "2025-07-08"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-07-08.html",
+  "kpis": {
+    "total_laid_off": 29,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 29.0,
+    "median_layoffs_per_headcount_event": 29.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-07-07",
+      "total_laid_off": 70,
+      "event_count": 1,
+      "total_laid_off_delta": -41,
+      "total_laid_off_pct_change": -0.5857,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-07-08",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Eigen Labs",
+        "total_laid_off": 29
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Crypto",
+        "total_laid_off": 29
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 29
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 29
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-08",
+        "company": "Eigen Labs",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-08",
+        "company": "Eigen Labs",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-08",
+        "company": "Eigen Labs",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+      }
+    ]
+  },
+  "insights": [
+    "2025-07-08 includes 1 public layoff events and 29 reported layoffs.",
+    "The largest company contributor is Eigen Labs with 29 reported layoffs.",
+    "The leading named industry is Crypto with 29 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

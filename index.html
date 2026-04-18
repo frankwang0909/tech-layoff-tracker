@@ -47,7 +47,7 @@
             color: #e2e8f0;
             font-family: 'Inter', system-ui, -apple-system, sans-serif;
             min-height: 100vh;
-            padding: 2rem 1rem;
+            padding: 4.5rem 1rem 2rem;
         }
 
         body::before {
@@ -69,6 +69,45 @@
         }
 
         .container { max-width: 1280px; margin: 0 auto; width: 100%; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
 
         header {
             text-align: center;
@@ -254,7 +293,7 @@
         footer a:hover { text-decoration: underline; }
 
         @media (max-width: 768px) {
-            body { padding: 1rem 0.5rem; }
+            body { padding: 4rem 0.5rem 1rem; }
             .container { padding: 0 0.5rem; }
             header { padding: 2rem 0 1.5rem; }
             header h1 { font-size: 1.75rem; }
@@ -282,6 +321,12 @@
 <body>
 
 <div class="container">
+    <nav class="top-nav" aria-label="Primary">
+        <a href="/" class="active">Dashboard</a>
+        <a href="/trend-report.html">Trend Report</a>
+        <a href="/reports/">Reports</a>
+    </nav>
+
     <header>
         <!-- Language Toggle -->
         <div class="lang-toggle" id="langToggle">
@@ -422,7 +467,7 @@ const i18n = {
         recentHeadSource: 'Source',
         recentNoData: 'No recent layoff records available.',
         recentSourceLink: 'Open',
-        footer: 'Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>Disclaimer: Some figures are estimates or planned reductions<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
+        footer: "Data Sources: \u003ca href=\"https://layoffs.fyi/\" target=\"_blank\"\u003elayoffs.fyi\u003c/a\u003e \u00b7 RationalFX \u00b7 Major tech media\u003cbr\u003e\nDisclaimer: Some figures are estimates or planned reductions\u003cbr\u003e\u003cbr\u003e\n\u003ca href=\"https://github.com/frankwang0909/tech-layoff-tracker\" target=\"_blank\"\u003e\u2b50 View on GitHub\u003c/a\u003e \u0026nbsp;|\u0026nbsp;\n\u003ca href=\"https://layoffscanada.com\" target=\"_blank\"\u003eLayoffs Canada\u003c/a\u003e \u0026nbsp;|\u0026nbsp;\n\u003ca href=\"https://debugcanada.com\" target=\"_blank\"\u003eDebug Canada\u003c/a\u003e",
         yAxisName: 'Layoffs',
         seriesBar: 'Layoffs',
         seriesLine: 'Trend',
@@ -467,7 +512,7 @@ const i18n = {
         recentHeadSource: '来源',
         recentNoData: '暂无最近裁员记录。',
         recentSourceLink: '查看',
-        footer: '数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br>Built with Python · BeautifulSoup · Pandas · ECharts &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
+        footer: '数据来源: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · 各大科技媒体公开报道<br>免责声明: 部分数据为估计值或分阶段实施的计划裁员人数<br><br> &nbsp;|&nbsp;<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp; <a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp; <a href="https://debugcanada.com" target="_blank">Debug Canada</a>',
         yAxisName: '裁员人数',
         seriesBar: '裁员人数',
         seriesLine: '趋势线',
@@ -508,7 +553,7 @@ function isMobile() {
     return window.innerWidth <= 768;
 }
 
-const companyData = [{"company": "Oracle", "total_laid_off": 31094}, {"company": "Amazon", "total_laid_off": 30284}, {"company": "Intel", "total_laid_off": 27058}, {"company": "Microsoft", "total_laid_off": 15347}, {"company": "HP", "total_laid_off": 8000}, {"company": "Meta", "total_laid_off": 6000}, {"company": "Salesforce", "total_laid_off": 5385}, {"company": "Block", "total_laid_off": 4931}, {"company": "Northvolt", "total_laid_off": 2800}, {"company": "Hewlett Packard Enterprise", "total_laid_off": 2552}, {"company": "Autodesk", "total_laid_off": 2350}, {"company": "Workday", "total_laid_off": 2150}, {"company": "Synopsys", "total_laid_off": 2000}, {"company": "WiseTech", "total_laid_off": 2000}, {"company": "Atlassian", "total_laid_off": 1950}];
+const companyData = [{"company": "Oracle", "total_laid_off": 31094}, {"company": "Amazon", "total_laid_off": 30284}, {"company": "Intel", "total_laid_off": 27058}, {"company": "Microsoft", "total_laid_off": 15347}, {"company": "HP", "total_laid_off": 8000}, {"company": "Meta", "total_laid_off": 6000}, {"company": "Salesforce", "total_laid_off": 5385}, {"company": "Block", "total_laid_off": 4931}, {"company": "Northvolt", "total_laid_off": 2800}, {"company": "Hewlett Packard Enterprise", "total_laid_off": 2552}, {"company": "Autodesk", "total_laid_off": 2350}, {"company": "Workday", "total_laid_off": 2150}, {"company": "WiseTech", "total_laid_off": 2000}, {"company": "Synopsys", "total_laid_off": 2000}, {"company": "Atlassian", "total_laid_off": 1950}];
 const industryData = [{"industry": "Other", "total_laid_off": 56552}, {"industry": "Hardware", "total_laid_off": 40087}, {"industry": "Retail", "total_laid_off": 34097}, {"industry": "Consumer", "total_laid_off": 16469}, {"industry": "Finance", "total_laid_off": 8524}, {"industry": "Sales", "total_laid_off": 5942}, {"industry": "HR", "total_laid_off": 5645}, {"industry": "Transportation", "total_laid_off": 4584}, {"industry": "Food", "total_laid_off": 3607}, {"industry": "Energy", "total_laid_off": 3464}];
 const monthlyData = [{"month": "2025-01", "total_laid_off": 2537}, {"month": "2025-02", "total_laid_off": 18474}, {"month": "2025-03", "total_laid_off": 8834}, {"month": "2025-04", "total_laid_off": 25345}, {"month": "2025-05", "total_laid_off": 10577}, {"month": "2025-06", "total_laid_off": 1606}, {"month": "2025-07", "total_laid_off": 16648}, {"month": "2025-08", "total_laid_off": 6452}, {"month": "2025-09", "total_laid_off": 4174}, {"month": "2025-10", "total_laid_off": 19070}, {"month": "2025-11", "total_laid_off": 8932}, {"month": "2025-12", "total_laid_off": 1552}, {"month": "2026-01", "total_laid_off": 24928}, {"month": "2026-02", "total_laid_off": 11019}, {"month": "2026-03", "total_laid_off": 34800}, {"month": "2026-04", "total_laid_off": 2465}];
 const countryData = [{"country": "United States", "total_laid_off": 164446}, {"country": "India", "total_laid_off": 8755}, {"country": "Israel", "total_laid_off": 4781}, {"country": "Sweden", "total_laid_off": 4615}, {"country": "Australia", "total_laid_off": 4220}, {"country": "Netherlands", "total_laid_off": 2570}, {"country": "Canada", "total_laid_off": 2491}, {"country": "Germany", "total_laid_off": 1785}, {"country": "United Kingdom", "total_laid_off": 1732}, {"country": "Brazil", "total_laid_off": 516}];

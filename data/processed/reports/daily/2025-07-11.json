@@ -1,0 +1,139 @@
+{
+  "report_type": "daily",
+  "period": "2025-07-11",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-11",
+    "end": "2025-07-11"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-07-11.html",
+  "kpis": {
+    "total_laid_off": 5000,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 1,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 5000.0,
+    "median_layoffs_per_headcount_event": 5000.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-07-10",
+      "total_laid_off": 1360,
+      "event_count": 2,
+      "total_laid_off_delta": 3640,
+      "total_laid_off_pct_change": 2.6765,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-07-11",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Intel",
+        "total_laid_off": 5000
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 5000
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 5000
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5000
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-11",
+        "company": "Intel",
+        "num_laid_off": 5000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-11",
+        "company": "Intel",
+        "num_laid_off": 5000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
+      },
+      {
+        "date": "2025-07-11",
+        "company": "TripleLift",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.adexchanger.com/publishers/triplelift-quietly-lays-off-a-double-digit-percentage-of-its-workforce/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-07-11 includes 2 public layoff events and 5,000 reported layoffs.",
+    "The largest company contributor is Intel with 5,000 reported layoffs.",
+    "The leading named industry is Hardware with 5,000 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

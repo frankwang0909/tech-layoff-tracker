@@ -1,0 +1,159 @@
+{
+  "report_type": "daily",
+  "period": "2025-01-07",
+  "status": "final",
+  "date_range": {
+    "start": "2025-01-07",
+    "end": "2025-01-07"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-01-07.html",
+  "kpis": {
+    "total_laid_off": 37,
+    "event_count": 4,
+    "headcount_event_count": 1,
+    "company_count": 4,
+    "country_count": 1,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 37.0,
+    "median_layoffs_per_headcount_event": 37.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-01-06",
+      "total_laid_off": 400,
+      "event_count": 1,
+      "total_laid_off_delta": -363,
+      "total_laid_off_pct_change": -0.9075,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-01-07",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Altruist",
+        "total_laid_off": 37
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Finance",
+        "total_laid_off": 37
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 37
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series E",
+        "total_laid_off": 37
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-01-07",
+        "company": "Altruist",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://riabiz.com/a/2025/1/7/altruist-lays-off-10-of-its-staff-despite-300-revenue-jump-to-get-best-possible-people-as-aggressive-hiring-continues-says-ceo"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-01-07",
+        "company": "Altruist",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://riabiz.com/a/2025/1/7/altruist-lays-off-10-of-its-staff-despite-300-revenue-jump-to-get-best-possible-people-as-aggressive-hiring-continues-says-ceo"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Aqua Security",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjd6qpclyx"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Cloud Software Group",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.crn.com/news/cloud/2025/citrix-parent-cloud-software-group-confirms-layoffs?itc=refresh"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Microsoft",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/microsoft-plans-job-cuts-performance-management-2025-1"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-01-07 includes 4 public layoff events and 37 reported layoffs.",
+    "The largest company contributor is Altruist with 37 reported layoffs.",
+    "The leading named industry is Finance with 37 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

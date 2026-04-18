@@ -1,0 +1,313 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W08",
+  "status": "final",
+  "date_range": {
+    "start": "2025-02-17",
+    "end": "2025-02-22"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W08.html",
+  "kpis": {
+    "total_laid_off": 431,
+    "event_count": 8,
+    "headcount_event_count": 5,
+    "company_count": 8,
+    "country_count": 5,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 86.2,
+    "median_layoffs_per_headcount_event": 70.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W07",
+      "total_laid_off": 6020,
+      "event_count": 12,
+      "total_laid_off_delta": -5589,
+      "total_laid_off_pct_change": -0.9284,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W08",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "SeatGeek",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Vendease",
+        "total_laid_off": 120
+      },
+      {
+        "company": "Ibotta",
+        "total_laid_off": 70
+      },
+      {
+        "company": "Zendesk",
+        "total_laid_off": 51
+      },
+      {
+        "company": "Logically",
+        "total_laid_off": 40
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 150
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 120
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 70
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 51
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 40
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 271
+      },
+      {
+        "country": "Nigeria",
+        "total_laid_off": 120
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 40
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series A",
+        "total_laid_off": 160
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 150
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 70
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 51
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-02-20",
+        "company": "SeatGeek",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.theticketingbusiness.com/2025/02/20/seatgeek-to-slash-headcount-by-15-outgoing-employees-claim/"
+      },
+      {
+        "date": "2025-02-19",
+        "company": "Vendease",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.44,
+        "industry": "Food",
+        "country": "Nigeria",
+        "stage": "Series A",
+        "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/"
+      },
+      {
+        "date": "2025-02-22",
+        "company": "Ibotta",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.08,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://coloradosun.com/2025/02/22/fired-federal-workers-eligible-colorado-unemployment-benefits/#h-other-working-bits"
+      },
+      {
+        "date": "2025-02-21",
+        "company": "Zendesk",
+        "num_laid_off": 51,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.kron4.com/news/bay-area/zendesk-lays-off-dozens-of-employees-at-sf-headquarters/"
+      },
+      {
+        "date": "2025-02-17",
+        "company": "Logically",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.2,
+        "industry": "AI",
+        "country": "United Kingdom",
+        "stage": "Series A",
+        "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-02-22",
+        "company": "Ibotta",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.08,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://coloradosun.com/2025/02/22/fired-federal-workers-eligible-colorado-unemployment-benefits/#h-other-working-bits"
+      },
+      {
+        "date": "2025-02-22",
+        "company": "NetEase",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Japan",
+        "stage": "Post-IPO",
+        "source": "https://www.techinasia.com/news/netease-cuts-jobs-projects-as-growth-remains-slow"
+      },
+      {
+        "date": "2025-02-21",
+        "company": "Zendesk",
+        "num_laid_off": 51,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.kron4.com/news/bay-area/zendesk-lays-off-dozens-of-employees-at-sf-headquarters/"
+      },
+      {
+        "date": "2025-02-21",
+        "company": "Electriq Global",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
+      },
+      {
+        "date": "2025-02-20",
+        "company": "SeatGeek",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.theticketingbusiness.com/2025/02/20/seatgeek-to-slash-headcount-by-15-outgoing-employees-claim/"
+      },
+      {
+        "date": "2025-02-19",
+        "company": "Vendease",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.44,
+        "industry": "Food",
+        "country": "Nigeria",
+        "stage": "Series A",
+        "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/"
+      },
+      {
+        "date": "2025-02-19",
+        "company": "Riskified",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1hkriq91l"
+      },
+      {
+        "date": "2025-02-17",
+        "company": "Logically",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.2,
+        "industry": "AI",
+        "country": "United Kingdom",
+        "stage": "Series A",
+        "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-02-21",
+        "company": "Electriq Global",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
+      },
+      {
+        "date": "2025-02-19",
+        "company": "Vendease",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.44,
+        "industry": "Food",
+        "country": "Nigeria",
+        "stage": "Series A",
+        "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W08 includes 8 public layoff events and 431 reported layoffs.",
+    "The largest company contributor is SeatGeek with 150 reported layoffs.",
+    "The leading named industry is Consumer with 150 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

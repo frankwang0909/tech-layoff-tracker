@@ -1,0 +1,355 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W46",
+  "status": "final",
+  "date_range": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W46.html",
+  "kpis": {
+    "total_laid_off": 2637,
+    "event_count": 8,
+    "headcount_event_count": 6,
+    "company_count": 8,
+    "country_count": 2,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 439.5,
+    "median_layoffs_per_headcount_event": 140.0,
+    "high_intensity_event_count": 4
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W45",
+      "total_laid_off": 643,
+      "event_count": 6,
+      "total_laid_off_delta": 1994,
+      "total_laid_off_pct_change": 3.1011,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W46",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Synopsys",
+        "total_laid_off": 2000
+      },
+      {
+        "company": "GamesKraft",
+        "total_laid_off": 280
+      },
+      {
+        "company": "Pipe",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Deepwatch",
+        "total_laid_off": 80
+      },
+      {
+        "company": "Flipkart",
+        "total_laid_off": 40
+      },
+      {
+        "company": "BharatAgri",
+        "total_laid_off": 37
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 2000
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 280
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 80
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 40
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 37
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 2280
+      },
+      {
+        "country": "India",
+        "total_laid_off": 357
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 2000
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 280
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 80
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 40
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 37
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-11-12",
+        "company": "Synopsys",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/synopsys-cut-about-10-its-workforce-2025-11-12/"
+      },
+      {
+        "date": "2025-11-10",
+        "company": "GamesKraft",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/"
+      },
+      {
+        "date": "2025-11-16",
+        "company": "Pipe",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.5,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://fintechbusinessweekly.substack.com/p/celtic-bank-faces-another-lawsuit"
+      },
+      {
+        "date": "2025-11-12",
+        "company": "Deepwatch",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.32,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      },
+      {
+        "date": "2025-11-16",
+        "company": "Flipkart",
+        "num_laid_off": 40,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
+      },
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-11-16",
+        "company": "Pipe",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.5,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://fintechbusinessweekly.substack.com/p/celtic-bank-faces-another-lawsuit"
+      },
+      {
+        "date": "2025-11-16",
+        "company": "Flipkart",
+        "num_laid_off": 40,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
+      },
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      },
+      {
+        "date": "2025-11-13",
+        "company": "AI Fleet",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.bizjournals.com/austin/news/2025/11/13/layoffs-hit-at-austin-ai-startup.html"
+      },
+      {
+        "date": "2025-11-12",
+        "company": "Synopsys",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/synopsys-cut-about-10-its-workforce-2025-11-12/"
+      },
+      {
+        "date": "2025-11-12",
+        "company": "Deepwatch",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.32,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      },
+      {
+        "date": "2025-11-10",
+        "company": "GamesKraft",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/"
+      },
+      {
+        "date": "2025-11-10",
+        "company": "Sonder",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/11/10/sonder-shuts-down-after-marriott-termination-marking-the-end-of-a-hospitality-experiment/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      },
+      {
+        "date": "2025-11-10",
+        "company": "Sonder",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/11/10/sonder-shuts-down-after-marriott-termination-marking-the-end-of-a-hospitality-experiment/"
+      },
+      {
+        "date": "2025-11-16",
+        "company": "Pipe",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.5,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://fintechbusinessweekly.substack.com/p/celtic-bank-faces-another-lawsuit"
+      },
+      {
+        "date": "2025-11-12",
+        "company": "Deepwatch",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.32,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W46 includes 8 public layoff events and 2,637 reported layoffs.",
+    "The largest company contributor is Synopsys with 2,000 reported layoffs.",
+    "The leading named industry is Consumer with 280 reported layoffs.",
+    "4 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

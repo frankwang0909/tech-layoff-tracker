@@ -1,0 +1,141 @@
+{
+  "report_type": "daily",
+  "period": "2025-12-23",
+  "status": "final",
+  "date_range": {
+    "start": "2025-12-23",
+    "end": "2025-12-23"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-12-23.html",
+  "kpis": {
+    "total_laid_off": 100,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 100.0,
+    "median_layoffs_per_headcount_event": 100.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-12-22",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-12-23",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Yellow.ai",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Support",
+        "total_laid_off": 100
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 100
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series C",
+        "total_laid_off": 100
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-12-23",
+        "company": "Yellow.ai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/exclusive-yellow-ai-lays-off-over-100-employees-amid-automation-push/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-12-23",
+        "company": "Yellow.ai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/exclusive-yellow-ai-lays-off-over-100-employees-amid-automation-push/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-12-23",
+        "company": "Yellow.ai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/exclusive-yellow-ai-lays-off-over-100-employees-amid-automation-push/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-12-23 includes 1 public layoff events and 100 reported layoffs.",
+    "The largest company contributor is Yellow.ai with 100 reported layoffs.",
+    "The leading named industry is Support with 100 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

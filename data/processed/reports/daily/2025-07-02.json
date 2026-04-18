@@ -1,0 +1,207 @@
+{
+  "report_type": "daily",
+  "period": "2025-07-02",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-02",
+    "end": "2025-07-02"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-07-02.html",
+  "kpis": {
+    "total_laid_off": 9020,
+    "event_count": 4,
+    "headcount_event_count": 2,
+    "company_count": 4,
+    "country_count": 4,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 4510.0,
+    "median_layoffs_per_headcount_event": 4510.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-07-01",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-07-02",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 9000
+      },
+      {
+        "company": "Retrain.ai",
+        "total_laid_off": 20
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 9000
+      },
+      {
+        "industry": "HR",
+        "total_laid_off": 20
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 9000
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 20
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 9000
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 20
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-02",
+        "company": "Microsoft",
+        "num_laid_off": 9000,
+        "percentage_laid_off": 0.04,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/07/02/microsoft-laying-off-about-9000-employees-in-latest-round-of-cuts.html"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "Retrain.ai",
+        "num_laid_off": 20,
+        "percentage_laid_off": 1.0,
+        "industry": "HR",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-02",
+        "company": "Microsoft",
+        "num_laid_off": 9000,
+        "percentage_laid_off": 0.04,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/07/02/microsoft-laying-off-about-9000-employees-in-latest-round-of-cuts.html"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "Retrain.ai",
+        "num_laid_off": 20,
+        "percentage_laid_off": 1.0,
+        "industry": "HR",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "Okra",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Series A",
+        "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "TikTok",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-02/tiktok-shop-cuts-more-us-workers-in-third-round-since-april"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-02",
+        "company": "Retrain.ai",
+        "num_laid_off": 20,
+        "percentage_laid_off": 1.0,
+        "industry": "HR",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "Okra",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Series A",
+        "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-07-02 includes 4 public layoff events and 9,020 reported layoffs.",
+    "The largest company contributor is Microsoft with 9,000 reported layoffs.",
+    "The leading named industry is HR with 20 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

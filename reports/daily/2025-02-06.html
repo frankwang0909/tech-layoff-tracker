@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs Daily Report: 2025-02-06 | Tech Layoff Tracker</title>
+    <meta name="description" content="Daily tech layoffs report for 2025-02-06: 500 reported layoffs across 2 public events and 2 companies.">
+    <link rel="canonical" href="https://tech.debugcanada.com/reports/daily/2025-02-06.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tech.debugcanada.com/reports/daily/2025-02-06.html">
+    <meta property="og:title" content="Tech Layoffs Daily Report: 2025-02-06">
+    <meta property="og:description" content="Daily tech layoffs report for 2025-02-06: 500 reported layoffs across 2 public events and 2 companies.">
+    <meta property="twitter:card" content="summary">
+    <meta name="robots" content="noindex, follow">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Frank Wang"}, "dateModified": "2026-04-16", "datePublished": "2025-02-06", "description": "Daily tech layoffs report for 2025-02-06: 500 reported layoffs across 2 public events and 2 companies.", "headline": "Tech Layoffs Daily Report: 2025-02-06", "mainEntityOfPage": "https://tech.debugcanada.com/reports/daily/2025-02-06.html", "publisher": {"@type": "Organization", "name": "Tech Layoff Tracker", "url": "https://tech.debugcanada.com"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/reports/", "name": "Reports", "position": 2}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/reports/daily/2025-02-06.html", "name": "Tech Layoffs Daily Report: 2025-02-06", "position": 3}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The daily report for 2025-02-06 includes 500 reported layoffs across 2 public events."}, "name": "How many tech layoffs were reported in 2025-02-06?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Sprinklr had the highest reported layoff total in 2025-02-06, with 500 layoffs."}, "name": "Which company had the most layoffs in 2025-02-06?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The leading named industry in 2025-02-06 is Support, with 500 reported layoffs."}, "name": "Which industry was most affected in 2025-02-06?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "This report is generated from public layoff records. Rows without reported headcount can count as events but are excluded from headcount totals, and the dataset should not be treated as proof of causal claims."}, "name": "How should this report be interpreted?"}]}</script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
+        .hero { padding: 42px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
+        .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
+        .kpi { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 16px; background: rgba(15, 23, 42, 0.6); }
+        .kpi span { display: block; color: #64748b; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+        .kpi strong { display: block; margin-top: 6px; font-size: 28px; line-height: 1.1; color: #f8fafc; }
+        main { padding: 30px 0 54px; }
+        section { padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        h2 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; color: #f8fafc; }
+        .insights { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 16px 0 0; padding: 0; list-style: none; }
+        .insights li { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 15px; background: rgba(15, 23, 42, 0.6); }
+        .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .chart { width: 100%; height: 380px; border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; background: rgba(15, 23, 42, 0.6); }
+        .period-nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            margin: 20px 0 0;
+        }
+        .period-nav a, .period-nav span {
+            display: block;
+            flex: 1;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 12px 14px;
+            background: rgba(15, 23, 42, 0.6);
+            color: #e2e8f0;
+            font-weight: 800;
+        }
+        .period-nav span { color: #475569; }
+        .period-nav .next { text-align: right; }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); }
+        th, td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; vertical-align: top; font-size: 14px; color: #e2e8f0; }
+        th { color: #94a3b8; background: rgba(255,255,255,0.04); }
+        tr:last-child td { border-bottom: 0; }
+        .note { color: #64748b; font-size: 14px; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .kpis, .insights, .chart-grid { grid-template-columns: 1fr; }
+            .chart { height: 280px; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            .kpi strong { font-size: 22px; }
+            h2 { font-size: 22px; }
+            .period-nav { flex-direction: column; }
+            .period-nav .next { text-align: left; }
+            table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/" class="active">Reports</a>
+            </nav>
+            <p class="eyebrow">Daily report</p>
+            <h1>Tech Layoffs Daily Report: 2025-02-06</h1>
+            <p class="dek">Daily tech layoffs report for 2025-02-06: 500 reported layoffs across 2 public events and 2 companies.</p>
+            <div class="meta">
+                <span>Data range: 2025-02-06 to 2025-02-06</span>
+                <span>Status: final</span>
+                <span>Updated: 2026-04-16</span>
+            </div>
+            <div class="kpis" aria-label="Report key metrics">
+                <div class="kpi"><span>Total layoffs</span><strong>500</strong></div>
+                <div class="kpi"><span>Events</span><strong>2</strong></div>
+                <div class="kpi"><span>Companies</span><strong>2</strong></div>
+                <div class="kpi"><span>High intensity</span><strong>1</strong></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>During 2025-02-06, the dataset recorded 500 reported tech layoffs across 2 public events. The report covers 2 companies, 2 industries, and 2 countries or regions.</p>
+            <ul class="insights">
+                
+                <li>2025-02-06 includes 2 public layoff events and 500 reported layoffs.</li>
+                
+                <li>The largest company contributor is Sprinklr with 500 reported layoffs.</li>
+                
+                <li>The leading named industry is Support with 500 reported layoffs.</li>
+                
+                <li>1 events report a layoff percentage of 25% or higher.</li>
+                
+            </ul>
+            <nav class="period-nav" aria-label="Period navigation">
+                
+                <a href="/reports/daily/2025-02-05.html">Previous: 2025-02-05</a>
+                
+                
+                <a class="next" href="/reports/daily/2025-02-10.html">Next: 2025-02-10</a>
+                
+            </nav>
+        </section>
+
+        <section id="comparisons">
+            <h2>Comparisons</h2>
+            <p>Compared with 2025-02-05, reported layoffs changed by -2,015 (-80.1%). Year-over-year comparison is unavailable for 2025-02-06.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Comparison</th>
+                        <th>Period</th>
+                        <th>Layoff delta</th>
+                        <th>Layoff % change</th>
+                        <th>Event delta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Previous period</td>
+                        <td>2025-02-05</td>
+                        <td>-2,015</td>
+                        <td>-80.1%</td>
+                        <td>-5</td>
+                    </tr>
+                    <tr>
+                        <td>Same period last year</td>
+                        <td>2024-02-06</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="breakdowns">
+            <h2>Breakdowns</h2>
+            <div class="chart-grid">
+                <div id="companyChart" class="chart" aria-label="Top companies by layoffs"></div>
+                <div id="industryChart" class="chart" aria-label="Top industries by layoffs"></div>
+                <div id="countryChart" class="chart" aria-label="Top countries by layoffs"></div>
+                <div id="pctChart" class="chart" aria-label="Layoff percentage distribution"></div>
+            </div>
+        </section>
+
+        <section id="largest-events">
+            <h2>Largest Events</h2>
+            <p>Sorted by reported headcount. Events where no headcount was publicly disclosed are not shown.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Company</th>
+                        <th>Laid off</th>
+                        <th>Industry</th>
+                        <th>Country</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>2025-02-06</td>
+                        <td>Sprinklr</td>
+                        <td>500</td>
+                        <td>Support</td>
+                        <td>United States</td>
+                        <td><a href="https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <section id="methodology">
+            <h2>Methodology</h2>
+            
+            <p class="note">Rows with invalid dates are excluded from period reports.</p>
+            
+            <p class="note">Rows without num_laid_off count as events but are excluded from headcount totals.</p>
+            
+            <p class="note">Layoff percentage, funding stage, and funds raised fields are incomplete in source data.</p>
+            
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+            
+            <details>
+                <summary>How many tech layoffs were reported in 2025-02-06?</summary>
+                <p>The daily report for 2025-02-06 includes 500 reported layoffs across 2 public events.</p>
+            </details>
+            
+            <details>
+                <summary>Which company had the most layoffs in 2025-02-06?</summary>
+                <p>Sprinklr had the highest reported layoff total in 2025-02-06, with 500 layoffs.</p>
+            </details>
+            
+            <details>
+                <summary>Which industry was most affected in 2025-02-06?</summary>
+                <p>The leading named industry in 2025-02-06 is Support, with 500 reported layoffs.</p>
+            </details>
+            
+            <details>
+                <summary>How should this report be interpreted?</summary>
+                <p>This report is generated from public layoff records. Rows without reported headcount can count as events but are excluded from headcount totals, and the dataset should not be treated as proof of causal claims.</p>
+            </details>
+            
+        </section>
+    </main>
+
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+Disclaimer: Some figures are estimates or planned reductions<br><br>
+<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp;
+<a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp;
+<a href="https://debugcanada.com" target="_blank">Debug Canada</a>
+    </footer>
+
+<script>
+const report = {"canonical_url": "/reports/daily/2025-02-06.html", "charts": {"company_top": [{"company": "Sprinklr", "total_laid_off": 500}], "country_top": [{"country": "United States", "total_laid_off": 500}], "industry_top": [{"industry": "Support", "total_laid_off": 500}], "layoff_pct_distribution": [{"bucket": "\u003c10%", "event_count": 0}, {"bucket": "10-24%", "event_count": 1}, {"bucket": "25-49%", "event_count": 0}, {"bucket": "50-99%", "event_count": 0}, {"bucket": "100%+", "event_count": 0}], "stage_top": [{"stage": "Post-IPO", "total_laid_off": 500}]}, "comparisons": {"previous_period": {"event_count": 7, "event_count_delta": -5, "event_count_pct_change": -0.7143, "note": null, "period": "2025-02-05", "total_laid_off": 2515, "total_laid_off_delta": -2015, "total_laid_off_pct_change": -0.8012}, "same_period_last_year": {"event_count": null, "event_count_delta": null, "event_count_pct_change": null, "note": "No comparison data is available for this period.", "period": "2024-02-06", "total_laid_off": null, "total_laid_off_delta": null, "total_laid_off_pct_change": null}}, "date_range": {"end": "2025-02-06", "start": "2025-02-06"}, "insights": ["2025-02-06 includes 2 public layoff events and 500 reported layoffs.", "The largest company contributor is Sprinklr with 500 reported layoffs.", "The leading named industry is Support with 500 reported layoffs.", "1 events report a layoff percentage of 25% or higher."], "kpis": {"average_layoffs_per_headcount_event": 500.0, "company_count": 2, "country_count": 2, "event_count": 2, "headcount_event_count": 1, "high_intensity_event_count": 1, "industry_count": 2, "median_layoffs_per_headcount_event": 500.0, "total_laid_off": 500}, "methodology_notes": ["Rows with invalid dates are excluded from period reports.", "Rows without num_laid_off count as events but are excluded from headcount totals.", "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."], "period": "2025-02-06", "report_type": "daily", "status": "final", "tables": {"high_intensity_events": [{"company": "NanoLock", "country": "Israel", "date": "2025-02-06", "industry": "Security", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://www.calcalistech.com/ctechnews/article/rjgagxmkyl", "stage": "Series B"}], "largest_events": [{"company": "Sprinklr", "country": "United States", "date": "2025-02-06", "industry": "Support", "num_laid_off": 500, "percentage_laid_off": 0.15, "source": "https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/", "stage": "Post-IPO"}], "recent_events": [{"company": "Sprinklr", "country": "United States", "date": "2025-02-06", "industry": "Support", "num_laid_off": 500, "percentage_laid_off": 0.15, "source": "https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/", "stage": "Post-IPO"}, {"company": "NanoLock", "country": "Israel", "date": "2025-02-06", "industry": "Security", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://www.calcalistech.com/ctechnews/article/rjgagxmkyl", "stage": "Series B"}]}, "updated_at": "2026-04-16"};
+const tooltip = { backgroundColor: '#0a0f1e', borderColor: '#1e293b', textStyle: { color: '#e2e8f0' } };
+const TX = '#94a3b8', AX = '#1e293b';
+function init(id) { return echarts.init(document.getElementById(id), null, { renderer: 'canvas' }); }
+function shortNumber(v) { return v >= 1000 ? `${Math.round(v / 100) / 10}k` : v; }
+function horizontalBar(id, rows, labelKey, valueKey, color) {
+    const chart = init(id);
+    chart.setOption({
+        tooltip: { trigger: 'axis', ...tooltip },
+        grid: { left: 120, right: 24, top: 24, bottom: 30 },
+        xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+        yAxis: { type: 'category', data: rows.map(d => d[labelKey]).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+        series: [{ type: 'bar', data: rows.map(d => d[valueKey]).reverse(), itemStyle: { color } }]
+    });
+    return chart;
+}
+const charts = [
+    horizontalBar('companyChart', report.charts.company_top, 'company', 'total_laid_off', '#38bdf8'),
+    horizontalBar('industryChart', report.charts.industry_top, 'industry', 'total_laid_off', '#0e9384'),
+    horizontalBar('countryChart', report.charts.country_top, 'country', 'total_laid_off', '#7a5af8')
+];
+const pctChart = init('pctChart');
+pctChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 46, right: 24, top: 24, bottom: 40 },
+    xAxis: { type: 'category', data: report.charts.layoff_pct_distribution.map(d => d.bucket), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [{ type: 'bar', data: report.charts.layoff_pct_distribution.map(d => d.event_count), itemStyle: { color: '#f59e0b' } }]
+});
+charts.push(pctChart);
+window.addEventListener('resize', () => charts.forEach(chart => chart.resize()));
+</script>
+</body>
+</html>

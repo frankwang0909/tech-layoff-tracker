@@ -1,0 +1,267 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W32",
+  "status": "final",
+  "date_range": {
+    "start": "2025-08-04",
+    "end": "2025-08-07"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W32.html",
+  "kpis": {
+    "total_laid_off": 467,
+    "event_count": 6,
+    "headcount_event_count": 5,
+    "company_count": 6,
+    "country_count": 1,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 93.4,
+    "median_layoffs_per_headcount_event": 70.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W31",
+      "total_laid_off": 501,
+      "event_count": 5,
+      "total_laid_off_delta": -34,
+      "total_laid_off_pct_change": -0.0679,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.2,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W32",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Yotpo",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Wondery",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Kaltura",
+        "total_laid_off": 70
+      },
+      {
+        "company": "Nextdoor",
+        "total_laid_off": 67
+      },
+      {
+        "company": "Windsurf",
+        "total_laid_off": 30
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Marketing",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 170
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 67
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 30
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 467
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 137
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 130
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-08-05",
+        "company": "Yotpo",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.34,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
+      },
+      {
+        "date": "2025-08-04",
+        "company": "Wondery",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://variety.com/2025/biz/news/amazon-reorganizes-audio-wondery-audible-jen-sargent-exit-1236477796/"
+      },
+      {
+        "date": "2025-08-07",
+        "company": "Kaltura",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/6a8duhohw"
+      },
+      {
+        "date": "2025-08-07",
+        "company": "Nextdoor",
+        "num_laid_off": 67,
+        "percentage_laid_off": 0.12,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-08-07/nextdoor-cuts-12-of-workforce-in-quest-for-profitability"
+      },
+      {
+        "date": "2025-08-05",
+        "company": "Windsurf",
+        "num_laid_off": 30,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2025/08/05/three-weeks-after-acquiring-windsurf-cognition-offers-staff-the-exit-door/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-08-07",
+        "company": "Kaltura",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/6a8duhohw"
+      },
+      {
+        "date": "2025-08-07",
+        "company": "Nextdoor",
+        "num_laid_off": 67,
+        "percentage_laid_off": 0.12,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-08-07/nextdoor-cuts-12-of-workforce-in-quest-for-profitability"
+      },
+      {
+        "date": "2025-08-07",
+        "company": "Peloton",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Fitness",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/technology/peloton-cut-more-jobs-forecasts-strong-2026-revenue-shares-rise-2025-08-07/"
+      },
+      {
+        "date": "2025-08-05",
+        "company": "Yotpo",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.34,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
+      },
+      {
+        "date": "2025-08-05",
+        "company": "Windsurf",
+        "num_laid_off": 30,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2025/08/05/three-weeks-after-acquiring-windsurf-cognition-offers-staff-the-exit-door/"
+      },
+      {
+        "date": "2025-08-04",
+        "company": "Wondery",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://variety.com/2025/biz/news/amazon-reorganizes-audio-wondery-audible-jen-sargent-exit-1236477796/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-08-05",
+        "company": "Yotpo",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.34,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W32 includes 6 public layoff events and 467 reported layoffs.",
+    "The largest company contributor is Yotpo with 200 reported layoffs.",
+    "The leading named industry is Marketing with 200 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

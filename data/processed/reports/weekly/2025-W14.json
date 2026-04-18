@@ -1,0 +1,337 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W14",
+  "status": "final",
+  "date_range": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W14.html",
+  "kpis": {
+    "total_laid_off": 3814,
+    "event_count": 9,
+    "headcount_event_count": 5,
+    "company_count": 9,
+    "country_count": 6,
+    "industry_count": 9,
+    "average_layoffs_per_headcount_event": 762.8,
+    "median_layoffs_per_headcount_event": 281.0,
+    "high_intensity_event_count": 3
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W13",
+      "total_laid_off": 1139,
+      "event_count": 4,
+      "total_laid_off_delta": 2675,
+      "total_laid_off_pct_change": 2.3486,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.25,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W14",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Northvolt",
+        "total_laid_off": 2800
+      },
+      {
+        "company": "Zomato",
+        "total_laid_off": 600
+      },
+      {
+        "company": "Automattic",
+        "total_laid_off": 281
+      },
+      {
+        "company": "Five9",
+        "total_laid_off": 123
+      },
+      {
+        "company": "Canva",
+        "total_laid_off": 10
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Energy",
+        "total_laid_off": 2800
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 600
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 281
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 123
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 10
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Sweden",
+        "total_laid_off": 2800
+      },
+      {
+        "country": "India",
+        "total_laid_off": 600
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 404
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 10
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 2810
+      },
+      {
+        "stage": "Series J",
+        "total_laid_off": 600
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 281
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 123
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-03-31",
+        "company": "Northvolt",
+        "num_laid_off": 2800,
+        "percentage_laid_off": 0.62,
+        "industry": "Energy",
+        "country": "Sweden",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      },
+      {
+        "date": "2025-04-01",
+        "company": "Zomato",
+        "num_laid_off": 600,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://inc42.com/buzz/zomato-trims-600-jobs-amid-increasing-automation-quick-commerce-wars/"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "Automattic",
+        "num_laid_off": 281,
+        "percentage_laid_off": 0.16,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://techcrunch.com/2025/04/02/wordpress-maker-automattic-lays-off-16-of-staff/"
+      },
+      {
+        "date": "2025-04-03",
+        "company": "Five9",
+        "num_laid_off": 123,
+        "percentage_laid_off": 0.04,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/five9-to-cut-4-of-workforce-cd4da325"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "Canva",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.afr.com/technology/canva-shocks-employees-with-ai-related-job-cuts-20250331-p5lo06"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-04-06",
+        "company": "Coho AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjkodbg0jg"
+      },
+      {
+        "date": "2025-04-03",
+        "company": "Five9",
+        "num_laid_off": 123,
+        "percentage_laid_off": 0.04,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/five9-to-cut-4-of-workforce-cd4da325"
+      },
+      {
+        "date": "2025-04-03",
+        "company": "Tract",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "Automattic",
+        "num_laid_off": 281,
+        "percentage_laid_off": 0.16,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://techcrunch.com/2025/04/02/wordpress-maker-automattic-lays-off-16-of-staff/"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "Canva",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.afr.com/technology/canva-shocks-employees-with-ai-related-job-cuts-20250331-p5lo06"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "WhyHive",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Data",
+        "country": "Australia",
+        "stage": "Seed",
+        "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+      },
+      {
+        "date": "2025-04-01",
+        "company": "Zomato",
+        "num_laid_off": 600,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://inc42.com/buzz/zomato-trims-600-jobs-amid-increasing-automation-quick-commerce-wars/"
+      },
+      {
+        "date": "2025-03-31",
+        "company": "Northvolt",
+        "num_laid_off": 2800,
+        "percentage_laid_off": 0.62,
+        "industry": "Energy",
+        "country": "Sweden",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      },
+      {
+        "date": "2025-03-31",
+        "company": "2U",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.classcentral.com/report/2u-layoffs-march-2025/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-04-06",
+        "company": "Coho AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjkodbg0jg"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "WhyHive",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Data",
+        "country": "Australia",
+        "stage": "Seed",
+        "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+      },
+      {
+        "date": "2025-03-31",
+        "company": "Northvolt",
+        "num_laid_off": 2800,
+        "percentage_laid_off": 0.62,
+        "industry": "Energy",
+        "country": "Sweden",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W14 includes 9 public layoff events and 3,814 reported layoffs.",
+    "The largest company contributor is Northvolt with 2,800 reported layoffs.",
+    "The leading named industry is Energy with 2,800 reported layoffs.",
+    "3 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

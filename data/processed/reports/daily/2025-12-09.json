@@ -1,0 +1,223 @@
+{
+  "report_type": "daily",
+  "period": "2025-12-09",
+  "status": "final",
+  "date_range": {
+    "start": "2025-12-09",
+    "end": "2025-12-09"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-12-09.html",
+  "kpis": {
+    "total_laid_off": 164,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 54.67,
+    "median_layoffs_per_headcount_event": 60.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-12-08",
+      "total_laid_off": 260,
+      "event_count": 2,
+      "total_laid_off_delta": -96,
+      "total_laid_off_pct_change": -0.3692,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-12-09",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Tenstorrent",
+        "total_laid_off": 80
+      },
+      {
+        "company": "Whatfix",
+        "total_laid_off": 60
+      },
+      {
+        "company": "VSCO",
+        "total_laid_off": 24
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 80
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 60
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 24
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Canada",
+        "total_laid_off": 80
+      },
+      {
+        "country": "India",
+        "total_laid_off": 60
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 24
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 80
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 60
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 24
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 2
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-12-09",
+        "company": "Tenstorrent",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.07,
+        "industry": "Hardware",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "Whatfix",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.06,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "VSCO",
+        "num_laid_off": 24,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2025/12/09/vsco-lays-off-24-staff-as-its-consumer-business-suffers/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-12-09",
+        "company": "Tenstorrent",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.07,
+        "industry": "Hardware",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "Whatfix",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.06,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "VSCO",
+        "num_laid_off": 24,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2025/12/09/vsco-lays-off-24-staff-as-its-consumer-business-suffers/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "GenWise",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-12-09",
+        "company": "GenWise",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-12-09 includes 4 public layoff events and 164 reported layoffs.",
+    "The largest company contributor is Tenstorrent with 80 reported layoffs.",
+    "The leading named industry is Hardware with 80 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

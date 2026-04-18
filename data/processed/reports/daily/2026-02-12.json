@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2026-02-12",
+  "status": "final",
+  "date_range": {
+    "start": "2026-02-12",
+    "end": "2026-02-12"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-02-12.html",
+  "kpis": {
+    "total_laid_off": 76,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 76.0,
+    "median_layoffs_per_headcount_event": 76.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-02-11",
+      "total_laid_off": 50,
+      "event_count": 2,
+      "total_laid_off_delta": 26,
+      "total_laid_off_pct_change": 0.52,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.5,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-02-12",
+      "total_laid_off": 650,
+      "event_count": 3,
+      "total_laid_off_delta": -574,
+      "total_laid_off_pct_change": -0.8831,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.6667,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Clari",
+        "total_laid_off": 76
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 76
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 76
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Acquired",
+        "total_laid_off": 76
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-02-12",
+        "company": "Clari",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-02-12",
+        "company": "Clari",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-02-12 includes 1 public layoff events and 76 reported layoffs.",
+    "The largest company contributor is Clari with 76 reported layoffs.",
+    "The leading named industry is Sales with 76 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

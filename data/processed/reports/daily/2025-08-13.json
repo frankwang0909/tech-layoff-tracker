@@ -1,0 +1,197 @@
+{
+  "report_type": "daily",
+  "period": "2025-08-13",
+  "status": "final",
+  "date_range": {
+    "start": "2025-08-13",
+    "end": "2025-08-13"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-08-13.html",
+  "kpis": {
+    "total_laid_off": 744,
+    "event_count": 4,
+    "headcount_event_count": 4,
+    "company_count": 2,
+    "country_count": 1,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 186.0,
+    "median_layoffs_per_headcount_event": 174.5,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-08-12",
+      "total_laid_off": 383,
+      "event_count": 4,
+      "total_laid_off_delta": 361,
+      "total_laid_off_pct_change": 0.9426,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-08-13",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Oracle",
+        "total_laid_off": 638
+      },
+      {
+        "company": "F5",
+        "total_laid_off": 106
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 638
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 106
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 744
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 744
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 289,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pleasantonweekly.com/business/2025/08/19/dozens-of-pleasanton-workers-hit-by-wave-of-oracle-layoffs/"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 188,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/oracle-tech-layoffs-20818166.php"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 161,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/oracle-lays-off-161-employees-in-seattle-as-part-of-broader-reported-cuts-impacting-cloud-business/"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "F5",
+        "num_laid_off": 106,
+        "percentage_laid_off": 0.02,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2024/f5-confirms-new-round-of-job-cuts-continuing-annual-pattern-of-workforce-reductions/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 289,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pleasantonweekly.com/business/2025/08/19/dozens-of-pleasanton-workers-hit-by-wave-of-oracle-layoffs/"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 188,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/oracle-tech-layoffs-20818166.php"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "Oracle",
+        "num_laid_off": 161,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/oracle-lays-off-161-employees-in-seattle-as-part-of-broader-reported-cuts-impacting-cloud-business/"
+      },
+      {
+        "date": "2025-08-13",
+        "company": "F5",
+        "num_laid_off": 106,
+        "percentage_laid_off": 0.02,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2024/f5-confirms-new-round-of-job-cuts-continuing-annual-pattern-of-workforce-reductions/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-08-13 includes 4 public layoff events and 744 reported layoffs.",
+    "The largest company contributor is Oracle with 638 reported layoffs.",
+    "The leading named industry is Security with 106 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

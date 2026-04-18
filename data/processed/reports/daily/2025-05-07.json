@@ -1,0 +1,165 @@
+{
+  "report_type": "daily",
+  "period": "2025-05-07",
+  "status": "final",
+  "date_range": {
+    "start": "2025-05-07",
+    "end": "2025-05-07"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-05-07.html",
+  "kpis": {
+    "total_laid_off": 680,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 340.0,
+    "median_layoffs_per_headcount_event": 340.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-05-06",
+      "total_laid_off": 1600,
+      "event_count": 1,
+      "total_laid_off_delta": -920,
+      "total_laid_off_pct_change": -0.575,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-05-07",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "CrowdStrike",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Games 24x7",
+        "total_laid_off": 180
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Security",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 180
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 500
+      },
+      {
+        "country": "India",
+        "total_laid_off": 180
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 180
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-05-07",
+        "company": "CrowdStrike",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "Games 24x7",
+        "num_laid_off": 180,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.storyboard18.com/gaming-news/games-24x7-cuts-staff-amid-gst-dispute-industry-turmoil-64843.htm"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-05-07",
+        "company": "CrowdStrike",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "Games 24x7",
+        "num_laid_off": 180,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.storyboard18.com/gaming-news/games-24x7-cuts-staff-amid-gst-dispute-industry-turmoil-64843.htm"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-05-07 includes 2 public layoff events and 680 reported layoffs.",
+    "The largest company contributor is CrowdStrike with 500 reported layoffs.",
+    "The leading named industry is Security with 500 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

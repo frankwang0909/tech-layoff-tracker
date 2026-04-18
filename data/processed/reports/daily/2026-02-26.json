@@ -1,0 +1,205 @@
+{
+  "report_type": "daily",
+  "period": "2026-02-26",
+  "status": "final",
+  "date_range": {
+    "start": "2026-02-26",
+    "end": "2026-02-26"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-02-26.html",
+  "kpis": {
+    "total_laid_off": 5800,
+    "event_count": 3,
+    "headcount_event_count": 3,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 1933.33,
+    "median_layoffs_per_headcount_event": 1000.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-02-25",
+      "total_laid_off": 467,
+      "event_count": 2,
+      "total_laid_off_delta": 5333,
+      "total_laid_off_pct_change": 11.4197,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-02-26",
+      "total_laid_off": 145,
+      "event_count": 5,
+      "total_laid_off_delta": 5655,
+      "total_laid_off_pct_change": 39.0,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.4,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Block",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "Ocado",
+        "total_laid_off": 1000
+      },
+      {
+        "company": "eBay",
+        "total_laid_off": 800
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Finance",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 1000
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 800
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 4000
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 1000
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 800
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5800
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 2
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Ocado",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "eBay",
+        "num_laid_off": 800,
+        "percentage_laid_off": 0.06,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Ocado",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "eBay",
+        "num_laid_off": 800,
+        "percentage_laid_off": 0.06,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      }
+    ]
+  },
+  "insights": [
+    "2026-02-26 includes 3 public layoff events and 5,800 reported layoffs.",
+    "The largest company contributor is Block with 4,000 reported layoffs.",
+    "The leading named industry is Finance with 4,000 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "report_type": "daily",
+  "period": "2025-03-31",
+  "status": "final",
+  "date_range": {
+    "start": "2025-03-31",
+    "end": "2025-03-31"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-03-31.html",
+  "kpis": {
+    "total_laid_off": 2800,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 2800.0,
+    "median_layoffs_per_headcount_event": 2800.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-03-30",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-03-31",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Northvolt",
+        "total_laid_off": 2800
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Energy",
+        "total_laid_off": 2800
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Sweden",
+        "total_laid_off": 2800
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 2800
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-03-31",
+        "company": "Northvolt",
+        "num_laid_off": 2800,
+        "percentage_laid_off": 0.62,
+        "industry": "Energy",
+        "country": "Sweden",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-03-31",
+        "company": "Northvolt",
+        "num_laid_off": 2800,
+        "percentage_laid_off": 0.62,
+        "industry": "Energy",
+        "country": "Sweden",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      },
+      {
+        "date": "2025-03-31",
+        "company": "2U",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.classcentral.com/report/2u-layoffs-march-2025/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-03-31",
+        "company": "Northvolt",
+        "num_laid_off": 2800,
+        "percentage_laid_off": 0.62,
+        "industry": "Energy",
+        "country": "Sweden",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      }
+    ]
+  },
+  "insights": [
+    "2025-03-31 includes 2 public layoff events and 2,800 reported layoffs.",
+    "The largest company contributor is Northvolt with 2,800 reported layoffs.",
+    "The leading named industry is Energy with 2,800 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

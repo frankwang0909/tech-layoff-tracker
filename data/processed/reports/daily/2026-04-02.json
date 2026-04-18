@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2026-04-02",
+  "status": "final",
+  "date_range": {
+    "start": "2026-04-02",
+    "end": "2026-04-02"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-04-02.html",
+  "kpis": {
+    "total_laid_off": 200,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 200.0,
+    "median_layoffs_per_headcount_event": 200.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-04-01",
+      "total_laid_off": 0,
+      "event_count": 1,
+      "total_laid_off_delta": 200,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-04-02",
+      "total_laid_off": 291,
+      "event_count": 3,
+      "total_laid_off_delta": -91,
+      "total_laid_off_pct_change": -0.3127,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.6667,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Meta",
+        "total_laid_off": 200
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 200
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 200
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 200
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-04-02",
+        "company": "Meta",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-04-02",
+        "company": "Meta",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-04-02 includes 1 public layoff events and 200 reported layoffs.",
+    "The largest company contributor is Meta with 200 reported layoffs.",
+    "The leading named industry is Consumer with 200 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

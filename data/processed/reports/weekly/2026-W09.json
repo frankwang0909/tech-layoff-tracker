@@ -1,0 +1,381 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W09",
+  "status": "final",
+  "date_range": {
+    "start": "2026-02-24",
+    "end": "2026-02-28"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2026-W09.html",
+  "kpis": {
+    "total_laid_off": 8367,
+    "event_count": 9,
+    "headcount_event_count": 7,
+    "company_count": 9,
+    "country_count": 5,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 1195.29,
+    "median_layoffs_per_headcount_event": 800.0,
+    "high_intensity_event_count": 5
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W08",
+      "total_laid_off": 1500,
+      "event_count": 4,
+      "total_laid_off_delta": 6867,
+      "total_laid_off_pct_change": 4.578,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.25,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W09",
+      "total_laid_off": 6385,
+      "event_count": 13,
+      "total_laid_off_delta": 1982,
+      "total_laid_off_pct_change": 0.3104,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.3077,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Block",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "WiseTech",
+        "total_laid_off": 2000
+      },
+      {
+        "company": "Ocado",
+        "total_laid_off": 1000
+      },
+      {
+        "company": "eBay",
+        "total_laid_off": 800
+      },
+      {
+        "company": "C3.ai",
+        "total_laid_off": 280
+      },
+      {
+        "company": "Deliveroo",
+        "total_laid_off": 187
+      },
+      {
+        "company": "TrueCar",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Finance",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Logistics",
+        "total_laid_off": 2000
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 1187
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 800
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 280
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 100
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 4380
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 2000
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 1187
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 800
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 8087
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 280
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 2
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 4
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "WiseTech",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.3,
+        "industry": "Logistics",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Ocado",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "eBay",
+        "num_laid_off": 800,
+        "percentage_laid_off": 0.06,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+      },
+      {
+        "date": "2026-02-25",
+        "company": "C3.ai",
+        "num_laid_off": 280,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
+      },
+      {
+        "date": "2026-02-25",
+        "company": "Deliveroo",
+        "num_laid_off": 187,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "TrueCar",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-02-28",
+        "company": "Zap Africa",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.44,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Seed",
+        "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Ocado",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "eBay",
+        "num_laid_off": 800,
+        "percentage_laid_off": 0.06,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+      },
+      {
+        "date": "2026-02-25",
+        "company": "C3.ai",
+        "num_laid_off": 280,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
+      },
+      {
+        "date": "2026-02-25",
+        "company": "Deliveroo",
+        "num_laid_off": 187,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "WiseTech",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.3,
+        "industry": "Logistics",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "TrueCar",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "DraftKings",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-02-28",
+        "company": "Zap Africa",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.44,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Seed",
+        "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "WiseTech",
+        "num_laid_off": 2000,
+        "percentage_laid_off": 0.3,
+        "industry": "Logistics",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding"
+      },
+      {
+        "date": "2026-02-24",
+        "company": "TrueCar",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/"
+      },
+      {
+        "date": "2026-02-25",
+        "company": "C3.ai",
+        "num_laid_off": 280,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
+      }
+    ]
+  },
+  "insights": [
+    "2026-W09 includes 9 public layoff events and 8,367 reported layoffs.",
+    "The largest company contributor is Block with 4,000 reported layoffs.",
+    "The leading named industry is Finance with 4,000 reported layoffs.",
+    "5 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

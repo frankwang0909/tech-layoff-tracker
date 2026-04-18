@@ -1,0 +1,275 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W19",
+  "status": "final",
+  "date_range": {
+    "start": "2025-05-05",
+    "end": "2025-05-08"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W19.html",
+  "kpis": {
+    "total_laid_off": 2620,
+    "event_count": 6,
+    "headcount_event_count": 5,
+    "company_count": 6,
+    "country_count": 3,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 524.0,
+    "median_layoffs_per_headcount_event": 325.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W18",
+      "total_laid_off": 1220,
+      "event_count": 10,
+      "total_laid_off_delta": 1400,
+      "total_laid_off_pct_change": 1.1475,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.4,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W19",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "OpenText",
+        "total_laid_off": 1600
+      },
+      {
+        "company": "CrowdStrike",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Match Group",
+        "total_laid_off": 325
+      },
+      {
+        "company": "Games 24x7",
+        "total_laid_off": 180
+      },
+      {
+        "company": "GenWise",
+        "total_laid_off": 15
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Data",
+        "total_laid_off": 1600
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 505
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 15
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Canada",
+        "total_laid_off": 1600
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 825
+      },
+      {
+        "country": "India",
+        "total_laid_off": 195
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 2425
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 180
+      },
+      {
+        "stage": "Seed",
+        "total_laid_off": 15
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-05-06",
+        "company": "OpenText",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "CrowdStrike",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink"
+      },
+      {
+        "date": "2025-05-08",
+        "company": "Match Group",
+        "num_laid_off": 325,
+        "percentage_laid_off": 0.13,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-05-08/match-group-cuts-13-staff-in-latest-move-to-reverse-declines"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "Games 24x7",
+        "num_laid_off": 180,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.storyboard18.com/gaming-news/games-24x7-cuts-staff-amid-gst-dispute-industry-turmoil-64843.htm"
+      },
+      {
+        "date": "2025-05-05",
+        "company": "GenWise",
+        "num_laid_off": 15,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-z47-backed-genwise-lays-off-20-of-workforce-9036952"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-05-08",
+        "company": "Match Group",
+        "num_laid_off": 325,
+        "percentage_laid_off": 0.13,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-05-08/match-group-cuts-13-staff-in-latest-move-to-reverse-declines"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "CrowdStrike",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "Games 24x7",
+        "num_laid_off": 180,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.storyboard18.com/gaming-news/games-24x7-cuts-staff-amid-gst-dispute-industry-turmoil-64843.htm"
+      },
+      {
+        "date": "2025-05-06",
+        "company": "OpenText",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
+      },
+      {
+        "date": "2025-05-05",
+        "company": "GenWise",
+        "num_laid_off": 15,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-z47-backed-genwise-lays-off-20-of-workforce-9036952"
+      },
+      {
+        "date": "2025-05-05",
+        "company": "General Fusion",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Energy",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://techcrunch.com/2025/05/05/layoffs-hit-general-fusion-as-the-fusion-power-startup-runs-short-on-cash/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-05-05",
+        "company": "General Fusion",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Energy",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://techcrunch.com/2025/05/05/layoffs-hit-general-fusion-as-the-fusion-power-startup-runs-short-on-cash/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W19 includes 6 public layoff events and 2,620 reported layoffs.",
+    "The largest company contributor is OpenText with 1,600 reported layoffs.",
+    "The leading named industry is Data with 1,600 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

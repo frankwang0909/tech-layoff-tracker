@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2025-04-25",
+  "status": "final",
+  "date_range": {
+    "start": "2025-04-25",
+    "end": "2025-04-25"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-04-25.html",
+  "kpis": {
+    "total_laid_off": 77,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 77.0,
+    "median_layoffs_per_headcount_event": 77.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-04-24",
+      "total_laid_off": 100,
+      "event_count": 1,
+      "total_laid_off_delta": -23,
+      "total_laid_off_pct_change": -0.23,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-04-25",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "SambaNova",
+        "total_laid_off": 77
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "AI",
+        "total_laid_off": 77
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 77
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 77
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-04-25",
+        "company": "SambaNova",
+        "num_laid_off": 77,
+        "percentage_laid_off": 0.15,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-04-25",
+        "company": "SambaNova",
+        "num_laid_off": 77,
+        "percentage_laid_off": 0.15,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-04-25 includes 1 public layoff events and 77 reported layoffs.",
+    "The largest company contributor is SambaNova with 77 reported layoffs.",
+    "The leading named industry is AI with 77 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W13",
+  "status": "final",
+  "date_range": {
+    "start": "2026-03-23",
+    "end": "2026-03-27"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2026-W13.html",
+  "kpis": {
+    "total_laid_off": 1215,
+    "event_count": 7,
+    "headcount_event_count": 4,
+    "company_count": 7,
+    "country_count": 4,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 303.75,
+    "median_layoffs_per_headcount_event": 100.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W12",
+      "total_laid_off": 0,
+      "event_count": 4,
+      "total_laid_off_delta": 1215,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.75,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W13",
+      "total_laid_off": 1139,
+      "event_count": 4,
+      "total_laid_off_delta": 76,
+      "total_laid_off_pct_change": 0.0667,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.75,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Epic Games",
+        "total_laid_off": 1000
+      },
+      {
+        "company": "Enpal",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Zendesk",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Spotify",
+        "total_laid_off": 15
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 1000
+      },
+      {
+        "industry": "Energy",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 15
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 1100
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 100
+      },
+      {
+        "country": "Sweden",
+        "total_laid_off": 15
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 1000
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 15
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-03-24",
+        "company": "Epic Games",
+        "num_laid_off": 1000,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+      },
+      {
+        "date": "2026-03-27",
+        "company": "Enpal",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Zendesk",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-03-23",
+        "company": "Spotify",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-03-27",
+        "company": "Enpal",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Monte Carlo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Quandoo",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Epic Games",
+        "num_laid_off": 1000,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Zendesk",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "OpenText",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+      },
+      {
+        "date": "2026-03-23",
+        "company": "Spotify",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-03-26",
+        "company": "Quandoo",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Monte Carlo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-W13 includes 7 public layoff events and 1,215 reported layoffs.",
+    "The largest company contributor is Epic Games with 1,000 reported layoffs.",
+    "The leading named industry is Consumer with 1,000 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

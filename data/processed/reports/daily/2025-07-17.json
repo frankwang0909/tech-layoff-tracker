@@ -1,0 +1,181 @@
+{
+  "report_type": "daily",
+  "period": "2025-07-17",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-17",
+    "end": "2025-07-17"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-07-17.html",
+  "kpis": {
+    "total_laid_off": 35,
+    "event_count": 4,
+    "headcount_event_count": 1,
+    "company_count": 4,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 35.0,
+    "median_layoffs_per_headcount_event": 35.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-07-16",
+      "total_laid_off": 300,
+      "event_count": 2,
+      "total_laid_off_delta": -265,
+      "total_laid_off_pct_change": -0.8833,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-07-17",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "TytoCare",
+        "total_laid_off": 35
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 35
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 35
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series E",
+        "total_laid_off": 35
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-17",
+        "company": "TytoCare",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.22,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-17",
+        "company": "TytoCare",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.22,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/retail-consumer/amazons-aws-cloud-computing-unit-cuts-least-hundreds-jobs-sources-say-2025-07-17/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "Amicole",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "CodeParrot",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Product",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-17",
+        "company": "Amicole",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "CodeParrot",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Product",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-07-17 includes 4 public layoff events and 35 reported layoffs.",
+    "The largest company contributor is TytoCare with 35 reported layoffs.",
+    "The leading named industry is Healthcare with 35 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

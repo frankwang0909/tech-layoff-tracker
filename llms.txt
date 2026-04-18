@@ -1,0 +1,39 @@
+# Tech Layoff Tracker
+
+> Public tech layoff dashboard and trend report generated from processed layoff records.
+
+Canonical pages:
+- Dashboard: https://tech.debugcanada.com/
+- Trend report: https://tech.debugcanada.com/trend-report.html
+- Reports archive: https://tech.debugcanada.com/reports/
+- AI-readable summary: https://tech.debugcanada.com/ai-summary.json
+
+Current dataset:
+- Data range: 2025-01-06 to 2026-04-16
+- Total reported layoffs: 197,413
+- 2026 YTD reported layoffs: 73,212
+- Companies affected: 231
+- Countries or regions: 18
+- Peak month: 2026-03 with 34,800 reported layoffs
+- Top company: Oracle with 31,094 reported layoffs
+- Leading named industry: Hardware with 40,087 reported layoffs
+- Leading country or region: United States with 164,446 reported layoffs
+
+Recommended citation:
+Use "Tech Layoff Tracker, data range 2025-01-06 to 2026-04-16" and link to https://tech.debugcanada.com/trend-report.html.
+
+Methodology notes:
+- Rows with invalid dates are excluded from time-series analysis.
+- Rows without num_laid_off are excluded from headcount totals but may appear as events.
+- Layoff percentage, funding stage, and funds raised fields are incomplete in the source data.
+- The dataset tracks public records and does not prove causal claims such as AI directly causing layoffs.
+
+Useful data files:
+- /data/processed/stats.json
+- /data/processed/monthly_trend.json
+- /data/processed/company_summary.json
+- /data/processed/industry_breakdown.json
+- /data/processed/country_breakdown.json
+- /data/processed/reports/index.json
+- /data/processed/industry_pages.json
+- /data/processed/country_pages.json

@@ -1,0 +1,215 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W34",
+  "status": "final",
+  "date_range": {
+    "start": "2025-08-19",
+    "end": "2025-08-23"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W34.html",
+  "kpis": {
+    "total_laid_off": 472,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 157.33,
+    "median_layoffs_per_headcount_event": 150.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W33",
+      "total_laid_off": 1227,
+      "event_count": 10,
+      "total_laid_off_delta": -755,
+      "total_laid_off_pct_change": -0.6153,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.6,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W34",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Cisco",
+        "total_laid_off": 221
+      },
+      {
+        "company": "BeepKart",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Oracle",
+        "total_laid_off": 101
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Infrastructure",
+        "total_laid_off": 221
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 150
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 101
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 322
+      },
+      {
+        "country": "India",
+        "total_laid_off": 150
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 322
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 150
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-08-19",
+        "company": "Cisco",
+        "num_laid_off": 221,
+        "percentage_laid_off": null,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      },
+      {
+        "date": "2025-08-23",
+        "company": "BeepKart",
+        "num_laid_off": 150,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
+      },
+      {
+        "date": "2025-08-19",
+        "company": "Oracle",
+        "num_laid_off": 101,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-08-23",
+        "company": "BeepKart",
+        "num_laid_off": 150,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
+      },
+      {
+        "date": "2025-08-22",
+        "company": "TikTok",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://www.wsj.com/tech/tiktok-to-lay-off-hundreds-of-u-k-content-moderators-in-ai-push-d040ae21"
+      },
+      {
+        "date": "2025-08-19",
+        "company": "Cisco",
+        "num_laid_off": 221,
+        "percentage_laid_off": null,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      },
+      {
+        "date": "2025-08-19",
+        "company": "Oracle",
+        "num_laid_off": 101,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-08-23",
+        "company": "BeepKart",
+        "num_laid_off": 150,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W34 includes 4 public layoff events and 472 reported layoffs.",
+    "The largest company contributor is Cisco with 221 reported layoffs.",
+    "The leading named industry is Infrastructure with 221 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

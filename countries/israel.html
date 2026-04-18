@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs by Country: Israel | Tech Layoff Tracker</title>
+    <meta name="description" content="Israel tech layoffs analysis: 4,781 reported layoffs across 43 public events from 2025-01-06 to 2026-04-13.">
+    <link rel="canonical" href="https://tech.debugcanada.com/countries/israel.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tech.debugcanada.com/countries/israel.html">
+    <meta property="og:title" content="Tech Layoffs by Country: Israel">
+    <meta property="og:description" content="Israel tech layoffs analysis: 4,781 reported layoffs across 43 public events from 2025-01-06 to 2026-04-13.">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Frank Wang"}, "dateModified": "2026-04-13", "datePublished": "2026-04-13", "description": "Israel tech layoffs analysis: 4,781 reported layoffs across 43 public events from 2025-01-06 to 2026-04-13.", "headline": "Tech Layoffs by Country: Israel", "mainEntityOfPage": "https://tech.debugcanada.com/countries/israel.html", "publisher": {"@type": "Organization", "name": "Tech Layoff Tracker", "url": "https://tech.debugcanada.com"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/", "name": "Country", "position": 2}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/israel.html", "name": "Israel", "position": 3}]}</script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
+        .hero { padding: 42px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
+        .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
+        .kpi { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 16px; background: rgba(15, 23, 42, 0.6); }
+        .kpi span { display: block; color: #64748b; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+        .kpi strong { display: block; margin-top: 6px; font-size: 28px; line-height: 1.1; color: #f8fafc; }
+        main { padding: 30px 0 54px; }
+        section { padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        h2 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; color: #f8fafc; }
+        .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .chart { width: 100%; height: 380px; border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; background: rgba(15, 23, 42, 0.6); }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); }
+        th, td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; vertical-align: top; font-size: 14px; color: #e2e8f0; }
+        th { color: #94a3b8; background: rgba(255,255,255,0.04); }
+        tr:last-child td { border-bottom: 0; }
+        .note { color: #64748b; font-size: 14px; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .kpis, .chart-grid { grid-template-columns: 1fr; }
+            .chart { height: 280px; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            .kpi strong { font-size: 22px; }
+            h2 { font-size: 22px; }
+            table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/" class="active">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/">Reports</a>
+            </nav>
+            <p class="eyebrow">Country analysis</p>
+            <h1>Tech Layoffs by Country: Israel</h1>
+            <p class="dek">Israel has 4,781 reported tech layoffs across 43 public events from 2025-01-06 to 2026-04-13.</p>
+            <div class="meta">
+                <span>Data range: 2025-01-06 to 2026-04-13</span>
+                <span>Based on public layoff records</span>
+            </div>
+            <div class="kpis" aria-label="Topic key metrics">
+                <div class="kpi"><span>Total layoffs</span><strong>4,781</strong></div>
+                <div class="kpi"><span>Events</span><strong>43</strong></div>
+                <div class="kpi"><span>Companies</span><strong>38</strong></div>
+                <div class="kpi"><span>High intensity</span><strong>14</strong></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Israel tech layoffs analysis: 4,781 reported layoffs across 43 public events from 2025-01-06 to 2026-04-13.</p>
+            <p class="note">This page is generated as a focused topic page. It should be interpreted with the same methodology limits as the main trend report.</p>
+        </section>
+
+        <section id="charts">
+            <h2>Trend and Companies</h2>
+            <div class="chart-grid">
+                <div id="monthlyChart" class="chart" aria-label="Monthly trend chart"></div>
+                <div id="companyChart" class="chart" aria-label="Top companies chart"></div>
+            </div>
+        </section>
+
+        <section id="recent-events">
+            <h2>Recent Events</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Company</th>
+                        <th>Laid off</th>
+                        <th>Industry</th>
+                        <th>Country</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>2026-04-13</td>
+                        <td>StarkWare</td>
+                        <td>N/A</td>
+                        <td>Crypto</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-02-26</td>
+                        <td>eBay</td>
+                        <td>800</td>
+                        <td>Retail</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-02-15</td>
+                        <td>Huawei</td>
+                        <td>50</td>
+                        <td>Hardware</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/bkmmdojuwx" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-02-15</td>
+                        <td>Firebolt</td>
+                        <td>N/A</td>
+                        <td>Data</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/r1cj0csuwl" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-02-04</td>
+                        <td>Rewire</td>
+                        <td>110</td>
+                        <td>Finance</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-27</td>
+                        <td>Moon Active</td>
+                        <td>110</td>
+                        <td>Consumer</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/jvbqyjznm" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-14</td>
+                        <td>Playtika</td>
+                        <td>500</td>
+                        <td>Consumer</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/bkl6xzhswe" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-13</td>
+                        <td>eToro</td>
+                        <td>105</td>
+                        <td>Finance</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/sjedi1vh11x" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-13</td>
+                        <td>StoreDot</td>
+                        <td>N/A</td>
+                        <td>Other</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-08</td>
+                        <td>Foretellix</td>
+                        <td>29</td>
+                        <td>Transportation</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2026-01-08</td>
+                        <td>Hailo</td>
+                        <td>30</td>
+                        <td>Manufacturing</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/hyzk11etvwx" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-12-28</td>
+                        <td>Sapiens</td>
+                        <td>700</td>
+                        <td>Finance</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/r1oyau0mzl" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-12-11</td>
+                        <td>Believer Meats</td>
+                        <td>N/A</td>
+                        <td>Food</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/bknaajdzbe" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-12-08</td>
+                        <td>Mobileye</td>
+                        <td>200</td>
+                        <td>Transportation</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/hjznnzvzzl" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-12-03</td>
+                        <td>Cellebrite</td>
+                        <td>20</td>
+                        <td>Other</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.calcalistech.com/ctechnews/article/izmghyvm1" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+Disclaimer: Some figures are estimates or planned reductions<br><br>
+<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp;
+<a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp;
+<a href="https://debugcanada.com" target="_blank">Debug Canada</a>
+    </footer>
+
+<script>
+const page = {"canonical_url": "/countries/israel.html", "charts": {"company_top": [{"company": "Playtika", "total_laid_off": 1290}, {"company": "eBay", "total_laid_off": 1020}, {"company": "Sapiens", "total_laid_off": 700}, {"company": "SolarEdge", "total_laid_off": 400}, {"company": "Fiverr", "total_laid_off": 250}, {"company": "Mobileye", "total_laid_off": 200}, {"company": "Rewire", "total_laid_off": 110}, {"company": "Moon Active", "total_laid_off": 110}, {"company": "eToro", "total_laid_off": 105}, {"company": "Lightricks", "total_laid_off": 85}], "monthly_trend": [{"month": "2025-01", "total_laid_off": 445}, {"month": "2025-02", "total_laid_off": 75}, {"month": "2025-03", "total_laid_off": 67}, {"month": "2025-05", "total_laid_off": 230}, {"month": "2025-06", "total_laid_off": 120}, {"month": "2025-07", "total_laid_off": 155}, {"month": "2025-09", "total_laid_off": 250}, {"month": "2025-10", "total_laid_off": 85}, {"month": "2025-11", "total_laid_off": 700}, {"month": "2025-12", "total_laid_off": 920}, {"month": "2026-01", "total_laid_off": 774}, {"month": "2026-02", "total_laid_off": 960}]}, "date_range": {"end": "2026-04-13", "start": "2025-01-06"}, "kpis": {"company_count": 38, "country_count": 1, "event_count": 43, "headcount_event_count": 29, "high_intensity_event_count": 14, "industry_count": 17, "total_laid_off": 4781}, "name": "Israel", "slug": "israel", "summary": "Israel has 4,781 reported tech layoffs across 43 public events from 2025-01-06 to 2026-04-13.", "tables": {"recent_events": [{"company": "StarkWare", "country": "Israel", "date": "2026-04-13", "industry": "Crypto", "num_laid_off": null, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx", "stage": "Series D"}, {"company": "eBay", "country": "Israel", "date": "2026-02-26", "industry": "Retail", "num_laid_off": 800, "percentage_laid_off": 0.06, "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html", "stage": "Post-IPO"}, {"company": "Huawei", "country": "Israel", "date": "2026-02-15", "industry": "Hardware", "num_laid_off": 50, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx", "stage": "Unknown"}, {"company": "Firebolt", "country": "Israel", "date": "2026-02-15", "industry": "Data", "num_laid_off": null, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl", "stage": "Series C"}, {"company": "Rewire", "country": "Israel", "date": "2026-02-04", "industry": "Finance", "num_laid_off": 110, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g", "stage": "Acquired"}, {"company": "Moon Active", "country": "Israel", "date": "2026-01-27", "industry": "Consumer", "num_laid_off": 110, "percentage_laid_off": 0.05, "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm", "stage": "Unknown"}, {"company": "Playtika", "country": "Israel", "date": "2026-01-14", "industry": "Consumer", "num_laid_off": 500, "percentage_laid_off": 0.15, "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe", "stage": "Post-IPO"}, {"company": "eToro", "country": "Israel", "date": "2026-01-13", "industry": "Finance", "num_laid_off": 105, "percentage_laid_off": 0.07, "source": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x", "stage": "Unknown"}, {"company": "StoreDot", "country": "Israel", "date": "2026-01-13", "industry": "Other", "num_laid_off": null, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x", "stage": "Series D"}, {"company": "Foretellix", "country": "Israel", "date": "2026-01-08", "industry": "Transportation", "num_laid_off": 29, "percentage_laid_off": 0.18, "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx", "stage": "Series C"}, {"company": "Hailo", "country": "Israel", "date": "2026-01-08", "industry": "Manufacturing", "num_laid_off": 30, "percentage_laid_off": 0.1, "source": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx", "stage": "Series C"}, {"company": "Sapiens", "country": "Israel", "date": "2025-12-28", "industry": "Finance", "num_laid_off": 700, "percentage_laid_off": 0.15, "source": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl", "stage": "Acquired"}, {"company": "Believer Meats", "country": "Israel", "date": "2025-12-11", "industry": "Food", "num_laid_off": null, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/bknaajdzbe", "stage": "Series B"}, {"company": "Mobileye", "country": "Israel", "date": "2025-12-08", "industry": "Transportation", "num_laid_off": 200, "percentage_laid_off": 0.04, "source": "https://www.calcalistech.com/ctechnews/article/hjznnzvzzl", "stage": "Post-IPO"}, {"company": "Cellebrite", "country": "Israel", "date": "2025-12-03", "industry": "Other", "num_laid_off": 20, "percentage_laid_off": 0.01, "source": "https://www.calcalistech.com/ctechnews/article/izmghyvm1", "stage": "Post-IPO"}]}, "title": "Tech Layoffs by Country: Israel", "type": "country"};
+const tooltip = { backgroundColor: '#0a0f1e', borderColor: '#1e293b', textStyle: { color: '#e2e8f0' } };
+const TX = '#94a3b8', AX = '#1e293b';
+function init(id) { return echarts.init(document.getElementById(id), null, { renderer: 'canvas' }); }
+function shortNumber(v) { return v >= 1000 ? `${Math.round(v / 100) / 10}k` : v; }
+const monthlyChart = init('monthlyChart');
+monthlyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 54, right: 24, top: 28, bottom: 70 },
+    xAxis: { type: 'category', data: page.charts.monthly_trend.map(d => d.month), axisLabel: { rotate: 45, color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [{ type: 'bar', data: page.charts.monthly_trend.map(d => d.total_laid_off), itemStyle: { color: '#38bdf8' } }]
+});
+const companyChart = init('companyChart');
+companyChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 130, right: 24, top: 28, bottom: 36 },
+    xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    yAxis: { type: 'category', data: page.charts.company_top.map(d => d.company).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    series: [{ type: 'bar', data: page.charts.company_top.map(d => d.total_laid_off).reverse(), itemStyle: { color: '#0e9384' } }]
+});
+window.addEventListener('resize', () => [monthlyChart, companyChart].forEach(chart => chart.resize()));
+</script>
+</body>
+</html>

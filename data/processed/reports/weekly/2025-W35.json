@@ -1,0 +1,203 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W35",
+  "status": "final",
+  "date_range": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W35.html",
+  "kpis": {
+    "total_laid_off": 4141,
+    "event_count": 5,
+    "headcount_event_count": 2,
+    "company_count": 5,
+    "country_count": 1,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 2070.5,
+    "median_layoffs_per_headcount_event": 2070.5,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W34",
+      "total_laid_off": 472,
+      "event_count": 4,
+      "total_laid_off_delta": 3669,
+      "total_laid_off_pct_change": 7.7733,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.25,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W35",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Salesforce",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "Rec Room",
+        "total_laid_off": 141
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 141
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 4141
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 4000
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 141
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-08-31",
+        "company": "Salesforce",
+        "num_laid_off": 4000,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
+      },
+      {
+        "date": "2025-08-27",
+        "company": "Rec Room",
+        "num_laid_off": 141,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.geekwire.com/2025/filing-rec-room-layoffs-impact-141-employees-at-seattle-gaming-startup/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-08-31",
+        "company": "Salesforce",
+        "num_laid_off": 4000,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
+      },
+      {
+        "date": "2025-08-29",
+        "company": "Flip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.sfgate.com/tech/article/flip-startup-shuts-down-billion-21022297.php"
+      },
+      {
+        "date": "2025-08-27",
+        "company": "Rec Room",
+        "num_laid_off": 141,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.geekwire.com/2025/filing-rec-room-layoffs-impact-141-employees-at-seattle-gaming-startup/"
+      },
+      {
+        "date": "2025-08-26",
+        "company": "Verily",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.businessinsider.com/alphabets-verily-lays-off-staff-cuts-its-devices-program-2025-8"
+      },
+      {
+        "date": "2025-08-25",
+        "company": "Klaviyo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theinformation.com/briefings/klaviyo-restructures-r-d-teams-emphasizes-ai-technical-skills"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-08-29",
+        "company": "Flip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.sfgate.com/tech/article/flip-startup-shuts-down-billion-21022297.php"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W35 includes 5 public layoff events and 4,141 reported layoffs.",
+    "The largest company contributor is Salesforce with 4,000 reported layoffs.",
+    "The leading named industry is Sales with 4,000 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

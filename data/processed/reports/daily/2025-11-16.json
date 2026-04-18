@@ -1,0 +1,177 @@
+{
+  "report_type": "daily",
+  "period": "2025-11-16",
+  "status": "final",
+  "date_range": {
+    "start": "2025-11-16",
+    "end": "2025-11-16"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-11-16.html",
+  "kpis": {
+    "total_laid_off": 240,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 120.0,
+    "median_layoffs_per_headcount_event": 120.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-11-15",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2024-11-16",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Pipe",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Flipkart",
+        "total_laid_off": 40
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Finance",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 40
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 200
+      },
+      {
+        "country": "India",
+        "total_laid_off": 40
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 40
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-11-16",
+        "company": "Pipe",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.5,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://fintechbusinessweekly.substack.com/p/celtic-bank-faces-another-lawsuit"
+      },
+      {
+        "date": "2025-11-16",
+        "company": "Flipkart",
+        "num_laid_off": 40,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-11-16",
+        "company": "Pipe",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.5,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://fintechbusinessweekly.substack.com/p/celtic-bank-faces-another-lawsuit"
+      },
+      {
+        "date": "2025-11-16",
+        "company": "Flipkart",
+        "num_laid_off": 40,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-11-16",
+        "company": "Pipe",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.5,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://fintechbusinessweekly.substack.com/p/celtic-bank-faces-another-lawsuit"
+      }
+    ]
+  },
+  "insights": [
+    "2025-11-16 includes 2 public layoff events and 240 reported layoffs.",
+    "The largest company contributor is Pipe with 200 reported layoffs.",
+    "The leading named industry is Finance with 200 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

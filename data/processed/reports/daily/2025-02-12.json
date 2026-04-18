@@ -1,0 +1,175 @@
+{
+  "report_type": "daily",
+  "period": "2025-02-12",
+  "status": "final",
+  "date_range": {
+    "start": "2025-02-12",
+    "end": "2025-02-12"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-02-12.html",
+  "kpis": {
+    "total_laid_off": 650,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 325.0,
+    "median_layoffs_per_headcount_event": 325.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-02-11",
+      "total_laid_off": 0,
+      "event_count": 1,
+      "total_laid_off_delta": 650,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-02-12",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Redfin",
+        "total_laid_off": 450
+      },
+      {
+        "company": "Zepz",
+        "total_laid_off": 200
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Real Estate",
+        "total_laid_off": 450
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 200
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 450
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 200
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 450
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 200
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-02-12",
+        "company": "Redfin",
+        "num_laid_off": 450,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.realestatenews.com/2025/02/12/redfin-to-cut-450-roles-following-zillow-rentals-deal"
+      },
+      {
+        "date": "2025-02-12",
+        "company": "Zepz",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series E",
+        "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-02-12",
+        "company": "Redfin",
+        "num_laid_off": 450,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.realestatenews.com/2025/02/12/redfin-to-cut-450-roles-following-zillow-rentals-deal"
+      },
+      {
+        "date": "2025-02-12",
+        "company": "Zepz",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series E",
+        "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
+      },
+      {
+        "date": "2025-02-12",
+        "company": "Getaround",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.sfchronicle.com/bayarea/article/s-f-based-getaround-lay-nearly-u-s-based-20164114.php"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-02-12 includes 3 public layoff events and 650 reported layoffs.",
+    "The largest company contributor is Redfin with 450 reported layoffs.",
+    "The leading named industry is Real Estate with 450 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "report_type": "quarterly",
+  "period": "2025-Q2",
+  "status": "final",
+  "date_range": {
+    "start": "2025-04-01",
+    "end": "2025-06-30"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/quarterly/2025-Q2.html",
+  "kpis": {
+    "total_laid_off": 37528,
+    "event_count": 71,
+    "headcount_event_count": 48,
+    "company_count": 64,
+    "country_count": 10,
+    "industry_count": 22,
+    "average_layoffs_per_headcount_event": 781.83,
+    "median_layoffs_per_headcount_event": 145.0,
+    "high_intensity_event_count": 18
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-Q1",
+      "total_laid_off": 29845,
+      "event_count": 103,
+      "total_laid_off_delta": 7683,
+      "total_laid_off_pct_change": 0.2574,
+      "event_count_delta": -32,
+      "event_count_pct_change": -0.3107,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-Q2",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Intel",
+        "total_laid_off": 22000
+      },
+      {
+        "company": "Microsoft",
+        "total_laid_off": 6305
+      },
+      {
+        "company": "OpenText",
+        "total_laid_off": 1600
+      },
+      {
+        "company": "NetApp",
+        "total_laid_off": 700
+      },
+      {
+        "company": "Zomato",
+        "total_laid_off": 600
+      },
+      {
+        "company": "Cars24",
+        "total_laid_off": 520
+      },
+      {
+        "company": "CrowdStrike",
+        "total_laid_off": 500
+      },
+      {
+        "company": "VerSe Innovation copy",
+        "total_laid_off": 350
+      },
+      {
+        "company": "Match Group",
+        "total_laid_off": 325
+      },
+      {
+        "company": "Electronic Arts",
+        "total_laid_off": 300
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 22000
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 7331
+      },
+      {
+        "industry": "Data",
+        "total_laid_off": 2300
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 1352
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 948
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 900
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 520
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 351
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 350
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 350
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 32074
+      },
+      {
+        "country": "India",
+        "total_laid_off": 2265
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 1973
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 350
+      },
+      {
+        "country": "Netherlands",
+        "total_laid_off": 300
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 200
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 200
+      },
+      {
+        "country": "Switzerland",
+        "total_laid_off": 106
+      },
+      {
+        "country": "Nigeria",
+        "total_laid_off": 50
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 10
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 33799
+      },
+      {
+        "stage": "Series J",
+        "total_laid_off": 950
+      },
+      {
+        "stage": "Series G",
+        "total_laid_off": 520
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 490
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 431
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 410
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 377
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 222
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 107
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 8
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 11
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 3
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 2
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 4
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-04-23",
+        "company": "Intel",
+        "num_laid_off": 22000,
+        "percentage_laid_off": 0.2,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-04-23/intel-to-announce-plans-this-week-to-cut-more-than-20-of-staff?srnd=homepage-americas"
+      },
+      {
+        "date": "2025-05-13",
+        "company": "Microsoft",
+        "num_laid_off": 6000,
+        "percentage_laid_off": 0.03,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html"
+      },
+      {
+        "date": "2025-05-06",
+        "company": "OpenText",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
+      },
+      {
+        "date": "2025-04-30",
+        "company": "NetApp",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.06,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blocksandfiles.com/2025/04/30/netapp-making-layoffs/"
+      },
+      {
+        "date": "2025-04-01",
+        "company": "Zomato",
+        "num_laid_off": 600,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://inc42.com/buzz/zomato-trims-600-jobs-amid-increasing-automation-quick-commerce-wars/"
+      },
+      {
+        "date": "2025-05-07",
+        "company": "CrowdStrike",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink"
+      },
+      {
+        "date": "2025-05-18",
+        "company": "VerSe Innovation copy",
+        "num_laid_off": 350,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/"
+      },
+      {
+        "date": "2025-05-08",
+        "company": "Match Group",
+        "num_laid_off": 325,
+        "percentage_laid_off": 0.13,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-05-08/match-group-cuts-13-staff-in-latest-move-to-reverse-declines"
+      },
+      {
+        "date": "2025-06-02",
+        "company": "Microsoft",
+        "num_laid_off": 305,
+        "percentage_laid_off": 0.03,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/new-filing-microsoft-cuts-another-305-jobs-in-washington-state/"
+      },
+      {
+        "date": "2025-06-30",
+        "company": "TomTom",
+        "num_laid_off": 300,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://www.tomtom.com/newsroom/press-releases/earnings-other/29121/tomtom-advances-its-product-led-strategy-and-realigns-its-organization/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-06-30",
+        "company": "TomTom",
+        "num_laid_off": 300,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://www.tomtom.com/newsroom/press-releases/earnings-other/29121/tomtom-advances-its-product-led-strategy-and-realigns-its-organization/"
+      },
+      {
+        "date": "2025-06-26",
+        "company": "Rivian",
+        "num_laid_off": 140,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2025/06/26/rivian-cuts-dozens-on-manufacturing-team-ahead-of-r2-launch/"
+      },
+      {
+        "date": "2025-06-25",
+        "company": "Bumble",
+        "num_laid_off": 240,
+        "percentage_laid_off": 0.3,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/06/25/bumble-layoffs.html"
+      },
+      {
+        "date": "2025-06-25",
+        "company": "Klue",
+        "num_laid_off": 85,
+        "percentage_laid_off": 0.4,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Google",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theinformation.com/articles/google-cuts-smart-tv-budget-doubles-youtube"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Intel",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/06/intel-will-shut-down-its-automotive-business-lay-off-most-of-the-departments-employees.html"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Microsoft",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-06-24/microsoft-plans-major-job-cuts-at-xbox-gaming-division?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc1MDc3Mjc0NiwiZXhwIjoxNzUxMzc3NTQ2LCJhcnRpY2xlSWQiOiJTWUQ0VkxEV1JHRzAwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.iMkVuxzB6m6hT_Rpwa-NQCTCvDapSt1DaRfpnGaqUSw&embedded-checkout=true&leadSource=uverify%20wall"
+      },
+      {
+        "date": "2025-06-24",
+        "company": "Pluralsight",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.17,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.sltrib.com/news/business/2025/06/26/pluralsight-is-leaving-utah-after/"
+      },
+      {
+        "date": "2025-06-20",
+        "company": "Khoros",
+        "num_laid_off": 116,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.bizjournals.com/austin/news/2025/06/20/layoffs-at-austin-social-media-co-khoros.html"
+      },
+      {
+        "date": "2025-06-19",
+        "company": "Sabi",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.2,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2025/06/20/after-raising-38m-african-e-commerce-startup-sabi-lays-off-20-pivots-to-traceable-exports/"
+      },
+      {
+        "date": "2025-06-17",
+        "company": "Intel",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/pgg42xgob"
+      },
+      {
+        "date": "2025-06-10",
+        "company": "Salto",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.5,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/byxvfir7lx"
+      },
+      {
+        "date": "2025-06-09",
+        "company": "ZoomInfo",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.04,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/06/zoominfo-one-of-portland-areas-most-valuable-companies-will-cut-200-jobs.html"
+      },
+      {
+        "date": "2025-06-05",
+        "company": "Playtika",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjhutnrggg"
+      },
+      {
+        "date": "2025-06-04",
+        "company": "Airtime",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.43,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2025/06/04/its-layoff-season-at-phil-libins-airtime/"
+      },
+      {
+        "date": "2025-06-02",
+        "company": "Microsoft",
+        "num_laid_off": 305,
+        "percentage_laid_off": 0.03,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/new-filing-microsoft-cuts-another-305-jobs-in-washington-state/"
+      },
+      {
+        "date": "2025-05-30",
+        "company": "Hims & Hers",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
+      },
+      {
+        "date": "2025-05-29",
+        "company": "Business Insider",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.adweek.com/media/business-insider-layoffs-traffic-sensitivity/"
+      },
+      {
+        "date": "2025-05-28",
+        "company": "eBay",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hywdt44mxx"
+      },
+      {
+        "date": "2025-05-27",
+        "company": "Cars24",
+        "num_laid_off": 120,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://inc42.com/buzz/cars24-to-fire-120-more-employees-in-restructuring-exercise/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-05-02",
+        "company": "Log 9 Materials",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://inc42.com/features/log9-materials-collapse-battery-tech-startup-cash-crunch/"
+      },
+      {
+        "date": "2025-05-01",
+        "company": "Beam",
+        "num_laid_off": 200,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+      },
+      {
+        "date": "2025-04-06",
+        "company": "Coho AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjkodbg0jg"
+      },
+      {
+        "date": "2025-04-09",
+        "company": "Wing Cloud",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Infrastructure",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
+      },
+      {
+        "date": "2025-04-10",
+        "company": "Marin Software",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://searchengineland.com/marin-software-shutting-down-454228"
+      },
+      {
+        "date": "2025-04-16",
+        "company": "Smashing",
+        "num_laid_off": 7,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2025/04/16/smashing-the-reading-curation-app-by-goodreads-founder-shuts-down/"
+      },
+      {
+        "date": "2025-04-28",
+        "company": "Tomorrow",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://thespoon.tech/next-gen-fridge-startup-tomorrow-shuts-down/"
+      },
+      {
+        "date": "2025-04-02",
+        "company": "WhyHive",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Data",
+        "country": "Australia",
+        "stage": "Seed",
+        "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+      },
+      {
+        "date": "2025-05-15",
+        "company": "Noogata",
+        "num_laid_off": 10,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
+      },
+      {
+        "date": "2025-05-20",
+        "company": "Builder.ai",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United Kingdom",
+        "stage": "Series D",
+        "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-Q2 includes 71 public layoff events and 37,528 reported layoffs.",
+    "The largest company contributor is Intel with 22,000 reported layoffs.",
+    "The leading named industry is Hardware with 22,000 reported layoffs.",
+    "18 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

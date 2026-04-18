@@ -1,0 +1,197 @@
+{
+  "report_type": "daily",
+  "period": "2025-01-16",
+  "status": "final",
+  "date_range": {
+    "start": "2025-01-16",
+    "end": "2025-01-16"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-01-16.html",
+  "kpis": {
+    "total_laid_off": 243,
+    "event_count": 3,
+    "headcount_event_count": 3,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 81.0,
+    "median_layoffs_per_headcount_event": 75.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-01-15",
+      "total_laid_off": 221,
+      "event_count": 4,
+      "total_laid_off_delta": 22,
+      "total_laid_off_pct_change": 0.0995,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.25,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-01-16",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Chrono24",
+        "total_laid_off": 110
+      },
+      {
+        "company": "Pocket FM",
+        "total_laid_off": 75
+      },
+      {
+        "company": "Aurora Solar",
+        "total_laid_off": 58
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 110
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 75
+      },
+      {
+        "industry": "Energy",
+        "total_laid_off": 58
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Germany",
+        "total_laid_off": 110
+      },
+      {
+        "country": "India",
+        "total_laid_off": 75
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 58
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 133
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 110
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-01-16",
+        "company": "Chrono24",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.24,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Series C",
+        "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Pocket FM",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Aurora Solar",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.sfexaminer.com/news/technology/sf-green-tech-startup-aurora-solar-laying-off-dozens-again/article_a5fc0dbc-d450-11ef-95d2-03eab04fe214.html"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-01-16",
+        "company": "Chrono24",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.24,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Series C",
+        "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Pocket FM",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
+      },
+      {
+        "date": "2025-01-16",
+        "company": "Aurora Solar",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.sfexaminer.com/news/technology/sf-green-tech-startup-aurora-solar-laying-off-dozens-again/article_a5fc0dbc-d450-11ef-95d2-03eab04fe214.html"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-01-16 includes 3 public layoff events and 243 reported layoffs.",
+    "The largest company contributor is Chrono24 with 110 reported layoffs.",
+    "The leading named industry is Retail with 110 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

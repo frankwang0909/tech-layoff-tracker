@@ -1,0 +1,411 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W09",
+  "status": "final",
+  "date_range": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W09.html",
+  "kpis": {
+    "total_laid_off": 6385,
+    "event_count": 13,
+    "headcount_event_count": 7,
+    "company_count": 13,
+    "country_count": 5,
+    "industry_count": 10,
+    "average_layoffs_per_headcount_event": 912.14,
+    "median_layoffs_per_headcount_event": 300.0,
+    "high_intensity_event_count": 4
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W08",
+      "total_laid_off": 431,
+      "event_count": 8,
+      "total_laid_off_delta": 5954,
+      "total_laid_off_pct_change": 13.8144,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.625,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W09",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "HP",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "Autodesk",
+        "total_laid_off": 1350
+      },
+      {
+        "company": "Grubhub",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Skybox Security",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Flywire",
+        "total_laid_off": 125
+      },
+      {
+        "company": "Digimarc",
+        "total_laid_off": 90
+      },
+      {
+        "company": "eBay",
+        "total_laid_off": 20
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 1440
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 125
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 20
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 6365
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 20
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5460
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 300
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 125
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-02-28",
+        "company": "HP",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+      },
+      {
+        "date": "2025-02-27",
+        "company": "Autodesk",
+        "num_laid_off": 1350,
+        "percentage_laid_off": 0.09,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/02/27/autodesk-says-it-will-cut-1350-employees.html"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "Grubhub",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.23,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "Skybox Security",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1wi4rc5yl"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "Flywire",
+        "num_laid_off": 125,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.bostonglobe.com/2025/02/26/business/student-visa-cutback-flywire-stock-price/"
+      },
+      {
+        "date": "2025-02-27",
+        "company": "Digimarc",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/02/digimarc-shares-plunge-as-oregon-company-lays-off-40-of-its-staff.html"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "eBay",
+        "num_laid_off": 20,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjgsl8n9yl"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-03-02",
+        "company": "ANS Commerce",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.etnownews.com/technology/flipkart-shuts-down-ans-commerce-after-3-years-lays-off-employees-amid-e-commerce-restructuring-details-article-118657546"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "HP",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "Grubhub",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.23,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/"
+      },
+      {
+        "date": "2025-02-27",
+        "company": "Autodesk",
+        "num_laid_off": 1350,
+        "percentage_laid_off": 0.09,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/02/27/autodesk-says-it-will-cut-1350-employees.html"
+      },
+      {
+        "date": "2025-02-27",
+        "company": "Digimarc",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/02/digimarc-shares-plunge-as-oregon-company-lays-off-40-of-its-staff.html"
+      },
+      {
+        "date": "2025-02-27",
+        "company": "Google",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/02/27/google-makes-cuts-to-hr-and-cloud-units.html"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "Flywire",
+        "num_laid_off": 125,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.bostonglobe.com/2025/02/26/business/student-visa-cutback-flywire-stock-price/"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "eBay",
+        "num_laid_off": 20,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjgsl8n9yl"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "Commercetools",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Series C",
+        "source": "https://techcrunch.com/2025/02/26/commercetools-a-pioneer-in-headless-commerce-lays-off-dozens-of-staff/"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "Dayforce",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.05,
+        "industry": "HR",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/dayforce-to-cut-about-5-of-workforce-in-efficiency-drive-2eabda38?mod=investing"
+      },
+      {
+        "date": "2025-02-26",
+        "company": "Expedia",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/expedia-confirms-layoffs-at-seattle-travel-giant/"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "Skybox Security",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1wi4rc5yl"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "HerMD",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-03-02",
+        "company": "ANS Commerce",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.etnownews.com/technology/flipkart-shuts-down-ans-commerce-after-3-years-lays-off-employees-amid-e-commerce-restructuring-details-article-118657546"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "Skybox Security",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1wi4rc5yl"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "HerMD",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
+      },
+      {
+        "date": "2025-02-27",
+        "company": "Digimarc",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/02/digimarc-shares-plunge-as-oregon-company-lays-off-40-of-its-staff.html"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W09 includes 13 public layoff events and 6,385 reported layoffs.",
+    "The largest company contributor is HP with 4,000 reported layoffs.",
+    "The leading named industry is Hardware with 4,000 reported layoffs.",
+    "4 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

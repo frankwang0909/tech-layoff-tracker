@@ -1,0 +1,221 @@
+{
+  "report_type": "daily",
+  "period": "2025-10-23",
+  "status": "final",
+  "date_range": {
+    "start": "2025-10-23",
+    "end": "2025-10-23"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-10-23.html",
+  "kpis": {
+    "total_laid_off": 2250,
+    "event_count": 4,
+    "headcount_event_count": 4,
+    "company_count": 4,
+    "country_count": 1,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 562.5,
+    "median_layoffs_per_headcount_event": 400.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-10-22",
+      "total_laid_off": 600,
+      "event_count": 1,
+      "total_laid_off_delta": 1650,
+      "total_laid_off_pct_change": 2.75,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-10-23",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Applied Material",
+        "total_laid_off": 1400
+      },
+      {
+        "company": "Rivian",
+        "total_laid_off": 600
+      },
+      {
+        "company": "Kaseya",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Altruist",
+        "total_laid_off": 50
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Manufacturing",
+        "total_laid_off": 1400
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 600
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 50
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 2250
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 2000
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 50
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 2
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-10-23",
+        "company": "Applied Material",
+        "num_laid_off": 1400,
+        "percentage_laid_off": 0.04,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-10-23/applied-materials-to-cut-4-of-global-staff-after-sales-slow"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Rivian",
+        "num_laid_off": 600,
+        "percentage_laid_off": 0.04,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Kaseya",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Altruist",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.15,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.investmentnews.com/ria-news/altruist-lays-off-50-employees-but-ceo-says-profitability-is-in-sight/262681"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-10-23",
+        "company": "Applied Material",
+        "num_laid_off": 1400,
+        "percentage_laid_off": 0.04,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-10-23/applied-materials-to-cut-4-of-global-staff-after-sales-slow"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Rivian",
+        "num_laid_off": 600,
+        "percentage_laid_off": 0.04,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Kaseya",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Altruist",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.15,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.investmentnews.com/ria-news/altruist-lays-off-50-employees-but-ceo-says-profitability-is-in-sight/262681"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-10-23 includes 4 public layoff events and 2,250 reported layoffs.",
+    "The largest company contributor is Applied Material with 1,400 reported layoffs.",
+    "The leading named industry is Manufacturing with 1,400 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

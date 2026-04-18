@@ -1,0 +1,237 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W30",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-21",
+    "end": "2025-07-24"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W30.html",
+  "kpis": {
+    "total_laid_off": 112,
+    "event_count": 6,
+    "headcount_event_count": 2,
+    "company_count": 6,
+    "country_count": 4,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 56.0,
+    "median_layoffs_per_headcount_event": 56.0,
+    "high_intensity_event_count": 3
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W29",
+      "total_laid_off": 701,
+      "event_count": 9,
+      "total_laid_off_delta": -589,
+      "total_laid_off_pct_change": -0.8402,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W30",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "PlaxidityX",
+        "total_laid_off": 65
+      },
+      {
+        "company": "ConsenSys",
+        "total_laid_off": 47
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Security",
+        "total_laid_off": 65
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 47
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 65
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 47
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Acquired",
+        "total_laid_off": 65
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 47
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-23",
+        "company": "PlaxidityX",
+        "num_laid_off": 65,
+        "percentage_laid_off": 0.36,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rk1c9mclxl"
+      },
+      {
+        "date": "2025-07-22",
+        "company": "ConsenSys",
+        "num_laid_off": 47,
+        "percentage_laid_off": 0.07,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-24",
+        "company": "Ohm Mobility",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/snippets/ev-financing-startup-ohm-mobility-shuts-down-operations-9534248"
+      },
+      {
+        "date": "2025-07-24",
+        "company": "Tipalti",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.calcalistech.com/ctechnews/article/syrnrsyvgg"
+      },
+      {
+        "date": "2025-07-23",
+        "company": "PlaxidityX",
+        "num_laid_off": 65,
+        "percentage_laid_off": 0.36,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rk1c9mclxl"
+      },
+      {
+        "date": "2025-07-23",
+        "company": "WiseTech",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Logistics",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/asia-pacific/australias-wisetech-cut-some-jobs-ai-driven-efficiency-push-2025-07-23/"
+      },
+      {
+        "date": "2025-07-22",
+        "company": "ConsenSys",
+        "num_laid_off": 47,
+        "percentage_laid_off": 0.07,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+      },
+      {
+        "date": "2025-07-21",
+        "company": "Zeen",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/social-media-creator-economy-collage-startup-zeen-shutting-down-2025-7"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-24",
+        "company": "Ohm Mobility",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/snippets/ev-financing-startup-ohm-mobility-shuts-down-operations-9534248"
+      },
+      {
+        "date": "2025-07-21",
+        "company": "Zeen",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/social-media-creator-economy-collage-startup-zeen-shutting-down-2025-7"
+      },
+      {
+        "date": "2025-07-23",
+        "company": "PlaxidityX",
+        "num_laid_off": 65,
+        "percentage_laid_off": 0.36,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rk1c9mclxl"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W30 includes 6 public layoff events and 112 reported layoffs.",
+    "The largest company contributor is PlaxidityX with 65 reported layoffs.",
+    "The leading named industry is Security with 65 reported layoffs.",
+    "3 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

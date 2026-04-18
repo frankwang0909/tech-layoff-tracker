@@ -1,0 +1,249 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W05",
+  "status": "final",
+  "date_range": {
+    "start": "2025-01-27",
+    "end": "2025-01-30"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W05.html",
+  "kpis": {
+    "total_laid_off": 317,
+    "event_count": 6,
+    "headcount_event_count": 3,
+    "company_count": 6,
+    "country_count": 2,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 105.67,
+    "median_layoffs_per_headcount_event": 122.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W04",
+      "total_laid_off": 366,
+      "event_count": 3,
+      "total_laid_off_delta": -49,
+      "total_laid_off_pct_change": -0.1339,
+      "event_count_delta": 3,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W05",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Placer.ai",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Digital River",
+        "total_laid_off": 122
+      },
+      {
+        "company": "Aurora Labs",
+        "total_laid_off": 45
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Data",
+        "total_laid_off": 150
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 122
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 45
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 272
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 45
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 150
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 122
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 45
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-01-29",
+        "company": "Placer.ai",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.18,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/sj6ptuddye"
+      },
+      {
+        "date": "2025-01-28",
+        "company": "Digital River",
+        "num_laid_off": 122,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.startribune.com/digital-river-ecommerce-close-layoff-shut-down-microsoft-online-shop/601213069"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Aurora Labs",
+        "num_laid_off": 45,
+        "percentage_laid_off": 0.6,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjh2d64ukx"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-01-30",
+        "company": "Cushion",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/"
+      },
+      {
+        "date": "2025-01-29",
+        "company": "Placer.ai",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.18,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/sj6ptuddye"
+      },
+      {
+        "date": "2025-01-29",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-01-29/amazon-cuts-dozens-of-corporate-jobs-in-latest-round-of-layoffs"
+      },
+      {
+        "date": "2025-01-28",
+        "company": "Digital River",
+        "num_laid_off": 122,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.startribune.com/digital-river-ecommerce-close-layoff-shut-down-microsoft-online-shop/601213069"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Aurora Labs",
+        "num_laid_off": 45,
+        "percentage_laid_off": 0.6,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjh2d64ukx"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Moon Active",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjejkmruyg"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-01-30",
+        "company": "Cushion",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/"
+      },
+      {
+        "date": "2025-01-27",
+        "company": "Aurora Labs",
+        "num_laid_off": 45,
+        "percentage_laid_off": 0.6,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjh2d64ukx"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W05 includes 6 public layoff events and 317 reported layoffs.",
+    "The largest company contributor is Placer.ai with 150 reported layoffs.",
+    "The leading named industry is Data with 150 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

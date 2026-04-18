@@ -1,0 +1,175 @@
+{
+  "report_type": "daily",
+  "period": "2026-02-15",
+  "status": "final",
+  "date_range": {
+    "start": "2026-02-15",
+    "end": "2026-02-15"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-02-15.html",
+  "kpis": {
+    "total_laid_off": 90,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 45.0,
+    "median_layoffs_per_headcount_event": 45.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-02-14",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2025-02-15",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Huawei",
+        "total_laid_off": 50
+      },
+      {
+        "company": "Axonius",
+        "total_laid_off": 40
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 50
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 40
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 50
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 40
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 50
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 40
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-02-15",
+        "company": "Huawei",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
+      },
+      {
+        "date": "2026-02-15",
+        "company": "Axonius",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.04,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1xchi1oze"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-02-15",
+        "company": "Huawei",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
+      },
+      {
+        "date": "2026-02-15",
+        "company": "Axonius",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.04,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1xchi1oze"
+      },
+      {
+        "date": "2026-02-15",
+        "company": "Firebolt",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-02-15 includes 3 public layoff events and 90 reported layoffs.",
+    "The largest company contributor is Huawei with 50 reported layoffs.",
+    "The leading named industry is Hardware with 50 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W22",
+  "status": "final",
+  "date_range": {
+    "start": "2025-05-27",
+    "end": "2025-05-30"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W22.html",
+  "kpis": {
+    "total_laid_off": 388,
+    "event_count": 5,
+    "headcount_event_count": 3,
+    "company_count": 5,
+    "country_count": 3,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 129.33,
+    "median_layoffs_per_headcount_event": 120.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W21",
+      "total_laid_off": 544,
+      "event_count": 6,
+      "total_laid_off_delta": -156,
+      "total_laid_off_pct_change": -0.2868,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1667,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W22",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "eBay",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Cars24",
+        "total_laid_off": 120
+      },
+      {
+        "company": "Hims & Hers",
+        "total_laid_off": 68
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 120
+      },
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 68
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 200
+      },
+      {
+        "country": "India",
+        "total_laid_off": 120
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 68
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 268
+      },
+      {
+        "stage": "Series G",
+        "total_laid_off": 120
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-05-28",
+        "company": "eBay",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hywdt44mxx"
+      },
+      {
+        "date": "2025-05-27",
+        "company": "Cars24",
+        "num_laid_off": 120,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://inc42.com/buzz/cars24-to-fire-120-more-employees-in-restructuring-exercise/"
+      },
+      {
+        "date": "2025-05-30",
+        "company": "Hims & Hers",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-05-30",
+        "company": "Hims & Hers",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
+      },
+      {
+        "date": "2025-05-29",
+        "company": "Business Insider",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.adweek.com/media/business-insider-layoffs-traffic-sensitivity/"
+      },
+      {
+        "date": "2025-05-28",
+        "company": "eBay",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hywdt44mxx"
+      },
+      {
+        "date": "2025-05-27",
+        "company": "Cars24",
+        "num_laid_off": 120,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://inc42.com/buzz/cars24-to-fire-120-more-employees-in-restructuring-exercise/"
+      },
+      {
+        "date": "2025-05-27",
+        "company": "nCino",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.housingwire.com/articles/ncino-workforce-layoffs-artificial-intelligence-technology/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-W22 includes 5 public layoff events and 388 reported layoffs.",
+    "The largest company contributor is eBay with 200 reported layoffs.",
+    "The leading named industry is Retail with 200 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

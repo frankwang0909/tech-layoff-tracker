@@ -1,0 +1,327 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W18",
+  "status": "final",
+  "date_range": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W18.html",
+  "kpis": {
+    "total_laid_off": 1220,
+    "event_count": 10,
+    "headcount_event_count": 4,
+    "company_count": 10,
+    "country_count": 4,
+    "industry_count": 9,
+    "average_layoffs_per_headcount_event": 305.0,
+    "median_layoffs_per_headcount_event": 250.0,
+    "high_intensity_event_count": 4
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W17",
+      "total_laid_off": 22577,
+      "event_count": 5,
+      "total_laid_off_delta": -21357,
+      "total_laid_off_pct_change": -0.946,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W18",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "NetApp",
+        "total_laid_off": 700
+      },
+      {
+        "company": "Electronic Arts",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Beam",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Deep Instinct",
+        "total_laid_off": 20
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Data",
+        "total_laid_off": 700
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 20
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 1000
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 200
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 20
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 1000
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 220
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-04-30",
+        "company": "NetApp",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.06,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blocksandfiles.com/2025/04/30/netapp-making-layoffs/"
+      },
+      {
+        "date": "2025-04-29",
+        "company": "Electronic Arts",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-04-29/electronic-arts-lays-off-hundreds-cancels-titanfall-game"
+      },
+      {
+        "date": "2025-05-01",
+        "company": "Beam",
+        "num_laid_off": 200,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+      },
+      {
+        "date": "2025-05-04",
+        "company": "Deep Instinct",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.1,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjfqkgbglx"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-05-04",
+        "company": "Deep Instinct",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.1,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjfqkgbglx"
+      },
+      {
+        "date": "2025-05-02",
+        "company": "Log 9 Materials",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://inc42.com/features/log9-materials-collapse-battery-tech-startup-cash-crunch/"
+      },
+      {
+        "date": "2025-05-01",
+        "company": "Beam",
+        "num_laid_off": 200,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+      },
+      {
+        "date": "2025-05-01",
+        "company": "Bench",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2025/05/01/fintech-bench-conducts-layoff-while-others-still-work-month-to-month/"
+      },
+      {
+        "date": "2025-04-30",
+        "company": "NetApp",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.06,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blocksandfiles.com/2025/04/30/netapp-making-layoffs/"
+      },
+      {
+        "date": "2025-04-29",
+        "company": "Electronic Arts",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2025-04-29/electronic-arts-lays-off-hundreds-cancels-titanfall-game"
+      },
+      {
+        "date": "2025-04-29",
+        "company": "Stem",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.27,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4437501-stem-announces-27-percent-workforce-reduction-with-30m-savings-target-for-2025"
+      },
+      {
+        "date": "2025-04-28",
+        "company": "Expedia",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.03,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/04/28/expedia-restructures-product-and-tech-teams-will-lay-off-3-of-workforce/"
+      },
+      {
+        "date": "2025-04-28",
+        "company": "Spotter",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/amazon-backed-creator-startup-spotter-lays-off-staffers-2025-5"
+      },
+      {
+        "date": "2025-04-28",
+        "company": "Tomorrow",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://thespoon.tech/next-gen-fridge-startup-tomorrow-shuts-down/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-05-02",
+        "company": "Log 9 Materials",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://inc42.com/features/log9-materials-collapse-battery-tech-startup-cash-crunch/"
+      },
+      {
+        "date": "2025-05-01",
+        "company": "Beam",
+        "num_laid_off": 200,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+      },
+      {
+        "date": "2025-04-28",
+        "company": "Tomorrow",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://thespoon.tech/next-gen-fridge-startup-tomorrow-shuts-down/"
+      },
+      {
+        "date": "2025-04-29",
+        "company": "Stem",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.27,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4437501-stem-announces-27-percent-workforce-reduction-with-30m-savings-target-for-2025"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W18 includes 10 public layoff events and 1,220 reported layoffs.",
+    "The largest company contributor is NetApp with 700 reported layoffs.",
+    "The leading named industry is Data with 700 reported layoffs.",
+    "4 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

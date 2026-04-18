@@ -1,0 +1,297 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W20",
+  "status": "final",
+  "date_range": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W20.html",
+  "kpis": {
+    "total_laid_off": 6805,
+    "event_count": 6,
+    "headcount_event_count": 6,
+    "company_count": 6,
+    "country_count": 3,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 1134.17,
+    "median_layoffs_per_headcount_event": 174.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W19",
+      "total_laid_off": 2620,
+      "event_count": 6,
+      "total_laid_off_delta": 4185,
+      "total_laid_off_pct_change": 1.5973,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W20",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 6000
+      },
+      {
+        "company": "VerSe Innovation copy",
+        "total_laid_off": 350
+      },
+      {
+        "company": "Chegg",
+        "total_laid_off": 248
+      },
+      {
+        "company": "Amazon",
+        "total_laid_off": 100
+      },
+      {
+        "company": "GroundGame Health",
+        "total_laid_off": 97
+      },
+      {
+        "company": "Noogata",
+        "total_laid_off": 10
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 6000
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 350
+      },
+      {
+        "industry": "Education",
+        "total_laid_off": 248
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 97
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 10
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 6445
+      },
+      {
+        "country": "India",
+        "total_laid_off": 350
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 10
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 6348
+      },
+      {
+        "stage": "Series J",
+        "total_laid_off": 350
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 107
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-05-13",
+        "company": "Microsoft",
+        "num_laid_off": 6000,
+        "percentage_laid_off": 0.03,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html"
+      },
+      {
+        "date": "2025-05-18",
+        "company": "VerSe Innovation copy",
+        "num_laid_off": 350,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/"
+      },
+      {
+        "date": "2025-05-12",
+        "company": "Chegg",
+        "num_laid_off": 248,
+        "percentage_laid_off": 0.22,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/"
+      },
+      {
+        "date": "2025-05-14",
+        "company": "Amazon",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/05/14/amazon-lays-off-about-100-employees-in-devices-and-services-unit.html"
+      },
+      {
+        "date": "2025-05-15",
+        "company": "GroundGame Health",
+        "num_laid_off": 97,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
+      },
+      {
+        "date": "2025-05-15",
+        "company": "Noogata",
+        "num_laid_off": 10,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-05-18",
+        "company": "VerSe Innovation copy",
+        "num_laid_off": 350,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/"
+      },
+      {
+        "date": "2025-05-15",
+        "company": "GroundGame Health",
+        "num_laid_off": 97,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
+      },
+      {
+        "date": "2025-05-15",
+        "company": "Noogata",
+        "num_laid_off": 10,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
+      },
+      {
+        "date": "2025-05-14",
+        "company": "Amazon",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/05/14/amazon-lays-off-about-100-employees-in-devices-and-services-unit.html"
+      },
+      {
+        "date": "2025-05-13",
+        "company": "Microsoft",
+        "num_laid_off": 6000,
+        "percentage_laid_off": 0.03,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html"
+      },
+      {
+        "date": "2025-05-12",
+        "company": "Chegg",
+        "num_laid_off": 248,
+        "percentage_laid_off": 0.22,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-05-15",
+        "company": "Noogata",
+        "num_laid_off": 10,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W20 includes 6 public layoff events and 6,805 reported layoffs.",
+    "The largest company contributor is Microsoft with 6,000 reported layoffs.",
+    "The leading named industry is Media with 350 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

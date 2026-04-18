@@ -1,0 +1,261 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W45",
+  "status": "final",
+  "date_range": {
+    "start": "2025-11-04",
+    "end": "2025-11-06"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W45.html",
+  "kpis": {
+    "total_laid_off": 643,
+    "event_count": 6,
+    "headcount_event_count": 4,
+    "company_count": 6,
+    "country_count": 2,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 160.75,
+    "median_layoffs_per_headcount_event": 120.5,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W44",
+      "total_laid_off": 14698,
+      "event_count": 6,
+      "total_laid_off_delta": -14055,
+      "total_laid_off_pct_change": -0.9563,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W45",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Porter",
+        "total_laid_off": 350
+      },
+      {
+        "company": "MyBambu",
+        "total_laid_off": 141
+      },
+      {
+        "company": "Axonius",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Hewlett Packard Enterprise",
+        "total_laid_off": 52
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Logistics",
+        "total_laid_off": 350
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 141
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 52
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 350
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 293
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series F",
+        "total_laid_off": 350
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 141
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 52
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-11-04",
+        "company": "Porter",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.18,
+        "industry": "Logistics",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "MyBambu",
+        "num_laid_off": 141,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025"
+      },
+      {
+        "date": "2025-11-06",
+        "company": "Axonius",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.11,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sj0syry1wg"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "Hewlett Packard Enterprise",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/layoffs-hpe-hitachi-vantara-21140900.php"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-11-06",
+        "company": "Axonius",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.11,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sj0syry1wg"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "MyBambu",
+        "num_laid_off": 141,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "Hewlett Packard Enterprise",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/layoffs-hpe-hitachi-vantara-21140900.php"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "Indeed",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.businessinsider.com/indeed-layoffs-job-cuts-after-summer-reorg-2025-11"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "TripAdvisor",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/11/05/layoffs-hit-20-of-tripadvisor-viator-and-administrative-staff-scoop/"
+      },
+      {
+        "date": "2025-11-04",
+        "company": "Porter",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.18,
+        "industry": "Logistics",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-11-05",
+        "company": "MyBambu",
+        "num_laid_off": 141,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W45 includes 6 public layoff events and 643 reported layoffs.",
+    "The largest company contributor is Porter with 350 reported layoffs.",
+    "The leading named industry is Logistics with 350 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

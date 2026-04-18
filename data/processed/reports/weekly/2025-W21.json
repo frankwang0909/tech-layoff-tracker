@@ -1,0 +1,263 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W21",
+  "status": "final",
+  "date_range": {
+    "start": "2025-05-19",
+    "end": "2025-05-23"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W21.html",
+  "kpis": {
+    "total_laid_off": 544,
+    "event_count": 6,
+    "headcount_event_count": 3,
+    "company_count": 6,
+    "country_count": 5,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 181.33,
+    "median_layoffs_per_headcount_event": 138.0,
+    "high_intensity_event_count": 3
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W20",
+      "total_laid_off": 6805,
+      "event_count": 6,
+      "total_laid_off_delta": -6261,
+      "total_laid_off_pct_change": -0.9201,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W21",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Otipy",
+        "total_laid_off": 300
+      },
+      {
+        "company": "LeddarTech",
+        "total_laid_off": 138
+      },
+      {
+        "company": "Climeworks",
+        "total_laid_off": 106
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Food",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 138
+      },
+      {
+        "industry": "Energy",
+        "total_laid_off": 106
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 300
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 138
+      },
+      {
+        "country": "Switzerland",
+        "total_laid_off": 106
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series B",
+        "total_laid_off": 300
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 138
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 106
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-05-23",
+        "company": "Otipy",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://economictimes.indiatimes.com/tech/startups/subscription-based-grocery-provider-otipy-shuts-shop-impacts-300-employees/articleshow/121367249.cms?from=mdr"
+      },
+      {
+        "date": "2025-05-22",
+        "company": "LeddarTech",
+        "num_laid_off": 138,
+        "percentage_laid_off": 0.95,
+        "industry": "Transportation",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/leddartech-cuts-95-percent-of-staff-in-bid-to-rescue-its-business/"
+      },
+      {
+        "date": "2025-05-21",
+        "company": "Climeworks",
+        "num_laid_off": 106,
+        "percentage_laid_off": 0.22,
+        "industry": "Energy",
+        "country": "Switzerland",
+        "stage": "Private Equity",
+        "source": "https://www.bloomberg.com/news/articles/2025-05-21/carbon-removal-startup-climeworks-is-cutting-22-of-staff"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-05-23",
+        "company": "Otipy",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://economictimes.indiatimes.com/tech/startups/subscription-based-grocery-provider-otipy-shuts-shop-impacts-300-employees/articleshow/121367249.cms?from=mdr"
+      },
+      {
+        "date": "2025-05-22",
+        "company": "LeddarTech",
+        "num_laid_off": 138,
+        "percentage_laid_off": 0.95,
+        "industry": "Transportation",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/leddartech-cuts-95-percent-of-staff-in-bid-to-rescue-its-business/"
+      },
+      {
+        "date": "2025-05-21",
+        "company": "Climeworks",
+        "num_laid_off": 106,
+        "percentage_laid_off": 0.22,
+        "industry": "Energy",
+        "country": "Switzerland",
+        "stage": "Private Equity",
+        "source": "https://www.bloomberg.com/news/articles/2025-05-21/carbon-removal-startup-climeworks-is-cutting-22-of-staff"
+      },
+      {
+        "date": "2025-05-20",
+        "company": "Builder.ai",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United Kingdom",
+        "stage": "Series D",
+        "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
+      },
+      {
+        "date": "2025-05-20",
+        "company": "Luminar",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2025/05/20/luminar-kicks-off-another-round-of-layoffs-amid-ceos-sudden-resignation/"
+      },
+      {
+        "date": "2025-05-19",
+        "company": "Blink Charging",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blinkcharging.com/news/blink-charging-announces-workforce-reduction-to-accelerate-blinkforward-initiative-and-strengthen-global-market-position"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-05-23",
+        "company": "Otipy",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://economictimes.indiatimes.com/tech/startups/subscription-based-grocery-provider-otipy-shuts-shop-impacts-300-employees/articleshow/121367249.cms?from=mdr"
+      },
+      {
+        "date": "2025-05-20",
+        "company": "Builder.ai",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United Kingdom",
+        "stage": "Series D",
+        "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
+      },
+      {
+        "date": "2025-05-22",
+        "company": "LeddarTech",
+        "num_laid_off": 138,
+        "percentage_laid_off": 0.95,
+        "industry": "Transportation",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/leddartech-cuts-95-percent-of-staff-in-bid-to-rescue-its-business/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W21 includes 6 public layoff events and 544 reported layoffs.",
+    "The largest company contributor is Otipy with 300 reported layoffs.",
+    "The leading named industry is Food with 300 reported layoffs.",
+    "3 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

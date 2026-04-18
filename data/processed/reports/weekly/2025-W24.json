@@ -1,0 +1,177 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W24",
+  "status": "final",
+  "date_range": {
+    "start": "2025-06-09",
+    "end": "2025-06-10"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W24.html",
+  "kpis": {
+    "total_laid_off": 180,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 90.0,
+    "median_layoffs_per_headcount_event": 90.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W23",
+      "total_laid_off": 420,
+      "event_count": 3,
+      "total_laid_off_delta": -240,
+      "total_laid_off_pct_change": -0.5714,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W24",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "ZoomInfo",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Salto",
+        "total_laid_off": 30
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 150
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 30
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Canada",
+        "total_laid_off": 150
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 30
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 150
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 30
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-06-09",
+        "company": "ZoomInfo",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.04,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/06/zoominfo-one-of-portland-areas-most-valuable-companies-will-cut-200-jobs.html"
+      },
+      {
+        "date": "2025-06-10",
+        "company": "Salto",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.5,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/byxvfir7lx"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-06-10",
+        "company": "Salto",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.5,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/byxvfir7lx"
+      },
+      {
+        "date": "2025-06-09",
+        "company": "ZoomInfo",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.04,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2025/06/zoominfo-one-of-portland-areas-most-valuable-companies-will-cut-200-jobs.html"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-06-10",
+        "company": "Salto",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.5,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/byxvfir7lx"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W24 includes 2 public layoff events and 180 reported layoffs.",
+    "The largest company contributor is ZoomInfo with 150 reported layoffs.",
+    "The leading named industry is Sales with 150 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

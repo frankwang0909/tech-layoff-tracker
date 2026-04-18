@@ -1,0 +1,615 @@
+{
+  "report_type": "monthly",
+  "period": "2025-07",
+  "status": "final",
+  "date_range": {
+    "start": "2025-07-02",
+    "end": "2025-07-30"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/monthly/2025-07.html",
+  "kpis": {
+    "total_laid_off": 16648,
+    "event_count": 31,
+    "headcount_event_count": 17,
+    "company_count": 31,
+    "country_count": 8,
+    "industry_count": 18,
+    "average_layoffs_per_headcount_event": 979.29,
+    "median_layoffs_per_headcount_event": 100.0,
+    "high_intensity_event_count": 12
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-06",
+      "total_laid_off": 1606,
+      "event_count": 16,
+      "total_laid_off_delta": 15042,
+      "total_laid_off_pct_change": 9.3661,
+      "event_count_delta": 15,
+      "event_count_pct_change": 0.9375,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-07",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 9000
+      },
+      {
+        "company": "Intel",
+        "total_laid_off": 5000
+      },
+      {
+        "company": "Indeed + Glassdoor",
+        "total_laid_off": 1300
+      },
+      {
+        "company": "King.com",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Scale AI",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Jamf",
+        "total_laid_off": 166
+      },
+      {
+        "company": "Atlassian",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Astra",
+        "total_laid_off": 106
+      },
+      {
+        "company": "Krutrim",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Lenovo",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 9316
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 5100
+      },
+      {
+        "industry": "HR",
+        "total_laid_off": 1320
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Data",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 106
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 76
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 70
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 65
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 15937
+      },
+      {
+        "country": "India",
+        "total_laid_off": 206
+      },
+      {
+        "country": "Sweden",
+        "total_laid_off": 200
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 155
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 150
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 14486
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 1565
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 295
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 255
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 47
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 5
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 3
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 2
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 2
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-07-02",
+        "company": "Microsoft",
+        "num_laid_off": 9000,
+        "percentage_laid_off": 0.04,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/07/02/microsoft-laying-off-about-9000-employees-in-latest-round-of-cuts.html"
+      },
+      {
+        "date": "2025-07-11",
+        "company": "Intel",
+        "num_laid_off": 5000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
+      },
+      {
+        "date": "2025-07-10",
+        "company": "Indeed + Glassdoor",
+        "num_laid_off": 1300,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-10/indeed-glassdoor-to-cut-1-300-jobs-in-ai-focused-consolidation"
+      },
+      {
+        "date": "2025-07-16",
+        "company": "Scale AI",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
+      },
+      {
+        "date": "2025-07-14",
+        "company": "King.com",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://mobilegamer.biz/laid-off-king-staff-set-to-be-replaced-by-the-ai-tools-they-helped-build-say-sources/"
+      },
+      {
+        "date": "2025-07-15",
+        "company": "Jamf",
+        "num_laid_off": 166,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/twincities/news/2025/07/16/jamf-lays-off-166-employees.html"
+      },
+      {
+        "date": "2025-07-30",
+        "company": "Atlassian",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://au.finance.yahoo.com/news/atlassian-billionaire-spruiks-ai-as-ceo-fires-150-workers-over-video-in-scary-digital-revolution-052623412.html"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Astra",
+        "num_laid_off": 106,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-16",
+        "company": "Lenovo",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.03,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.newsobserver.com/news/business/article310699130.html"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-07-30",
+        "company": "Atlassian",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://au.finance.yahoo.com/news/atlassian-billionaire-spruiks-ai-as-ceo-fires-150-workers-over-video-in-scary-digital-revolution-052623412.html"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Eyeo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.adexchanger.com/privacy/eyeo-names-new-ceo-cuts-40-of-staff-and-refocuses-the-business-on-privacy/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Astra",
+        "num_laid_off": 106,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-24",
+        "company": "Ohm Mobility",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/snippets/ev-financing-startup-ohm-mobility-shuts-down-operations-9534248"
+      },
+      {
+        "date": "2025-07-24",
+        "company": "Tipalti",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.calcalistech.com/ctechnews/article/syrnrsyvgg"
+      },
+      {
+        "date": "2025-07-23",
+        "company": "PlaxidityX",
+        "num_laid_off": 65,
+        "percentage_laid_off": 0.36,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rk1c9mclxl"
+      },
+      {
+        "date": "2025-07-23",
+        "company": "WiseTech",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Logistics",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/asia-pacific/australias-wisetech-cut-some-jobs-ai-driven-efficiency-push-2025-07-23/"
+      },
+      {
+        "date": "2025-07-22",
+        "company": "ConsenSys",
+        "num_laid_off": 47,
+        "percentage_laid_off": 0.07,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+      },
+      {
+        "date": "2025-07-21",
+        "company": "Zeen",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/social-media-creator-economy-collage-startup-zeen-shutting-down-2025-7"
+      },
+      {
+        "date": "2025-07-18",
+        "company": "Rocket Companies",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.02,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.housingwire.com/articles/rocket-lays-off-2-of-workforce-after-closing-redfin-acquisition/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "TytoCare",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.22,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/retail-consumer/amazons-aws-cloud-computing-unit-cuts-least-hundreds-jobs-sources-say-2025-07-17/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "Amicole",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "CodeParrot",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Product",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+      },
+      {
+        "date": "2025-07-16",
+        "company": "Lenovo",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.03,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.newsobserver.com/news/business/article310699130.html"
+      },
+      {
+        "date": "2025-07-16",
+        "company": "Scale AI",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
+      },
+      {
+        "date": "2025-07-15",
+        "company": "Jamf",
+        "num_laid_off": 166,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/twincities/news/2025/07/16/jamf-lays-off-166-employees.html"
+      },
+      {
+        "date": "2025-07-14",
+        "company": "King.com",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://mobilegamer.biz/laid-off-king-staff-set-to-be-replaced-by-the-ai-tools-they-helped-build-say-sources/"
+      },
+      {
+        "date": "2025-07-12",
+        "company": "Blip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-07-28",
+        "company": "Astra",
+        "num_laid_off": 106,
+        "percentage_laid_off": 1.0,
+        "industry": "Sales",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-24",
+        "company": "Ohm Mobility",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/snippets/ev-financing-startup-ohm-mobility-shuts-down-operations-9534248"
+      },
+      {
+        "date": "2025-07-21",
+        "company": "Zeen",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/social-media-creator-economy-collage-startup-zeen-shutting-down-2025-7"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "Amicole",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "CodeParrot",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Product",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+      },
+      {
+        "date": "2025-07-12",
+        "company": "Blip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
+      },
+      {
+        "date": "2025-07-03",
+        "company": "Subtl AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "Retrain.ai",
+        "num_laid_off": 20,
+        "percentage_laid_off": 1.0,
+        "industry": "HR",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
+      },
+      {
+        "date": "2025-07-02",
+        "company": "Okra",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Series A",
+        "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
+      },
+      {
+        "date": "2025-07-28",
+        "company": "Eyeo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.4,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.adexchanger.com/privacy/eyeo-names-new-ceo-cuts-40-of-staff-and-refocuses-the-business-on-privacy/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-07 includes 31 public layoff events and 16,648 reported layoffs.",
+    "The largest company contributor is Microsoft with 9,000 reported layoffs.",
+    "The leading named industry is Hardware with 5,100 reported layoffs.",
+    "12 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

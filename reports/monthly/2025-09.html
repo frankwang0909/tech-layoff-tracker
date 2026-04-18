@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs Monthly Report: 2025-09 | Tech Layoff Tracker</title>
+    <meta name="description" content="Monthly tech layoffs report for 2025-09: 4,174 reported layoffs across 28 public events and 24 companies.">
+    <link rel="canonical" href="https://tech.debugcanada.com/reports/monthly/2025-09.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://tech.debugcanada.com/reports/monthly/2025-09.html">
+    <meta property="og:title" content="Tech Layoffs Monthly Report: 2025-09">
+    <meta property="og:description" content="Monthly tech layoffs report for 2025-09: 4,174 reported layoffs across 28 public events and 24 companies.">
+    <meta property="twitter:card" content="summary">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Frank Wang"}, "dateModified": "2026-04-16", "datePublished": "2025-09-25", "description": "Monthly tech layoffs report for 2025-09: 4,174 reported layoffs across 28 public events and 24 companies.", "headline": "Tech Layoffs Monthly Report: 2025-09", "mainEntityOfPage": "https://tech.debugcanada.com/reports/monthly/2025-09.html", "publisher": {"@type": "Organization", "name": "Tech Layoff Tracker", "url": "https://tech.debugcanada.com"}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/reports/", "name": "Reports", "position": 2}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/reports/monthly/2025-09.html", "name": "Tech Layoffs Monthly Report: 2025-09", "position": 3}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The monthly report for 2025-09 includes 4,174 reported layoffs across 28 public events."}, "name": "How many tech layoffs were reported in 2025-09?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "xAI had the highest reported layoff total in 2025-09, with 500 layoffs."}, "name": "Which company had the most layoffs in 2025-09?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The leading named industry in 2025-09 is Consumer, with 1,540 reported layoffs."}, "name": "Which industry was most affected in 2025-09?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "This report is generated from public layoff records. Rows without reported headcount can count as events but are excluded from headcount totals, and the dataset should not be treated as proof of causal claims."}, "name": "How should this report be interpreted?"}]}</script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .top-nav a.active {
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: #fff;
+            border-color: transparent;
+            box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4);
+        }
+        .hero { padding: 42px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
+        .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
+        .kpi { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 16px; background: rgba(15, 23, 42, 0.6); }
+        .kpi span { display: block; color: #64748b; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+        .kpi strong { display: block; margin-top: 6px; font-size: 28px; line-height: 1.1; color: #f8fafc; }
+        main { padding: 30px 0 54px; }
+        section { padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        h2 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; color: #f8fafc; }
+        .insights { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 16px 0 0; padding: 0; list-style: none; }
+        .insights li { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 15px; background: rgba(15, 23, 42, 0.6); }
+        .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+        .chart { width: 100%; height: 380px; border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; background: rgba(15, 23, 42, 0.6); }
+        .period-nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            margin: 20px 0 0;
+        }
+        .period-nav a, .period-nav span {
+            display: block;
+            flex: 1;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 12px 14px;
+            background: rgba(15, 23, 42, 0.6);
+            color: #e2e8f0;
+            font-weight: 800;
+        }
+        .period-nav span { color: #475569; }
+        .period-nav .next { text-align: right; }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); }
+        th, td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; vertical-align: top; font-size: 14px; color: #e2e8f0; }
+        th { color: #94a3b8; background: rgba(255,255,255,0.04); }
+        tr:last-child td { border-bottom: 0; }
+        .note { color: #64748b; font-size: 14px; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .kpis, .insights, .chart-grid { grid-template-columns: 1fr; }
+            .chart { height: 280px; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            .kpi strong { font-size: 22px; }
+            h2 { font-size: 22px; }
+            .period-nav { flex-direction: column; }
+            .period-nav .next { text-align: left; }
+            table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/" class="active">Reports</a>
+            </nav>
+            <p class="eyebrow">Monthly report</p>
+            <h1>Tech Layoffs Monthly Report: 2025-09</h1>
+            <p class="dek">Monthly tech layoffs report for 2025-09: 4,174 reported layoffs across 28 public events and 24 companies.</p>
+            <div class="meta">
+                <span>Data range: 2025-09-01 to 2025-09-25</span>
+                <span>Status: final</span>
+                <span>Updated: 2026-04-16</span>
+            </div>
+            <div class="kpis" aria-label="Report key metrics">
+                <div class="kpi"><span>Total layoffs</span><strong>4,174</strong></div>
+                <div class="kpi"><span>Events</span><strong>28</strong></div>
+                <div class="kpi"><span>Companies</span><strong>24</strong></div>
+                <div class="kpi"><span>High intensity</span><strong>5</strong></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>During 2025-09, the dataset recorded 4,174 reported tech layoffs across 28 public events. The report covers 24 companies, 10 industries, and 5 countries or regions.</p>
+            <ul class="insights">
+                
+                <li>2025-09 includes 28 public layoff events and 4,174 reported layoffs.</li>
+                
+                <li>The largest company contributor is xAI with 500 reported layoffs.</li>
+                
+                <li>The leading named industry is Consumer with 1,540 reported layoffs.</li>
+                
+                <li>5 events report a layoff percentage of 25% or higher.</li>
+                
+            </ul>
+            <nav class="period-nav" aria-label="Period navigation">
+                
+                <a href="/reports/monthly/2025-08.html">Previous: 2025-08</a>
+                
+                
+                <a class="next" href="/reports/monthly/2025-10.html">Next: 2025-10</a>
+                
+            </nav>
+        </section>
+
+        <section id="comparisons">
+            <h2>Comparisons</h2>
+            <p>Compared with 2025-08, reported layoffs changed by -2,278 (-35.3%). Year-over-year comparison is unavailable for 2025-09.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Comparison</th>
+                        <th>Period</th>
+                        <th>Layoff delta</th>
+                        <th>Layoff % change</th>
+                        <th>Event delta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Previous period</td>
+                        <td>2025-08</td>
+                        <td>-2,278</td>
+                        <td>-35.3%</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Same period last year</td>
+                        <td>2024-09</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="breakdowns">
+            <h2>Breakdowns</h2>
+            <div class="chart-grid">
+                <div id="companyChart" class="chart" aria-label="Top companies by layoffs"></div>
+                <div id="industryChart" class="chart" aria-label="Top industries by layoffs"></div>
+                <div id="countryChart" class="chart" aria-label="Top countries by layoffs"></div>
+                <div id="pctChart" class="chart" aria-label="Layoff percentage distribution"></div>
+            </div>
+        </section>
+
+        <section id="largest-events">
+            <h2>Largest Events</h2>
+            <p>Sorted by reported headcount. Events where no headcount was publicly disclosed are not shown.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Company</th>
+                        <th>Laid off</th>
+                        <th>Industry</th>
+                        <th>Country</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>2025-09-04</td>
+                        <td>Head Digital Works</td>
+                        <td>500</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-12</td>
+                        <td>xAI</td>
+                        <td>500</td>
+                        <td>AI</td>
+                        <td>United States</td>
+                        <td><a href="https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-25</td>
+                        <td>Just Eat</td>
+                        <td>450</td>
+                        <td>Food</td>
+                        <td>Netherlands</td>
+                        <td><a href="https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-01</td>
+                        <td>Games 24x7</td>
+                        <td>400</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://www.peoplematters.in/news/strategic-hr/after-mpl-games24x7-lays-off-400-employees-govt-steps-in-43232" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-01</td>
+                        <td>Mobile Premier League</td>
+                        <td>300</td>
+                        <td>Consumer</td>
+                        <td>India</td>
+                        <td><a href="https://timesofindia.indiatimes.com/technology/tech-news/online-gaming-app-ban-mpl-to-layoff-60-of-india-staff/articleshow/123618820.cms" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-04</td>
+                        <td>Salesforce</td>
+                        <td>262</td>
+                        <td>Sales</td>
+                        <td>United States</td>
+                        <td><a href="https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-04</td>
+                        <td>Oracle</td>
+                        <td>254</td>
+                        <td>Other</td>
+                        <td>United States</td>
+                        <td><a href="https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-15</td>
+                        <td>Fiverr</td>
+                        <td>250</td>
+                        <td>Other</td>
+                        <td>Israel</td>
+                        <td><a href="https://www.wsj.com/business/fiverr-to-cut-about-250-jobs-in-refocusing-effort-reiterates-guidance-8f15ee4b" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-05</td>
+                        <td>Rivian</td>
+                        <td>200</td>
+                        <td>Transportation</td>
+                        <td>United States</td>
+                        <td><a href="https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>2025-09-10</td>
+                        <td>Atlassian</td>
+                        <td>200</td>
+                        <td>Other</td>
+                        <td>Australia</td>
+                        <td><a href="https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/" rel="nofollow noopener noreferrer" target="_blank">Source</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+
+        <section id="methodology">
+            <h2>Methodology</h2>
+            
+            <p class="note">Rows with invalid dates are excluded from period reports.</p>
+            
+            <p class="note">Rows without num_laid_off count as events but are excluded from headcount totals.</p>
+            
+            <p class="note">Layoff percentage, funding stage, and funds raised fields are incomplete in source data.</p>
+            
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+            
+            <details>
+                <summary>How many tech layoffs were reported in 2025-09?</summary>
+                <p>The monthly report for 2025-09 includes 4,174 reported layoffs across 28 public events.</p>
+            </details>
+            
+            <details>
+                <summary>Which company had the most layoffs in 2025-09?</summary>
+                <p>xAI had the highest reported layoff total in 2025-09, with 500 layoffs.</p>
+            </details>
+            
+            <details>
+                <summary>Which industry was most affected in 2025-09?</summary>
+                <p>The leading named industry in 2025-09 is Consumer, with 1,540 reported layoffs.</p>
+            </details>
+            
+            <details>
+                <summary>How should this report be interpreted?</summary>
+                <p>This report is generated from public layoff records. Rows without reported headcount can count as events but are excluded from headcount totals, and the dataset should not be treated as proof of causal claims.</p>
+            </details>
+            
+        </section>
+    </main>
+
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+Disclaimer: Some figures are estimates or planned reductions<br><br>
+<a href="https://github.com/frankwang0909/tech-layoff-tracker" target="_blank">⭐ View on GitHub</a> &nbsp;|&nbsp;
+<a href="https://layoffscanada.com" target="_blank">Layoffs Canada</a> &nbsp;|&nbsp;
+<a href="https://debugcanada.com" target="_blank">Debug Canada</a>
+    </footer>
+
+<script>
+const report = {"canonical_url": "/reports/monthly/2025-09.html", "charts": {"company_top": [{"company": "xAI", "total_laid_off": 500}, {"company": "Head Digital Works", "total_laid_off": 500}, {"company": "Just Eat", "total_laid_off": 450}, {"company": "Games 24x7", "total_laid_off": 400}, {"company": "Salesforce", "total_laid_off": 385}, {"company": "Oracle", "total_laid_off": 355}, {"company": "Mobile Premier League", "total_laid_off": 300}, {"company": "Fiverr", "total_laid_off": 250}, {"company": "Rivian", "total_laid_off": 200}, {"company": "Atlassian", "total_laid_off": 200}], "country_top": [{"country": "India", "total_laid_off": 1690}, {"country": "United States", "total_laid_off": 1584}, {"country": "Netherlands", "total_laid_off": 450}, {"country": "Israel", "total_laid_off": 250}, {"country": "Australia", "total_laid_off": 200}], "industry_top": [{"industry": "Consumer", "total_laid_off": 1540}, {"industry": "Other", "total_laid_off": 947}, {"industry": "AI", "total_laid_off": 550}, {"industry": "Food", "total_laid_off": 450}, {"industry": "Sales", "total_laid_off": 385}, {"industry": "Transportation", "total_laid_off": 200}, {"industry": "Recruiting", "total_laid_off": 80}, {"industry": "Data", "total_laid_off": 22}], "layoff_pct_distribution": [{"bucket": "\u003c10%", "event_count": 2}, {"bucket": "10-24%", "event_count": 0}, {"bucket": "25-49%", "event_count": 2}, {"bucket": "50-99%", "event_count": 0}, {"bucket": "100%+", "event_count": 0}], "stage_top": [{"stage": "Post-IPO", "total_laid_off": 1512}, {"stage": "Unknown", "total_laid_off": 1120}, {"stage": "Private Equity", "total_laid_off": 500}, {"stage": "Acquired", "total_laid_off": 450}, {"stage": "Series E", "total_laid_off": 322}, {"stage": "Series B", "total_laid_off": 170}, {"stage": "Series F", "total_laid_off": 100}]}, "comparisons": {"previous_period": {"event_count": 26, "event_count_delta": 2, "event_count_pct_change": 0.0769, "note": null, "period": "2025-08", "total_laid_off": 6452, "total_laid_off_delta": -2278, "total_laid_off_pct_change": -0.3531}, "same_period_last_year": {"event_count": null, "event_count_delta": null, "event_count_pct_change": null, "note": "No comparison data is available for this period.", "period": "2024-09", "total_laid_off": null, "total_laid_off_delta": null, "total_laid_off_pct_change": null}}, "date_range": {"end": "2025-09-25", "start": "2025-09-01"}, "insights": ["2025-09 includes 28 public layoff events and 4,174 reported layoffs.", "The largest company contributor is xAI with 500 reported layoffs.", "The leading named industry is Consumer with 1,540 reported layoffs.", "5 events report a layoff percentage of 25% or higher."], "kpis": {"average_layoffs_per_headcount_event": 198.76, "company_count": 24, "country_count": 5, "event_count": 28, "headcount_event_count": 21, "high_intensity_event_count": 5, "industry_count": 10, "median_layoffs_per_headcount_event": 170.0, "total_laid_off": 4174}, "methodology_notes": ["Rows with invalid dates are excluded from period reports.", "Rows without num_laid_off count as events but are excluded from headcount totals.", "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."], "period": "2025-09", "report_type": "monthly", "status": "final", "tables": {"high_intensity_events": [{"company": "Hike", "country": "India", "date": "2025-09-13", "industry": "Consumer", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://techcrunch.com/2025/09/13/hike-once-a-unicorn-shuts-down-as-india-cracks-down-on-real-money-gaming/", "stage": "Unknown"}, {"company": "The Gist", "country": "Israel", "date": "2025-09-03", "industry": "Other", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375", "stage": "Seed"}, {"company": "theGist", "country": "Israel", "date": "2025-09-03", "industry": "Other", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375", "stage": "Seed"}, {"company": "Fiverr", "country": "Israel", "date": "2025-09-15", "industry": "Other", "num_laid_off": 250, "percentage_laid_off": 0.3, "source": "https://www.wsj.com/business/fiverr-to-cut-about-250-jobs-in-refocusing-effort-reiterates-guidance-8f15ee4b", "stage": "Post-IPO"}, {"company": "Zupee", "country": "India", "date": "2025-09-11", "industry": "Consumer", "num_laid_off": 170, "percentage_laid_off": 0.3, "source": "https://yourstory.com/2025/09/zupee-employees-real-money-gaming-ban-layoffs", "stage": "Series B"}], "largest_events": [{"company": "Head Digital Works", "country": "India", "date": "2025-09-04", "industry": "Consumer", "num_laid_off": 500, "percentage_laid_off": null, "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016", "stage": "Private Equity"}, {"company": "xAI", "country": "United States", "date": "2025-09-12", "industry": "AI", "num_laid_off": 500, "percentage_laid_off": null, "source": "https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9", "stage": "Unknown"}, {"company": "Just Eat", "country": "Netherlands", "date": "2025-09-25", "industry": "Food", "num_laid_off": 450, "percentage_laid_off": 0.05, "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/", "stage": "Acquired"}, {"company": "Games 24x7", "country": "India", "date": "2025-09-01", "industry": "Consumer", "num_laid_off": 400, "percentage_laid_off": null, "source": "https://www.peoplematters.in/news/strategic-hr/after-mpl-games24x7-lays-off-400-employees-govt-steps-in-43232", "stage": "Unknown"}, {"company": "Mobile Premier League", "country": "India", "date": "2025-09-01", "industry": "Consumer", "num_laid_off": 300, "percentage_laid_off": null, "source": "https://timesofindia.indiatimes.com/technology/tech-news/online-gaming-app-ban-mpl-to-layoff-60-of-india-staff/articleshow/123618820.cms", "stage": "Series E"}, {"company": "Salesforce", "country": "United States", "date": "2025-09-04", "industry": "Sales", "num_laid_off": 262, "percentage_laid_off": null, "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/", "stage": "Post-IPO"}, {"company": "Oracle", "country": "United States", "date": "2025-09-04", "industry": "Other", "num_laid_off": 254, "percentage_laid_off": null, "source": "https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/", "stage": "Post-IPO"}, {"company": "Fiverr", "country": "Israel", "date": "2025-09-15", "industry": "Other", "num_laid_off": 250, "percentage_laid_off": 0.3, "source": "https://www.wsj.com/business/fiverr-to-cut-about-250-jobs-in-refocusing-effort-reiterates-guidance-8f15ee4b", "stage": "Post-IPO"}, {"company": "Rivian", "country": "United States", "date": "2025-09-05", "industry": "Transportation", "num_laid_off": 200, "percentage_laid_off": 0.01, "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits", "stage": "Post-IPO"}, {"company": "Atlassian", "country": "Australia", "date": "2025-09-10", "industry": "Other", "num_laid_off": 200, "percentage_laid_off": null, "source": "https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/", "stage": "Post-IPO"}], "recent_events": [{"company": "Just Eat", "country": "Netherlands", "date": "2025-09-25", "industry": "Food", "num_laid_off": 450, "percentage_laid_off": 0.05, "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/", "stage": "Acquired"}, {"company": "GamesKraft", "country": "India", "date": "2025-09-18", "industry": "Consumer", "num_laid_off": 120, "percentage_laid_off": null, "source": "https://inc42.com/buzz/now-gameskraft-lays-off-120-employees/", "stage": "Unknown"}, {"company": "ZipRecruiter", "country": "United States", "date": "2025-09-16", "industry": "Recruiting", "num_laid_off": 80, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/pwjukv20s", "stage": "Post-IPO"}, {"company": "Fiverr", "country": "Israel", "date": "2025-09-15", "industry": "Other", "num_laid_off": 250, "percentage_laid_off": 0.3, "source": "https://www.wsj.com/business/fiverr-to-cut-about-250-jobs-in-refocusing-effort-reiterates-guidance-8f15ee4b", "stage": "Post-IPO"}, {"company": "Sorbet", "country": "Israel", "date": "2025-09-14", "industry": "Finance", "num_laid_off": null, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/syhzsenjxl", "stage": "Series A"}, {"company": "Hike", "country": "India", "date": "2025-09-13", "industry": "Consumer", "num_laid_off": null, "percentage_laid_off": 1.0, "source": "https://techcrunch.com/2025/09/13/hike-once-a-unicorn-shuts-down-as-india-cracks-down-on-real-money-gaming/", "stage": "Unknown"}, {"company": "xAI", "country": "United States", "date": "2025-09-12", "industry": "AI", "num_laid_off": 500, "percentage_laid_off": null, "source": "https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9", "stage": "Unknown"}, {"company": "Zupee", "country": "India", "date": "2025-09-11", "industry": "Consumer", "num_laid_off": 170, "percentage_laid_off": 0.3, "source": "https://yourstory.com/2025/09/zupee-employees-real-money-gaming-ban-layoffs", "stage": "Series B"}, {"company": "Atlassian", "country": "Australia", "date": "2025-09-10", "industry": "Other", "num_laid_off": 200, "percentage_laid_off": null, "source": "https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/", "stage": "Post-IPO"}, {"company": "Verbit", "country": "United States", "date": "2025-09-10", "industry": "Data", "num_laid_off": 22, "percentage_laid_off": null, "source": "https://www.calcalistech.com/ctechnews/article/r19t0xjixg", "stage": "Series E"}, {"company": "Microsoft", "country": "United States", "date": "2025-09-08", "industry": "Other", "num_laid_off": 42, "percentage_laid_off": null, "source": "https://www.bizjournals.com/seattle/news/2025/09/08/microsoft-lays-off-dozens-more-employees-in-wa.html", "stage": "Post-IPO"}, {"company": "Rivian", "country": "United States", "date": "2025-09-05", "industry": "Transportation", "num_laid_off": 200, "percentage_laid_off": 0.01, "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits", "stage": "Post-IPO"}, {"company": "Scope3", "country": "United States", "date": "2025-09-05", "industry": "Energy", "num_laid_off": null, "percentage_laid_off": null, "source": "https://www.adweek.com/media/scope3-lays-off-sales-staff-ai-agentic-advertising-restructuring/", "stage": "Series B"}, {"company": "GupShup", "country": "India", "date": "2025-09-04", "industry": "Other", "num_laid_off": 100, "percentage_laid_off": null, "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/", "stage": "Series F"}, {"company": "Bobble AI", "country": "India", "date": "2025-09-04", "industry": "Consumer", "num_laid_off": 50, "percentage_laid_off": null, "source": "https://entrackr.com/exclusive/exclusive-bobble-ai-lays-off-50-employees-amid-organizational-redesign-9888363", "stage": "Unknown"}, {"company": "Salesforce", "country": "United States", "date": "2025-09-04", "industry": "Sales", "num_laid_off": 262, "percentage_laid_off": null, "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/", "stage": "Post-IPO"}, {"company": "Oracle", "country": "United States", "date": "2025-09-04", "industry": "Other", "num_laid_off": 254, "percentage_laid_off": null, "source": "https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/", "stage": "Post-IPO"}, {"company": "Head Digital Works", "country": "India", "date": "2025-09-04", "industry": "Consumer", "num_laid_off": 500, "percentage_laid_off": null, "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016", "stage": "Private Equity"}, {"company": "Oracle", "country": "United States", "date": "2025-09-03", "industry": "Other", "num_laid_off": 101, "percentage_laid_off": null, "source": "https://www.seattletimes.com/business/cloud-computing-giant-oracle-lays-off-more-seattle-workers/", "stage": "Post-IPO"}, {"company": "Salesforce", "country": "United States", "date": "2025-09-03", "industry": "Sales", "num_laid_off": 93, "percentage_laid_off": null, "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/", "stage": "Post-IPO"}]}, "updated_at": "2026-04-16"};
+const tooltip = { backgroundColor: '#0a0f1e', borderColor: '#1e293b', textStyle: { color: '#e2e8f0' } };
+const TX = '#94a3b8', AX = '#1e293b';
+function init(id) { return echarts.init(document.getElementById(id), null, { renderer: 'canvas' }); }
+function shortNumber(v) { return v >= 1000 ? `${Math.round(v / 100) / 10}k` : v; }
+function horizontalBar(id, rows, labelKey, valueKey, color) {
+    const chart = init(id);
+    chart.setOption({
+        tooltip: { trigger: 'axis', ...tooltip },
+        grid: { left: 120, right: 24, top: 24, bottom: 30 },
+        xAxis: { type: 'value', axisLabel: { formatter: shortNumber, color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+        yAxis: { type: 'category', data: rows.map(d => d[labelKey]).reverse(), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+        series: [{ type: 'bar', data: rows.map(d => d[valueKey]).reverse(), itemStyle: { color } }]
+    });
+    return chart;
+}
+const charts = [
+    horizontalBar('companyChart', report.charts.company_top, 'company', 'total_laid_off', '#38bdf8'),
+    horizontalBar('industryChart', report.charts.industry_top, 'industry', 'total_laid_off', '#0e9384'),
+    horizontalBar('countryChart', report.charts.country_top, 'country', 'total_laid_off', '#7a5af8')
+];
+const pctChart = init('pctChart');
+pctChart.setOption({
+    tooltip: { trigger: 'axis', ...tooltip },
+    grid: { left: 46, right: 24, top: 24, bottom: 40 },
+    xAxis: { type: 'category', data: report.charts.layoff_pct_distribution.map(d => d.bucket), axisLabel: { color: TX }, axisLine: { lineStyle: { color: AX } }, axisTick: { show: false } },
+    yAxis: { type: 'value', axisLabel: { color: TX }, splitLine: { lineStyle: { color: AX, type: 'dashed' } } },
+    series: [{ type: 'bar', data: report.charts.layoff_pct_distribution.map(d => d.event_count), itemStyle: { color: '#f59e0b' } }]
+});
+charts.push(pctChart);
+window.addEventListener('resize', () => charts.forEach(chart => chart.resize()));
+</script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W02",
+  "status": "final",
+  "date_range": {
+    "start": "2025-01-06",
+    "end": "2025-01-10"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W02.html",
+  "kpis": {
+    "total_laid_off": 1390,
+    "event_count": 10,
+    "headcount_event_count": 6,
+    "company_count": 10,
+    "country_count": 3,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 231.67,
+    "median_layoffs_per_headcount_event": 88.5,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W01",
+      "total_laid_off": 0,
+      "event_count": 1,
+      "total_laid_off_delta": 1390,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 9,
+      "event_count_pct_change": 9.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W02",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Wayfair",
+        "total_laid_off": 730
+      },
+      {
+        "company": "SolarEdge",
+        "total_laid_off": 400
+      },
+      {
+        "company": "Icon",
+        "total_laid_off": 114
+      },
+      {
+        "company": "Pandion",
+        "total_laid_off": 63
+      },
+      {
+        "company": "Redfin",
+        "total_laid_off": 46
+      },
+      {
+        "company": "Altruist",
+        "total_laid_off": 37
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 730
+      },
+      {
+        "industry": "Energy",
+        "total_laid_off": 400
+      },
+      {
+        "industry": "Construction",
+        "total_laid_off": 114
+      },
+      {
+        "industry": "Logistics",
+        "total_laid_off": 63
+      },
+      {
+        "industry": "Real Estate",
+        "total_laid_off": 46
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 37
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Germany",
+        "total_laid_off": 730
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 400
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 260
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 1176
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 177
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 37
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 1
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-01-10",
+        "company": "Wayfair",
+        "num_laid_off": 730,
+        "percentage_laid_off": 0.03,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/01/10/wayfair-to-exit-germany-cut-730-jobs-in-latest-layoffs.html"
+      },
+      {
+        "date": "2025-01-06",
+        "company": "SolarEdge",
+        "num_laid_off": 400,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/energy/solaredge-technologies-lay-off-400-employees-globally-2025-01-06/"
+      },
+      {
+        "date": "2025-01-09",
+        "company": "Icon",
+        "num_laid_off": 114,
+        "percentage_laid_off": null,
+        "industry": "Construction",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.statesman.com/story/business/2025/01/09/icon-layoffs-austin-texas-3d-printing-company-100-employees/77573345007/"
+      },
+      {
+        "date": "2025-01-10",
+        "company": "Pandion",
+        "num_laid_off": 63,
+        "percentage_laid_off": 1.0,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.geekwire.com/2025/heavily-funded-pandion-delivery-startup-closes-abruptly-in-latest-logistics-industry-fallout/"
+      },
+      {
+        "date": "2025-01-09",
+        "company": "Redfin",
+        "num_laid_off": 46,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/redfin-lays-off-46-employees-in-latest-cuts-at-seattle-real-estate-company/"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Altruist",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://riabiz.com/a/2025/1/7/altruist-lays-off-10-of-its-staff-despite-300-revenue-jump-to-get-best-possible-people-as-aggressive-hiring-continues-says-ceo"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-01-10",
+        "company": "Wayfair",
+        "num_laid_off": 730,
+        "percentage_laid_off": 0.03,
+        "industry": "Retail",
+        "country": "Germany",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/01/10/wayfair-to-exit-germany-cut-730-jobs-in-latest-layoffs.html"
+      },
+      {
+        "date": "2025-01-10",
+        "company": "Pandion",
+        "num_laid_off": 63,
+        "percentage_laid_off": 1.0,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.geekwire.com/2025/heavily-funded-pandion-delivery-startup-closes-abruptly-in-latest-logistics-industry-fallout/"
+      },
+      {
+        "date": "2025-01-10",
+        "company": "Zillow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/zillow-makes-job-cuts-after-reorganizing-agent-software-and-advertising-teams/"
+      },
+      {
+        "date": "2025-01-09",
+        "company": "Icon",
+        "num_laid_off": 114,
+        "percentage_laid_off": null,
+        "industry": "Construction",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.statesman.com/story/business/2025/01/09/icon-layoffs-austin-texas-3d-printing-company-100-employees/77573345007/"
+      },
+      {
+        "date": "2025-01-09",
+        "company": "Redfin",
+        "num_laid_off": 46,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2025/redfin-lays-off-46-employees-in-latest-cuts-at-seattle-real-estate-company/"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Altruist",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://riabiz.com/a/2025/1/7/altruist-lays-off-10-of-its-staff-despite-300-revenue-jump-to-get-best-possible-people-as-aggressive-hiring-continues-says-ceo"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Aqua Security",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjd6qpclyx"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Cloud Software Group",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.crn.com/news/cloud/2025/citrix-parent-cloud-software-group-confirms-layoffs?itc=refresh"
+      },
+      {
+        "date": "2025-01-07",
+        "company": "Microsoft",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/microsoft-plans-job-cuts-performance-management-2025-1"
+      },
+      {
+        "date": "2025-01-06",
+        "company": "SolarEdge",
+        "num_laid_off": 400,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/energy/solaredge-technologies-lay-off-400-employees-globally-2025-01-06/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-01-10",
+        "company": "Pandion",
+        "num_laid_off": 63,
+        "percentage_laid_off": 1.0,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.geekwire.com/2025/heavily-funded-pandion-delivery-startup-closes-abruptly-in-latest-logistics-industry-fallout/"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W02 includes 10 public layoff events and 1,390 reported layoffs.",
+    "The largest company contributor is Wayfair with 730 reported layoffs.",
+    "The leading named industry is Retail with 730 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "name": "Tech Layoff Tracker AI Summary",
+  "canonical_url": "https://tech.debugcanada.com/trend-report.html",
+  "generated_from": "data/processed/*.json",
+  "data_range": {
+    "start": "2025-01-06",
+    "end": "2026-04-16"
+  },
+  "summary": "Tech Layoff Tracker reports 197,413 public tech layoffs from 2025-01-06 to 2026-04-16. The dataset covers 231 companies across 18 countries or regions. The largest month is 2026-03 with 34,800 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
+  "facts": [
+    {
+      "name": "Canonical analysis URL",
+      "value": "https://tech.debugcanada.com/trend-report.html"
+    },
+    {
+      "name": "Data range",
+      "value": "2025-01-06 to 2026-04-16"
+    },
+    {
+      "name": "Total reported layoffs",
+      "value": "197,413"
+    },
+    {
+      "name": "2026 YTD reported layoffs",
+      "value": "73,212"
+    },
+    {
+      "name": "Companies affected",
+      "value": "231"
+    },
+    {
+      "name": "Countries or regions",
+      "value": "18"
+    },
+    {
+      "name": "Peak month",
+      "value": "2026-03 (34,800 layoffs)"
+    },
+    {
+      "name": "Top company",
+      "value": "Oracle (31,094 layoffs)"
+    },
+    {
+      "name": "Leading named industry",
+      "value": "Hardware (40,087 layoffs)"
+    },
+    {
+      "name": "Leading country or region",
+      "value": "United States (164,446 layoffs)"
+    }
+  ],
+  "insights": [
+    "Oracle is the highest-ranked company by reported layoffs in the current company summary, with 31,094 layoffs.",
+    "Hardware is the largest industry category, accounting for 40,087 reported layoffs.",
+    "United States is the leading country or region in the current dataset, with 164,446 reported layoffs.",
+    "The peak month is 2026-03, with 34,800 reported layoffs."
+  ],
+  "faq": [
+    {
+      "question": "What is the latest tech layoff trend?",
+      "answer": "The current data covers 2025-01-06 to 2026-04-16. The month with the highest reported layoff total is 2026-03."
+    },
+    {
+      "question": "Which tech company had the most layoffs in this dataset?",
+      "answer": "Oracle ranks first in the current company summary with 31,094 reported layoffs."
+    },
+    {
+      "question": "Which industry is most affected by tech layoffs?",
+      "answer": "Hardware is the largest industry category in the current this data, with 40,087 reported layoffs."
+    },
+    {
+      "question": "Does this report prove that AI caused tech layoffs?",
+      "answer": "No. The structured dataset tracks public layoff records and related dimensions, but it does not contain a complete causal field for AI. Any AI-related discussion should be treated as source attribution or market context, not as a direct causal proof."
+    },
+    {
+      "question": "How often is the data updated?",
+      "answer": "Data is updated daily from public layoff records. The report shows the current date range so you can verify how recent the data is."
+    }
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from time-series analysis.",
+    "Rows without num_laid_off are excluded from headcount totals but may appear as events.",
+    "The dataset tracks public records and should not be used as proof of causal claims."
+  ],
+  "source_files": [
+    "/data/processed/stats.json",
+    "/data/processed/monthly_trend.json",
+    "/data/processed/company_summary.json",
+    "/data/processed/industry_breakdown.json",
+    "/data/processed/country_breakdown.json",
+    "/data/processed/reports/index.json",
+    "/data/processed/industry_pages.json",
+    "/data/processed/country_pages.json"
+  ],
+  "topic_pages": {
+    "industries": [
+      {
+        "name": "Hardware",
+        "canonical_url": "https://tech.debugcanada.com/industries/hardware.html",
+        "total_laid_off": 40087,
+        "event_count": 16
+      },
+      {
+        "name": "Retail",
+        "canonical_url": "https://tech.debugcanada.com/industries/retail.html",
+        "total_laid_off": 34097,
+        "event_count": 33
+      },
+      {
+        "name": "Consumer",
+        "canonical_url": "https://tech.debugcanada.com/industries/consumer.html",
+        "total_laid_off": 16469,
+        "event_count": 63
+      },
+      {
+        "name": "Finance",
+        "canonical_url": "https://tech.debugcanada.com/industries/finance.html",
+        "total_laid_off": 8524,
+        "event_count": 40
+      },
+      {
+        "name": "Sales",
+        "canonical_url": "https://tech.debugcanada.com/industries/sales.html",
+        "total_laid_off": 5942,
+        "event_count": 13
+      },
+      {
+        "name": "HR",
+        "canonical_url": "https://tech.debugcanada.com/industries/hr.html",
+        "total_laid_off": 5645,
+        "event_count": 13
+      },
+      {
+        "name": "Transportation",
+        "canonical_url": "https://tech.debugcanada.com/industries/transportation.html",
+        "total_laid_off": 4584,
+        "event_count": 25
+      },
+      {
+        "name": "Food",
+        "canonical_url": "https://tech.debugcanada.com/industries/food.html",
+        "total_laid_off": 3607,
+        "event_count": 13
+      },
+      {
+        "name": "Energy",
+        "canonical_url": "https://tech.debugcanada.com/industries/energy.html",
+        "total_laid_off": 3464,
+        "event_count": 10
+      },
+      {
+        "name": "Data",
+        "canonical_url": "https://tech.debugcanada.com/industries/data.html",
+        "total_laid_off": 2912,
+        "event_count": 13
+      }
+    ],
+    "countries": [
+      {
+        "name": "United States",
+        "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
+        "total_laid_off": 164446,
+        "event_count": 260
+      },
+      {
+        "name": "India",
+        "canonical_url": "https://tech.debugcanada.com/countries/india.html",
+        "total_laid_off": 8755,
+        "event_count": 47
+      },
+      {
+        "name": "Israel",
+        "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
+        "total_laid_off": 4781,
+        "event_count": 43
+      },
+      {
+        "name": "Sweden",
+        "canonical_url": "https://tech.debugcanada.com/countries/sweden.html",
+        "total_laid_off": 4615,
+        "event_count": 5
+      },
+      {
+        "name": "Australia",
+        "canonical_url": "https://tech.debugcanada.com/countries/australia.html",
+        "total_laid_off": 4220,
+        "event_count": 9
+      },
+      {
+        "name": "Netherlands",
+        "canonical_url": "https://tech.debugcanada.com/countries/netherlands.html",
+        "total_laid_off": 2570,
+        "event_count": 4
+      },
+      {
+        "name": "Canada",
+        "canonical_url": "https://tech.debugcanada.com/countries/canada.html",
+        "total_laid_off": 2491,
+        "event_count": 16
+      },
+      {
+        "name": "Germany",
+        "canonical_url": "https://tech.debugcanada.com/countries/germany.html",
+        "total_laid_off": 1785,
+        "event_count": 12
+      },
+      {
+        "name": "United Kingdom",
+        "canonical_url": "https://tech.debugcanada.com/countries/united-kingdom.html",
+        "total_laid_off": 1732,
+        "event_count": 13
+      },
+      {
+        "name": "Brazil",
+        "canonical_url": "https://tech.debugcanada.com/countries/brazil.html",
+        "total_laid_off": 516,
+        "event_count": 2
+      }
+    ]
+  }
+}

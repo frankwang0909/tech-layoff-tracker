@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tech.debugcanada.com/sitemap.xml
+Host: https://tech.debugcanada.com

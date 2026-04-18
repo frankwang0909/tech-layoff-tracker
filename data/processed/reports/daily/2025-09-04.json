@@ -1,0 +1,249 @@
+{
+  "report_type": "daily",
+  "period": "2025-09-04",
+  "status": "final",
+  "date_range": {
+    "start": "2025-09-04",
+    "end": "2025-09-04"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-09-04.html",
+  "kpis": {
+    "total_laid_off": 1166,
+    "event_count": 5,
+    "headcount_event_count": 5,
+    "company_count": 5,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 233.2,
+    "median_layoffs_per_headcount_event": 254.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-09-03",
+      "total_laid_off": 224,
+      "event_count": 6,
+      "total_laid_off_delta": 942,
+      "total_laid_off_pct_change": 4.2054,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1667,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-09-04",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Head Digital Works",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Salesforce",
+        "total_laid_off": 262
+      },
+      {
+        "company": "Oracle",
+        "total_laid_off": 254
+      },
+      {
+        "company": "GupShup",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Bobble AI",
+        "total_laid_off": 50
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 550
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 354
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 262
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 650
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 516
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 516
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 50
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-09-04",
+        "company": "Head Digital Works",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Salesforce",
+        "num_laid_off": 262,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Oracle",
+        "num_laid_off": 254,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "GupShup",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Bobble AI",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://entrackr.com/exclusive/exclusive-bobble-ai-lays-off-50-employees-amid-organizational-redesign-9888363"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-09-04",
+        "company": "Head Digital Works",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Salesforce",
+        "num_laid_off": 262,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Oracle",
+        "num_laid_off": 254,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/oracle-bay-area-layoffs/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "GupShup",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
+      },
+      {
+        "date": "2025-09-04",
+        "company": "Bobble AI",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://entrackr.com/exclusive/exclusive-bobble-ai-lays-off-50-employees-amid-organizational-redesign-9888363"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-09-04 includes 5 public layoff events and 1,166 reported layoffs.",
+    "The largest company contributor is Head Digital Works with 500 reported layoffs.",
+    "The leading named industry is Consumer with 550 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

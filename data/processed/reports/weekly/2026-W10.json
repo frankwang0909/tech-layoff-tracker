@@ -1,0 +1,345 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W10",
+  "status": "final",
+  "date_range": {
+    "start": "2026-03-02",
+    "end": "2026-03-06"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2026-W10.html",
+  "kpis": {
+    "total_laid_off": 1385,
+    "event_count": 8,
+    "headcount_event_count": 7,
+    "company_count": 8,
+    "country_count": 4,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 197.86,
+    "median_layoffs_per_headcount_event": 200.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W09",
+      "total_laid_off": 8367,
+      "event_count": 9,
+      "total_laid_off_delta": -6982,
+      "total_laid_off_pct_change": -0.8345,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1111,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W10",
+      "total_laid_off": 4205,
+      "event_count": 7,
+      "total_laid_off_delta": -2820,
+      "total_laid_off_pct_change": -0.6706,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.1429,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Flipkart",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Supernal",
+        "total_laid_off": 296
+      },
+      {
+        "company": "SSense",
+        "total_laid_off": 215
+      },
+      {
+        "company": "Envato",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Amazon",
+        "total_laid_off": 100
+      },
+      {
+        "company": "MicroVision",
+        "total_laid_off": 49
+      },
+      {
+        "company": "At-Bay",
+        "total_laid_off": 25
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 815
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 296
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 49
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 25
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 500
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 470
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 215
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 200
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 521
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 500
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 215
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 149
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-03-06",
+        "company": "Flipkart",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Supernal",
+        "num_laid_off": 296,
+        "percentage_laid_off": 0.8,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+      },
+      {
+        "date": "2026-03-05",
+        "company": "SSense",
+        "num_laid_off": 215,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Series A",
+        "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Envato",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.3,
+        "industry": "Marketing",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Amazon",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html"
+      },
+      {
+        "date": "2026-03-03",
+        "company": "MicroVision",
+        "num_laid_off": 49,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/seattle/news/2026/03/03/microvision-lidar-redmond-layoffs-warn-cars.html"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "At-Bay",
+        "num_laid_off": 25,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bye11uubkwe"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-03-06",
+        "company": "Flipkart",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
+      },
+      {
+        "date": "2026-03-05",
+        "company": "SSense",
+        "num_laid_off": 215,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Series A",
+        "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Supernal",
+        "num_laid_off": 296,
+        "percentage_laid_off": 0.8,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Envato",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.3,
+        "industry": "Marketing",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Amazon",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "At-Bay",
+        "num_laid_off": 25,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/bye11uubkwe"
+      },
+      {
+        "date": "2026-03-03",
+        "company": "MicroVision",
+        "num_laid_off": 49,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/seattle/news/2026/03/03/microvision-lidar-redmond-layoffs-warn-cars.html"
+      },
+      {
+        "date": "2026-03-02",
+        "company": "Verint Systems",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjpmvvqf11l"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-03-04",
+        "company": "Supernal",
+        "num_laid_off": 296,
+        "percentage_laid_off": 0.8,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Envato",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.3,
+        "industry": "Marketing",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-W10 includes 8 public layoff events and 1,385 reported layoffs.",
+    "The largest company contributor is Flipkart with 500 reported layoffs.",
+    "The leading named industry is Retail with 815 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

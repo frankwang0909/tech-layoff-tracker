@@ -1,0 +1,193 @@
+{
+  "report_type": "weekly",
+  "period": "2025-W11",
+  "status": "final",
+  "date_range": {
+    "start": "2025-03-10",
+    "end": "2025-03-13"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/weekly/2025-W11.html",
+  "kpis": {
+    "total_laid_off": 44,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 22.0,
+    "median_layoffs_per_headcount_event": 22.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-W10",
+      "total_laid_off": 4205,
+      "event_count": 7,
+      "total_laid_off_delta": -4161,
+      "total_laid_off_pct_change": -0.9895,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.5714,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-W11",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "ActiveFence",
+        "total_laid_off": 22
+      },
+      {
+        "company": "D-ID",
+        "total_laid_off": 22
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "AI",
+        "total_laid_off": 22
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 22
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 22
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 22
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series B",
+        "total_laid_off": 44
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-03-13",
+        "company": "ActiveFence",
+        "num_laid_off": 22,
+        "percentage_laid_off": 0.07,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjvqbqg3jx"
+      },
+      {
+        "date": "2025-03-10",
+        "company": "D-ID",
+        "num_laid_off": 22,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-03-13",
+        "company": "ActiveFence",
+        "num_laid_off": 22,
+        "percentage_laid_off": 0.07,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjvqbqg3jx"
+      },
+      {
+        "date": "2025-03-10",
+        "company": "D-ID",
+        "num_laid_off": 22,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
+      },
+      {
+        "date": "2025-03-10",
+        "company": "Arrival",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2025-03-10",
+        "company": "Arrival",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
+      },
+      {
+        "date": "2025-03-10",
+        "company": "D-ID",
+        "num_laid_off": 22,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
+      }
+    ]
+  },
+  "insights": [
+    "2025-W11 includes 3 public layoff events and 44 reported layoffs.",
+    "The largest company contributor is ActiveFence with 22 reported layoffs.",
+    "The leading named industry is AI with 22 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "report_type": "monthly",
+  "period": "2026-03",
+  "status": "final",
+  "date_range": {
+    "start": "2026-03-02",
+    "end": "2026-03-31"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/monthly/2026-03.html",
+  "kpis": {
+    "total_laid_off": 34800,
+    "event_count": 28,
+    "headcount_event_count": 16,
+    "company_count": 28,
+    "country_count": 9,
+    "industry_count": 14,
+    "average_layoffs_per_headcount_event": 2175.0,
+    "median_layoffs_per_headcount_event": 175.0,
+    "high_intensity_event_count": 9
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-02",
+      "total_laid_off": 11019,
+      "event_count": 27,
+      "total_laid_off_delta": 23781,
+      "total_laid_off_pct_change": 2.1582,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.037,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-03",
+      "total_laid_off": 8834,
+      "event_count": 21,
+      "total_laid_off_delta": 25966,
+      "total_laid_off_pct_change": 2.9393,
+      "event_count_delta": 7,
+      "event_count_pct_change": 0.3333,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Oracle",
+        "total_laid_off": 30000
+      },
+      {
+        "company": "Atlassian",
+        "total_laid_off": 1600
+      },
+      {
+        "company": "Epic Games",
+        "total_laid_off": 1000
+      },
+      {
+        "company": "Flipkart",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Stone",
+        "total_laid_off": 400
+      },
+      {
+        "company": "Supernal",
+        "total_laid_off": 296
+      },
+      {
+        "company": "SSense",
+        "total_laid_off": 215
+      },
+      {
+        "company": "Envato",
+        "total_laid_off": 200
+      },
+      {
+        "company": "InvestCloud",
+        "total_laid_off": 150
+      },
+      {
+        "company": "Amazon",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 31649
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 1000
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 815
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 600
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 296
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Energy",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 25
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 15
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 31720
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 1800
+      },
+      {
+        "country": "India",
+        "total_laid_off": 500
+      },
+      {
+        "country": "Brazil",
+        "total_laid_off": 400
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 215
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 100
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 50
+      },
+      {
+        "country": "Sweden",
+        "total_laid_off": 15
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 32164
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 1521
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 600
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 215
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 150
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 50
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-03-31",
+        "company": "Oracle",
+        "num_laid_off": 30000,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
+      },
+      {
+        "date": "2026-03-11",
+        "company": "Atlassian",
+        "num_laid_off": 1600,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Epic Games",
+        "num_laid_off": 1000,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+      },
+      {
+        "date": "2026-03-06",
+        "company": "Flipkart",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
+      },
+      {
+        "date": "2026-03-13",
+        "company": "Stone",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Brazil",
+        "stage": "Post-IPO",
+        "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Supernal",
+        "num_laid_off": 296,
+        "percentage_laid_off": 0.8,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+      },
+      {
+        "date": "2026-03-05",
+        "company": "SSense",
+        "num_laid_off": 215,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Series A",
+        "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Envato",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.3,
+        "industry": "Marketing",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      },
+      {
+        "date": "2026-03-10",
+        "company": "InvestCloud",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
+      },
+      {
+        "date": "2026-03-27",
+        "company": "Enpal",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-03-31",
+        "company": "Oracle",
+        "num_laid_off": 30000,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Monzo",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series F",
+        "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Covrzy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Yupp",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
+      },
+      {
+        "date": "2026-03-27",
+        "company": "Enpal",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Energy",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Monte Carlo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Quandoo",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Epic Games",
+        "num_laid_off": 1000,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Zendesk",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "OpenText",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+      },
+      {
+        "date": "2026-03-23",
+        "company": "Spotify",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+      },
+      {
+        "date": "2026-03-20",
+        "company": "Gemini",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
+      },
+      {
+        "date": "2026-03-19",
+        "company": "Snowflake",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+      },
+      {
+        "date": "2026-03-19",
+        "company": "Crypto.com",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.12,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+      },
+      {
+        "date": "2026-03-17",
+        "company": "FranShares",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+      },
+      {
+        "date": "2026-03-13",
+        "company": "Stone",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Brazil",
+        "stage": "Post-IPO",
+        "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
+      },
+      {
+        "date": "2026-03-13",
+        "company": "Digg",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
+      },
+      {
+        "date": "2026-03-11",
+        "company": "Atlassian",
+        "num_laid_off": 1600,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+      },
+      {
+        "date": "2026-03-10",
+        "company": "InvestCloud",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-03-31",
+        "company": "Covrzy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Yupp",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Quandoo",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+      },
+      {
+        "date": "2026-03-17",
+        "company": "FranShares",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Supernal",
+        "num_laid_off": 296,
+        "percentage_laid_off": 0.8,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Monte Carlo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+      },
+      {
+        "date": "2026-03-20",
+        "company": "Gemini",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
+      },
+      {
+        "date": "2026-03-04",
+        "company": "Envato",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.3,
+        "industry": "Marketing",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-03 includes 28 public layoff events and 34,800 reported layoffs.",
+    "The largest company contributor is Oracle with 30,000 reported layoffs.",
+    "The leading named industry is Consumer with 1,000 reported layoffs.",
+    "9 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "report_type": "daily",
+  "period": "2025-02-28",
+  "status": "final",
+  "date_range": {
+    "start": "2025-02-28",
+    "end": "2025-02-28"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2025-02-28.html",
+  "kpis": {
+    "total_laid_off": 4500,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 1,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 2250.0,
+    "median_layoffs_per_headcount_event": 2250.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2025-02-27",
+      "total_laid_off": 1440,
+      "event_count": 3,
+      "total_laid_off_delta": 3060,
+      "total_laid_off_pct_change": 2.125,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2024-02-28",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "HP",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "Grubhub",
+        "total_laid_off": 500
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 500
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 4500
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 4000
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 500
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2025-02-28",
+        "company": "HP",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "Grubhub",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.23,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2025-02-28",
+        "company": "HP",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "Grubhub",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.23,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2025-02-28 includes 2 public layoff events and 4,500 reported layoffs.",
+    "The largest company contributor is HP with 4,000 reported layoffs.",
+    "The leading named industry is Hardware with 4,000 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

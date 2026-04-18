@@ -1,0 +1,225 @@
+{
+  "report_type": "daily",
+  "period": "2026-01-08",
+  "status": "final",
+  "date_range": {
+    "start": "2026-01-08",
+    "end": "2026-01-08"
+  },
+  "updated_at": "2026-04-16",
+  "canonical_url": "/reports/daily/2026-01-08.html",
+  "kpis": {
+    "total_laid_off": 312,
+    "event_count": 4,
+    "headcount_event_count": 4,
+    "company_count": 4,
+    "country_count": 2,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 78.0,
+    "median_layoffs_per_headcount_event": 29.5,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-01-07",
+      "total_laid_off": 350,
+      "event_count": 1,
+      "total_laid_off_delta": -38,
+      "total_laid_off_pct_change": -0.1086,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-01-08",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Kaseya",
+        "total_laid_off": 250
+      },
+      {
+        "company": "Hailo",
+        "total_laid_off": 30
+      },
+      {
+        "company": "Foretellix",
+        "total_laid_off": 29
+      },
+      {
+        "company": "Tailwind Labs",
+        "total_laid_off": 3
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Security",
+        "total_laid_off": 250
+      },
+      {
+        "industry": "Manufacturing",
+        "total_laid_off": 30
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 29
+      },
+      {
+        "industry": "Product",
+        "total_laid_off": 3
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 253
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 59
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 250
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 59
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 3
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-01-08",
+        "company": "Kaseya",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Hailo",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.1,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Foretellix",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.18,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Tailwind Labs",
+        "num_laid_off": 3,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-01-08",
+        "company": "Kaseya",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.05,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Hailo",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.1,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Foretellix",
+        "num_laid_off": 29,
+        "percentage_laid_off": 0.18,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
+      },
+      {
+        "date": "2026-01-08",
+        "company": "Tailwind Labs",
+        "num_laid_off": 3,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-01-08 includes 4 public layoff events and 312 reported layoffs.",
+    "The largest company contributor is Kaseya with 250 reported layoffs.",
+    "The leading named industry is Security with 250 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -52,6 +52,10 @@
 | 🕷️ **Web Scraper** | Multi-strategy scraper with live Airtable shared-view extraction, CSV mirror fallback, and offline sample data |
 | 🧹 **Data Processing** | Pandas-based pipeline that cleans, normalizes, and aggregates raw data into analysis-ready JSON |
 | 📊 **Interactive Dashboard** | Glassmorphism-styled ECharts dashboard with animated gradients, responsive layout, dynamic date-range subtitles, and homepage-first analysis modules |
+| 🧭 **SEO Trend Report** | Static `trend-report.html` page with indexable analysis text, chart-backed findings, methodology notes, FAQ, and structured data |
+| 🗂️ **Reports Archive** | `/reports/` archive entry designed for daily, weekly, monthly, and quarterly layoff trend reports |
+| 🤖 **GEO / AI-Readable Summary** | `llms.txt` and `ai-summary.json` expose canonical facts, data range, methodology, and source files for AI answer engines |
+| 🧭 **SEO Discovery Files** | Generated `sitemap.xml` and `robots.txt` expose the dashboard, reports, and AI-readable files to crawlers |
 | 🚀 **One-Command Pipeline** | `python main.py` runs the complete scrape → process → visualize workflow |
 | 🐳 **Docker Ready** | Multi-stage Dockerfile + Compose — `docker compose up` for instant deployment |
 | 🔄 **Offline-Capable** | Built-in curated dataset ensures the project works even without network access |
@@ -88,7 +92,7 @@ pip install -r requirements.txt
 python main.py
 
 # Serve the dashboard locally
-python server.py
+
 ```
 
 Open **http://localhost:8080/** or directly open `index.html`.
@@ -133,6 +137,14 @@ This project uses **GitHub Actions** to deploy the generated static site to **Gi
 tech-layoff-tracker/
 │
 ├── index.html                       # 🌐 Generated homepage dashboard
+├── trend-report.html                # 🧭 Generated SEO trend report
+├── llms.txt                         # 🤖 LLM guidance and canonical facts
+├── ai-summary.json                  # 🤖 Machine-readable answer summary
+├── sitemap.xml                      # 🧭 Generated sitemap index
+├── sitemap-main.xml                 # 🧭 Generated main-page sitemap
+├── sitemap-reports.xml              # 🧭 Generated reports sitemap
+├── sitemap-topics.xml               # 🧭 Generated industry/country sitemap
+├── robots.txt                       # 🧭 Generated crawler directives
 ├── layoff_chart.html                # ↪ Root-level legacy redirect
 ├── main.py                          # 🚀 One-command entry point
 ├── requirements.txt                 # Python dependencies
@@ -154,8 +166,19 @@ tech-layoff-tracker/
 ├── data/
 │   ├── raw/                         # Raw scraped CSV
 │   └── processed/                   # Aggregated JSON files
+│       ├── industry_pages.json      # 🧩 Topic data for industry pages
+│       └── country_pages.json       # 🧩 Topic data for country pages
+│
+├── industries/                      # 🧩 Generated industry topic pages
+├── countries/                       # 🧩 Generated country/region topic pages
 │
 └── reports/
+    ├── index.html                   # 🗂 Generated reports archive
+    ├── daily/                       # 🗓 Generated significant daily report pages (noindex)
+    ├── weekly/                      # 🗓 Generated recent weekly report pages
+    ├── monthly/                     # 🗓 Generated monthly report pages
+    ├── quarterly/                   # 🗓 Generated quarterly report pages
+    ├── yearly/                      # 🗓 Generated yearly report pages
     └── layoff_report_2025_2026.md   # Detailed analysis report (中文)
 ```
 
@@ -208,6 +231,22 @@ The homepage dashboard now combines overview KPIs with additional analysis slice
 - `stage_size_heatmap.json` powers a `Stage × Layoff Size` event heatmap
 - `layoff_pct_distribution.json` powers the `Layoff % Distribution` chart
 - `recent_layoffs.json` powers the latest layoff events table shown on the homepage
+
+## 🧭 SEO Trend Reports
+
+The pipeline also generates static, crawlable report pages:
+
+- `trend-report.html` provides an indexable trend report with executive summary, key findings, chart-backed sections, methodology, FAQ, and JSON-LD structured data.
+- `reports/index.html` is the archive entry for the planned daily, weekly, monthly, and quarterly report system.
+- `reports/weekly/*.html` includes the most recent weekly reports and is included in `sitemap.xml`.
+- `reports/monthly/*.html` and `reports/quarterly/*.html` are generated from period report JSON for long-tail SEO.
+- `reports/yearly/*.html` provides annual and year-to-date summary pages for evergreen SEO.
+- `reports/daily/*.html` is generated only for significant daily reports and uses `noindex, follow` to avoid thin-content indexing.
+- `industries/*.html` and `countries/*.html` provide focused topic pages for long-tail SEO and AI answer discovery.
+- `llms.txt` and `ai-summary.json` provide GEO-friendly canonical facts for AI answer engines and chatbots.
+- `sitemap.xml` is a sitemap index pointing to `sitemap-main.xml`, `sitemap-reports.xml`, and `sitemap-topics.xml`.
+
+These pages reuse the existing processed JSON data so they stay aligned with the dashboard after every `python main.py` run.
 
 ---
 

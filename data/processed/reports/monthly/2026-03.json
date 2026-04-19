@@ -80,7 +80,7 @@
         "total_laid_off": 150
       },
       {
-        "company": "Amazon",
+        "company": "Zendesk",
         "total_laid_off": 100
       }
     ],
@@ -306,14 +306,14 @@
         "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
       },
       {
-        "date": "2026-03-27",
-        "company": "Enpal",
+        "date": "2026-03-04",
+        "company": "Amazon",
         "num_laid_off": 100,
         "percentage_laid_off": null,
-        "industry": "Energy",
-        "country": "Germany",
-        "stage": "Series E",
-        "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html"
       }
     ],
     "recent_events": [

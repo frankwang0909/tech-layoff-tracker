@@ -286,14 +286,14 @@
         "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
       },
       {
-        "date": "2025-02-28",
+        "date": "2025-11-25",
         "company": "HP",
         "num_laid_off": 4000,
-        "percentage_laid_off": 0.1,
+        "percentage_laid_off": null,
         "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+        "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
       },
       {
         "date": "2025-08-31",
@@ -306,14 +306,14 @@
         "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
       },
       {
-        "date": "2025-11-25",
+        "date": "2025-02-28",
         "company": "HP",
         "num_laid_off": 4000,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.1,
         "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
+        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
       },
       {
         "date": "2025-02-10",
@@ -540,6 +540,86 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2025-12-11",
+        "company": "EyeEm",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://petapixel.com/2025/12/11/eyeem-is-shutting-down/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "GenWise",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
+      },
+      {
+        "date": "2025-12-01",
+        "company": "Inbound Health",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.axios.com/pro/health-tech-deals/2025/12/01/inbound-health-closing-home-care-waiver"
+      },
+      {
+        "date": "2025-11-13",
+        "company": "BharatAgri",
+        "num_laid_off": 37,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
+      },
+      {
+        "date": "2025-11-10",
+        "company": "Sonder",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/11/10/sonder-shuts-down-after-marriott-termination-marking-the-end-of-a-hospitality-experiment/"
+      },
+      {
+        "date": "2025-09-03",
+        "company": "The Gist",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
+      },
+      {
+        "date": "2025-09-13",
+        "company": "Hike",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://techcrunch.com/2025/09/13/hike-once-a-unicorn-shuts-down-as-india-cracks-down-on-real-money-gaming/"
+      },
+      {
+        "date": "2025-11-05",
+        "company": "MyBambu",
+        "num_laid_off": 141,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025"
+      },
+      {
         "date": "2025-01-02",
         "company": "Level",
         "num_laid_off": null,
@@ -550,94 +630,14 @@
         "source": "https://www.pymnts.com/acquisitions/2025/report-benefits-startup-level-shuts-down-after-acquisition-falls-through"
       },
       {
-        "date": "2025-02-06",
-        "company": "NanoLock",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Security",
-        "country": "Israel",
-        "stage": "Series B",
-        "source": "https://www.calcalistech.com/ctechnews/article/rjgagxmkyl"
-      },
-      {
-        "date": "2025-07-17",
-        "company": "CodeParrot",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Product",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
-      },
-      {
-        "date": "2025-07-12",
-        "company": "Blip",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
-      },
-      {
-        "date": "2025-07-03",
-        "company": "Subtl AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
-      },
-      {
-        "date": "2025-07-02",
-        "company": "Retrain.ai",
-        "num_laid_off": 20,
-        "percentage_laid_off": 1.0,
-        "industry": "HR",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
-      },
-      {
-        "date": "2025-07-02",
-        "company": "Okra",
+        "date": "2025-01-14",
+        "company": "Advisor Credit Exchange",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Finance",
-        "country": "Nigeria",
-        "stage": "Series A",
-        "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
-      },
-      {
-        "date": "2025-02-21",
-        "company": "Electriq Global",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
-      },
-      {
-        "date": "2025-02-24",
-        "company": "HerMD",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
         "country": "United States",
-        "stage": "Series A",
-        "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
-      },
-      {
-        "date": "2025-12-11",
-        "company": "EyeEm",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Germany",
-        "stage": "Acquired",
-        "source": "https://petapixel.com/2025/12/11/eyeem-is-shutting-down/"
+        "stage": "Unknown",
+        "source": "https://citywire.com/ria/news/envestnet-backed-advisor-credit-exchange-to-shut-down-sources/a2457772"
       }
     ]
   },

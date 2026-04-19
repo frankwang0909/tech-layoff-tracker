@@ -52,11 +52,11 @@
         "total_laid_off": 80
       },
       {
-        "company": "Payoneer",
+        "company": "Whatfix",
         "total_laid_off": 60
       },
       {
-        "company": "Whatfix",
+        "company": "Payoneer",
         "total_laid_off": 60
       },
       {
@@ -78,11 +78,11 @@
         "total_laid_off": 80
       },
       {
-        "industry": "AI",
+        "industry": "Finance",
         "total_laid_off": 60
       },
       {
-        "industry": "Finance",
+        "industry": "AI",
         "total_laid_off": 60
       },
       {
@@ -176,16 +176,6 @@
         "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
       },
       {
-        "date": "2025-12-09",
-        "company": "Whatfix",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.06,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
-      },
-      {
         "date": "2025-12-08",
         "company": "Payoneer",
         "num_laid_off": 60,
@@ -194,6 +184,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/s1fu4c4zzg"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "Whatfix",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.06,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
       },
       {
         "date": "2025-12-10",

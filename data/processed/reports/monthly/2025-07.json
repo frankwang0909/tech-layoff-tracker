@@ -56,11 +56,11 @@
         "total_laid_off": 1300
       },
       {
-        "company": "King.com",
+        "company": "Scale AI",
         "total_laid_off": 200
       },
       {
-        "company": "Scale AI",
+        "company": "King.com",
         "total_laid_off": 200
       },
       {
@@ -76,11 +76,11 @@
         "total_laid_off": 106
       },
       {
-        "company": "Krutrim",
+        "company": "Lenovo",
         "total_laid_off": 100
       },
       {
-        "company": "Lenovo",
+        "company": "Krutrim",
         "total_laid_off": 100
       }
     ],
@@ -226,16 +226,6 @@
         "source": "https://www.bloomberg.com/news/articles/2025-07-10/indeed-glassdoor-to-cut-1-300-jobs-in-ai-focused-consolidation"
       },
       {
-        "date": "2025-07-16",
-        "company": "Scale AI",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.14,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
-      },
-      {
         "date": "2025-07-14",
         "company": "King.com",
         "num_laid_off": 200,
@@ -244,6 +234,16 @@
         "country": "Sweden",
         "stage": "Acquired",
         "source": "https://mobilegamer.biz/laid-off-king-staff-set-to-be-replaced-by-the-ai-tools-they-helped-build-say-sources/"
+      },
+      {
+        "date": "2025-07-16",
+        "company": "Scale AI",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
       },
       {
         "date": "2025-07-15",
@@ -276,16 +276,6 @@
         "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
       },
       {
-        "date": "2025-07-16",
-        "company": "Lenovo",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.03,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.newsobserver.com/news/business/article310699130.html"
-      },
-      {
         "date": "2025-07-28",
         "company": "Krutrim",
         "num_laid_off": 100,
@@ -294,6 +284,16 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
+      },
+      {
+        "date": "2025-07-16",
+        "company": "Lenovo",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.03,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.newsobserver.com/news/business/article310699130.html"
       }
     ],
     "recent_events": [
@@ -520,16 +520,6 @@
         "source": "https://entrackr.com/snippets/ev-financing-startup-ohm-mobility-shuts-down-operations-9534248"
       },
       {
-        "date": "2025-07-21",
-        "company": "Zeen",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.businessinsider.com/social-media-creator-economy-collage-startup-zeen-shutting-down-2025-7"
-      },
-      {
         "date": "2025-07-17",
         "company": "Amicole",
         "num_laid_off": null,
@@ -540,24 +530,14 @@
         "source": "https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/"
       },
       {
-        "date": "2025-07-17",
-        "company": "CodeParrot",
+        "date": "2025-07-21",
+        "company": "Zeen",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Product",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
-      },
-      {
-        "date": "2025-07-12",
-        "company": "Blip",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
+        "industry": "Consumer",
+        "country": "United States",
         "stage": "Unknown",
-        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
+        "source": "https://www.businessinsider.com/social-media-creator-economy-collage-startup-zeen-shutting-down-2025-7"
       },
       {
         "date": "2025-07-03",
@@ -578,6 +558,26 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
+      },
+      {
+        "date": "2025-07-17",
+        "company": "CodeParrot",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Product",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+      },
+      {
+        "date": "2025-07-12",
+        "company": "Blip",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
       },
       {
         "date": "2025-07-02",

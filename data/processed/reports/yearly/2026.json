@@ -68,19 +68,19 @@
         "total_laid_off": 1700
       },
       {
-        "company": "Atlassian",
-        "total_laid_off": 1600
-      },
-      {
         "company": "Ericsson",
         "total_laid_off": 1600
       },
       {
-        "company": "Autodesk",
-        "total_laid_off": 1000
+        "company": "Atlassian",
+        "total_laid_off": 1600
       },
       {
         "company": "Ocado",
+        "total_laid_off": 1000
+      },
+      {
+        "company": "Autodesk",
         "total_laid_off": 1000
       }
     ],
@@ -140,11 +140,11 @@
         "total_laid_off": 1734
       },
       {
-        "country": "India",
+        "country": "Netherlands",
         "total_laid_off": 1700
       },
       {
-        "country": "Netherlands",
+        "country": "India",
         "total_laid_off": 1700
       },
       {
@@ -286,16 +286,6 @@
         "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
       },
       {
-        "date": "2026-01-15",
-        "company": "Ericsson",
-        "num_laid_off": 1600,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
-      },
-      {
         "date": "2026-03-11",
         "company": "Atlassian",
         "num_laid_off": 1600,
@@ -304,6 +294,16 @@
         "country": "Australia",
         "stage": "Post-IPO",
         "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
       },
       {
         "date": "2026-01-13",
@@ -316,16 +316,6 @@
         "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
       },
       {
-        "date": "2026-02-20",
-        "company": "Livspace",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.12,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Series F",
-        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
-      },
-      {
         "date": "2026-04-15",
         "company": "Snap",
         "num_laid_off": 1000,
@@ -334,6 +324,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+      },
+      {
+        "date": "2026-01-22",
+        "company": "Autodesk",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.07,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
       }
     ],
     "recent_events": [
@@ -540,26 +540,6 @@
     ],
     "high_intensity_events": [
       {
-        "date": "2026-01-25",
-        "company": "Entropy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
-      },
-      {
-        "date": "2026-03-26",
-        "company": "Quandoo",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "Germany",
-        "stage": "Acquired",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
-      },
-      {
         "date": "2026-04-09",
         "company": "Pepper Pay",
         "num_laid_off": null,
@@ -581,6 +561,16 @@
       },
       {
         "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-31",
         "company": "Covrzy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -590,14 +580,14 @@
         "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
-        "date": "2026-03-31",
-        "company": "Rec Room",
+        "date": "2026-03-26",
+        "company": "Quandoo",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
         "date": "2026-03-31",
@@ -618,6 +608,16 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+      },
+      {
+        "date": "2026-01-25",
+        "company": "Entropy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
       },
       {
         "date": "2026-03-04",

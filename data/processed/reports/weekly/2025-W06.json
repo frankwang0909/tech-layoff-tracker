@@ -80,7 +80,7 @@
         "total_laid_off": 140
       },
       {
-        "company": "Asana",
+        "company": "AppsFlyer",
         "total_laid_off": 100
       }
     ],
@@ -102,7 +102,7 @@
         "total_laid_off": 500
       },
       {
-        "industry": "Consumer",
+        "industry": "Marketing",
         "total_laid_off": 200
       },
       {
@@ -110,7 +110,7 @@
         "total_laid_off": 200
       },
       {
-        "industry": "Marketing",
+        "industry": "Consumer",
         "total_laid_off": 200
       },
       {
@@ -122,7 +122,7 @@
         "total_laid_off": 140
       },
       {
-        "industry": "Data",
+        "industry": "Other",
         "total_laid_off": 100
       }
     ],
@@ -202,16 +202,6 @@
         "source": "https://www.cnbc.com/2025/02/05/workday-to-cut-1750-jobs-in-ai-push.html"
       },
       {
-        "date": "2025-02-04",
-        "company": "Cruise",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.5,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://techcrunch.com/2025/02/04/cruise-to-slash-workforce-by-50-after-gm-cuts-funding-to-robotaxi-operations/"
-      },
-      {
         "date": "2025-02-03",
         "company": "Salesforce",
         "num_laid_off": 1000,
@@ -220,6 +210,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/news/salesforce-cut-1-000-roles-002028643.html"
+      },
+      {
+        "date": "2025-02-04",
+        "company": "Cruise",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.5,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2025/02/04/cruise-to-slash-workforce-by-50-after-gm-cuts-funding-to-robotaxi-operations/"
       },
       {
         "date": "2025-02-06",
@@ -233,16 +233,6 @@
       },
       {
         "date": "2025-02-05",
-        "company": "Sonos",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.12,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.theverge.com/news/607022/sonos-february-layoffs-app-problems"
-      },
-      {
-        "date": "2025-02-05",
         "company": "Outbrain",
         "num_laid_off": 200,
         "percentage_laid_off": null,
@@ -250,6 +240,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkxxve11yyl"
+      },
+      {
+        "date": "2025-02-05",
+        "company": "Sonos",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.12,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theverge.com/news/607022/sonos-february-layoffs-app-problems"
       },
       {
         "date": "2025-02-05",
@@ -283,13 +283,13 @@
       },
       {
         "date": "2025-02-04",
-        "company": "AppsFlyer",
+        "company": "Asana",
         "num_laid_off": 100,
-        "percentage_laid_off": 0.07,
-        "industry": "Data",
+        "percentage_laid_off": null,
+        "industry": "Other",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/hjfbxkkt1e"
+        "stage": "Post-IPO",
+        "source": "Internal memo"
       }
     ],
     "recent_events": [

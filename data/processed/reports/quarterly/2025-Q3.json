@@ -64,11 +64,11 @@
         "total_laid_off": 1094
       },
       {
-        "company": "Head Digital Works",
+        "company": "xAI",
         "total_laid_off": 500
       },
       {
-        "company": "xAI",
+        "company": "Head Digital Works",
         "total_laid_off": 500
       },
       {
@@ -528,44 +528,14 @@
     ],
     "high_intensity_events": [
       {
-        "date": "2025-07-02",
-        "company": "Okra",
+        "date": "2025-09-13",
+        "company": "Hike",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "Nigeria",
-        "stage": "Series A",
-        "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
-      },
-      {
-        "date": "2025-07-17",
-        "company": "CodeParrot",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Product",
+        "industry": "Consumer",
         "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
-      },
-      {
-        "date": "2025-07-02",
-        "company": "Retrain.ai",
-        "num_laid_off": 20,
-        "percentage_laid_off": 1.0,
-        "industry": "HR",
-        "country": "Israel",
         "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
-      },
-      {
-        "date": "2025-09-03",
-        "company": "The Gist",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Israel",
-        "stage": "Seed",
-        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
+        "source": "https://techcrunch.com/2025/09/13/hike-once-a-unicorn-shuts-down-as-india-cracks-down-on-real-money-gaming/"
       },
       {
         "date": "2025-09-03",
@@ -578,14 +548,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
       },
       {
-        "date": "2025-08-29",
-        "company": "Flip",
+        "date": "2025-09-03",
+        "company": "The Gist",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://www.sfgate.com/tech/article/flip-startup-shuts-down-billion-21022297.php"
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/jeyngl375"
       },
       {
         "date": "2025-08-23",
@@ -598,14 +568,14 @@
         "source": "https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-shuts-down/"
       },
       {
-        "date": "2025-08-15",
-        "company": "Kyte",
+        "date": "2025-08-29",
+        "company": "Flip",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Transportation",
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://techcrunch.com/2025/08/15/kyte-which-billed-itself-as-the-best-competitor-to-hertz-shuts-down/"
+        "stage": "Series C",
+        "source": "https://www.sfgate.com/tech/article/flip-startup-shuts-down-billion-21022297.php"
       },
       {
         "date": "2025-07-03",
@@ -618,6 +588,26 @@
         "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
       },
       {
+        "date": "2025-07-02",
+        "company": "Retrain.ai",
+        "num_laid_off": 20,
+        "percentage_laid_off": 1.0,
+        "industry": "HR",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1avcuzhgg"
+      },
+      {
+        "date": "2025-08-15",
+        "company": "Kyte",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://techcrunch.com/2025/08/15/kyte-which-billed-itself-as-the-best-competitor-to-hertz-shuts-down/"
+      },
+      {
         "date": "2025-07-28",
         "company": "Astra",
         "num_laid_off": 106,
@@ -626,6 +616,16 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/aravind-srinivas-backed-ai-startup-astra-shuts-operations/"
+      },
+      {
+        "date": "2025-07-24",
+        "company": "Ohm Mobility",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/snippets/ev-financing-startup-ohm-mobility-shuts-down-operations-9534248"
       }
     ]
   },

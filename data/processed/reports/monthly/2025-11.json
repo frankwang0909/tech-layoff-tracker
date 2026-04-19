@@ -56,11 +56,11 @@
         "total_laid_off": 700
       },
       {
-        "company": "Porter",
+        "company": "Junglee Games",
         "total_laid_off": 350
       },
       {
-        "company": "Junglee Games",
+        "company": "Porter",
         "total_laid_off": 350
       },
       {
@@ -526,16 +526,6 @@
         "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
       },
       {
-        "date": "2025-11-10",
-        "company": "Sonder",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Travel",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://skift.com/2025/11/10/sonder-shuts-down-after-marriott-termination-marking-the-end-of-a-hospitality-experiment/"
-      },
-      {
         "date": "2025-11-05",
         "company": "MyBambu",
         "num_laid_off": 141,
@@ -544,6 +534,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025"
+      },
+      {
+        "date": "2025-11-10",
+        "company": "Sonder",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/11/10/sonder-shuts-down-after-marriott-termination-marking-the-end-of-a-hospitality-experiment/"
       },
       {
         "date": "2025-11-16",

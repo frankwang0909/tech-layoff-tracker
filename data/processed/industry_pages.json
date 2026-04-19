@@ -617,15 +617,15 @@
           "total_laid_off": 1290
         },
         {
+          "company": "Epic Games",
+          "total_laid_off": 1000
+        },
+        {
           "company": "Livspace",
           "total_laid_off": 1000
         },
         {
           "company": "Snap",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Epic Games",
           "total_laid_off": 1000
         },
         {
@@ -890,11 +890,11 @@
           "total_laid_off": 400
         },
         {
-          "company": "Wise",
+          "company": "Stripe",
           "total_laid_off": 300
         },
         {
-          "company": "Stripe",
+          "company": "Wise",
           "total_laid_off": 300
         },
         {
@@ -3016,11 +3016,11 @@
           "total_laid_off": 200
         },
         {
-          "company": "Outbrain",
+          "company": "Yotpo",
           "total_laid_off": 200
         },
         {
-          "company": "Yotpo",
+          "company": "Outbrain",
           "total_laid_off": 200
         },
         {

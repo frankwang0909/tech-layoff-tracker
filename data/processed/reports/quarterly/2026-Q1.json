@@ -64,11 +64,11 @@
         "total_laid_off": 1700
       },
       {
-        "company": "Atlassian",
+        "company": "Ericsson",
         "total_laid_off": 1600
       },
       {
-        "company": "Ericsson",
+        "company": "Atlassian",
         "total_laid_off": 1600
       },
       {
@@ -76,11 +76,11 @@
         "total_laid_off": 1500
       },
       {
-        "company": "Epic Games",
+        "company": "Ocado",
         "total_laid_off": 1000
       },
       {
-        "company": "Ocado",
+        "company": "Autodesk",
         "total_laid_off": 1000
       }
     ],
@@ -140,11 +140,11 @@
         "total_laid_off": 1734
       },
       {
-        "country": "India",
+        "country": "Netherlands",
         "total_laid_off": 1700
       },
       {
-        "country": "Netherlands",
+        "country": "India",
         "total_laid_off": 1700
       },
       {
@@ -316,24 +316,24 @@
         "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
       },
       {
-        "date": "2026-03-24",
-        "company": "Epic Games",
+        "date": "2026-02-20",
+        "company": "Livspace",
         "num_laid_off": 1000,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.12,
         "industry": "Consumer",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
       },
       {
-        "date": "2026-01-22",
-        "company": "Autodesk",
+        "date": "2026-02-26",
+        "company": "Ocado",
         "num_laid_off": 1000,
-        "percentage_laid_off": 0.07,
-        "industry": "Other",
-        "country": "United States",
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
         "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
       }
     ],
     "recent_events": [
@@ -550,16 +550,6 @@
         "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
-        "date": "2026-03-26",
-        "company": "Quandoo",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "Germany",
-        "stage": "Acquired",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
-      },
-      {
         "date": "2026-03-31",
         "company": "Rec Room",
         "num_laid_off": null,
@@ -568,6 +558,26 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Yupp",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
+      },
+      {
+        "date": "2026-03-26",
+        "company": "Quandoo",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
         "date": "2026-03-17",
@@ -588,16 +598,6 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Yupp",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       },
       {
         "date": "2026-03-04",

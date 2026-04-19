@@ -52,11 +52,11 @@
         "total_laid_off": 1400
       },
       {
-        "company": "Meta",
+        "company": "Rivian",
         "total_laid_off": 600
       },
       {
-        "company": "Rivian",
+        "company": "Meta",
         "total_laid_off": 600
       },
       {
@@ -224,16 +224,6 @@
         "source": "https://www.bloomberg.com/news/articles/2025-10-23/applied-materials-to-cut-4-of-global-staff-after-sales-slow"
       },
       {
-        "date": "2025-10-22",
-        "company": "Meta",
-        "num_laid_off": 600,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html"
-      },
-      {
         "date": "2025-10-23",
         "company": "Rivian",
         "num_laid_off": 600,
@@ -242,6 +232,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
+      },
+      {
+        "date": "2025-10-22",
+        "company": "Meta",
+        "num_laid_off": 600,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html"
       },
       {
         "date": "2025-10-01",

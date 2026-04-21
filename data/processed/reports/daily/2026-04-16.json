@@ -6,15 +6,15 @@
     "start": "2026-04-16",
     "end": "2026-04-16"
   },
-  "updated_at": "2026-04-16",
+  "updated_at": "2026-04-20",
   "canonical_url": "/reports/daily/2026-04-16.html",
   "kpis": {
     "total_laid_off": 80,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 80.0,
     "median_layoffs_per_headcount_event": 80.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 3,
       "total_laid_off_delta": -1870,
       "total_laid_off_pct_change": -0.959,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 3,
       "total_laid_off_delta": -174,
       "total_laid_off_pct_change": -0.685,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     }
   },
@@ -112,12 +112,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Quora",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-04-16 includes 1 public layoff events and 80 reported layoffs.",
+    "2026-04-16 includes 2 public layoff events and 80 reported layoffs.",
     "The largest company contributor is Shutterfly with 80 reported layoffs.",
     "The leading named industry is Manufacturing with 80 reported layoffs."
   ],

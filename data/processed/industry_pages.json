@@ -533,13 +533,13 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-04-15"
+      "end": "2026-04-17"
     },
     "kpis": {
-      "total_laid_off": 16469,
-      "event_count": 63,
-      "headcount_event_count": 43,
-      "company_count": 41,
+      "total_laid_off": 24469,
+      "event_count": 65,
+      "headcount_event_count": 44,
+      "company_count": 42,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -604,13 +604,13 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 1345
+          "total_laid_off": 9345
         }
       ],
       "company_top": [
         {
           "company": "Meta",
-          "total_laid_off": 6000
+          "total_laid_off": 14000
         },
         {
           "company": "Playtika",
@@ -652,6 +652,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-17",
+          "company": "Meta",
+          "num_laid_off": 8000,
+          "percentage_laid_off": 0.1,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+        },
+        {
+          "date": "2026-04-16",
+          "company": "Quora",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
+        },
         {
           "date": "2026-04-15",
           "company": "Snap",
@@ -781,30 +801,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html"
-        },
-        {
-          "date": "2026-01-27",
-          "company": "Pinterest",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.15,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation"
-        },
-        {
-          "date": "2026-01-27",
-          "company": "Moon Active",
-          "num_laid_off": 110,
-          "percentage_laid_off": 0.05,
-          "industry": "Consumer",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
         }
       ]
     },
-    "summary": "Consumer has 16,469 reported tech layoffs across 63 public events from 2025-01-27 to 2026-04-15."
+    "summary": "Consumer has 24,469 reported tech layoffs across 65 public events from 2025-01-27 to 2026-04-17."
   },
   {
     "type": "industry",
@@ -814,13 +814,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-04-09"
+      "end": "2026-04-20"
     },
     "kpis": {
-      "total_laid_off": 8524,
-      "event_count": 40,
-      "headcount_event_count": 24,
-      "company_count": 37,
+      "total_laid_off": 8584,
+      "event_count": 41,
+      "headcount_event_count": 25,
+      "company_count": 38,
       "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 14
@@ -874,6 +874,10 @@
         {
           "month": "2026-03",
           "total_laid_off": 600
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 60
         }
       ],
       "company_top": [
@@ -890,19 +894,19 @@
           "total_laid_off": 400
         },
         {
-          "company": "Stripe",
-          "total_laid_off": 300
-        },
-        {
           "company": "Wise",
           "total_laid_off": 300
         },
         {
-          "company": "Zepz",
-          "total_laid_off": 200
+          "company": "Stripe",
+          "total_laid_off": 300
         },
         {
           "company": "Pipe",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Zepz",
           "total_laid_off": 200
         },
         {
@@ -921,6 +925,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-20",
+          "company": "Acko",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.05,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+        },
         {
           "date": "2026-04-09",
           "company": "Pepper Pay",
@@ -1060,20 +1074,10 @@
           "country": "Israel",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
-        },
-        {
-          "date": "2025-12-08",
-          "company": "Payoneer",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.06,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/s1fu4c4zzg"
         }
       ]
     },
-    "summary": "Finance has 8,524 reported tech layoffs across 40 public events from 2025-01-02 to 2026-04-09."
+    "summary": "Finance has 8,584 reported tech layoffs across 41 public events from 2025-01-02 to 2026-04-20."
   },
   {
     "type": "industry",

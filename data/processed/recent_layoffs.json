@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-04-20",
+    "company": "Acko",
+    "num_laid_off": 60,
+    "percentage_laid_off": 0.05,
+    "industry": "Finance",
+    "country": "India",
+    "stage": "Unknown",
+    "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+  },
+  {
+    "date": "2026-04-17",
+    "company": "Meta",
+    "num_laid_off": 8000,
+    "percentage_laid_off": 0.1,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+  },
+  {
     "date": "2026-04-16",
     "company": "Shutterfly",
     "num_laid_off": 80,
@@ -10,14 +30,14 @@
     "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
   },
   {
-    "date": "2026-04-15",
-    "company": "Productboard",
+    "date": "2026-04-16",
+    "company": "Quora",
     "num_laid_off": null,
-    "percentage_laid_off": 0.3,
-    "industry": "Product",
+    "percentage_laid_off": null,
+    "industry": "Consumer",
     "country": "United States",
     "stage": "Series D",
-    "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+    "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
   },
   {
     "date": "2026-04-15",
@@ -40,14 +60,14 @@
     "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
   },
   {
-    "date": "2026-04-13",
-    "company": "StarkWare",
+    "date": "2026-04-15",
+    "company": "Productboard",
     "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
-    "country": "Israel",
+    "percentage_laid_off": 0.3,
+    "industry": "Product",
+    "country": "United States",
     "stage": "Series D",
-    "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+    "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
   },
   {
     "date": "2026-04-13",
@@ -58,6 +78,16 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+  },
+  {
+    "date": "2026-04-13",
+    "company": "StarkWare",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
+    "country": "Israel",
+    "stage": "Series D",
+    "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
   },
   {
     "date": "2026-04-09",
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
-  },
-  {
-    "date": "2026-04-07",
-    "company": "Pendo",
-    "num_laid_off": 90,
-    "percentage_laid_off": 0.1,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
-  },
-  {
-    "date": "2026-04-05",
-    "company": "Bolt",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.33,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Series E",
-    "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
-  },
-  {
-    "date": "2026-04-03",
-    "company": "NeuroPixel.AI",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Retail",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
   }
 ]

@@ -1,0 +1,129 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W17",
+  "status": "rolling",
+  "date_range": {
+    "start": "2026-04-20",
+    "end": "2026-04-20"
+  },
+  "updated_at": "2026-04-20",
+  "canonical_url": "/reports/weekly/2026-W17.html",
+  "kpis": {
+    "total_laid_off": 60,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 60.0,
+    "median_layoffs_per_headcount_event": 60.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W16",
+      "total_laid_off": 10030,
+      "event_count": 8,
+      "total_laid_off_delta": -9970,
+      "total_laid_off_pct_change": -0.994,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.875,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W17",
+      "total_laid_off": 22577,
+      "event_count": 5,
+      "total_laid_off_delta": -22517,
+      "total_laid_off_pct_change": -0.9973,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.8,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Acko",
+        "total_laid_off": 60
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Finance",
+        "total_laid_off": 60
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 60
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 60
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-04-20",
+        "company": "Acko",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.05,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-04-20",
+        "company": "Acko",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.05,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-W17 includes 1 public layoff events and 60 reported layoffs.",
+    "The largest company contributor is Acko with 60 reported layoffs.",
+    "The leading named industry is Finance with 60 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-04-16"
+      "end": "2026-04-17"
     },
     "kpis": {
-      "total_laid_off": 164446,
-      "event_count": 260,
-      "headcount_event_count": 171,
-      "company_count": 194,
+      "total_laid_off": 172446,
+      "event_count": 262,
+      "headcount_event_count": 172,
+      "company_count": 195,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 44
@@ -82,7 +82,7 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 2465
+          "total_laid_off": 10465
         }
       ],
       "company_top": [
@@ -103,12 +103,12 @@
           "total_laid_off": 15347
         },
         {
-          "company": "HP",
-          "total_laid_off": 8000
+          "company": "Meta",
+          "total_laid_off": 14000
         },
         {
-          "company": "Meta",
-          "total_laid_off": 6000
+          "company": "HP",
+          "total_laid_off": 8000
         },
         {
           "company": "Salesforce",
@@ -131,6 +131,26 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-04-17",
+          "company": "Meta",
+          "num_laid_off": 8000,
+          "percentage_laid_off": 0.1,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+        },
+        {
+          "date": "2026-04-16",
+          "company": "Quora",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
+        },
+        {
           "date": "2026-04-16",
           "company": "Shutterfly",
           "num_laid_off": 80,
@@ -142,16 +162,6 @@
         },
         {
           "date": "2026-04-15",
-          "company": "Productboard",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
-        },
-        {
-          "date": "2026-04-15",
           "company": "Snap",
           "num_laid_off": 1000,
           "percentage_laid_off": 0.16,
@@ -159,6 +169,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Productboard",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
         },
         {
           "date": "2026-04-15",
@@ -259,30 +279,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
-        },
-        {
-          "date": "2026-03-31",
-          "company": "Oracle",
-          "num_laid_off": 30000,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-        },
-        {
-          "date": "2026-03-31",
-          "company": "Rec Room",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
         }
       ]
     },
-    "summary": "United States has 164,446 reported tech layoffs across 260 public events from 2025-01-02 to 2026-04-16."
+    "summary": "United States has 172,446 reported tech layoffs across 262 public events from 2025-01-02 to 2026-04-17."
   },
   {
     "type": "country",
@@ -292,13 +292,13 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-04-03"
+      "end": "2026-04-20"
     },
     "kpis": {
-      "total_laid_off": 8755,
-      "event_count": 47,
-      "headcount_event_count": 36,
-      "company_count": 38,
+      "total_laid_off": 8815,
+      "event_count": 48,
+      "headcount_event_count": 37,
+      "company_count": 39,
       "country_count": 1,
       "industry_count": 13,
       "high_intensity_event_count": 16
@@ -356,15 +356,19 @@
         {
           "month": "2026-03",
           "total_laid_off": 500
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 60
         }
       ],
       "company_top": [
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
@@ -396,13 +400,23 @@
           "total_laid_off": 370
         },
         {
-          "company": "Junglee Games",
+          "company": "VerSe Innovation copy",
           "total_laid_off": 350
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-20",
+          "company": "Acko",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.05,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+        },
         {
           "date": "2026-04-03",
           "company": "NeuroPixel.AI",
@@ -542,20 +556,10 @@
           "country": "India",
           "stage": "Series H",
           "source": "https://www.moneycontrol.com/news/business/startup/around-300-employees-impacted-at-zepto-amid-cost-efficiency-drive-at-the-quick-commerce-company-13622853.html"
-        },
-        {
-          "date": "2025-10-01",
-          "company": "Simpl",
-          "num_laid_off": 80,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "India",
-          "stage": "Series B",
-          "source": "https://inc42.com/buzz/bnpl-startup-simpl-lays-off-80-employees-after-rbi-whiplash/"
         }
       ]
     },
-    "summary": "India has 8,755 reported tech layoffs across 47 public events from 2025-01-15 to 2026-04-03."
+    "summary": "India has 8,815 reported tech layoffs across 48 public events from 2025-01-15 to 2026-04-20."
   },
   {
     "type": "country",

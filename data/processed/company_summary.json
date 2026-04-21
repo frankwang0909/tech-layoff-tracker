@@ -16,12 +16,12 @@
     "total_laid_off": 15347
   },
   {
-    "company": "HP",
-    "total_laid_off": 8000
+    "company": "Meta",
+    "total_laid_off": 14000
   },
   {
-    "company": "Meta",
-    "total_laid_off": 6000
+    "company": "HP",
+    "total_laid_off": 8000
   },
   {
     "company": "Salesforce",
@@ -48,11 +48,11 @@
     "total_laid_off": 2150
   },
   {
-    "company": "Synopsys",
+    "company": "WiseTech",
     "total_laid_off": 2000
   },
   {
-    "company": "WiseTech",
+    "company": "Synopsys",
     "total_laid_off": 2000
   },
   {

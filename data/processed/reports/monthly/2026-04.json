@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-04-16"
+    "end": "2026-04-20"
   },
-  "updated_at": "2026-04-16",
+  "updated_at": "2026-04-20",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 2465,
-    "event_count": 15,
-    "headcount_event_count": 6,
-    "company_count": 15,
+    "total_laid_off": 10525,
+    "event_count": 18,
+    "headcount_event_count": 8,
+    "company_count": 17,
     "country_count": 3,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 410.83,
+    "average_layoffs_per_headcount_event": 1315.62,
     "median_layoffs_per_headcount_event": 172.5,
     "high_intensity_event_count": 4
   },
@@ -24,25 +24,29 @@
       "period": "2026-03",
       "total_laid_off": 34800,
       "event_count": 28,
-      "total_laid_off_delta": -32335,
-      "total_laid_off_pct_change": -0.9292,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.4643,
+      "total_laid_off_delta": -24275,
+      "total_laid_off_pct_change": -0.6976,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.3571,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25345,
       "event_count": 28,
-      "total_laid_off_delta": -22880,
-      "total_laid_off_pct_change": -0.9027,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.4643,
+      "total_laid_off_delta": -14820,
+      "total_laid_off_pct_change": -0.5847,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.3571,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Meta",
+        "total_laid_off": 8200
+      },
       {
         "company": "Snap",
         "total_laid_off": 1000
@@ -50,10 +54,6 @@
       {
         "company": "UKG",
         "total_laid_off": 950
-      },
-      {
-        "company": "Meta",
-        "total_laid_off": 200
       },
       {
         "company": "GoPro",
@@ -66,12 +66,16 @@
       {
         "company": "Shutterfly",
         "total_laid_off": 80
+      },
+      {
+        "company": "Acko",
+        "total_laid_off": 60
       }
     ],
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 1345
+        "total_laid_off": 9345
       },
       {
         "industry": "HR",
@@ -84,22 +88,30 @@
       {
         "industry": "Manufacturing",
         "total_laid_off": 80
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 60
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2465
+        "total_laid_off": 10465
+      },
+      {
+        "country": "India",
+        "total_laid_off": 60
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1425
+        "total_laid_off": 9425
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 950
+        "total_laid_off": 1010
       },
       {
         "stage": "Series F",
@@ -109,11 +121,11 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
-        "event_count": 3
+        "event_count": 4
       },
       {
         "bucket": "25-49%",
@@ -131,6 +143,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-04-17",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
       {
         "date": "2026-04-15",
         "company": "Snap",
@@ -190,9 +212,39 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-20",
+        "company": "Acko",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.05,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-04-20",
+        "company": "Acko",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.05,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+      },
+      {
+        "date": "2026-04-17",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
       {
         "date": "2026-04-16",
         "company": "Shutterfly",
@@ -202,6 +254,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Quora",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
       },
       {
         "date": "2026-04-15",
@@ -255,16 +317,6 @@
       },
       {
         "date": "2026-04-09",
-        "company": "Cars.com",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.11,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
-      },
-      {
-        "date": "2026-04-09",
         "company": "Pepper Pay",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -272,6 +324,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+      },
+      {
+        "date": "2026-04-09",
+        "company": "Cars.com",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.11,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
       },
       {
         "date": "2026-04-07",
@@ -388,9 +450,9 @@
     ]
   },
   "insights": [
-    "2026-04 includes 15 public layoff events and 2,465 reported layoffs.",
-    "The largest company contributor is Snap with 1,000 reported layoffs.",
-    "The leading named industry is Consumer with 1,345 reported layoffs.",
+    "2026-04 includes 18 public layoff events and 10,525 reported layoffs.",
+    "The largest company contributor is Meta with 8,200 reported layoffs.",
+    "The leading named industry is Consumer with 9,345 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

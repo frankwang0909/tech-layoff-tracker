@@ -1,22 +1,22 @@
 {
   "report_type": "weekly",
   "period": "2026-W16",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-04-13",
-    "end": "2026-04-16"
+    "end": "2026-04-17"
   },
-  "updated_at": "2026-04-16",
+  "updated_at": "2026-04-20",
   "canonical_url": "/reports/weekly/2026-W16.html",
   "kpis": {
-    "total_laid_off": 2030,
-    "event_count": 6,
-    "headcount_event_count": 3,
-    "company_count": 6,
+    "total_laid_off": 10030,
+    "event_count": 8,
+    "headcount_event_count": 4,
+    "company_count": 8,
     "country_count": 2,
     "industry_count": 5,
-    "average_layoffs_per_headcount_event": 676.67,
-    "median_layoffs_per_headcount_event": 950.0,
+    "average_layoffs_per_headcount_event": 2507.5,
+    "median_layoffs_per_headcount_event": 975.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W15",
       "total_laid_off": 235,
       "event_count": 4,
-      "total_laid_off_delta": 1795,
-      "total_laid_off_pct_change": 7.6383,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.5,
+      "total_laid_off_delta": 9795,
+      "total_laid_off_pct_change": 41.6809,
+      "event_count_delta": 4,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 1476,
-      "total_laid_off_pct_change": 2.6643,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 9476,
+      "total_laid_off_pct_change": 17.1047,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Meta",
+        "total_laid_off": 8000
+      },
       {
         "company": "Snap",
         "total_laid_off": 1000
@@ -59,7 +63,7 @@
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 1000
+        "total_laid_off": 9000
       },
       {
         "industry": "HR",
@@ -73,13 +77,13 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2030
+        "total_laid_off": 10030
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1080
+        "total_laid_off": 9080
       },
       {
         "stage": "Unknown",
@@ -93,7 +97,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -111,6 +115,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-04-17",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
       {
         "date": "2026-04-15",
         "company": "Snap",
@@ -144,6 +158,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-04-17",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
+      {
         "date": "2026-04-16",
         "company": "Shutterfly",
         "num_laid_off": 80,
@@ -152,6 +176,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Quora",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
       },
       {
         "date": "2026-04-15",
@@ -218,9 +252,9 @@
     ]
   },
   "insights": [
-    "2026-W16 includes 6 public layoff events and 2,030 reported layoffs.",
-    "The largest company contributor is Snap with 1,000 reported layoffs.",
-    "The leading named industry is Consumer with 1,000 reported layoffs.",
+    "2026-W16 includes 8 public layoff events and 10,030 reported layoffs.",
+    "The largest company contributor is Meta with 8,000 reported layoffs.",
+    "The leading named industry is Consumer with 9,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

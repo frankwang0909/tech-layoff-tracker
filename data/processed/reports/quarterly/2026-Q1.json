@@ -9,13 +9,13 @@
   "updated_at": "2026-04-20",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
-    "total_laid_off": 70747,
-    "event_count": 85,
-    "headcount_event_count": 56,
-    "company_count": 82,
+    "total_laid_off": 81747,
+    "event_count": 86,
+    "headcount_event_count": 57,
+    "company_count": 83,
     "country_count": 14,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 1263.34,
+    "average_layoffs_per_headcount_event": 1434.16,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 18
   },
@@ -24,20 +24,20 @@
       "period": "2025-Q4",
       "total_laid_off": 29554,
       "event_count": 68,
-      "total_laid_off_delta": 41193,
-      "total_laid_off_pct_change": 1.3938,
-      "event_count_delta": 17,
-      "event_count_pct_change": 0.25,
+      "total_laid_off_delta": 52193,
+      "total_laid_off_pct_change": 1.766,
+      "event_count_delta": 18,
+      "event_count_pct_change": 0.2647,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q1",
       "total_laid_off": 29845,
       "event_count": 103,
-      "total_laid_off_delta": 40902,
-      "total_laid_off_pct_change": 1.3705,
-      "event_count_delta": -18,
-      "event_count_pct_change": -0.1748,
+      "total_laid_off_delta": 51902,
+      "total_laid_off_pct_change": 1.7391,
+      "event_count_delta": -17,
+      "event_count_pct_change": -0.165,
       "note": null
     }
   },
@@ -52,6 +52,10 @@
         "total_laid_off": 16100
       },
       {
+        "company": "Dell",
+        "total_laid_off": 11000
+      },
+      {
         "company": "Block",
         "total_laid_off": 4000
       },
@@ -64,11 +68,11 @@
         "total_laid_off": 1700
       },
       {
-        "company": "Ericsson",
+        "company": "Atlassian",
         "total_laid_off": 1600
       },
       {
-        "company": "Atlassian",
+        "company": "Ericsson",
         "total_laid_off": 1600
       },
       {
@@ -77,10 +81,6 @@
       },
       {
         "company": "Ocado",
-        "total_laid_off": 1000
-      },
-      {
-        "company": "Autodesk",
         "total_laid_off": 1000
       }
     ],
@@ -94,6 +94,10 @@
         "total_laid_off": 17781
       },
       {
+        "industry": "Hardware",
+        "total_laid_off": 12750
+      },
+      {
         "industry": "Consumer",
         "total_laid_off": 5360
       },
@@ -104,10 +108,6 @@
       {
         "industry": "Logistics",
         "total_laid_off": 2000
-      },
-      {
-        "industry": "Hardware",
-        "total_laid_off": 1750
       },
       {
         "industry": "Food",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 57715
+        "total_laid_off": 68715
       },
       {
         "country": "Australia",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 64637
+        "total_laid_off": 75637
       },
       {
         "stage": "Unknown",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 9
+        "event_count": 10
       },
       {
         "bucket": "25-49%",
@@ -254,6 +254,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+      },
+      {
+        "date": "2026-03-16",
+        "company": "Dell",
+        "num_laid_off": 11000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
       },
       {
         "date": "2026-02-26",
@@ -324,16 +334,6 @@
         "country": "India",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
-      },
-      {
-        "date": "2026-02-26",
-        "company": "Ocado",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.05,
-        "industry": "Food",
-        "country": "United Kingdom",
-        "stage": "Post-IPO",
-        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
       }
     ],
     "recent_events": [
@@ -498,6 +498,16 @@
         "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       },
       {
+        "date": "2026-03-16",
+        "company": "Dell",
+        "num_laid_off": 11000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
+      },
+      {
         "date": "2026-03-13",
         "company": "Stone",
         "num_laid_off": 400,
@@ -526,16 +536,6 @@
         "country": "Australia",
         "stage": "Post-IPO",
         "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
-      },
-      {
-        "date": "2026-03-10",
-        "company": "InvestCloud",
-        "num_laid_off": 150,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Private Equity",
-        "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 85 public layoff events and 70,747 reported layoffs.",
+    "2026-Q1 includes 86 public layoff events and 81,747 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

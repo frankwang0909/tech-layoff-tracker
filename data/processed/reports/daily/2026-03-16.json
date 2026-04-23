@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2026-03-16",
+  "status": "final",
+  "date_range": {
+    "start": "2026-03-16",
+    "end": "2026-03-16"
+  },
+  "updated_at": "2026-04-20",
+  "canonical_url": "/reports/daily/2026-03-16.html",
+  "kpis": {
+    "total_laid_off": 11000,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 11000.0,
+    "median_layoffs_per_headcount_event": 11000.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-03-15",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2025-03-16",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Dell",
+        "total_laid_off": 11000
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 11000
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 11000
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 11000
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-03-16",
+        "company": "Dell",
+        "num_laid_off": 11000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-03-16",
+        "company": "Dell",
+        "num_laid_off": 11000,
+        "percentage_laid_off": 0.1,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-03-16 includes 1 public layoff events and 11,000 reported layoffs.",
+    "The largest company contributor is Dell with 11,000 reported layoffs.",
+    "The leading named industry is Hardware with 11,000 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -10,10 +10,10 @@
       "end": "2026-04-17"
     },
     "kpis": {
-      "total_laid_off": 172446,
-      "event_count": 262,
-      "headcount_event_count": 172,
-      "company_count": 195,
+      "total_laid_off": 183446,
+      "event_count": 263,
+      "headcount_event_count": 173,
+      "company_count": 196,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 44
@@ -78,7 +78,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 31720
+          "total_laid_off": 42720
         },
         {
           "month": "2026-04",
@@ -107,6 +107,10 @@
           "total_laid_off": 14000
         },
         {
+          "company": "Dell",
+          "total_laid_off": 11000
+        },
+        {
           "company": "HP",
           "total_laid_off": 8000
         },
@@ -121,10 +125,6 @@
         {
           "company": "Hewlett Packard Enterprise",
           "total_laid_off": 2552
-        },
-        {
-          "company": "Autodesk",
-          "total_laid_off": 2350
         }
       ]
     },
@@ -142,16 +142,6 @@
         },
         {
           "date": "2026-04-16",
-          "company": "Quora",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
-        },
-        {
-          "date": "2026-04-16",
           "company": "Shutterfly",
           "num_laid_off": 80,
           "percentage_laid_off": null,
@@ -159,6 +149,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+        },
+        {
+          "date": "2026-04-16",
+          "company": "Quora",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
         },
         {
           "date": "2026-04-15",
@@ -172,16 +172,6 @@
         },
         {
           "date": "2026-04-15",
-          "company": "Productboard",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
-        },
-        {
-          "date": "2026-04-15",
           "company": "UKG",
           "num_laid_off": 950,
           "percentage_laid_off": null,
@@ -189,6 +179,16 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Productboard",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
         },
         {
           "date": "2026-04-13",
@@ -282,7 +282,7 @@
         }
       ]
     },
-    "summary": "United States has 172,446 reported tech layoffs across 262 public events from 2025-01-02 to 2026-04-17."
+    "summary": "United States has 183,446 reported tech layoffs across 263 public events from 2025-01-02 to 2026-04-17."
   },
   {
     "type": "country",

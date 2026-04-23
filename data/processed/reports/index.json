@@ -7,7 +7,7 @@
   "report_groups": [
     {
       "report_type": "daily",
-      "count": 244,
+      "count": 245,
       "reports": [
         {
           "report_type": "daily",
@@ -2936,6 +2936,19 @@
         },
         {
           "report_type": "daily",
+          "period": "2026-03-16",
+          "status": "final",
+          "date_range": {
+            "start": "2026-03-16",
+            "end": "2026-03-16"
+          },
+          "path": "reports/daily/2026-03-16.json",
+          "canonical_url": "/reports/daily/2026-03-16.html",
+          "total_laid_off": 11000,
+          "event_count": 1
+        },
+        {
+          "report_type": "daily",
           "period": "2026-03-17",
           "status": "final",
           "date_range": {
@@ -3985,13 +3998,13 @@
           "period": "2026-W12",
           "status": "final",
           "date_range": {
-            "start": "2026-03-17",
+            "start": "2026-03-16",
             "end": "2026-03-20"
           },
           "path": "reports/weekly/2026-W12.json",
           "canonical_url": "/reports/weekly/2026-W12.html",
-          "total_laid_off": 0,
-          "event_count": 4
+          "total_laid_off": 11000,
+          "event_count": 5
         },
         {
           "report_type": "weekly",
@@ -4256,8 +4269,8 @@
           },
           "path": "reports/monthly/2026-03.json",
           "canonical_url": "/reports/monthly/2026-03.html",
-          "total_laid_off": 34800,
-          "event_count": 28
+          "total_laid_off": 45800,
+          "event_count": 29
         },
         {
           "report_type": "monthly",
@@ -4340,8 +4353,8 @@
           },
           "path": "reports/quarterly/2026-Q1.json",
           "canonical_url": "/reports/quarterly/2026-Q1.html",
-          "total_laid_off": 70747,
-          "event_count": 85
+          "total_laid_off": 81747,
+          "event_count": 86
         },
         {
           "report_type": "quarterly",
@@ -4385,8 +4398,8 @@
           },
           "path": "reports/yearly/2026.json",
           "canonical_url": "/reports/yearly/2026.html",
-          "total_laid_off": 81272,
-          "event_count": 103
+          "total_laid_off": 92272,
+          "event_count": 104
         }
       ]
     }

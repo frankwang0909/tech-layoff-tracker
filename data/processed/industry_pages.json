@@ -7,13 +7,13 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-02-15"
+      "end": "2026-03-16"
     },
     "kpis": {
-      "total_laid_off": 40087,
-      "event_count": 16,
-      "headcount_event_count": 13,
-      "company_count": 10,
+      "total_laid_off": 51087,
+      "event_count": 17,
+      "headcount_event_count": 14,
+      "company_count": 11,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 1
@@ -59,12 +59,20 @@
         {
           "month": "2026-02",
           "total_laid_off": 50
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 11000
         }
       ],
       "company_top": [
         {
           "company": "Intel",
           "total_laid_off": 27058
+        },
+        {
+          "company": "Dell",
+          "total_laid_off": 11000
         },
         {
           "company": "HP",
@@ -102,6 +110,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-03-16",
+          "company": "Dell",
+          "num_laid_off": 11000,
+          "percentage_laid_off": 0.1,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
+        },
         {
           "date": "2026-02-15",
           "company": "Huawei",
@@ -241,20 +259,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2025/03/06/hewlett-packard-enterprise-hpe-q1-earnings-report-2025.html"
-        },
-        {
-          "date": "2025-02-28",
-          "company": "HP",
-          "num_laid_off": 4000,
-          "percentage_laid_off": 0.1,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
         }
       ]
     },
-    "summary": "Hardware has 40,087 reported tech layoffs across 16 public events from 2025-02-04 to 2026-02-15."
+    "summary": "Hardware has 51,087 reported tech layoffs across 17 public events from 2025-02-04 to 2026-03-16."
   },
   {
     "type": "industry",

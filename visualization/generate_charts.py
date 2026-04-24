@@ -2012,6 +2012,8 @@ Canonical pages:
 - Dashboard: https://tech.debugcanada.com/
 - Trend report: https://tech.debugcanada.com/trend-report.html
 - Reports archive: https://tech.debugcanada.com/reports/
+- Industry directory: https://tech.debugcanada.com/industries/
+- Country directory: https://tech.debugcanada.com/countries/
 - AI-readable summary: https://tech.debugcanada.com/ai-summary.json
 
 Current dataset:

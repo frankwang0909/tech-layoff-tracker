@@ -1658,16 +1658,16 @@ REPORTS_INDEX_TEMPLATE = r"""<!DOCTYPE html>
                 <h2>Industry Pages</h2>
                 <p>Focused pages summarize layoffs by industry with topic-specific trends, companies, and recent events.</p>
                 {% if top_industry_page %}
-                <a href="{{ top_industry_page.canonical_url }}">Open top industry page</a>
-                <span class="badge">{{ top_industry_page.name }}</span>
+                <a href="/industries/">Browse industry pages</a>
+                <span class="badge">Top page: {{ top_industry_page.name }}</span>
                 {% endif %}
             </article>
             <article class="card">
                 <h2>Country Pages</h2>
                 <p>Country and region pages summarize geographic layoff exposure and recent public records.</p>
                 {% if top_country_page %}
-                <a href="{{ top_country_page.canonical_url }}">Open top country page</a>
-                <span class="badge">{{ top_country_page.name }}</span>
+                <a href="/countries/">Browse country pages</a>
+                <span class="badge">Top page: {{ top_country_page.name }}</span>
                 {% endif %}
             </article>
         </div>
@@ -2239,6 +2239,124 @@ window.addEventListener('resize', () => [monthlyChart, companyChart].forEach(cha
 </html>"""
 
 
+TOPIC_INDEX_TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+    <meta name="keywords" content="{{ seo_keywords }}">
+    <link rel="canonical" href="https://tech.debugcanada.com/{{ collection_slug }}/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tech.debugcanada.com/{{ collection_slug }}/">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
+    <script type="application/ld+json">{{ breadcrumb_jsonld | tojson }}</script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 700;
+            padding: 0.45rem 0.85rem;
+            border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.4);
+            white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover {
+            color: #fff;
+            border-color: rgba(56, 189, 248, 0.55);
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.16);
+            text-decoration: none;
+        }
+        .hero { padding: 44px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(36px, 6vw, 68px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
+        .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 30px 0 56px; }
+        .card { background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 20px; }
+        .card h2 { margin: 0 0 8px; font-size: 24px; color: #f8fafc; }
+        .card p { color: #94a3b8; margin: 0 0 14px; }
+        .badge { display: inline-block; color: #64748b; font-size: 13px; font-weight: 700; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 720px) {
+            .grid { grid-template-columns: 1fr; }
+            .hero { padding: 20px 0 16px; }
+            .dek { font-size: 15px; }
+            h1 { font-size: clamp(28px, 8vw, 48px); }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/">Reports</a>
+            </nav>
+            <p class="eyebrow">{{ collection_label }} directory</p>
+            <h1>{{ heading }}</h1>
+            <p class="dek">{{ dek }}</p>
+            <div class="meta">
+                <span>Coverage: {{ stats.date_range.start }} to {{ stats.date_range.end }}</span>
+                <span>{{ pages | length }} pages</span>
+            </div>
+        </div>
+    </header>
+    <main class="wrap">
+        <div class="grid">
+            {% for page in pages %}
+            <article class="card">
+                <h2><a href="{{ page.canonical_url }}">{{ page.name }}</a></h2>
+                <p>{{ page.summary }}</p>
+                <a href="{{ page.canonical_url }}">Open {{ page.name }} page</a>
+                <span class="badge">{{ page.kpis.total_laid_off | format_number }} layoffs · {{ page.kpis.event_count | format_number }} events</span>
+            </article>
+            {% endfor %}
+        </div>
+    </main>
+    <footer class="wrap">
+        {{ COMMON_FOOTER_EN }}
+    </footer>
+</body>
+</html>"""
+
+
 def format_number(value: int | float) -> str:
     """Format large numbers with comma separator."""
     try:
@@ -2708,6 +2826,13 @@ def render_topic_pages(
 ) -> list[dict]:
     """Render industry and country topic pages."""
     generated = []
+    generated.extend(
+        render_topic_index_pages(
+            env=env,
+            industry_pages=industry_pages,
+            country_pages=country_pages,
+        )
+    )
     for page in industry_pages + country_pages:
         html_path = Path(page["canonical_url"].lstrip("/"))
         html_path.parent.mkdir(parents=True, exist_ok=True)
@@ -2724,6 +2849,101 @@ def render_topic_pages(
     if generated:
         logger.info(f"   🧩 Topic pages saved: {len(generated)} industry/country pages")
     return generated
+
+
+def render_topic_index_pages(
+    env: Environment,
+    industry_pages: list[dict],
+    country_pages: list[dict],
+) -> list[dict]:
+    """Render top-level listing pages for industry and country topic pages."""
+    generated = []
+    index_specs = [
+        {
+            "collection_slug": "industries",
+            "collection_label": "Industry",
+            "heading": "Tech Layoffs by Industry",
+            "dek": "Browse industry-specific pages with trend snapshots, top companies, and recent layoff events for each tracked segment.",
+            "pages": industry_pages,
+        },
+        {
+            "collection_slug": "countries",
+            "collection_label": "Country",
+            "heading": "Tech Layoffs by Country",
+            "dek": "Browse country-specific pages with localized trend lines, top companies, and recent layoff events for each tracked market.",
+            "pages": country_pages,
+        },
+    ]
+
+    for spec in index_specs:
+        stats = build_topic_index_stats(spec["pages"])
+        breadcrumb_jsonld = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Dashboard",
+                    "item": "https://tech.debugcanada.com/",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": spec["heading"],
+                    "item": f"https://tech.debugcanada.com/{spec['collection_slug']}/",
+                },
+            ],
+        }
+        seo_title = f"{spec['heading']} | Tech Layoff Tracker"
+        seo_description = (
+            f"Browse {len(spec['pages'])} {spec['collection_label'].lower()} pages covering "
+            f"reported tech layoffs from {stats['date_range']['start']} to {stats['date_range']['end']}."
+        )
+        seo_keywords = ", ".join([
+            f"tech layoffs by {spec['collection_label'].lower()}",
+            f"{spec['collection_label'].lower()} tech layoffs",
+            "layoffs.fyi tracker",
+            "tech layoff statistics",
+        ])
+        html = env.from_string(TOPIC_INDEX_TEMPLATE).render(
+            collection_slug=spec["collection_slug"],
+            collection_label=spec["collection_label"],
+            heading=spec["heading"],
+            dek=spec["dek"],
+            pages=spec["pages"],
+            stats=stats,
+            seo_title=seo_title,
+            seo_description=seo_description,
+            seo_keywords=seo_keywords,
+            breadcrumb_jsonld=breadcrumb_jsonld,
+            COMMON_FOOTER_EN=COMMON_FOOTER_EN,
+        )
+        html_path = Path(spec["collection_slug"]) / "index.html"
+        html_path.parent.mkdir(parents=True, exist_ok=True)
+        html_path.write_text(html, encoding="utf-8")
+        generated.append({
+            "type": f"{spec['collection_slug']}_index",
+            "name": spec["heading"],
+            "canonical_url": f"/{spec['collection_slug']}/",
+            "date_range": stats["date_range"],
+        })
+
+    return generated
+
+
+def build_topic_index_stats(pages: list[dict]) -> dict:
+    """Build aggregate date range metadata for topic listing pages."""
+    if not pages:
+        return {"date_range": {"start": "", "end": ""}}
+    starts = [page["date_range"]["start"] for page in pages if page.get("date_range", {}).get("start")]
+    ends = [page["date_range"]["end"] for page in pages if page.get("date_range", {}).get("end")]
+    return {
+        "date_range": {
+            "start": min(starts) if starts else "",
+            "end": max(ends) if ends else "",
+        }
+    }
 
 
 def build_topic_page_context(page: dict) -> dict:
@@ -3061,6 +3281,8 @@ def write_sitemap_and_robots(
         {"loc": f"{site_url}/", "lastmod": lastmod, "priority": "1.0"},
         {"loc": f"{site_url}/trend-report.html", "lastmod": lastmod, "priority": "0.9"},
         {"loc": f"{site_url}/reports/", "lastmod": lastmod, "priority": "0.8"},
+        {"loc": f"{site_url}/industries/", "lastmod": lastmod, "priority": "0.7"},
+        {"loc": f"{site_url}/countries/", "lastmod": lastmod, "priority": "0.7"},
         {"loc": f"{site_url}/llms.txt", "lastmod": lastmod, "priority": "0.5"},
         {"loc": f"{site_url}/ai-summary.json", "lastmod": lastmod, "priority": "0.5"},
     ]

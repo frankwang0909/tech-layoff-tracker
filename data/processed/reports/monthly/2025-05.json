@@ -72,11 +72,11 @@
         "total_laid_off": 248
       },
       {
-        "company": "eBay",
+        "company": "Beam",
         "total_laid_off": 200
       },
       {
-        "company": "Beam",
+        "company": "eBay",
         "total_laid_off": 200
       },
       {
@@ -282,16 +282,6 @@
         "source": "https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/"
       },
       {
-        "date": "2025-05-01",
-        "company": "Beam",
-        "num_laid_off": 200,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United Kingdom",
-        "stage": "Unknown",
-        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
-      },
-      {
         "date": "2025-05-28",
         "company": "eBay",
         "num_laid_off": 200,
@@ -300,6 +290,16 @@
         "country": "Israel",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/hywdt44mxx"
+      },
+      {
+        "date": "2025-05-01",
+        "company": "Beam",
+        "num_laid_off": 200,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
       },
       {
         "date": "2025-05-07",
@@ -546,16 +546,6 @@
         "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
       },
       {
-        "date": "2025-05-02",
-        "company": "Log 9 Materials",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Manufacturing",
-        "country": "India",
-        "stage": "Series B",
-        "source": "https://inc42.com/features/log9-materials-collapse-battery-tech-startup-cash-crunch/"
-      },
-      {
         "date": "2025-05-01",
         "company": "Beam",
         "num_laid_off": 200,
@@ -564,6 +554,16 @@
         "country": "United Kingdom",
         "stage": "Unknown",
         "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+      },
+      {
+        "date": "2025-05-02",
+        "company": "Log 9 Materials",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://inc42.com/features/log9-materials-collapse-battery-tech-startup-cash-crunch/"
       },
       {
         "date": "2025-05-22",

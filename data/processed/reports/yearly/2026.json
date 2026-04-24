@@ -80,7 +80,7 @@
         "total_laid_off": 1600
       },
       {
-        "company": "Epic Games",
+        "company": "Autodesk",
         "total_laid_off": 1000
       }
     ],
@@ -540,26 +540,6 @@
     ],
     "high_intensity_events": [
       {
-        "date": "2026-01-25",
-        "company": "Entropy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
-      },
-      {
-        "date": "2026-03-26",
-        "company": "Quandoo",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "Germany",
-        "stage": "Acquired",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
-      },
-      {
         "date": "2026-04-09",
         "company": "Pepper Pay",
         "num_laid_off": null,
@@ -581,6 +561,16 @@
       },
       {
         "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-31",
         "company": "Covrzy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -590,14 +580,14 @@
         "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
-        "date": "2026-03-31",
-        "company": "Rec Room",
+        "date": "2026-03-26",
+        "company": "Quandoo",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
         "date": "2026-03-31",
@@ -618,6 +608,16 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+      },
+      {
+        "date": "2026-01-25",
+        "company": "Entropy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
       },
       {
         "date": "2026-03-04",

@@ -68,11 +68,11 @@
         "total_laid_off": 281
       },
       {
-        "company": "Forto",
+        "company": "GupShup",
         "total_laid_off": 200
       },
       {
-        "company": "GupShup",
+        "company": "Forto",
         "total_laid_off": 200
       },
       {
@@ -254,26 +254,6 @@
         "source": "https://techcrunch.com/2025/04/02/wordpress-maker-automattic-lays-off-16-of-staff/"
       },
       {
-        "date": "2025-04-26",
-        "company": "Cars24",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Series G",
-        "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
-      },
-      {
-        "date": "2025-04-26",
-        "company": "Cars24",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Series G",
-        "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
-      },
-      {
         "date": "2025-04-15",
         "company": "GupShup",
         "num_laid_off": 200,
@@ -292,6 +272,26 @@
         "country": "Germany",
         "stage": "Series D",
         "source": "https://www.businessinsider.de/gruenderszene/automotive-mobility/forto-entlassungen-gruende/"
+      },
+      {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
+      },
+      {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
       },
       {
         "date": "2025-04-16",
@@ -538,16 +538,6 @@
         "source": "https://searchengineland.com/marin-software-shutting-down-454228"
       },
       {
-        "date": "2025-04-09",
-        "company": "Wing Cloud",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Infrastructure",
-        "country": "Israel",
-        "stage": "Seed",
-        "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
-      },
-      {
         "date": "2025-04-06",
         "company": "Coho AI",
         "num_laid_off": null,
@@ -556,6 +546,16 @@
         "country": "Israel",
         "stage": "Seed",
         "source": "https://www.calcalistech.com/ctechnews/article/hjkodbg0jg"
+      },
+      {
+        "date": "2025-04-09",
+        "company": "Wing Cloud",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Infrastructure",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
       },
       {
         "date": "2025-04-02",

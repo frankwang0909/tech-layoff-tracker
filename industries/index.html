@@ -12,6 +12,8 @@
     <meta property="og:title" content="Tech Layoffs by Industry | Tech Layoff Tracker">
     <meta property="og:description" content="Browse 25 industry pages covering reported tech layoffs from 2025-01-02 to 2026-04-20.">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com/", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/industries/", "name": "Tech Layoffs by Industry", "position": 2}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "name": "Hardware", "position": 1, "url": "https://tech.debugcanada.com/industries/hardware.html"}, {"@type": "ListItem", "name": "Retail", "position": 2, "url": "https://tech.debugcanada.com/industries/retail.html"}, {"@type": "ListItem", "name": "Consumer", "position": 3, "url": "https://tech.debugcanada.com/industries/consumer.html"}, {"@type": "ListItem", "name": "Finance", "position": 4, "url": "https://tech.debugcanada.com/industries/finance.html"}, {"@type": "ListItem", "name": "Sales", "position": 5, "url": "https://tech.debugcanada.com/industries/sales.html"}, {"@type": "ListItem", "name": "HR", "position": 6, "url": "https://tech.debugcanada.com/industries/hr.html"}, {"@type": "ListItem", "name": "Transportation", "position": 7, "url": "https://tech.debugcanada.com/industries/transportation.html"}, {"@type": "ListItem", "name": "Food", "position": 8, "url": "https://tech.debugcanada.com/industries/food.html"}, {"@type": "ListItem", "name": "Energy", "position": 9, "url": "https://tech.debugcanada.com/industries/energy.html"}, {"@type": "ListItem", "name": "Data", "position": 10, "url": "https://tech.debugcanada.com/industries/data.html"}, {"@type": "ListItem", "name": "Logistics", "position": 11, "url": "https://tech.debugcanada.com/industries/logistics.html"}, {"@type": "ListItem", "name": "Security", "position": 12, "url": "https://tech.debugcanada.com/industries/security.html"}, {"@type": "ListItem", "name": "Manufacturing", "position": 13, "url": "https://tech.debugcanada.com/industries/manufacturing.html"}, {"@type": "ListItem", "name": "Marketing", "position": 14, "url": "https://tech.debugcanada.com/industries/marketing.html"}, {"@type": "ListItem", "name": "AI", "position": 15, "url": "https://tech.debugcanada.com/industries/ai.html"}, {"@type": "ListItem", "name": "Aerospace", "position": 16, "url": "https://tech.debugcanada.com/industries/aerospace.html"}, {"@type": "ListItem", "name": "Support", "position": 17, "url": "https://tech.debugcanada.com/industries/support.html"}, {"@type": "ListItem", "name": "Real Estate", "position": 18, "url": "https://tech.debugcanada.com/industries/real-estate.html"}, {"@type": "ListItem", "name": "Education", "position": 19, "url": "https://tech.debugcanada.com/industries/education.html"}, {"@type": "ListItem", "name": "Media", "position": 20, "url": "https://tech.debugcanada.com/industries/media.html"}, {"@type": "ListItem", "name": "Travel", "position": 21, "url": "https://tech.debugcanada.com/industries/travel.html"}, {"@type": "ListItem", "name": "Healthcare", "position": 22, "url": "https://tech.debugcanada.com/industries/healthcare.html"}, {"@type": "ListItem", "name": "Crypto", "position": 23, "url": "https://tech.debugcanada.com/industries/crypto.html"}, {"@type": "ListItem", "name": "Recruiting", "position": 24, "url": "https://tech.debugcanada.com/industries/recruiting.html"}, {"@type": "ListItem", "name": "Product", "position": 25, "url": "https://tech.debugcanada.com/industries/product.html"}], "name": "Tech Layoffs by Industry"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "It includes 25 generated industry pages with summaries, trend charts, top companies, and recent layoff events from the public dataset."}, "name": "What does the industry directory include?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The current coverage window shown here runs from 2025-01-02 to 2026-04-20, with the page set last updated on 2026-04-20."}, "name": "How recent is the industry data?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "These pages summarize public layoff records. Missing headcount values may still count as events, and the dataset should not be used as proof of causal claims."}, "name": "How should these pages be interpreted?"}]}</script>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -69,6 +71,16 @@
         .card h2 { margin: 0 0 8px; font-size: 24px; color: #f8fafc; }
         .card p { color: #94a3b8; margin: 0 0 14px; }
         .badge { display: inline-block; color: #64748b; font-size: 13px; font-weight: 700; }
+        .copy { margin: 28px 0; color: #cbd5e1; }
+        .copy p { margin: 0 0 14px; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
         footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
         footer a { color: #818cf8; text-decoration: none; }
         footer a:hover { text-decoration: underline; }
@@ -93,11 +105,19 @@
             <p class="dek">Browse industry-specific pages with trend snapshots, top companies, and recent layoff events for each tracked segment.</p>
             <div class="meta">
                 <span>Coverage: 2025-01-02 to 2026-04-20</span>
+                <span>Updated: 2026-04-20</span>
                 <span>25 pages</span>
             </div>
         </div>
     </header>
     <main class="wrap">
+        <section class="copy">
+            
+            <p>This directory groups the tracker into 25 industry pages, covering 159,586 reported layoffs across 374 public events.</p>
+            
+            <p>The current coverage window runs from 2025-01-02 to 2026-04-20. The largest page in this set is Hardware, with 51,087 reported layoffs.</p>
+            
+        </section>
         <div class="grid">
             
             <article class="card">
@@ -276,6 +296,25 @@
             </article>
             
         </div>
+        <section class="faq">
+            <h2>FAQ</h2>
+            
+            <details>
+                <summary>What does the industry directory include?</summary>
+                <p>It includes 25 generated industry pages with summaries, trend charts, top companies, and recent layoff events from the public dataset.</p>
+            </details>
+            
+            <details>
+                <summary>How recent is the industry data?</summary>
+                <p>The current coverage window shown here runs from 2025-01-02 to 2026-04-20, with the page set last updated on 2026-04-20.</p>
+            </details>
+            
+            <details>
+                <summary>How should these pages be interpreted?</summary>
+                <p>These pages summarize public layoff records. Missing headcount values may still count as events, and the dataset should not be used as proof of causal claims.</p>
+            </details>
+            
+        </section>
     </main>
     <footer class="wrap">
         Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>

@@ -2062,6 +2062,7 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
     <meta name="robots" content="index, follow">
     <script type="application/ld+json">{{ article_jsonld | tojson }}</script>
     <script type="application/ld+json">{{ breadcrumb_jsonld | tojson }}</script>
+    <script type="application/ld+json">{{ faq_jsonld | tojson }}</script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
     <style>
         * { box-sizing: border-box; }
@@ -2130,16 +2131,33 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
         h2 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 38px); line-height: 1.1; color: #f8fafc; }
         .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
         .chart { width: 100%; height: 380px; border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; background: rgba(15, 23, 42, 0.6); }
+        .related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+        .related-card {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 16px;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .related-card h3 { margin: 0 0 8px; font-size: 19px; color: #f8fafc; }
+        .related-card p { margin: 0 0 12px; color: #94a3b8; font-size: 14px; }
         table { width: 100%; border-collapse: collapse; margin-top: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.06); }
         th, td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); text-align: left; vertical-align: top; font-size: 14px; color: #e2e8f0; }
         th { color: #94a3b8; background: rgba(255,255,255,0.04); }
         tr:last-child td { border-bottom: 0; }
         .note { color: #64748b; font-size: 14px; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
         footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
         footer a { color: #818cf8; text-decoration: none; }
         footer a:hover { text-decoration: underline; }
         @media (max-width: 760px) {
-            .kpis, .chart-grid { grid-template-columns: 1fr; }
+            .kpis, .chart-grid, .related-grid { grid-template-columns: 1fr; }
             .chart { height: 280px; }
             .hero { padding: 20px 0 16px; }
             .dek { font-size: 15px; }
@@ -2170,6 +2188,7 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
             <p class="dek">{{ page.summary }}</p>
             <div class="meta">
                 <span>Data range: {{ page.date_range.start }} to {{ page.date_range.end }}</span>
+                <span>Updated: {{ updated_at }}</span>
                 <span>Based on public layoff records</span>
             </div>
             <div class="kpis" aria-label="Topic key metrics">
@@ -2185,6 +2204,7 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
         <section id="summary">
             <h2>Summary</h2>
             <p>{{ description }}</p>
+            <p>{{ narrative_intro }}</p>
             <p class="note">This page is generated as a focused topic page. It should be interpreted with the same methodology limits as the main trend report.</p>
         </section>
 
@@ -2222,6 +2242,29 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
                     {% endfor %}
                 </tbody>
             </table>
+        </section>
+
+        <section id="related-pages">
+            <h2>Related Pages</h2>
+            <div class="related-grid">
+                {% for related_page in related_pages %}
+                <article class="related-card">
+                    <h3><a href="{{ related_page.canonical_url }}">{{ related_page.name }}</a></h3>
+                    <p>{{ related_page.summary }}</p>
+                    <a href="{{ related_page.canonical_url }}">Open {{ related_page.name }} page</a>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+            {% for item in faqs %}
+            <details>
+                <summary>{{ item.question }}</summary>
+                <p>{{ item.answer }}</p>
+            </details>
+            {% endfor %}
         </section>
     </main>
 
@@ -2271,6 +2314,8 @@ TOPIC_INDEX_TEMPLATE = r"""<!DOCTYPE html>
     <meta property="og:title" content="{{ seo_title }}">
     <meta property="og:description" content="{{ seo_description }}">
     <script type="application/ld+json">{{ breadcrumb_jsonld | tojson }}</script>
+    <script type="application/ld+json">{{ itemlist_jsonld | tojson }}</script>
+    <script type="application/ld+json">{{ faq_jsonld | tojson }}</script>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -2328,6 +2373,16 @@ TOPIC_INDEX_TEMPLATE = r"""<!DOCTYPE html>
         .card h2 { margin: 0 0 8px; font-size: 24px; color: #f8fafc; }
         .card p { color: #94a3b8; margin: 0 0 14px; }
         .badge { display: inline-block; color: #64748b; font-size: 13px; font-weight: 700; }
+        .copy { margin: 28px 0; color: #cbd5e1; }
+        .copy p { margin: 0 0 14px; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
         footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
         footer a { color: #818cf8; text-decoration: none; }
         footer a:hover { text-decoration: underline; }
@@ -2352,11 +2407,17 @@ TOPIC_INDEX_TEMPLATE = r"""<!DOCTYPE html>
             <p class="dek">{{ dek }}</p>
             <div class="meta">
                 <span>Coverage: {{ stats.date_range.start }} to {{ stats.date_range.end }}</span>
+                <span>Updated: {{ stats.updated_at }}</span>
                 <span>{{ pages | length }} pages</span>
             </div>
         </div>
     </header>
     <main class="wrap">
+        <section class="copy">
+            {% for paragraph in intro_paragraphs %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+        </section>
         <div class="grid">
             {% for page in pages %}
             <article class="card">
@@ -2367,6 +2428,15 @@ TOPIC_INDEX_TEMPLATE = r"""<!DOCTYPE html>
             </article>
             {% endfor %}
         </div>
+        <section class="faq">
+            <h2>FAQ</h2>
+            {% for item in faqs %}
+            <details>
+                <summary>{{ item.question }}</summary>
+                <p>{{ item.answer }}</p>
+            </details>
+            {% endfor %}
+        </section>
     </main>
     <footer class="wrap">
         {{ COMMON_FOOTER_EN }}
@@ -2759,6 +2829,7 @@ def write_report_pages(env: Environment, context: dict, report_data_dir: Path) -
         env=env,
         industry_pages=context["industry_pages"],
         country_pages=context["country_pages"],
+        stats=context["stats"],
     )
     latest_weekly = latest_report_meta(period_reports, "weekly")
     latest_monthly = latest_report_meta(period_reports, "monthly")
@@ -2841,6 +2912,7 @@ def render_topic_pages(
     env: Environment,
     industry_pages: list[dict],
     country_pages: list[dict],
+    stats: dict,
 ) -> list[dict]:
     """Render industry and country topic pages."""
     generated = []
@@ -2849,12 +2921,18 @@ def render_topic_pages(
             env=env,
             industry_pages=industry_pages,
             country_pages=country_pages,
+            stats=stats,
         )
     )
     for page in industry_pages + country_pages:
         html_path = Path(page["canonical_url"].lstrip("/"))
         html_path.parent.mkdir(parents=True, exist_ok=True)
-        context = build_topic_page_context(page)
+        context = build_topic_page_context(
+            page=page,
+            industry_pages=industry_pages,
+            country_pages=country_pages,
+            updated_at=stats.get("date_range", {}).get("end", page["date_range"]["end"]),
+        )
         html = env.from_string(TOPIC_PAGE_TEMPLATE).render(**context)
         html_path.write_text(html, encoding="utf-8")
         generated.append({
@@ -2873,9 +2951,11 @@ def render_topic_index_pages(
     env: Environment,
     industry_pages: list[dict],
     country_pages: list[dict],
+    stats: dict,
 ) -> list[dict]:
     """Render top-level listing pages for industry and country topic pages."""
     generated = []
+    global_updated_at = stats.get("date_range", {}).get("end", "")
     index_specs = [
         {
             "collection_slug": "industries",
@@ -2895,6 +2975,7 @@ def render_topic_index_pages(
 
     for spec in index_specs:
         stats = build_topic_index_stats(spec["pages"])
+        stats["updated_at"] = stats.get("updated_at") or global_updated_at
         breadcrumb_jsonld = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
@@ -2924,6 +3005,34 @@ def render_topic_index_pages(
             "layoffs.fyi tracker",
             "tech layoff statistics",
         ])
+        intro_paragraphs = build_topic_index_intro(spec["collection_label"], spec["pages"], stats)
+        faqs = build_topic_index_faqs(spec["collection_label"], spec["pages"], stats)
+        itemlist_jsonld = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": spec["heading"],
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": idx,
+                    "url": f"https://tech.debugcanada.com{page['canonical_url']}",
+                    "name": page["name"],
+                }
+                for idx, page in enumerate(spec["pages"], start=1)
+            ],
+        }
+        faq_jsonld = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": item["question"],
+                    "acceptedAnswer": {"@type": "Answer", "text": item["answer"]},
+                }
+                for item in faqs
+            ],
+        }
         html = env.from_string(TOPIC_INDEX_TEMPLATE).render(
             collection_slug=spec["collection_slug"],
             collection_label=spec["collection_label"],
@@ -2935,6 +3044,10 @@ def render_topic_index_pages(
             seo_description=seo_description,
             seo_keywords=seo_keywords,
             breadcrumb_jsonld=breadcrumb_jsonld,
+            itemlist_jsonld=itemlist_jsonld,
+            faq_jsonld=faq_jsonld,
+            intro_paragraphs=intro_paragraphs,
+            faqs=faqs,
             COMMON_FOOTER_EN=COMMON_FOOTER_EN,
         )
         html_path = Path(spec["collection_slug"]) / "index.html"
@@ -2960,11 +3073,93 @@ def build_topic_index_stats(pages: list[dict]) -> dict:
         "date_range": {
             "start": min(starts) if starts else "",
             "end": max(ends) if ends else "",
-        }
+        },
+        "updated_at": max(ends) if ends else "",
     }
 
 
-def build_topic_page_context(page: dict) -> dict:
+def build_topic_index_intro(collection_label: str, pages: list[dict], stats: dict) -> list[str]:
+    """Build descriptive intro copy for country/industry listing pages."""
+    if not pages:
+        return []
+    total_layoffs = sum(page["kpis"]["total_laid_off"] for page in pages)
+    total_events = sum(page["kpis"]["event_count"] for page in pages)
+    top_page = max(pages, key=lambda page: page["kpis"]["total_laid_off"])
+    return [
+        (
+            f"This directory groups the tracker into {len(pages)} {collection_label.lower()} pages, "
+            f"covering {format_number(total_layoffs)} reported layoffs across "
+            f"{format_number(total_events)} public events."
+        ),
+        (
+            f"The current coverage window runs from {stats['date_range']['start']} to "
+            f"{stats['date_range']['end']}. The largest page in this set is {top_page['name']}, "
+            f"with {format_number(top_page['kpis']['total_laid_off'])} reported layoffs."
+        ),
+    ]
+
+
+def build_topic_index_faqs(collection_label: str, pages: list[dict], stats: dict) -> list[dict]:
+    """Build FAQ content for topic listing pages."""
+    return [
+        {
+            "question": f"What does the {collection_label.lower()} directory include?",
+            "answer": (
+                f"It includes {len(pages)} generated {collection_label.lower()} pages with summaries, "
+                f"trend charts, top companies, and recent layoff events from the public dataset."
+            ),
+        },
+        {
+            "question": f"How recent is the {collection_label.lower()} data?",
+            "answer": (
+                f"The current coverage window shown here runs from {stats['date_range']['start']} "
+                f"to {stats['date_range']['end']}, with the page set last updated on {stats['updated_at']}."
+            ),
+        },
+        {
+            "question": "How should these pages be interpreted?",
+            "answer": (
+                "These pages summarize public layoff records. Missing headcount values may still count "
+                "as events, and the dataset should not be used as proof of causal claims."
+            ),
+        },
+    ]
+
+
+def build_topic_page_faqs(page: dict, topic_label: str, updated_at: str) -> list[dict]:
+    """Build FAQ content for one topic detail page."""
+    return [
+        {
+            "question": f"What does this {topic_label.lower()} page track?",
+            "answer": (
+                f"It tracks public layoff records associated with {page['name']} from "
+                f"{page['date_range']['start']} to {page['date_range']['end']}, including trend, "
+                "top-company, and recent-event views."
+            ),
+        },
+        {
+            "question": "When was this page last updated?",
+            "answer": (
+                f"The current page content was last regenerated on {updated_at}. "
+                f"The most recent record shown for this page is dated {page['date_range']['end']}."
+            ),
+        },
+        {
+            "question": "Why can this page have an older end date than the homepage?",
+            "answer": (
+                "The homepage shows the latest records across the full dataset. A topic page only updates "
+                "when a new public record matches that specific country or industry."
+            ),
+        },
+    ]
+
+
+def build_topic_page_context(
+    page: dict,
+    industry_pages: list[dict],
+    country_pages: list[dict],
+    updated_at: str,
+) -> dict:
     """Build template context and structured data for one topic page."""
     topic_label = "Industry" if page["type"] == "industry" else "Country"
     description = (
@@ -2981,7 +3176,7 @@ def build_topic_page_context(page: dict) -> dict:
         "headline": page["title"],
         "description": description,
         "datePublished": page["date_range"]["end"],
-        "dateModified": page["date_range"]["end"],
+        "dateModified": updated_at,
         "author": {"@type": "Person", "name": "Frank Wang"},
         "publisher": {
             "@type": "Organization",
@@ -3011,6 +3206,27 @@ def build_topic_page_context(page: dict) -> dict:
     }
     _end_yr = page["date_range"]["end"][:4] if page["date_range"].get("end") else ""
     _tco_list = [x["company"] for x in page.get("charts", {}).get("company_top", [])[:2]]
+    related_pool = industry_pages if page["type"] == "industry" else country_pages
+    related_pages = [item for item in related_pool if item["slug"] != page["slug"]][:3]
+    faqs = build_topic_page_faqs(page, topic_label, updated_at)
+    faq_jsonld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": item["question"],
+                "acceptedAnswer": {"@type": "Answer", "text": item["answer"]},
+            }
+            for item in faqs
+        ],
+    }
+    narrative_intro = (
+        f"This {topic_label.lower()} page highlights the latest public layoff records, "
+        f"the leading companies in the segment, and the rolling timeline from "
+        f"{page['date_range']['start']} to {page['date_range']['end']}. "
+        f"It is designed to help readers compare this slice of the dataset with the wider tracker."
+    )
     seo_keywords = ", ".join(filter(None, [
         f"{page['name']} tech layoffs",
         f"{page['name']} tech layoffs {_end_yr}" if _end_yr else None,
@@ -3025,10 +3241,15 @@ def build_topic_page_context(page: dict) -> dict:
         "topic_label": topic_label,
         "topic_index_href": f"/{topic_collection_path}/",
         "topic_index_label": f"{topic_label} List",
+        "updated_at": updated_at,
+        "narrative_intro": narrative_intro,
+        "related_pages": related_pages,
+        "faqs": faqs,
         "description": description,
         "seo_keywords": seo_keywords,
         "article_jsonld": article_jsonld,
         "breadcrumb_jsonld": breadcrumb_jsonld,
+        "faq_jsonld": faq_jsonld,
         "COMMON_FOOTER_EN": COMMON_FOOTER_EN,
         "COMMON_FOOTER_ZH": COMMON_FOOTER_ZH,
     }

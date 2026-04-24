@@ -12,6 +12,8 @@
     <meta property="og:title" content="Tech Layoffs by Country | Tech Layoff Tracker">
     <meta property="og:description" content="Browse 11 country pages covering reported tech layoffs from 2025-01-02 to 2026-04-20.">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://tech.debugcanada.com/", "name": "Dashboard", "position": 1}, {"@type": "ListItem", "item": "https://tech.debugcanada.com/countries/", "name": "Tech Layoffs by Country", "position": 2}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "name": "United States", "position": 1, "url": "https://tech.debugcanada.com/countries/united-states.html"}, {"@type": "ListItem", "name": "India", "position": 2, "url": "https://tech.debugcanada.com/countries/india.html"}, {"@type": "ListItem", "name": "Israel", "position": 3, "url": "https://tech.debugcanada.com/countries/israel.html"}, {"@type": "ListItem", "name": "Sweden", "position": 4, "url": "https://tech.debugcanada.com/countries/sweden.html"}, {"@type": "ListItem", "name": "Australia", "position": 5, "url": "https://tech.debugcanada.com/countries/australia.html"}, {"@type": "ListItem", "name": "Netherlands", "position": 6, "url": "https://tech.debugcanada.com/countries/netherlands.html"}, {"@type": "ListItem", "name": "Canada", "position": 7, "url": "https://tech.debugcanada.com/countries/canada.html"}, {"@type": "ListItem", "name": "Germany", "position": 8, "url": "https://tech.debugcanada.com/countries/germany.html"}, {"@type": "ListItem", "name": "United Kingdom", "position": 9, "url": "https://tech.debugcanada.com/countries/united-kingdom.html"}, {"@type": "ListItem", "name": "Brazil", "position": 10, "url": "https://tech.debugcanada.com/countries/brazil.html"}, {"@type": "ListItem", "name": "Nigeria", "position": 11, "url": "https://tech.debugcanada.com/countries/nigeria.html"}], "name": "Tech Layoffs by Country"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "It includes 11 generated country pages with summaries, trend charts, top companies, and recent layoff events from the public dataset."}, "name": "What does the country directory include?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "The current coverage window shown here runs from 2025-01-02 to 2026-04-20, with the page set last updated on 2026-04-20."}, "name": "How recent is the country data?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "These pages summarize public layoff records. Missing headcount values may still count as events, and the dataset should not be used as proof of causal claims."}, "name": "How should these pages be interpreted?"}]}</script>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -69,6 +71,16 @@
         .card h2 { margin: 0 0 8px; font-size: 24px; color: #f8fafc; }
         .card p { color: #94a3b8; margin: 0 0 14px; }
         .badge { display: inline-block; color: #64748b; font-size: 13px; font-weight: 700; }
+        .copy { margin: 28px 0; color: #cbd5e1; }
+        .copy p { margin: 0 0 14px; }
+        .faq details {
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 10px 0;
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .faq summary { cursor: pointer; font-weight: 800; }
         footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
         footer a { color: #818cf8; text-decoration: none; }
         footer a:hover { text-decoration: underline; }
@@ -93,11 +105,19 @@
             <p class="dek">Browse country-specific pages with localized trend lines, top companies, and recent layoff events for each tracked market.</p>
             <div class="meta">
                 <span>Coverage: 2025-01-02 to 2026-04-20</span>
+                <span>Updated: 2026-04-20</span>
                 <span>11 pages</span>
             </div>
         </div>
     </header>
     <main class="wrap">
+        <section class="copy">
+            
+            <p>This directory groups the tracker into 11 country pages, covering 215,291 reported layoffs across 420 public events.</p>
+            
+            <p>The current coverage window runs from 2025-01-02 to 2026-04-20. The largest page in this set is United States, with 183,446 reported layoffs.</p>
+            
+        </section>
         <div class="grid">
             
             <article class="card">
@@ -178,6 +198,25 @@
             </article>
             
         </div>
+        <section class="faq">
+            <h2>FAQ</h2>
+            
+            <details>
+                <summary>What does the country directory include?</summary>
+                <p>It includes 11 generated country pages with summaries, trend charts, top companies, and recent layoff events from the public dataset.</p>
+            </details>
+            
+            <details>
+                <summary>How recent is the country data?</summary>
+                <p>The current coverage window shown here runs from 2025-01-02 to 2026-04-20, with the page set last updated on 2026-04-20.</p>
+            </details>
+            
+            <details>
+                <summary>How should these pages be interpreted?</summary>
+                <p>These pages summarize public layoff records. Missing headcount values may still count as events, and the dataset should not be used as proof of causal claims.</p>
+            </details>
+            
+        </section>
     </main>
     <footer class="wrap">
         Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>

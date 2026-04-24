@@ -76,11 +76,11 @@
         "total_laid_off": 350
       },
       {
-        "company": "Kiwi.com",
+        "company": "Kaseya",
         "total_laid_off": 250
       },
       {
-        "company": "Kaseya",
+        "company": "Kiwi.com",
         "total_laid_off": 250
       }
     ],
@@ -106,11 +106,11 @@
         "total_laid_off": 250
       },
       {
-        "industry": "Travel",
+        "industry": "Security",
         "total_laid_off": 250
       },
       {
-        "industry": "Security",
+        "industry": "Travel",
         "total_laid_off": 250
       },
       {

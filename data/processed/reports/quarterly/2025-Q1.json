@@ -72,7 +72,7 @@
         "total_laid_off": 1070
       },
       {
-        "company": "Salesforce",
+        "company": "Ola Electric",
         "total_laid_off": 1000
       },
       {
@@ -118,11 +118,11 @@
         "total_laid_off": 1392
       },
       {
-        "industry": "Aerospace",
+        "industry": "Sales",
         "total_laid_off": 1000
       },
       {
-        "industry": "Sales",
+        "industry": "Aerospace",
         "total_laid_off": 1000
       }
     ],
@@ -296,14 +296,14 @@
         "source": "https://www.cnbc.com/2025/02/27/autodesk-says-it-will-cut-1350-employees.html"
       },
       {
-        "date": "2025-02-13",
-        "company": "Blue Origin",
+        "date": "2025-03-03",
+        "company": "Ola Electric",
         "num_laid_off": 1000,
-        "percentage_laid_off": 0.1,
-        "industry": "Aerospace",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://inc42.com/buzz/ola-electric-to-cut-over-1k-jobs-amid-rising-losses-report/"
       },
       {
         "date": "2025-02-03",
@@ -326,14 +326,14 @@
         "source": "https://techcrunch.com/2025/02/04/cruise-to-slash-workforce-by-50-after-gm-cuts-funding-to-robotaxi-operations/"
       },
       {
-        "date": "2025-03-03",
-        "company": "Ola Electric",
+        "date": "2025-02-13",
+        "company": "Blue Origin",
         "num_laid_off": 1000,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://inc42.com/buzz/ola-electric-to-cut-over-1k-jobs-amid-rising-losses-report/"
+        "percentage_laid_off": 0.1,
+        "industry": "Aerospace",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
       }
     ],
     "recent_events": [
@@ -540,56 +540,6 @@
     ],
     "high_intensity_events": [
       {
-        "date": "2025-03-10",
-        "company": "Arrival",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Transportation",
-        "country": "United Kingdom",
-        "stage": "Post-IPO",
-        "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
-      },
-      {
-        "date": "2025-02-21",
-        "company": "Electriq Global",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
-      },
-      {
-        "date": "2025-02-24",
-        "company": "HerMD",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series A",
-        "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
-      },
-      {
-        "date": "2025-02-24",
-        "company": "Skybox Security",
-        "num_laid_off": 300,
-        "percentage_laid_off": 1.0,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Private Equity",
-        "source": "https://www.calcalistech.com/ctechnews/article/s1wi4rc5yl"
-      },
-      {
-        "date": "2025-03-02",
-        "company": "ANS Commerce",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Acquired",
-        "source": "https://www.etnownews.com/technology/flipkart-shuts-down-ans-commerce-after-3-years-lays-off-employees-amid-e-commerce-restructuring-details-article-118657546"
-      },
-      {
         "date": "2025-01-02",
         "company": "Level",
         "num_laid_off": null,
@@ -600,14 +550,14 @@
         "source": "https://www.pymnts.com/acquisitions/2025/report-benefits-startup-level-shuts-down-after-acquisition-falls-through"
       },
       {
-        "date": "2025-01-14",
-        "company": "Advisor Credit Exchange",
+        "date": "2025-02-06",
+        "company": "NanoLock",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://citywire.com/ria/news/envestnet-backed-advisor-credit-exchange-to-shut-down-sources/a2457772"
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjgagxmkyl"
       },
       {
         "date": "2025-01-10",
@@ -620,24 +570,74 @@
         "source": "https://www.geekwire.com/2025/heavily-funded-pandion-delivery-startup-closes-abruptly-in-latest-logistics-industry-fallout/"
       },
       {
-        "date": "2025-01-30",
-        "company": "Cushion",
+        "date": "2025-01-13",
+        "company": "Alza",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Finance",
         "country": "United States",
-        "stage": "Series A",
-        "source": "https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/"
+        "stage": "Seed",
+        "source": "https://fortune.com/2025/01/13/alza-fintech-latino-thrive-capital-stripe-level-employer-com-shut-down-venture/"
       },
       {
-        "date": "2025-02-06",
-        "company": "NanoLock",
+        "date": "2025-03-10",
+        "company": "Arrival",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
+        "industry": "Transportation",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
+      },
+      {
+        "date": "2025-03-02",
+        "company": "ANS Commerce",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Acquired",
+        "source": "https://www.etnownews.com/technology/flipkart-shuts-down-ans-commerce-after-3-years-lays-off-employees-amid-e-commerce-restructuring-details-article-118657546"
+      },
+      {
+        "date": "2025-01-14",
+        "company": "Advisor Credit Exchange",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://citywire.com/ria/news/envestnet-backed-advisor-credit-exchange-to-shut-down-sources/a2457772"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "Skybox Security",
+        "num_laid_off": 300,
+        "percentage_laid_off": 1.0,
         "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.calcalistech.com/ctechnews/article/s1wi4rc5yl"
+      },
+      {
+        "date": "2025-02-24",
+        "company": "HerMD",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
+      },
+      {
+        "date": "2025-02-21",
+        "company": "Electriq Global",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
         "country": "Israel",
-        "stage": "Series B",
-        "source": "https://www.calcalistech.com/ctechnews/article/rjgagxmkyl"
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
       }
     ]
   },

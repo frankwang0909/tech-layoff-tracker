@@ -60,11 +60,11 @@
         "total_laid_off": 300
       },
       {
-        "company": "Zepz",
+        "company": "Justworks",
         "total_laid_off": 200
       },
       {
-        "company": "Justworks",
+        "company": "Zepz",
         "total_laid_off": 200
       },
       {
@@ -208,16 +208,6 @@
         "source": "https://www.tampabay.com/news/business/2025/02/10/wise-close-tampa-offices-cutting-more-than-300-jobs/"
       },
       {
-        "date": "2025-02-10",
-        "company": "Justworks",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "HR",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.justworks.com/press/company-news/a-note-from-justworks-ceo-mike-seckler"
-      },
-      {
         "date": "2025-02-12",
         "company": "Zepz",
         "num_laid_off": 200,
@@ -226,6 +216,16 @@
         "country": "United Kingdom",
         "stage": "Series E",
         "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
+      },
+      {
+        "date": "2025-02-10",
+        "company": "Justworks",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.justworks.com/press/company-news/a-note-from-justworks-ceo-mike-seckler"
       },
       {
         "date": "2025-02-13",

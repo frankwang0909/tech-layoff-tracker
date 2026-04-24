@@ -60,11 +60,11 @@
         "total_laid_off": 1350
       },
       {
-        "company": "Cruise",
+        "company": "Blue Origin",
         "total_laid_off": 1000
       },
       {
-        "company": "Blue Origin",
+        "company": "Cruise",
         "total_laid_off": 1000
       },
       {
@@ -256,16 +256,6 @@
         "source": "https://www.cnbc.com/2025/02/27/autodesk-says-it-will-cut-1350-employees.html"
       },
       {
-        "date": "2025-02-04",
-        "company": "Cruise",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.5,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://techcrunch.com/2025/02/04/cruise-to-slash-workforce-by-50-after-gm-cuts-funding-to-robotaxi-operations/"
-      },
-      {
         "date": "2025-02-03",
         "company": "Salesforce",
         "num_laid_off": 1000,
@@ -274,6 +264,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/news/salesforce-cut-1-000-roles-002028643.html"
+      },
+      {
+        "date": "2025-02-04",
+        "company": "Cruise",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.5,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2025/02/04/cruise-to-slash-workforce-by-50-after-gm-cuts-funding-to-robotaxi-operations/"
       },
       {
         "date": "2025-02-13",
@@ -286,16 +286,6 @@
         "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
       },
       {
-        "date": "2025-02-28",
-        "company": "Grubhub",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.23,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/"
-      },
-      {
         "date": "2025-02-06",
         "company": "Sprinklr",
         "num_laid_off": 500,
@@ -304,6 +294,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "Grubhub",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.23,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/"
       },
       {
         "date": "2025-02-12",

@@ -522,16 +522,6 @@
         "source": "https://techcrunch.com/2025/01/30/fintech-startup-cushion-shuts-down-after-8-years-and-over-20-million-in-funding/"
       },
       {
-        "date": "2025-01-13",
-        "company": "Alza",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://fortune.com/2025/01/13/alza-fintech-latino-thrive-capital-stripe-level-employer-com-shut-down-venture/"
-      },
-      {
         "date": "2025-01-14",
         "company": "Advisor Credit Exchange",
         "num_laid_off": null,
@@ -540,6 +530,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://citywire.com/ria/news/envestnet-backed-advisor-credit-exchange-to-shut-down-sources/a2457772"
+      },
+      {
+        "date": "2025-01-13",
+        "company": "Alza",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://fortune.com/2025/01/13/alza-fintech-latino-thrive-capital-stripe-level-employer-com-shut-down-venture/"
       },
       {
         "date": "2025-01-10",

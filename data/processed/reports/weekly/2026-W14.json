@@ -261,16 +261,6 @@
       },
       {
         "date": "2026-03-31",
-        "company": "Rec Room",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
-      },
-      {
-        "date": "2026-03-31",
         "company": "Covrzy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -278,6 +268,16 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
       },
       {
         "date": "2026-03-31",

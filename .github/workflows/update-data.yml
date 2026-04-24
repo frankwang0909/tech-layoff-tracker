@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ index.html
+          git add data/ index.html trend-report.html reports/ countries/ industries/ ai-summary.json llms.txt sitemap.xml sitemap-main.xml sitemap-reports.xml sitemap-topics.xml robots.txt layoff_chart.html visualization/layoff_chart.html
           git diff --cached --quiet || git commit -m "chore: auto-update layoff data [$(date -u '+%Y-%m-%d')]"
           git push

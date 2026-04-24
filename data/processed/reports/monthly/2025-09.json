@@ -196,16 +196,6 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2025-09-12",
-        "company": "xAI",
-        "num_laid_off": 500,
-        "percentage_laid_off": null,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9"
-      },
-      {
         "date": "2025-09-04",
         "company": "Head Digital Works",
         "num_laid_off": 500,
@@ -214,6 +204,16 @@
         "country": "India",
         "stage": "Private Equity",
         "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
+      },
+      {
+        "date": "2025-09-12",
+        "company": "xAI",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9"
       },
       {
         "date": "2025-09-25",
@@ -276,16 +276,6 @@
         "source": "https://www.wsj.com/business/fiverr-to-cut-about-250-jobs-in-refocusing-effort-reiterates-guidance-8f15ee4b"
       },
       {
-        "date": "2025-09-10",
-        "company": "Atlassian",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Australia",
-        "stage": "Post-IPO",
-        "source": "https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/"
-      },
-      {
         "date": "2025-09-05",
         "company": "Rivian",
         "num_laid_off": 200,
@@ -294,6 +284,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits"
+      },
+      {
+        "date": "2025-09-10",
+        "company": "Atlassian",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/"
       }
     ],
     "recent_events": [
@@ -511,7 +511,7 @@
       },
       {
         "date": "2025-09-03",
-        "company": "theGist",
+        "company": "The Gist",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Other",
@@ -521,7 +521,7 @@
       },
       {
         "date": "2025-09-03",
-        "company": "The Gist",
+        "company": "theGist",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Other",

@@ -80,7 +80,7 @@
         "total_laid_off": 325
       },
       {
-        "company": "Otipy",
+        "company": "Electronic Arts",
         "total_laid_off": 300
       }
     ],
@@ -118,11 +118,11 @@
         "total_laid_off": 351
       },
       {
-        "industry": "Retail",
+        "industry": "Media",
         "total_laid_off": 350
       },
       {
-        "industry": "Media",
+        "industry": "Retail",
         "total_laid_off": 350
       }
     ],
@@ -550,14 +550,14 @@
         "source": "https://inc42.com/features/log9-materials-collapse-battery-tech-startup-cash-crunch/"
       },
       {
-        "date": "2025-05-23",
-        "company": "Otipy",
-        "num_laid_off": 300,
+        "date": "2025-05-01",
+        "company": "Beam",
+        "num_laid_off": 200,
         "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series B",
-        "source": "https://economictimes.indiatimes.com/tech/startups/subscription-based-grocery-provider-otipy-shuts-shop-impacts-300-employees/articleshow/121367249.cms?from=mdr"
+        "industry": "Other",
+        "country": "United Kingdom",
+        "stage": "Unknown",
+        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
       },
       {
         "date": "2025-04-06",
@@ -578,26 +578,6 @@
         "country": "Israel",
         "stage": "Seed",
         "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
-      },
-      {
-        "date": "2025-05-15",
-        "company": "Noogata",
-        "num_laid_off": 10,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "Israel",
-        "stage": "Series A",
-        "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
-      },
-      {
-        "date": "2025-05-20",
-        "company": "Builder.ai",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "United Kingdom",
-        "stage": "Series D",
-        "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
       },
       {
         "date": "2025-04-10",
@@ -630,14 +610,34 @@
         "source": "https://thespoon.tech/next-gen-fridge-startup-tomorrow-shuts-down/"
       },
       {
-        "date": "2025-05-01",
-        "company": "Beam",
-        "num_laid_off": 200,
+        "date": "2025-04-02",
+        "company": "WhyHive",
+        "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Other",
+        "industry": "Data",
+        "country": "Australia",
+        "stage": "Seed",
+        "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
+      },
+      {
+        "date": "2025-05-15",
+        "company": "Noogata",
+        "num_laid_off": 10,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
+      },
+      {
+        "date": "2025-05-20",
+        "company": "Builder.ai",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
         "country": "United Kingdom",
-        "stage": "Unknown",
-        "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+        "stage": "Series D",
+        "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
       }
     ]
   },

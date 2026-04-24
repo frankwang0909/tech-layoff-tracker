@@ -1755,6 +1755,17 @@ PERIOD_REPORT_TEMPLATE = r"""<!DOCTYPE html>
         .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
         h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
         .dek { max-width: 820px; color: #94a3b8; font-size: 20px; }
+        .crumbs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            align-items: center;
+            margin: 0 0 12px;
+            color: #94a3b8;
+            font-size: 0.92rem;
+            font-weight: 700;
+        }
+        .crumbs .sep { color: #475569; }
         .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; }
         .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 26px 0 0; }
         .kpi { border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 16px; background: rgba(15, 23, 42, 0.6); }
@@ -2148,6 +2159,13 @@ TOPIC_PAGE_TEMPLATE = r"""<!DOCTYPE html>
                 <a href="/reports/">Reports</a>
             </nav>
             <p class="eyebrow">{{ topic_label }} analysis</p>
+            {% if topic_index_href %}
+            <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="{{ topic_index_href }}">{{ topic_index_label }}</a>
+                <span class="sep">/</span>
+                <span>{{ page.name }}</span>
+            </nav>
+            {% endif %}
             <h1>{{ page.title }}</h1>
             <p class="dek">{{ page.summary }}</p>
             <div class="meta">
@@ -3005,6 +3023,8 @@ def build_topic_page_context(page: dict) -> dict:
     return {
         "page": page,
         "topic_label": topic_label,
+        "topic_index_href": f"/{topic_collection_path}/",
+        "topic_index_label": f"{topic_label} List",
         "description": description,
         "seo_keywords": seo_keywords,
         "article_jsonld": article_jsonld,

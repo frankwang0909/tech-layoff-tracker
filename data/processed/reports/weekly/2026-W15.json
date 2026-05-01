@@ -4,15 +4,15 @@
   "status": "final",
   "date_range": {
     "start": "2026-04-07",
-    "end": "2026-04-09"
+    "end": "2026-04-10"
   },
-  "updated_at": "2026-04-20",
+  "updated_at": "2026-04-27",
   "canonical_url": "/reports/weekly/2026-W15.html",
   "kpis": {
     "total_laid_off": 235,
-    "event_count": 4,
+    "event_count": 5,
     "headcount_event_count": 2,
-    "company_count": 4,
+    "company_count": 5,
     "country_count": 1,
     "industry_count": 4,
     "average_layoffs_per_headcount_event": 117.5,
@@ -26,8 +26,8 @@
       "event_count": 10,
       "total_laid_off_delta": -30015,
       "total_laid_off_pct_change": -0.9922,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.6,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 4,
       "total_laid_off_delta": 35,
       "total_laid_off_pct_change": 0.175,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.25,
       "note": null
     }
   },
@@ -126,6 +126,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-04-10",
+        "company": "Life360",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
+      },
+      {
         "date": "2026-04-09",
         "company": "Cars.com",
         "num_laid_off": null,
@@ -180,7 +190,7 @@
     ]
   },
   "insights": [
-    "2026-W15 includes 4 public layoff events and 235 reported layoffs.",
+    "2026-W15 includes 5 public layoff events and 235 reported layoffs.",
     "The largest company contributor is GoPro with 145 reported layoffs.",
     "The leading named industry is Consumer with 145 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

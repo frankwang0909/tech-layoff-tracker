@@ -545,9 +545,9 @@
     },
     "kpis": {
       "total_laid_off": 24469,
-      "event_count": 65,
+      "event_count": 66,
       "headcount_event_count": 44,
-      "company_count": 42,
+      "company_count": 43,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -701,6 +701,16 @@
           "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
         },
         {
+          "date": "2026-04-10",
+          "company": "Life360",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
+        },
+        {
           "date": "2026-04-07",
           "company": "GoPro",
           "num_laid_off": 145,
@@ -799,20 +809,10 @@
           "country": "India",
           "stage": "Series B",
           "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
-        },
-        {
-          "date": "2026-01-29",
-          "company": "Gloo",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html"
         }
       ]
     },
-    "summary": "Consumer has 24,469 reported tech layoffs across 65 public events from 2025-01-27 to 2026-04-17."
+    "summary": "Consumer has 24,469 reported tech layoffs across 66 public events from 2025-01-27 to 2026-04-17."
   },
   {
     "type": "industry",
@@ -825,10 +825,10 @@
       "end": "2026-04-20"
     },
     "kpis": {
-      "total_laid_off": 8584,
-      "event_count": 41,
-      "headcount_event_count": 25,
-      "company_count": 38,
+      "total_laid_off": 8674,
+      "event_count": 42,
+      "headcount_event_count": 26,
+      "company_count": 39,
       "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 14
@@ -885,7 +885,7 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 60
+          "total_laid_off": 150
         }
       ],
       "company_top": [
@@ -902,19 +902,19 @@
           "total_laid_off": 400
         },
         {
-          "company": "Wise",
-          "total_laid_off": 300
-        },
-        {
           "company": "Stripe",
           "total_laid_off": 300
         },
         {
-          "company": "Pipe",
-          "total_laid_off": 200
+          "company": "Wise",
+          "total_laid_off": 300
         },
         {
           "company": "Zepz",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Pipe",
           "total_laid_off": 200
         },
         {
@@ -942,6 +942,16 @@
           "country": "India",
           "stage": "Unknown",
           "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+        },
+        {
+          "date": "2026-04-14",
+          "company": "GoCardless",
+          "num_laid_off": 90,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series G",
+          "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
         },
         {
           "date": "2026-04-09",
@@ -1072,20 +1082,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
-        },
-        {
-          "date": "2025-12-28",
-          "company": "Sapiens",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.15,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
         }
       ]
     },
-    "summary": "Finance has 8,584 reported tech layoffs across 41 public events from 2025-01-02 to 2026-04-20."
+    "summary": "Finance has 8,674 reported tech layoffs across 42 public events from 2025-01-02 to 2026-04-20."
   },
   {
     "type": "industry",
@@ -2560,13 +2560,13 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-03-04"
+      "end": "2026-04-27"
     },
     "kpis": {
-      "total_laid_off": 2453,
-      "event_count": 20,
-      "headcount_event_count": 16,
-      "company_count": 17,
+      "total_laid_off": 2493,
+      "event_count": 21,
+      "headcount_event_count": 17,
+      "company_count": 18,
       "country_count": 3,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -2616,6 +2616,10 @@
         {
           "month": "2026-03",
           "total_laid_off": 25
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 40
         }
       ],
       "company_top": [
@@ -2663,6 +2667,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-27",
+          "company": "Pentera",
+          "num_laid_off": 40,
+          "percentage_laid_off": 0.08,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+        },
         {
           "date": "2026-03-04",
           "company": "At-Bay",
@@ -2802,20 +2816,10 @@
           "country": "Israel",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/sjz9nob2jl"
-        },
-        {
-          "date": "2025-03-13",
-          "company": "ActiveFence",
-          "num_laid_off": 22,
-          "percentage_laid_off": 0.07,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.calcalistech.com/ctechnews/article/hjvqbqg3jx"
         }
       ]
     },
-    "summary": "Security has 2,453 reported tech layoffs across 20 public events from 2025-01-07 to 2026-03-04."
+    "summary": "Security has 2,493 reported tech layoffs across 21 public events from 2025-01-07 to 2026-04-27."
   },
   {
     "type": "industry",

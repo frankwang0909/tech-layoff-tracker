@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Pentera,Boston,40.0,2026-04-27,0.08,Security,https://www.calcalistech.com/ctechnews/article/b1ioncnpzl,Series D,249.0,United States,2026-04-30T23:39:55.000Z
+SuperOps,"Chennai, Non-U.S.",60.0,2026-04-24,0.3,Other,https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/,Series C,54.0,India,2026-04-30T23:42:21.000Z
 Acko,"Mumbai, Non-U.S.",60.0,2026-04-20,0.05,Finance,https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/,Unknown,143.0,India,2026-04-20T23:39:50.000Z
 Meta,SF Bay Area,8000.0,2026-04-17,0.1,Consumer,https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/,Post-IPO,26000.0,United States,2026-04-20T23:38:53.000Z
 Shutterfly,"Haifa, Non-U.S.",80.0,2026-04-16,,Manufacturing,https://www.calcalistech.com/ctechnews/article/rkx2avanzg,Post-IPO,50.0,United States,2026-04-17T03:48:04.000Z
@@ -6,8 +8,10 @@ Quora,SF Bay Area,,2026-04-16,,Consumer,https://quorablog.quora.com/Update?ch=10
 Snap,Los Angeles,1000.0,2026-04-15,0.16,Consumer,https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html,Post-IPO,4900.0,United States,2026-04-15T14:56:21.000Z
 UKG,Boston,950.0,2026-04-15,,HR,https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/,Unknown,,United States,2026-04-17T03:43:46.000Z
 Productboard,SF Bay Area,,2026-04-15,0.3,Product,https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D,Series D,,United States,2026-04-16T04:41:44.000Z
+GoCardless,"London, Non-U.S.",90.0,2026-04-14,,Finance,https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/,Series G,529.0,United Kingdom,2026-04-30T23:44:30.000Z
 Eventbrite,SF Bay Area,,2026-04-13,,Consumer,https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/,Acquired,290.0,United States,2026-04-17T03:55:27.000Z
 StarkWare,"Tel Aviv, Non-U.S.",,2026-04-13,,Crypto,https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx,Series D,273.0,Israel,2026-04-17T03:56:10.000Z
+Life360,SF Bay Area,,2026-04-10,,Consumer,https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b,Post-IPO,158.0,United States,2026-04-30T23:38:28.000Z
 Cars.com,Chicago,,2026-04-09,0.11,Transportation,https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35,Acquired,,United States,2026-04-17T03:52:12.000Z
 Pepper Pay,Miami,,2026-04-09,1.0,Finance,https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy,Unknown,,United States,2026-04-17T03:57:45.000Z
 GoPro,SF Bay Area,145.0,2026-04-07,0.23,Consumer,https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b,Post-IPO,288.0,United States,2026-04-08T17:31:12.000Z

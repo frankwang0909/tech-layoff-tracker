@@ -1,11 +1,11 @@
 [
   {
     "country": "United States",
-    "total_laid_off": 183446
+    "total_laid_off": 183486
   },
   {
     "country": "India",
-    "total_laid_off": 8815
+    "total_laid_off": 8875
   },
   {
     "country": "Israel",
@@ -28,12 +28,12 @@
     "total_laid_off": 2491
   },
   {
-    "country": "Germany",
-    "total_laid_off": 1785
+    "country": "United Kingdom",
+    "total_laid_off": 1822
   },
   {
-    "country": "United Kingdom",
-    "total_laid_off": 1732
+    "country": "Germany",
+    "total_laid_off": 1785
   },
   {
     "country": "Brazil",

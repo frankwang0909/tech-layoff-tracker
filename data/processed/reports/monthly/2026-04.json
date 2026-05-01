@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-04-20"
+    "end": "2026-04-27"
   },
-  "updated_at": "2026-04-20",
+  "updated_at": "2026-04-27",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 10525,
-    "event_count": 18,
-    "headcount_event_count": 8,
-    "company_count": 17,
-    "country_count": 3,
-    "industry_count": 8,
-    "average_layoffs_per_headcount_event": 1315.62,
-    "median_layoffs_per_headcount_event": 172.5,
-    "high_intensity_event_count": 4
+    "total_laid_off": 10715,
+    "event_count": 22,
+    "headcount_event_count": 11,
+    "company_count": 21,
+    "country_count": 4,
+    "industry_count": 10,
+    "average_layoffs_per_headcount_event": 974.09,
+    "median_layoffs_per_headcount_event": 90.0,
+    "high_intensity_event_count": 5
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-03",
       "total_laid_off": 45800,
       "event_count": 29,
-      "total_laid_off_delta": -35275,
-      "total_laid_off_pct_change": -0.7702,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.3793,
+      "total_laid_off_delta": -35085,
+      "total_laid_off_pct_change": -0.766,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.2414,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25345,
       "event_count": 28,
-      "total_laid_off_delta": -14820,
-      "total_laid_off_pct_change": -0.5847,
-      "event_count_delta": -10,
-      "event_count_pct_change": -0.3571,
+      "total_laid_off_delta": -14630,
+      "total_laid_off_pct_change": -0.5772,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.2143,
       "note": null
     }
   },
@@ -64,12 +64,24 @@
         "total_laid_off": 90
       },
       {
+        "company": "GoCardless",
+        "total_laid_off": 90
+      },
+      {
         "company": "Shutterfly",
         "total_laid_off": 80
       },
       {
         "company": "Acko",
         "total_laid_off": 60
+      },
+      {
+        "company": "SuperOps",
+        "total_laid_off": 60
+      },
+      {
+        "company": "Pentera",
+        "total_laid_off": 40
       }
     ],
     "industry_top": [
@@ -82,6 +94,10 @@
         "total_laid_off": 950
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 150
+      },
+      {
         "industry": "Product",
         "total_laid_off": 90
       },
@@ -90,18 +106,26 @@
         "total_laid_off": 80
       },
       {
-        "industry": "Finance",
+        "industry": "Other",
         "total_laid_off": 60
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 40
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10465
+        "total_laid_off": 10505
       },
       {
         "country": "India",
-        "total_laid_off": 60
+        "total_laid_off": 120
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 90
       }
     ],
     "stage_top": [
@@ -114,14 +138,26 @@
         "total_laid_off": 1010
       },
       {
+        "stage": "Series G",
+        "total_laid_off": 90
+      },
+      {
         "stage": "Series F",
         "total_laid_off": 90
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 60
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 40
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -129,7 +165,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "50-99%",
@@ -204,6 +240,16 @@
         "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
       },
       {
+        "date": "2026-04-14",
+        "company": "GoCardless",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series G",
+        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
+      },
+      {
         "date": "2026-04-16",
         "company": "Shutterfly",
         "num_laid_off": 80,
@@ -212,6 +258,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-24",
+        "company": "SuperOps",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.3,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
       },
       {
         "date": "2026-04-20",
@@ -225,6 +281,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-04-27",
+        "company": "Pentera",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+      },
+      {
+        "date": "2026-04-24",
+        "company": "SuperOps",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.3,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+      },
       {
         "date": "2026-04-20",
         "company": "Acko",
@@ -296,14 +372,14 @@
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
       },
       {
-        "date": "2026-04-13",
-        "company": "Eventbrite",
-        "num_laid_off": null,
+        "date": "2026-04-14",
+        "company": "GoCardless",
+        "num_laid_off": 90,
         "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series G",
+        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
       },
       {
         "date": "2026-04-13",
@@ -316,14 +392,24 @@
         "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
       },
       {
-        "date": "2026-04-09",
-        "company": "Pepper Pay",
+        "date": "2026-04-13",
+        "company": "Eventbrite",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+      },
+      {
+        "date": "2026-04-10",
+        "company": "Life360",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
       },
       {
         "date": "2026-04-09",
@@ -334,6 +420,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
+      },
+      {
+        "date": "2026-04-09",
+        "company": "Pepper Pay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
         "date": "2026-04-07",
@@ -384,26 +480,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
-      },
-      {
-        "date": "2026-04-02",
-        "company": "Meta",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
-      },
-      {
-        "date": "2026-04-01",
-        "company": "Sonos",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
       }
     ],
     "high_intensity_events": [
@@ -438,6 +514,16 @@
         "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
       },
       {
+        "date": "2026-04-24",
+        "company": "SuperOps",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.3,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+      },
+      {
         "date": "2026-04-15",
         "company": "Productboard",
         "num_laid_off": null,
@@ -450,10 +536,10 @@
     ]
   },
   "insights": [
-    "2026-04 includes 18 public layoff events and 10,525 reported layoffs.",
+    "2026-04 includes 22 public layoff events and 10,715 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,345 reported layoffs.",
-    "4 events report a layoff percentage of 25% or higher."
+    "5 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

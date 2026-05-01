@@ -6,38 +6,38 @@
     "start": "2026-04-13",
     "end": "2026-04-17"
   },
-  "updated_at": "2026-04-20",
+  "updated_at": "2026-04-27",
   "canonical_url": "/reports/weekly/2026-W16.html",
   "kpis": {
-    "total_laid_off": 10030,
-    "event_count": 8,
-    "headcount_event_count": 4,
-    "company_count": 8,
-    "country_count": 2,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 2507.5,
-    "median_layoffs_per_headcount_event": 975.0,
+    "total_laid_off": 10120,
+    "event_count": 9,
+    "headcount_event_count": 5,
+    "company_count": 9,
+    "country_count": 3,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 2024.0,
+    "median_layoffs_per_headcount_event": 950.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W15",
       "total_laid_off": 235,
-      "event_count": 4,
-      "total_laid_off_delta": 9795,
-      "total_laid_off_pct_change": 41.6809,
+      "event_count": 5,
+      "total_laid_off_delta": 9885,
+      "total_laid_off_pct_change": 42.0638,
       "event_count_delta": 4,
-      "event_count_pct_change": 1.0,
+      "event_count_pct_change": 0.8,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 9476,
-      "total_laid_off_pct_change": 17.1047,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.3333,
+      "total_laid_off_delta": 9566,
+      "total_laid_off_pct_change": 17.2671,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
@@ -56,6 +56,10 @@
         "total_laid_off": 950
       },
       {
+        "company": "GoCardless",
+        "total_laid_off": 90
+      },
+      {
         "company": "Shutterfly",
         "total_laid_off": 80
       }
@@ -70,6 +74,10 @@
         "total_laid_off": 950
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 90
+      },
+      {
         "industry": "Manufacturing",
         "total_laid_off": 80
       }
@@ -78,6 +86,10 @@
       {
         "country": "United States",
         "total_laid_off": 10030
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 90
       }
     ],
     "stage_top": [
@@ -88,6 +100,10 @@
       {
         "stage": "Unknown",
         "total_laid_off": 950
+      },
+      {
+        "stage": "Series G",
+        "total_laid_off": 90
       }
     ],
     "layoff_pct_distribution": [
@@ -144,6 +160,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+      },
+      {
+        "date": "2026-04-14",
+        "company": "GoCardless",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series G",
+        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
       },
       {
         "date": "2026-04-16",
@@ -218,6 +244,16 @@
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
       },
       {
+        "date": "2026-04-14",
+        "company": "GoCardless",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series G",
+        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
+      },
+      {
         "date": "2026-04-13",
         "company": "Eventbrite",
         "num_laid_off": null,
@@ -252,7 +288,7 @@
     ]
   },
   "insights": [
-    "2026-W16 includes 8 public layoff events and 10,030 reported layoffs.",
+    "2026-W16 includes 9 public layoff events and 10,120 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Consumer with 9,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

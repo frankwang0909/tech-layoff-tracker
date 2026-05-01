@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-04-20"
+    "end": "2026-04-27"
   },
-  "updated_at": "2026-04-20",
+  "updated_at": "2026-04-27",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 92272,
-    "event_count": 104,
-    "headcount_event_count": 65,
-    "company_count": 98,
+    "total_laid_off": 92462,
+    "event_count": 108,
+    "headcount_event_count": 68,
+    "company_count": 102,
     "country_count": 14,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 1419.57,
-    "median_layoffs_per_headcount_event": 200.0,
-    "high_intensity_event_count": 22
+    "average_layoffs_per_headcount_event": 1359.74,
+    "median_layoffs_per_headcount_event": 193.5,
+    "high_intensity_event_count": 23
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 124201,
       "event_count": 327,
-      "total_laid_off_delta": -31929,
-      "total_laid_off_pct_change": -0.2571,
-      "event_count_delta": -223,
-      "event_count_pct_change": -0.682,
+      "total_laid_off_delta": -31739,
+      "total_laid_off_pct_change": -0.2555,
+      "event_count_delta": -219,
+      "event_count_pct_change": -0.6697,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124201,
       "event_count": 327,
-      "total_laid_off_delta": -31929,
-      "total_laid_off_pct_change": -0.2571,
-      "event_count_delta": -223,
-      "event_count_pct_change": -0.682,
+      "total_laid_off_delta": -31739,
+      "total_laid_off_pct_change": -0.2555,
+      "event_count_delta": -219,
+      "event_count_pct_change": -0.6697,
       "note": null
     }
   },
@@ -80,14 +80,14 @@
         "total_laid_off": 1600
       },
       {
-        "company": "Autodesk",
+        "company": "Ocado",
         "total_laid_off": 1000
       }
     ],
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 34249
+        "total_laid_off": 34309
       },
       {
         "industry": "Retail",
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 4975
+        "total_laid_off": 5065
       },
       {
         "industry": "Logistics",
@@ -119,7 +119,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 815
+        "total_laid_off": 855
       },
       {
         "industry": "Transportation",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 79180
+        "total_laid_off": 79220
       },
       {
         "country": "Australia",
@@ -137,7 +137,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 1760
+        "total_laid_off": 1820
       },
       {
         "country": "Israel",
@@ -153,7 +153,7 @@
       },
       {
         "country": "United Kingdom",
-        "total_laid_off": 1292
+        "total_laid_off": 1382
       },
       {
         "country": "Brazil",
@@ -203,17 +203,17 @@
       },
       {
         "stage": "Series C",
-        "total_laid_off": 59
+        "total_laid_off": 119
       },
       {
         "stage": "Series D",
-        "total_laid_off": 55
+        "total_laid_off": 95
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 11
+        "event_count": 12
       },
       {
         "bucket": "10-24%",
@@ -221,7 +221,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 7
+        "event_count": 8
       },
       {
         "bucket": "50-99%",
@@ -306,16 +306,6 @@
         "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
       },
       {
-        "date": "2026-01-15",
-        "company": "Ericsson",
-        "num_laid_off": 1600,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
-      },
-      {
         "date": "2026-03-11",
         "company": "Atlassian",
         "num_laid_off": 1600,
@@ -324,6 +314,16 @@
         "country": "Australia",
         "stage": "Post-IPO",
         "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
       },
       {
         "date": "2026-01-13",
@@ -337,6 +337,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-04-27",
+        "company": "Pentera",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+      },
+      {
+        "date": "2026-04-24",
+        "company": "SuperOps",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.3,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+      },
       {
         "date": "2026-04-20",
         "company": "Acko",
@@ -408,6 +428,16 @@
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
       },
       {
+        "date": "2026-04-14",
+        "company": "GoCardless",
+        "num_laid_off": 90,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Series G",
+        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
+      },
+      {
         "date": "2026-04-13",
         "company": "Eventbrite",
         "num_laid_off": null,
@@ -428,14 +458,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
       },
       {
-        "date": "2026-04-09",
-        "company": "Cars.com",
+        "date": "2026-04-10",
+        "company": "Life360",
         "num_laid_off": null,
-        "percentage_laid_off": 0.11,
-        "industry": "Transportation",
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
+        "stage": "Post-IPO",
+        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
       },
       {
         "date": "2026-04-09",
@@ -448,14 +478,14 @@
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
-        "date": "2026-04-07",
-        "company": "Pendo",
-        "num_laid_off": 90,
-        "percentage_laid_off": 0.1,
-        "industry": "Product",
+        "date": "2026-04-09",
+        "company": "Cars.com",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.11,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        "stage": "Acquired",
+        "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
       },
       {
         "date": "2026-04-07",
@@ -466,6 +496,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
+      },
+      {
+        "date": "2026-04-07",
+        "company": "Pendo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.1,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
       },
       {
         "date": "2026-04-05",
@@ -496,46 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
-      },
-      {
-        "date": "2026-04-02",
-        "company": "Meta",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
-      },
-      {
-        "date": "2026-04-01",
-        "company": "Sonos",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Monzo",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Series F",
-        "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Covrzy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
         "date": "2026-04-03",
@@ -570,14 +580,14 @@
         "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
       },
       {
-        "date": "2026-03-31",
-        "company": "Covrzy",
+        "date": "2026-03-17",
+        "company": "FranShares",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Finance",
-        "country": "India",
+        "country": "United States",
         "stage": "Seed",
-        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       },
       {
         "date": "2026-03-26",
@@ -598,16 +608,6 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
-      },
-      {
-        "date": "2026-03-17",
-        "company": "FranShares",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       },
       {
         "date": "2026-01-25",
@@ -642,10 +642,10 @@
     ]
   },
   "insights": [
-    "2026 includes 104 public layoff events and 92,272 reported layoffs.",
+    "2026 includes 108 public layoff events and 92,462 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
-    "22 events report a layoff percentage of 25% or higher."
+    "23 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

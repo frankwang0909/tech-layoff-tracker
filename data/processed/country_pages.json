@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-04-17"
+      "end": "2026-04-27"
     },
     "kpis": {
-      "total_laid_off": 183446,
-      "event_count": 263,
-      "headcount_event_count": 173,
-      "company_count": 196,
+      "total_laid_off": 183486,
+      "event_count": 265,
+      "headcount_event_count": 174,
+      "company_count": 198,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 44
@@ -82,7 +82,7 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 10465
+          "total_laid_off": 10505
         }
       ],
       "company_top": [
@@ -130,6 +130,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-27",
+          "company": "Pentera",
+          "num_laid_off": 40,
+          "percentage_laid_off": 0.08,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+        },
         {
           "date": "2026-04-17",
           "company": "Meta",
@@ -201,6 +211,16 @@
           "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
         },
         {
+          "date": "2026-04-10",
+          "company": "Life360",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
+        },
+        {
           "date": "2026-04-09",
           "company": "Cars.com",
           "num_laid_off": null,
@@ -259,30 +279,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
-        },
-        {
-          "date": "2026-04-02",
-          "company": "Meta",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
-        },
-        {
-          "date": "2026-04-01",
-          "company": "Sonos",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
         }
       ]
     },
-    "summary": "United States has 183,446 reported tech layoffs across 263 public events from 2025-01-02 to 2026-04-17."
+    "summary": "United States has 183,486 reported tech layoffs across 265 public events from 2025-01-02 to 2026-04-27."
   },
   {
     "type": "country",
@@ -292,16 +292,16 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-04-20"
+      "end": "2026-04-24"
     },
     "kpis": {
-      "total_laid_off": 8815,
-      "event_count": 48,
-      "headcount_event_count": 37,
-      "company_count": 39,
+      "total_laid_off": 8875,
+      "event_count": 49,
+      "headcount_event_count": 38,
+      "company_count": 40,
       "country_count": 1,
       "industry_count": 13,
-      "high_intensity_event_count": 16
+      "high_intensity_event_count": 17
     },
     "charts": {
       "monthly_trend": [
@@ -359,16 +359,16 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 60
+          "total_laid_off": 120
         }
       ],
       "company_top": [
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
@@ -400,13 +400,23 @@
           "total_laid_off": 370
         },
         {
-          "company": "VerSe Innovation copy",
+          "company": "Porter",
           "total_laid_off": 350
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-24",
+          "company": "SuperOps",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.3,
+          "industry": "Other",
+          "country": "India",
+          "stage": "Series C",
+          "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+        },
         {
           "date": "2026-04-20",
           "company": "Acko",
@@ -546,20 +556,10 @@
           "country": "India",
           "stage": "Series F",
           "source": "https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/"
-        },
-        {
-          "date": "2025-10-18",
-          "company": "Zepto",
-          "num_laid_off": 300,
-          "percentage_laid_off": 0.05,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Series H",
-          "source": "https://www.moneycontrol.com/news/business/startup/around-300-employees-impacted-at-zepto-amid-cost-efficiency-drive-at-the-quick-commerce-company-13622853.html"
         }
       ]
     },
-    "summary": "India has 8,815 reported tech layoffs across 48 public events from 2025-01-15 to 2026-04-20."
+    "summary": "India has 8,875 reported tech layoffs across 49 public events from 2025-01-15 to 2026-04-24."
   },
   {
     "type": "country",
@@ -1450,6 +1450,233 @@
   },
   {
     "type": "country",
+    "name": "United Kingdom",
+    "slug": "united-kingdom",
+    "title": "Tech Layoffs by Country: United Kingdom",
+    "canonical_url": "/countries/united-kingdom.html",
+    "date_range": {
+      "start": "2025-02-12",
+      "end": "2026-04-14"
+    },
+    "kpis": {
+      "total_laid_off": 1822,
+      "event_count": 14,
+      "headcount_event_count": 8,
+      "company_count": 14,
+      "country_count": 1,
+      "industry_count": 10,
+      "high_intensity_event_count": 4
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 240
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 55
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 1187
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 50
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 90
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Ocado",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Beam",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Zepz",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Deliveroo",
+          "total_laid_off": 187
+        },
+        {
+          "company": "GoCardless",
+          "total_laid_off": 90
+        },
+        {
+          "company": "Multiverse",
+          "total_laid_off": 55
+        },
+        {
+          "company": "Monzo",
+          "total_laid_off": 50
+        },
+        {
+          "company": "Logically",
+          "total_laid_off": 40
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-04-14",
+          "company": "GoCardless",
+          "num_laid_off": 90,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series G",
+          "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
+        },
+        {
+          "date": "2026-03-31",
+          "company": "Monzo",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series F",
+          "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+        },
+        {
+          "date": "2026-02-26",
+          "company": "Ocado",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.05,
+          "industry": "Food",
+          "country": "United Kingdom",
+          "stage": "Post-IPO",
+          "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+        },
+        {
+          "date": "2026-02-25",
+          "company": "Deliveroo",
+          "num_laid_off": 187,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "United Kingdom",
+          "stage": "Post-IPO",
+          "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
+        },
+        {
+          "date": "2026-01-05",
+          "company": "Multiverse",
+          "num_laid_off": 55,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United Kingdom",
+          "stage": "Series D",
+          "source": "https://sifted.eu/articles/multiverse-job-cuts-euan-blair"
+        },
+        {
+          "date": "2025-10-24",
+          "company": "Robin AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.33,
+          "industry": "Legal",
+          "country": "United Kingdom",
+          "stage": "Series B",
+          "source": "https://sifted.eu/articles/robin-ai-cuts-a-third-of-staff"
+        },
+        {
+          "date": "2025-08-22",
+          "company": "TikTok",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://www.wsj.com/tech/tiktok-to-lay-off-hundreds-of-u-k-content-moderators-in-ai-push-d040ae21"
+        },
+        {
+          "date": "2025-05-20",
+          "company": "Builder.ai",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "United Kingdom",
+          "stage": "Series D",
+          "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
+        },
+        {
+          "date": "2025-05-01",
+          "company": "Beam",
+          "num_laid_off": 200,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "United Kingdom",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
+        },
+        {
+          "date": "2025-04-03",
+          "company": "Tract",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United Kingdom",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
+        },
+        {
+          "date": "2025-03-10",
+          "company": "Arrival",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Transportation",
+          "country": "United Kingdom",
+          "stage": "Post-IPO",
+          "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
+        },
+        {
+          "date": "2025-02-17",
+          "company": "Logically",
+          "num_laid_off": 40,
+          "percentage_laid_off": 0.2,
+          "industry": "AI",
+          "country": "United Kingdom",
+          "stage": "Series A",
+          "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Sophos",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.06,
+          "industry": "Security",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://techcrunch.com/2025/02/13/sophos-lays-off-6-of-workforce-following-secureworks-acquisition/"
+        },
+        {
+          "date": "2025-02-12",
+          "company": "Zepz",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.2,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series E",
+          "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
+        }
+      ]
+    },
+    "summary": "United Kingdom has 1,822 reported tech layoffs across 14 public events from 2025-02-12 to 2026-04-14."
+  },
+  {
+    "type": "country",
     "name": "Germany",
     "slug": "germany",
     "title": "Tech Layoffs by Country: Germany",
@@ -1650,215 +1877,6 @@
       ]
     },
     "summary": "Germany has 1,785 reported tech layoffs across 12 public events from 2025-01-10 to 2026-03-27."
-  },
-  {
-    "type": "country",
-    "name": "United Kingdom",
-    "slug": "united-kingdom",
-    "title": "Tech Layoffs by Country: United Kingdom",
-    "canonical_url": "/countries/united-kingdom.html",
-    "date_range": {
-      "start": "2025-02-12",
-      "end": "2026-03-31"
-    },
-    "kpis": {
-      "total_laid_off": 1732,
-      "event_count": 13,
-      "headcount_event_count": 7,
-      "company_count": 13,
-      "country_count": 1,
-      "industry_count": 10,
-      "high_intensity_event_count": 4
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 240
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 55
-        },
-        {
-          "month": "2026-02",
-          "total_laid_off": 1187
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 50
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Ocado",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Zepz",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Beam",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Deliveroo",
-          "total_laid_off": 187
-        },
-        {
-          "company": "Multiverse",
-          "total_laid_off": 55
-        },
-        {
-          "company": "Monzo",
-          "total_laid_off": 50
-        },
-        {
-          "company": "Logically",
-          "total_laid_off": 40
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-03-31",
-          "company": "Monzo",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United Kingdom",
-          "stage": "Series F",
-          "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
-        },
-        {
-          "date": "2026-02-26",
-          "company": "Ocado",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.05,
-          "industry": "Food",
-          "country": "United Kingdom",
-          "stage": "Post-IPO",
-          "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
-        },
-        {
-          "date": "2026-02-25",
-          "company": "Deliveroo",
-          "num_laid_off": 187,
-          "percentage_laid_off": null,
-          "industry": "Food",
-          "country": "United Kingdom",
-          "stage": "Post-IPO",
-          "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
-        },
-        {
-          "date": "2026-01-05",
-          "company": "Multiverse",
-          "num_laid_off": 55,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United Kingdom",
-          "stage": "Series D",
-          "source": "https://sifted.eu/articles/multiverse-job-cuts-euan-blair"
-        },
-        {
-          "date": "2025-10-24",
-          "company": "Robin AI",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.33,
-          "industry": "Legal",
-          "country": "United Kingdom",
-          "stage": "Series B",
-          "source": "https://sifted.eu/articles/robin-ai-cuts-a-third-of-staff"
-        },
-        {
-          "date": "2025-08-22",
-          "company": "TikTok",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United Kingdom",
-          "stage": "Acquired",
-          "source": "https://www.wsj.com/tech/tiktok-to-lay-off-hundreds-of-u-k-content-moderators-in-ai-push-d040ae21"
-        },
-        {
-          "date": "2025-05-20",
-          "company": "Builder.ai",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "United Kingdom",
-          "stage": "Series D",
-          "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
-        },
-        {
-          "date": "2025-05-01",
-          "company": "Beam",
-          "num_laid_off": 200,
-          "percentage_laid_off": 1.0,
-          "industry": "Other",
-          "country": "United Kingdom",
-          "stage": "Unknown",
-          "source": "https://sifted.eu/articles/beam-robotics-shuts-down"
-        },
-        {
-          "date": "2025-04-03",
-          "company": "Tract",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United Kingdom",
-          "stage": "Unknown",
-          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
-        },
-        {
-          "date": "2025-03-10",
-          "company": "Arrival",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Transportation",
-          "country": "United Kingdom",
-          "stage": "Post-IPO",
-          "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
-        },
-        {
-          "date": "2025-02-17",
-          "company": "Logically",
-          "num_laid_off": 40,
-          "percentage_laid_off": 0.2,
-          "industry": "AI",
-          "country": "United Kingdom",
-          "stage": "Series A",
-          "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
-        },
-        {
-          "date": "2025-02-13",
-          "company": "Sophos",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.06,
-          "industry": "Security",
-          "country": "United Kingdom",
-          "stage": "Acquired",
-          "source": "https://techcrunch.com/2025/02/13/sophos-lays-off-6-of-workforce-following-secureworks-acquisition/"
-        },
-        {
-          "date": "2025-02-12",
-          "company": "Zepz",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.2,
-          "industry": "Finance",
-          "country": "United Kingdom",
-          "stage": "Series E",
-          "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
-        }
-      ]
-    },
-    "summary": "United Kingdom has 1,732 reported tech layoffs across 13 public events from 2025-02-12 to 2026-03-31."
   },
   {
     "type": "country",

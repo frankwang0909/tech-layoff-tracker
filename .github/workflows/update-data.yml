@@ -8,9 +8,18 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,3 +44,15 @@ jobs:
           git add data/ index.html trend-report.html reports/ countries/ industries/ ai-summary.json llms.txt sitemap.xml sitemap-main.xml sitemap-reports.xml sitemap-topics.xml robots.txt layoff_chart.html visualization/layoff_chart.html
           git diff --cached --quiet || git commit -m "chore: auto-update layoff data [$(date -u '+%Y-%m-%d')]"
           git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

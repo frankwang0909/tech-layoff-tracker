@@ -90,9 +90,9 @@
             letter-spacing: 0.08em;
         }
         h1 {
-            max-width: 920px;
+            max-width: none;
             margin: 0;
-            font-size: clamp(36px, 6vw, 72px);
+            font-size: clamp(30px, 4.4vw, 60px);
             line-height: 0.98;
             letter-spacing: 0;
         }
@@ -230,13 +230,18 @@
             .kpis, .summary-list, .facts { grid-template-columns: 1fr; }
             .chart { height: 280px; }
             .hero { padding: 20px 0 16px; }
+            h1 { white-space: normal; }
             .dek { font-size: 15px; }
             .kpi strong { font-size: 22px; }
             h2 { font-size: 22px; }
             table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
             th, td { padding: 8px 10px; font-size: 13px; white-space: nowrap; }
         }
+        @media (min-width: 761px) {
+            h1 { white-space: nowrap; }
+        }
     </style>
+    <link rel="stylesheet" href="/styles/shared.css">
 </head>
 <body>
     <div class="hero">

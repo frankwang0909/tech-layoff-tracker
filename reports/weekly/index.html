@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Layoffs Weekly Reports | Tech Layoff Tracker</title>
+    <meta name="description" content="Browse all 15 weekly tech layoff reports. Weekly trend summaries comparing each week with the previous period.">
+    <link rel="canonical" href="https://tech.debugcanada.com/reports/weekly/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding-top: 4rem;
+            color: #e2e8f0;
+            background: #0a0f1e;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { color: #fff; text-decoration: underline; }
+        .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+        .top-nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            display: flex; justify-content: center; flex-wrap: wrap;
+            gap: 0.5rem; padding: 0.6rem 1rem;
+            background: rgba(10, 15, 30, 0.88);
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .top-nav a {
+            color: #cbd5e1; text-decoration: none; font-size: 0.82rem; font-weight: 700;
+            padding: 0.45rem 0.85rem; border: 1px solid rgba(148, 163, 184, 0.22);
+            border-radius: 999px; background: rgba(15, 23, 42, 0.4); white-space: nowrap;
+            transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .top-nav a:hover { color: #fff; border-color: rgba(56, 189, 248, 0.55); box-shadow: 0 0 18px rgba(56, 189, 248, 0.16); text-decoration: none; }
+        .top-nav a.active { background: linear-gradient(135deg, #818cf8, #c084fc); color: #fff; border-color: transparent; box-shadow: 0 2px 12px rgba(129, 140, 252, 0.4); }
+        .hero { padding: 44px 0 30px; background: transparent; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        .crumbs { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin: 0 0 12px; color: #94a3b8; font-size: 0.92rem; font-weight: 700; }
+        .crumbs .sep { color: #475569; }
+        .eyebrow { margin: 0 0 12px; color: #f87171; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+        h1 { margin: 0; font-size: clamp(34px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+        .dek { max-width: 760px; color: #94a3b8; font-size: 20px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; color: #64748b; font-size: 14px; margin-top: 16px; }
+        main { padding: 32px 0 56px; }
+        .report-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+        .report-list li a {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 14px 18px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 0.75rem;
+            color: #e2e8f0; font-weight: 600; font-size: 0.95rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+            text-decoration: none;
+        }
+        .report-list li a:hover {
+            transform: translateX(4px);
+            border-color: rgba(56, 189, 248, 0.3);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            color: #fff;
+        }
+        .report-list li a .arrow { color: #475569; transition: color 0.2s ease; }
+        .report-list li a:hover .arrow { color: #38bdf8; }
+        .group-label { margin: 28px 0 10px; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: #64748b; }
+        footer { text-align: center; padding: 3rem 0 1rem; color: #475569; font-size: 0.75rem; line-height: 1.8; }
+        footer a { color: #818cf8; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 760px) {
+            .hero { padding: 20px 0 16px; }
+            h1 { font-size: clamp(28px, 8vw, 48px); }
+            .dek { font-size: 15px; }
+        }
+    </style>
+    <link rel="stylesheet" href="/styles/shared.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="top-nav" aria-label="Primary">
+                <a href="/">Dashboard</a>
+                <a href="/trend-report.html">Trend Report</a>
+                <a href="/reports/" class="active">Reports</a>
+            </nav>
+            <nav class="crumbs" aria-label="Breadcrumb">
+                <a href="/reports/">Reports</a>
+                <span class="sep">/</span>
+                <span>Weekly</span>
+            </nav>
+            <p class="eyebrow">Weekly reports</p>
+            <h1>Tech Layoffs Weekly Reports</h1>
+            <p class="dek">Weekly trend summaries comparing each week with the previous period.</p>
+            <div class="meta">
+                <span>15 reports</span>
+                <span>Latest: 2026-W19</span>
+            </div>
+        </div>
+    </header>
+    <main class="wrap">
+            <ul class="report-list">
+                <li><a href="/reports/weekly/2026-W19.html"><span>2026-W19</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W18.html"><span>2026-W18</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W17.html"><span>2026-W17</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W16.html"><span>2026-W16</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W15.html"><span>2026-W15</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W14.html"><span>2026-W14</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W13.html"><span>2026-W13</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W12.html"><span>2026-W12</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W11.html"><span>2026-W11</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W10.html"><span>2026-W10</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W09.html"><span>2026-W09</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W08.html"><span>2026-W08</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W07.html"><span>2026-W07</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W06.html"><span>2026-W06</span><span class="arrow">→</span></a></li>
+                <li><a href="/reports/weekly/2026-W05.html"><span>2026-W05</span><span class="arrow">→</span></a></li>
+            </ul>
+    </main>
+    <footer class="wrap">
+        Data Sources: <a href="https://layoffs.fyi/" target="_blank">layoffs.fyi</a> · RationalFX · Major tech media<br>
+        Disclaimer: Some figures are estimates or planned reductions
+    </footer>
+</body>
+</html>

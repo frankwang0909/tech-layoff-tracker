@@ -1,0 +1,114 @@
+/* Shared visual styles — Tech Layoff Tracker
+ * Applied to all pages except index.html (which has its own full embedded styles).
+ * Injected via <link> after each page's embedded <style> block so these rules
+ * win the cascade for equal-specificity selectors.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ── Animations ──────────────────────────────────────────── */
+@keyframes bgPulse {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.1) rotate(3deg); }
+}
+
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* ── Ambient background glow ─────────────────────────────── */
+body::before {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background:
+        radial-gradient(circle at 20% 80%, rgba(56, 189, 248, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(129, 140, 252, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(192, 132, 252, 0.03) 0%, transparent 50%);
+    animation: bgPulse 15s ease-in-out infinite;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* ── Hero H1 animated gradient ───────────────────────────── */
+h1 {
+    background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc, #f472b6);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientShift 5s ease infinite;
+}
+
+/* ── Glass card effect ───────────────────────────────────── */
+/* Targets all card-like elements across page types:
+   .kpi          → industry / country / report KPI tiles
+   .chart        → ECharts mount divs
+   .related-card → industry / country related links
+   .card         → directory index cards
+   .insights li  → report insight bullets
+   .summary-list li → trend-report summary bullets
+   .answer-box   → trend-report FAQ answer boxes
+   .faq details  → collapsible FAQ items on all pages
+*/
+.kpi,
+.chart,
+.related-card,
+.card,
+.insights li,
+.summary-list li,
+.answer-box,
+.faq details {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 1.25rem;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ECharts tooltips render outside the container, so overflow:hidden
+   safely clips only the canvas to match the rounded border. */
+.chart {
+    overflow: hidden;
+}
+
+/* ── Hero border: constrain to content width ─────────────── */
+/* .hero is full-viewport-wide; border-bottom must live on
+   .hero .wrap so it aligns with the rest of the page layout  */
+.hero {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.hero .wrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    padding-bottom: 30px;
+}
+
+/* ── Industry / card icons ───────────────────────────────── */
+.card-icon {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 12px;
+    display: block;
+}
+
+/* Lift on hover for non-chart cards */
+.kpi:hover,
+.related-card:hover,
+.card:hover,
+.insights li:hover,
+.summary-list li:hover,
+.answer-box:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}

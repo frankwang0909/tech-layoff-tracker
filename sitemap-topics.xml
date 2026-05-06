@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tech.debugcanada.com/industries/</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -92,13 +92,19 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/marketing.html</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/ai.html</loc>
     <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://tech.debugcanada.com/industries/crypto.html</loc>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -145,12 +151,6 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://tech.debugcanada.com/industries/crypto.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
     <loc>https://tech.debugcanada.com/industries/recruiting.html</loc>
     <lastmod>2025-10-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,7 +164,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/united-states.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/israel.html</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>

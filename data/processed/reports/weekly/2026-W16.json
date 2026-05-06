@@ -6,38 +6,38 @@
     "start": "2026-04-13",
     "end": "2026-04-17"
   },
-  "updated_at": "2026-04-27",
+  "updated_at": "2026-05-05",
   "canonical_url": "/reports/weekly/2026-W16.html",
   "kpis": {
-    "total_laid_off": 10120,
-    "event_count": 9,
-    "headcount_event_count": 5,
-    "company_count": 9,
+    "total_laid_off": 10252,
+    "event_count": 11,
+    "headcount_event_count": 7,
+    "company_count": 11,
     "country_count": 3,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 2024.0,
-    "median_layoffs_per_headcount_event": 950.0,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 1464.57,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W15",
       "total_laid_off": 235,
-      "event_count": 5,
-      "total_laid_off_delta": 9885,
-      "total_laid_off_pct_change": 42.0638,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.8,
+      "event_count": 6,
+      "total_laid_off_delta": 10017,
+      "total_laid_off_pct_change": 42.6255,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.8333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 9566,
-      "total_laid_off_pct_change": 17.2671,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.5,
+      "total_laid_off_delta": 9698,
+      "total_laid_off_pct_change": 17.5054,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.8333,
       "note": null
     }
   },
@@ -56,12 +56,20 @@
         "total_laid_off": 950
       },
       {
+        "company": "Taboola",
+        "total_laid_off": 100
+      },
+      {
         "company": "GoCardless",
         "total_laid_off": 90
       },
       {
         "company": "Shutterfly",
         "total_laid_off": 80
+      },
+      {
+        "company": "Nayax",
+        "total_laid_off": 32
       }
     ],
     "industry_top": [
@@ -75,7 +83,11 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 90
+        "total_laid_off": 122
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 100
       },
       {
         "industry": "Manufacturing",
@@ -85,17 +97,21 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10030
+        "total_laid_off": 10130
       },
       {
         "country": "United Kingdom",
         "total_laid_off": 90
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 32
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9080
+        "total_laid_off": 9212
       },
       {
         "stage": "Unknown",
@@ -109,7 +125,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -162,6 +178,16 @@
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
       },
       {
+        "date": "2026-04-15",
+        "company": "Taboola",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+      },
+      {
         "date": "2026-04-14",
         "company": "GoCardless",
         "num_laid_off": 90,
@@ -180,6 +206,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Nayax",
+        "num_laid_off": 32,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
       }
     ],
     "recent_events": [
@@ -232,6 +268,26 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Taboola",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Nayax",
+        "num_laid_off": 32,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
       },
       {
         "date": "2026-04-15",
@@ -288,7 +344,7 @@
     ]
   },
   "insights": [
-    "2026-W16 includes 9 public layoff events and 10,120 reported layoffs.",
+    "2026-W16 includes 11 public layoff events and 10,252 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Consumer with 9,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -6,17 +6,17 @@
     "start": "2026-04-15",
     "end": "2026-04-15"
   },
-  "updated_at": "2026-04-27",
+  "updated_at": "2026-05-05",
   "canonical_url": "/reports/daily/2026-04-15.html",
   "kpis": {
-    "total_laid_off": 1950,
-    "event_count": 3,
-    "headcount_event_count": 2,
-    "company_count": 3,
-    "country_count": 1,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 975.0,
-    "median_layoffs_per_headcount_event": 975.0,
+    "total_laid_off": 2082,
+    "event_count": 5,
+    "headcount_event_count": 4,
+    "company_count": 5,
+    "country_count": 2,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 520.5,
+    "median_layoffs_per_headcount_event": 525.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-04-14",
       "total_laid_off": 90,
       "event_count": 1,
-      "total_laid_off_delta": 1860,
-      "total_laid_off_pct_change": 20.6667,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "total_laid_off_delta": 1992,
+      "total_laid_off_pct_change": 22.1333,
+      "event_count_delta": 4,
+      "event_count_pct_change": 4.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04-15",
       "total_laid_off": 200,
       "event_count": 1,
-      "total_laid_off_delta": 1750,
-      "total_laid_off_pct_change": 8.75,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "total_laid_off_delta": 1882,
+      "total_laid_off_pct_change": 9.41,
+      "event_count_delta": 4,
+      "event_count_pct_change": 4.0,
       "note": null
     }
   },
@@ -50,6 +50,14 @@
       {
         "company": "UKG",
         "total_laid_off": 950
+      },
+      {
+        "company": "Taboola",
+        "total_laid_off": 100
+      },
+      {
+        "company": "Nayax",
+        "total_laid_off": 32
       }
     ],
     "industry_top": [
@@ -60,18 +68,30 @@
       {
         "industry": "HR",
         "total_laid_off": 950
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 32
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1950
+        "total_laid_off": 2050
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 32
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1000
+        "total_laid_off": 1132
       },
       {
         "stage": "Unknown",
@@ -81,7 +101,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -122,6 +142,26 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Taboola",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Nayax",
+        "num_laid_off": 32,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
       }
     ],
     "recent_events": [
@@ -144,6 +184,26 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Taboola",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Nayax",
+        "num_laid_off": 32,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
       },
       {
         "date": "2026-04-15",
@@ -170,7 +230,7 @@
     ]
   },
   "insights": [
-    "2026-04-15 includes 3 public layoff events and 1,950 reported layoffs.",
+    "2026-04-15 includes 5 public layoff events and 2,082 reported layoffs.",
     "The largest company contributor is Snap with 1,000 reported layoffs.",
     "The leading named industry is Consumer with 1,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

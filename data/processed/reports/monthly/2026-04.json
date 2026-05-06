@@ -1,21 +1,21 @@
 {
   "report_type": "monthly",
   "period": "2026-04",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-04-27",
+  "updated_at": "2026-05-05",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 10715,
-    "event_count": 22,
-    "headcount_event_count": 11,
-    "company_count": 21,
+    "total_laid_off": 10847,
+    "event_count": 25,
+    "headcount_event_count": 13,
+    "company_count": 24,
     "country_count": 4,
-    "industry_count": 10,
-    "average_layoffs_per_headcount_event": 974.09,
+    "industry_count": 11,
+    "average_layoffs_per_headcount_event": 834.38,
     "median_layoffs_per_headcount_event": 90.0,
     "high_intensity_event_count": 5
   },
@@ -24,20 +24,20 @@
       "period": "2026-03",
       "total_laid_off": 45800,
       "event_count": 29,
-      "total_laid_off_delta": -35085,
-      "total_laid_off_pct_change": -0.766,
-      "event_count_delta": -7,
-      "event_count_pct_change": -0.2414,
+      "total_laid_off_delta": -34953,
+      "total_laid_off_pct_change": -0.7632,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.1379,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25345,
       "event_count": 28,
-      "total_laid_off_delta": -14630,
-      "total_laid_off_pct_change": -0.5772,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.2143,
+      "total_laid_off_delta": -14498,
+      "total_laid_off_pct_change": -0.572,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.1071,
       "note": null
     }
   },
@@ -60,11 +60,15 @@
         "total_laid_off": 145
       },
       {
-        "company": "Pendo",
-        "total_laid_off": 90
+        "company": "Taboola",
+        "total_laid_off": 100
       },
       {
         "company": "GoCardless",
+        "total_laid_off": 90
+      },
+      {
+        "company": "Pendo",
         "total_laid_off": 90
       },
       {
@@ -78,10 +82,6 @@
       {
         "company": "SuperOps",
         "total_laid_off": 60
-      },
-      {
-        "company": "Pentera",
-        "total_laid_off": 40
       }
     ],
     "industry_top": [
@@ -95,7 +95,11 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 150
+        "total_laid_off": 182
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 100
       },
       {
         "industry": "Product",
@@ -117,7 +121,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10505
+        "total_laid_off": 10605
       },
       {
         "country": "India",
@@ -126,12 +130,16 @@
       {
         "country": "United Kingdom",
         "total_laid_off": 90
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 32
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9425
+        "total_laid_off": 9557
       },
       {
         "stage": "Unknown",
@@ -157,7 +165,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 2
+        "event_count": 4
       },
       {
         "bucket": "10-24%",
@@ -230,14 +238,14 @@
         "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
       },
       {
-        "date": "2026-04-07",
-        "company": "Pendo",
-        "num_laid_off": 90,
-        "percentage_laid_off": 0.1,
-        "industry": "Product",
+        "date": "2026-04-15",
+        "company": "Taboola",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
         "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
       },
       {
         "date": "2026-04-14",
@@ -250,6 +258,16 @@
         "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
       },
       {
+        "date": "2026-04-07",
+        "company": "Pendo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.1,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+      },
+      {
         "date": "2026-04-16",
         "company": "Shutterfly",
         "num_laid_off": 80,
@@ -258,16 +276,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
-      },
-      {
-        "date": "2026-04-24",
-        "company": "SuperOps",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.3,
-        "industry": "Other",
-        "country": "India",
-        "stage": "Series C",
-        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
       },
       {
         "date": "2026-04-20",
@@ -363,6 +371,26 @@
       },
       {
         "date": "2026-04-15",
+        "company": "Taboola",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.05,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Nayax",
+        "num_laid_off": 32,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
+      },
+      {
+        "date": "2026-04-15",
         "company": "Productboard",
         "num_laid_off": null,
         "percentage_laid_off": 0.3,
@@ -400,6 +428,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+      },
+      {
+        "date": "2026-04-12",
+        "company": "Esh Group",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
       },
       {
         "date": "2026-04-10",
@@ -450,36 +488,6 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
-      },
-      {
-        "date": "2026-04-05",
-        "company": "Bolt",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.33,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
-      },
-      {
-        "date": "2026-04-03",
-        "company": "NeuroPixel.AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
-      },
-      {
-        "date": "2026-04-03",
-        "company": "Vimeo",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
       }
     ],
     "high_intensity_events": [
@@ -536,7 +544,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 22 public layoff events and 10,715 reported layoffs.",
+    "2026-04 includes 25 public layoff events and 10,847 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,345 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."

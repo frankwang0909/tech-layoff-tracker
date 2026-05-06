@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-05",
+    "company": "Coinbase",
+    "num_laid_off": 700,
+    "percentage_laid_off": 0.14,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+  },
+  {
     "date": "2026-04-27",
     "company": "Pentera",
     "num_laid_off": 40,
@@ -81,6 +91,26 @@
   },
   {
     "date": "2026-04-15",
+    "company": "Taboola",
+    "num_laid_off": 100,
+    "percentage_laid_off": 0.05,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+  },
+  {
+    "date": "2026-04-15",
+    "company": "Nayax",
+    "num_laid_off": 32,
+    "percentage_laid_off": 0.03,
+    "industry": "Finance",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
+  },
+  {
+    "date": "2026-04-15",
     "company": "Productboard",
     "num_laid_off": null,
     "percentage_laid_off": 0.3,
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Series D",
     "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
-  },
-  {
-    "date": "2026-04-14",
-    "company": "GoCardless",
-    "num_laid_off": 90,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United Kingdom",
-    "stage": "Series G",
-    "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
-  },
-  {
-    "date": "2026-04-13",
-    "company": "Eventbrite",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
-  },
-  {
-    "date": "2026-04-13",
-    "company": "StarkWare",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
-    "country": "Israel",
-    "stage": "Series D",
-    "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
   }
 ]

@@ -825,10 +825,10 @@
       "end": "2026-04-20"
     },
     "kpis": {
-      "total_laid_off": 8674,
-      "event_count": 42,
-      "headcount_event_count": 26,
-      "company_count": 39,
+      "total_laid_off": 8706,
+      "event_count": 44,
+      "headcount_event_count": 27,
+      "company_count": 40,
       "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 14
@@ -885,7 +885,7 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 150
+          "total_laid_off": 182
         }
       ],
       "company_top": [
@@ -944,6 +944,16 @@
           "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
         },
         {
+          "date": "2026-04-15",
+          "company": "Nayax",
+          "num_laid_off": 32,
+          "percentage_laid_off": 0.03,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
+        },
+        {
           "date": "2026-04-14",
           "company": "GoCardless",
           "num_laid_off": 90,
@@ -952,6 +962,16 @@
           "country": "United Kingdom",
           "stage": "Series G",
           "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
+        },
+        {
+          "date": "2026-04-12",
+          "company": "Esh Group",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
         },
         {
           "date": "2026-04-09",
@@ -1062,30 +1082,10 @@
           "country": "Israel",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
-        },
-        {
-          "date": "2026-01-15",
-          "company": "Tipalti",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
-        },
-        {
-          "date": "2026-01-13",
-          "company": "eToro",
-          "num_laid_off": 105,
-          "percentage_laid_off": 0.07,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
         }
       ]
     },
-    "summary": "Finance has 8,674 reported tech layoffs across 42 public events from 2025-01-02 to 2026-04-20."
+    "summary": "Finance has 8,706 reported tech layoffs across 44 public events from 2025-01-02 to 2026-04-20."
   },
   {
     "type": "industry",
@@ -2984,13 +2984,13 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-03-04"
+      "end": "2026-04-15"
     },
     "kpis": {
-      "total_laid_off": 1386,
-      "event_count": 15,
-      "headcount_event_count": 10,
-      "company_count": 14,
+      "total_laid_off": 1486,
+      "event_count": 16,
+      "headcount_event_count": 11,
+      "company_count": 15,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 4
@@ -3024,19 +3024,23 @@
         {
           "month": "2026-03",
           "total_laid_off": 200
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 100
         }
       ],
       "company_top": [
+        {
+          "company": "Outbrain",
+          "total_laid_off": 200
+        },
         {
           "company": "Envato",
           "total_laid_off": 200
         },
         {
           "company": "Yotpo",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Outbrain",
           "total_laid_off": 200
         },
         {
@@ -3056,6 +3060,10 @@
           "total_laid_off": 130
         },
         {
+          "company": "Taboola",
+          "total_laid_off": 100
+        },
+        {
           "company": "LiveRamp",
           "total_laid_off": 65
         },
@@ -3067,6 +3075,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-15",
+          "company": "Taboola",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.05,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+        },
         {
           "date": "2026-03-04",
           "company": "Envato",
@@ -3206,20 +3224,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.pocketgamer.biz/applovin-lays-off-97-staff/"
-        },
-        {
-          "date": "2025-01-15",
-          "company": "ShareChat",
-          "num_laid_off": 27,
-          "percentage_laid_off": 0.05,
-          "industry": "Marketing",
-          "country": "India",
-          "stage": "Series D",
-          "source": "https://entrackr.com/news/sharechat-cuts-5-jobs-as-part-of-performance-review-cycle-8623795"
         }
       ]
     },
-    "summary": "Marketing has 1,386 reported tech layoffs across 15 public events from 2025-01-15 to 2026-03-04."
+    "summary": "Marketing has 1,486 reported tech layoffs across 16 public events from 2025-01-15 to 2026-04-15."
   },
   {
     "type": "industry",
@@ -3481,6 +3489,163 @@
       ]
     },
     "summary": "AI has 1,244 reported tech layoffs across 16 public events from 2025-02-05 to 2026-03-31."
+  },
+  {
+    "type": "industry",
+    "name": "Crypto",
+    "slug": "crypto",
+    "title": "Tech Layoffs by Industry: Crypto",
+    "canonical_url": "/industries/crypto.html",
+    "date_range": {
+      "start": "2025-02-05",
+      "end": "2026-05-05"
+    },
+    "kpis": {
+      "total_laid_off": 1036,
+      "event_count": 9,
+      "headcount_event_count": 5,
+      "company_count": 8,
+      "country_count": 4,
+      "industry_count": 1,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 76
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 700
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Coinbase",
+          "total_laid_off": 700
+        },
+        {
+          "company": "Gemini",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Polygon",
+          "total_laid_off": 60
+        },
+        {
+          "company": "ConsenSys",
+          "total_laid_off": 47
+        },
+        {
+          "company": "Eigen Labs",
+          "total_laid_off": 29
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-05",
+          "company": "Coinbase",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.14,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+        },
+        {
+          "date": "2026-04-13",
+          "company": "StarkWare",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+        },
+        {
+          "date": "2026-03-20",
+          "company": "Gemini",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
+        },
+        {
+          "date": "2026-03-19",
+          "company": "Crypto.com",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.12,
+          "industry": "Crypto",
+          "country": "Singapore",
+          "stage": "Unknown",
+          "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+        },
+        {
+          "date": "2026-01-25",
+          "company": "Entropy",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
+        },
+        {
+          "date": "2026-01-16",
+          "company": "Polygon",
+          "num_laid_off": 60,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Cayman Islands",
+          "stage": "Unknown",
+          "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
+        },
+        {
+          "date": "2025-07-22",
+          "company": "ConsenSys",
+          "num_laid_off": 47,
+          "percentage_laid_off": 0.07,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+        },
+        {
+          "date": "2025-07-08",
+          "company": "Eigen Labs",
+          "num_laid_off": 29,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+        },
+        {
+          "date": "2025-02-05",
+          "company": "Gemini",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
+        }
+      ]
+    },
+    "summary": "Crypto has 1,036 reported tech layoffs across 9 public events from 2025-02-05 to 2026-05-05."
   },
   {
     "type": "industry",
@@ -4362,145 +4527,6 @@
       ]
     },
     "summary": "Healthcare has 343 reported tech layoffs across 9 public events from 2025-02-24 to 2025-12-01."
-  },
-  {
-    "type": "industry",
-    "name": "Crypto",
-    "slug": "crypto",
-    "title": "Tech Layoffs by Industry: Crypto",
-    "canonical_url": "/industries/crypto.html",
-    "date_range": {
-      "start": "2025-02-05",
-      "end": "2026-04-13"
-    },
-    "kpis": {
-      "total_laid_off": 336,
-      "event_count": 8,
-      "headcount_event_count": 4,
-      "company_count": 7,
-      "country_count": 4,
-      "industry_count": 1,
-      "high_intensity_event_count": 3
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 76
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 60
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Gemini",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Polygon",
-          "total_laid_off": 60
-        },
-        {
-          "company": "ConsenSys",
-          "total_laid_off": 47
-        },
-        {
-          "company": "Eigen Labs",
-          "total_laid_off": 29
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-04-13",
-          "company": "StarkWare",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
-        },
-        {
-          "date": "2026-03-20",
-          "company": "Gemini",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
-        },
-        {
-          "date": "2026-03-19",
-          "company": "Crypto.com",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.12,
-          "industry": "Crypto",
-          "country": "Singapore",
-          "stage": "Unknown",
-          "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-        },
-        {
-          "date": "2026-01-25",
-          "company": "Entropy",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Seed",
-          "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
-        },
-        {
-          "date": "2026-01-16",
-          "company": "Polygon",
-          "num_laid_off": 60,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Cayman Islands",
-          "stage": "Unknown",
-          "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
-        },
-        {
-          "date": "2025-07-22",
-          "company": "ConsenSys",
-          "num_laid_off": 47,
-          "percentage_laid_off": 0.07,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
-        },
-        {
-          "date": "2025-07-08",
-          "company": "Eigen Labs",
-          "num_laid_off": 29,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
-        },
-        {
-          "date": "2025-02-05",
-          "company": "Gemini",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
-        }
-      ]
-    },
-    "summary": "Crypto has 336 reported tech layoffs across 8 public events from 2025-02-05 to 2026-04-13."
   },
   {
     "type": "industry",

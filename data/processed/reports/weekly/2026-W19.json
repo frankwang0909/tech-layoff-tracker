@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-05",
-    "end": "2026-05-05"
+    "end": "2026-05-06"
   },
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-06",
   "canonical_url": "/reports/weekly/2026-W19.html",
   "kpis": {
-    "total_laid_off": 700,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 700.0,
-    "median_layoffs_per_headcount_event": 700.0,
+    "total_laid_off": 6095,
+    "event_count": 5,
+    "headcount_event_count": 5,
+    "company_count": 5,
+    "country_count": 2,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 1219.0,
+    "median_layoffs_per_headcount_event": 500.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,46 +24,90 @@
       "period": "2026-W18",
       "total_laid_off": 40,
       "event_count": 1,
-      "total_laid_off_delta": 660,
-      "total_laid_off_pct_change": 16.5,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 6055,
+      "total_laid_off_pct_change": 151.375,
+      "event_count_delta": 4,
+      "event_count_pct_change": 4.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W19",
       "total_laid_off": 2620,
       "event_count": 6,
-      "total_laid_off_delta": -1920,
-      "total_laid_off_pct_change": -0.7328,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.8333,
+      "total_laid_off_delta": 3475,
+      "total_laid_off_pct_change": 1.3263,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1667,
       "note": null
     }
   },
   "charts": {
     "company_top": [
       {
+        "company": "PayPal",
+        "total_laid_off": 4760
+      },
+      {
         "company": "Coinbase",
         "total_laid_off": 700
+      },
+      {
+        "company": "Freshworks",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Pocket FM",
+        "total_laid_off": 100
+      },
+      {
+        "company": "ApnaMart",
+        "total_laid_off": 35
       }
     ],
     "industry_top": [
       {
+        "industry": "Finance",
+        "total_laid_off": 4760
+      },
+      {
         "industry": "Crypto",
         "total_laid_off": 700
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 100
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 35
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 700
+        "total_laid_off": 5960
+      },
+      {
+        "country": "India",
+        "total_laid_off": 135
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 700
+        "total_laid_off": 5960
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 100
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 35
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +117,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 5
       },
       {
         "bucket": "25-49%",
@@ -93,16 +137,14 @@
     "largest_events": [
       {
         "date": "2026-05-05",
-        "company": "Coinbase",
-        "num_laid_off": 700,
-        "percentage_laid_off": 0.14,
-        "industry": "Crypto",
+        "company": "PayPal",
+        "num_laid_off": 4760,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-      }
-    ],
-    "recent_events": [
+        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+      },
       {
         "date": "2026-05-05",
         "company": "Coinbase",
@@ -112,14 +154,96 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "Pocket FM",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "ApnaMart",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.1,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-05-06",
+        "company": "Pocket FM",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "ApnaMart",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.1,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "PayPal",
+        "num_laid_off": 4760,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Coinbase",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W19 includes 1 public layoff events and 700 reported layoffs.",
-    "The largest company contributor is Coinbase with 700 reported layoffs.",
-    "The leading named industry is Crypto with 700 reported layoffs."
+    "2026-W19 includes 5 public layoff events and 6,095 reported layoffs.",
+    "The largest company contributor is PayPal with 4,760 reported layoffs.",
+    "The leading named industry is Finance with 4,760 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

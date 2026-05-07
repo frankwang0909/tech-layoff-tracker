@@ -6,16 +6,16 @@
     "start": "2026-05-05",
     "end": "2026-05-05"
   },
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-06",
   "canonical_url": "/reports/daily/2026-05-05.html",
   "kpis": {
-    "total_laid_off": 700,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 5960,
+    "event_count": 3,
+    "headcount_event_count": 3,
+    "company_count": 3,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 700.0,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 1986.67,
     "median_layoffs_per_headcount_event": 700.0,
     "high_intensity_event_count": 0
   },
@@ -34,36 +34,52 @@
       "period": "2025-05-05",
       "total_laid_off": 15,
       "event_count": 2,
-      "total_laid_off_delta": 685,
-      "total_laid_off_pct_change": 45.6667,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 5945,
+      "total_laid_off_pct_change": 396.3333,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
   "charts": {
     "company_top": [
       {
+        "company": "PayPal",
+        "total_laid_off": 4760
+      },
+      {
         "company": "Coinbase",
         "total_laid_off": 700
+      },
+      {
+        "company": "Freshworks",
+        "total_laid_off": 500
       }
     ],
     "industry_top": [
       {
+        "industry": "Finance",
+        "total_laid_off": 4760
+      },
+      {
         "industry": "Crypto",
         "total_laid_off": 700
+      },
+      {
+        "industry": "Support",
+        "total_laid_off": 500
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 700
+        "total_laid_off": 5960
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 700
+        "total_laid_off": 5960
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +89,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -93,16 +109,14 @@
     "largest_events": [
       {
         "date": "2026-05-05",
-        "company": "Coinbase",
-        "num_laid_off": 700,
-        "percentage_laid_off": 0.14,
-        "industry": "Crypto",
+        "company": "PayPal",
+        "num_laid_off": 4760,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-      }
-    ],
-    "recent_events": [
+        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+      },
       {
         "date": "2026-05-05",
         "company": "Coinbase",
@@ -112,14 +126,56 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-05-05",
+        "company": "PayPal",
+        "num_laid_off": 4760,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Coinbase",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-05 includes 1 public layoff events and 700 reported layoffs.",
-    "The largest company contributor is Coinbase with 700 reported layoffs.",
-    "The leading named industry is Crypto with 700 reported layoffs."
+    "2026-05-05 includes 3 public layoff events and 5,960 reported layoffs.",
+    "The largest company contributor is PayPal with 4,760 reported layoffs.",
+    "The leading named industry is Finance with 4,760 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

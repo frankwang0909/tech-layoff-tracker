@@ -36,6 +36,10 @@
     "total_laid_off": 4931
   },
   {
+    "company": "PayPal",
+    "total_laid_off": 4760
+  },
+  {
     "company": "Northvolt",
     "total_laid_off": 2800
   },
@@ -53,10 +57,6 @@
   },
   {
     "company": "Synopsys",
-    "total_laid_off": 2000
-  },
-  {
-    "company": "WiseTech",
     "total_laid_off": 2000
   }
 ]

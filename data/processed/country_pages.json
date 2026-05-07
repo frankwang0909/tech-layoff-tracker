@@ -10,10 +10,10 @@
       "end": "2026-05-05"
     },
     "kpis": {
-      "total_laid_off": 184286,
-      "event_count": 267,
-      "headcount_event_count": 176,
-      "company_count": 200,
+      "total_laid_off": 189546,
+      "event_count": 269,
+      "headcount_event_count": 178,
+      "company_count": 202,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 44
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 700
+          "total_laid_off": 5960
         }
       ],
       "company_top": [
@@ -127,13 +127,33 @@
           "total_laid_off": 4931
         },
         {
-          "company": "Hewlett Packard Enterprise",
-          "total_laid_off": 2552
+          "company": "PayPal",
+          "total_laid_off": 4760
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-05",
+          "company": "PayPal",
+          "num_laid_off": 4760,
+          "percentage_laid_off": 0.2,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "Freshworks",
+          "num_laid_off": 500,
+          "percentage_laid_off": 0.11,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+        },
         {
           "date": "2026-05-05",
           "company": "Coinbase",
@@ -263,30 +283,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
-        },
-        {
-          "date": "2026-04-07",
-          "company": "GoPro",
-          "num_laid_off": 145,
-          "percentage_laid_off": 0.23,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
-        },
-        {
-          "date": "2026-04-07",
-          "company": "Pendo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.1,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
         }
       ]
     },
-    "summary": "United States has 184,286 reported tech layoffs across 267 public events from 2025-01-02 to 2026-05-05."
+    "summary": "United States has 189,546 reported tech layoffs across 269 public events from 2025-01-02 to 2026-05-05."
   },
   {
     "type": "country",
@@ -296,13 +296,13 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-04-24"
+      "end": "2026-05-06"
     },
     "kpis": {
-      "total_laid_off": 8875,
-      "event_count": 49,
-      "headcount_event_count": 38,
-      "company_count": 40,
+      "total_laid_off": 9010,
+      "event_count": 51,
+      "headcount_event_count": 40,
+      "company_count": 41,
       "country_count": 1,
       "industry_count": 13,
       "high_intensity_event_count": 17
@@ -364,15 +364,19 @@
         {
           "month": "2026-04",
           "total_laid_off": 120
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 135
         }
       ],
       "company_top": [
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
@@ -404,13 +408,33 @@
           "total_laid_off": 370
         },
         {
-          "company": "Porter",
+          "company": "VerSe Innovation copy",
           "total_laid_off": 350
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-06",
+          "company": "Pocket FM",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.1,
+          "industry": "Media",
+          "country": "India",
+          "stage": "Series D",
+          "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+        },
+        {
+          "date": "2026-05-06",
+          "company": "ApnaMart",
+          "num_laid_off": 35,
+          "percentage_laid_off": 0.1,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Series B",
+          "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+        },
         {
           "date": "2026-04-24",
           "company": "SuperOps",
@@ -540,30 +564,10 @@
           "country": "India",
           "stage": "Series A",
           "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
-        },
-        {
-          "date": "2025-11-10",
-          "company": "GamesKraft",
-          "num_laid_off": 280,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "India",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/"
-        },
-        {
-          "date": "2025-11-04",
-          "company": "Porter",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.18,
-          "industry": "Logistics",
-          "country": "India",
-          "stage": "Series F",
-          "source": "https://inc42.com/buzz/exclusive-porter-lays-off-over-350-employees/"
         }
       ]
     },
-    "summary": "India has 8,875 reported tech layoffs across 49 public events from 2025-01-15 to 2026-04-24."
+    "summary": "India has 9,010 reported tech layoffs across 51 public events from 2025-01-15 to 2026-05-06."
   },
   {
     "type": "country",

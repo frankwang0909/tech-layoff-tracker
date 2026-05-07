@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-05-06",
+    "company": "Pocket FM",
+    "num_laid_off": 100,
+    "percentage_laid_off": 0.1,
+    "industry": "Media",
+    "country": "India",
+    "stage": "Series D",
+    "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+  },
+  {
+    "date": "2026-05-06",
+    "company": "ApnaMart",
+    "num_laid_off": 35,
+    "percentage_laid_off": 0.1,
+    "industry": "Food",
+    "country": "India",
+    "stage": "Series B",
+    "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+  },
+  {
+    "date": "2026-05-05",
+    "company": "PayPal",
+    "num_laid_off": 4760,
+    "percentage_laid_off": 0.2,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+  },
+  {
+    "date": "2026-05-05",
+    "company": "Freshworks",
+    "num_laid_off": 500,
+    "percentage_laid_off": 0.11,
+    "industry": "Support",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+  },
+  {
     "date": "2026-05-05",
     "company": "Coinbase",
     "num_laid_off": 700,
@@ -71,26 +111,6 @@
   },
   {
     "date": "2026-04-15",
-    "company": "Snap",
-    "num_laid_off": 1000,
-    "percentage_laid_off": 0.16,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
-  },
-  {
-    "date": "2026-04-15",
-    "company": "UKG",
-    "num_laid_off": 950,
-    "percentage_laid_off": null,
-    "industry": "HR",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
-  },
-  {
-    "date": "2026-04-15",
     "company": "Taboola",
     "num_laid_off": 100,
     "percentage_laid_off": 0.05,
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
-  },
-  {
-    "date": "2026-04-15",
-    "company": "Nayax",
-    "num_laid_off": 32,
-    "percentage_laid_off": 0.03,
-    "industry": "Finance",
-    "country": "Israel",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
-  },
-  {
-    "date": "2026-04-15",
-    "company": "Productboard",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.3,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Series D",
-    "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
   }
 ]

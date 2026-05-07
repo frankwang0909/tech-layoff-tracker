@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-05-05"
+    "end": "2026-05-06"
   },
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-06",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 11547,
-    "event_count": 26,
-    "headcount_event_count": 14,
-    "company_count": 25,
+    "total_laid_off": 16942,
+    "event_count": 30,
+    "headcount_event_count": 18,
+    "company_count": 29,
     "country_count": 4,
-    "industry_count": 11,
-    "average_layoffs_per_headcount_event": 824.79,
-    "median_layoffs_per_headcount_event": 95.0,
+    "industry_count": 14,
+    "average_layoffs_per_headcount_event": 941.22,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 5
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q1",
       "total_laid_off": 81747,
       "event_count": 86,
-      "total_laid_off_delta": -70200,
-      "total_laid_off_pct_change": -0.8587,
-      "event_count_delta": -60,
-      "event_count_pct_change": -0.6977,
+      "total_laid_off_delta": -64805,
+      "total_laid_off_pct_change": -0.7928,
+      "event_count_delta": -56,
+      "event_count_pct_change": -0.6512,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37528,
       "event_count": 71,
-      "total_laid_off_delta": -25981,
-      "total_laid_off_pct_change": -0.6923,
-      "event_count_delta": -45,
-      "event_count_pct_change": -0.6338,
+      "total_laid_off_delta": -20586,
+      "total_laid_off_pct_change": -0.5486,
+      "event_count_delta": -41,
+      "event_count_pct_change": -0.5775,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Meta",
         "total_laid_off": 8200
+      },
+      {
+        "company": "PayPal",
+        "total_laid_off": 4760
       },
       {
         "company": "Snap",
@@ -60,6 +64,10 @@
         "total_laid_off": 700
       },
       {
+        "company": "Freshworks",
+        "total_laid_off": 500
+      },
+      {
         "company": "GoPro",
         "total_laid_off": 145
       },
@@ -68,26 +76,22 @@
         "total_laid_off": 100
       },
       {
+        "company": "Pocket FM",
+        "total_laid_off": 100
+      },
+      {
         "company": "GoCardless",
         "total_laid_off": 90
-      },
-      {
-        "company": "Pendo",
-        "total_laid_off": 90
-      },
-      {
-        "company": "Shutterfly",
-        "total_laid_off": 80
-      },
-      {
-        "company": "Acko",
-        "total_laid_off": 60
       }
     ],
     "industry_top": [
       {
         "industry": "Consumer",
         "total_laid_off": 9345
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 4942
       },
       {
         "industry": "HR",
@@ -98,8 +102,12 @@
         "total_laid_off": 700
       },
       {
-        "industry": "Finance",
-        "total_laid_off": 182
+        "industry": "Support",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 100
       },
       {
         "industry": "Marketing",
@@ -116,20 +124,16 @@
       {
         "industry": "Other",
         "total_laid_off": 60
-      },
-      {
-        "industry": "Security",
-        "total_laid_off": 40
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 11305
+        "total_laid_off": 16565
       },
       {
         "country": "India",
-        "total_laid_off": 120
+        "total_laid_off": 255
       },
       {
         "country": "United Kingdom",
@@ -143,18 +147,22 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 10257
+        "total_laid_off": 15517
       },
       {
         "stage": "Unknown",
         "total_laid_off": 1010
       },
       {
-        "stage": "Series G",
-        "total_laid_off": 90
+        "stage": "Series D",
+        "total_laid_off": 140
       },
       {
         "stage": "Series F",
+        "total_laid_off": 90
+      },
+      {
+        "stage": "Series G",
         "total_laid_off": 90
       },
       {
@@ -162,8 +170,8 @@
         "total_laid_off": 60
       },
       {
-        "stage": "Series D",
-        "total_laid_off": 40
+        "stage": "Series B",
+        "total_laid_off": 35
       }
     ],
     "layoff_pct_distribution": [
@@ -173,7 +181,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 5
+        "event_count": 9
       },
       {
         "bucket": "25-49%",
@@ -200,6 +208,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "PayPal",
+        "num_laid_off": 4760,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
         "date": "2026-04-15",
@@ -232,6 +250,16 @@
         "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
       },
       {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+      },
+      {
         "date": "2026-04-02",
         "company": "Meta",
         "num_laid_off": 200,
@@ -262,37 +290,47 @@
         "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
       },
       {
-        "date": "2026-04-14",
-        "company": "GoCardless",
-        "num_laid_off": 90,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Series G",
-        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
-      },
-      {
-        "date": "2026-04-07",
-        "company": "Pendo",
-        "num_laid_off": 90,
+        "date": "2026-05-06",
+        "company": "Pocket FM",
+        "num_laid_off": 100,
         "percentage_laid_off": 0.1,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
-      },
-      {
-        "date": "2026-04-16",
-        "company": "Shutterfly",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-06",
+        "company": "Pocket FM",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "ApnaMart",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.1,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "PayPal",
+        "num_laid_off": 4760,
+        "percentage_laid_off": 0.2,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
+      },
       {
         "date": "2026-05-05",
         "company": "Coinbase",
@@ -302,6 +340,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
       },
       {
         "date": "2026-04-27",
@@ -365,26 +413,6 @@
       },
       {
         "date": "2026-04-15",
-        "company": "Snap",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.16,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
-      },
-      {
-        "date": "2026-04-15",
-        "company": "UKG",
-        "num_laid_off": 950,
-        "percentage_laid_off": null,
-        "industry": "HR",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
-      },
-      {
-        "date": "2026-04-15",
         "company": "Taboola",
         "num_laid_off": 100,
         "percentage_laid_off": 0.05,
@@ -414,6 +442,26 @@
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
       },
       {
+        "date": "2026-04-15",
+        "company": "UKG",
+        "num_laid_off": 950,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+      },
+      {
+        "date": "2026-04-15",
+        "company": "Snap",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.16,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+      },
+      {
         "date": "2026-04-14",
         "company": "GoCardless",
         "num_laid_off": 90,
@@ -422,16 +470,6 @@
         "country": "United Kingdom",
         "stage": "Series G",
         "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
-      },
-      {
-        "date": "2026-04-13",
-        "company": "StarkWare",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
       },
       {
         "date": "2026-04-13",
@@ -444,6 +482,16 @@
         "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
       },
       {
+        "date": "2026-04-13",
+        "company": "StarkWare",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+      },
+      {
         "date": "2026-04-12",
         "company": "Esh Group",
         "num_laid_off": null,
@@ -452,46 +500,6 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
-      },
-      {
-        "date": "2026-04-10",
-        "company": "Life360",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
-      },
-      {
-        "date": "2026-04-09",
-        "company": "Cars.com",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.11,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
-      },
-      {
-        "date": "2026-04-09",
-        "company": "Pepper Pay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
-      },
-      {
-        "date": "2026-04-07",
-        "company": "GoPro",
-        "num_laid_off": 145,
-        "percentage_laid_off": 0.23,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
       }
     ],
     "high_intensity_events": [
@@ -548,7 +556,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 26 public layoff events and 11,547 reported layoffs.",
+    "2026-Q2 includes 30 public layoff events and 16,942 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,345 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."

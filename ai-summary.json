@@ -4,9 +4,9 @@
   "generated_from": "data/processed/*.json",
   "data_range": {
     "start": "2025-01-06",
-    "end": "2026-05-06"
+    "end": "2026-05-07"
   },
-  "summary": "Tech Layoff Tracker reports 222,890 public tech layoffs from 2025-01-06 to 2026-05-06. The dataset covers 241 companies across 18 countries or regions. The largest month is 2026-03 with 45,800 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 225,831 public tech layoffs from 2025-01-06 to 2026-05-07. The dataset covers 250 companies across 19 countries or regions. The largest month is 2026-03 with 45,800 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -14,23 +14,23 @@
     },
     {
       "name": "Data range",
-      "value": "2025-01-06 to 2026-05-06"
+      "value": "2025-01-06 to 2026-05-07"
     },
     {
       "name": "Total reported layoffs",
-      "value": "222,890"
+      "value": "225,831"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "98,689"
+      "value": "101,550"
     },
     {
       "name": "Companies affected",
-      "value": "241"
+      "value": "250"
     },
     {
       "name": "Countries or regions",
-      "value": "18"
+      "value": "19"
     },
     {
       "name": "Peak month",
@@ -46,19 +46,19 @@
     },
     {
       "name": "Leading country or region",
-      "value": "United States (189,546 layoffs)"
+      "value": "United States (191,682 layoffs)"
     }
   ],
   "insights": [
     "Oracle is the highest-ranked company by reported layoffs in the current company summary, with 31,094 layoffs.",
     "Hardware is the largest industry category, accounting for 51,087 reported layoffs.",
-    "United States is the leading country or region in the current dataset, with 189,546 reported layoffs.",
+    "United States is the leading country or region in the current dataset, with 191,682 reported layoffs.",
     "The peak month is 2026-03, with 45,800 reported layoffs."
   ],
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-05-06. The month with the highest reported layoff total is 2026-03."
+      "answer": "The current data covers 2025-01-06 to 2026-05-07. The month with the highest reported layoff total is 2026-03."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
@@ -103,20 +103,20 @@
       {
         "name": "Retail",
         "canonical_url": "https://tech.debugcanada.com/industries/retail.html",
-        "total_laid_off": 34097,
-        "event_count": 33
+        "total_laid_off": 34127,
+        "event_count": 34
       },
       {
         "name": "Consumer",
         "canonical_url": "https://tech.debugcanada.com/industries/consumer.html",
-        "total_laid_off": 24469,
-        "event_count": 66
+        "total_laid_off": 24616,
+        "event_count": 68
       },
       {
         "name": "Finance",
         "canonical_url": "https://tech.debugcanada.com/industries/finance.html",
-        "total_laid_off": 13466,
-        "event_count": 45
+        "total_laid_off": 14175,
+        "event_count": 46
       },
       {
         "name": "Sales",
@@ -134,7 +134,13 @@
         "name": "Transportation",
         "canonical_url": "https://tech.debugcanada.com/industries/transportation.html",
         "total_laid_off": 4584,
-        "event_count": 25
+        "event_count": 26
+      },
+      {
+        "name": "Security",
+        "canonical_url": "https://tech.debugcanada.com/industries/security.html",
+        "total_laid_off": 3843,
+        "event_count": 23
       },
       {
         "name": "Food",
@@ -147,20 +153,14 @@
         "canonical_url": "https://tech.debugcanada.com/industries/energy.html",
         "total_laid_off": 3464,
         "event_count": 10
-      },
-      {
-        "name": "Data",
-        "canonical_url": "https://tech.debugcanada.com/industries/data.html",
-        "total_laid_off": 2912,
-        "event_count": 13
       }
     ],
     "countries": [
       {
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
-        "total_laid_off": 189546,
-        "event_count": 269
+        "total_laid_off": 191682,
+        "event_count": 275
       },
       {
         "name": "India",
@@ -169,16 +169,16 @@
         "event_count": 51
       },
       {
+        "name": "Sweden",
+        "canonical_url": "https://tech.debugcanada.com/countries/sweden.html",
+        "total_laid_off": 4835,
+        "event_count": 7
+      },
+      {
         "name": "Israel",
         "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
         "total_laid_off": 4813,
         "event_count": 45
-      },
-      {
-        "name": "Sweden",
-        "canonical_url": "https://tech.debugcanada.com/countries/sweden.html",
-        "total_laid_off": 4615,
-        "event_count": 5
       },
       {
         "name": "Australia",
@@ -195,20 +195,20 @@
       {
         "name": "Canada",
         "canonical_url": "https://tech.debugcanada.com/countries/canada.html",
-        "total_laid_off": 2491,
-        "event_count": 16
+        "total_laid_off": 2521,
+        "event_count": 17
+      },
+      {
+        "name": "Germany",
+        "canonical_url": "https://tech.debugcanada.com/countries/germany.html",
+        "total_laid_off": 2035,
+        "event_count": 13
       },
       {
         "name": "United Kingdom",
         "canonical_url": "https://tech.debugcanada.com/countries/united-kingdom.html",
         "total_laid_off": 1822,
         "event_count": 14
-      },
-      {
-        "name": "Germany",
-        "canonical_url": "https://tech.debugcanada.com/countries/germany.html",
-        "total_laid_off": 1785,
-        "event_count": 12
       },
       {
         "name": "Brazil",

@@ -9,15 +9,15 @@
   },
   {
     "industry": "Retail",
-    "total_laid_off": 34097
+    "total_laid_off": 34127
   },
   {
     "industry": "Consumer",
-    "total_laid_off": 24469
+    "total_laid_off": 24616
   },
   {
     "industry": "Finance",
-    "total_laid_off": 13466
+    "total_laid_off": 14175
   },
   {
     "industry": "Sales",
@@ -32,11 +32,11 @@
     "total_laid_off": 4584
   },
   {
-    "industry": "Food",
-    "total_laid_off": 3642
+    "industry": "Security",
+    "total_laid_off": 3843
   },
   {
-    "industry": "Energy",
-    "total_laid_off": 3464
+    "industry": "Food",
+    "total_laid_off": 3642
   }
 ]

@@ -6,17 +6,17 @@
     "start": "2025-03-07",
     "end": "2025-03-07"
   },
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "canonical_url": "/reports/daily/2025-03-07.html",
   "kpis": {
-    "total_laid_off": 340,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 340.0,
-    "median_layoffs_per_headcount_event": 340.0,
+    "total_laid_off": 420,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 210.0,
+    "median_layoffs_per_headcount_event": 210.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-03-06",
       "total_laid_off": 2800,
       "event_count": 2,
-      "total_laid_off_delta": -2460,
-      "total_laid_off_pct_change": -0.8786,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -2380,
+      "total_laid_off_pct_change": -0.85,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -46,24 +46,40 @@
       {
         "company": "Wayfair",
         "total_laid_off": 340
+      },
+      {
+        "company": "Welltech",
+        "total_laid_off": 80
       }
     ],
     "industry_top": [
       {
         "industry": "Retail",
         "total_laid_off": 340
+      },
+      {
+        "industry": "Fitness",
+        "total_laid_off": 80
       }
     ],
     "country_top": [
       {
         "country": "Germany",
         "total_laid_off": 340
+      },
+      {
+        "country": "Cyprus",
+        "total_laid_off": 80
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 340
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 80
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +89,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -100,6 +116,16 @@
         "country": "Germany",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/news/retailer-wayfair-restructures-technology-team-135556649.html"
+      },
+      {
+        "date": "2025-03-07",
+        "company": "Welltech",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.1,
+        "industry": "Fitness",
+        "country": "Cyprus",
+        "stage": "Unknown",
+        "source": "https://dev.ua/news/welltech-1741333859"
       }
     ],
     "recent_events": [
@@ -112,12 +138,22 @@
         "country": "Germany",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/news/retailer-wayfair-restructures-technology-team-135556649.html"
+      },
+      {
+        "date": "2025-03-07",
+        "company": "Welltech",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.1,
+        "industry": "Fitness",
+        "country": "Cyprus",
+        "stage": "Unknown",
+        "source": "https://dev.ua/news/welltech-1741333859"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-03-07 includes 1 public layoff events and 340 reported layoffs.",
+    "2025-03-07 includes 2 public layoff events and 420 reported layoffs.",
     "The largest company contributor is Wayfair with 340 reported layoffs.",
     "The leading named industry is Retail with 340 reported layoffs."
   ],

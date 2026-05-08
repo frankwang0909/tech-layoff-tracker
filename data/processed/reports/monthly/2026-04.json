@@ -6,38 +6,38 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 10847,
-    "event_count": 25,
-    "headcount_event_count": 13,
-    "company_count": 24,
-    "country_count": 4,
-    "industry_count": 11,
-    "average_layoffs_per_headcount_event": 834.38,
-    "median_layoffs_per_headcount_event": 90.0,
-    "high_intensity_event_count": 5
+    "total_laid_off": 11299,
+    "event_count": 28,
+    "headcount_event_count": 16,
+    "company_count": 27,
+    "country_count": 6,
+    "industry_count": 13,
+    "average_layoffs_per_headcount_event": 706.19,
+    "median_layoffs_per_headcount_event": 95.0,
+    "high_intensity_event_count": 7
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-03",
       "total_laid_off": 45800,
       "event_count": 29,
-      "total_laid_off_delta": -34953,
-      "total_laid_off_pct_change": -0.7632,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.1379,
+      "total_laid_off_delta": -34501,
+      "total_laid_off_pct_change": -0.7533,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0345,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25345,
       "event_count": 28,
-      "total_laid_off_delta": -14498,
-      "total_laid_off_pct_change": -0.572,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.1071,
+      "total_laid_off_delta": -14046,
+      "total_laid_off_pct_change": -0.5542,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -56,6 +56,14 @@
         "total_laid_off": 950
       },
       {
+        "company": "Welltech",
+        "total_laid_off": 225
+      },
+      {
+        "company": "Epidemic Sound",
+        "total_laid_off": 150
+      },
+      {
         "company": "GoPro",
         "total_laid_off": 145
       },
@@ -64,38 +72,38 @@
         "total_laid_off": 100
       },
       {
-        "company": "GoCardless",
+        "company": "Pendo",
         "total_laid_off": 90
       },
       {
-        "company": "Pendo",
+        "company": "GoCardless",
         "total_laid_off": 90
       },
       {
         "company": "Shutterfly",
         "total_laid_off": 80
-      },
-      {
-        "company": "Acko",
-        "total_laid_off": 60
-      },
-      {
-        "company": "SuperOps",
-        "total_laid_off": 60
       }
     ],
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 9345
+        "total_laid_off": 9422
       },
       {
         "industry": "HR",
         "total_laid_off": 950
       },
       {
+        "industry": "Fitness",
+        "total_laid_off": 225
+      },
+      {
         "industry": "Finance",
         "total_laid_off": 182
+      },
+      {
+        "industry": "Media",
+        "total_laid_off": 150
       },
       {
         "industry": "Marketing",
@@ -121,7 +129,15 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10605
+        "total_laid_off": 10682
+      },
+      {
+        "country": "Cyprus",
+        "total_laid_off": 225
+      },
+      {
+        "country": "Sweden",
+        "total_laid_off": 150
       },
       {
         "country": "India",
@@ -139,11 +155,15 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9557
+        "total_laid_off": 9634
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1010
+        "total_laid_off": 1235
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 150
       },
       {
         "stage": "Series G",
@@ -165,7 +185,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 4
+        "event_count": 5
       },
       {
         "bucket": "10-24%",
@@ -173,7 +193,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 1
+        "event_count": 3
       },
       {
         "bucket": "50-99%",
@@ -218,6 +238,16 @@
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
       },
       {
+        "date": "2026-04-03",
+        "company": "Welltech",
+        "num_laid_off": 225,
+        "percentage_laid_off": 0.3,
+        "industry": "Fitness",
+        "country": "Cyprus",
+        "stage": "Unknown",
+        "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
+      },
+      {
         "date": "2026-04-02",
         "company": "Meta",
         "num_laid_off": 200,
@@ -226,6 +256,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "Epidemic Sound",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.33,
+        "industry": "Media",
+        "country": "Sweden",
+        "stage": "Private Equity",
+        "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
       },
       {
         "date": "2026-04-07",
@@ -266,26 +306,6 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
-      },
-      {
-        "date": "2026-04-16",
-        "company": "Shutterfly",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
-      },
-      {
-        "date": "2026-04-20",
-        "company": "Acko",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.05,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
       }
     ],
     "recent_events": [
@@ -308,6 +328,16 @@
         "country": "India",
         "stage": "Series C",
         "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "Epidemic Sound",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.33,
+        "industry": "Media",
+        "country": "Sweden",
+        "stage": "Private Equity",
+        "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
       },
       {
         "date": "2026-04-20",
@@ -470,24 +500,14 @@
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
-        "date": "2026-04-07",
-        "company": "GoPro",
-        "num_laid_off": 145,
-        "percentage_laid_off": 0.23,
+        "date": "2026-04-08",
+        "company": "IAC",
+        "num_laid_off": 77,
+        "percentage_laid_off": 0.02,
         "industry": "Consumer",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
-      },
-      {
-        "date": "2026-04-07",
-        "company": "Pendo",
-        "num_laid_off": 90,
-        "percentage_laid_off": 0.1,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        "source": "https://variety.com/2026/digital/news/barry-diller-iac-name-people-incorporated-layoffs-1236732057/"
       }
     ],
     "high_intensity_events": [
@@ -510,6 +530,16 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "Epidemic Sound",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.33,
+        "industry": "Media",
+        "country": "Sweden",
+        "stage": "Private Equity",
+        "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
       },
       {
         "date": "2026-04-05",
@@ -540,14 +570,24 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+      },
+      {
+        "date": "2026-04-03",
+        "company": "Welltech",
+        "num_laid_off": 225,
+        "percentage_laid_off": 0.3,
+        "industry": "Fitness",
+        "country": "Cyprus",
+        "stage": "Unknown",
+        "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
       }
     ]
   },
   "insights": [
-    "2026-04 includes 25 public layoff events and 10,847 reported layoffs.",
+    "2026-04 includes 28 public layoff events and 11,299 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
-    "The leading named industry is Consumer with 9,345 reported layoffs.",
-    "5 events report a layoff percentage of 25% or higher."
+    "The leading named industry is Consumer with 9,422 reported layoffs.",
+    "7 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

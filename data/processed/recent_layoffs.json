@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-05-07",
+    "company": "Cloudflare",
+    "num_laid_off": 1100,
+    "percentage_laid_off": 0.2,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://blog.cloudflare.com/building-for-the-future/"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Truecaller",
+    "num_laid_off": 70,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "Sweden",
+    "stage": "Post-IPO",
+    "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Upwork",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.25,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Bill.com",
+    "num_laid_off": 709,
+    "percentage_laid_off": 0.3,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "DeepL",
+    "num_laid_off": 250,
+    "percentage_laid_off": null,
+    "industry": "AI",
+    "country": "Germany",
+    "stage": "Unknown",
+    "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+  },
+  {
+    "date": "2026-05-06",
+    "company": "Arctic Wolf",
+    "num_laid_off": 250,
+    "percentage_laid_off": 0.1,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+  },
+  {
     "date": "2026-05-06",
     "company": "Pocket FM",
     "num_laid_off": 100,
@@ -31,6 +91,16 @@
   },
   {
     "date": "2026-05-05",
+    "company": "Coinbase",
+    "num_laid_off": 700,
+    "percentage_laid_off": 0.14,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+  },
+  {
+    "date": "2026-05-05",
     "company": "Freshworks",
     "num_laid_off": 500,
     "percentage_laid_off": 0.11,
@@ -41,82 +111,12 @@
   },
   {
     "date": "2026-05-05",
-    "company": "Coinbase",
-    "num_laid_off": 700,
-    "percentage_laid_off": 0.14,
+    "company": "0G",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.25,
     "industry": "Crypto",
     "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-  },
-  {
-    "date": "2026-04-27",
-    "company": "Pentera",
-    "num_laid_off": 40,
-    "percentage_laid_off": 0.08,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Series D",
-    "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
-  },
-  {
-    "date": "2026-04-24",
-    "company": "SuperOps",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.3,
-    "industry": "Other",
-    "country": "India",
-    "stage": "Series C",
-    "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
-  },
-  {
-    "date": "2026-04-20",
-    "company": "Acko",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.05,
-    "industry": "Finance",
-    "country": "India",
     "stage": "Unknown",
-    "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
-  },
-  {
-    "date": "2026-04-17",
-    "company": "Meta",
-    "num_laid_off": 8000,
-    "percentage_laid_off": 0.1,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
-  },
-  {
-    "date": "2026-04-16",
-    "company": "Shutterfly",
-    "num_laid_off": 80,
-    "percentage_laid_off": null,
-    "industry": "Manufacturing",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
-  },
-  {
-    "date": "2026-04-16",
-    "company": "Quora",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Series D",
-    "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
-  },
-  {
-    "date": "2026-04-15",
-    "company": "Taboola",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.05,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+    "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
   }
 ]

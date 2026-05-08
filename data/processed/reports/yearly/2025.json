@@ -6,17 +6,17 @@
     "start": "2025-01-02",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "canonical_url": "/reports/yearly/2025.html",
   "kpis": {
-    "total_laid_off": 124201,
-    "event_count": 327,
-    "headcount_event_count": 224,
-    "company_count": 271,
-    "country_count": 16,
+    "total_laid_off": 124281,
+    "event_count": 328,
+    "headcount_event_count": 225,
+    "company_count": 272,
+    "country_count": 17,
     "industry_count": 30,
-    "average_layoffs_per_headcount_event": 554.47,
-    "median_layoffs_per_headcount_event": 122.5,
+    "average_layoffs_per_headcount_event": 552.36,
+    "median_layoffs_per_headcount_event": 122.0,
     "high_intensity_event_count": 72
   },
   "comparisons": {
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 7743
+        "total_laid_off": 7823
       },
       {
         "stage": "Acquired",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 41
+        "event_count": 42
       },
       {
         "bucket": "25-49%",
@@ -429,23 +429,13 @@
       },
       {
         "date": "2025-12-09",
-        "company": "GenWise",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
-      },
-      {
-        "date": "2025-12-09",
-        "company": "VSCO",
-        "num_laid_off": 24,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://techcrunch.com/2025/12/09/vsco-lays-off-24-staff-as-its-consumer-business-suffers/"
+        "company": "Tenstorrent",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.07,
+        "industry": "Hardware",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
       },
       {
         "date": "2025-12-09",
@@ -459,13 +449,23 @@
       },
       {
         "date": "2025-12-09",
-        "company": "Tenstorrent",
-        "num_laid_off": 80,
-        "percentage_laid_off": 0.07,
-        "industry": "Hardware",
-        "country": "Canada",
-        "stage": "Series D",
-        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
+        "company": "VSCO",
+        "num_laid_off": 24,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2025/12/09/vsco-lays-off-24-staff-as-its-consumer-business-suffers/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "GenWise",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
       },
       {
         "date": "2025-12-08",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025 includes 327 public layoff events and 124,201 reported layoffs.",
+    "2025 includes 328 public layoff events and 124,281 reported layoffs.",
     "The largest company contributor is Intel with 27,058 reported layoffs.",
     "The leading named industry is Hardware with 38,337 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

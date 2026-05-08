@@ -6,17 +6,17 @@
     "start": "2025-03-02",
     "end": "2025-03-31"
   },
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "canonical_url": "/reports/monthly/2025-03.html",
   "kpis": {
-    "total_laid_off": 8834,
-    "event_count": 21,
-    "headcount_event_count": 16,
-    "company_count": 21,
-    "country_count": 7,
-    "industry_count": 14,
-    "average_layoffs_per_headcount_event": 552.12,
-    "median_layoffs_per_headcount_event": 164.0,
+    "total_laid_off": 8914,
+    "event_count": 22,
+    "headcount_event_count": 17,
+    "company_count": 22,
+    "country_count": 8,
+    "industry_count": 15,
+    "average_layoffs_per_headcount_event": 524.35,
+    "median_layoffs_per_headcount_event": 130.0,
     "high_intensity_event_count": 6
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-02",
       "total_laid_off": 18474,
       "event_count": 50,
-      "total_laid_off_delta": -9640,
-      "total_laid_off_pct_change": -0.5218,
-      "event_count_delta": -29,
-      "event_count_pct_change": -0.58,
+      "total_laid_off_delta": -9560,
+      "total_laid_off_pct_change": -0.5175,
+      "event_count_delta": -28,
+      "event_count_pct_change": -0.56,
       "note": null
     },
     "same_period_last_year": {
@@ -122,8 +122,8 @@
         "total_laid_off": 140
       },
       {
-        "industry": "Other",
-        "total_laid_off": 68
+        "industry": "Fitness",
+        "total_laid_off": 80
       }
     ],
     "country_top": [
@@ -148,6 +148,10 @@
         "total_laid_off": 300
       },
       {
+        "country": "Cyprus",
+        "total_laid_off": 80
+      },
+      {
         "country": "Israel",
         "total_laid_off": 67
       }
@@ -159,7 +163,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 2800
+        "total_laid_off": 2880
       },
       {
         "stage": "Acquired",
@@ -181,7 +185,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -413,16 +417,6 @@
       },
       {
         "date": "2025-03-10",
-        "company": "D-ID",
-        "num_laid_off": 22,
-        "percentage_laid_off": 0.25,
-        "industry": "AI",
-        "country": "Israel",
-        "stage": "Series B",
-        "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
-      },
-      {
-        "date": "2025-03-10",
         "company": "Arrival",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -430,6 +424,16 @@
         "country": "United Kingdom",
         "stage": "Post-IPO",
         "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
+      },
+      {
+        "date": "2025-03-10",
+        "company": "D-ID",
+        "num_laid_off": 22,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
       },
       {
         "date": "2025-03-09",
@@ -450,6 +454,16 @@
         "country": "Germany",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/news/retailer-wayfair-restructures-technology-team-135556649.html"
+      },
+      {
+        "date": "2025-03-07",
+        "company": "Welltech",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.1,
+        "industry": "Fitness",
+        "country": "Cyprus",
+        "stage": "Unknown",
+        "source": "https://dev.ua/news/welltech-1741333859"
       },
       {
         "date": "2025-03-06",
@@ -490,16 +504,6 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://inc42.com/buzz/ola-electric-to-cut-over-1k-jobs-amid-rising-losses-report/"
-      },
-      {
-        "date": "2025-03-03",
-        "company": "Rec Room",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.16,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://blog.recroom.com/posts/2025/3/3/rec-room-update-march-2025"
       }
     ],
     "high_intensity_events": [
@@ -566,7 +570,7 @@
     ]
   },
   "insights": [
-    "2025-03 includes 21 public layoff events and 8,834 reported layoffs.",
+    "2025-03 includes 22 public layoff events and 8,914 reported layoffs.",
     "The largest company contributor is Northvolt with 2,800 reported layoffs.",
     "The leading named industry is Energy with 2,800 reported layoffs.",
     "6 events report a layoff percentage of 25% or higher."

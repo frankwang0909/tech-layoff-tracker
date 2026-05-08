@@ -6,38 +6,38 @@
     "start": "2026-04-07",
     "end": "2026-04-12"
   },
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "canonical_url": "/reports/weekly/2026-W15.html",
   "kpis": {
-    "total_laid_off": 235,
-    "event_count": 6,
-    "headcount_event_count": 2,
-    "company_count": 6,
+    "total_laid_off": 312,
+    "event_count": 7,
+    "headcount_event_count": 3,
+    "company_count": 7,
     "country_count": 2,
     "industry_count": 4,
-    "average_layoffs_per_headcount_event": 117.5,
-    "median_layoffs_per_headcount_event": 117.5,
+    "average_layoffs_per_headcount_event": 104.0,
+    "median_layoffs_per_headcount_event": 90.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W14",
-      "total_laid_off": 30250,
-      "event_count": 10,
-      "total_laid_off_delta": -30015,
-      "total_laid_off_pct_change": -0.9922,
+      "total_laid_off": 30475,
+      "event_count": 11,
+      "total_laid_off_delta": -30163,
+      "total_laid_off_pct_change": -0.9898,
       "event_count_delta": -4,
-      "event_count_pct_change": -0.4,
+      "event_count_pct_change": -0.3636,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W15",
       "total_laid_off": 200,
       "event_count": 4,
-      "total_laid_off_delta": 35,
-      "total_laid_off_pct_change": 0.175,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.5,
+      "total_laid_off_delta": 112,
+      "total_laid_off_pct_change": 0.56,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.75,
       "note": null
     }
   },
@@ -50,12 +50,16 @@
       {
         "company": "Pendo",
         "total_laid_off": 90
+      },
+      {
+        "company": "IAC",
+        "total_laid_off": 77
       }
     ],
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 145
+        "total_laid_off": 222
       },
       {
         "industry": "Product",
@@ -65,13 +69,13 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 235
+        "total_laid_off": 312
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 145
+        "total_laid_off": 222
       },
       {
         "stage": "Series F",
@@ -81,7 +85,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -122,6 +126,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+      },
+      {
+        "date": "2026-04-08",
+        "company": "IAC",
+        "num_laid_off": 77,
+        "percentage_laid_off": 0.02,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://variety.com/2026/digital/news/barry-diller-iac-name-people-incorporated-layoffs-1236732057/"
       }
     ],
     "recent_events": [
@@ -166,6 +180,16 @@
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
+        "date": "2026-04-08",
+        "company": "IAC",
+        "num_laid_off": 77,
+        "percentage_laid_off": 0.02,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://variety.com/2026/digital/news/barry-diller-iac-name-people-incorporated-layoffs-1236732057/"
+      },
+      {
         "date": "2026-04-07",
         "company": "GoPro",
         "num_laid_off": 145,
@@ -200,9 +224,9 @@
     ]
   },
   "insights": [
-    "2026-W15 includes 6 public layoff events and 235 reported layoffs.",
+    "2026-W15 includes 7 public layoff events and 312 reported layoffs.",
     "The largest company contributor is GoPro with 145 reported layoffs.",
-    "The leading named industry is Consumer with 145 reported layoffs.",
+    "The leading named industry is Consumer with 222 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

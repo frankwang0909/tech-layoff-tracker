@@ -1,19 +1,19 @@
 [
   {
     "country": "United States",
-    "total_laid_off": 189546
+    "total_laid_off": 191682
   },
   {
     "country": "India",
     "total_laid_off": 9010
   },
   {
-    "country": "Israel",
-    "total_laid_off": 4813
+    "country": "Sweden",
+    "total_laid_off": 4835
   },
   {
-    "country": "Sweden",
-    "total_laid_off": 4615
+    "country": "Israel",
+    "total_laid_off": 4813
   },
   {
     "country": "Australia",
@@ -25,15 +25,15 @@
   },
   {
     "country": "Canada",
-    "total_laid_off": 2491
+    "total_laid_off": 2521
+  },
+  {
+    "country": "Germany",
+    "total_laid_off": 2035
   },
   {
     "country": "United Kingdom",
     "total_laid_off": 1822
-  },
-  {
-    "country": "Germany",
-    "total_laid_off": 1785
   },
   {
     "country": "Brazil",

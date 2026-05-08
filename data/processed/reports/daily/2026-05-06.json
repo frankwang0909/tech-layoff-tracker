@@ -6,43 +6,47 @@
     "start": "2026-05-06",
     "end": "2026-05-06"
   },
-  "updated_at": "2026-05-06",
+  "updated_at": "2026-05-07",
   "canonical_url": "/reports/daily/2026-05-06.html",
   "kpis": {
-    "total_laid_off": 135,
-    "event_count": 2,
-    "headcount_event_count": 2,
-    "company_count": 2,
-    "country_count": 1,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 67.5,
-    "median_layoffs_per_headcount_event": 67.5,
+    "total_laid_off": 385,
+    "event_count": 3,
+    "headcount_event_count": 3,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 128.33,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05-05",
       "total_laid_off": 5960,
-      "event_count": 3,
-      "total_laid_off_delta": -5825,
-      "total_laid_off_pct_change": -0.9773,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.3333,
+      "event_count": 5,
+      "total_laid_off_delta": -5575,
+      "total_laid_off_pct_change": -0.9354,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.4,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-06",
       "total_laid_off": 1600,
       "event_count": 1,
-      "total_laid_off_delta": -1465,
-      "total_laid_off_pct_change": -0.9156,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": -1215,
+      "total_laid_off_pct_change": -0.7594,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Arctic Wolf",
+        "total_laid_off": 250
+      },
       {
         "company": "Pocket FM",
         "total_laid_off": 100
@@ -54,6 +58,10 @@
     ],
     "industry_top": [
       {
+        "industry": "Security",
+        "total_laid_off": 250
+      },
+      {
         "industry": "Media",
         "total_laid_off": 100
       },
@@ -64,11 +72,19 @@
     ],
     "country_top": [
       {
+        "country": "United States",
+        "total_laid_off": 250
+      },
+      {
         "country": "India",
         "total_laid_off": 135
       }
     ],
     "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 250
+      },
       {
         "stage": "Series D",
         "total_laid_off": 100
@@ -85,7 +101,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -103,6 +119,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-05-06",
+        "company": "Arctic Wolf",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.1,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+      },
       {
         "date": "2026-05-06",
         "company": "Pocket FM",
@@ -127,6 +153,16 @@
     "recent_events": [
       {
         "date": "2026-05-06",
+        "company": "Arctic Wolf",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.1,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+      },
+      {
+        "date": "2026-05-06",
         "company": "Pocket FM",
         "num_laid_off": 100,
         "percentage_laid_off": 0.1,
@@ -149,9 +185,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-06 includes 2 public layoff events and 135 reported layoffs.",
-    "The largest company contributor is Pocket FM with 100 reported layoffs.",
-    "The leading named industry is Media with 100 reported layoffs."
+    "2026-05-06 includes 3 public layoff events and 385 reported layoffs.",
+    "The largest company contributor is Arctic Wolf with 250 reported layoffs.",
+    "The leading named industry is Security with 250 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

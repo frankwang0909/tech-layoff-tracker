@@ -1,9 +1,10 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
 Cloudflare,SF Bay Area,1100.0,2026-05-07,0.2,Security,https://blog.cloudflare.com/building-for-the-future/,Post-IPO,332.0,United States,2026-05-07T20:53:26.000Z
 Bill.com,SF Bay Area,709.0,2026-05-07,0.3,Finance,https://www.bill.com/blog/a-message-to-bill-employees,Post-IPO,280.0,United States,2026-05-07T21:04:50.000Z
-DeepL,"Cologne, Non-U.S.",250.0,2026-05-07,,AI,https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/,Unknown,400.0,Germany,2026-05-07T20:59:08.000Z
+Ticketmaster,Los Angeles,350.0,2026-05-07,0.08,Consumer,https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/,Acquired,,United States,2026-05-09T00:03:19.000Z
+DeepL,"Cologne, Non-U.S.",250.0,2026-05-07,0.21,AI,https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/,Unknown,400.0,Germany,2026-05-07T20:59:08.000Z
+Upwork,SF Bay Area,151.0,2026-05-07,0.24,Other,https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026,Post-IPO,168.0,United States,2026-05-07T23:01:01.000Z
 Truecaller,"Stockholm, Non-U.S.",70.0,2026-05-07,,Consumer,https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610,Post-IPO,101.0,Sweden,2026-05-07T20:57:32.000Z
-Upwork,SF Bay Area,,2026-05-07,0.25,Other,https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026,Post-IPO,168.0,United States,2026-05-07T23:01:01.000Z
 Arctic Wolf,Minneapolis,250.0,2026-05-06,0.1,Security,https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213,Unknown,899.0,United States,2026-05-07T20:55:36.000Z
 Pocket FM,"Bengaluru, Non-U.S.",100.0,2026-05-06,0.1,Media,https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323,Series D,212.0,India,2026-05-06T16:00:55.000Z
 ApnaMart,"Bengaluru, Non-U.S.",35.0,2026-05-06,0.1,Food,https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807,Series B,40.0,India,2026-05-06T16:02:20.000Z

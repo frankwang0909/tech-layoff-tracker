@@ -1,11 +1,11 @@
 [
   {
     "bucket": "<10%",
-    "event_count": 61
+    "event_count": 62
   },
   {
     "bucket": "10-24%",
-    "event_count": 63
+    "event_count": 65
   },
   {
     "bucket": "25-49%",

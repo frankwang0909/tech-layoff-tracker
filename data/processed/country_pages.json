@@ -10,13 +10,13 @@
       "end": "2026-05-07"
     },
     "kpis": {
-      "total_laid_off": 191682,
-      "event_count": 275,
-      "headcount_event_count": 182,
-      "company_count": 207,
+      "total_laid_off": 192183,
+      "event_count": 276,
+      "headcount_event_count": 184,
+      "company_count": 208,
       "country_count": 1,
       "industry_count": 29,
-      "high_intensity_event_count": 47
+      "high_intensity_event_count": 46
     },
     "charts": {
       "monthly_trend": [
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 8019
+          "total_laid_off": 8520
         }
       ],
       "company_top": [
@@ -147,8 +147,8 @@
         {
           "date": "2026-05-07",
           "company": "Upwork",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
+          "num_laid_off": 151,
+          "percentage_laid_off": 0.24,
           "industry": "Other",
           "country": "United States",
           "stage": "Post-IPO",
@@ -163,6 +163,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Ticketmaster",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.08,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
         },
         {
           "date": "2026-05-06",
@@ -236,16 +246,6 @@
         },
         {
           "date": "2026-04-16",
-          "company": "Shutterfly",
-          "num_laid_off": 80,
-          "percentage_laid_off": null,
-          "industry": "Manufacturing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
-        },
-        {
-          "date": "2026-04-16",
           "company": "Quora",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -253,6 +253,16 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
+        },
+        {
+          "date": "2026-04-16",
+          "company": "Shutterfly",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Manufacturing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
         },
         {
           "date": "2026-04-15",
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Taboola",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.05,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
         }
       ]
     },
-    "summary": "United States has 191,682 reported tech layoffs across 275 public events from 2025-01-02 to 2026-05-07."
+    "summary": "United States has 192,183 reported tech layoffs across 276 public events from 2025-01-02 to 2026-05-07."
   },
   {
     "type": "country",
@@ -1595,7 +1595,7 @@
           "date": "2026-05-07",
           "company": "DeepL",
           "num_laid_off": 250,
-          "percentage_laid_off": null,
+          "percentage_laid_off": 0.21,
           "industry": "AI",
           "country": "Germany",
           "stage": "Unknown",

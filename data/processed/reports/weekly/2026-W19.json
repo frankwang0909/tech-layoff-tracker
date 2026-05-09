@@ -9,35 +9,35 @@
   "updated_at": "2026-05-07",
   "canonical_url": "/reports/weekly/2026-W19.html",
   "kpis": {
-    "total_laid_off": 8504,
-    "event_count": 14,
-    "headcount_event_count": 11,
-    "company_count": 14,
+    "total_laid_off": 9005,
+    "event_count": 15,
+    "headcount_event_count": 13,
+    "company_count": 15,
     "country_count": 6,
     "industry_count": 11,
-    "average_layoffs_per_headcount_event": 773.09,
+    "average_layoffs_per_headcount_event": 692.69,
     "median_layoffs_per_headcount_event": 250.0,
-    "high_intensity_event_count": 3
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W18",
       "total_laid_off": 40,
       "event_count": 1,
-      "total_laid_off_delta": 8464,
-      "total_laid_off_pct_change": 211.6,
-      "event_count_delta": 13,
-      "event_count_pct_change": 13.0,
+      "total_laid_off_delta": 8965,
+      "total_laid_off_pct_change": 224.125,
+      "event_count_delta": 14,
+      "event_count_pct_change": 14.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W19",
       "total_laid_off": 2620,
       "event_count": 6,
-      "total_laid_off_delta": 5884,
-      "total_laid_off_pct_change": 2.2458,
-      "event_count_delta": 8,
-      "event_count_pct_change": 1.3333,
+      "total_laid_off_delta": 6385,
+      "total_laid_off_pct_change": 2.437,
+      "event_count_delta": 9,
+      "event_count_pct_change": 1.5,
       "note": null
     }
   },
@@ -64,24 +64,24 @@
         "total_laid_off": 500
       },
       {
-        "company": "DeepL",
-        "total_laid_off": 250
+        "company": "Ticketmaster",
+        "total_laid_off": 350
       },
       {
         "company": "Arctic Wolf",
         "total_laid_off": 250
       },
       {
+        "company": "DeepL",
+        "total_laid_off": 250
+      },
+      {
+        "company": "Upwork",
+        "total_laid_off": 151
+      },
+      {
         "company": "Pocket FM",
         "total_laid_off": 100
-      },
-      {
-        "company": "Truecaller",
-        "total_laid_off": 70
-      },
-      {
-        "company": "ApnaMart",
-        "total_laid_off": 35
       }
     ],
     "industry_top": [
@@ -102,16 +102,20 @@
         "total_laid_off": 500
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 420
+      },
+      {
         "industry": "AI",
         "total_laid_off": 250
       },
       {
-        "industry": "Media",
-        "total_laid_off": 100
+        "industry": "Other",
+        "total_laid_off": 151
       },
       {
-        "industry": "Consumer",
-        "total_laid_off": 70
+        "industry": "Media",
+        "total_laid_off": 100
       },
       {
         "industry": "Food",
@@ -125,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 8019
+        "total_laid_off": 8520
       },
       {
         "country": "Germany",
@@ -147,11 +151,15 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 7869
+        "total_laid_off": 8020
       },
       {
         "stage": "Unknown",
         "total_laid_off": 500
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 350
       },
       {
         "stage": "Series D",
@@ -165,11 +173,11 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
-        "event_count": 7
+        "event_count": 9
       },
       {
         "bucket": "25-49%",
@@ -239,9 +247,19 @@
       },
       {
         "date": "2026-05-07",
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+      },
+      {
+        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.21,
         "industry": "AI",
         "country": "Germany",
         "stage": "Unknown",
@@ -258,6 +276,16 @@
         "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
       },
       {
+        "date": "2026-05-07",
+        "company": "Upwork",
+        "num_laid_off": 151,
+        "percentage_laid_off": 0.24,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+      },
+      {
         "date": "2026-05-06",
         "company": "Pocket FM",
         "num_laid_off": 100,
@@ -266,26 +294,6 @@
         "country": "India",
         "stage": "Series D",
         "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Truecaller",
-        "num_laid_off": 70,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-      },
-      {
-        "date": "2026-05-06",
-        "company": "ApnaMart",
-        "num_laid_off": 35,
-        "percentage_laid_off": 0.1,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series B",
-        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
       }
     ],
     "recent_events": [
@@ -311,13 +319,33 @@
       },
       {
         "date": "2026-05-07",
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+      },
+      {
+        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.21,
         "industry": "AI",
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "Upwork",
+        "num_laid_off": 151,
+        "percentage_laid_off": 0.24,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-07",
@@ -328,16 +356,6 @@
         "country": "Sweden",
         "stage": "Post-IPO",
         "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-06",
@@ -442,16 +460,6 @@
         "source": "https://www.bill.com/blog/a-message-to-bill-employees"
       },
       {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
-      },
-      {
         "date": "2026-05-05",
         "company": "0G",
         "num_laid_off": null,
@@ -464,10 +472,10 @@
     ]
   },
   "insights": [
-    "2026-W19 includes 14 public layoff events and 8,504 reported layoffs.",
+    "2026-W19 includes 15 public layoff events and 9,005 reported layoffs.",
     "The largest company contributor is PayPal with 4,760 reported layoffs.",
     "The leading named industry is Finance with 5,469 reported layoffs.",
-    "3 events report a layoff percentage of 25% or higher."
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -548,10 +548,10 @@
       "end": "2026-05-07"
     },
     "kpis": {
-      "total_laid_off": 24616,
-      "event_count": 68,
-      "headcount_event_count": 46,
-      "company_count": 45,
+      "total_laid_off": 24966,
+      "event_count": 69,
+      "headcount_event_count": 47,
+      "company_count": 46,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -620,7 +620,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 70
+          "total_laid_off": 420
         }
       ],
       "company_top": [
@@ -633,15 +633,15 @@
           "total_laid_off": 1290
         },
         {
+          "company": "Epic Games",
+          "total_laid_off": 1000
+        },
+        {
           "company": "Snap",
           "total_laid_off": 1000
         },
         {
           "company": "Livspace",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Epic Games",
           "total_laid_off": 1000
         },
         {
@@ -668,6 +668,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-07",
+          "company": "Ticketmaster",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.08,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+        },
         {
           "date": "2026-05-07",
           "company": "Truecaller",
@@ -807,20 +817,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
-        },
-        {
-          "date": "2026-02-24",
-          "company": "DraftKings",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/"
         }
       ]
     },
-    "summary": "Consumer has 24,616 reported tech layoffs across 68 public events from 2025-01-27 to 2026-05-07."
+    "summary": "Consumer has 24,966 reported tech layoffs across 69 public events from 2025-01-27 to 2026-05-07."
   },
   {
     "type": "industry",
@@ -3121,7 +3121,7 @@
           "date": "2026-05-07",
           "company": "DeepL",
           "num_laid_off": 250,
-          "percentage_laid_off": null,
+          "percentage_laid_off": 0.21,
           "industry": "AI",
           "country": "Germany",
           "stage": "Unknown",

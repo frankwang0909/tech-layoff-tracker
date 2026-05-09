@@ -9,35 +9,35 @@
   "updated_at": "2026-05-07",
   "canonical_url": "/reports/daily/2026-05-07.html",
   "kpis": {
-    "total_laid_off": 2129,
-    "event_count": 5,
-    "headcount_event_count": 4,
-    "company_count": 5,
+    "total_laid_off": 2630,
+    "event_count": 6,
+    "headcount_event_count": 6,
+    "company_count": 6,
     "country_count": 3,
     "industry_count": 5,
-    "average_layoffs_per_headcount_event": 532.25,
-    "median_layoffs_per_headcount_event": 479.5,
-    "high_intensity_event_count": 2
+    "average_layoffs_per_headcount_event": 438.33,
+    "median_layoffs_per_headcount_event": 300.0,
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05-06",
       "total_laid_off": 385,
       "event_count": 3,
-      "total_laid_off_delta": 1744,
-      "total_laid_off_pct_change": 4.5299,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.6667,
+      "total_laid_off_delta": 2245,
+      "total_laid_off_pct_change": 5.8312,
+      "event_count_delta": 3,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-07",
       "total_laid_off": 680,
       "event_count": 2,
-      "total_laid_off_delta": 1449,
-      "total_laid_off_pct_change": 2.1309,
-      "event_count_delta": 3,
-      "event_count_pct_change": 1.5,
+      "total_laid_off_delta": 1950,
+      "total_laid_off_pct_change": 2.8676,
+      "event_count_delta": 4,
+      "event_count_pct_change": 2.0,
       "note": null
     }
   },
@@ -52,8 +52,16 @@
         "total_laid_off": 709
       },
       {
+        "company": "Ticketmaster",
+        "total_laid_off": 350
+      },
+      {
         "company": "DeepL",
         "total_laid_off": 250
+      },
+      {
+        "company": "Upwork",
+        "total_laid_off": 151
       },
       {
         "company": "Truecaller",
@@ -70,18 +78,22 @@
         "total_laid_off": 709
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 420
+      },
+      {
         "industry": "AI",
         "total_laid_off": 250
       },
       {
-        "industry": "Consumer",
-        "total_laid_off": 70
+        "industry": "Other",
+        "total_laid_off": 151
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1809
+        "total_laid_off": 2310
       },
       {
         "country": "Germany",
@@ -95,7 +107,11 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1879
+        "total_laid_off": 2030
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 350
       },
       {
         "stage": "Unknown",
@@ -105,11 +121,11 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -149,13 +165,33 @@
       },
       {
         "date": "2026-05-07",
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+      },
+      {
+        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.21,
         "industry": "AI",
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "Upwork",
+        "num_laid_off": 151,
+        "percentage_laid_off": 0.24,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-07",
@@ -191,13 +227,33 @@
       },
       {
         "date": "2026-05-07",
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+      },
+      {
+        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.21,
         "industry": "AI",
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "Upwork",
+        "num_laid_off": 151,
+        "percentage_laid_off": 0.24,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-07",
@@ -208,16 +264,6 @@
         "country": "Sweden",
         "stage": "Post-IPO",
         "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       }
     ],
     "high_intensity_events": [
@@ -230,24 +276,14 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       }
     ]
   },
   "insights": [
-    "2026-05-07 includes 5 public layoff events and 2,129 reported layoffs.",
+    "2026-05-07 includes 6 public layoff events and 2,630 reported layoffs.",
     "The largest company contributor is Cloudflare with 1,100 reported layoffs.",
     "The leading named industry is Security with 1,100 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

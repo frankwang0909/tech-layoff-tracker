@@ -11,6 +11,16 @@
   },
   {
     "date": "2026-05-07",
+    "company": "Upwork",
+    "num_laid_off": 151,
+    "percentage_laid_off": 0.24,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+  },
+  {
+    "date": "2026-05-07",
     "company": "Truecaller",
     "num_laid_off": 70,
     "percentage_laid_off": null,
@@ -18,16 +28,6 @@
     "country": "Sweden",
     "stage": "Post-IPO",
     "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Upwork",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.25,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
   },
   {
     "date": "2026-05-07",
@@ -43,11 +43,21 @@
     "date": "2026-05-07",
     "company": "DeepL",
     "num_laid_off": 250,
-    "percentage_laid_off": null,
+    "percentage_laid_off": 0.21,
     "industry": "AI",
     "country": "Germany",
     "stage": "Unknown",
     "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Ticketmaster",
+    "num_laid_off": 350,
+    "percentage_laid_off": 0.08,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
   },
   {
     "date": "2026-05-06",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
-  },
-  {
-    "date": "2026-05-05",
-    "company": "0G",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.25,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
   }
 ]

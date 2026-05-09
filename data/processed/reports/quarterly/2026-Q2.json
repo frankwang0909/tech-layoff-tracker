@@ -9,35 +9,35 @@
   "updated_at": "2026-05-07",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 19803,
-    "event_count": 42,
-    "headcount_event_count": 27,
-    "company_count": 41,
+    "total_laid_off": 20304,
+    "event_count": 43,
+    "headcount_event_count": 29,
+    "company_count": 42,
     "country_count": 9,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 733.44,
-    "median_layoffs_per_headcount_event": 145.0,
-    "high_intensity_event_count": 10
+    "average_layoffs_per_headcount_event": 700.14,
+    "median_layoffs_per_headcount_event": 150.0,
+    "high_intensity_event_count": 9
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
       "total_laid_off": 81747,
       "event_count": 86,
-      "total_laid_off_delta": -61944,
-      "total_laid_off_pct_change": -0.7578,
-      "event_count_delta": -44,
-      "event_count_pct_change": -0.5116,
+      "total_laid_off_delta": -61443,
+      "total_laid_off_pct_change": -0.7516,
+      "event_count_delta": -43,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37528,
       "event_count": 71,
-      "total_laid_off_delta": -17725,
-      "total_laid_off_pct_change": -0.4723,
-      "event_count_delta": -29,
-      "event_count_pct_change": -0.4085,
+      "total_laid_off_delta": -17224,
+      "total_laid_off_pct_change": -0.459,
+      "event_count_delta": -28,
+      "event_count_pct_change": -0.3944,
       "note": null
     }
   },
@@ -76,18 +76,18 @@
         "total_laid_off": 500
       },
       {
-        "company": "Arctic Wolf",
-        "total_laid_off": 250
+        "company": "Ticketmaster",
+        "total_laid_off": 350
       },
       {
-        "company": "DeepL",
+        "company": "Arctic Wolf",
         "total_laid_off": 250
       }
     ],
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 9492
+        "total_laid_off": 9842
       },
       {
         "industry": "Finance",
@@ -122,14 +122,14 @@
         "total_laid_off": 225
       },
       {
-        "industry": "Marketing",
-        "total_laid_off": 100
+        "industry": "Other",
+        "total_laid_off": 211
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 18701
+        "total_laid_off": 19202
       },
       {
         "country": "India",
@@ -163,11 +163,15 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 17503
+        "total_laid_off": 17654
       },
       {
         "stage": "Unknown",
         "total_laid_off": 1735
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 350
       },
       {
         "stage": "Private Equity",
@@ -197,11 +201,11 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 5
+        "event_count": 6
       },
       {
         "bucket": "10-24%",
-        "event_count": 11
+        "event_count": 13
       },
       {
         "bucket": "25-49%",
@@ -301,13 +305,13 @@
       },
       {
         "date": "2026-05-07",
-        "company": "DeepL",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "AI",
-        "country": "Germany",
-        "stage": "Unknown",
-        "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
       },
       {
         "date": "2026-05-06",
@@ -333,13 +337,33 @@
       },
       {
         "date": "2026-05-07",
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+      },
+      {
+        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.21,
         "industry": "AI",
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "Upwork",
+        "num_laid_off": 151,
+        "percentage_laid_off": 0.24,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-07",
@@ -350,16 +374,6 @@
         "country": "Sweden",
         "stage": "Post-IPO",
         "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-07",
@@ -403,13 +417,13 @@
       },
       {
         "date": "2026-05-05",
-        "company": "Freshworks",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.11,
-        "industry": "Support",
+        "company": "0G",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+        "stage": "Unknown",
+        "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
       },
       {
         "date": "2026-05-05",
@@ -423,16 +437,6 @@
       },
       {
         "date": "2026-05-05",
-        "company": "0G",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
-      },
-      {
-        "date": "2026-05-05",
         "company": "Coinbase",
         "num_laid_off": 700,
         "percentage_laid_off": 0.14,
@@ -440,6 +444,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+      },
+      {
+        "date": "2026-05-05",
+        "company": "Freshworks",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.11,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
       },
       {
         "date": "2026-05-05",
@@ -510,29 +524,9 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
-      },
-      {
-        "date": "2026-04-16",
-        "company": "Shutterfly",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
       }
     ],
     "high_intensity_events": [
-      {
-        "date": "2026-04-09",
-        "company": "Pepper Pay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
-      },
       {
         "date": "2026-04-03",
         "company": "NeuroPixel.AI",
@@ -542,6 +536,16 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+      },
+      {
+        "date": "2026-04-09",
+        "company": "Pepper Pay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
         "date": "2026-04-21",
@@ -564,16 +568,6 @@
         "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
       },
       {
-        "date": "2026-04-24",
-        "company": "SuperOps",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.3,
-        "industry": "Other",
-        "country": "India",
-        "stage": "Series C",
-        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
-      },
-      {
         "date": "2026-05-07",
         "company": "Bill.com",
         "num_laid_off": 709,
@@ -584,14 +578,14 @@
         "source": "https://www.bill.com/blog/a-message-to-bill-employees"
       },
       {
-        "date": "2026-04-03",
-        "company": "Welltech",
-        "num_laid_off": 225,
+        "date": "2026-04-24",
+        "company": "SuperOps",
+        "num_laid_off": 60,
         "percentage_laid_off": 0.3,
-        "industry": "Fitness",
-        "country": "Cyprus",
-        "stage": "Unknown",
-        "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
+        "industry": "Other",
+        "country": "India",
+        "stage": "Series C",
+        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
       },
       {
         "date": "2026-04-15",
@@ -604,14 +598,14 @@
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
       },
       {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+        "date": "2026-04-03",
+        "company": "Welltech",
+        "num_laid_off": 225,
+        "percentage_laid_off": 0.3,
+        "industry": "Fitness",
+        "country": "Cyprus",
+        "stage": "Unknown",
+        "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
       },
       {
         "date": "2026-05-05",
@@ -626,10 +620,10 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 42 public layoff events and 19,803 reported layoffs.",
+    "2026-Q2 includes 43 public layoff events and 20,304 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
-    "The leading named industry is Consumer with 9,492 reported layoffs.",
-    "10 events report a layoff percentage of 25% or higher."
+    "The leading named industry is Consumer with 9,842 reported layoffs.",
+    "9 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

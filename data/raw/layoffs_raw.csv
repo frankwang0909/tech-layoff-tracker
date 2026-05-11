@@ -1,4 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+ZoomInfo,"Tel Aviv, Non-U.S.",300.0,2026-05-10,,Sales,https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/,Post-IPO,7.0,Israel,2026-05-11T01:52:20.000Z
+Adda247,"Gurugram, Non-U.S.",200.0,2026-05-10,0.2,Education,https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77,Series B,61.0,India,2026-05-11T01:54:43.000Z
+Parker,New York City,,2026-05-09,1.0,Finance,https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/,Series B,57.0,United States,2026-05-11T01:55:53.000Z
 Cloudflare,SF Bay Area,1100.0,2026-05-07,0.2,Security,https://blog.cloudflare.com/building-for-the-future/,Post-IPO,332.0,United States,2026-05-07T20:53:26.000Z
 Bill.com,SF Bay Area,709.0,2026-05-07,0.3,Finance,https://www.bill.com/blog/a-message-to-bill-employees,Post-IPO,280.0,United States,2026-05-07T21:04:50.000Z
 Ticketmaster,Los Angeles,350.0,2026-05-07,0.08,Consumer,https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/,Acquired,,United States,2026-05-09T00:03:19.000Z
@@ -7,7 +10,9 @@ Upwork,SF Bay Area,151.0,2026-05-07,0.24,Other,https://www.upwork.com/press/rele
 Truecaller,"Stockholm, Non-U.S.",70.0,2026-05-07,,Consumer,https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610,Post-IPO,101.0,Sweden,2026-05-07T20:57:32.000Z
 Arctic Wolf,Minneapolis,250.0,2026-05-06,0.1,Security,https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213,Unknown,899.0,United States,2026-05-07T20:55:36.000Z
 Pocket FM,"Bengaluru, Non-U.S.",100.0,2026-05-06,0.1,Media,https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323,Series D,212.0,India,2026-05-06T16:00:55.000Z
+LSports,"Tel Aviv, Non-U.S.",40.0,2026-05-06,0.2,Data,https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/,Unknown,,Israel,2026-05-11T01:53:56.000Z
 ApnaMart,"Bengaluru, Non-U.S.",35.0,2026-05-06,0.1,Food,https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807,Series B,40.0,India,2026-05-06T16:02:20.000Z
+reAlpha,Columbus,,2026-05-06,0.25,Real Estate,https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751,Post-IPO,229.0,United States,2026-05-10T13:56:31.000Z
 PayPal,SF Bay Area,4760.0,2026-05-05,0.2,Finance,https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9,Post-IPO,216.0,United States,2026-05-06T16:03:28.000Z
 Coinbase,SF Bay Area,700.0,2026-05-05,0.14,Crypto,https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/,Post-IPO,549.0,United States,2026-05-05T15:51:36.000Z
 Freshworks,SF Bay Area,500.0,2026-05-05,0.11,Support,https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/,Post-IPO,484.0,United States,2026-05-06T15:59:37.000Z
@@ -17,6 +22,7 @@ Shopify,"Ottawa, Non-U.S.",30.0,2026-05-04,,Retail,https://thelogic.co/news/excl
 Pentera,Boston,40.0,2026-04-27,0.08,Security,https://www.calcalistech.com/ctechnews/article/b1ioncnpzl,Series D,249.0,United States,2026-04-30T23:39:55.000Z
 SuperOps,"Chennai, Non-U.S.",60.0,2026-04-24,0.3,Other,https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/,Series C,54.0,India,2026-04-30T23:42:21.000Z
 Epidemic Sound,"Stockholm, Non-U.S.",150.0,2026-04-21,0.33,Media,https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20,Private Equity,509.0,Sweden,2026-05-07T21:03:10.000Z
+GeoComply,"Vancouver, Non-U.S.",68.0,2026-04-21,0.15,Security,https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/,Private Equity,,United States,2026-05-11T01:50:25.000Z
 Acko,"Mumbai, Non-U.S.",60.0,2026-04-20,0.05,Finance,https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/,Unknown,143.0,India,2026-04-20T23:39:50.000Z
 Meta,SF Bay Area,8000.0,2026-04-17,0.1,Consumer,https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/,Post-IPO,26000.0,United States,2026-04-20T23:38:53.000Z
 Shutterfly,"Haifa, Non-U.S.",80.0,2026-04-16,,Manufacturing,https://www.calcalistech.com/ctechnews/article/rkx2avanzg,Post-IPO,50.0,United States,2026-04-17T03:48:04.000Z
@@ -41,6 +47,7 @@ Welltech,"Limassol, Non-U.S.",225.0,2026-04-03,0.3,Fitness,https://dev.ua/en/new
 NeuroPixel.AI,"Bengaluru, Non-U.S.",,2026-04-03,1.0,Retail,https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982,Seed,1.0,India,2026-04-07T03:52:59.000Z
 Vimeo,New York City,,2026-04-03,,Consumer,https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/,Post-IPO,450.0,United States,2026-04-04T00:04:01.000Z
 Meta,SF Bay Area,200.0,2026-04-02,,Consumer,https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php,Post-IPO,26000.0,United States,2026-04-07T03:54:58.000Z
+MARA,Miami,,2026-04-02,0.15,Crypto,https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/,Post-IPO,4100.0,United States,2026-05-10T13:59:19.000Z
 Sonos,Santa Barbara,,2026-04-01,,Consumer,https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division,Post-IPO,455.2,United States,2026-04-07T03:55:52.000Z
 Oracle,SF Bay Area,30000.0,2026-03-31,,Other,https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html,Post-IPO,,United States,2026-03-31T17:01:18.000Z
 Monzo,"London, Non-U.S.",50.0,2026-03-31,,Finance,https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe,Series F,324.0,United Kingdom,2026-03-31T18:54:20.000Z
@@ -60,6 +67,7 @@ Snowflake,SF Bay Area,,2026-03-19,,Data,https://www.businessinsider.com/snowflak
 FranShares,Chicago,,2026-03-17,1.0,Finance,https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html,Seed,6.0,United States,2026-03-22T13:54:08.000Z
 Dell,Austin,11000.0,2026-03-16,0.1,Hardware,https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/,Post-IPO,,United States,2026-04-22T23:39:31.000Z
 Stone,"Sao Paulo, Non-U.S.",400.0,2026-03-13,0.03,Finance,https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html,Post-IPO,521.0,Brazil,2026-03-17T23:18:26.000Z
+Loopio,"Toronto, Non-U.S.",36.0,2026-03-13,0.12,Sales,https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/,Private Equity,263.0,Canada,2026-05-10T13:55:44.000Z
 Digg,New York City,,2026-03-13,,Consumer,https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/,Acquired,49.0,United States,2026-03-13T23:33:38.000Z
 Atlassian,"Sydney, Non-U.S.",1600.0,2026-03-11,0.1,Other,https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1,Post-IPO,210.0,Australia,2026-03-11T22:11:28.000Z
 InvestCloud,Los Angeles,150.0,2026-03-10,,Finance,https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606,Private Equity,54.0,United States,2026-03-17T23:17:37.000Z

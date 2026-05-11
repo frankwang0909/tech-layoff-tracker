@@ -6,17 +6,17 @@
     "start": "2026-04-21",
     "end": "2026-04-21"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/daily/2026-04-21.html",
   "kpis": {
-    "total_laid_off": 150,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 150.0,
-    "median_layoffs_per_headcount_event": 150.0,
+    "total_laid_off": 218,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 109.0,
+    "median_layoffs_per_headcount_event": 109.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-04-20",
       "total_laid_off": 60,
       "event_count": 1,
-      "total_laid_off_delta": 90,
-      "total_laid_off_pct_change": 1.5,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 158,
+      "total_laid_off_pct_change": 2.6333,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -46,24 +46,36 @@
       {
         "company": "Epidemic Sound",
         "total_laid_off": 150
+      },
+      {
+        "company": "GeoComply",
+        "total_laid_off": 68
       }
     ],
     "industry_top": [
       {
         "industry": "Media",
         "total_laid_off": 150
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 68
       }
     ],
     "country_top": [
       {
         "country": "Sweden",
         "total_laid_off": 150
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 68
       }
     ],
     "stage_top": [
       {
         "stage": "Private Equity",
-        "total_laid_off": 150
+        "total_laid_off": 218
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +85,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -100,6 +112,16 @@
         "country": "Sweden",
         "stage": "Private Equity",
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "GeoComply",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.15,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
       }
     ],
     "recent_events": [
@@ -112,6 +134,16 @@
         "country": "Sweden",
         "stage": "Private Equity",
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "GeoComply",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.15,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
       }
     ],
     "high_intensity_events": [
@@ -128,7 +160,7 @@
     ]
   },
   "insights": [
-    "2026-04-21 includes 1 public layoff events and 150 reported layoffs.",
+    "2026-04-21 includes 2 public layoff events and 218 reported layoffs.",
     "The largest company contributor is Epidemic Sound with 150 reported layoffs.",
     "The leading named industry is Media with 150 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

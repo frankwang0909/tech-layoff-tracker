@@ -6,17 +6,17 @@
     "start": "2026-04-20",
     "end": "2026-04-24"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/weekly/2026-W17.html",
   "kpis": {
-    "total_laid_off": 270,
-    "event_count": 3,
-    "headcount_event_count": 3,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 90.0,
-    "median_layoffs_per_headcount_event": 60.0,
+    "total_laid_off": 338,
+    "event_count": 4,
+    "headcount_event_count": 4,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 84.5,
+    "median_layoffs_per_headcount_event": 64.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W16",
       "total_laid_off": 10252,
       "event_count": 11,
-      "total_laid_off_delta": -9982,
-      "total_laid_off_pct_change": -0.9737,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.7273,
+      "total_laid_off_delta": -9914,
+      "total_laid_off_pct_change": -0.967,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.6364,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W17",
       "total_laid_off": 22577,
       "event_count": 5,
-      "total_laid_off_delta": -22307,
-      "total_laid_off_pct_change": -0.988,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.4,
+      "total_laid_off_delta": -22239,
+      "total_laid_off_pct_change": -0.985,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.2,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Epidemic Sound",
         "total_laid_off": 150
+      },
+      {
+        "company": "GeoComply",
+        "total_laid_off": 68
       },
       {
         "company": "Acko",
@@ -60,6 +64,10 @@
       {
         "industry": "Media",
         "total_laid_off": 150
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 68
       },
       {
         "industry": "Finance",
@@ -78,12 +86,16 @@
       {
         "country": "India",
         "total_laid_off": 120
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 68
       }
     ],
     "stage_top": [
       {
         "stage": "Private Equity",
-        "total_laid_off": 150
+        "total_laid_off": 218
       },
       {
         "stage": "Series C",
@@ -101,7 +113,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -128,6 +140,16 @@
         "country": "Sweden",
         "stage": "Private Equity",
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "GeoComply",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.15,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
       },
       {
         "date": "2026-04-24",
@@ -172,6 +194,16 @@
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
       },
       {
+        "date": "2026-04-21",
+        "company": "GeoComply",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.15,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
+      },
+      {
         "date": "2026-04-20",
         "company": "Acko",
         "num_laid_off": 60,
@@ -206,7 +238,7 @@
     ]
   },
   "insights": [
-    "2026-W17 includes 3 public layoff events and 270 reported layoffs.",
+    "2026-W17 includes 4 public layoff events and 338 reported layoffs.",
     "The largest company contributor is Epidemic Sound with 150 reported layoffs.",
     "The leading named industry is Media with 150 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

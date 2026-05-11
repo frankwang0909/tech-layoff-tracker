@@ -6,38 +6,38 @@
     "start": "2026-05-06",
     "end": "2026-05-06"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/daily/2026-05-06.html",
   "kpis": {
-    "total_laid_off": 385,
-    "event_count": 3,
-    "headcount_event_count": 3,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 128.33,
-    "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 0
+    "total_laid_off": 425,
+    "event_count": 5,
+    "headcount_event_count": 4,
+    "company_count": 5,
+    "country_count": 3,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 106.25,
+    "median_layoffs_per_headcount_event": 70.0,
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05-05",
       "total_laid_off": 5960,
       "event_count": 5,
-      "total_laid_off_delta": -5575,
-      "total_laid_off_pct_change": -0.9354,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.4,
+      "total_laid_off_delta": -5535,
+      "total_laid_off_pct_change": -0.9287,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-06",
       "total_laid_off": 1600,
       "event_count": 1,
-      "total_laid_off_delta": -1215,
-      "total_laid_off_pct_change": -0.7594,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "total_laid_off_delta": -1175,
+      "total_laid_off_pct_change": -0.7344,
+      "event_count_delta": 4,
+      "event_count_pct_change": 4.0,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Pocket FM",
         "total_laid_off": 100
+      },
+      {
+        "company": "LSports",
+        "total_laid_off": 40
       },
       {
         "company": "ApnaMart",
@@ -66,6 +70,10 @@
         "total_laid_off": 100
       },
       {
+        "industry": "Data",
+        "total_laid_off": 40
+      },
+      {
         "industry": "Food",
         "total_laid_off": 35
       }
@@ -78,12 +86,16 @@
       {
         "country": "India",
         "total_laid_off": 135
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 40
       }
     ],
     "stage_top": [
       {
         "stage": "Unknown",
-        "total_laid_off": 250
+        "total_laid_off": 290
       },
       {
         "stage": "Series D",
@@ -101,7 +113,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 3
+        "event_count": 4
       },
       {
         "bucket": "25-49%",
@@ -141,6 +153,16 @@
       },
       {
         "date": "2026-05-06",
+        "company": "LSports",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.2,
+        "industry": "Data",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-06",
         "company": "ApnaMart",
         "num_laid_off": 35,
         "percentage_laid_off": 0.1,
@@ -173,6 +195,16 @@
       },
       {
         "date": "2026-05-06",
+        "company": "LSports",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.2,
+        "industry": "Data",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-06",
         "company": "ApnaMart",
         "num_laid_off": 35,
         "percentage_laid_off": 0.1,
@@ -180,14 +212,36 @@
         "country": "India",
         "stage": "Series B",
         "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "reAlpha",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-05-06",
+        "company": "reAlpha",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
+      }
+    ]
   },
   "insights": [
-    "2026-05-06 includes 3 public layoff events and 385 reported layoffs.",
+    "2026-05-06 includes 5 public layoff events and 425 reported layoffs.",
     "The largest company contributor is Arctic Wolf with 250 reported layoffs.",
-    "The leading named industry is Security with 250 reported layoffs."
+    "The leading named industry is Security with 250 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

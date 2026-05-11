@@ -1,43 +1,33 @@
 [
   {
-    "date": "2026-05-07",
-    "company": "Cloudflare",
-    "num_laid_off": 1100,
-    "percentage_laid_off": 0.2,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://blog.cloudflare.com/building-for-the-future/"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Upwork",
-    "num_laid_off": 151,
-    "percentage_laid_off": 0.24,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Truecaller",
-    "num_laid_off": 70,
+    "date": "2026-05-10",
+    "company": "ZoomInfo",
+    "num_laid_off": 300,
     "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "Sweden",
+    "industry": "Sales",
+    "country": "Israel",
     "stage": "Post-IPO",
-    "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
+    "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
   },
   {
-    "date": "2026-05-07",
-    "company": "Bill.com",
-    "num_laid_off": 709,
-    "percentage_laid_off": 0.3,
+    "date": "2026-05-10",
+    "company": "Adda247",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.2,
+    "industry": "Education",
+    "country": "India",
+    "stage": "Series B",
+    "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
+  },
+  {
+    "date": "2026-05-09",
+    "company": "Parker",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
     "industry": "Finance",
     "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+    "stage": "Series B",
+    "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
   },
   {
     "date": "2026-05-07",
@@ -51,6 +41,36 @@
   },
   {
     "date": "2026-05-07",
+    "company": "Truecaller",
+    "num_laid_off": 70,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "Sweden",
+    "stage": "Post-IPO",
+    "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Upwork",
+    "num_laid_off": 151,
+    "percentage_laid_off": 0.24,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Cloudflare",
+    "num_laid_off": 1100,
+    "percentage_laid_off": 0.2,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://blog.cloudflare.com/building-for-the-future/"
+  },
+  {
+    "date": "2026-05-07",
     "company": "Ticketmaster",
     "num_laid_off": 350,
     "percentage_laid_off": 0.08,
@@ -58,6 +78,16 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Bill.com",
+    "num_laid_off": 709,
+    "percentage_laid_off": 0.3,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bill.com/blog/a-message-to-bill-employees"
   },
   {
     "date": "2026-05-06",
@@ -81,42 +111,12 @@
   },
   {
     "date": "2026-05-06",
-    "company": "ApnaMart",
-    "num_laid_off": 35,
-    "percentage_laid_off": 0.1,
-    "industry": "Food",
-    "country": "India",
-    "stage": "Series B",
-    "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
-  },
-  {
-    "date": "2026-05-05",
-    "company": "PayPal",
-    "num_laid_off": 4760,
+    "company": "LSports",
+    "num_laid_off": 40,
     "percentage_laid_off": 0.2,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-  },
-  {
-    "date": "2026-05-05",
-    "company": "Coinbase",
-    "num_laid_off": 700,
-    "percentage_laid_off": 0.14,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-  },
-  {
-    "date": "2026-05-05",
-    "company": "Freshworks",
-    "num_laid_off": 500,
-    "percentage_laid_off": 0.11,
-    "industry": "Support",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+    "industry": "Data",
+    "country": "Israel",
+    "stage": "Unknown",
+    "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
   }
 ]

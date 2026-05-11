@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-04",
-    "end": "2026-05-07"
+    "end": "2026-05-10"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
-    "total_laid_off": 9005,
-    "event_count": 15,
-    "headcount_event_count": 13,
-    "company_count": 15,
-    "country_count": 6,
-    "industry_count": 11,
-    "average_layoffs_per_headcount_event": 692.69,
+    "total_laid_off": 9545,
+    "event_count": 20,
+    "headcount_event_count": 16,
+    "company_count": 20,
+    "country_count": 7,
+    "industry_count": 15,
+    "average_layoffs_per_headcount_event": 596.56,
     "median_layoffs_per_headcount_event": 250.0,
-    "high_intensity_event_count": 2
+    "high_intensity_event_count": 4
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-04",
-      "total_laid_off": 11299,
-      "event_count": 28,
-      "total_laid_off_delta": -2294,
-      "total_laid_off_pct_change": -0.203,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.4643,
+      "total_laid_off": 11367,
+      "event_count": 30,
+      "total_laid_off_delta": -1822,
+      "total_laid_off_pct_change": -0.1603,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05",
       "total_laid_off": 10577,
       "event_count": 27,
-      "total_laid_off_delta": -1572,
-      "total_laid_off_pct_change": -0.1486,
-      "event_count_delta": -12,
-      "event_count_pct_change": -0.4444,
+      "total_laid_off_delta": -1032,
+      "total_laid_off_pct_change": -0.0976,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.2593,
       "note": null
     }
   },
@@ -68,6 +68,10 @@
         "total_laid_off": 350
       },
       {
+        "company": "ZoomInfo",
+        "total_laid_off": 300
+      },
+      {
         "company": "Arctic Wolf",
         "total_laid_off": 250
       },
@@ -76,12 +80,8 @@
         "total_laid_off": 250
       },
       {
-        "company": "Upwork",
-        "total_laid_off": 151
-      },
-      {
-        "company": "Pocket FM",
-        "total_laid_off": 100
+        "company": "Adda247",
+        "total_laid_off": 200
       }
     ],
     "industry_top": [
@@ -106,8 +106,16 @@
         "total_laid_off": 420
       },
       {
+        "industry": "Sales",
+        "total_laid_off": 300
+      },
+      {
         "industry": "AI",
         "total_laid_off": 250
+      },
+      {
+        "industry": "Education",
+        "total_laid_off": 200
       },
       {
         "industry": "Other",
@@ -116,14 +124,6 @@
       {
         "industry": "Media",
         "total_laid_off": 100
-      },
-      {
-        "industry": "Food",
-        "total_laid_off": 35
-      },
-      {
-        "industry": "Retail",
-        "total_laid_off": 30
       }
     ],
     "country_top": [
@@ -132,12 +132,16 @@
         "total_laid_off": 8520
       },
       {
-        "country": "Germany",
-        "total_laid_off": 250
+        "country": "Israel",
+        "total_laid_off": 340
       },
       {
         "country": "India",
-        "total_laid_off": 135
+        "total_laid_off": 335
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 250
       },
       {
         "country": "Sweden",
@@ -151,23 +155,23 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 8020
+        "total_laid_off": 8320
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 500
+        "total_laid_off": 540
       },
       {
         "stage": "Acquired",
         "total_laid_off": 350
       },
       {
-        "stage": "Series D",
-        "total_laid_off": 100
+        "stage": "Series B",
+        "total_laid_off": 235
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 35
+        "stage": "Series D",
+        "total_laid_off": 100
       }
     ],
     "layoff_pct_distribution": [
@@ -177,7 +181,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 9
+        "event_count": 11
       },
       {
         "bucket": "25-49%",
@@ -256,6 +260,16 @@
         "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
       },
       {
+        "date": "2026-05-10",
+        "company": "ZoomInfo",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+      },
+      {
         "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
@@ -276,27 +290,47 @@
         "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
       },
       {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": 151,
-        "percentage_laid_off": 0.24,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
-      },
-      {
-        "date": "2026-05-06",
-        "company": "Pocket FM",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.1,
-        "industry": "Media",
+        "date": "2026-05-10",
+        "company": "Adda247",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Education",
         "country": "India",
-        "stage": "Series D",
-        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+        "stage": "Series B",
+        "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-10",
+        "company": "ZoomInfo",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+      },
+      {
+        "date": "2026-05-10",
+        "company": "Adda247",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Education",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
+      },
+      {
+        "date": "2026-05-09",
+        "company": "Parker",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+      },
       {
         "date": "2026-05-07",
         "company": "Cloudflare",
@@ -359,13 +393,23 @@
       },
       {
         "date": "2026-05-06",
-        "company": "Arctic Wolf",
-        "num_laid_off": 250,
+        "company": "ApnaMart",
+        "num_laid_off": 35,
         "percentage_laid_off": 0.1,
-        "industry": "Security",
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "reAlpha",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Real Estate",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+        "stage": "Post-IPO",
+        "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
       },
       {
         "date": "2026-05-06",
@@ -379,13 +423,23 @@
       },
       {
         "date": "2026-05-06",
-        "company": "ApnaMart",
-        "num_laid_off": 35,
+        "company": "LSports",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.2,
+        "industry": "Data",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "Arctic Wolf",
+        "num_laid_off": 250,
         "percentage_laid_off": 0.1,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series B",
-        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
       },
       {
         "date": "2026-05-05",
@@ -450,6 +504,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-05-09",
+        "company": "Parker",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+      },
+      {
         "date": "2026-05-07",
         "company": "Bill.com",
         "num_laid_off": 709,
@@ -458,6 +522,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "reAlpha",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
       },
       {
         "date": "2026-05-05",
@@ -472,10 +546,10 @@
     ]
   },
   "insights": [
-    "2026-05 includes 15 public layoff events and 9,005 reported layoffs.",
+    "2026-05 includes 20 public layoff events and 9,545 reported layoffs.",
     "The largest company contributor is PayPal with 4,760 reported layoffs.",
     "The leading named industry is Finance with 5,469 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -6,17 +6,17 @@
     "start": "2026-03-10",
     "end": "2026-03-13"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/weekly/2026-W11.html",
   "kpis": {
-    "total_laid_off": 2150,
-    "event_count": 4,
-    "headcount_event_count": 3,
-    "company_count": 4,
-    "country_count": 3,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 716.67,
-    "median_layoffs_per_headcount_event": 400.0,
+    "total_laid_off": 2186,
+    "event_count": 5,
+    "headcount_event_count": 4,
+    "company_count": 5,
+    "country_count": 4,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 546.5,
+    "median_layoffs_per_headcount_event": 275.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W10",
       "total_laid_off": 1385,
       "event_count": 8,
-      "total_laid_off_delta": 765,
-      "total_laid_off_pct_change": 0.5523,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 801,
+      "total_laid_off_pct_change": 0.5783,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.375,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W11",
       "total_laid_off": 44,
       "event_count": 3,
-      "total_laid_off_delta": 2106,
-      "total_laid_off_pct_change": 47.8636,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.3333,
+      "total_laid_off_delta": 2142,
+      "total_laid_off_pct_change": 48.6818,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.6667,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "InvestCloud",
         "total_laid_off": 150
+      },
+      {
+        "company": "Loopio",
+        "total_laid_off": 36
       }
     ],
     "industry_top": [
@@ -64,6 +68,10 @@
       {
         "industry": "Finance",
         "total_laid_off": 550
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 36
       }
     ],
     "country_top": [
@@ -78,6 +86,10 @@
       {
         "country": "United States",
         "total_laid_off": 150
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 36
       }
     ],
     "stage_top": [
@@ -87,7 +99,7 @@
       },
       {
         "stage": "Private Equity",
-        "total_laid_off": 150
+        "total_laid_off": 186
       }
     ],
     "layoff_pct_distribution": [
@@ -97,7 +109,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -144,6 +156,16 @@
         "country": "United States",
         "stage": "Private Equity",
         "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
+      },
+      {
+        "date": "2026-03-13",
+        "company": "Loopio",
+        "num_laid_off": 36,
+        "percentage_laid_off": 0.12,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Private Equity",
+        "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
       }
     ],
     "recent_events": [
@@ -156,6 +178,16 @@
         "country": "Brazil",
         "stage": "Post-IPO",
         "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
+      },
+      {
+        "date": "2026-03-13",
+        "company": "Loopio",
+        "num_laid_off": 36,
+        "percentage_laid_off": 0.12,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Private Equity",
+        "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
       },
       {
         "date": "2026-03-13",
@@ -191,7 +223,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W11 includes 4 public layoff events and 2,150 reported layoffs.",
+    "2026-W11 includes 5 public layoff events and 2,186 reported layoffs.",
     "The largest company contributor is Atlassian with 1,600 reported layoffs.",
     "The leading named industry is Finance with 550 reported layoffs."
   ],

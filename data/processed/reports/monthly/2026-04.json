@@ -6,38 +6,38 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 11299,
-    "event_count": 28,
-    "headcount_event_count": 16,
-    "company_count": 27,
+    "total_laid_off": 11367,
+    "event_count": 30,
+    "headcount_event_count": 17,
+    "company_count": 29,
     "country_count": 6,
     "industry_count": 13,
-    "average_layoffs_per_headcount_event": 706.19,
-    "median_layoffs_per_headcount_event": 95.0,
+    "average_layoffs_per_headcount_event": 668.65,
+    "median_layoffs_per_headcount_event": 90.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-03",
-      "total_laid_off": 45800,
-      "event_count": 29,
-      "total_laid_off_delta": -34501,
-      "total_laid_off_pct_change": -0.7533,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.0345,
+      "total_laid_off": 45836,
+      "event_count": 30,
+      "total_laid_off_delta": -34469,
+      "total_laid_off_pct_change": -0.752,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25345,
       "event_count": 28,
-      "total_laid_off_delta": -14046,
-      "total_laid_off_pct_change": -0.5542,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -13978,
+      "total_laid_off_pct_change": -0.5515,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.0714,
       "note": null
     }
   },
@@ -72,11 +72,11 @@
         "total_laid_off": 100
       },
       {
-        "company": "Pendo",
+        "company": "GoCardless",
         "total_laid_off": 90
       },
       {
-        "company": "GoCardless",
+        "company": "Pendo",
         "total_laid_off": 90
       },
       {
@@ -106,6 +106,10 @@
         "total_laid_off": 150
       },
       {
+        "industry": "Security",
+        "total_laid_off": 108
+      },
+      {
         "industry": "Marketing",
         "total_laid_off": 100
       },
@@ -120,16 +124,12 @@
       {
         "industry": "Other",
         "total_laid_off": 60
-      },
-      {
-        "industry": "Security",
-        "total_laid_off": 40
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10682
+        "total_laid_off": 10750
       },
       {
         "country": "Cyprus",
@@ -163,7 +163,7 @@
       },
       {
         "stage": "Private Equity",
-        "total_laid_off": 150
+        "total_laid_off": 218
       },
       {
         "stage": "Series G",
@@ -189,7 +189,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 4
+        "event_count": 5
       },
       {
         "bucket": "25-49%",
@@ -338,6 +338,16 @@
         "country": "Sweden",
         "stage": "Private Equity",
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "GeoComply",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.15,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
       },
       {
         "date": "2026-04-20",
@@ -498,16 +508,6 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
-      },
-      {
-        "date": "2026-04-08",
-        "company": "IAC",
-        "num_laid_off": 77,
-        "percentage_laid_off": 0.02,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://variety.com/2026/digital/news/barry-diller-iac-name-people-incorporated-layoffs-1236732057/"
       }
     ],
     "high_intensity_events": [
@@ -584,7 +584,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 28 public layoff events and 11,299 reported layoffs.",
+    "2026-04 includes 30 public layoff events and 11,367 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

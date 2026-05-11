@@ -6,17 +6,17 @@
     "start": "2026-03-02",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
-    "total_laid_off": 45800,
-    "event_count": 29,
-    "headcount_event_count": 17,
-    "company_count": 29,
+    "total_laid_off": 45836,
+    "event_count": 30,
+    "headcount_event_count": 18,
+    "company_count": 30,
     "country_count": 9,
-    "industry_count": 15,
-    "average_layoffs_per_headcount_event": 2694.12,
-    "median_layoffs_per_headcount_event": 200.0,
+    "industry_count": 16,
+    "average_layoffs_per_headcount_event": 2546.44,
+    "median_layoffs_per_headcount_event": 175.0,
     "high_intensity_event_count": 9
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-02",
       "total_laid_off": 11019,
       "event_count": 27,
-      "total_laid_off_delta": 34781,
-      "total_laid_off_pct_change": 3.1565,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.0741,
+      "total_laid_off_delta": 34817,
+      "total_laid_off_pct_change": 3.1597,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.1111,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 36886,
-      "total_laid_off_pct_change": 4.138,
-      "event_count_delta": 7,
-      "event_count_pct_change": 0.3182,
+      "total_laid_off_delta": 36922,
+      "total_laid_off_pct_change": 4.142,
+      "event_count_delta": 8,
+      "event_count_pct_change": 0.3636,
       "note": null
     }
   },
@@ -122,8 +122,8 @@
         "total_laid_off": 100
       },
       {
-        "industry": "Security",
-        "total_laid_off": 25
+        "industry": "Sales",
+        "total_laid_off": 36
       }
     ],
     "country_top": [
@@ -145,7 +145,7 @@
       },
       {
         "country": "Canada",
-        "total_laid_off": 215
+        "total_laid_off": 251
       },
       {
         "country": "Germany",
@@ -179,7 +179,7 @@
       },
       {
         "stage": "Private Equity",
-        "total_laid_off": 150
+        "total_laid_off": 186
       },
       {
         "stage": "Series E",
@@ -197,7 +197,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -449,16 +449,6 @@
       },
       {
         "date": "2026-03-19",
-        "company": "Snowflake",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
-      },
-      {
-        "date": "2026-03-19",
         "company": "Crypto.com",
         "num_laid_off": null,
         "percentage_laid_off": 0.12,
@@ -466,6 +456,16 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+      },
+      {
+        "date": "2026-03-19",
+        "company": "Snowflake",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
       },
       {
         "date": "2026-03-17",
@@ -499,6 +499,16 @@
       },
       {
         "date": "2026-03-13",
+        "company": "Loopio",
+        "num_laid_off": 36,
+        "percentage_laid_off": 0.12,
+        "industry": "Sales",
+        "country": "Canada",
+        "stage": "Private Equity",
+        "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+      },
+      {
+        "date": "2026-03-13",
         "company": "Digg",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -506,16 +516,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
-      },
-      {
-        "date": "2026-03-11",
-        "company": "Atlassian",
-        "num_laid_off": 1600,
-        "percentage_laid_off": 0.1,
-        "industry": "Other",
-        "country": "Australia",
-        "stage": "Post-IPO",
-        "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
       }
     ],
     "high_intensity_events": [
@@ -612,7 +612,7 @@
     ]
   },
   "insights": [
-    "2026-03 includes 29 public layoff events and 45,800 reported layoffs.",
+    "2026-03 includes 30 public layoff events and 45,836 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
     "9 events report a layoff percentage of 25% or higher."

@@ -6,15 +6,15 @@
     "start": "2026-03-31",
     "end": "2026-04-05"
   },
-  "updated_at": "2026-05-07",
+  "updated_at": "2026-05-10",
   "canonical_url": "/reports/weekly/2026-W14.html",
   "kpis": {
     "total_laid_off": 30475,
-    "event_count": 11,
+    "event_count": 12,
     "headcount_event_count": 4,
-    "company_count": 11,
+    "company_count": 12,
     "country_count": 4,
-    "industry_count": 6,
+    "industry_count": 7,
     "average_layoffs_per_headcount_event": 7618.75,
     "median_layoffs_per_headcount_event": 212.5,
     "high_intensity_event_count": 6
@@ -26,8 +26,8 @@
       "event_count": 7,
       "total_laid_off_delta": 29260,
       "total_laid_off_pct_change": 24.0823,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.5714,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.7143,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 9,
       "total_laid_off_delta": 26661,
       "total_laid_off_pct_change": 6.9903,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.2222,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
@@ -224,6 +224,16 @@
         "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
       },
       {
+        "date": "2026-04-02",
+        "company": "MARA",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+      },
+      {
         "date": "2026-04-01",
         "company": "Sonos",
         "num_laid_off": null,
@@ -348,7 +358,7 @@
     ]
   },
   "insights": [
-    "2026-W14 includes 11 public layoff events and 30,475 reported layoffs.",
+    "2026-W14 includes 12 public layoff events and 30,475 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Fitness with 225 reported layoffs.",
     "6 events report a layoff percentage of 25% or higher."

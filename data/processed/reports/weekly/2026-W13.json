@@ -6,16 +6,16 @@
     "start": "2026-03-23",
     "end": "2026-03-27"
   },
-  "updated_at": "2026-05-10",
+  "updated_at": "2026-05-11",
   "canonical_url": "/reports/weekly/2026-W13.html",
   "kpis": {
-    "total_laid_off": 1215,
-    "event_count": 7,
-    "headcount_event_count": 4,
-    "company_count": 7,
+    "total_laid_off": 1915,
+    "event_count": 8,
+    "headcount_event_count": 5,
+    "company_count": 8,
     "country_count": 4,
     "industry_count": 6,
-    "average_layoffs_per_headcount_event": 303.75,
+    "average_layoffs_per_headcount_event": 383.0,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 2
   },
@@ -24,20 +24,20 @@
       "period": "2026-W12",
       "total_laid_off": 11000,
       "event_count": 5,
-      "total_laid_off_delta": -9785,
-      "total_laid_off_pct_change": -0.8895,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.4,
+      "total_laid_off_delta": -9085,
+      "total_laid_off_pct_change": -0.8259,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.6,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W13",
       "total_laid_off": 1139,
       "event_count": 4,
-      "total_laid_off_delta": 76,
-      "total_laid_off_pct_change": 0.0667,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.75,
+      "total_laid_off_delta": 776,
+      "total_laid_off_pct_change": 0.6813,
+      "event_count_delta": 4,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Epic Games",
         "total_laid_off": 1000
+      },
+      {
+        "company": "Meta",
+        "total_laid_off": 700
       },
       {
         "company": "Enpal",
@@ -63,7 +67,7 @@
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 1000
+        "total_laid_off": 1700
       },
       {
         "industry": "Energy",
@@ -81,7 +85,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1100
+        "total_laid_off": 1800
       },
       {
         "country": "Germany",
@@ -98,22 +102,22 @@
         "total_laid_off": 1000
       },
       {
+        "stage": "Post-IPO",
+        "total_laid_off": 715
+      },
+      {
         "stage": "Acquired",
         "total_laid_off": 100
       },
       {
         "stage": "Series E",
         "total_laid_off": 100
-      },
-      {
-        "stage": "Post-IPO",
-        "total_laid_off": 15
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -144,6 +148,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+      },
+      {
+        "date": "2026-03-25",
+        "company": "Meta",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.01,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
       },
       {
         "date": "2026-03-27",
@@ -206,6 +220,16 @@
         "country": "Germany",
         "stage": "Acquired",
         "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+      },
+      {
+        "date": "2026-03-25",
+        "company": "Meta",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.01,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
       },
       {
         "date": "2026-03-24",
@@ -272,9 +296,9 @@
     ]
   },
   "insights": [
-    "2026-W13 includes 7 public layoff events and 1,215 reported layoffs.",
+    "2026-W13 includes 8 public layoff events and 1,915 reported layoffs.",
     "The largest company contributor is Epic Games with 1,000 reported layoffs.",
-    "The leading named industry is Consumer with 1,000 reported layoffs.",
+    "The leading named industry is Consumer with 1,700 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

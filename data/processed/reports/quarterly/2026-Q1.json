@@ -6,16 +6,16 @@
     "start": "2026-01-05",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-05-10",
+  "updated_at": "2026-05-11",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
-    "total_laid_off": 81783,
-    "event_count": 87,
-    "headcount_event_count": 58,
+    "total_laid_off": 82483,
+    "event_count": 88,
+    "headcount_event_count": 59,
     "company_count": 84,
     "country_count": 14,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 1410.05,
+    "average_layoffs_per_headcount_event": 1398.02,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 18
   },
@@ -24,20 +24,20 @@
       "period": "2025-Q4",
       "total_laid_off": 29554,
       "event_count": 68,
-      "total_laid_off_delta": 52229,
-      "total_laid_off_pct_change": 1.7672,
-      "event_count_delta": 19,
-      "event_count_pct_change": 0.2794,
+      "total_laid_off_delta": 52929,
+      "total_laid_off_pct_change": 1.7909,
+      "event_count_delta": 20,
+      "event_count_pct_change": 0.2941,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q1",
       "total_laid_off": 29925,
       "event_count": 104,
-      "total_laid_off_delta": 51858,
-      "total_laid_off_pct_change": 1.7329,
-      "event_count_delta": -17,
-      "event_count_pct_change": -0.1635,
+      "total_laid_off_delta": 52558,
+      "total_laid_off_pct_change": 1.7563,
+      "event_count_delta": -16,
+      "event_count_pct_change": -0.1538,
       "note": null
     }
   },
@@ -60,6 +60,10 @@
         "total_laid_off": 4000
       },
       {
+        "company": "Meta",
+        "total_laid_off": 2200
+      },
+      {
         "company": "WiseTech",
         "total_laid_off": 2000
       },
@@ -68,16 +72,12 @@
         "total_laid_off": 1700
       },
       {
-        "company": "Atlassian",
-        "total_laid_off": 1600
-      },
-      {
         "company": "Ericsson",
         "total_laid_off": 1600
       },
       {
-        "company": "Meta",
-        "total_laid_off": 1500
+        "company": "Atlassian",
+        "total_laid_off": 1600
       },
       {
         "company": "Ocado",
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 5360
+        "total_laid_off": 6060
       },
       {
         "industry": "Finance",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 68715
+        "total_laid_off": 69415
       },
       {
         "country": "Australia",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 75637
+        "total_laid_off": 76337
       },
       {
         "stage": "Unknown",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 10
+        "event_count": 11
       },
       {
         "bucket": "10-24%",
@@ -418,6 +418,16 @@
         "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
+        "date": "2026-03-25",
+        "company": "Meta",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.01,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
+      },
+      {
         "date": "2026-03-24",
         "company": "Epic Games",
         "num_laid_off": 1000,
@@ -469,16 +479,6 @@
       },
       {
         "date": "2026-03-19",
-        "company": "Snowflake",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
-      },
-      {
-        "date": "2026-03-19",
         "company": "Crypto.com",
         "num_laid_off": null,
         "percentage_laid_off": 0.12,
@@ -486,6 +486,16 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+      },
+      {
+        "date": "2026-03-19",
+        "company": "Snowflake",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
       },
       {
         "date": "2026-03-17",
@@ -526,16 +536,6 @@
         "country": "Canada",
         "stage": "Private Equity",
         "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
-      },
-      {
-        "date": "2026-03-13",
-        "company": "Digg",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 87 public layoff events and 81,783 reported layoffs.",
+    "2026-Q1 includes 88 public layoff events and 82,483 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

@@ -1,7 +1,9 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+GitLab,SF Bay Area,,2026-05-11,,Product,https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era,Post-IPO,413.0,United States,2026-05-11T23:17:28.000Z
 ZoomInfo,"Tel Aviv, Non-U.S.",300.0,2026-05-10,,Sales,https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/,Post-IPO,7.0,Israel,2026-05-11T01:52:20.000Z
 Adda247,"Gurugram, Non-U.S.",200.0,2026-05-10,0.2,Education,https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77,Series B,61.0,India,2026-05-11T01:54:43.000Z
 Parker,New York City,,2026-05-09,1.0,Finance,https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/,Series B,57.0,United States,2026-05-11T01:55:53.000Z
+Staffbase,"Chemnitz, Non-U.S.",176.0,2026-05-08,0.22,Other,https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv,Series E,306.0,Germany,2026-05-11T23:03:29.000Z
 Cloudflare,SF Bay Area,1100.0,2026-05-07,0.2,Security,https://blog.cloudflare.com/building-for-the-future/,Post-IPO,332.0,United States,2026-05-07T20:53:26.000Z
 Bill.com,SF Bay Area,709.0,2026-05-07,0.3,Finance,https://www.bill.com/blog/a-message-to-bill-employees,Post-IPO,280.0,United States,2026-05-07T21:04:50.000Z
 Ticketmaster,Los Angeles,350.0,2026-05-07,0.08,Consumer,https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/,Acquired,,United States,2026-05-09T00:03:19.000Z
@@ -57,6 +59,7 @@ Yupp,SF Bay Area,,2026-03-31,1.0,AI,https://techcrunch.com/2026/03/31/yupp-ai-sh
 Enpal,"Berlin, Non-U.S.",100.0,2026-03-27,,Energy,https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/,Series E,3500.0,Germany,2026-03-31T18:54:57.000Z
 Monte Carlo,SF Bay Area,,2026-03-26,0.3,Data,https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/,Series D,236.0,United States,2026-03-31T17:07:12.000Z
 Quandoo,"Berlin, Non-U.S.",,2026-03-26,1.0,Food,https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html,Acquired,39.0,Germany,2026-04-17T03:50:50.000Z
+Meta,SF Bay Area,700.0,2026-03-25,0.01,Consumer,https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE,Post-IPO,26000.0,United States,2026-03-25T20:07:57.000Z
 Epic Games,Raleigh,1000.0,2026-03-24,,Consumer,https://www.epicgames.com/site/en-US/news/todays-layoffs,Unknown,6400.0,United States,2026-03-24T18:32:58.000Z
 Zendesk,SF Bay Area,100.0,2026-03-24,,Support,Internal memo,Acquired,85.0,United States,2026-03-31T17:02:39.000Z
 OpenText,"Waterloo, Non-U.S.",,2026-03-24,,Data,https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/,Post-IPO,1100.0,Canada,2026-03-25T05:30:05.000Z

@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-05-10"
+    "end": "2026-05-11"
   },
-  "updated_at": "2026-05-10",
+  "updated_at": "2026-05-11",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 102695,
-    "event_count": 137,
-    "headcount_event_count": 91,
-    "company_count": 130,
+    "total_laid_off": 103571,
+    "event_count": 140,
+    "headcount_event_count": 93,
+    "company_count": 132,
     "country_count": 16,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 1128.52,
+    "average_layoffs_per_headcount_event": 1113.67,
     "median_layoffs_per_headcount_event": 187.0,
     "high_intensity_event_count": 29
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124281,
       "event_count": 328,
-      "total_laid_off_delta": -21586,
-      "total_laid_off_pct_change": -0.1737,
-      "event_count_delta": -191,
-      "event_count_pct_change": -0.5823,
+      "total_laid_off_delta": -20710,
+      "total_laid_off_pct_change": -0.1666,
+      "event_count_delta": -188,
+      "event_count_pct_change": -0.5732,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124281,
       "event_count": 328,
-      "total_laid_off_delta": -21586,
-      "total_laid_off_pct_change": -0.1737,
-      "event_count_delta": -191,
-      "event_count_pct_change": -0.5823,
+      "total_laid_off_delta": -20710,
+      "total_laid_off_pct_change": -0.1666,
+      "event_count_delta": -188,
+      "event_count_pct_change": -0.5732,
       "note": null
     }
   },
@@ -57,7 +57,7 @@
       },
       {
         "company": "Meta",
-        "total_laid_off": 9700
+        "total_laid_off": 10400
       },
       {
         "company": "PayPal",
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 34460
+        "total_laid_off": 34636
       },
       {
         "industry": "Retail",
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 15202
+        "total_laid_off": 15902
       },
       {
         "industry": "Hardware",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 87985
+        "total_laid_off": 88685
       },
       {
         "country": "Australia",
@@ -156,12 +156,12 @@
         "total_laid_off": 1382
       },
       {
-        "country": "Brazil",
-        "total_laid_off": 516
+        "country": "Germany",
+        "total_laid_off": 576
       },
       {
-        "country": "Germany",
-        "total_laid_off": 400
+        "country": "Brazil",
+        "total_laid_off": 516
       },
       {
         "country": "Canada",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 93591
+        "total_laid_off": 94291
       },
       {
         "stage": "Unknown",
@@ -194,16 +194,16 @@
         "total_laid_off": 485
       },
       {
+        "stage": "Series E",
+        "total_laid_off": 366
+      },
+      {
         "stage": "Series A",
         "total_laid_off": 215
       },
       {
         "stage": "Series D",
         "total_laid_off": 195
-      },
-      {
-        "stage": "Series E",
-        "total_laid_off": 190
       },
       {
         "stage": "Series C",
@@ -213,11 +213,11 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 16
+        "event_count": 17
       },
       {
         "bucket": "10-24%",
-        "event_count": 27
+        "event_count": 28
       },
       {
         "bucket": "25-49%",
@@ -338,14 +338,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-05-10",
-        "company": "ZoomInfo",
-        "num_laid_off": 300,
+        "date": "2026-05-11",
+        "company": "GitLab",
+        "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "Israel",
+        "industry": "Product",
+        "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+        "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
       },
       {
         "date": "2026-05-10",
@@ -358,6 +358,16 @@
         "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
       },
       {
+        "date": "2026-05-10",
+        "company": "ZoomInfo",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+      },
+      {
         "date": "2026-05-09",
         "company": "Parker",
         "num_laid_off": null,
@@ -366,6 +376,26 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+      },
+      {
+        "date": "2026-05-08",
+        "company": "Staffbase",
+        "num_laid_off": 176,
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "Cloudflare",
+        "num_laid_off": 1100,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blog.cloudflare.com/building-for-the-future/"
       },
       {
         "date": "2026-05-07",
@@ -416,16 +446,6 @@
         "country": "Sweden",
         "stage": "Post-IPO",
         "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Cloudflare",
-        "num_laid_off": 1100,
-        "percentage_laid_off": 0.2,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blog.cloudflare.com/building-for-the-future/"
       },
       {
         "date": "2026-05-06",
@@ -499,26 +519,6 @@
       },
       {
         "date": "2026-05-05",
-        "company": "Coinbase",
-        "num_laid_off": 700,
-        "percentage_laid_off": 0.14,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-      },
-      {
-        "date": "2026-05-05",
-        "company": "PayPal",
-        "num_laid_off": 4760,
-        "percentage_laid_off": 0.2,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-      },
-      {
-        "date": "2026-05-05",
         "company": "0G",
         "num_laid_off": null,
         "percentage_laid_off": 0.25,
@@ -528,14 +528,14 @@
         "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
       },
       {
-        "date": "2026-05-04",
-        "company": "Shopify",
-        "num_laid_off": 30,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "Canada",
+        "date": "2026-05-05",
+        "company": "Coinbase",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 137 public layoff events and 102,695 reported layoffs.",
+    "2026 includes 140 public layoff events and 103,571 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 17,811 reported layoffs.",
     "29 events report a layoff percentage of 25% or higher."

@@ -1,21 +1,21 @@
 {
   "report_type": "weekly",
   "period": "2026-W19",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-05-04",
     "end": "2026-05-10"
   },
-  "updated_at": "2026-05-10",
+  "updated_at": "2026-05-11",
   "canonical_url": "/reports/weekly/2026-W19.html",
   "kpis": {
-    "total_laid_off": 9545,
-    "event_count": 20,
-    "headcount_event_count": 16,
-    "company_count": 20,
+    "total_laid_off": 9721,
+    "event_count": 21,
+    "headcount_event_count": 17,
+    "company_count": 21,
     "country_count": 7,
     "industry_count": 15,
-    "average_layoffs_per_headcount_event": 596.56,
+    "average_layoffs_per_headcount_event": 571.82,
     "median_layoffs_per_headcount_event": 250.0,
     "high_intensity_event_count": 4
   },
@@ -24,20 +24,20 @@
       "period": "2026-W18",
       "total_laid_off": 40,
       "event_count": 1,
-      "total_laid_off_delta": 9505,
-      "total_laid_off_pct_change": 237.625,
-      "event_count_delta": 19,
-      "event_count_pct_change": 19.0,
+      "total_laid_off_delta": 9681,
+      "total_laid_off_pct_change": 242.025,
+      "event_count_delta": 20,
+      "event_count_pct_change": 20.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W19",
       "total_laid_off": 2620,
       "event_count": 6,
-      "total_laid_off_delta": 6925,
-      "total_laid_off_pct_change": 2.6431,
-      "event_count_delta": 14,
-      "event_count_pct_change": 2.3333,
+      "total_laid_off_delta": 7101,
+      "total_laid_off_pct_change": 2.7103,
+      "event_count_delta": 15,
+      "event_count_pct_change": 2.5,
       "note": null
     }
   },
@@ -106,6 +106,10 @@
         "total_laid_off": 420
       },
       {
+        "industry": "Other",
+        "total_laid_off": 327
+      },
+      {
         "industry": "Sales",
         "total_laid_off": 300
       },
@@ -118,10 +122,6 @@
         "total_laid_off": 200
       },
       {
-        "industry": "Other",
-        "total_laid_off": 151
-      },
-      {
         "industry": "Media",
         "total_laid_off": 100
       }
@@ -132,16 +132,16 @@
         "total_laid_off": 8520
       },
       {
+        "country": "Germany",
+        "total_laid_off": 426
+      },
+      {
         "country": "Israel",
         "total_laid_off": 340
       },
       {
         "country": "India",
         "total_laid_off": 335
-      },
-      {
-        "country": "Germany",
-        "total_laid_off": 250
       },
       {
         "country": "Sweden",
@@ -170,6 +170,10 @@
         "total_laid_off": 235
       },
       {
+        "stage": "Series E",
+        "total_laid_off": 176
+      },
+      {
         "stage": "Series D",
         "total_laid_off": 100
       }
@@ -181,7 +185,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 11
+        "event_count": 12
       },
       {
         "bucket": "25-49%",
@@ -270,16 +274,6 @@
         "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
       },
       {
-        "date": "2026-05-07",
-        "company": "DeepL",
-        "num_laid_off": 250,
-        "percentage_laid_off": 0.21,
-        "industry": "AI",
-        "country": "Germany",
-        "stage": "Unknown",
-        "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
-      },
-      {
         "date": "2026-05-06",
         "company": "Arctic Wolf",
         "num_laid_off": 250,
@@ -288,6 +282,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "DeepL",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.21,
+        "industry": "AI",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
       },
       {
         "date": "2026-05-10",
@@ -330,6 +334,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+      },
+      {
+        "date": "2026-05-08",
+        "company": "Staffbase",
+        "num_laid_off": 176,
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
       },
       {
         "date": "2026-05-07",
@@ -413,13 +427,13 @@
       },
       {
         "date": "2026-05-06",
-        "company": "Pocket FM",
-        "num_laid_off": 100,
+        "company": "Arctic Wolf",
+        "num_laid_off": 250,
         "percentage_laid_off": 0.1,
-        "industry": "Media",
-        "country": "India",
-        "stage": "Series D",
-        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
       },
       {
         "date": "2026-05-06",
@@ -433,13 +447,13 @@
       },
       {
         "date": "2026-05-06",
-        "company": "Arctic Wolf",
-        "num_laid_off": 250,
+        "company": "Pocket FM",
+        "num_laid_off": 100,
         "percentage_laid_off": 0.1,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+        "industry": "Media",
+        "country": "India",
+        "stage": "Series D",
+        "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
       },
       {
         "date": "2026-05-05",
@@ -490,16 +504,6 @@
         "country": "United Arab Emirates",
         "stage": "Acquired",
         "source": "https://en.dailypakistan.com.pk/05-May-2026/careem-layoffs-intensify-after-exit-from-ride-hailing-services-in-pakistan"
-      },
-      {
-        "date": "2026-05-04",
-        "company": "Shopify",
-        "num_laid_off": 30,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
       }
     ],
     "high_intensity_events": [
@@ -546,7 +550,7 @@
     ]
   },
   "insights": [
-    "2026-W19 includes 20 public layoff events and 9,545 reported layoffs.",
+    "2026-W19 includes 21 public layoff events and 9,721 reported layoffs.",
     "The largest company contributor is PayPal with 4,760 reported layoffs.",
     "The leading named industry is Finance with 5,469 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

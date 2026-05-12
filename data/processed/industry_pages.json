@@ -548,9 +548,9 @@
       "end": "2026-05-07"
     },
     "kpis": {
-      "total_laid_off": 24966,
-      "event_count": 69,
-      "headcount_event_count": 47,
+      "total_laid_off": 25666,
+      "event_count": 70,
+      "headcount_event_count": 48,
       "company_count": 46,
       "country_count": 8,
       "industry_count": 1,
@@ -612,7 +612,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 1000
+          "total_laid_off": 1700
         },
         {
           "month": "2026-04",
@@ -626,7 +626,7 @@
       "company_top": [
         {
           "company": "Meta",
-          "total_laid_off": 14000
+          "total_laid_off": 14700
         },
         {
           "company": "Playtika",
@@ -799,6 +799,16 @@
           "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
         },
         {
+          "date": "2026-03-25",
+          "company": "Meta",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.01,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
+        },
+        {
           "date": "2026-03-24",
           "company": "Epic Games",
           "num_laid_off": 1000,
@@ -807,20 +817,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
-        },
-        {
-          "date": "2026-03-13",
-          "company": "Digg",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
         }
       ]
     },
-    "summary": "Consumer has 24,966 reported tech layoffs across 69 public events from 2025-01-27 to 2026-05-07."
+    "summary": "Consumer has 25,666 reported tech layoffs across 70 public events from 2025-01-27 to 2026-05-07."
   },
   {
     "type": "industry",
@@ -4900,13 +4900,13 @@
     "canonical_url": "/industries/product.html",
     "date_range": {
       "start": "2025-01-21",
-      "end": "2026-04-15"
+      "end": "2026-05-11"
     },
     "kpis": {
       "total_laid_off": 93,
-      "event_count": 5,
+      "event_count": 6,
       "headcount_event_count": 2,
-      "company_count": 5,
+      "company_count": 6,
       "country_count": 3,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -4935,6 +4935,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-11",
+          "company": "GitLab",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
+        },
         {
           "date": "2026-04-15",
           "company": "Productboard",
@@ -4987,6 +4997,6 @@
         }
       ]
     },
-    "summary": "Product has 93 reported tech layoffs across 5 public events from 2025-01-21 to 2026-04-15."
+    "summary": "Product has 93 reported tech layoffs across 6 public events from 2025-01-21 to 2026-05-11."
   }
 ]

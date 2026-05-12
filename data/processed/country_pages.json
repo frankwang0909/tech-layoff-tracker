@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-09"
+      "end": "2026-05-11"
     },
     "kpis": {
-      "total_laid_off": 192251,
-      "event_count": 280,
-      "headcount_event_count": 185,
-      "company_count": 212,
+      "total_laid_off": 192951,
+      "event_count": 282,
+      "headcount_event_count": 186,
+      "company_count": 213,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 48
@@ -78,7 +78,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 42720
+          "total_laid_off": 43420
         },
         {
           "month": "2026-04",
@@ -108,7 +108,7 @@
         },
         {
           "company": "Meta",
-          "total_laid_off": 14000
+          "total_laid_off": 14700
         },
         {
           "company": "Dell",
@@ -135,6 +135,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-11",
+          "company": "GitLab",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
+        },
+        {
           "date": "2026-05-09",
           "company": "Parker",
           "num_laid_off": null,
@@ -143,26 +153,6 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Ticketmaster",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.08,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Upwork",
-          "num_laid_off": 151,
-          "percentage_laid_off": 0.24,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
         },
         {
           "date": "2026-05-07",
@@ -176,6 +166,16 @@
         },
         {
           "date": "2026-05-07",
+          "company": "Upwork",
+          "num_laid_off": 151,
+          "percentage_laid_off": 0.24,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+        },
+        {
+          "date": "2026-05-07",
           "company": "Bill.com",
           "num_laid_off": 709,
           "percentage_laid_off": 0.3,
@@ -183,6 +183,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Ticketmaster",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.08,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
         },
         {
           "date": "2026-05-06",
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
-        },
-        {
-          "date": "2026-04-16",
-          "company": "Shutterfly",
-          "num_laid_off": 80,
-          "percentage_laid_off": null,
-          "industry": "Manufacturing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
         }
       ]
     },
-    "summary": "United States has 192,251 reported tech layoffs across 280 public events from 2025-01-02 to 2026-05-09."
+    "summary": "United States has 192,951 reported tech layoffs across 282 public events from 2025-01-02 to 2026-05-11."
   },
   {
     "type": "country",
@@ -1520,13 +1520,13 @@
     "canonical_url": "/countries/germany.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-05-07"
+      "end": "2026-05-08"
     },
     "kpis": {
-      "total_laid_off": 2035,
-      "event_count": 13,
-      "headcount_event_count": 9,
-      "company_count": 12,
+      "total_laid_off": 2211,
+      "event_count": 14,
+      "headcount_event_count": 10,
+      "company_count": 13,
       "country_count": 1,
       "industry_count": 8,
       "high_intensity_event_count": 3
@@ -1559,7 +1559,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 250
+          "total_laid_off": 426
         }
       ],
       "company_top": [
@@ -1574,6 +1574,10 @@
         {
           "company": "Forto",
           "total_laid_off": 200
+        },
+        {
+          "company": "Staffbase",
+          "total_laid_off": 176
         },
         {
           "company": "Personio",
@@ -1599,6 +1603,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-08",
+          "company": "Staffbase",
+          "num_laid_off": 176,
+          "percentage_laid_off": 0.22,
+          "industry": "Other",
+          "country": "Germany",
+          "stage": "Series E",
+          "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
+        },
         {
           "date": "2026-05-07",
           "company": "DeepL",
@@ -1731,7 +1745,7 @@
         }
       ]
     },
-    "summary": "Germany has 2,035 reported tech layoffs across 13 public events from 2025-01-10 to 2026-05-07."
+    "summary": "Germany has 2,211 reported tech layoffs across 14 public events from 2025-01-10 to 2026-05-08."
   },
   {
     "type": "country",

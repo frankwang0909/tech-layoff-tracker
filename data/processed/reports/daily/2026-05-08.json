@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2026-05-08",
+  "status": "final",
+  "date_range": {
+    "start": "2026-05-08",
+    "end": "2026-05-08"
+  },
+  "updated_at": "2026-05-11",
+  "canonical_url": "/reports/daily/2026-05-08.html",
+  "kpis": {
+    "total_laid_off": 176,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 176.0,
+    "median_layoffs_per_headcount_event": 176.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-05-07",
+      "total_laid_off": 2630,
+      "event_count": 6,
+      "total_laid_off_delta": -2454,
+      "total_laid_off_pct_change": -0.9331,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.8333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-05-08",
+      "total_laid_off": 325,
+      "event_count": 1,
+      "total_laid_off_delta": -149,
+      "total_laid_off_pct_change": -0.4585,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Staffbase",
+        "total_laid_off": 176
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 176
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Germany",
+        "total_laid_off": 176
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series E",
+        "total_laid_off": 176
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-05-08",
+        "company": "Staffbase",
+        "num_laid_off": 176,
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-05-08",
+        "company": "Staffbase",
+        "num_laid_off": 176,
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-05-08 includes 1 public layoff events and 176 reported layoffs.",
+    "The largest company contributor is Staffbase with 176 reported layoffs.",
+    "The leading named industry is Other with 176 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

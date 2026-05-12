@@ -6,17 +6,17 @@
     "start": "2026-03-02",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-05-10",
+  "updated_at": "2026-05-11",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
-    "total_laid_off": 45836,
-    "event_count": 30,
-    "headcount_event_count": 18,
-    "company_count": 30,
+    "total_laid_off": 46536,
+    "event_count": 31,
+    "headcount_event_count": 19,
+    "company_count": 31,
     "country_count": 9,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 2546.44,
-    "median_layoffs_per_headcount_event": 175.0,
+    "average_layoffs_per_headcount_event": 2449.26,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 9
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-02",
       "total_laid_off": 11019,
       "event_count": 27,
-      "total_laid_off_delta": 34817,
-      "total_laid_off_pct_change": 3.1597,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.1111,
+      "total_laid_off_delta": 35517,
+      "total_laid_off_pct_change": 3.2233,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.1481,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 36922,
-      "total_laid_off_pct_change": 4.142,
-      "event_count_delta": 8,
-      "event_count_pct_change": 0.3636,
+      "total_laid_off_delta": 37622,
+      "total_laid_off_pct_change": 4.2206,
+      "event_count_delta": 9,
+      "event_count_pct_change": 0.4091,
       "note": null
     }
   },
@@ -60,6 +60,10 @@
         "total_laid_off": 1000
       },
       {
+        "company": "Meta",
+        "total_laid_off": 700
+      },
+      {
         "company": "Flipkart",
         "total_laid_off": 500
       },
@@ -78,10 +82,6 @@
       {
         "company": "Envato",
         "total_laid_off": 200
-      },
-      {
-        "company": "InvestCloud",
-        "total_laid_off": 150
       }
     ],
     "industry_top": [
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 1000
+        "total_laid_off": 1700
       },
       {
         "industry": "Retail",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 42720
+        "total_laid_off": 43420
       },
       {
         "country": "Australia",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 43164
+        "total_laid_off": 43864
       },
       {
         "stage": "Unknown",
@@ -193,7 +193,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -256,6 +256,16 @@
         "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
       },
       {
+        "date": "2026-03-25",
+        "company": "Meta",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.01,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
+      },
+      {
         "date": "2026-03-06",
         "company": "Flipkart",
         "num_laid_off": 500,
@@ -304,16 +314,6 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
-      },
-      {
-        "date": "2026-03-10",
-        "company": "InvestCloud",
-        "num_laid_off": 150,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Private Equity",
-        "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
       }
     ],
     "recent_events": [
@@ -398,6 +398,16 @@
         "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
+        "date": "2026-03-25",
+        "company": "Meta",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.01,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
+      },
+      {
         "date": "2026-03-24",
         "company": "Epic Games",
         "num_laid_off": 1000,
@@ -449,16 +459,6 @@
       },
       {
         "date": "2026-03-19",
-        "company": "Crypto.com",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.12,
-        "industry": "Crypto",
-        "country": "Singapore",
-        "stage": "Unknown",
-        "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-      },
-      {
-        "date": "2026-03-19",
         "company": "Snowflake",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -466,6 +466,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+      },
+      {
+        "date": "2026-03-19",
+        "company": "Crypto.com",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.12,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
       },
       {
         "date": "2026-03-17",
@@ -506,16 +516,6 @@
         "country": "Canada",
         "stage": "Private Equity",
         "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
-      },
-      {
-        "date": "2026-03-13",
-        "company": "Digg",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
       }
     ],
     "high_intensity_events": [
@@ -612,7 +612,7 @@
     ]
   },
   "insights": [
-    "2026-03 includes 30 public layoff events and 45,836 reported layoffs.",
+    "2026-03 includes 31 public layoff events and 46,536 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
     "9 events report a layoff percentage of 25% or higher."

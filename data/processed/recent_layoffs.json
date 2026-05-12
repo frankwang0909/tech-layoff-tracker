@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-05-10",
-    "company": "ZoomInfo",
-    "num_laid_off": 300,
+    "date": "2026-05-11",
+    "company": "GitLab",
+    "num_laid_off": null,
     "percentage_laid_off": null,
-    "industry": "Sales",
-    "country": "Israel",
+    "industry": "Product",
+    "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+    "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
   },
   {
     "date": "2026-05-10",
@@ -20,6 +20,16 @@
     "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
   },
   {
+    "date": "2026-05-10",
+    "company": "ZoomInfo",
+    "num_laid_off": 300,
+    "percentage_laid_off": null,
+    "industry": "Sales",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+  },
+  {
     "date": "2026-05-09",
     "company": "Parker",
     "num_laid_off": null,
@@ -30,34 +40,14 @@
     "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
   },
   {
-    "date": "2026-05-07",
-    "company": "DeepL",
-    "num_laid_off": 250,
-    "percentage_laid_off": 0.21,
-    "industry": "AI",
-    "country": "Germany",
-    "stage": "Unknown",
-    "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Truecaller",
-    "num_laid_off": 70,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "Sweden",
-    "stage": "Post-IPO",
-    "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Upwork",
-    "num_laid_off": 151,
-    "percentage_laid_off": 0.24,
+    "date": "2026-05-08",
+    "company": "Staffbase",
+    "num_laid_off": 176,
+    "percentage_laid_off": 0.22,
     "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+    "country": "Germany",
+    "stage": "Series E",
+    "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
   },
   {
     "date": "2026-05-07",
@@ -71,6 +61,16 @@
   },
   {
     "date": "2026-05-07",
+    "company": "Bill.com",
+    "num_laid_off": 709,
+    "percentage_laid_off": 0.3,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+  },
+  {
+    "date": "2026-05-07",
     "company": "Ticketmaster",
     "num_laid_off": 350,
     "percentage_laid_off": 0.08,
@@ -81,33 +81,33 @@
   },
   {
     "date": "2026-05-07",
-    "company": "Bill.com",
-    "num_laid_off": 709,
-    "percentage_laid_off": 0.3,
-    "industry": "Finance",
+    "company": "DeepL",
+    "num_laid_off": 250,
+    "percentage_laid_off": 0.21,
+    "industry": "AI",
+    "country": "Germany",
+    "stage": "Unknown",
+    "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+  },
+  {
+    "date": "2026-05-07",
+    "company": "Upwork",
+    "num_laid_off": 151,
+    "percentage_laid_off": 0.24,
+    "industry": "Other",
     "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
   },
   {
-    "date": "2026-05-06",
-    "company": "Arctic Wolf",
-    "num_laid_off": 250,
-    "percentage_laid_off": 0.1,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
-  },
-  {
-    "date": "2026-05-06",
-    "company": "Pocket FM",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.1,
-    "industry": "Media",
-    "country": "India",
-    "stage": "Series D",
-    "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+    "date": "2026-05-07",
+    "company": "Truecaller",
+    "num_laid_off": 70,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "Sweden",
+    "stage": "Post-IPO",
+    "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
   },
   {
     "date": "2026-05-06",

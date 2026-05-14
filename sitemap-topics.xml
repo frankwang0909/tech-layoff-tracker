@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tech.debugcanada.com/industries/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -55,6 +55,12 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://tech.debugcanada.com/industries/infrastructure.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://tech.debugcanada.com/industries/security.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -62,7 +68,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/food.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -109,6 +115,12 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://tech.debugcanada.com/industries/recruiting.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://tech.debugcanada.com/industries/crypto.html</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -117,6 +129,12 @@
   <url>
     <loc>https://tech.debugcanada.com/industries/aerospace.html</loc>
     <lastmod>2025-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://tech.debugcanada.com/industries/real-estate.html</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -133,14 +151,8 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://tech.debugcanada.com/industries/real-estate.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
     <loc>https://tech.debugcanada.com/industries/travel.html</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -157,12 +169,6 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://tech.debugcanada.com/industries/recruiting.html</loc>
-    <lastmod>2025-10-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
     <loc>https://tech.debugcanada.com/industries/product.html</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -170,7 +176,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/united-states.html</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -182,7 +188,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/israel.html</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>

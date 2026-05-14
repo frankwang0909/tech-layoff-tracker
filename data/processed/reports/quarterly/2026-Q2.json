@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-05-11"
+    "end": "2026-05-13"
   },
-  "updated_at": "2026-05-11",
+  "updated_at": "2026-05-13",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 21088,
-    "event_count": 52,
-    "headcount_event_count": 34,
-    "company_count": 51,
-    "country_count": 9,
-    "industry_count": 20,
-    "average_layoffs_per_headcount_event": 620.24,
-    "median_layoffs_per_headcount_event": 150.5,
+    "total_laid_off": 26241,
+    "event_count": 57,
+    "headcount_event_count": 39,
+    "company_count": 56,
+    "country_count": 10,
+    "industry_count": 23,
+    "average_layoffs_per_headcount_event": 672.85,
+    "median_layoffs_per_headcount_event": 151.0,
     "high_intensity_event_count": 11
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q1",
       "total_laid_off": 82483,
       "event_count": 88,
-      "total_laid_off_delta": -61395,
-      "total_laid_off_pct_change": -0.7443,
-      "event_count_delta": -36,
-      "event_count_pct_change": -0.4091,
+      "total_laid_off_delta": -56242,
+      "total_laid_off_pct_change": -0.6819,
+      "event_count_delta": -31,
+      "event_count_pct_change": -0.3523,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37528,
-      "event_count": 71,
-      "total_laid_off_delta": -16440,
-      "total_laid_off_pct_change": -0.4381,
-      "event_count_delta": -19,
-      "event_count_pct_change": -0.2676,
+      "event_count": 72,
+      "total_laid_off_delta": -11287,
+      "total_laid_off_pct_change": -0.3008,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.2083,
       "note": null
     }
   },
@@ -52,6 +52,10 @@
         "total_laid_off": 4760
       },
       {
+        "company": "Cisco",
+        "total_laid_off": 4000
+      },
+      {
         "company": "Cloudflare",
         "total_laid_off": 1100
       },
@@ -64,6 +68,10 @@
         "total_laid_off": 950
       },
       {
+        "company": "LinkedIn",
+        "total_laid_off": 875
+      },
+      {
         "company": "Bill.com",
         "total_laid_off": 709
       },
@@ -74,14 +82,6 @@
       {
         "company": "Freshworks",
         "total_laid_off": 500
-      },
-      {
-        "company": "Ticketmaster",
-        "total_laid_off": 350
-      },
-      {
-        "company": "ZoomInfo",
-        "total_laid_off": 300
       }
     ],
     "industry_top": [
@@ -94,12 +94,20 @@
         "total_laid_off": 5651
       },
       {
+        "industry": "Infrastructure",
+        "total_laid_off": 4000
+      },
+      {
         "industry": "Security",
         "total_laid_off": 1458
       },
       {
         "industry": "HR",
         "total_laid_off": 950
+      },
+      {
+        "industry": "Recruiting",
+        "total_laid_off": 875
       },
       {
         "industry": "Crypto",
@@ -116,20 +124,12 @@
       {
         "industry": "Sales",
         "total_laid_off": 300
-      },
-      {
-        "industry": "AI",
-        "total_laid_off": 250
-      },
-      {
-        "industry": "Media",
-        "total_laid_off": 250
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 19270
+        "total_laid_off": 24345
       },
       {
         "country": "India",
@@ -141,7 +141,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 372
+        "total_laid_off": 392
       },
       {
         "country": "Cyprus",
@@ -156,6 +156,10 @@
         "total_laid_off": 90
       },
       {
+        "country": "Egypt",
+        "total_laid_off": 58
+      },
+      {
         "country": "Canada",
         "total_laid_off": 30
       }
@@ -163,7 +167,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 17954
+        "total_laid_off": 21954
       },
       {
         "stage": "Unknown",
@@ -171,7 +175,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 350
+        "total_laid_off": 1425
       },
       {
         "stage": "Series B",
@@ -190,22 +194,22 @@
         "total_laid_off": 140
       },
       {
+        "stage": "Series C",
+        "total_laid_off": 118
+      },
+      {
         "stage": "Series F",
-        "total_laid_off": 90
+        "total_laid_off": 110
       },
       {
         "stage": "Series G",
         "total_laid_off": 90
-      },
-      {
-        "stage": "Series C",
-        "total_laid_off": 60
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 6
+        "event_count": 9
       },
       {
         "bucket": "10-24%",
@@ -248,6 +252,16 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
         "date": "2026-05-07",
         "company": "Cloudflare",
         "num_laid_off": 1100,
@@ -278,6 +292,16 @@
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
       },
       {
+        "date": "2026-05-13",
+        "company": "LinkedIn",
+        "num_laid_off": 875,
+        "percentage_laid_off": 0.05,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+      },
+      {
         "date": "2026-05-07",
         "company": "Bill.com",
         "num_laid_off": 709,
@@ -306,29 +330,59 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Ticketmaster",
-        "num_laid_off": 350,
-        "percentage_laid_off": 0.08,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-      },
-      {
-        "date": "2026-05-10",
-        "company": "ZoomInfo",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Guesty",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.02,
+        "industry": "Travel",
+        "country": "Israel",
+        "stage": "Series F",
+        "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "LinkedIn",
+        "num_laid_off": 875,
+        "percentage_laid_off": 0.05,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+      },
+      {
+        "date": "2026-05-12",
+        "company": "Breadfast",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Egypt",
+        "stage": "Series C",
+        "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MRI Software",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+      },
       {
         "date": "2026-05-11",
         "company": "GitLab",
@@ -381,36 +435,6 @@
       },
       {
         "date": "2026-05-07",
-        "company": "Cloudflare",
-        "num_laid_off": 1100,
-        "percentage_laid_off": 0.2,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blog.cloudflare.com/building-for-the-future/"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Bill.com",
-        "num_laid_off": 709,
-        "percentage_laid_off": 0.3,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Ticketmaster",
-        "num_laid_off": 350,
-        "percentage_laid_off": 0.08,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-      },
-      {
-        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
         "percentage_laid_off": 0.21,
@@ -418,6 +442,16 @@
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+      },
+      {
+        "date": "2026-05-07",
+        "company": "Truecaller",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
       },
       {
         "date": "2026-05-07",
@@ -431,43 +465,43 @@
       },
       {
         "date": "2026-05-07",
-        "company": "Truecaller",
-        "num_laid_off": 70,
-        "percentage_laid_off": null,
+        "company": "Ticketmaster",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.08,
         "industry": "Consumer",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
       },
       {
-        "date": "2026-05-06",
-        "company": "reAlpha",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Real Estate",
+        "date": "2026-05-07",
+        "company": "Bill.com",
+        "num_laid_off": 709,
+        "percentage_laid_off": 0.3,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
+        "source": "https://www.bill.com/blog/a-message-to-bill-employees"
       },
       {
-        "date": "2026-05-06",
-        "company": "ApnaMart",
-        "num_laid_off": 35,
-        "percentage_laid_off": 0.1,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series B",
-        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
-      },
-      {
-        "date": "2026-05-06",
-        "company": "LSports",
-        "num_laid_off": 40,
+        "date": "2026-05-07",
+        "company": "Cloudflare",
+        "num_laid_off": 1100,
         "percentage_laid_off": 0.2,
-        "industry": "Data",
-        "country": "Israel",
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blog.cloudflare.com/building-for-the-future/"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "Arctic Wolf",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.1,
+        "industry": "Security",
+        "country": "United States",
         "stage": "Unknown",
-        "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
       },
       {
         "date": "2026-05-06",
@@ -481,53 +515,23 @@
       },
       {
         "date": "2026-05-06",
-        "company": "Arctic Wolf",
-        "num_laid_off": 250,
-        "percentage_laid_off": 0.1,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
-      },
-      {
-        "date": "2026-05-05",
-        "company": "PayPal",
-        "num_laid_off": 4760,
+        "company": "LSports",
+        "num_laid_off": 40,
         "percentage_laid_off": 0.2,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-      },
-      {
-        "date": "2026-05-05",
-        "company": "Coinbase",
-        "num_laid_off": 700,
-        "percentage_laid_off": 0.14,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-      },
-      {
-        "date": "2026-05-05",
-        "company": "Freshworks",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.11,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
-      },
-      {
-        "date": "2026-05-05",
-        "company": "0G",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Crypto",
-        "country": "United States",
+        "industry": "Data",
+        "country": "Israel",
         "stage": "Unknown",
-        "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
+        "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-06",
+        "company": "ApnaMart",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.1,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series B",
+        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
       }
     ],
     "high_intensity_events": [
@@ -634,7 +638,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 52 public layoff events and 21,088 reported layoffs.",
+    "2026-Q2 includes 57 public layoff events and 26,241 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,842 reported layoffs.",
     "11 events report a layoff percentage of 25% or higher."

@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-05-13",
+    "company": "Cisco",
+    "num_laid_off": 4000,
+    "percentage_laid_off": 0.05,
+    "industry": "Infrastructure",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://blogs.cisco.com/news/our-path-forward"
+  },
+  {
+    "date": "2026-05-13",
+    "company": "Guesty",
+    "num_laid_off": 20,
+    "percentage_laid_off": 0.02,
+    "industry": "Travel",
+    "country": "Israel",
+    "stage": "Series F",
+    "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+  },
+  {
+    "date": "2026-05-13",
+    "company": "LinkedIn",
+    "num_laid_off": 875,
+    "percentage_laid_off": 0.05,
+    "industry": "Recruiting",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+  },
+  {
+    "date": "2026-05-12",
+    "company": "Breadfast",
+    "num_laid_off": 58,
+    "percentage_laid_off": null,
+    "industry": "Food",
+    "country": "Egypt",
+    "stage": "Series C",
+    "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+  },
+  {
     "date": "2026-05-11",
     "company": "GitLab",
     "num_laid_off": null,
@@ -10,14 +50,14 @@
     "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
   },
   {
-    "date": "2026-05-10",
-    "company": "Adda247",
+    "date": "2026-05-11",
+    "company": "MRI Software",
     "num_laid_off": 200,
-    "percentage_laid_off": 0.2,
-    "industry": "Education",
-    "country": "India",
-    "stage": "Series B",
-    "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
+    "percentage_laid_off": null,
+    "industry": "Real Estate",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
   },
   {
     "date": "2026-05-10",
@@ -28,6 +68,16 @@
     "country": "Israel",
     "stage": "Post-IPO",
     "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+  },
+  {
+    "date": "2026-05-10",
+    "company": "Adda247",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.2,
+    "industry": "Education",
+    "country": "India",
+    "stage": "Series B",
+    "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
   },
   {
     "date": "2026-05-09",
@@ -68,55 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Ticketmaster",
-    "num_laid_off": 350,
-    "percentage_laid_off": 0.08,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "DeepL",
-    "num_laid_off": 250,
-    "percentage_laid_off": 0.21,
-    "industry": "AI",
-    "country": "Germany",
-    "stage": "Unknown",
-    "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Upwork",
-    "num_laid_off": 151,
-    "percentage_laid_off": 0.24,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Truecaller",
-    "num_laid_off": 70,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "Sweden",
-    "stage": "Post-IPO",
-    "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-  },
-  {
-    "date": "2026-05-06",
-    "company": "LSports",
-    "num_laid_off": 40,
-    "percentage_laid_off": 0.2,
-    "industry": "Data",
-    "country": "Israel",
-    "stage": "Unknown",
-    "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
   }
 ]

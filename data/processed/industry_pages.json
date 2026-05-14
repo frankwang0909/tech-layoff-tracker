@@ -1836,6 +1836,79 @@
   },
   {
     "type": "industry",
+    "name": "Infrastructure",
+    "slug": "infrastructure",
+    "title": "Tech Layoffs by Industry: Infrastructure",
+    "canonical_url": "/industries/infrastructure.html",
+    "date_range": {
+      "start": "2025-04-09",
+      "end": "2026-05-13"
+    },
+    "kpis": {
+      "total_laid_off": 4221,
+      "event_count": 3,
+      "headcount_event_count": 2,
+      "company_count": 2,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-08",
+          "total_laid_off": 221
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 4000
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Cisco",
+          "total_laid_off": 4221
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-13",
+          "company": "Cisco",
+          "num_laid_off": 4000,
+          "percentage_laid_off": 0.05,
+          "industry": "Infrastructure",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blogs.cisco.com/news/our-path-forward"
+        },
+        {
+          "date": "2025-08-19",
+          "company": "Cisco",
+          "num_laid_off": 221,
+          "percentage_laid_off": null,
+          "industry": "Infrastructure",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/cisco-oracle-layoffs-bay-area-20824135.php"
+        },
+        {
+          "date": "2025-04-09",
+          "company": "Wing Cloud",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Infrastructure",
+          "country": "Israel",
+          "stage": "Seed",
+          "source": "https://www.calcalistech.com/ctechnews/article/bj90wnmrjl#google_vignette"
+        }
+      ]
+    },
+    "summary": "Infrastructure has 4,221 reported tech layoffs across 3 public events from 2025-04-09 to 2026-05-13."
+  },
+  {
+    "type": "industry",
     "name": "Security",
     "slug": "security",
     "title": "Tech Layoffs by Industry: Security",
@@ -2115,14 +2188,14 @@
     "canonical_url": "/industries/food.html",
     "date_range": {
       "start": "2025-02-19",
-      "end": "2026-05-06"
+      "end": "2026-05-12"
     },
     "kpis": {
-      "total_laid_off": 3642,
-      "event_count": 14,
-      "headcount_event_count": 12,
-      "company_count": 14,
-      "country_count": 7,
+      "total_laid_off": 3700,
+      "event_count": 15,
+      "headcount_event_count": 13,
+      "company_count": 15,
+      "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 4
     },
@@ -2162,7 +2235,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 35
+          "total_laid_off": 93
         }
       ],
       "company_top": [
@@ -2203,13 +2276,23 @@
           "total_laid_off": 100
         },
         {
-          "company": "ezCater",
-          "total_laid_off": 40
+          "company": "Breadfast",
+          "total_laid_off": 58
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-12",
+          "company": "Breadfast",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "Egypt",
+          "stage": "Series C",
+          "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+        },
         {
           "date": "2026-05-06",
           "company": "ApnaMart",
@@ -2352,7 +2435,7 @@
         }
       ]
     },
-    "summary": "Food has 3,642 reported tech layoffs across 14 public events from 2025-02-19 to 2026-05-06."
+    "summary": "Food has 3,700 reported tech layoffs across 15 public events from 2025-02-19 to 2026-05-12."
   },
   {
     "type": "industry",
@@ -3735,6 +3818,123 @@
   },
   {
     "type": "industry",
+    "name": "Recruiting",
+    "slug": "recruiting",
+    "title": "Tech Layoffs by Industry: Recruiting",
+    "canonical_url": "/industries/recruiting.html",
+    "date_range": {
+      "start": "2025-01-15",
+      "end": "2026-05-13"
+    },
+    "kpis": {
+      "total_laid_off": 1160,
+      "event_count": 5,
+      "headcount_event_count": 5,
+      "company_count": 5,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 105
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 80
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 875
+        }
+      ],
+      "company_top": [
+        {
+          "company": "LinkedIn",
+          "total_laid_off": 875
+        },
+        {
+          "company": "Handshake",
+          "total_laid_off": 100
+        },
+        {
+          "company": "HeyJobs",
+          "total_laid_off": 90
+        },
+        {
+          "company": "ZipRecruiter",
+          "total_laid_off": 80
+        },
+        {
+          "company": "Textio",
+          "total_laid_off": 15
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-13",
+          "company": "LinkedIn",
+          "num_laid_off": 875,
+          "percentage_laid_off": 0.05,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+        },
+        {
+          "date": "2025-10-14",
+          "company": "Handshake",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.15,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.upstartsmedia.com/p/handshake-refounding-layoff-ai"
+        },
+        {
+          "date": "2025-09-16",
+          "company": "ZipRecruiter",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/pwjukv20s"
+        },
+        {
+          "date": "2025-01-15",
+          "company": "HeyJobs",
+          "num_laid_off": 90,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "Germany",
+          "stage": "Series B",
+          "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
+        },
+        {
+          "date": "2025-01-15",
+          "company": "Textio",
+          "num_laid_off": 15,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.geekwire.com/2025/augmented-writing-startup-textio-lays-off-more-employees-will-invest-in-different-mix-of-roles/"
+        }
+      ]
+    },
+    "summary": "Recruiting has 1,160 reported tech layoffs across 5 public events from 2025-01-15 to 2026-05-13."
+  },
+  {
+    "type": "industry",
     "name": "Crypto",
     "slug": "crypto",
     "title": "Tech Layoffs by Industry: Crypto",
@@ -3968,6 +4168,145 @@
       ]
     },
     "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
+  },
+  {
+    "type": "industry",
+    "name": "Real Estate",
+    "slug": "real-estate",
+    "title": "Tech Layoffs by Industry: Real Estate",
+    "canonical_url": "/industries/real-estate.html",
+    "date_range": {
+      "start": "2025-01-09",
+      "end": "2026-05-11"
+    },
+    "kpis": {
+      "total_laid_off": 896,
+      "event_count": 8,
+      "headcount_event_count": 4,
+      "company_count": 6,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 46
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 450
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 200
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Redfin",
+          "total_laid_off": 496
+        },
+        {
+          "company": "MRI Software",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Zillow",
+          "total_laid_off": 200
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-11",
+          "company": "MRI Software",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+        },
+        {
+          "date": "2026-05-06",
+          "company": "reAlpha",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
+        },
+        {
+          "date": "2026-02-02",
+          "company": "Zillow",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.seattletimes.com/business/real-estate/seattle-based-zillow-lays-off-200-employees/"
+        },
+        {
+          "date": "2025-07-18",
+          "company": "Rocket Companies",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.02,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.housingwire.com/articles/rocket-lays-off-2-of-workforce-after-closing-redfin-acquisition/"
+        },
+        {
+          "date": "2025-04-03",
+          "company": "Tract",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United Kingdom",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
+        },
+        {
+          "date": "2025-02-12",
+          "company": "Redfin",
+          "num_laid_off": 450,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.realestatenews.com/2025/02/12/redfin-to-cut-450-roles-following-zillow-rentals-deal"
+        },
+        {
+          "date": "2025-01-10",
+          "company": "Zillow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2025/zillow-makes-job-cuts-after-reorganizing-agent-software-and-advertising-teams/"
+        },
+        {
+          "date": "2025-01-09",
+          "company": "Redfin",
+          "num_laid_off": 46,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2025/redfin-lays-off-46-employees-in-latest-cuts-at-seattle-real-estate-company/"
+        }
+      ]
+    },
+    "summary": "Real Estate has 896 reported tech layoffs across 8 public events from 2025-01-09 to 2026-05-11."
   },
   {
     "type": "industry",
@@ -4289,141 +4628,20 @@
   },
   {
     "type": "industry",
-    "name": "Real Estate",
-    "slug": "real-estate",
-    "title": "Tech Layoffs by Industry: Real Estate",
-    "canonical_url": "/industries/real-estate.html",
-    "date_range": {
-      "start": "2025-01-09",
-      "end": "2026-05-06"
-    },
-    "kpis": {
-      "total_laid_off": 696,
-      "event_count": 7,
-      "headcount_event_count": 3,
-      "company_count": 5,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 1
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 46
-        },
-        {
-          "month": "2025-02",
-          "total_laid_off": 450
-        },
-        {
-          "month": "2026-02",
-          "total_laid_off": 200
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Redfin",
-          "total_laid_off": 496
-        },
-        {
-          "company": "Zillow",
-          "total_laid_off": 200
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-05-06",
-          "company": "reAlpha",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
-        },
-        {
-          "date": "2026-02-02",
-          "company": "Zillow",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.seattletimes.com/business/real-estate/seattle-based-zillow-lays-off-200-employees/"
-        },
-        {
-          "date": "2025-07-18",
-          "company": "Rocket Companies",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.02,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.housingwire.com/articles/rocket-lays-off-2-of-workforce-after-closing-redfin-acquisition/"
-        },
-        {
-          "date": "2025-04-03",
-          "company": "Tract",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United Kingdom",
-          "stage": "Unknown",
-          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
-        },
-        {
-          "date": "2025-02-12",
-          "company": "Redfin",
-          "num_laid_off": 450,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.realestatenews.com/2025/02/12/redfin-to-cut-450-roles-following-zillow-rentals-deal"
-        },
-        {
-          "date": "2025-01-10",
-          "company": "Zillow",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2025/zillow-makes-job-cuts-after-reorganizing-agent-software-and-advertising-teams/"
-        },
-        {
-          "date": "2025-01-09",
-          "company": "Redfin",
-          "num_laid_off": 46,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2025/redfin-lays-off-46-employees-in-latest-cuts-at-seattle-real-estate-company/"
-        }
-      ]
-    },
-    "summary": "Real Estate has 696 reported tech layoffs across 7 public events from 2025-01-09 to 2026-05-06."
-  },
-  {
-    "type": "industry",
     "name": "Travel",
     "slug": "travel",
     "title": "Tech Layoffs by Industry: Travel",
     "canonical_url": "/industries/travel.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-02-01"
+      "end": "2026-05-13"
     },
     "kpis": {
-      "total_laid_off": 425,
-      "event_count": 9,
-      "headcount_event_count": 3,
-      "company_count": 4,
-      "country_count": 2,
+      "total_laid_off": 445,
+      "event_count": 10,
+      "headcount_event_count": 4,
+      "company_count": 5,
+      "country_count": 3,
       "industry_count": 1,
       "high_intensity_event_count": 2
     },
@@ -4440,6 +4658,10 @@
         {
           "month": "2026-02",
           "total_laid_off": 100
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 20
         }
       ],
       "company_top": [
@@ -4454,11 +4676,25 @@
         {
           "company": "TripAdvisor",
           "total_laid_off": 75
+        },
+        {
+          "company": "Guesty",
+          "total_laid_off": 20
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-13",
+          "company": "Guesty",
+          "num_laid_off": 20,
+          "percentage_laid_off": 0.02,
+          "industry": "Travel",
+          "country": "Israel",
+          "stage": "Series F",
+          "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+        },
         {
           "date": "2026-02-01",
           "company": "Expedia",
@@ -4551,7 +4787,7 @@
         }
       ]
     },
-    "summary": "Travel has 425 reported tech layoffs across 9 public events from 2025-02-04 to 2026-02-01."
+    "summary": "Travel has 445 reported tech layoffs across 10 public events from 2025-02-04 to 2026-05-13."
   },
   {
     "type": "industry",
@@ -4792,105 +5028,6 @@
       ]
     },
     "summary": "Fitness has 305 reported tech layoffs across 4 public events from 2025-03-07 to 2026-04-03."
-  },
-  {
-    "type": "industry",
-    "name": "Recruiting",
-    "slug": "recruiting",
-    "title": "Tech Layoffs by Industry: Recruiting",
-    "canonical_url": "/industries/recruiting.html",
-    "date_range": {
-      "start": "2025-01-15",
-      "end": "2025-10-14"
-    },
-    "kpis": {
-      "total_laid_off": 285,
-      "event_count": 4,
-      "headcount_event_count": 4,
-      "company_count": 4,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 0
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 105
-        },
-        {
-          "month": "2025-09",
-          "total_laid_off": 80
-        },
-        {
-          "month": "2025-10",
-          "total_laid_off": 100
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Handshake",
-          "total_laid_off": 100
-        },
-        {
-          "company": "HeyJobs",
-          "total_laid_off": 90
-        },
-        {
-          "company": "ZipRecruiter",
-          "total_laid_off": 80
-        },
-        {
-          "company": "Textio",
-          "total_laid_off": 15
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2025-10-14",
-          "company": "Handshake",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.15,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.upstartsmedia.com/p/handshake-refounding-layoff-ai"
-        },
-        {
-          "date": "2025-09-16",
-          "company": "ZipRecruiter",
-          "num_laid_off": 80,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/pwjukv20s"
-        },
-        {
-          "date": "2025-01-15",
-          "company": "HeyJobs",
-          "num_laid_off": 90,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "Germany",
-          "stage": "Series B",
-          "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
-        },
-        {
-          "date": "2025-01-15",
-          "company": "Textio",
-          "num_laid_off": 15,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.geekwire.com/2025/augmented-writing-startup-textio-lays-off-more-employees-will-invest-in-different-mix-of-roles/"
-        }
-      ]
-    },
-    "summary": "Recruiting has 285 reported tech layoffs across 4 public events from 2025-01-15 to 2025-10-14."
   },
   {
     "type": "industry",

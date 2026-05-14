@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-11",
-    "end": "2026-05-11"
+    "end": "2026-05-13"
   },
-  "updated_at": "2026-05-11",
+  "updated_at": "2026-05-13",
   "canonical_url": "/reports/weekly/2026-W20.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "total_laid_off": 5153,
+    "event_count": 6,
+    "headcount_event_count": 5,
+    "company_count": 6,
+    "country_count": 3,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 1030.6,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,32 +24,104 @@
       "period": "2026-W19",
       "total_laid_off": 9721,
       "event_count": 21,
-      "total_laid_off_delta": -9721,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -20,
-      "event_count_pct_change": -0.9524,
+      "total_laid_off_delta": -4568,
+      "total_laid_off_pct_change": -0.4699,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.7143,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W20",
       "total_laid_off": 6805,
       "event_count": 6,
-      "total_laid_off_delta": -6805,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.8333,
+      "total_laid_off_delta": -1652,
+      "total_laid_off_pct_change": -0.2428,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Cisco",
+        "total_laid_off": 4000
+      },
+      {
+        "company": "LinkedIn",
+        "total_laid_off": 875
+      },
+      {
+        "company": "MRI Software",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Breadfast",
+        "total_laid_off": 58
+      },
+      {
+        "company": "Guesty",
+        "total_laid_off": 20
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Infrastructure",
+        "total_laid_off": 4000
+      },
+      {
+        "industry": "Recruiting",
+        "total_laid_off": 875
+      },
+      {
+        "industry": "Real Estate",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 58
+      },
+      {
+        "industry": "Travel",
+        "total_laid_off": 20
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 5075
+      },
+      {
+        "country": "Egypt",
+        "total_laid_off": 58
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 20
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 4000
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 1075
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 58
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 20
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 3
       },
       {
         "bucket": "10-24%",
@@ -70,8 +142,109 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "LinkedIn",
+        "num_laid_off": 875,
+        "percentage_laid_off": 0.05,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MRI Software",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+      },
+      {
+        "date": "2026-05-12",
+        "company": "Breadfast",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Egypt",
+        "stage": "Series C",
+        "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Guesty",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.02,
+        "industry": "Travel",
+        "country": "Israel",
+        "stage": "Series F",
+        "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "LinkedIn",
+        "num_laid_off": 875,
+        "percentage_laid_off": 0.05,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Guesty",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.02,
+        "industry": "Travel",
+        "country": "Israel",
+        "stage": "Series F",
+        "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-12",
+        "company": "Breadfast",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Egypt",
+        "stage": "Series C",
+        "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MRI Software",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+      },
       {
         "date": "2026-05-11",
         "company": "GitLab",
@@ -86,7 +259,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W20 includes 1 public layoff events and 0 reported layoffs."
+    "2026-W20 includes 6 public layoff events and 5,153 reported layoffs.",
+    "The largest company contributor is Cisco with 4,000 reported layoffs.",
+    "The leading named industry is Infrastructure with 4,000 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

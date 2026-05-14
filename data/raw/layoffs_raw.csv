@@ -1,4 +1,9 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Cisco,SF Bay Area,4000.0,2026-05-13,0.05,Infrastructure,https://blogs.cisco.com/news/our-path-forward,Post-IPO,2.0,United States,2026-05-13T21:59:59.000Z
+LinkedIn,SF Bay Area,875.0,2026-05-13,0.05,Recruiting,https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/,Acquired,154.0,United States,2026-05-13T16:43:26.000Z
+Guesty,"Tel Aviv, Non-U.S.",20.0,2026-05-13,0.02,Travel,https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/,Series F,411.0,Israel,2026-05-13T21:11:26.000Z
+Breadfast,"Cairo, Non-U.S.",58.0,2026-05-12,,Food,https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise,Series C,89.0,Egypt,2026-05-13T21:12:58.000Z
+MRI Software,Cleveland,200.0,2026-05-11,,Real Estate,https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/,Acquired,16.0,United States,2026-05-13T21:14:56.000Z
 GitLab,SF Bay Area,,2026-05-11,,Product,https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era,Post-IPO,413.0,United States,2026-05-11T23:17:28.000Z
 ZoomInfo,"Tel Aviv, Non-U.S.",300.0,2026-05-10,,Sales,https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/,Post-IPO,7.0,Israel,2026-05-11T01:52:20.000Z
 Adda247,"Gurugram, Non-U.S.",200.0,2026-05-10,0.2,Education,https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77,Series B,61.0,India,2026-05-11T01:54:43.000Z
@@ -325,6 +330,7 @@ Noogata,"Tel Aviv, Non-U.S.",10.0,2025-05-15,1.0,AI,https://www.calcalistech.com
 Amazon,Seattle,100.0,2025-05-14,,Retail,https://www.cnbc.com/2025/05/14/amazon-lays-off-about-100-employees-in-devices-and-services-unit.html,Post-IPO,8100.0,United States,2025-05-16T04:34:25.000Z
 Microsoft,Seattle,6000.0,2025-05-13,0.03,Other,https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html,Post-IPO,1.0,United States,2025-05-13T16:15:41.000Z
 Chegg,SF Bay Area,248.0,2025-05-12,0.22,Education,https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/,Post-IPO,227.0,United States,2025-05-12T22:05:04.000Z
+MessageBird,"Amsterdam, Non-U.S.",,2025-05-11,0.2,Other,https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/,Series C,1100.0,Netherlands,2026-05-13T20:42:31.000Z
 Match Group,New York City,325.0,2025-05-08,0.13,Consumer,https://www.bloomberg.com/news/articles/2025-05-08/match-group-cuts-13-staff-in-latest-move-to-reverse-declines,Post-IPO,,United States,2025-05-09T14:27:46.000Z
 CrowdStrike,SF Bay Area,500.0,2025-05-07,0.05,Security,https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink,Post-IPO,1200.0,United States,2025-05-07T17:35:11.000Z
 Games 24x7,"Mumbai, Non-U.S.",180.0,2025-05-07,,Consumer,https://www.storyboard18.com/gaming-news/games-24x7-cuts-staff-amid-gst-dispute-industry-turmoil-64843.htm,Unknown,75.0,India,2025-09-02T03:59:36.000Z

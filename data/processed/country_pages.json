@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-11"
+      "end": "2026-05-13"
     },
     "kpis": {
-      "total_laid_off": 192951,
-      "event_count": 282,
-      "headcount_event_count": 186,
-      "company_count": 213,
+      "total_laid_off": 198026,
+      "event_count": 285,
+      "headcount_event_count": 189,
+      "company_count": 215,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 48
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 8520
+          "total_laid_off": 13595
         }
       ],
       "company_top": [
@@ -135,6 +135,36 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-13",
+          "company": "Cisco",
+          "num_laid_off": 4000,
+          "percentage_laid_off": 0.05,
+          "industry": "Infrastructure",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blogs.cisco.com/news/our-path-forward"
+        },
+        {
+          "date": "2026-05-13",
+          "company": "LinkedIn",
+          "num_laid_off": 875,
+          "percentage_laid_off": 0.05,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+        },
+        {
+          "date": "2026-05-11",
+          "company": "MRI Software",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+        },
+        {
           "date": "2026-05-11",
           "company": "GitLab",
           "num_laid_off": null,
@@ -156,13 +186,13 @@
         },
         {
           "date": "2026-05-07",
-          "company": "Cloudflare",
-          "num_laid_off": 1100,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
+          "company": "Ticketmaster",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.08,
+          "industry": "Consumer",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blog.cloudflare.com/building-for-the-future/"
+          "stage": "Acquired",
+          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
         },
         {
           "date": "2026-05-07",
@@ -186,13 +216,13 @@
         },
         {
           "date": "2026-05-07",
-          "company": "Ticketmaster",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.08,
-          "industry": "Consumer",
+          "company": "Cloudflare",
+          "num_laid_off": 1100,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
           "country": "United States",
-          "stage": "Acquired",
-          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+          "stage": "Post-IPO",
+          "source": "https://blog.cloudflare.com/building-for-the-future/"
         },
         {
           "date": "2026-05-06",
@@ -236,16 +266,6 @@
         },
         {
           "date": "2026-05-05",
-          "company": "0G",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
-        },
-        {
-          "date": "2026-05-05",
           "company": "Freshworks",
           "num_laid_off": 500,
           "percentage_laid_off": 0.11,
@@ -255,38 +275,18 @@
           "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
         },
         {
-          "date": "2026-04-27",
-          "company": "Pentera",
-          "num_laid_off": 40,
-          "percentage_laid_off": 0.08,
-          "industry": "Security",
+          "date": "2026-05-05",
+          "company": "0G",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
           "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
-        },
-        {
-          "date": "2026-04-21",
-          "company": "GeoComply",
-          "num_laid_off": 68,
-          "percentage_laid_off": 0.15,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Private Equity",
-          "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
-        },
-        {
-          "date": "2026-04-17",
-          "company": "Meta",
-          "num_laid_off": 8000,
-          "percentage_laid_off": 0.1,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+          "stage": "Unknown",
+          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
         }
       ]
     },
-    "summary": "United States has 192,951 reported tech layoffs across 282 public events from 2025-01-02 to 2026-05-11."
+    "summary": "United States has 198,026 reported tech layoffs across 285 public events from 2025-01-02 to 2026-05-13."
   },
   {
     "type": "country",
@@ -577,15 +577,15 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-05-10"
+      "end": "2026-05-13"
     },
     "kpis": {
-      "total_laid_off": 5153,
-      "event_count": 47,
-      "headcount_event_count": 32,
-      "company_count": 41,
+      "total_laid_off": 5173,
+      "event_count": 48,
+      "headcount_event_count": 33,
+      "company_count": 42,
       "country_count": 1,
-      "industry_count": 17,
+      "industry_count": 18,
       "high_intensity_event_count": 14
     },
     "charts": {
@@ -644,7 +644,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 340
+          "total_laid_off": 360
         }
       ],
       "company_top": [
@@ -677,11 +677,11 @@
           "total_laid_off": 200
         },
         {
-          "company": "Rewire",
+          "company": "Moon Active",
           "total_laid_off": 110
         },
         {
-          "company": "Moon Active",
+          "company": "Rewire",
           "total_laid_off": 110
         },
         {
@@ -692,6 +692,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-13",
+          "company": "Guesty",
+          "num_laid_off": 20,
+          "percentage_laid_off": 0.02,
+          "industry": "Travel",
+          "country": "Israel",
+          "stage": "Series F",
+          "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+        },
         {
           "date": "2026-05-10",
           "company": "ZoomInfo",
@@ -824,16 +834,6 @@
         },
         {
           "date": "2026-01-08",
-          "company": "Foretellix",
-          "num_laid_off": 29,
-          "percentage_laid_off": 0.18,
-          "industry": "Transportation",
-          "country": "Israel",
-          "stage": "Series C",
-          "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
-        },
-        {
-          "date": "2026-01-08",
           "company": "Hailo",
           "num_laid_off": 30,
           "percentage_laid_off": 0.1,
@@ -844,7 +844,7 @@
         }
       ]
     },
-    "summary": "Israel has 5,153 reported tech layoffs across 47 public events from 2025-01-06 to 2026-05-10."
+    "summary": "Israel has 5,173 reported tech layoffs across 48 public events from 2025-01-06 to 2026-05-13."
   },
   {
     "type": "country",
@@ -1172,7 +1172,7 @@
     },
     "kpis": {
       "total_laid_off": 2570,
-      "event_count": 4,
+      "event_count": 5,
       "headcount_event_count": 4,
       "company_count": 4,
       "country_count": 1,
@@ -1250,6 +1250,16 @@
           "source": "https://www.tomtom.com/newsroom/press-releases/earnings-other/29121/tomtom-advances-its-product-led-strategy-and-realigns-its-organization/"
         },
         {
+          "date": "2025-05-11",
+          "company": "MessageBird",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Other",
+          "country": "Netherlands",
+          "stage": "Series C",
+          "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
+        },
+        {
           "date": "2025-02-10",
           "company": "MessageBird",
           "num_laid_off": 120,
@@ -1261,7 +1271,7 @@
         }
       ]
     },
-    "summary": "Netherlands has 2,570 reported tech layoffs across 4 public events from 2025-02-10 to 2026-01-28."
+    "summary": "Netherlands has 2,570 reported tech layoffs across 5 public events from 2025-02-10 to 2026-01-28."
   },
   {
     "type": "country",

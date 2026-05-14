@@ -40,6 +40,10 @@
     "total_laid_off": 4760
   },
   {
+    "company": "Cisco",
+    "total_laid_off": 4221
+  },
+  {
     "company": "Northvolt",
     "total_laid_off": 2800
   },
@@ -54,9 +58,5 @@
   {
     "company": "Workday",
     "total_laid_off": 2150
-  },
-  {
-    "company": "Synopsys",
-    "total_laid_off": 2000
   }
 ]

@@ -1280,16 +1280,16 @@
     "title": "Tech Layoffs by Country: Canada",
     "canonical_url": "/countries/canada.html",
     "date_range": {
-      "start": "2025-01-21",
+      "start": "2025-02-05",
       "end": "2026-05-04"
     },
     "kpis": {
       "total_laid_off": 2557,
-      "event_count": 18,
+      "event_count": 17,
       "headcount_event_count": 10,
-      "company_count": 14,
+      "company_count": 13,
       "country_count": 1,
-      "industry_count": 11,
+      "industry_count": 10,
       "high_intensity_event_count": 3
     },
     "charts": {
@@ -1520,7 +1520,7 @@
         }
       ]
     },
-    "summary": "Canada has 2,557 reported tech layoffs across 18 public events from 2025-01-21 to 2026-05-04."
+    "summary": "Canada has 2,557 reported tech layoffs across 17 public events from 2025-02-05 to 2026-05-04."
   },
   {
     "type": "country",
@@ -1764,16 +1764,16 @@
     "title": "Tech Layoffs by Country: United Kingdom",
     "canonical_url": "/countries/united-kingdom.html",
     "date_range": {
-      "start": "2025-02-12",
+      "start": "2025-01-21",
       "end": "2026-04-14"
     },
     "kpis": {
       "total_laid_off": 1822,
-      "event_count": 14,
+      "event_count": 15,
       "headcount_event_count": 8,
-      "company_count": 14,
+      "company_count": 15,
       "country_count": 1,
-      "industry_count": 10,
+      "industry_count": 11,
       "high_intensity_event_count": 4
     },
     "charts": {
@@ -1979,10 +1979,20 @@
           "country": "United Kingdom",
           "stage": "Series E",
           "source": "https://www.cnbc.com/2025/02/12/fintech-unicorn-zepz-to-lay-off-200-employees-sources-say.html"
+        },
+        {
+          "date": "2025-01-21",
+          "company": "Turso",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United Kingdom",
+          "stage": "Seed",
+          "source": "https://turso.tech/blog/upcoming-changes-to-the-turso-platform-and-roadmap"
         }
       ]
     },
-    "summary": "United Kingdom has 1,822 reported tech layoffs across 14 public events from 2025-02-12 to 2026-04-14."
+    "summary": "United Kingdom has 1,822 reported tech layoffs across 15 public events from 2025-01-21 to 2026-04-14."
   },
   {
     "type": "country",

@@ -1,13 +1,53 @@
 [
   {
-    "date": "2026-05-13",
-    "company": "Cisco",
-    "num_laid_off": 4000,
-    "percentage_laid_off": 0.05,
-    "industry": "Infrastructure",
+    "date": "2026-05-15",
+    "company": "Kraken",
+    "num_laid_off": 150,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
     "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+  },
+  {
+    "date": "2026-05-14",
+    "company": "Gambling.com Group",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "Ireland",
     "stage": "Post-IPO",
-    "source": "https://blogs.cisco.com/news/our-path-forward"
+    "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+  },
+  {
+    "date": "2026-05-14",
+    "company": "Innovaccer",
+    "num_laid_off": 340,
+    "percentage_laid_off": null,
+    "industry": "Healthcare",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+  },
+  {
+    "date": "2026-05-14",
+    "company": "Dune",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.25,
+    "industry": "Crypto",
+    "country": "Norway",
+    "stage": "Series B",
+    "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+  },
+  {
+    "date": "2026-05-13",
+    "company": "Jumia",
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "Nigeria",
+    "stage": "Post-IPO",
+    "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
   },
   {
     "date": "2026-05-13",
@@ -18,6 +58,16 @@
     "country": "Israel",
     "stage": "Series F",
     "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+  },
+  {
+    "date": "2026-05-13",
+    "company": "Cisco",
+    "num_laid_off": 4000,
+    "percentage_laid_off": 0.05,
+    "industry": "Infrastructure",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://blogs.cisco.com/news/our-path-forward"
   },
   {
     "date": "2026-05-13",
@@ -41,16 +91,6 @@
   },
   {
     "date": "2026-05-11",
-    "company": "GitLab",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
-  },
-  {
-    "date": "2026-05-11",
     "company": "MRI Software",
     "num_laid_off": 200,
     "percentage_laid_off": null,
@@ -60,63 +100,23 @@
     "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
   },
   {
-    "date": "2026-05-10",
-    "company": "ZoomInfo",
-    "num_laid_off": 300,
+    "date": "2026-05-11",
+    "company": "One Identity",
+    "num_laid_off": 41,
     "percentage_laid_off": null,
-    "industry": "Sales",
-    "country": "Israel",
-    "stage": "Post-IPO",
-    "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
-  },
-  {
-    "date": "2026-05-10",
-    "company": "Adda247",
-    "num_laid_off": 200,
-    "percentage_laid_off": 0.2,
-    "industry": "Education",
-    "country": "India",
-    "stage": "Series B",
-    "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
-  },
-  {
-    "date": "2026-05-09",
-    "company": "Parker",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Series B",
-    "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
-  },
-  {
-    "date": "2026-05-08",
-    "company": "Staffbase",
-    "num_laid_off": 176,
-    "percentage_laid_off": 0.22,
-    "industry": "Other",
-    "country": "Germany",
-    "stage": "Series E",
-    "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
-  },
-  {
-    "date": "2026-05-07",
-    "company": "Cloudflare",
-    "num_laid_off": 1100,
-    "percentage_laid_off": 0.2,
     "industry": "Security",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://blog.cloudflare.com/building-for-the-future/"
+    "country": "Germany",
+    "stage": "Unknown",
+    "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
   },
   {
-    "date": "2026-05-07",
-    "company": "Bill.com",
-    "num_laid_off": 709,
-    "percentage_laid_off": 0.3,
-    "industry": "Finance",
+    "date": "2026-05-11",
+    "company": "GitLab",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Product",
     "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+    "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
   }
 ]

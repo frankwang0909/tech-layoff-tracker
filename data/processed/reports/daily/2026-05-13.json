@@ -6,17 +6,17 @@
     "start": "2026-05-13",
     "end": "2026-05-13"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/daily/2026-05-13.html",
   "kpis": {
-    "total_laid_off": 4895,
-    "event_count": 3,
-    "headcount_event_count": 3,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 1631.67,
-    "median_layoffs_per_headcount_event": 875.0,
+    "total_laid_off": 5095,
+    "event_count": 4,
+    "headcount_event_count": 4,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 1273.75,
+    "median_layoffs_per_headcount_event": 537.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-05-12",
       "total_laid_off": 58,
       "event_count": 1,
-      "total_laid_off_delta": 4837,
-      "total_laid_off_pct_change": 83.3966,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "total_laid_off_delta": 5037,
+      "total_laid_off_pct_change": 86.8448,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-13",
       "total_laid_off": 6000,
       "event_count": 1,
-      "total_laid_off_delta": -1105,
-      "total_laid_off_pct_change": -0.1842,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "total_laid_off_delta": -905,
+      "total_laid_off_pct_change": -0.1508,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "LinkedIn",
         "total_laid_off": 875
+      },
+      {
+        "company": "Jumia",
+        "total_laid_off": 200
       },
       {
         "company": "Guesty",
@@ -66,6 +70,10 @@
         "total_laid_off": 875
       },
       {
+        "industry": "Retail",
+        "total_laid_off": 200
+      },
+      {
         "industry": "Travel",
         "total_laid_off": 20
       }
@@ -76,6 +84,10 @@
         "total_laid_off": 4875
       },
       {
+        "country": "Nigeria",
+        "total_laid_off": 200
+      },
+      {
         "country": "Israel",
         "total_laid_off": 20
       }
@@ -83,7 +95,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 4000
+        "total_laid_off": 4200
       },
       {
         "stage": "Acquired",
@@ -141,6 +153,16 @@
       },
       {
         "date": "2026-05-13",
+        "company": "Jumia",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Post-IPO",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+      },
+      {
+        "date": "2026-05-13",
         "company": "Guesty",
         "num_laid_off": 20,
         "percentage_laid_off": 0.02,
@@ -173,6 +195,16 @@
       },
       {
         "date": "2026-05-13",
+        "company": "Jumia",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Post-IPO",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+      },
+      {
+        "date": "2026-05-13",
         "company": "Guesty",
         "num_laid_off": 20,
         "percentage_laid_off": 0.02,
@@ -185,7 +217,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-13 includes 3 public layoff events and 4,895 reported layoffs.",
+    "2026-05-13 includes 4 public layoff events and 5,095 reported layoffs.",
     "The largest company contributor is Cisco with 4,000 reported layoffs.",
     "The leading named industry is Infrastructure with 4,000 reported layoffs."
   ],

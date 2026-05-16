@@ -1,10 +1,17 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Kraken,SF Bay Area,150.0,2026-05-15,,Crypto,https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027,Unknown,134.0,United States,2026-05-15T20:42:54.000Z
+Innovaccer,SF Bay Area,340.0,2026-05-14,,Healthcare,https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/,Series E,379.0,United States,2026-05-16T04:52:03.000Z
+Dune,"Oslo, Non-U.S.",,2026-05-14,0.25,Crypto,https://x.com/hagaetc/status/2054937771811192837?s=20,Series B,79.0,Norway,2026-05-15T20:46:40.000Z
+Gambling.com Group,"Dublin, Non-U.S.",,2026-05-14,,Other,https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html,Post-IPO,276.0,Ireland,2026-05-15T20:51:24.000Z
 Cisco,SF Bay Area,4000.0,2026-05-13,0.05,Infrastructure,https://blogs.cisco.com/news/our-path-forward,Post-IPO,2.0,United States,2026-05-13T21:59:59.000Z
 LinkedIn,SF Bay Area,875.0,2026-05-13,0.05,Recruiting,https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/,Acquired,154.0,United States,2026-05-13T16:43:26.000Z
+Jumia,"Lagos, Non-U.S.",200.0,2026-05-13,,Retail,https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/,Post-IPO,1200.0,Nigeria,2026-05-15T20:48:41.000Z
 Guesty,"Tel Aviv, Non-U.S.",20.0,2026-05-13,0.02,Travel,https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/,Series F,411.0,Israel,2026-05-13T21:11:26.000Z
 Breadfast,"Cairo, Non-U.S.",58.0,2026-05-12,,Food,https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise,Series C,89.0,Egypt,2026-05-13T21:12:58.000Z
 MRI Software,Cleveland,200.0,2026-05-11,,Real Estate,https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/,Acquired,16.0,United States,2026-05-13T21:14:56.000Z
+One Identity,"Dresden, Non-U.S.",41.0,2026-05-11,,Security,https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html,Unknown,,Germany,2026-05-15T20:43:42.000Z
 GitLab,SF Bay Area,,2026-05-11,,Product,https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era,Post-IPO,413.0,United States,2026-05-11T23:17:28.000Z
+MessageBird,"Amsterdam, Non-U.S.",,2026-05-11,0.2,Other,https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/,Series C,1100.0,Netherlands,2026-05-13T20:42:31.000Z
 ZoomInfo,"Tel Aviv, Non-U.S.",300.0,2026-05-10,,Sales,https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/,Post-IPO,7.0,Israel,2026-05-11T01:52:20.000Z
 Adda247,"Gurugram, Non-U.S.",200.0,2026-05-10,0.2,Education,https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77,Series B,61.0,India,2026-05-11T01:54:43.000Z
 Parker,New York City,,2026-05-09,1.0,Finance,https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/,Series B,57.0,United States,2026-05-11T01:55:53.000Z
@@ -32,6 +39,7 @@ Epidemic Sound,"Stockholm, Non-U.S.",150.0,2026-04-21,0.33,Media,https://www.mar
 GeoComply,"Vancouver, Non-U.S.",68.0,2026-04-21,0.15,Security,https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/,Private Equity,,United States,2026-05-11T01:50:25.000Z
 Acko,"Mumbai, Non-U.S.",60.0,2026-04-20,0.05,Finance,https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/,Unknown,143.0,India,2026-04-20T23:39:50.000Z
 Meta,SF Bay Area,8000.0,2026-04-17,0.1,Consumer,https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/,Post-IPO,26000.0,United States,2026-04-20T23:38:53.000Z
+Sama,"Nairobi, Non-U.S.",1108.0,2026-04-16,,AI,https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/,Series B,85.0,Kenya,2026-05-15T20:52:34.000Z
 Shutterfly,"Haifa, Non-U.S.",80.0,2026-04-16,,Manufacturing,https://www.calcalistech.com/ctechnews/article/rkx2avanzg,Post-IPO,50.0,United States,2026-04-17T03:48:04.000Z
 Quora,SF Bay Area,,2026-04-16,,Consumer,https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post,Series D,226.0,United States,2026-04-20T23:39:20.000Z
 Snap,Los Angeles,1000.0,2026-04-15,0.16,Consumer,https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html,Post-IPO,4900.0,United States,2026-04-15T14:56:21.000Z
@@ -330,7 +338,6 @@ Noogata,"Tel Aviv, Non-U.S.",10.0,2025-05-15,1.0,AI,https://www.calcalistech.com
 Amazon,Seattle,100.0,2025-05-14,,Retail,https://www.cnbc.com/2025/05/14/amazon-lays-off-about-100-employees-in-devices-and-services-unit.html,Post-IPO,8100.0,United States,2025-05-16T04:34:25.000Z
 Microsoft,Seattle,6000.0,2025-05-13,0.03,Other,https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html,Post-IPO,1.0,United States,2025-05-13T16:15:41.000Z
 Chegg,SF Bay Area,248.0,2025-05-12,0.22,Education,https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/,Post-IPO,227.0,United States,2025-05-12T22:05:04.000Z
-MessageBird,"Amsterdam, Non-U.S.",,2025-05-11,0.2,Other,https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/,Series C,1100.0,Netherlands,2026-05-13T20:42:31.000Z
 Match Group,New York City,325.0,2025-05-08,0.13,Consumer,https://www.bloomberg.com/news/articles/2025-05-08/match-group-cuts-13-staff-in-latest-move-to-reverse-declines,Post-IPO,,United States,2025-05-09T14:27:46.000Z
 CrowdStrike,SF Bay Area,500.0,2025-05-07,0.05,Security,https://www.wsj.com/business/crowdstrike-to-cut-5-of-workforce-8eda42ed?st=dVSJCS&reflink=desktopwebshare_permalink,Post-IPO,1200.0,United States,2025-05-07T17:35:11.000Z
 Games 24x7,"Mumbai, Non-U.S.",180.0,2025-05-07,,Consumer,https://www.storyboard18.com/gaming-news/games-24x7-cuts-staff-amid-gst-dispute-industry-turmoil-64843.htm,Unknown,75.0,India,2025-09-02T03:59:36.000Z
@@ -425,6 +432,7 @@ Justworks,New York City,200.0,2025-02-10,,HR,https://www.justworks.com/press/com
 MessageBird,"Amsterdam, Non-U.S.",120.0,2025-02-10,0.33,Other,https://techcrunch.com/2025/02/10/bird-cuts-120-jobs-as-part-of-strategic-realignment/,Series C,1100.0,Netherlands,2025-02-11T01:41:09.000Z
 Sprinklr,New York City,500.0,2025-02-06,0.15,Support,https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/,Post-IPO,429.0,United States,2025-02-08T14:51:55.000Z
 NanoLock,"Tel Aviv, Non-U.S.",,2025-02-06,1.0,Security,https://www.calcalistech.com/ctechnews/article/rjgagxmkyl,Series B,18.0,Israel,2025-02-26T03:09:38.000Z
+Refurbed,"Vienna, Non-U.S.",,2025-02-06,0.2,Retail,https://www.linkedin.com/posts/windp_at-refurbed-were-constantly-evolving-to-share-7293281869981245440-daV4/,Series C,191.0,Austria,2026-05-15T20:50:03.000Z
 Workday,SF Bay Area,1750.0,2025-02-05,0.08,HR,https://www.cnbc.com/2025/02/05/workday-to-cut-1750-jobs-in-ai-push.html,Post-IPO,230.0,United States,2025-02-05T16:52:43.000Z
 Gemini,New York City,200.0,2025-02-05,,Crypto,https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/,Unknown,423.0,United States,2026-02-06T23:16:02.000Z
 Outbrain,New York City,200.0,2025-02-05,,Marketing,https://www.calcalistech.com/ctechnews/article/rkxxve11yyl,Post-IPO,394.0,United States,2025-02-05T21:55:45.000Z

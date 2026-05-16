@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-05-13"
+    "end": "2026-05-15"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 108724,
-    "event_count": 145,
-    "headcount_event_count": 98,
-    "company_count": 137,
-    "country_count": 17,
-    "industry_count": 26,
-    "average_layoffs_per_headcount_event": 1109.43,
-    "median_layoffs_per_headcount_event": 193.5,
-    "high_intensity_event_count": 29
+    "total_laid_off": 110563,
+    "event_count": 153,
+    "headcount_event_count": 103,
+    "company_count": 145,
+    "country_count": 20,
+    "industry_count": 27,
+    "average_layoffs_per_headcount_event": 1073.43,
+    "median_layoffs_per_headcount_event": 200.0,
+    "high_intensity_event_count": 30
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 124281,
       "event_count": 329,
-      "total_laid_off_delta": -15557,
-      "total_laid_off_pct_change": -0.1252,
-      "event_count_delta": -184,
-      "event_count_pct_change": -0.5593,
+      "total_laid_off_delta": -13718,
+      "total_laid_off_pct_change": -0.1104,
+      "event_count_delta": -176,
+      "event_count_pct_change": -0.535,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124281,
       "event_count": 329,
-      "total_laid_off_delta": -15557,
-      "total_laid_off_pct_change": -0.1252,
-      "event_count_delta": -184,
-      "event_count_pct_change": -0.5593,
+      "total_laid_off_delta": -13718,
+      "total_laid_off_pct_change": -0.1104,
+      "event_count_delta": -176,
+      "event_count_pct_change": -0.535,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
@@ -80,7 +80,7 @@
         "total_laid_off": 1700
       },
       {
-        "company": "Atlassian",
+        "company": "Ericsson",
         "total_laid_off": 1600
       }
     ],
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Retail",
-        "total_laid_off": 17811
+        "total_laid_off": 18011
       },
       {
         "industry": "Consumer",
@@ -111,25 +111,25 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 2273
+        "total_laid_off": 2314
       },
       {
         "industry": "Logistics",
         "total_laid_off": 2000
       },
       {
-        "industry": "HR",
-        "total_laid_off": 1350
+        "industry": "AI",
+        "total_laid_off": 1688
       },
       {
-        "industry": "Food",
-        "total_laid_off": 1280
+        "industry": "HR",
+        "total_laid_off": 1350
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 93760
+        "total_laid_off": 94250
       },
       {
         "country": "Australia",
@@ -156,46 +156,46 @@
         "total_laid_off": 1382
       },
       {
+        "country": "Kenya",
+        "total_laid_off": 1108
+      },
+      {
         "country": "Germany",
-        "total_laid_off": 576
+        "total_laid_off": 617
       },
       {
         "country": "Brazil",
         "total_laid_off": 516
-      },
-      {
-        "country": "Canada",
-        "total_laid_off": 281
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 98291
+        "total_laid_off": 98491
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 3874
+        "total_laid_off": 4065
       },
       {
         "stage": "Acquired",
         "total_laid_off": 2837
       },
       {
+        "stage": "Series B",
+        "total_laid_off": 1593
+      },
+      {
         "stage": "Series F",
         "total_laid_off": 1540
       },
       {
+        "stage": "Series E",
+        "total_laid_off": 706
+      },
+      {
         "stage": "Private Equity",
         "total_laid_off": 654
-      },
-      {
-        "stage": "Series B",
-        "total_laid_off": 485
-      },
-      {
-        "stage": "Series E",
-        "total_laid_off": 366
       },
       {
         "stage": "Series A",
@@ -286,16 +286,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -304,6 +294,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-02-24",
@@ -326,17 +326,77 @@
         "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
       },
       {
-        "date": "2026-03-11",
-        "company": "Atlassian",
+        "date": "2026-01-15",
+        "company": "Ericsson",
         "num_laid_off": 1600,
-        "percentage_laid_off": 0.1,
+        "percentage_laid_off": null,
         "industry": "Other",
-        "country": "Australia",
+        "country": "Sweden",
         "stage": "Post-IPO",
-        "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-15",
+        "company": "Kraken",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+      },
+      {
+        "date": "2026-05-14",
+        "company": "Gambling.com Group",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+      },
+      {
+        "date": "2026-05-14",
+        "company": "Innovaccer",
+        "num_laid_off": 340,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+      },
+      {
+        "date": "2026-05-14",
+        "company": "Dune",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Jumia",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Post-IPO",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Guesty",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.02,
+        "industry": "Travel",
+        "country": "Israel",
+        "stage": "Series F",
+        "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+      },
       {
         "date": "2026-05-13",
         "company": "Cisco",
@@ -358,16 +418,6 @@
         "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
       },
       {
-        "date": "2026-05-13",
-        "company": "Guesty",
-        "num_laid_off": 20,
-        "percentage_laid_off": 0.02,
-        "industry": "Travel",
-        "country": "Israel",
-        "stage": "Series F",
-        "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
-      },
-      {
         "date": "2026-05-12",
         "company": "Breadfast",
         "num_laid_off": 58,
@@ -386,6 +436,26 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "One Identity",
+        "num_laid_off": 41,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MessageBird",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
       },
       {
         "date": "2026-05-11",
@@ -439,36 +509,6 @@
       },
       {
         "date": "2026-05-07",
-        "company": "Cloudflare",
-        "num_laid_off": 1100,
-        "percentage_laid_off": 0.2,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blog.cloudflare.com/building-for-the-future/"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Bill.com",
-        "num_laid_off": 709,
-        "percentage_laid_off": 0.3,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Ticketmaster",
-        "num_laid_off": 350,
-        "percentage_laid_off": 0.08,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-      },
-      {
-        "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
         "percentage_laid_off": 0.21,
@@ -476,16 +516,6 @@
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Upwork",
-        "num_laid_off": 151,
-        "percentage_laid_off": 0.24,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       },
       {
         "date": "2026-05-07",
@@ -498,44 +528,14 @@
         "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
       },
       {
-        "date": "2026-05-06",
-        "company": "ApnaMart",
-        "num_laid_off": 35,
-        "percentage_laid_off": 0.1,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series B",
-        "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
-      },
-      {
-        "date": "2026-05-06",
-        "company": "reAlpha",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Real Estate",
+        "date": "2026-05-07",
+        "company": "Upwork",
+        "num_laid_off": 151,
+        "percentage_laid_off": 0.24,
+        "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
-      },
-      {
-        "date": "2026-05-06",
-        "company": "LSports",
-        "num_laid_off": 40,
-        "percentage_laid_off": 0.2,
-        "industry": "Data",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
-      },
-      {
-        "date": "2026-05-06",
-        "company": "Arctic Wolf",
-        "num_laid_off": 250,
-        "percentage_laid_off": 0.1,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+        "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+      },
+      {
+        "date": "2026-04-09",
+        "company": "Pepper Pay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
         "date": "2026-04-03",
@@ -580,14 +590,14 @@
         "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
       },
       {
-        "date": "2026-04-09",
-        "company": "Pepper Pay",
+        "date": "2026-03-31",
+        "company": "Yupp",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Finance",
+        "industry": "AI",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       },
       {
         "date": "2026-01-25",
@@ -620,16 +630,6 @@
         "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
-        "date": "2026-03-31",
-        "company": "Yupp",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
-      },
-      {
         "date": "2026-03-04",
         "company": "Supernal",
         "num_laid_off": 296,
@@ -642,10 +642,10 @@
     ]
   },
   "insights": [
-    "2026 includes 145 public layoff events and 108,724 reported layoffs.",
+    "2026 includes 153 public layoff events and 110,563 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
-    "The leading named industry is Retail with 17,811 reported layoffs.",
-    "29 events report a layoff percentage of 25% or higher."
+    "The leading named industry is Retail with 18,011 reported layoffs.",
+    "30 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

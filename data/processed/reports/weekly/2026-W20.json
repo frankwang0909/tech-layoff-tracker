@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-11",
-    "end": "2026-05-13"
+    "end": "2026-05-15"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/weekly/2026-W20.html",
   "kpis": {
-    "total_laid_off": 5153,
-    "event_count": 6,
-    "headcount_event_count": 5,
-    "company_count": 6,
-    "country_count": 3,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 1030.6,
+    "total_laid_off": 5884,
+    "event_count": 13,
+    "headcount_event_count": 9,
+    "company_count": 13,
+    "country_count": 8,
+    "industry_count": 11,
+    "average_layoffs_per_headcount_event": 653.78,
     "median_layoffs_per_headcount_event": 200.0,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W19",
       "total_laid_off": 9721,
       "event_count": 21,
-      "total_laid_off_delta": -4568,
-      "total_laid_off_pct_change": -0.4699,
-      "event_count_delta": -15,
-      "event_count_pct_change": -0.7143,
+      "total_laid_off_delta": -3837,
+      "total_laid_off_pct_change": -0.3947,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.381,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W20",
       "total_laid_off": 6805,
       "event_count": 6,
-      "total_laid_off_delta": -1652,
-      "total_laid_off_pct_change": -0.2428,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -921,
+      "total_laid_off_pct_change": -0.1353,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.1667,
       "note": null
     }
   },
@@ -52,12 +52,28 @@
         "total_laid_off": 875
       },
       {
+        "company": "Innovaccer",
+        "total_laid_off": 340
+      },
+      {
         "company": "MRI Software",
         "total_laid_off": 200
       },
       {
+        "company": "Jumia",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Kraken",
+        "total_laid_off": 150
+      },
+      {
         "company": "Breadfast",
         "total_laid_off": 58
+      },
+      {
+        "company": "One Identity",
+        "total_laid_off": 41
       },
       {
         "company": "Guesty",
@@ -74,12 +90,28 @@
         "total_laid_off": 875
       },
       {
+        "industry": "Healthcare",
+        "total_laid_off": 340
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 200
+      },
+      {
         "industry": "Real Estate",
         "total_laid_off": 200
       },
       {
+        "industry": "Crypto",
+        "total_laid_off": 150
+      },
+      {
         "industry": "Food",
         "total_laid_off": 58
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 41
       },
       {
         "industry": "Travel",
@@ -89,11 +121,19 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 5075
+        "total_laid_off": 5565
+      },
+      {
+        "country": "Nigeria",
+        "total_laid_off": 200
       },
       {
         "country": "Egypt",
         "total_laid_off": 58
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 41
       },
       {
         "country": "Israel",
@@ -103,11 +143,19 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 4000
+        "total_laid_off": 4200
       },
       {
         "stage": "Acquired",
         "total_laid_off": 1075
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 340
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 191
       },
       {
         "stage": "Series C",
@@ -164,6 +212,16 @@
         "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
       },
       {
+        "date": "2026-05-14",
+        "company": "Innovaccer",
+        "num_laid_off": 340,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+      },
+      {
         "date": "2026-05-11",
         "company": "MRI Software",
         "num_laid_off": 200,
@@ -174,6 +232,26 @@
         "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
       },
       {
+        "date": "2026-05-13",
+        "company": "Jumia",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Post-IPO",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+      },
+      {
+        "date": "2026-05-15",
+        "company": "Kraken",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+      },
+      {
         "date": "2026-05-12",
         "company": "Breadfast",
         "num_laid_off": 58,
@@ -182,6 +260,16 @@
         "country": "Egypt",
         "stage": "Series C",
         "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "One Identity",
+        "num_laid_off": 41,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
       },
       {
         "date": "2026-05-13",
@@ -195,6 +283,46 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-15",
+        "company": "Kraken",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+      },
+      {
+        "date": "2026-05-14",
+        "company": "Innovaccer",
+        "num_laid_off": 340,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+      },
+      {
+        "date": "2026-05-14",
+        "company": "Dune",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+      },
+      {
+        "date": "2026-05-14",
+        "company": "Gambling.com Group",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+      },
       {
         "date": "2026-05-13",
         "company": "Cisco",
@@ -217,6 +345,16 @@
       },
       {
         "date": "2026-05-13",
+        "company": "Jumia",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Post-IPO",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+      },
+      {
+        "date": "2026-05-13",
         "company": "Guesty",
         "num_laid_off": 20,
         "percentage_laid_off": 0.02,
@@ -247,6 +385,16 @@
       },
       {
         "date": "2026-05-11",
+        "company": "One Identity",
+        "num_laid_off": 41,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+      },
+      {
+        "date": "2026-05-11",
         "company": "GitLab",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -254,14 +402,36 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MessageBird",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-05-14",
+        "company": "Dune",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+      }
+    ]
   },
   "insights": [
-    "2026-W20 includes 6 public layoff events and 5,153 reported layoffs.",
+    "2026-W20 includes 13 public layoff events and 5,884 reported layoffs.",
     "The largest company contributor is Cisco with 4,000 reported layoffs.",
-    "The leading named industry is Infrastructure with 4,000 reported layoffs."
+    "The leading named industry is Infrastructure with 4,000 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

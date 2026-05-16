@@ -6,17 +6,17 @@
     "start": "2026-04-13",
     "end": "2026-04-17"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/weekly/2026-W16.html",
   "kpis": {
-    "total_laid_off": 10252,
-    "event_count": 11,
-    "headcount_event_count": 7,
-    "company_count": 11,
-    "country_count": 3,
-    "industry_count": 7,
-    "average_layoffs_per_headcount_event": 1464.57,
-    "median_layoffs_per_headcount_event": 100.0,
+    "total_laid_off": 11360,
+    "event_count": 12,
+    "headcount_event_count": 8,
+    "company_count": 12,
+    "country_count": 4,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 1420.0,
+    "median_layoffs_per_headcount_event": 525.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W15",
       "total_laid_off": 312,
       "event_count": 7,
-      "total_laid_off_delta": 9940,
-      "total_laid_off_pct_change": 31.859,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.5714,
+      "total_laid_off_delta": 11048,
+      "total_laid_off_pct_change": 35.4103,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.7143,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 9698,
-      "total_laid_off_pct_change": 17.5054,
-      "event_count_delta": 5,
-      "event_count_pct_change": 0.8333,
+      "total_laid_off_delta": 10806,
+      "total_laid_off_pct_change": 19.5054,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Meta",
         "total_laid_off": 8000
+      },
+      {
+        "company": "Sama",
+        "total_laid_off": 1108
       },
       {
         "company": "Snap",
@@ -78,6 +82,10 @@
         "total_laid_off": 9000
       },
       {
+        "industry": "AI",
+        "total_laid_off": 1108
+      },
+      {
         "industry": "HR",
         "total_laid_off": 950
       },
@@ -100,6 +108,10 @@
         "total_laid_off": 10130
       },
       {
+        "country": "Kenya",
+        "total_laid_off": 1108
+      },
+      {
         "country": "United Kingdom",
         "total_laid_off": 90
       },
@@ -112,6 +124,10 @@
       {
         "stage": "Post-IPO",
         "total_laid_off": 9212
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 1108
       },
       {
         "stage": "Unknown",
@@ -156,6 +172,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Sama",
+        "num_laid_off": 1108,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "Kenya",
+        "stage": "Series B",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
       },
       {
         "date": "2026-04-15",
@@ -228,6 +254,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Sama",
+        "num_laid_off": 1108,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "Kenya",
+        "stage": "Series B",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
       },
       {
         "date": "2026-04-16",
@@ -344,7 +380,7 @@
     ]
   },
   "insights": [
-    "2026-W16 includes 11 public layoff events and 10,252 reported layoffs.",
+    "2026-W16 includes 12 public layoff events and 11,360 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Consumer with 9,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -6,14 +6,14 @@
     "start": "2025-01-02",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/yearly/2025.html",
   "kpis": {
     "total_laid_off": 124281,
     "event_count": 329,
     "headcount_event_count": 225,
-    "company_count": 272,
-    "country_count": 17,
+    "company_count": 273,
+    "country_count": 18,
     "industry_count": 30,
     "average_layoffs_per_headcount_event": 552.36,
     "median_layoffs_per_headcount_event": 122.0,

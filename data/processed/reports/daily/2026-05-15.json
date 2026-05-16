@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2026-05-15",
+  "status": "final",
+  "date_range": {
+    "start": "2026-05-15",
+    "end": "2026-05-15"
+  },
+  "updated_at": "2026-05-15",
+  "canonical_url": "/reports/daily/2026-05-15.html",
+  "kpis": {
+    "total_laid_off": 150,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 150.0,
+    "median_layoffs_per_headcount_event": 150.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-05-14",
+      "total_laid_off": 340,
+      "event_count": 3,
+      "total_laid_off_delta": -190,
+      "total_laid_off_pct_change": -0.5588,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.6667,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-05-15",
+      "total_laid_off": 107,
+      "event_count": 2,
+      "total_laid_off_delta": 43,
+      "total_laid_off_pct_change": 0.4019,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.5,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Kraken",
+        "total_laid_off": 150
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Crypto",
+        "total_laid_off": 150
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 150
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 150
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-05-15",
+        "company": "Kraken",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-05-15",
+        "company": "Kraken",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-05-15 includes 1 public layoff events and 150 reported layoffs.",
+    "The largest company contributor is Kraken with 150 reported layoffs.",
+    "The leading named industry is Crypto with 150 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

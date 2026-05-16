@@ -4,16 +4,16 @@
   "status": "final",
   "date_range": {
     "start": "2025-05-05",
-    "end": "2025-05-11"
+    "end": "2025-05-08"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/weekly/2025-W19.html",
   "kpis": {
     "total_laid_off": 2620,
-    "event_count": 7,
+    "event_count": 6,
     "headcount_event_count": 5,
-    "company_count": 7,
-    "country_count": 4,
+    "company_count": 6,
+    "country_count": 3,
     "industry_count": 5,
     "average_layoffs_per_headcount_event": 524.0,
     "median_layoffs_per_headcount_event": 325.0,
@@ -26,8 +26,8 @@
       "event_count": 10,
       "total_laid_off_delta": 1400,
       "total_laid_off_pct_change": 1.1475,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.3,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.4,
       "note": null
     },
     "same_period_last_year": {
@@ -188,16 +188,6 @@
     ],
     "recent_events": [
       {
-        "date": "2025-05-11",
-        "company": "MessageBird",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Other",
-        "country": "Netherlands",
-        "stage": "Series C",
-        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
-      },
-      {
         "date": "2025-05-08",
         "company": "Match Group",
         "num_laid_off": 325,
@@ -272,7 +262,7 @@
     ]
   },
   "insights": [
-    "2025-W19 includes 7 public layoff events and 2,620 reported layoffs.",
+    "2025-W19 includes 6 public layoff events and 2,620 reported layoffs.",
     "The largest company contributor is OpenText with 1,600 reported layoffs.",
     "The leading named industry is Data with 1,600 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

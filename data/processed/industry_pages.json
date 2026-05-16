@@ -272,14 +272,14 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-05-04"
+      "end": "2026-05-13"
     },
     "kpis": {
-      "total_laid_off": 34127,
-      "event_count": 34,
-      "headcount_event_count": 22,
-      "company_count": 22,
-      "country_count": 8,
+      "total_laid_off": 34327,
+      "event_count": 36,
+      "headcount_event_count": 23,
+      "company_count": 24,
+      "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 6
     },
@@ -335,7 +335,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 30
+          "total_laid_off": 230
         }
       ],
       "company_top": [
@@ -364,6 +364,10 @@
           "total_laid_off": 215
         },
         {
+          "company": "Jumia",
+          "total_laid_off": 200
+        },
+        {
           "company": "BeepKart",
           "total_laid_off": 150
         },
@@ -374,15 +378,21 @@
         {
           "company": "MercadoLibre",
           "total_laid_off": 116
-        },
-        {
-          "company": "Chrono24",
-          "total_laid_off": 110
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-13",
+          "company": "Jumia",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Nigeria",
+          "stage": "Post-IPO",
+          "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+        },
         {
           "date": "2026-05-04",
           "company": "Shopify",
@@ -522,20 +532,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2025/10/28/amazon-layoffs-corporate-workers-ai.html"
-        },
-        {
-          "date": "2025-10-18",
-          "company": "Zepto",
-          "num_laid_off": 300,
-          "percentage_laid_off": 0.05,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Series H",
-          "source": "https://www.moneycontrol.com/news/business/startup/around-300-employees-impacted-at-zepto-amid-cost-efficiency-drive-at-the-quick-commerce-company-13622853.html"
         }
       ]
     },
-    "summary": "Retail has 34,127 reported tech layoffs across 34 public events from 2025-01-10 to 2026-05-04."
+    "summary": "Retail has 34,327 reported tech layoffs across 36 public events from 2025-01-10 to 2026-05-13."
   },
   {
     "type": "industry",
@@ -1915,14 +1915,14 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-05-07"
+      "end": "2026-05-11"
     },
     "kpis": {
-      "total_laid_off": 3911,
-      "event_count": 24,
-      "headcount_event_count": 20,
-      "company_count": 21,
-      "country_count": 3,
+      "total_laid_off": 3952,
+      "event_count": 25,
+      "headcount_event_count": 21,
+      "company_count": 22,
+      "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 5
     },
@@ -1978,7 +1978,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 1350
+          "total_laid_off": 1391
         }
       ],
       "company_top": [
@@ -2026,6 +2026,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-11",
+          "company": "One Identity",
+          "num_laid_off": 41,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+        },
         {
           "date": "2026-05-07",
           "company": "Cloudflare",
@@ -2165,20 +2175,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.geekwire.com/2024/f5-confirms-new-round-of-job-cuts-continuing-annual-pattern-of-workforce-reductions/"
-        },
-        {
-          "date": "2025-07-23",
-          "company": "PlaxidityX",
-          "num_laid_off": 65,
-          "percentage_laid_off": 0.36,
-          "industry": "Security",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/rk1c9mclxl"
         }
       ]
     },
-    "summary": "Security has 3,911 reported tech layoffs across 24 public events from 2025-01-07 to 2026-05-07."
+    "summary": "Security has 3,952 reported tech layoffs across 25 public events from 2025-01-07 to 2026-05-11."
   },
   {
     "type": "industry",
@@ -2986,6 +2986,275 @@
   },
   {
     "type": "industry",
+    "name": "AI",
+    "slug": "ai",
+    "title": "Tech Layoffs by Industry: AI",
+    "canonical_url": "/industries/ai.html",
+    "date_range": {
+      "start": "2025-02-05",
+      "end": "2026-05-07"
+    },
+    "kpis": {
+      "total_laid_off": 2602,
+      "event_count": 18,
+      "headcount_event_count": 15,
+      "company_count": 17,
+      "country_count": 6,
+      "industry_count": 1,
+      "high_intensity_event_count": 6
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 65
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 22
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 77
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 10
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 30
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 550
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 50
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 280
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 1108
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 250
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Sama",
+          "total_laid_off": 1108
+        },
+        {
+          "company": "xAI",
+          "total_laid_off": 500
+        },
+        {
+          "company": "C3.ai",
+          "total_laid_off": 280
+        },
+        {
+          "company": "DeepL",
+          "total_laid_off": 250
+        },
+        {
+          "company": "Krutrim",
+          "total_laid_off": 150
+        },
+        {
+          "company": "SambaNova",
+          "total_laid_off": 77
+        },
+        {
+          "company": "Whatfix",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Aleph Alpha",
+          "total_laid_off": 50
+        },
+        {
+          "company": "Logically",
+          "total_laid_off": 40
+        },
+        {
+          "company": "Windsurf",
+          "total_laid_off": 30
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-07",
+          "company": "DeepL",
+          "num_laid_off": 250,
+          "percentage_laid_off": 0.21,
+          "industry": "AI",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+        },
+        {
+          "date": "2026-04-16",
+          "company": "Sama",
+          "num_laid_off": 1108,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "Kenya",
+          "stage": "Series B",
+          "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
+        },
+        {
+          "date": "2026-03-31",
+          "company": "Yupp",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
+        },
+        {
+          "date": "2026-02-25",
+          "company": "C3.ai",
+          "num_laid_off": 280,
+          "percentage_laid_off": 0.26,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
+        },
+        {
+          "date": "2026-01-14",
+          "company": "Aleph Alpha",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.16,
+          "industry": "AI",
+          "country": "Germany",
+          "stage": "Series B",
+          "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+        },
+        {
+          "date": "2025-12-09",
+          "company": "Whatfix",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.06,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Series E",
+          "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+        },
+        {
+          "date": "2025-09-12",
+          "company": "xAI",
+          "num_laid_off": 500,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9"
+        },
+        {
+          "date": "2025-09-01",
+          "company": "Krutrim",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://www.techinasia.com/news/olas-krutrim-cuts-nearly-50-linguistics-staff-in-third-layoff"
+        },
+        {
+          "date": "2025-08-05",
+          "company": "Windsurf",
+          "num_laid_off": 30,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://techcrunch.com/2025/08/05/three-weeks-after-acquiring-windsurf-cognition-offers-staff-the-exit-door/"
+        },
+        {
+          "date": "2025-07-28",
+          "company": "Krutrim",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
+        },
+        {
+          "date": "2025-07-03",
+          "company": "Subtl AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
+        },
+        {
+          "date": "2025-05-20",
+          "company": "Builder.ai",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "United Kingdom",
+          "stage": "Series D",
+          "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
+        },
+        {
+          "date": "2025-05-15",
+          "company": "Noogata",
+          "num_laid_off": 10,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "Israel",
+          "stage": "Series A",
+          "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
+        },
+        {
+          "date": "2025-04-25",
+          "company": "SambaNova",
+          "num_laid_off": 77,
+          "percentage_laid_off": 0.15,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
+        },
+        {
+          "date": "2025-03-10",
+          "company": "D-ID",
+          "num_laid_off": 22,
+          "percentage_laid_off": 0.25,
+          "industry": "AI",
+          "country": "Israel",
+          "stage": "Series B",
+          "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
+        }
+      ]
+    },
+    "summary": "AI has 2,602 reported tech layoffs across 18 public events from 2025-02-05 to 2026-05-07."
+  },
+  {
+    "type": "industry",
     "name": "Manufacturing",
     "slug": "manufacturing",
     "title": "Tech Layoffs by Industry: Manufacturing",
@@ -3138,271 +3407,6 @@
       ]
     },
     "summary": "Manufacturing has 1,930 reported tech layoffs across 8 public events from 2025-02-05 to 2026-04-16."
-  },
-  {
-    "type": "industry",
-    "name": "AI",
-    "slug": "ai",
-    "title": "Tech Layoffs by Industry: AI",
-    "canonical_url": "/industries/ai.html",
-    "date_range": {
-      "start": "2025-02-05",
-      "end": "2026-05-07"
-    },
-    "kpis": {
-      "total_laid_off": 1494,
-      "event_count": 17,
-      "headcount_event_count": 14,
-      "company_count": 16,
-      "country_count": 5,
-      "industry_count": 1,
-      "high_intensity_event_count": 6
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 65
-        },
-        {
-          "month": "2025-03",
-          "total_laid_off": 22
-        },
-        {
-          "month": "2025-04",
-          "total_laid_off": 77
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 10
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2025-08",
-          "total_laid_off": 30
-        },
-        {
-          "month": "2025-09",
-          "total_laid_off": 550
-        },
-        {
-          "month": "2025-12",
-          "total_laid_off": 60
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 50
-        },
-        {
-          "month": "2026-02",
-          "total_laid_off": 280
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 250
-        }
-      ],
-      "company_top": [
-        {
-          "company": "xAI",
-          "total_laid_off": 500
-        },
-        {
-          "company": "C3.ai",
-          "total_laid_off": 280
-        },
-        {
-          "company": "DeepL",
-          "total_laid_off": 250
-        },
-        {
-          "company": "Krutrim",
-          "total_laid_off": 150
-        },
-        {
-          "company": "SambaNova",
-          "total_laid_off": 77
-        },
-        {
-          "company": "Whatfix",
-          "total_laid_off": 60
-        },
-        {
-          "company": "Aleph Alpha",
-          "total_laid_off": 50
-        },
-        {
-          "company": "Logically",
-          "total_laid_off": 40
-        },
-        {
-          "company": "Windsurf",
-          "total_laid_off": 30
-        },
-        {
-          "company": "D-ID",
-          "total_laid_off": 22
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-05-07",
-          "company": "DeepL",
-          "num_laid_off": 250,
-          "percentage_laid_off": 0.21,
-          "industry": "AI",
-          "country": "Germany",
-          "stage": "Unknown",
-          "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
-        },
-        {
-          "date": "2026-03-31",
-          "company": "Yupp",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Seed",
-          "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
-        },
-        {
-          "date": "2026-02-25",
-          "company": "C3.ai",
-          "num_laid_off": 280,
-          "percentage_laid_off": 0.26,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
-        },
-        {
-          "date": "2026-01-14",
-          "company": "Aleph Alpha",
-          "num_laid_off": 50,
-          "percentage_laid_off": 0.16,
-          "industry": "AI",
-          "country": "Germany",
-          "stage": "Series B",
-          "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
-        },
-        {
-          "date": "2025-12-09",
-          "company": "Whatfix",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.06,
-          "industry": "AI",
-          "country": "India",
-          "stage": "Series E",
-          "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
-        },
-        {
-          "date": "2025-09-12",
-          "company": "xAI",
-          "num_laid_off": 500,
-          "percentage_laid_off": null,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/elon-musk-xai-layoffs-data-annotators-2025-9"
-        },
-        {
-          "date": "2025-09-01",
-          "company": "Krutrim",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "AI",
-          "country": "India",
-          "stage": "Unknown",
-          "source": "https://www.techinasia.com/news/olas-krutrim-cuts-nearly-50-linguistics-staff-in-third-layoff"
-        },
-        {
-          "date": "2025-08-05",
-          "company": "Windsurf",
-          "num_laid_off": 30,
-          "percentage_laid_off": null,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://techcrunch.com/2025/08/05/three-weeks-after-acquiring-windsurf-cognition-offers-staff-the-exit-door/"
-        },
-        {
-          "date": "2025-07-28",
-          "company": "Krutrim",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "AI",
-          "country": "India",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
-        },
-        {
-          "date": "2025-07-03",
-          "company": "Subtl AI",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
-        },
-        {
-          "date": "2025-05-20",
-          "company": "Builder.ai",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "United Kingdom",
-          "stage": "Series D",
-          "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
-        },
-        {
-          "date": "2025-05-15",
-          "company": "Noogata",
-          "num_laid_off": 10,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "Israel",
-          "stage": "Series A",
-          "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
-        },
-        {
-          "date": "2025-04-25",
-          "company": "SambaNova",
-          "num_laid_off": 77,
-          "percentage_laid_off": 0.15,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
-        },
-        {
-          "date": "2025-03-10",
-          "company": "D-ID",
-          "num_laid_off": 22,
-          "percentage_laid_off": 0.25,
-          "industry": "AI",
-          "country": "Israel",
-          "stage": "Series B",
-          "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
-        },
-        {
-          "date": "2025-02-17",
-          "company": "Logically",
-          "num_laid_off": 40,
-          "percentage_laid_off": 0.2,
-          "industry": "AI",
-          "country": "United Kingdom",
-          "stage": "Series A",
-          "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
-        }
-      ]
-    },
-    "summary": "AI has 1,494 reported tech layoffs across 17 public events from 2025-02-05 to 2026-05-07."
   },
   {
     "type": "industry",
@@ -3818,6 +3822,207 @@
   },
   {
     "type": "industry",
+    "name": "Crypto",
+    "slug": "crypto",
+    "title": "Tech Layoffs by Industry: Crypto",
+    "canonical_url": "/industries/crypto.html",
+    "date_range": {
+      "start": "2025-02-05",
+      "end": "2026-05-15"
+    },
+    "kpis": {
+      "total_laid_off": 1186,
+      "event_count": 13,
+      "headcount_event_count": 6,
+      "company_count": 12,
+      "country_count": 5,
+      "industry_count": 1,
+      "high_intensity_event_count": 5
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 76
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 850
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Coinbase",
+          "total_laid_off": 700
+        },
+        {
+          "company": "Gemini",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Kraken",
+          "total_laid_off": 150
+        },
+        {
+          "company": "Polygon",
+          "total_laid_off": 60
+        },
+        {
+          "company": "ConsenSys",
+          "total_laid_off": 47
+        },
+        {
+          "company": "Eigen Labs",
+          "total_laid_off": 29
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-15",
+          "company": "Kraken",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+        },
+        {
+          "date": "2026-05-14",
+          "company": "Dune",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "Norway",
+          "stage": "Series B",
+          "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "Coinbase",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.14,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "0G",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
+        },
+        {
+          "date": "2026-04-13",
+          "company": "StarkWare",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+        },
+        {
+          "date": "2026-04-02",
+          "company": "MARA",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+        },
+        {
+          "date": "2026-03-20",
+          "company": "Gemini",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
+        },
+        {
+          "date": "2026-03-19",
+          "company": "Crypto.com",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.12,
+          "industry": "Crypto",
+          "country": "Singapore",
+          "stage": "Unknown",
+          "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+        },
+        {
+          "date": "2026-01-25",
+          "company": "Entropy",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
+        },
+        {
+          "date": "2026-01-16",
+          "company": "Polygon",
+          "num_laid_off": 60,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Cayman Islands",
+          "stage": "Unknown",
+          "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
+        },
+        {
+          "date": "2025-07-22",
+          "company": "ConsenSys",
+          "num_laid_off": 47,
+          "percentage_laid_off": 0.07,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+        },
+        {
+          "date": "2025-07-08",
+          "company": "Eigen Labs",
+          "num_laid_off": 29,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
+        },
+        {
+          "date": "2025-02-05",
+          "company": "Gemini",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
+        }
+      ]
+    },
+    "summary": "Crypto has 1,186 reported tech layoffs across 13 public events from 2025-02-05 to 2026-05-15."
+  },
+  {
+    "type": "industry",
     "name": "Recruiting",
     "slug": "recruiting",
     "title": "Tech Layoffs by Industry: Recruiting",
@@ -3932,183 +4137,6 @@
       ]
     },
     "summary": "Recruiting has 1,160 reported tech layoffs across 5 public events from 2025-01-15 to 2026-05-13."
-  },
-  {
-    "type": "industry",
-    "name": "Crypto",
-    "slug": "crypto",
-    "title": "Tech Layoffs by Industry: Crypto",
-    "canonical_url": "/industries/crypto.html",
-    "date_range": {
-      "start": "2025-02-05",
-      "end": "2026-05-05"
-    },
-    "kpis": {
-      "total_laid_off": 1036,
-      "event_count": 11,
-      "headcount_event_count": 5,
-      "company_count": 10,
-      "country_count": 4,
-      "industry_count": 1,
-      "high_intensity_event_count": 4
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 76
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 60
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 700
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Coinbase",
-          "total_laid_off": 700
-        },
-        {
-          "company": "Gemini",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Polygon",
-          "total_laid_off": 60
-        },
-        {
-          "company": "ConsenSys",
-          "total_laid_off": 47
-        },
-        {
-          "company": "Eigen Labs",
-          "total_laid_off": 29
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-05-05",
-          "company": "Coinbase",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "0G",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
-        },
-        {
-          "date": "2026-04-13",
-          "company": "StarkWare",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
-        },
-        {
-          "date": "2026-04-02",
-          "company": "MARA",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
-        },
-        {
-          "date": "2026-03-20",
-          "company": "Gemini",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
-        },
-        {
-          "date": "2026-03-19",
-          "company": "Crypto.com",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.12,
-          "industry": "Crypto",
-          "country": "Singapore",
-          "stage": "Unknown",
-          "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-        },
-        {
-          "date": "2026-01-25",
-          "company": "Entropy",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Seed",
-          "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
-        },
-        {
-          "date": "2026-01-16",
-          "company": "Polygon",
-          "num_laid_off": 60,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Cayman Islands",
-          "stage": "Unknown",
-          "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
-        },
-        {
-          "date": "2025-07-22",
-          "company": "ConsenSys",
-          "num_laid_off": 47,
-          "percentage_laid_off": 0.07,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
-        },
-        {
-          "date": "2025-07-08",
-          "company": "Eigen Labs",
-          "num_laid_off": 29,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
-        },
-        {
-          "date": "2025-02-05",
-          "company": "Gemini",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
-        }
-      ]
-    },
-    "summary": "Crypto has 1,036 reported tech layoffs across 11 public events from 2025-02-05 to 2026-05-05."
   },
   {
     "type": "industry",
@@ -4628,6 +4656,181 @@
   },
   {
     "type": "industry",
+    "name": "Healthcare",
+    "slug": "healthcare",
+    "title": "Tech Layoffs by Industry: Healthcare",
+    "canonical_url": "/industries/healthcare.html",
+    "date_range": {
+      "start": "2025-02-24",
+      "end": "2026-05-14"
+    },
+    "kpis": {
+      "total_laid_off": 683,
+      "event_count": 10,
+      "headcount_event_count": 6,
+      "company_count": 10,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-05",
+          "total_laid_off": 165
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 35
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 83
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 340
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Innovaccer",
+          "total_laid_off": 340
+        },
+        {
+          "company": "GroundGame Health",
+          "total_laid_off": 97
+        },
+        {
+          "company": "BenchSci",
+          "total_laid_off": 83
+        },
+        {
+          "company": "Hims & Hers",
+          "total_laid_off": 68
+        },
+        {
+          "company": "Medtronic",
+          "total_laid_off": 60
+        },
+        {
+          "company": "TytoCare",
+          "total_laid_off": 35
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-14",
+          "company": "Innovaccer",
+          "num_laid_off": 340,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+        },
+        {
+          "date": "2025-12-01",
+          "company": "Inbound Health",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.axios.com/pro/health-tech-deals/2025/12/01/inbound-health-closing-home-care-waiver"
+        },
+        {
+          "date": "2025-10-27",
+          "company": "Medtronic",
+          "num_laid_off": 60,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/s1g3z02cgg"
+        },
+        {
+          "date": "2025-10-17",
+          "company": "Tia",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.23,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.businessinsider.com/womens-health-startup-tia-cut-23-of-workforce-layoff-2025-10"
+        },
+        {
+          "date": "2025-08-26",
+          "company": "Verily",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Subsidiary",
+          "source": "https://www.businessinsider.com/alphabets-verily-lays-off-staff-cuts-its-devices-program-2025-8"
+        },
+        {
+          "date": "2025-08-12",
+          "company": "BenchSci",
+          "num_laid_off": 83,
+          "percentage_laid_off": 0.23,
+          "industry": "Healthcare",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
+        },
+        {
+          "date": "2025-07-17",
+          "company": "TytoCare",
+          "num_laid_off": 35,
+          "percentage_laid_off": 0.22,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
+        },
+        {
+          "date": "2025-05-30",
+          "company": "Hims & Hers",
+          "num_laid_off": 68,
+          "percentage_laid_off": 0.04,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
+        },
+        {
+          "date": "2025-05-15",
+          "company": "GroundGame Health",
+          "num_laid_off": 97,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
+        },
+        {
+          "date": "2025-02-24",
+          "company": "HerMD",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
+        }
+      ]
+    },
+    "summary": "Healthcare has 683 reported tech layoffs across 10 public events from 2025-02-24 to 2026-05-14."
+  },
+  {
+    "type": "industry",
     "name": "Travel",
     "slug": "travel",
     "title": "Tech Layoffs by Industry: Travel",
@@ -4788,163 +4991,6 @@
       ]
     },
     "summary": "Travel has 445 reported tech layoffs across 10 public events from 2025-02-04 to 2026-05-13."
-  },
-  {
-    "type": "industry",
-    "name": "Healthcare",
-    "slug": "healthcare",
-    "title": "Tech Layoffs by Industry: Healthcare",
-    "canonical_url": "/industries/healthcare.html",
-    "date_range": {
-      "start": "2025-02-24",
-      "end": "2025-12-01"
-    },
-    "kpis": {
-      "total_laid_off": 343,
-      "event_count": 9,
-      "headcount_event_count": 5,
-      "company_count": 9,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 2
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-05",
-          "total_laid_off": 165
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 35
-        },
-        {
-          "month": "2025-08",
-          "total_laid_off": 83
-        },
-        {
-          "month": "2025-10",
-          "total_laid_off": 60
-        }
-      ],
-      "company_top": [
-        {
-          "company": "GroundGame Health",
-          "total_laid_off": 97
-        },
-        {
-          "company": "BenchSci",
-          "total_laid_off": 83
-        },
-        {
-          "company": "Hims & Hers",
-          "total_laid_off": 68
-        },
-        {
-          "company": "Medtronic",
-          "total_laid_off": 60
-        },
-        {
-          "company": "TytoCare",
-          "total_laid_off": 35
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2025-12-01",
-          "company": "Inbound Health",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.axios.com/pro/health-tech-deals/2025/12/01/inbound-health-closing-home-care-waiver"
-        },
-        {
-          "date": "2025-10-27",
-          "company": "Medtronic",
-          "num_laid_off": 60,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/s1g3z02cgg"
-        },
-        {
-          "date": "2025-10-17",
-          "company": "Tia",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.23,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.businessinsider.com/womens-health-startup-tia-cut-23-of-workforce-layoff-2025-10"
-        },
-        {
-          "date": "2025-08-26",
-          "company": "Verily",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Subsidiary",
-          "source": "https://www.businessinsider.com/alphabets-verily-lays-off-staff-cuts-its-devices-program-2025-8"
-        },
-        {
-          "date": "2025-08-12",
-          "company": "BenchSci",
-          "num_laid_off": 83,
-          "percentage_laid_off": 0.23,
-          "industry": "Healthcare",
-          "country": "Canada",
-          "stage": "Series D",
-          "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
-        },
-        {
-          "date": "2025-07-17",
-          "company": "TytoCare",
-          "num_laid_off": 35,
-          "percentage_laid_off": 0.22,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
-        },
-        {
-          "date": "2025-05-30",
-          "company": "Hims & Hers",
-          "num_laid_off": 68,
-          "percentage_laid_off": 0.04,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
-        },
-        {
-          "date": "2025-05-15",
-          "company": "GroundGame Health",
-          "num_laid_off": 97,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
-        },
-        {
-          "date": "2025-02-24",
-          "company": "HerMD",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
-        }
-      ]
-    },
-    "summary": "Healthcare has 343 reported tech layoffs across 9 public events from 2025-02-24 to 2025-12-01."
   },
   {
     "type": "industry",

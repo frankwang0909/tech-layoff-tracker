@@ -6,15 +6,15 @@
     "start": "2025-02-03",
     "end": "2025-02-06"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/weekly/2025-W06.html",
   "kpis": {
     "total_laid_off": 5638,
-    "event_count": 18,
+    "event_count": 19,
     "headcount_event_count": 17,
-    "company_count": 18,
-    "country_count": 3,
-    "industry_count": 15,
+    "company_count": 19,
+    "country_count": 4,
+    "industry_count": 16,
     "average_layoffs_per_headcount_event": 331.65,
     "median_layoffs_per_headcount_event": 140.0,
     "high_intensity_event_count": 2
@@ -26,8 +26,8 @@
       "event_count": 6,
       "total_laid_off_delta": 5321,
       "total_laid_off_pct_change": 16.7855,
-      "event_count_delta": 12,
-      "event_count_pct_change": 2.0,
+      "event_count_delta": 13,
+      "event_count_pct_change": 2.1667,
       "note": null
     },
     "same_period_last_year": {
@@ -305,6 +305,16 @@
       },
       {
         "date": "2025-02-06",
+        "company": "Refurbed",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Retail",
+        "country": "Austria",
+        "stage": "Series C",
+        "source": "https://www.linkedin.com/posts/windp_at-refurbed-were-constantly-evolving-to-share-7293281869981245440-daV4/"
+      },
+      {
+        "date": "2025-02-06",
         "company": "NanoLock",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -312,36 +322,6 @@
         "country": "Israel",
         "stage": "Series B",
         "source": "https://www.calcalistech.com/ctechnews/article/rjgagxmkyl"
-      },
-      {
-        "date": "2025-02-05",
-        "company": "Workday",
-        "num_laid_off": 1750,
-        "percentage_laid_off": 0.08,
-        "industry": "HR",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2025/02/05/workday-to-cut-1750-jobs-in-ai-push.html"
-      },
-      {
-        "date": "2025-02-05",
-        "company": "Gemini",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
-      },
-      {
-        "date": "2025-02-05",
-        "company": "Outbrain",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkxxve11yyl"
       },
       {
         "date": "2025-02-05",
@@ -355,16 +335,6 @@
       },
       {
         "date": "2025-02-05",
-        "company": "SRTX",
-        "num_laid_off": 140,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "Canada",
-        "stage": "Unknown",
-        "source": "https://substack.com/inbox/post/156526787"
-      },
-      {
-        "date": "2025-02-05",
         "company": "Tabnine",
         "num_laid_off": 15,
         "percentage_laid_off": 0.18,
@@ -372,6 +342,16 @@
         "country": "Israel",
         "stage": "Series B",
         "source": "https://www.calcalistech.com/ctechnews/article/h1jlmiek1l"
+      },
+      {
+        "date": "2025-02-05",
+        "company": "SRTX",
+        "num_laid_off": 140,
+        "percentage_laid_off": null,
+        "industry": "Manufacturing",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://substack.com/inbox/post/156526787"
       },
       {
         "date": "2025-02-05",
@@ -384,34 +364,34 @@
         "source": "https://www.theinformation.com/briefings/hugging-face-lays-off-4-of-staff"
       },
       {
-        "date": "2025-02-04",
-        "company": "TripAdvisor",
-        "num_laid_off": 75,
+        "date": "2025-02-05",
+        "company": "Outbrain",
+        "num_laid_off": 200,
         "percentage_laid_off": null,
-        "industry": "Travel",
+        "industry": "Marketing",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://skift.com/2025/02/04/tripadvisor-fires-more-than-150-employees-and-contractors-scoop/"
+        "source": "https://www.calcalistech.com/ctechnews/article/rkxxve11yyl"
       },
       {
-        "date": "2025-02-04",
-        "company": "Innoviz",
-        "num_laid_off": 40,
-        "percentage_laid_off": 0.09,
-        "industry": "Transportation",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/hydnmjjkjx"
-      },
-      {
-        "date": "2025-02-04",
-        "company": "Intel",
-        "num_laid_off": 58,
+        "date": "2025-02-05",
+        "company": "Gemini",
+        "num_laid_off": 200,
         "percentage_laid_off": null,
-        "industry": "Hardware",
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
+      },
+      {
+        "date": "2025-02-05",
+        "company": "Workday",
+        "num_laid_off": 1750,
+        "percentage_laid_off": 0.08,
+        "industry": "HR",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://folsomtimes.com/intel-announces-another-58-layoffs-for-folsom-campus/"
+        "source": "https://www.cnbc.com/2025/02/05/workday-to-cut-1750-jobs-in-ai-push.html"
       },
       {
         "date": "2025-02-04",
@@ -425,13 +405,13 @@
       },
       {
         "date": "2025-02-04",
-        "company": "Asana",
-        "num_laid_off": 100,
-        "percentage_laid_off": null,
-        "industry": "Other",
+        "company": "Okta",
+        "num_laid_off": 180,
+        "percentage_laid_off": 0.03,
+        "industry": "Security",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "Internal memo"
+        "source": "https://techcrunch.com/2025/02/04/okta-lays-off-180-employees-nearly-one-year-after-last-workforce-reduction/"
       },
       {
         "date": "2025-02-04",
@@ -445,13 +425,43 @@
       },
       {
         "date": "2025-02-04",
-        "company": "Okta",
-        "num_laid_off": 180,
-        "percentage_laid_off": 0.03,
-        "industry": "Security",
+        "company": "Asana",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2025/02/04/okta-lays-off-180-employees-nearly-one-year-after-last-workforce-reduction/"
+        "source": "Internal memo"
+      },
+      {
+        "date": "2025-02-04",
+        "company": "TripAdvisor",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://skift.com/2025/02/04/tripadvisor-fires-more-than-150-employees-and-contractors-scoop/"
+      },
+      {
+        "date": "2025-02-04",
+        "company": "Intel",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://folsomtimes.com/intel-announces-another-58-layoffs-for-folsom-campus/"
+      },
+      {
+        "date": "2025-02-04",
+        "company": "Innoviz",
+        "num_laid_off": 40,
+        "percentage_laid_off": 0.09,
+        "industry": "Transportation",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/hydnmjjkjx"
       },
       {
         "date": "2025-02-03",
@@ -498,7 +508,7 @@
     ]
   },
   "insights": [
-    "2025-W06 includes 18 public layoff events and 5,638 reported layoffs.",
+    "2025-W06 includes 19 public layoff events and 5,638 reported layoffs.",
     "The largest company contributor is Workday with 1,750 reported layoffs.",
     "The leading named industry is HR with 1,750 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

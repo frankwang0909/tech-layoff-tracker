@@ -6,14 +6,14 @@
     "start": "2025-01-02",
     "end": "2025-03-31"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/quarterly/2025-Q1.html",
   "kpis": {
     "total_laid_off": 29925,
-    "event_count": 104,
+    "event_count": 105,
     "headcount_event_count": 72,
-    "company_count": 101,
-    "country_count": 13,
+    "company_count": 102,
+    "country_count": 14,
     "industry_count": 28,
     "average_layoffs_per_headcount_event": 415.62,
     "median_layoffs_per_headcount_event": 121.0,
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025-Q1 includes 104 public layoff events and 29,925 reported layoffs.",
+    "2025-Q1 includes 105 public layoff events and 29,925 reported layoffs.",
     "The largest company contributor is HP with 4,000 reported layoffs.",
     "The leading named industry is Hardware with 6,558 reported layoffs.",
     "21 events report a layoff percentage of 25% or higher."

@@ -6,17 +6,17 @@
     "start": "2026-04-16",
     "end": "2026-04-16"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/daily/2026-04-16.html",
   "kpis": {
-    "total_laid_off": 80,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 1,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 80.0,
-    "median_layoffs_per_headcount_event": 80.0,
+    "total_laid_off": 1188,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 594.0,
+    "median_layoffs_per_headcount_event": 594.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-04-15",
       "total_laid_off": 2082,
       "event_count": 5,
-      "total_laid_off_delta": -2002,
-      "total_laid_off_pct_change": -0.9616,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.6,
+      "total_laid_off_delta": -894,
+      "total_laid_off_pct_change": -0.4294,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.4,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04-16",
       "total_laid_off": 254,
       "event_count": 3,
-      "total_laid_off_delta": -174,
-      "total_laid_off_pct_change": -0.685,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.3333,
+      "total_laid_off_delta": 934,
+      "total_laid_off_pct_change": 3.6772,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Sama",
+        "total_laid_off": 1108
+      },
       {
         "company": "Shutterfly",
         "total_laid_off": 80
@@ -50,17 +54,29 @@
     ],
     "industry_top": [
       {
+        "industry": "AI",
+        "total_laid_off": 1108
+      },
+      {
         "industry": "Manufacturing",
         "total_laid_off": 80
       }
     ],
     "country_top": [
       {
+        "country": "Kenya",
+        "total_laid_off": 1108
+      },
+      {
         "country": "United States",
         "total_laid_off": 80
       }
     ],
     "stage_top": [
+      {
+        "stage": "Series B",
+        "total_laid_off": 1108
+      },
       {
         "stage": "Post-IPO",
         "total_laid_off": 80
@@ -93,6 +109,16 @@
     "largest_events": [
       {
         "date": "2026-04-16",
+        "company": "Sama",
+        "num_laid_off": 1108,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "Kenya",
+        "stage": "Series B",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
+      },
+      {
+        "date": "2026-04-16",
         "company": "Shutterfly",
         "num_laid_off": 80,
         "percentage_laid_off": null,
@@ -103,6 +129,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-04-16",
+        "company": "Sama",
+        "num_laid_off": 1108,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "Kenya",
+        "stage": "Series B",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
+      },
       {
         "date": "2026-04-16",
         "company": "Shutterfly",
@@ -127,9 +163,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-04-16 includes 2 public layoff events and 80 reported layoffs.",
-    "The largest company contributor is Shutterfly with 80 reported layoffs.",
-    "The leading named industry is Manufacturing with 80 reported layoffs."
+    "2026-04-16 includes 3 public layoff events and 1,188 reported layoffs.",
+    "The largest company contributor is Sama with 1,108 reported layoffs.",
+    "The leading named industry is AI with 1,108 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

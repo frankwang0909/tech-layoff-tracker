@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-13"
+      "end": "2026-05-15"
     },
     "kpis": {
-      "total_laid_off": 198026,
-      "event_count": 285,
-      "headcount_event_count": 189,
-      "company_count": 215,
+      "total_laid_off": 198516,
+      "event_count": 287,
+      "headcount_event_count": 191,
+      "company_count": 217,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 48
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 13595
+          "total_laid_off": 14085
         }
       ],
       "company_top": [
@@ -134,6 +134,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-15",
+          "company": "Kraken",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+        },
+        {
+          "date": "2026-05-14",
+          "company": "Innovaccer",
+          "num_laid_off": 340,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+        },
         {
           "date": "2026-05-13",
           "company": "Cisco",
@@ -186,6 +206,26 @@
         },
         {
           "date": "2026-05-07",
+          "company": "Cloudflare",
+          "num_laid_off": 1100,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blog.cloudflare.com/building-for-the-future/"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Bill.com",
+          "num_laid_off": 709,
+          "percentage_laid_off": 0.3,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+        },
+        {
+          "date": "2026-05-07",
           "company": "Ticketmaster",
           "num_laid_off": 350,
           "percentage_laid_off": 0.08,
@@ -203,26 +243,6 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Bill.com",
-          "num_laid_off": 709,
-          "percentage_laid_off": 0.3,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Cloudflare",
-          "num_laid_off": 1100,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blog.cloudflare.com/building-for-the-future/"
         },
         {
           "date": "2026-05-06",
@@ -263,30 +283,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "Freshworks",
-          "num_laid_off": 500,
-          "percentage_laid_off": 0.11,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "0G",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
         }
       ]
     },
-    "summary": "United States has 198,026 reported tech layoffs across 285 public events from 2025-01-02 to 2026-05-13."
+    "summary": "United States has 198,516 reported tech layoffs across 287 public events from 2025-01-02 to 2026-05-15."
   },
   {
     "type": "country",
@@ -1168,7 +1168,7 @@
     "canonical_url": "/countries/netherlands.html",
     "date_range": {
       "start": "2025-02-10",
-      "end": "2026-01-28"
+      "end": "2026-05-11"
     },
     "kpis": {
       "total_laid_off": 2570,
@@ -1220,6 +1220,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-11",
+          "company": "MessageBird",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Other",
+          "country": "Netherlands",
+          "stage": "Series C",
+          "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
+        },
+        {
           "date": "2026-01-28",
           "company": "ASML",
           "num_laid_off": 1700,
@@ -1250,16 +1260,6 @@
           "source": "https://www.tomtom.com/newsroom/press-releases/earnings-other/29121/tomtom-advances-its-product-led-strategy-and-realigns-its-organization/"
         },
         {
-          "date": "2025-05-11",
-          "company": "MessageBird",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Other",
-          "country": "Netherlands",
-          "stage": "Series C",
-          "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
-        },
-        {
           "date": "2025-02-10",
           "company": "MessageBird",
           "num_laid_off": 120,
@@ -1271,7 +1271,7 @@
         }
       ]
     },
-    "summary": "Netherlands has 2,570 reported tech layoffs across 5 public events from 2025-02-10 to 2026-01-28."
+    "summary": "Netherlands has 2,570 reported tech layoffs across 5 public events from 2025-02-10 to 2026-05-11."
   },
   {
     "type": "country",
@@ -1530,15 +1530,15 @@
     "canonical_url": "/countries/germany.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-05-08"
+      "end": "2026-05-11"
     },
     "kpis": {
-      "total_laid_off": 2211,
-      "event_count": 14,
-      "headcount_event_count": 10,
-      "company_count": 13,
+      "total_laid_off": 2252,
+      "event_count": 15,
+      "headcount_event_count": 11,
+      "company_count": 14,
       "country_count": 1,
-      "industry_count": 8,
+      "industry_count": 9,
       "high_intensity_event_count": 3
     },
     "charts": {
@@ -1569,7 +1569,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 426
+          "total_laid_off": 467
         }
       ],
       "company_top": [
@@ -1608,11 +1608,25 @@
         {
           "company": "Aleph Alpha",
           "total_laid_off": 50
+        },
+        {
+          "company": "One Identity",
+          "total_laid_off": 41
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-11",
+          "company": "One Identity",
+          "num_laid_off": 41,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+        },
         {
           "date": "2026-05-08",
           "company": "Staffbase",
@@ -1755,7 +1769,7 @@
         }
       ]
     },
-    "summary": "Germany has 2,211 reported tech layoffs across 14 public events from 2025-01-10 to 2026-05-08."
+    "summary": "Germany has 2,252 reported tech layoffs across 15 public events from 2025-01-10 to 2026-05-11."
   },
   {
     "type": "country",
@@ -1996,6 +2010,174 @@
   },
   {
     "type": "country",
+    "name": "Kenya",
+    "slug": "kenya",
+    "title": "Tech Layoffs by Country: Kenya",
+    "canonical_url": "/countries/kenya.html",
+    "date_range": {
+      "start": "2026-04-16",
+      "end": "2026-04-16"
+    },
+    "kpis": {
+      "total_laid_off": 1108,
+      "event_count": 1,
+      "headcount_event_count": 1,
+      "company_count": 1,
+      "country_count": 1,
+      "industry_count": 1,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2026-04",
+          "total_laid_off": 1108
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Sama",
+          "total_laid_off": 1108
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-04-16",
+          "company": "Sama",
+          "num_laid_off": 1108,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "Kenya",
+          "stage": "Series B",
+          "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
+        }
+      ]
+    },
+    "summary": "Kenya has 1,108 reported tech layoffs across 1 public events from 2026-04-16 to 2026-04-16."
+  },
+  {
+    "type": "country",
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "title": "Tech Layoffs by Country: Nigeria",
+    "canonical_url": "/countries/nigeria.html",
+    "date_range": {
+      "start": "2025-02-13",
+      "end": "2026-05-13"
+    },
+    "kpis": {
+      "total_laid_off": 520,
+      "event_count": 6,
+      "headcount_event_count": 4,
+      "company_count": 6,
+      "country_count": 1,
+      "industry_count": 4,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 270
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 50
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 200
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Jumia",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Metro Africa Xpress",
+          "total_laid_off": 150
+        },
+        {
+          "company": "Vendease",
+          "total_laid_off": 120
+        },
+        {
+          "company": "Sabi",
+          "total_laid_off": 50
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-13",
+          "company": "Jumia",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Nigeria",
+          "stage": "Post-IPO",
+          "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+        },
+        {
+          "date": "2026-02-28",
+          "company": "Zap Africa",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.44,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Seed",
+          "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+        },
+        {
+          "date": "2025-07-02",
+          "company": "Okra",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Series A",
+          "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
+        },
+        {
+          "date": "2025-06-19",
+          "company": "Sabi",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.2,
+          "industry": "Retail",
+          "country": "Nigeria",
+          "stage": "Series B",
+          "source": "https://techcrunch.com/2025/06/20/after-raising-38m-african-e-commerce-startup-sabi-lays-off-20-pivots-to-traceable-exports/"
+        },
+        {
+          "date": "2025-02-19",
+          "company": "Vendease",
+          "num_laid_off": 120,
+          "percentage_laid_off": 0.44,
+          "industry": "Food",
+          "country": "Nigeria",
+          "stage": "Series A",
+          "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Metro Africa Xpress",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Logistics",
+          "country": "Nigeria",
+          "stage": "Unknown",
+          "source": "https://techcabal.com/2025/02/13/max-laid-off-150-employees/"
+        }
+      ]
+    },
+    "summary": "Nigeria has 520 reported tech layoffs across 6 public events from 2025-02-13 to 2026-05-13."
+  },
+  {
+    "type": "country",
     "name": "Brazil",
     "slug": "brazil",
     "title": "Tech Layoffs by Country: Brazil",
@@ -2063,103 +2245,71 @@
   },
   {
     "type": "country",
-    "name": "Nigeria",
-    "slug": "nigeria",
-    "title": "Tech Layoffs by Country: Nigeria",
-    "canonical_url": "/countries/nigeria.html",
+    "name": "Ireland",
+    "slug": "ireland",
+    "title": "Tech Layoffs by Country: Ireland",
+    "canonical_url": "/countries/ireland.html",
     "date_range": {
-      "start": "2025-02-13",
-      "end": "2026-02-28"
+      "start": "2025-03-06",
+      "end": "2026-05-14"
     },
     "kpis": {
-      "total_laid_off": 320,
-      "event_count": 5,
-      "headcount_event_count": 3,
-      "company_count": 5,
+      "total_laid_off": 300,
+      "event_count": 3,
+      "headcount_event_count": 1,
+      "company_count": 2,
       "country_count": 1,
-      "industry_count": 4,
-      "high_intensity_event_count": 3
+      "industry_count": 2,
+      "high_intensity_event_count": 0
     },
     "charts": {
       "monthly_trend": [
         {
-          "month": "2025-02",
-          "total_laid_off": 270
-        },
-        {
-          "month": "2025-06",
-          "total_laid_off": 50
+          "month": "2025-03",
+          "total_laid_off": 300
         }
       ],
       "company_top": [
         {
-          "company": "Metro Africa Xpress",
-          "total_laid_off": 150
-        },
-        {
-          "company": "Vendease",
-          "total_laid_off": 120
-        },
-        {
-          "company": "Sabi",
-          "total_laid_off": 50
+          "company": "TikTok",
+          "total_laid_off": 300
         }
       ]
     },
     "tables": {
       "recent_events": [
         {
-          "date": "2026-02-28",
-          "company": "Zap Africa",
+          "date": "2026-05-14",
+          "company": "Gambling.com Group",
           "num_laid_off": null,
-          "percentage_laid_off": 0.44,
-          "industry": "Finance",
-          "country": "Nigeria",
-          "stage": "Seed",
-          "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Ireland",
+          "stage": "Post-IPO",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
         },
         {
           "date": "2025-07-02",
-          "company": "Okra",
+          "company": "TikTok",
           "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Finance",
-          "country": "Nigeria",
-          "stage": "Series A",
-          "source": "https://techpoint.africa/news/okra-cofounder-fara-jituboh-exits/"
-        },
-        {
-          "date": "2025-06-19",
-          "company": "Sabi",
-          "num_laid_off": 50,
-          "percentage_laid_off": 0.2,
-          "industry": "Retail",
-          "country": "Nigeria",
-          "stage": "Series B",
-          "source": "https://techcrunch.com/2025/06/20/after-raising-38m-african-e-commerce-startup-sabi-lays-off-20-pivots-to-traceable-exports/"
-        },
-        {
-          "date": "2025-02-19",
-          "company": "Vendease",
-          "num_laid_off": 120,
-          "percentage_laid_off": 0.44,
-          "industry": "Food",
-          "country": "Nigeria",
-          "stage": "Series A",
-          "source": "https://techcabal.com/2025/02/19/vendease-second-layoffs/"
-        },
-        {
-          "date": "2025-02-13",
-          "company": "Metro Africa Xpress",
-          "num_laid_off": 150,
           "percentage_laid_off": null,
-          "industry": "Logistics",
-          "country": "Nigeria",
-          "stage": "Unknown",
-          "source": "https://techcabal.com/2025/02/13/max-laid-off-150-employees/"
+          "industry": "Consumer",
+          "country": "Ireland",
+          "stage": "Acquired",
+          "source": "https://www.bloomberg.com/news/articles/2025-07-02/tiktok-shop-cuts-more-us-workers-in-third-round-since-april"
+        },
+        {
+          "date": "2025-03-06",
+          "company": "TikTok",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Ireland",
+          "stage": "Acquired",
+          "source": "https://www.rte.ie/news/ireland/2025/0306/1500535-tik-tok-ireland/"
         }
       ]
     },
-    "summary": "Nigeria has 320 reported tech layoffs across 5 public events from 2025-02-13 to 2026-02-28."
+    "summary": "Ireland has 300 reported tech layoffs across 3 public events from 2025-03-06 to 2026-05-14."
   }
 ]

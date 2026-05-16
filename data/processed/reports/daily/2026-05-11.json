@@ -6,17 +6,17 @@
     "start": "2026-05-11",
     "end": "2026-05-11"
   },
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-15",
   "canonical_url": "/reports/daily/2026-05-11.html",
   "kpis": {
-    "total_laid_off": 200,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 1,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 200.0,
-    "median_layoffs_per_headcount_event": 200.0,
+    "total_laid_off": 241,
+    "event_count": 4,
+    "headcount_event_count": 2,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 120.5,
+    "median_layoffs_per_headcount_event": 120.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,21 +24,21 @@
       "period": "2026-05-10",
       "total_laid_off": 500,
       "event_count": 2,
-      "total_laid_off_delta": -300,
-      "total_laid_off_pct_change": -0.6,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -259,
+      "total_laid_off_pct_change": -0.518,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-11",
-      "total_laid_off": 0,
-      "event_count": 1,
-      "total_laid_off_delta": 200,
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
-      "note": null
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
     }
   },
   "charts": {
@@ -46,24 +46,40 @@
       {
         "company": "MRI Software",
         "total_laid_off": 200
+      },
+      {
+        "company": "One Identity",
+        "total_laid_off": 41
       }
     ],
     "industry_top": [
       {
         "industry": "Real Estate",
         "total_laid_off": 200
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 41
       }
     ],
     "country_top": [
       {
         "country": "United States",
         "total_laid_off": 200
+      },
+      {
+        "country": "Germany",
+        "total_laid_off": 41
       }
     ],
     "stage_top": [
       {
         "stage": "Acquired",
         "total_laid_off": 200
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 41
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +116,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "One Identity",
+        "num_laid_off": 41,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
       }
     ],
     "recent_events": [
@@ -115,6 +141,16 @@
       },
       {
         "date": "2026-05-11",
+        "company": "One Identity",
+        "num_laid_off": 41,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+      },
+      {
+        "date": "2026-05-11",
         "company": "GitLab",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -122,12 +158,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MessageBird",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-11 includes 2 public layoff events and 200 reported layoffs.",
+    "2026-05-11 includes 4 public layoff events and 241 reported layoffs.",
     "The largest company contributor is MRI Software with 200 reported layoffs.",
     "The leading named industry is Real Estate with 200 reported layoffs."
   ],

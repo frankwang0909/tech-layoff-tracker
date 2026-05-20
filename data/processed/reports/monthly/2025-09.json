@@ -6,17 +6,17 @@
     "start": "2025-09-01",
     "end": "2025-09-25"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/monthly/2025-09.html",
   "kpis": {
-    "total_laid_off": 4174,
-    "event_count": 28,
-    "headcount_event_count": 21,
-    "company_count": 24,
-    "country_count": 5,
+    "total_laid_off": 4454,
+    "event_count": 29,
+    "headcount_event_count": 22,
+    "company_count": 25,
+    "country_count": 6,
     "industry_count": 10,
-    "average_layoffs_per_headcount_event": 198.76,
-    "median_layoffs_per_headcount_event": 170.0,
+    "average_layoffs_per_headcount_event": 202.45,
+    "median_layoffs_per_headcount_event": 185.0,
     "high_intensity_event_count": 5
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -2278,
-      "total_laid_off_pct_change": -0.3531,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.0769,
+      "total_laid_off_delta": -1998,
+      "total_laid_off_pct_change": -0.3097,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.1154,
       "note": null
     },
     "same_period_last_year": {
@@ -44,11 +44,11 @@
   "charts": {
     "company_top": [
       {
-        "company": "xAI",
+        "company": "Head Digital Works",
         "total_laid_off": 500
       },
       {
-        "company": "Head Digital Works",
+        "company": "xAI",
         "total_laid_off": 500
       },
       {
@@ -72,15 +72,15 @@
         "total_laid_off": 300
       },
       {
+        "company": "Yolo Group",
+        "total_laid_off": 280
+      },
+      {
         "company": "Fiverr",
         "total_laid_off": 250
       },
       {
         "company": "Rivian",
-        "total_laid_off": 200
-      },
-      {
-        "company": "Atlassian",
         "total_laid_off": 200
       }
     ],
@@ -104,6 +104,10 @@
       {
         "industry": "Sales",
         "total_laid_off": 385
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 280
       },
       {
         "industry": "Transportation",
@@ -132,6 +136,10 @@
         "total_laid_off": 450
       },
       {
+        "country": "Estonia",
+        "total_laid_off": 280
+      },
+      {
         "country": "Israel",
         "total_laid_off": 250
       },
@@ -147,7 +155,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1120
+        "total_laid_off": 1400
       },
       {
         "stage": "Private Equity",
@@ -246,6 +254,16 @@
         "source": "https://timesofindia.indiatimes.com/technology/tech-news/online-gaming-app-ban-mpl-to-layoff-60-of-india-staff/articleshow/123618820.cms"
       },
       {
+        "date": "2025-09-23",
+        "company": "Yolo Group",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
+      },
+      {
         "date": "2025-09-04",
         "company": "Salesforce",
         "num_laid_off": 262,
@@ -284,16 +302,6 @@
         "country": "Australia",
         "stage": "Post-IPO",
         "source": "https://www.ziptone.nl/en/nieuws/atlassian-schrapt-200-customerservicebanen-in-nederland-en-frankrijk/"
-      },
-      {
-        "date": "2025-09-05",
-        "company": "Rivian",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.01,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits"
       }
     ],
     "recent_events": [
@@ -306,6 +314,16 @@
         "country": "Netherlands",
         "stage": "Acquired",
         "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/"
+      },
+      {
+        "date": "2025-09-23",
+        "company": "Yolo Group",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
       },
       {
         "date": "2025-09-18",
@@ -449,13 +467,13 @@
       },
       {
         "date": "2025-09-04",
-        "company": "Salesforce",
-        "num_laid_off": 262,
+        "company": "Head Digital Works",
+        "num_laid_off": 500,
         "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/"
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
       },
       {
         "date": "2025-09-04",
@@ -469,13 +487,13 @@
       },
       {
         "date": "2025-09-04",
-        "company": "Head Digital Works",
-        "num_laid_off": 500,
+        "company": "Salesforce",
+        "num_laid_off": 262,
         "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Private Equity",
-        "source": "https://entrackr.com/news/a23-parent-lays-off-500-employees-following-rmg-ban-report-9901016"
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/bay-area/salesforce-laying-off-262-employees-in-san-francisco-after-ceo-praises-ai/"
       },
       {
         "date": "2025-09-03",
@@ -486,16 +504,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.seattletimes.com/business/cloud-computing-giant-oracle-lays-off-more-seattle-workers/"
-      },
-      {
-        "date": "2025-09-03",
-        "company": "Salesforce",
-        "num_laid_off": 93,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/"
       }
     ],
     "high_intensity_events": [
@@ -552,8 +560,8 @@
     ]
   },
   "insights": [
-    "2025-09 includes 28 public layoff events and 4,174 reported layoffs.",
-    "The largest company contributor is xAI with 500 reported layoffs.",
+    "2025-09 includes 29 public layoff events and 4,454 reported layoffs.",
+    "The largest company contributor is Head Digital Works with 500 reported layoffs.",
     "The leading named industry is Consumer with 1,540 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."
   ],

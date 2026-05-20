@@ -6,28 +6,28 @@
     "start": "2025-07-02",
     "end": "2025-09-25"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/quarterly/2025-Q3.html",
   "kpis": {
-    "total_laid_off": 27274,
-    "event_count": 85,
-    "headcount_event_count": 56,
-    "company_count": 72,
-    "country_count": 12,
+    "total_laid_off": 27554,
+    "event_count": 86,
+    "headcount_event_count": 57,
+    "company_count": 73,
+    "country_count": 13,
     "industry_count": 25,
-    "average_layoffs_per_headcount_event": 487.04,
-    "median_layoffs_per_headcount_event": 130.5,
+    "average_layoffs_per_headcount_event": 483.4,
+    "median_layoffs_per_headcount_event": 141.0,
     "high_intensity_event_count": 21
   },
   "comparisons": {
     "previous_period": {
       "period": "2025-Q2",
-      "total_laid_off": 37528,
-      "event_count": 71,
-      "total_laid_off_delta": -10254,
-      "total_laid_off_pct_change": -0.2732,
+      "total_laid_off": 37603,
+      "event_count": 72,
+      "total_laid_off_delta": -10049,
+      "total_laid_off_pct_change": -0.2672,
       "event_count_delta": 14,
-      "event_count_pct_change": 0.1972,
+      "event_count_pct_change": 0.1944,
       "note": null
     },
     "same_period_last_year": {
@@ -64,11 +64,11 @@
         "total_laid_off": 1094
       },
       {
-        "company": "xAI",
+        "company": "Head Digital Works",
         "total_laid_off": 500
       },
       {
-        "company": "Head Digital Works",
+        "company": "xAI",
         "total_laid_off": 500
       },
       {
@@ -114,16 +114,16 @@
         "total_laid_off": 550
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 495
+      },
+      {
         "industry": "Data",
         "total_laid_off": 222
       },
       {
         "industry": "Infrastructure",
         "total_laid_off": 221
-      },
-      {
-        "industry": "Finance",
-        "total_laid_off": 215
       }
     ],
     "country_top": [
@@ -148,6 +148,10 @@
         "total_laid_off": 350
       },
       {
+        "country": "Estonia",
+        "total_laid_off": 280
+      },
+      {
         "country": "Sweden",
         "total_laid_off": 200
       },
@@ -167,7 +171,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1575
+        "total_laid_off": 1855
       },
       {
         "stage": "Series E",
@@ -304,16 +308,6 @@
         "source": "https://www.peoplematters.in/news/strategic-hr/after-mpl-games24x7-lays-off-400-employees-govt-steps-in-43232"
       },
       {
-        "date": "2025-08-12",
-        "company": "Micron",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.scmp.com/tech/big-tech/article/3321613/micron-starts-lay-offs-china-us-memory-chipmaker-retreats-mobile-nand-market"
-      },
-      {
         "date": "2025-09-01",
         "company": "Mobile Premier League",
         "num_laid_off": 300,
@@ -322,6 +316,16 @@
         "country": "India",
         "stage": "Series E",
         "source": "https://timesofindia.indiatimes.com/technology/tech-news/online-gaming-app-ban-mpl-to-layoff-60-of-india-staff/articleshow/123618820.cms"
+      },
+      {
+        "date": "2025-08-12",
+        "company": "Micron",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.scmp.com/tech/big-tech/article/3321613/micron-starts-lay-offs-china-us-memory-chipmaker-retreats-mobile-nand-market"
       }
     ],
     "recent_events": [
@@ -334,6 +338,16 @@
         "country": "Netherlands",
         "stage": "Acquired",
         "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/"
+      },
+      {
+        "date": "2025-09-23",
+        "company": "Yolo Group",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
       },
       {
         "date": "2025-09-18",
@@ -507,17 +521,7 @@
       },
       {
         "date": "2025-09-03",
-        "company": "Vimeo",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.1,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.linkedin.com/posts/phmoyer_today-we-announced-that-we-will-be-reducing-activity-7369003115422851074-qHt-/"
-      },
-      {
-        "date": "2025-09-03",
-        "company": "theGist",
+        "company": "The Gist",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Other",
@@ -630,7 +634,7 @@
     ]
   },
   "insights": [
-    "2025-Q3 includes 85 public layoff events and 27,274 reported layoffs.",
+    "2025-Q3 includes 86 public layoff events and 27,554 reported layoffs.",
     "The largest company contributor is Microsoft with 9,042 reported layoffs.",
     "The leading named industry is Hardware with 5,400 reported layoffs.",
     "21 events report a layoff percentage of 25% or higher."

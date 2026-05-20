@@ -1,11 +1,11 @@
 [
   {
     "industry": "Other",
-    "total_laid_off": 56939
+    "total_laid_off": 57014
   },
   {
     "industry": "Hardware",
-    "total_laid_off": 51087
+    "total_laid_off": 51287
   },
   {
     "industry": "Retail",
@@ -17,11 +17,11 @@
   },
   {
     "industry": "Finance",
-    "total_laid_off": 14175
+    "total_laid_off": 14455
   },
   {
     "industry": "Sales",
-    "total_laid_off": 6278
+    "total_laid_off": 6578
   },
   {
     "industry": "HR",

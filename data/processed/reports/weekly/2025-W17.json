@@ -6,17 +6,17 @@
     "start": "2025-04-23",
     "end": "2025-04-26"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/weekly/2025-W17.html",
   "kpis": {
-    "total_laid_off": 22577,
-    "event_count": 5,
-    "headcount_event_count": 5,
-    "company_count": 4,
-    "country_count": 2,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 4515.4,
-    "median_layoffs_per_headcount_event": 200.0,
+    "total_laid_off": 22652,
+    "event_count": 6,
+    "headcount_event_count": 6,
+    "company_count": 5,
+    "country_count": 3,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 3775.33,
+    "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 22023,
-      "total_laid_off_pct_change": 39.7527,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.1667,
+      "total_laid_off_delta": 22098,
+      "total_laid_off_pct_change": 39.8881,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -58,6 +58,10 @@
       {
         "company": "SambaNova",
         "total_laid_off": 77
+      },
+      {
+        "company": "Katana",
+        "total_laid_off": 75
       }
     ],
     "industry_top": [
@@ -76,6 +80,10 @@
       {
         "industry": "AI",
         "total_laid_off": 77
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 75
       }
     ],
     "country_top": [
@@ -86,6 +94,10 @@
       {
         "country": "India",
         "total_laid_off": 400
+      },
+      {
+        "country": "Estonia",
+        "total_laid_off": 75
       }
     ],
     "stage_top": [
@@ -100,6 +112,10 @@
       {
         "stage": "Series D",
         "total_laid_off": 77
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 75
       }
     ],
     "layoff_pct_distribution": [
@@ -176,6 +192,16 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
+      },
+      {
+        "date": "2025-04-24",
+        "company": "Katana",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Estonia",
+        "stage": "Series B",
+        "source": "https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet"
       }
     ],
     "recent_events": [
@@ -220,6 +246,16 @@
         "source": "https://www.bloomberg.com/news/articles/2025-04-24/meta-lays-off-more-than-100-staff-across-reality-labs-unit"
       },
       {
+        "date": "2025-04-24",
+        "company": "Katana",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Estonia",
+        "stage": "Series B",
+        "source": "https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet"
+      },
+      {
         "date": "2025-04-23",
         "company": "Intel",
         "num_laid_off": 22000,
@@ -233,7 +269,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2025-W17 includes 5 public layoff events and 22,577 reported layoffs.",
+    "2025-W17 includes 6 public layoff events and 22,652 reported layoffs.",
     "The largest company contributor is Intel with 22,000 reported layoffs.",
     "The leading named industry is Hardware with 22,000 reported layoffs."
   ],

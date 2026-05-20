@@ -6,17 +6,17 @@
     "start": "2025-04-01",
     "end": "2025-04-30"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/monthly/2025-04.html",
   "kpis": {
-    "total_laid_off": 25345,
-    "event_count": 28,
-    "headcount_event_count": 17,
-    "company_count": 27,
-    "country_count": 6,
+    "total_laid_off": 25420,
+    "event_count": 29,
+    "headcount_event_count": 18,
+    "company_count": 28,
+    "country_count": 7,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 1490.88,
-    "median_layoffs_per_headcount_event": 200.0,
+    "average_layoffs_per_headcount_event": 1412.22,
+    "median_layoffs_per_headcount_event": 175.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 16431,
-      "total_laid_off_pct_change": 1.8433,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.2727,
+      "total_laid_off_delta": 16506,
+      "total_laid_off_pct_change": 1.8517,
+      "event_count_delta": 7,
+      "event_count_pct_change": 0.3182,
       "note": null
     },
     "same_period_last_year": {
@@ -98,12 +98,12 @@
         "total_laid_off": 600
       },
       {
-        "industry": "Transportation",
-        "total_laid_off": 550
+        "industry": "Other",
+        "total_laid_off": 556
       },
       {
-        "industry": "Other",
-        "total_laid_off": 481
+        "industry": "Transportation",
+        "total_laid_off": 550
       },
       {
         "industry": "Consumer",
@@ -140,6 +140,10 @@
         "total_laid_off": 200
       },
       {
+        "country": "Estonia",
+        "total_laid_off": 75
+      },
+      {
         "country": "Australia",
         "total_laid_off": 10
       }
@@ -168,6 +172,10 @@
       {
         "stage": "Series F",
         "total_laid_off": 200
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 75
       },
       {
         "stage": "Unknown",
@@ -254,6 +262,16 @@
         "source": "https://techcrunch.com/2025/04/02/wordpress-maker-automattic-lays-off-16-of-staff/"
       },
       {
+        "date": "2025-04-26",
+        "company": "Cars24",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series G",
+        "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
+      },
+      {
         "date": "2025-04-15",
         "company": "GupShup",
         "num_laid_off": 200,
@@ -284,16 +302,6 @@
         "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
       },
       {
-        "date": "2025-04-26",
-        "company": "Cars24",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Series G",
-        "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
-      },
-      {
         "date": "2025-04-16",
         "company": "Turo",
         "num_laid_off": 150,
@@ -317,16 +325,6 @@
       },
       {
         "date": "2025-04-29",
-        "company": "Stem",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.27,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://seekingalpha.com/news/4437501-stem-announces-27-percent-workforce-reduction-with-30m-savings-target-for-2025"
-      },
-      {
-        "date": "2025-04-29",
         "company": "Electronic Arts",
         "num_laid_off": 300,
         "percentage_laid_off": null,
@@ -334,6 +332,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2025-04-29/electronic-arts-lays-off-hundreds-cancels-titanfall-game"
+      },
+      {
+        "date": "2025-04-29",
+        "company": "Stem",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.27,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4437501-stem-announces-27-percent-workforce-reduction-with-30m-savings-target-for-2025"
       },
       {
         "date": "2025-04-28",
@@ -406,6 +414,16 @@
         "source": "https://www.bloomberg.com/news/articles/2025-04-24/meta-lays-off-more-than-100-staff-across-reality-labs-unit"
       },
       {
+        "date": "2025-04-24",
+        "company": "Katana",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Estonia",
+        "stage": "Series B",
+        "source": "https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet"
+      },
+      {
         "date": "2025-04-23",
         "company": "Intel",
         "num_laid_off": 22000,
@@ -427,16 +445,6 @@
       },
       {
         "date": "2025-04-16",
-        "company": "AppLovin",
-        "num_laid_off": 97,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.pocketgamer.biz/applovin-lays-off-97-staff/"
-      },
-      {
-        "date": "2025-04-16",
         "company": "Smashing",
         "num_laid_off": 7,
         "percentage_laid_off": 1.0,
@@ -444,6 +452,16 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2025/04/16/smashing-the-reading-curation-app-by-goodreads-founder-shuts-down/"
+      },
+      {
+        "date": "2025-04-16",
+        "company": "AppLovin",
+        "num_laid_off": 97,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.pocketgamer.biz/applovin-lays-off-97-staff/"
       },
       {
         "date": "2025-04-16",
@@ -494,16 +512,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/technology/google-lays-off-hundreds-employees-android-pixel-group-information-reports-2025-04-11/"
-      },
-      {
-        "date": "2025-04-10",
-        "company": "Marin Software",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://searchengineland.com/marin-software-shutting-down-454228"
       }
     ],
     "high_intensity_events": [
@@ -580,7 +588,7 @@
     ]
   },
   "insights": [
-    "2025-04 includes 28 public layoff events and 25,345 reported layoffs.",
+    "2025-04 includes 29 public layoff events and 25,420 reported layoffs.",
     "The largest company contributor is Intel with 22,000 reported layoffs.",
     "The leading named industry is Hardware with 22,000 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

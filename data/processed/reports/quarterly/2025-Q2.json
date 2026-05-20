@@ -6,17 +6,17 @@
     "start": "2025-04-01",
     "end": "2025-06-30"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/quarterly/2025-Q2.html",
   "kpis": {
-    "total_laid_off": 37528,
-    "event_count": 71,
-    "headcount_event_count": 48,
-    "company_count": 64,
-    "country_count": 10,
+    "total_laid_off": 37603,
+    "event_count": 72,
+    "headcount_event_count": 49,
+    "company_count": 65,
+    "country_count": 11,
     "industry_count": 22,
-    "average_layoffs_per_headcount_event": 781.83,
-    "median_layoffs_per_headcount_event": 145.0,
+    "average_layoffs_per_headcount_event": 767.41,
+    "median_layoffs_per_headcount_event": 140.0,
     "high_intensity_event_count": 18
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-Q1",
       "total_laid_off": 29925,
       "event_count": 105,
-      "total_laid_off_delta": 7603,
-      "total_laid_off_pct_change": 0.2541,
-      "event_count_delta": -34,
-      "event_count_pct_change": -0.3238,
+      "total_laid_off_delta": 7678,
+      "total_laid_off_pct_change": 0.2566,
+      "event_count_delta": -33,
+      "event_count_pct_change": -0.3143,
       "note": null
     },
     "same_period_last_year": {
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Other",
-        "total_laid_off": 7331
+        "total_laid_off": 7406
       },
       {
         "industry": "Data",
@@ -160,12 +160,12 @@
         "total_laid_off": 106
       },
       {
-        "country": "Nigeria",
-        "total_laid_off": 50
+        "country": "Estonia",
+        "total_laid_off": 75
       },
       {
-        "country": "Australia",
-        "total_laid_off": 10
+        "country": "Nigeria",
+        "total_laid_off": 50
       }
     ],
     "stage_top": [
@@ -178,12 +178,12 @@
         "total_laid_off": 950
       },
       {
-        "stage": "Series G",
-        "total_laid_off": 520
+        "stage": "Series B",
+        "total_laid_off": 565
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 490
+        "stage": "Series G",
+        "total_laid_off": 520
       },
       {
         "stage": "Series E",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025-Q2 includes 71 public layoff events and 37,528 reported layoffs.",
+    "2025-Q2 includes 72 public layoff events and 37,603 reported layoffs.",
     "The largest company contributor is Intel with 22,000 reported layoffs.",
     "The leading named industry is Hardware with 22,000 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

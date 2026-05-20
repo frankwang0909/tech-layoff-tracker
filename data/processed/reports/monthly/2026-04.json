@@ -6,17 +6,17 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 12475,
-    "event_count": 31,
-    "headcount_event_count": 18,
-    "company_count": 30,
-    "country_count": 7,
-    "industry_count": 14,
-    "average_layoffs_per_headcount_event": 693.06,
-    "median_layoffs_per_headcount_event": 95.0,
+    "total_laid_off": 12675,
+    "event_count": 32,
+    "headcount_event_count": 19,
+    "company_count": 31,
+    "country_count": 8,
+    "industry_count": 15,
+    "average_layoffs_per_headcount_event": 667.11,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-03",
       "total_laid_off": 46536,
       "event_count": 31,
-      "total_laid_off_delta": -34061,
-      "total_laid_off_pct_change": -0.7319,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -33861,
+      "total_laid_off_pct_change": -0.7276,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.0323,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
-      "total_laid_off": 25345,
-      "event_count": 28,
-      "total_laid_off_delta": -12870,
-      "total_laid_off_pct_change": -0.5078,
+      "total_laid_off": 25420,
+      "event_count": 29,
+      "total_laid_off_delta": -12745,
+      "total_laid_off_pct_change": -0.5014,
       "event_count_delta": 3,
-      "event_count_pct_change": 0.1071,
+      "event_count_pct_change": 0.1034,
       "note": null
     }
   },
@@ -64,6 +64,10 @@
         "total_laid_off": 225
       },
       {
+        "company": "Remarkable",
+        "total_laid_off": 200
+      },
+      {
         "company": "Epidemic Sound",
         "total_laid_off": 150
       },
@@ -77,10 +81,6 @@
       },
       {
         "company": "GoCardless",
-        "total_laid_off": 90
-      },
-      {
-        "company": "Pendo",
         "total_laid_off": 90
       }
     ],
@@ -102,6 +102,10 @@
         "total_laid_off": 225
       },
       {
+        "industry": "Hardware",
+        "total_laid_off": 200
+      },
+      {
         "industry": "Finance",
         "total_laid_off": 182
       },
@@ -120,10 +124,6 @@
       {
         "industry": "Product",
         "total_laid_off": 90
-      },
-      {
-        "industry": "Manufacturing",
-        "total_laid_off": 80
       }
     ],
     "country_top": [
@@ -138,6 +138,10 @@
       {
         "country": "Cyprus",
         "total_laid_off": 225
+      },
+      {
+        "country": "Norway",
+        "total_laid_off": 200
       },
       {
         "country": "Sweden",
@@ -163,7 +167,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1235
+        "total_laid_off": 1435
       },
       {
         "stage": "Series B",
@@ -266,6 +270,16 @@
         "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
       },
       {
+        "date": "2026-04-22",
+        "company": "Remarkable",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Norway",
+        "stage": "Unknown",
+        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
+      {
         "date": "2026-04-02",
         "company": "Meta",
         "num_laid_off": 200,
@@ -304,16 +318,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
-      },
-      {
-        "date": "2026-04-14",
-        "company": "GoCardless",
-        "num_laid_off": 90,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Series G",
-        "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
       }
     ],
     "recent_events": [
@@ -336,6 +340,16 @@
         "country": "India",
         "stage": "Series C",
         "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+      },
+      {
+        "date": "2026-04-22",
+        "company": "Remarkable",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Norway",
+        "stage": "Unknown",
+        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
       },
       {
         "date": "2026-04-21",
@@ -389,16 +403,6 @@
       },
       {
         "date": "2026-04-16",
-        "company": "Shutterfly",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
-      },
-      {
-        "date": "2026-04-16",
         "company": "Quora",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -406,6 +410,16 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Shutterfly",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
       },
       {
         "date": "2026-04-15",
@@ -506,16 +520,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
-      },
-      {
-        "date": "2026-04-09",
-        "company": "Cars.com",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.11,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
       }
     ],
     "high_intensity_events": [
@@ -592,7 +596,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 31 public layoff events and 12,475 reported layoffs.",
+    "2026-04 includes 32 public layoff events and 12,675 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

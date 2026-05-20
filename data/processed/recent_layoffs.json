@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-18",
+    "company": "AI21 Labs",
+    "num_laid_off": 110,
+    "percentage_laid_off": 0.61,
+    "industry": "AI",
+    "country": "Israel",
+    "stage": "Series D",
+    "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+  },
+  {
     "date": "2026-05-15",
     "company": "Kraken",
     "num_laid_off": 150,
@@ -8,16 +18,6 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
-  },
-  {
-    "date": "2026-05-14",
-    "company": "Gambling.com Group",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "Ireland",
-    "stage": "Post-IPO",
-    "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
   },
   {
     "date": "2026-05-14",
@@ -31,6 +31,16 @@
   },
   {
     "date": "2026-05-14",
+    "company": "Gambling.com Group",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "Ireland",
+    "stage": "Post-IPO",
+    "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+  },
+  {
+    "date": "2026-05-14",
     "company": "Dune",
     "num_laid_off": null,
     "percentage_laid_off": 0.25,
@@ -38,26 +48,6 @@
     "country": "Norway",
     "stage": "Series B",
     "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-  },
-  {
-    "date": "2026-05-13",
-    "company": "Jumia",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "Nigeria",
-    "stage": "Post-IPO",
-    "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
-  },
-  {
-    "date": "2026-05-13",
-    "company": "Guesty",
-    "num_laid_off": 20,
-    "percentage_laid_off": 0.02,
-    "industry": "Travel",
-    "country": "Israel",
-    "stage": "Series F",
-    "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
   },
   {
     "date": "2026-05-13",
@@ -78,6 +68,26 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+  },
+  {
+    "date": "2026-05-13",
+    "company": "Jumia",
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "Nigeria",
+    "stage": "Post-IPO",
+    "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+  },
+  {
+    "date": "2026-05-13",
+    "company": "Guesty",
+    "num_laid_off": 20,
+    "percentage_laid_off": 0.02,
+    "industry": "Travel",
+    "country": "Israel",
+    "stage": "Series F",
+    "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
   },
   {
     "date": "2026-05-12",
@@ -108,15 +118,5 @@
     "country": "Germany",
     "stage": "Unknown",
     "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
-  },
-  {
-    "date": "2026-05-11",
-    "company": "GitLab",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
   }
 ]

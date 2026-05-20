@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+AI21 Labs,"Tel Aviv, Non-U.S.",110.0,2026-05-18,0.61,AI,https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241,Series D,626.0,Israel,2026-05-20T02:20:30.000Z
 Kraken,SF Bay Area,150.0,2026-05-15,,Crypto,https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027,Unknown,134.0,United States,2026-05-15T20:42:54.000Z
 Innovaccer,SF Bay Area,340.0,2026-05-14,,Healthcare,https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/,Series E,379.0,United States,2026-05-16T04:52:03.000Z
 Dune,"Oslo, Non-U.S.",,2026-05-14,0.25,Crypto,https://x.com/hagaetc/status/2054937771811192837?s=20,Series B,79.0,Norway,2026-05-15T20:46:40.000Z
@@ -12,7 +13,7 @@ MRI Software,Cleveland,200.0,2026-05-11,,Real Estate,https://propmodo.com/privat
 One Identity,"Dresden, Non-U.S.",41.0,2026-05-11,,Security,https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html,Unknown,,Germany,2026-05-15T20:43:42.000Z
 GitLab,SF Bay Area,,2026-05-11,,Product,https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era,Post-IPO,413.0,United States,2026-05-11T23:17:28.000Z
 MessageBird,"Amsterdam, Non-U.S.",,2026-05-11,0.2,Other,https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/,Series C,1100.0,Netherlands,2026-05-13T20:42:31.000Z
-ZoomInfo,"Tel Aviv, Non-U.S.",300.0,2026-05-10,,Sales,https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/,Post-IPO,7.0,Israel,2026-05-11T01:52:20.000Z
+ZoomInfo,Portland,600.0,2026-05-10,0.2,Sales,https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html,Post-IPO,7.0,United States,2026-05-11T01:52:20.000Z
 Adda247,"Gurugram, Non-U.S.",200.0,2026-05-10,0.2,Education,https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77,Series B,61.0,India,2026-05-11T01:54:43.000Z
 Parker,New York City,,2026-05-09,1.0,Finance,https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/,Series B,57.0,United States,2026-05-11T01:55:53.000Z
 Staffbase,"Chemnitz, Non-U.S.",176.0,2026-05-08,0.22,Other,https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv,Series E,306.0,Germany,2026-05-11T23:03:29.000Z
@@ -35,6 +36,7 @@ Careem,"Dubai, Non-U.S.",,2026-05-05,,Transportation,https://en.dailypakistan.co
 Shopify,"Ottawa, Non-U.S.",30.0,2026-05-04,,Retail,https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/,Post-IPO,122.0,Canada,2026-05-07T21:00:47.000Z
 Pentera,Boston,40.0,2026-04-27,0.08,Security,https://www.calcalistech.com/ctechnews/article/b1ioncnpzl,Series D,249.0,United States,2026-04-30T23:39:55.000Z
 SuperOps,"Chennai, Non-U.S.",60.0,2026-04-24,0.3,Other,https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/,Series C,54.0,India,2026-04-30T23:42:21.000Z
+Remarkable,"Oslo, Non-U.S.",200.0,2026-04-22,,Hardware,https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff,Unknown,104.0,Norway,2026-05-20T02:21:29.000Z
 Epidemic Sound,"Stockholm, Non-U.S.",150.0,2026-04-21,0.33,Media,https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20,Private Equity,509.0,Sweden,2026-05-07T21:03:10.000Z
 GeoComply,"Vancouver, Non-U.S.",68.0,2026-04-21,0.15,Security,https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/,Private Equity,,United States,2026-05-11T01:50:25.000Z
 Acko,"Mumbai, Non-U.S.",60.0,2026-04-20,0.05,Finance,https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/,Unknown,143.0,India,2026-04-20T23:39:50.000Z
@@ -221,6 +223,7 @@ Paycom,Oklahoma City,500.0,2025-10-01,,HR,https://www.oklahoman.com/story/busine
 Google,SF Bay Area,100.0,2025-10-01,,Consumer,https://www.cnbc.com/2025/10/01/google-cloud-unit-layoffs.html,Post-IPO,26.0,United States,2025-10-06T14:51:32.000Z
 Simpl,"Bengaluru, Non-U.S.",80.0,2025-10-01,,Finance,https://inc42.com/buzz/bnpl-startup-simpl-lays-off-80-employees-after-rbi-whiplash/,Series B,72.0,India,2025-10-01T23:13:44.000Z
 Just Eat,"Amsterdam, Non-U.S.",450.0,2025-09-25,0.05,Food,https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/,Acquired,129.0,Netherlands,2025-09-29T22:34:02.000Z
+Yolo Group,"Tallinn, Non-U.S.",280.0,2025-09-23,,Finance,https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia,Unknown,,Estonia,2026-05-20T02:22:47.000Z
 GamesKraft,"Bengaluru, Non-U.S.",120.0,2025-09-18,,Consumer,https://inc42.com/buzz/now-gameskraft-lays-off-120-employees/,Unknown,,India,2025-09-25T01:14:59.000Z
 ZipRecruiter,"Tel Aviv, Non-U.S.",80.0,2025-09-16,,Recruiting,https://www.calcalistech.com/ctechnews/article/pwjukv20s,Post-IPO,769.0,United States,2025-09-16T23:30:33.000Z
 Fiverr,"Tel Aviv, Non-U.S.",250.0,2025-09-15,0.3,Other,https://www.wsj.com/business/fiverr-to-cut-about-250-jobs-in-refocusing-effort-reiterates-guidance-8f15ee4b,Post-IPO,111.0,Israel,2025-09-16T23:33:07.000Z
@@ -358,6 +361,7 @@ Cars24,"Gurugram, Non-U.S.",200.0,2025-04-26,,Transportation,https://entrackr.co
 Cars24,"Gurugram, Non-U.S.",200.0,2025-04-26,,Transportation,https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/,Series G,1300.0,India,2025-12-09T00:06:43.000Z
 SambaNova,SF Bay Area,77.0,2025-04-25,0.15,AI,https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/,Series D,1100.0,United States,2025-05-03T07:51:14.000Z
 Meta,SF Bay Area,100.0,2025-04-24,,Consumer,https://www.bloomberg.com/news/articles/2025-04-24/meta-lays-off-more-than-100-staff-across-reality-labs-unit,Post-IPO,26000.0,United States,2025-04-29T04:18:07.000Z
+Katana,"Tallinn, Non-U.S.",75.0,2025-04-24,,Other,https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet,Series B,67.0,Estonia,2026-05-20T02:24:05.000Z
 Intel,Sacramento,22000.0,2025-04-23,0.2,Hardware,https://www.bloomberg.com/news/articles/2025-04-23/intel-to-announce-plans-this-week-to-cut-more-than-20-of-staff?srnd=homepage-americas,Post-IPO,12.0,United States,2025-04-23T17:29:25.000Z
 Zopper,"Noida, Non-U.S.",100.0,2025-04-17,,Finance,https://inc42.com/buzz/elevation-capital-backed-zopper-fires-100-employees/,Series D,125.0,India,2025-04-18T14:24:48.000Z
 Turo,SF Bay Area,150.0,2025-04-16,0.17,Transportation,https://www.bloomberg.com/news/articles/2025-04-16/car-rental-startup-turo-cuts-15-of-workers-after-icing-ipo,Series E,467.0,United States,2025-04-16T22:21:59.000Z

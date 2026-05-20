@@ -7,14 +7,14 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-03-16"
+      "end": "2026-04-22"
     },
     "kpis": {
-      "total_laid_off": 51087,
-      "event_count": 17,
-      "headcount_event_count": 14,
-      "company_count": 11,
-      "country_count": 4,
+      "total_laid_off": 51287,
+      "event_count": 18,
+      "headcount_event_count": 15,
+      "company_count": 12,
+      "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 1
     },
@@ -63,6 +63,10 @@
         {
           "month": "2026-03",
           "total_laid_off": 11000
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 200
         }
       ],
       "company_top": [
@@ -95,21 +99,31 @@
           "total_laid_off": 247
         },
         {
+          "company": "Remarkable",
+          "total_laid_off": 200
+        },
+        {
           "company": "Lenovo",
           "total_laid_off": 100
         },
         {
           "company": "Tenstorrent",
           "total_laid_off": 80
-        },
-        {
-          "company": "Huawei",
-          "total_laid_off": 50
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-22",
+          "company": "Remarkable",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Norway",
+          "stage": "Unknown",
+          "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+        },
         {
           "date": "2026-03-16",
           "company": "Dell",
@@ -249,20 +263,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2025-04-23/intel-to-announce-plans-this-week-to-cut-more-than-20-of-staff?srnd=homepage-americas"
-        },
-        {
-          "date": "2025-03-06",
-          "company": "Hewlett Packard Enterprise",
-          "num_laid_off": 2500,
-          "percentage_laid_off": 0.05,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2025/03/06/hewlett-packard-enterprise-hpe-q1-earnings-report-2025.html"
         }
       ]
     },
-    "summary": "Hardware has 51,087 reported tech layoffs across 17 public events from 2025-02-04 to 2026-03-16."
+    "summary": "Hardware has 51,287 reported tech layoffs across 18 public events from 2025-02-04 to 2026-04-22."
   },
   {
     "type": "industry",
@@ -833,11 +837,11 @@
       "end": "2026-05-09"
     },
     "kpis": {
-      "total_laid_off": 14175,
-      "event_count": 47,
-      "headcount_event_count": 29,
-      "company_count": 42,
-      "country_count": 7,
+      "total_laid_off": 14455,
+      "event_count": 48,
+      "headcount_event_count": 30,
+      "company_count": 43,
+      "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 16
     },
@@ -866,6 +870,10 @@
         {
           "month": "2025-08",
           "total_laid_off": 145
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 280
         },
         {
           "month": "2025-10",
@@ -930,16 +938,16 @@
           "total_laid_off": 300
         },
         {
+          "company": "Yolo Group",
+          "total_laid_off": 280
+        },
+        {
           "company": "Zepz",
           "total_laid_off": 200
         },
         {
           "company": "Pipe",
           "total_laid_off": 200
-        },
-        {
-          "company": "InvestCloud",
-          "total_laid_off": 150
         }
       ]
     },
@@ -1097,7 +1105,7 @@
         }
       ]
     },
-    "summary": "Finance has 14,175 reported tech layoffs across 47 public events from 2025-01-02 to 2026-05-09."
+    "summary": "Finance has 14,455 reported tech layoffs across 48 public events from 2025-01-02 to 2026-05-09."
   },
   {
     "type": "industry",
@@ -1110,7 +1118,7 @@
       "end": "2026-05-10"
     },
     "kpis": {
-      "total_laid_off": 6278,
+      "total_laid_off": 6578,
       "event_count": 15,
       "headcount_event_count": 13,
       "company_count": 9,
@@ -1154,7 +1162,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 300
+          "total_laid_off": 600
         }
       ],
       "company_top": [
@@ -1164,7 +1172,7 @@
         },
         {
           "company": "ZoomInfo",
-          "total_laid_off": 450
+          "total_laid_off": 750
         },
         {
           "company": "Khoros",
@@ -1197,12 +1205,12 @@
         {
           "date": "2026-05-10",
           "company": "ZoomInfo",
-          "num_laid_off": 300,
-          "percentage_laid_off": null,
+          "num_laid_off": 600,
+          "percentage_laid_off": 0.2,
           "industry": "Sales",
-          "country": "Israel",
+          "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+          "source": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html"
         },
         {
           "date": "2026-03-13",
@@ -1346,7 +1354,7 @@
         }
       ]
     },
-    "summary": "Sales has 6,278 reported tech layoffs across 15 public events from 2025-02-03 to 2026-05-10."
+    "summary": "Sales has 6,578 reported tech layoffs across 15 public events from 2025-02-03 to 2026-05-10."
   },
   {
     "type": "industry",
@@ -2992,16 +3000,16 @@
     "canonical_url": "/industries/ai.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-05-07"
+      "end": "2026-05-18"
     },
     "kpis": {
-      "total_laid_off": 2602,
-      "event_count": 18,
-      "headcount_event_count": 15,
-      "company_count": 17,
+      "total_laid_off": 2712,
+      "event_count": 19,
+      "headcount_event_count": 16,
+      "company_count": 18,
       "country_count": 6,
       "industry_count": 1,
-      "high_intensity_event_count": 6
+      "high_intensity_event_count": 7
     },
     "charts": {
       "monthly_trend": [
@@ -3051,7 +3059,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 250
+          "total_laid_off": 360
         }
       ],
       "company_top": [
@@ -3076,6 +3084,10 @@
           "total_laid_off": 150
         },
         {
+          "company": "AI21 Labs",
+          "total_laid_off": 110
+        },
+        {
           "company": "SambaNova",
           "total_laid_off": 77
         },
@@ -3090,15 +3102,21 @@
         {
           "company": "Logically",
           "total_laid_off": 40
-        },
-        {
-          "company": "Windsurf",
-          "total_laid_off": 30
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-18",
+          "company": "AI21 Labs",
+          "num_laid_off": 110,
+          "percentage_laid_off": 0.61,
+          "industry": "AI",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+        },
         {
           "date": "2026-05-07",
           "company": "DeepL",
@@ -3238,20 +3256,10 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
-        },
-        {
-          "date": "2025-03-10",
-          "company": "D-ID",
-          "num_laid_off": 22,
-          "percentage_laid_off": 0.25,
-          "industry": "AI",
-          "country": "Israel",
-          "stage": "Series B",
-          "source": "https://www.calcalistech.com/ctechnews/article/bjrzoinjjg"
         }
       ]
     },
-    "summary": "AI has 2,602 reported tech layoffs across 18 public events from 2025-02-05 to 2026-05-07."
+    "summary": "AI has 2,712 reported tech layoffs across 19 public events from 2025-02-05 to 2026-05-18."
   },
   {
     "type": "industry",

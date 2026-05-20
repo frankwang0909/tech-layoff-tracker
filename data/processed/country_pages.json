@@ -10,10 +10,10 @@
       "end": "2026-05-15"
     },
     "kpis": {
-      "total_laid_off": 198516,
-      "event_count": 287,
-      "headcount_event_count": 191,
-      "company_count": 217,
+      "total_laid_off": 199116,
+      "event_count": 288,
+      "headcount_event_count": 192,
+      "company_count": 218,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 48
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 14085
+          "total_laid_off": 14685
         }
       ],
       "company_top": [
@@ -195,6 +195,16 @@
           "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
         },
         {
+          "date": "2026-05-10",
+          "company": "ZoomInfo",
+          "num_laid_off": 600,
+          "percentage_laid_off": 0.2,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html"
+        },
+        {
           "date": "2026-05-09",
           "company": "Parker",
           "num_laid_off": null,
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "Coinbase",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
         }
       ]
     },
-    "summary": "United States has 198,516 reported tech layoffs across 287 public events from 2025-01-02 to 2026-05-15."
+    "summary": "United States has 199,116 reported tech layoffs across 288 public events from 2025-01-02 to 2026-05-15."
   },
   {
     "type": "country",
@@ -577,16 +577,16 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-05-13"
+      "end": "2026-05-18"
     },
     "kpis": {
-      "total_laid_off": 5173,
+      "total_laid_off": 4983,
       "event_count": 48,
       "headcount_event_count": 33,
       "company_count": 42,
       "country_count": 1,
       "industry_count": 18,
-      "high_intensity_event_count": 14
+      "high_intensity_event_count": 15
     },
     "charts": {
       "monthly_trend": [
@@ -644,7 +644,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 360
+          "total_laid_off": 170
         }
       ],
       "company_top": [
@@ -665,10 +665,6 @@
           "total_laid_off": 400
         },
         {
-          "company": "ZoomInfo",
-          "total_laid_off": 300
-        },
-        {
           "company": "Fiverr",
           "total_laid_off": 250
         },
@@ -677,11 +673,15 @@
           "total_laid_off": 200
         },
         {
+          "company": "Rewire",
+          "total_laid_off": 110
+        },
+        {
           "company": "Moon Active",
           "total_laid_off": 110
         },
         {
-          "company": "Rewire",
+          "company": "AI21 Labs",
           "total_laid_off": 110
         },
         {
@@ -693,6 +693,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-18",
+          "company": "AI21 Labs",
+          "num_laid_off": 110,
+          "percentage_laid_off": 0.61,
+          "industry": "AI",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+        },
+        {
           "date": "2026-05-13",
           "company": "Guesty",
           "num_laid_off": 20,
@@ -701,16 +711,6 @@
           "country": "Israel",
           "stage": "Series F",
           "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
-        },
-        {
-          "date": "2026-05-10",
-          "company": "ZoomInfo",
-          "num_laid_off": 300,
-          "percentage_laid_off": null,
-          "industry": "Sales",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
         },
         {
           "date": "2026-05-06",
@@ -844,7 +844,7 @@
         }
       ]
     },
-    "summary": "Israel has 5,173 reported tech layoffs across 48 public events from 2025-01-06 to 2026-05-13."
+    "summary": "Israel has 4,983 reported tech layoffs across 48 public events from 2025-01-06 to 2026-05-18."
   },
   {
     "type": "country",

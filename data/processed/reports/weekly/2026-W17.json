@@ -6,17 +6,17 @@
     "start": "2026-04-20",
     "end": "2026-04-24"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/weekly/2026-W17.html",
   "kpis": {
-    "total_laid_off": 338,
-    "event_count": 4,
-    "headcount_event_count": 4,
-    "company_count": 4,
-    "country_count": 3,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 84.5,
-    "median_layoffs_per_headcount_event": 64.0,
+    "total_laid_off": 538,
+    "event_count": 5,
+    "headcount_event_count": 5,
+    "company_count": 5,
+    "country_count": 4,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 107.6,
+    "median_layoffs_per_headcount_event": 68.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W16",
       "total_laid_off": 11360,
       "event_count": 12,
-      "total_laid_off_delta": -11022,
-      "total_laid_off_pct_change": -0.9702,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": -10822,
+      "total_laid_off_pct_change": -0.9526,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.5833,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W17",
-      "total_laid_off": 22577,
-      "event_count": 5,
-      "total_laid_off_delta": -22239,
-      "total_laid_off_pct_change": -0.985,
+      "total_laid_off": 22652,
+      "event_count": 6,
+      "total_laid_off_delta": -22114,
+      "total_laid_off_pct_change": -0.9762,
       "event_count_delta": -1,
-      "event_count_pct_change": -0.2,
+      "event_count_pct_change": -0.1667,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Remarkable",
+        "total_laid_off": 200
+      },
       {
         "company": "Epidemic Sound",
         "total_laid_off": 150
@@ -62,6 +66,10 @@
     ],
     "industry_top": [
       {
+        "industry": "Hardware",
+        "total_laid_off": 200
+      },
+      {
         "industry": "Media",
         "total_laid_off": 150
       },
@@ -80,6 +88,10 @@
     ],
     "country_top": [
       {
+        "country": "Norway",
+        "total_laid_off": 200
+      },
+      {
         "country": "Sweden",
         "total_laid_off": 150
       },
@@ -94,15 +106,15 @@
     ],
     "stage_top": [
       {
+        "stage": "Unknown",
+        "total_laid_off": 260
+      },
+      {
         "stage": "Private Equity",
         "total_laid_off": 218
       },
       {
         "stage": "Series C",
-        "total_laid_off": 60
-      },
-      {
-        "stage": "Unknown",
         "total_laid_off": 60
       }
     ],
@@ -131,6 +143,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-04-22",
+        "company": "Remarkable",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Norway",
+        "stage": "Unknown",
+        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
       {
         "date": "2026-04-21",
         "company": "Epidemic Sound",
@@ -182,6 +204,16 @@
         "country": "India",
         "stage": "Series C",
         "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+      },
+      {
+        "date": "2026-04-22",
+        "company": "Remarkable",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Norway",
+        "stage": "Unknown",
+        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
       },
       {
         "date": "2026-04-21",
@@ -238,9 +270,9 @@
     ]
   },
   "insights": [
-    "2026-W17 includes 4 public layoff events and 338 reported layoffs.",
-    "The largest company contributor is Epidemic Sound with 150 reported layoffs.",
-    "The leading named industry is Media with 150 reported layoffs.",
+    "2026-W17 includes 5 public layoff events and 538 reported layoffs.",
+    "The largest company contributor is Remarkable with 200 reported layoffs.",
+    "The leading named industry is Hardware with 200 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

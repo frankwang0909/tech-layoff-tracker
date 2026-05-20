@@ -1,0 +1,141 @@
+{
+  "report_type": "daily",
+  "period": "2026-05-18",
+  "status": "final",
+  "date_range": {
+    "start": "2026-05-18",
+    "end": "2026-05-18"
+  },
+  "updated_at": "2026-05-18",
+  "canonical_url": "/reports/daily/2026-05-18.html",
+  "kpis": {
+    "total_laid_off": 110,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 110.0,
+    "median_layoffs_per_headcount_event": 110.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-05-17",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2025-05-18",
+      "total_laid_off": 350,
+      "event_count": 1,
+      "total_laid_off_delta": -240,
+      "total_laid_off_pct_change": -0.6857,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "AI21 Labs",
+        "total_laid_off": 110
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "AI",
+        "total_laid_off": 110
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 110
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 110
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-05-18",
+        "company": "AI21 Labs",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.61,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-05-18",
+        "company": "AI21 Labs",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.61,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-05-18",
+        "company": "AI21 Labs",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.61,
+        "industry": "AI",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+      }
+    ]
+  },
+  "insights": [
+    "2026-05-18 includes 1 public layoff events and 110 reported layoffs.",
+    "The largest company contributor is AI21 Labs with 110 reported layoffs.",
+    "The leading named industry is AI with 110 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

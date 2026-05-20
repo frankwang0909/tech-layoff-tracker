@@ -6,17 +6,17 @@
     "start": "2025-04-24",
     "end": "2025-04-24"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/daily/2025-04-24.html",
   "kpis": {
-    "total_laid_off": 100,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 100.0,
-    "median_layoffs_per_headcount_event": 100.0,
+    "total_laid_off": 175,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 87.5,
+    "median_layoffs_per_headcount_event": 87.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-04-23",
       "total_laid_off": 22000,
       "event_count": 1,
-      "total_laid_off_delta": -21900,
-      "total_laid_off_pct_change": -0.9955,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -21825,
+      "total_laid_off_pct_change": -0.992,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -46,24 +46,40 @@
       {
         "company": "Meta",
         "total_laid_off": 100
+      },
+      {
+        "company": "Katana",
+        "total_laid_off": 75
       }
     ],
     "industry_top": [
       {
         "industry": "Consumer",
         "total_laid_off": 100
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 75
       }
     ],
     "country_top": [
       {
         "country": "United States",
         "total_laid_off": 100
+      },
+      {
+        "country": "Estonia",
+        "total_laid_off": 75
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 100
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 75
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +116,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2025-04-24/meta-lays-off-more-than-100-staff-across-reality-labs-unit"
+      },
+      {
+        "date": "2025-04-24",
+        "company": "Katana",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Estonia",
+        "stage": "Series B",
+        "source": "https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet"
       }
     ],
     "recent_events": [
@@ -112,12 +138,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2025-04-24/meta-lays-off-more-than-100-staff-across-reality-labs-unit"
+      },
+      {
+        "date": "2025-04-24",
+        "company": "Katana",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Estonia",
+        "stage": "Series B",
+        "source": "https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-04-24 includes 1 public layoff events and 100 reported layoffs.",
+    "2025-04-24 includes 2 public layoff events and 175 reported layoffs.",
     "The largest company contributor is Meta with 100 reported layoffs.",
     "The leading named industry is Consumer with 100 reported layoffs."
   ],

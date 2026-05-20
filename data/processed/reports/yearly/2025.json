@@ -6,16 +6,16 @@
     "start": "2025-01-02",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/yearly/2025.html",
   "kpis": {
-    "total_laid_off": 124281,
-    "event_count": 329,
-    "headcount_event_count": 225,
-    "company_count": 273,
-    "country_count": 18,
+    "total_laid_off": 124636,
+    "event_count": 331,
+    "headcount_event_count": 227,
+    "company_count": 275,
+    "country_count": 19,
     "industry_count": 30,
-    "average_layoffs_per_headcount_event": 552.36,
+    "average_layoffs_per_headcount_event": 549.06,
     "median_layoffs_per_headcount_event": 122.0,
     "high_intensity_event_count": 72
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Other",
-        "total_laid_off": 22303
+        "total_laid_off": 22378
       },
       {
         "industry": "Retail",
@@ -115,7 +115,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 3609
+        "total_laid_off": 3889
       },
       {
         "industry": "Energy",
@@ -164,8 +164,8 @@
         "total_laid_off": 420
       },
       {
-        "country": "Nigeria",
-        "total_laid_off": 320
+        "country": "Estonia",
+        "total_laid_off": 355
       }
     ],
     "stage_top": [
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 7823
+        "total_laid_off": 8103
       },
       {
         "stage": "Acquired",
@@ -190,12 +190,12 @@
         "total_laid_off": 1344
       },
       {
-        "stage": "Series D",
-        "total_laid_off": 1150
+        "stage": "Series B",
+        "total_laid_off": 1209
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 1134
+        "stage": "Series D",
+        "total_laid_off": 1150
       },
       {
         "stage": "Series F",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
       },
       {
-        "date": "2025-08-31",
-        "company": "Salesforce",
-        "num_laid_off": 4000,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
-      },
-      {
         "date": "2025-02-28",
         "company": "HP",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+      },
+      {
+        "date": "2025-08-31",
+        "company": "Salesforce",
+        "num_laid_off": 4000,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
       },
       {
         "date": "2025-02-10",
@@ -429,23 +429,13 @@
       },
       {
         "date": "2025-12-09",
-        "company": "Tenstorrent",
-        "num_laid_off": 80,
-        "percentage_laid_off": 0.07,
-        "industry": "Hardware",
-        "country": "Canada",
-        "stage": "Series D",
-        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
-      },
-      {
-        "date": "2025-12-09",
-        "company": "Whatfix",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.06,
-        "industry": "AI",
+        "company": "GenWise",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
         "country": "India",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
       },
       {
         "date": "2025-12-09",
@@ -459,13 +449,23 @@
       },
       {
         "date": "2025-12-09",
-        "company": "GenWise",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
+        "company": "Whatfix",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.06,
+        "industry": "AI",
         "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "Tenstorrent",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.07,
+        "industry": "Hardware",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
       },
       {
         "date": "2025-12-08",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025 includes 329 public layoff events and 124,281 reported layoffs.",
+    "2025 includes 331 public layoff events and 124,636 reported layoffs.",
     "The largest company contributor is Intel with 27,058 reported layoffs.",
     "The leading named industry is Hardware with 38,337 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

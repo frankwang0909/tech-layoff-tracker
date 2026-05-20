@@ -1,12 +1,12 @@
 {
   "report_type": "weekly",
   "period": "2026-W20",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-05-11",
     "end": "2026-05-15"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/weekly/2026-W20.html",
   "kpis": {
     "total_laid_off": 5884,
@@ -22,10 +22,10 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-W19",
-      "total_laid_off": 9721,
+      "total_laid_off": 10021,
       "event_count": 21,
-      "total_laid_off_delta": -3837,
-      "total_laid_off_pct_change": -0.3947,
+      "total_laid_off_delta": -4137,
+      "total_laid_off_pct_change": -0.4128,
       "event_count_delta": -8,
       "event_count_pct_change": -0.381,
       "note": null

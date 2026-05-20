@@ -3,20 +3,20 @@
   "period": "2025-W39",
   "status": "final",
   "date_range": {
-    "start": "2025-09-25",
+    "start": "2025-09-23",
     "end": "2025-09-25"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/weekly/2025-W39.html",
   "kpis": {
-    "total_laid_off": 450,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 450.0,
-    "median_layoffs_per_headcount_event": 450.0,
+    "total_laid_off": 730,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 365.0,
+    "median_layoffs_per_headcount_event": 365.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-W38",
       "total_laid_off": 450,
       "event_count": 3,
-      "total_laid_off_delta": 0,
-      "total_laid_off_pct_change": 0.0,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": 280,
+      "total_laid_off_pct_change": 0.6222,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -46,24 +46,40 @@
       {
         "company": "Just Eat",
         "total_laid_off": 450
+      },
+      {
+        "company": "Yolo Group",
+        "total_laid_off": 280
       }
     ],
     "industry_top": [
       {
         "industry": "Food",
         "total_laid_off": 450
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 280
       }
     ],
     "country_top": [
       {
         "country": "Netherlands",
         "total_laid_off": 450
+      },
+      {
+        "country": "Estonia",
+        "total_laid_off": 280
       }
     ],
     "stage_top": [
       {
         "stage": "Acquired",
         "total_laid_off": 450
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 280
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +116,16 @@
         "country": "Netherlands",
         "stage": "Acquired",
         "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/"
+      },
+      {
+        "date": "2025-09-23",
+        "company": "Yolo Group",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
       }
     ],
     "recent_events": [
@@ -112,12 +138,22 @@
         "country": "Netherlands",
         "stage": "Acquired",
         "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/"
+      },
+      {
+        "date": "2025-09-23",
+        "company": "Yolo Group",
+        "num_laid_off": 280,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-W39 includes 1 public layoff events and 450 reported layoffs.",
+    "2025-W39 includes 2 public layoff events and 730 reported layoffs.",
     "The largest company contributor is Just Eat with 450 reported layoffs.",
     "The leading named industry is Food with 450 reported layoffs."
   ],

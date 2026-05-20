@@ -6,17 +6,17 @@
     "start": "2026-05-10",
     "end": "2026-05-10"
   },
-  "updated_at": "2026-05-15",
+  "updated_at": "2026-05-18",
   "canonical_url": "/reports/daily/2026-05-10.html",
   "kpis": {
-    "total_laid_off": 500,
+    "total_laid_off": 800,
     "event_count": 2,
     "headcount_event_count": 2,
     "company_count": 2,
     "country_count": 2,
     "industry_count": 2,
-    "average_layoffs_per_headcount_event": 250.0,
-    "median_layoffs_per_headcount_event": 250.0,
+    "average_layoffs_per_headcount_event": 400.0,
+    "median_layoffs_per_headcount_event": 400.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,7 +24,7 @@
       "period": "2026-05-09",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 500,
+      "total_laid_off_delta": 800,
       "total_laid_off_pct_change": null,
       "event_count_delta": 1,
       "event_count_pct_change": 1.0,
@@ -45,7 +45,7 @@
     "company_top": [
       {
         "company": "ZoomInfo",
-        "total_laid_off": 300
+        "total_laid_off": 600
       },
       {
         "company": "Adda247",
@@ -55,7 +55,7 @@
     "industry_top": [
       {
         "industry": "Sales",
-        "total_laid_off": 300
+        "total_laid_off": 600
       },
       {
         "industry": "Education",
@@ -64,8 +64,8 @@
     ],
     "country_top": [
       {
-        "country": "Israel",
-        "total_laid_off": 300
+        "country": "United States",
+        "total_laid_off": 600
       },
       {
         "country": "India",
@@ -75,7 +75,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 300
+        "total_laid_off": 600
       },
       {
         "stage": "Series B",
@@ -89,7 +89,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -110,12 +110,12 @@
       {
         "date": "2026-05-10",
         "company": "ZoomInfo",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
+        "num_laid_off": 600,
+        "percentage_laid_off": 0.2,
         "industry": "Sales",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+        "source": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html"
       },
       {
         "date": "2026-05-10",
@@ -132,12 +132,12 @@
       {
         "date": "2026-05-10",
         "company": "ZoomInfo",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
+        "num_laid_off": 600,
+        "percentage_laid_off": 0.2,
         "industry": "Sales",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.geektime.co.il/zoominfo-shuts-down-israeli-rd-center-lays-off-300/"
+        "source": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html"
       },
       {
         "date": "2026-05-10",
@@ -153,9 +153,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-10 includes 2 public layoff events and 500 reported layoffs.",
-    "The largest company contributor is ZoomInfo with 300 reported layoffs.",
-    "The leading named industry is Sales with 300 reported layoffs."
+    "2026-05-10 includes 2 public layoff events and 800 reported layoffs.",
+    "The largest company contributor is ZoomInfo with 600 reported layoffs.",
+    "The leading named industry is Sales with 600 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

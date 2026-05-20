@@ -24,12 +24,12 @@
     {
       "stage": "Post-IPO",
       "size_bucket": "100-499",
-      "event_count": 61
+      "event_count": 60
     },
     {
       "stage": "Post-IPO",
       "size_bucket": "500-999",
-      "event_count": 16
+      "event_count": 17
     },
     {
       "stage": "Post-IPO",
@@ -49,7 +49,7 @@
     {
       "stage": "Series D+",
       "size_bucket": "100-499",
-      "event_count": 29
+      "event_count": 30
     },
     {
       "stage": "Series D+",
@@ -69,7 +69,7 @@
     {
       "stage": "Series A-C",
       "size_bucket": "<100",
-      "event_count": 28
+      "event_count": 29
     },
     {
       "stage": "Series A-C",
@@ -149,7 +149,7 @@
     {
       "stage": "Unknown",
       "size_bucket": "100-499",
-      "event_count": 27
+      "event_count": 29
     },
     {
       "stage": "Unknown",

@@ -44,6 +44,10 @@
     "total_laid_off": 4221
   },
   {
+    "company": "Intuit",
+    "total_laid_off": 3000
+  },
+  {
     "company": "Northvolt",
     "total_laid_off": 2800
   },
@@ -54,9 +58,5 @@
   {
     "company": "Autodesk",
     "total_laid_off": 2350
-  },
-  {
-    "company": "Workday",
-    "total_laid_off": 2150
   }
 ]

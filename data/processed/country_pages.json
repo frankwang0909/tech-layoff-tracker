@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-15"
+      "end": "2026-05-20"
     },
     "kpis": {
-      "total_laid_off": 199116,
-      "event_count": 288,
-      "headcount_event_count": 192,
-      "company_count": 218,
+      "total_laid_off": 202116,
+      "event_count": 289,
+      "headcount_event_count": 193,
+      "company_count": 219,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 48
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 14685
+          "total_laid_off": 17685
         }
       ],
       "company_top": [
@@ -135,6 +135,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-20",
+          "company": "Intuit",
+          "num_laid_off": 3000,
+          "percentage_laid_off": 0.17,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+        },
+        {
           "date": "2026-05-15",
           "company": "Kraken",
           "num_laid_off": 150,
@@ -156,16 +166,6 @@
         },
         {
           "date": "2026-05-13",
-          "company": "Cisco",
-          "num_laid_off": 4000,
-          "percentage_laid_off": 0.05,
-          "industry": "Infrastructure",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blogs.cisco.com/news/our-path-forward"
-        },
-        {
-          "date": "2026-05-13",
           "company": "LinkedIn",
           "num_laid_off": 875,
           "percentage_laid_off": 0.05,
@@ -173,6 +173,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+        },
+        {
+          "date": "2026-05-13",
+          "company": "Cisco",
+          "num_laid_off": 4000,
+          "percentage_laid_off": 0.05,
+          "industry": "Infrastructure",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blogs.cisco.com/news/our-path-forward"
         },
         {
           "date": "2026-05-11",
@@ -216,26 +226,6 @@
         },
         {
           "date": "2026-05-07",
-          "company": "Cloudflare",
-          "num_laid_off": 1100,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blog.cloudflare.com/building-for-the-future/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Bill.com",
-          "num_laid_off": 709,
-          "percentage_laid_off": 0.3,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-        },
-        {
-          "date": "2026-05-07",
           "company": "Ticketmaster",
           "num_laid_off": 350,
           "percentage_laid_off": 0.08,
@@ -253,6 +243,26 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Bill.com",
+          "num_laid_off": 709,
+          "percentage_laid_off": 0.3,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Cloudflare",
+          "num_laid_off": 1100,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blog.cloudflare.com/building-for-the-future/"
         },
         {
           "date": "2026-05-06",
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "PayPal",
-          "num_laid_off": 4760,
-          "percentage_laid_off": 0.2,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
         }
       ]
     },
-    "summary": "United States has 199,116 reported tech layoffs across 288 public events from 2025-01-02 to 2026-05-15."
+    "summary": "United States has 202,116 reported tech layoffs across 289 public events from 2025-01-02 to 2026-05-20."
   },
   {
     "type": "country",

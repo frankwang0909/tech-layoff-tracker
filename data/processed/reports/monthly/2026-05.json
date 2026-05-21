@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-04",
-    "end": "2026-05-18"
+    "end": "2026-05-20"
   },
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-20",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
-    "total_laid_off": 16015,
-    "event_count": 35,
-    "headcount_event_count": 27,
-    "company_count": 35,
+    "total_laid_off": 19015,
+    "event_count": 36,
+    "headcount_event_count": 28,
+    "company_count": 36,
     "country_count": 12,
     "industry_count": 20,
-    "average_layoffs_per_headcount_event": 593.15,
+    "average_layoffs_per_headcount_event": 679.11,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 6
   },
@@ -24,20 +24,20 @@
       "period": "2026-04",
       "total_laid_off": 12675,
       "event_count": 32,
-      "total_laid_off_delta": 3340,
-      "total_laid_off_pct_change": 0.2635,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.0938,
+      "total_laid_off_delta": 6340,
+      "total_laid_off_pct_change": 0.5002,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.125,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05",
       "total_laid_off": 10577,
       "event_count": 27,
-      "total_laid_off_delta": 5438,
-      "total_laid_off_pct_change": 0.5141,
-      "event_count_delta": 8,
-      "event_count_pct_change": 0.2963,
+      "total_laid_off_delta": 8438,
+      "total_laid_off_pct_change": 0.7978,
+      "event_count_delta": 9,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Cisco",
         "total_laid_off": 4000
+      },
+      {
+        "company": "Intuit",
+        "total_laid_off": 3000
       },
       {
         "company": "Cloudflare",
@@ -78,16 +82,12 @@
       {
         "company": "Ticketmaster",
         "total_laid_off": 350
-      },
-      {
-        "company": "Innovaccer",
-        "total_laid_off": 340
       }
     ],
     "industry_top": [
       {
         "industry": "Finance",
-        "total_laid_off": 5469
+        "total_laid_off": 8469
       },
       {
         "industry": "Infrastructure",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 14685
+        "total_laid_off": 17685
       },
       {
         "country": "Germany",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 12820
+        "total_laid_off": 15820
       },
       {
         "stage": "Acquired",
@@ -201,7 +201,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 13
+        "event_count": 14
       },
       {
         "bucket": "25-49%",
@@ -238,6 +238,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-05-20",
+        "company": "Intuit",
+        "num_laid_off": 3000,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
       },
       {
         "date": "2026-05-07",
@@ -308,19 +318,19 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-      },
-      {
-        "date": "2026-05-14",
-        "company": "Innovaccer",
-        "num_laid_off": 340,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-20",
+        "company": "Intuit",
+        "num_laid_off": 3000,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+      },
       {
         "date": "2026-05-18",
         "company": "AI21 Labs",
@@ -510,16 +520,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blog.cloudflare.com/building-for-the-future/"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Bill.com",
-        "num_laid_off": 709,
-        "percentage_laid_off": 0.3,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bill.com/blog/a-message-to-bill-employees"
       }
     ],
     "high_intensity_events": [
@@ -586,9 +586,9 @@
     ]
   },
   "insights": [
-    "2026-05 includes 35 public layoff events and 16,015 reported layoffs.",
+    "2026-05 includes 36 public layoff events and 19,015 reported layoffs.",
     "The largest company contributor is PayPal with 4,760 reported layoffs.",
-    "The leading named industry is Finance with 5,469 reported layoffs.",
+    "The leading named industry is Finance with 8,469 reported layoffs.",
     "6 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

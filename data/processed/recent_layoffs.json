@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-20",
+    "company": "Intuit",
+    "num_laid_off": 3000,
+    "percentage_laid_off": 0.17,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+  },
+  {
     "date": "2026-05-18",
     "company": "AI21 Labs",
     "num_laid_off": 110,
@@ -31,16 +41,6 @@
   },
   {
     "date": "2026-05-14",
-    "company": "Gambling.com Group",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "Ireland",
-    "stage": "Post-IPO",
-    "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
-  },
-  {
-    "date": "2026-05-14",
     "company": "Dune",
     "num_laid_off": null,
     "percentage_laid_off": 0.25,
@@ -48,6 +48,16 @@
     "country": "Norway",
     "stage": "Series B",
     "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+  },
+  {
+    "date": "2026-05-14",
+    "company": "Gambling.com Group",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "Ireland",
+    "stage": "Post-IPO",
+    "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
   },
   {
     "date": "2026-05-13",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
-  },
-  {
-    "date": "2026-05-11",
-    "company": "One Identity",
-    "num_laid_off": 41,
-    "percentage_laid_off": null,
-    "industry": "Security",
-    "country": "Germany",
-    "stage": "Unknown",
-    "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
   }
 ]

@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Intuit,SF Bay Area,3000.0,2026-05-20,0.17,Finance,https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/,Post-IPO,18.0,United States,2026-05-20T15:48:05.000Z
 AI21 Labs,"Tel Aviv, Non-U.S.",110.0,2026-05-18,0.61,AI,https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241,Series D,626.0,Israel,2026-05-20T02:20:30.000Z
 Kraken,SF Bay Area,150.0,2026-05-15,,Crypto,https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027,Unknown,134.0,United States,2026-05-15T20:42:54.000Z
 Innovaccer,SF Bay Area,340.0,2026-05-14,,Healthcare,https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/,Series E,379.0,United States,2026-05-16T04:52:03.000Z
@@ -40,7 +41,7 @@ Remarkable,"Oslo, Non-U.S.",200.0,2026-04-22,,Hardware,https://goodereader.com/b
 Epidemic Sound,"Stockholm, Non-U.S.",150.0,2026-04-21,0.33,Media,https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20,Private Equity,509.0,Sweden,2026-05-07T21:03:10.000Z
 GeoComply,"Vancouver, Non-U.S.",68.0,2026-04-21,0.15,Security,https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/,Private Equity,,United States,2026-05-11T01:50:25.000Z
 Acko,"Mumbai, Non-U.S.",60.0,2026-04-20,0.05,Finance,https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/,Unknown,143.0,India,2026-04-20T23:39:50.000Z
-Meta,SF Bay Area,8000.0,2026-04-17,0.1,Consumer,https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/,Post-IPO,26000.0,United States,2026-04-20T23:38:53.000Z
+Meta,SF Bay Area,8000.0,2026-04-17,0.1,Consumer,https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html,Post-IPO,26000.0,United States,2026-04-20T23:38:53.000Z
 Sama,"Nairobi, Non-U.S.",1108.0,2026-04-16,,AI,https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/,Series B,85.0,Kenya,2026-05-15T20:52:34.000Z
 Shutterfly,"Haifa, Non-U.S.",80.0,2026-04-16,,Manufacturing,https://www.calcalistech.com/ctechnews/article/rkx2avanzg,Post-IPO,50.0,United States,2026-04-17T03:48:04.000Z
 Quora,SF Bay Area,,2026-04-16,,Consumer,https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post,Series D,226.0,United States,2026-04-20T23:39:20.000Z

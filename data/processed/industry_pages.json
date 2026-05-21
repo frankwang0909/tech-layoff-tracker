@@ -700,7 +700,7 @@
           "industry": "Consumer",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+          "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
         },
         {
           "date": "2026-04-16",
@@ -834,13 +834,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-09"
+      "end": "2026-05-20"
     },
     "kpis": {
-      "total_laid_off": 14455,
-      "event_count": 48,
-      "headcount_event_count": 30,
-      "company_count": 43,
+      "total_laid_off": 17455,
+      "event_count": 49,
+      "headcount_event_count": 31,
+      "company_count": 44,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 16
@@ -905,7 +905,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 5469
+          "total_laid_off": 8469
         }
       ],
       "company_top": [
@@ -916,6 +916,10 @@
         {
           "company": "PayPal",
           "total_laid_off": 4760
+        },
+        {
+          "company": "Intuit",
+          "total_laid_off": 3000
         },
         {
           "company": "Bill.com",
@@ -944,15 +948,21 @@
         {
           "company": "Zepz",
           "total_laid_off": 200
-        },
-        {
-          "company": "Pipe",
-          "total_laid_off": 200
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-20",
+          "company": "Intuit",
+          "num_laid_off": 3000,
+          "percentage_laid_off": 0.17,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+        },
         {
           "date": "2026-05-09",
           "company": "Parker",
@@ -1092,20 +1102,10 @@
           "country": "United States",
           "stage": "Private Equity",
           "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
-        },
-        {
-          "date": "2026-02-28",
-          "company": "Zap Africa",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.44,
-          "industry": "Finance",
-          "country": "Nigeria",
-          "stage": "Seed",
-          "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
         }
       ]
     },
-    "summary": "Finance has 14,455 reported tech layoffs across 48 public events from 2025-01-02 to 2026-05-09."
+    "summary": "Finance has 17,455 reported tech layoffs across 49 public events from 2025-01-02 to 2026-05-20."
   },
   {
     "type": "industry",

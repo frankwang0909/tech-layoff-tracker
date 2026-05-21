@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-18",
-    "end": "2026-05-18"
+    "end": "2026-05-20"
   },
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-20",
   "canonical_url": "/reports/weekly/2026-W21.html",
   "kpis": {
-    "total_laid_off": 110,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 110.0,
-    "median_layoffs_per_headcount_event": 110.0,
+    "total_laid_off": 3110,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 1555.0,
+    "median_layoffs_per_headcount_event": 1555.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W20",
       "total_laid_off": 5884,
       "event_count": 13,
-      "total_laid_off_delta": -5774,
-      "total_laid_off_pct_change": -0.9813,
-      "event_count_delta": -12,
-      "event_count_pct_change": -0.9231,
+      "total_laid_off_delta": -2774,
+      "total_laid_off_pct_change": -0.4714,
+      "event_count_delta": -11,
+      "event_count_pct_change": -0.8462,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W21",
       "total_laid_off": 544,
       "event_count": 6,
-      "total_laid_off_delta": -434,
-      "total_laid_off_pct_change": -0.7978,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.8333,
+      "total_laid_off_delta": 2566,
+      "total_laid_off_pct_change": 4.7169,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.6667,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Intuit",
+        "total_laid_off": 3000
+      },
       {
         "company": "AI21 Labs",
         "total_laid_off": 110
@@ -50,17 +54,29 @@
     ],
     "industry_top": [
       {
+        "industry": "Finance",
+        "total_laid_off": 3000
+      },
+      {
         "industry": "AI",
         "total_laid_off": 110
       }
     ],
     "country_top": [
       {
+        "country": "United States",
+        "total_laid_off": 3000
+      },
+      {
         "country": "Israel",
         "total_laid_off": 110
       }
     ],
     "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 3000
+      },
       {
         "stage": "Series D",
         "total_laid_off": 110
@@ -73,7 +89,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -92,6 +108,16 @@
   "tables": {
     "largest_events": [
       {
+        "date": "2026-05-20",
+        "company": "Intuit",
+        "num_laid_off": 3000,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+      },
+      {
         "date": "2026-05-18",
         "company": "AI21 Labs",
         "num_laid_off": 110,
@@ -103,6 +129,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-20",
+        "company": "Intuit",
+        "num_laid_off": 3000,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+      },
       {
         "date": "2026-05-18",
         "company": "AI21 Labs",
@@ -128,9 +164,9 @@
     ]
   },
   "insights": [
-    "2026-W21 includes 1 public layoff events and 110 reported layoffs.",
-    "The largest company contributor is AI21 Labs with 110 reported layoffs.",
-    "The leading named industry is AI with 110 reported layoffs.",
+    "2026-W21 includes 2 public layoff events and 3,110 reported layoffs.",
+    "The largest company contributor is Intuit with 3,000 reported layoffs.",
+    "The leading named industry is Finance with 3,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

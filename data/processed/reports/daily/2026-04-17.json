@@ -6,7 +6,7 @@
     "start": "2026-04-17",
     "end": "2026-04-17"
   },
-  "updated_at": "2026-05-18",
+  "updated_at": "2026-05-20",
   "canonical_url": "/reports/daily/2026-04-17.html",
   "kpis": {
     "total_laid_off": 8000,
@@ -99,7 +99,7 @@
         "industry": "Consumer",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
       }
     ],
     "recent_events": [
@@ -111,7 +111,7 @@
         "industry": "Consumer",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.reuters.com/world/meta-targets-may-20-first-wave-layoffs-additional-cuts-later-2026-2026-04-17/"
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
       }
     ],
     "high_intensity_events": []

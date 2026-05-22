@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-21",
+    "company": "ClickUp",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.22,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Series C",
+    "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
+  },
+  {
     "date": "2026-05-20",
     "company": "Intuit",
     "num_laid_off": 3000,
@@ -108,15 +118,5 @@
     "country": "Egypt",
     "stage": "Series C",
     "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
-  },
-  {
-    "date": "2026-05-11",
-    "company": "MRI Software",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Real Estate",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
   }
 ]

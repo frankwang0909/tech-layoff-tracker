@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-04",
-    "end": "2026-05-20"
+    "end": "2026-05-21"
   },
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-05-21",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
     "total_laid_off": 19015,
-    "event_count": 36,
+    "event_count": 37,
     "headcount_event_count": 28,
-    "company_count": 36,
+    "company_count": 37,
     "country_count": 12,
     "industry_count": 20,
     "average_layoffs_per_headcount_event": 679.11,
@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-04",
-      "total_laid_off": 12675,
-      "event_count": 32,
-      "total_laid_off_delta": 6340,
-      "total_laid_off_pct_change": 0.5002,
+      "total_laid_off": 12712,
+      "event_count": 33,
+      "total_laid_off_delta": 6303,
+      "total_laid_off_pct_change": 0.4958,
       "event_count_delta": 4,
-      "event_count_pct_change": 0.125,
+      "event_count_pct_change": 0.1212,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 27,
       "total_laid_off_delta": 8438,
       "total_laid_off_pct_change": 0.7978,
-      "event_count_delta": 9,
-      "event_count_pct_change": 0.3333,
+      "event_count_delta": 10,
+      "event_count_pct_change": 0.3704,
       "note": null
     }
   },
@@ -322,6 +322,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-05-21",
+        "company": "ClickUp",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
+      },
+      {
         "date": "2026-05-20",
         "company": "Intuit",
         "num_laid_off": 3000,
@@ -383,16 +393,6 @@
       },
       {
         "date": "2026-05-13",
-        "company": "Jumia",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "Nigeria",
-        "stage": "Post-IPO",
-        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
-      },
-      {
-        "date": "2026-05-13",
         "company": "Guesty",
         "num_laid_off": 20,
         "percentage_laid_off": 0.02,
@@ -400,6 +400,16 @@
         "country": "Israel",
         "stage": "Series F",
         "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Jumia",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Post-IPO",
+        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
       },
       {
         "date": "2026-05-13",
@@ -510,16 +520,6 @@
         "country": "Germany",
         "stage": "Series E",
         "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
-      },
-      {
-        "date": "2026-05-07",
-        "company": "Cloudflare",
-        "num_laid_off": 1100,
-        "percentage_laid_off": 0.2,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blog.cloudflare.com/building-for-the-future/"
       }
     ],
     "high_intensity_events": [
@@ -586,7 +586,7 @@
     ]
   },
   "insights": [
-    "2026-05 includes 36 public layoff events and 19,015 reported layoffs.",
+    "2026-05 includes 37 public layoff events and 19,015 reported layoffs.",
     "The largest company contributor is PayPal with 4,760 reported layoffs.",
     "The leading named industry is Finance with 8,469 reported layoffs.",
     "6 events report a layoff percentage of 25% or higher."

@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+ClickUp,San Diego,,2026-05-21,0.22,Other,https://x.com/DJ_CURFEW/status/2057522382315929802?s=20,Series C,537.0,United States,2026-05-21T20:42:29.000Z
 Intuit,SF Bay Area,3000.0,2026-05-20,0.17,Finance,https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/,Post-IPO,18.0,United States,2026-05-20T15:48:05.000Z
 AI21 Labs,"Tel Aviv, Non-U.S.",110.0,2026-05-18,0.61,AI,https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241,Series D,626.0,Israel,2026-05-20T02:20:30.000Z
 Kraken,SF Bay Area,150.0,2026-05-15,,Crypto,https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027,Unknown,134.0,United States,2026-05-15T20:42:54.000Z
@@ -48,6 +49,7 @@ Quora,SF Bay Area,,2026-04-16,,Consumer,https://quorablog.quora.com/Update?ch=10
 Snap,Los Angeles,1000.0,2026-04-15,0.16,Consumer,https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html,Post-IPO,4900.0,United States,2026-04-15T14:56:21.000Z
 UKG,Boston,950.0,2026-04-15,,HR,https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/,Unknown,,United States,2026-04-17T03:43:46.000Z
 Taboola,New York City,100.0,2026-04-15,0.05,Marketing,https://www.calcalistech.com/ctechnews/article/hku03an3bg,Post-IPO,445.0,United States,2026-05-05T17:27:58.000Z
+Swyftx,"Brisbane, Non-U.S.",37.0,2026-04-15,0.15,Crypto,https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html,Unknown,,Australia,2026-05-21T20:46:18.000Z
 Nayax,"Tel Aviv, Non-U.S.",32.0,2026-04-15,0.03,Finance,https://www.calcalistech.com/ctechnews/article/h1edoi6nbl,Post-IPO,245.0,Israel,2026-05-05T17:29:19.000Z
 Productboard,SF Bay Area,,2026-04-15,0.3,Product,https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D,Series D,,United States,2026-04-16T04:41:44.000Z
 GoCardless,"London, Non-U.S.",90.0,2026-04-14,,Finance,https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/,Series G,529.0,United Kingdom,2026-04-30T23:44:30.000Z

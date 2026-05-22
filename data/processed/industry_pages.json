@@ -3839,11 +3839,11 @@
       "end": "2026-05-15"
     },
     "kpis": {
-      "total_laid_off": 1186,
-      "event_count": 13,
-      "headcount_event_count": 6,
-      "company_count": 12,
-      "country_count": 5,
+      "total_laid_off": 1223,
+      "event_count": 14,
+      "headcount_event_count": 7,
+      "company_count": 13,
+      "country_count": 6,
       "industry_count": 1,
       "high_intensity_event_count": 5
     },
@@ -3860,6 +3860,10 @@
         {
           "month": "2026-01",
           "total_laid_off": 60
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 37
         },
         {
           "month": "2026-05",
@@ -3886,6 +3890,10 @@
         {
           "company": "ConsenSys",
           "total_laid_off": 47
+        },
+        {
+          "company": "Swyftx",
+          "total_laid_off": 37
         },
         {
           "company": "Eigen Labs",
@@ -3934,6 +3942,16 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Swyftx",
+          "num_laid_off": 37,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
         },
         {
           "date": "2026-04-13",
@@ -4027,7 +4045,7 @@
         }
       ]
     },
-    "summary": "Crypto has 1,186 reported tech layoffs across 13 public events from 2025-02-05 to 2026-05-15."
+    "summary": "Crypto has 1,223 reported tech layoffs across 14 public events from 2025-02-05 to 2026-05-15."
   },
   {
     "type": "industry",

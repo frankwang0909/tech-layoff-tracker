@@ -6,17 +6,17 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-05-21",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 12675,
-    "event_count": 32,
-    "headcount_event_count": 19,
-    "company_count": 31,
-    "country_count": 8,
+    "total_laid_off": 12712,
+    "event_count": 33,
+    "headcount_event_count": 20,
+    "company_count": 32,
+    "country_count": 9,
     "industry_count": 15,
-    "average_layoffs_per_headcount_event": 667.11,
-    "median_layoffs_per_headcount_event": 100.0,
+    "average_layoffs_per_headcount_event": 635.6,
+    "median_layoffs_per_headcount_event": 95.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-03",
       "total_laid_off": 46536,
       "event_count": 31,
-      "total_laid_off_delta": -33861,
-      "total_laid_off_pct_change": -0.7276,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.0323,
+      "total_laid_off_delta": -33824,
+      "total_laid_off_pct_change": -0.7268,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.0645,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25420,
       "event_count": 29,
-      "total_laid_off_delta": -12745,
-      "total_laid_off_pct_change": -0.5014,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.1034,
+      "total_laid_off_delta": -12708,
+      "total_laid_off_pct_change": -0.4999,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.1379,
       "note": null
     }
   },
@@ -156,6 +156,10 @@
         "total_laid_off": 90
       },
       {
+        "country": "Australia",
+        "total_laid_off": 37
+      },
+      {
         "country": "Israel",
         "total_laid_off": 32
       }
@@ -167,7 +171,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1435
+        "total_laid_off": 1472
       },
       {
         "stage": "Series B",
@@ -201,7 +205,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 5
+        "event_count": 6
       },
       {
         "bucket": "25-49%",
@@ -270,16 +274,6 @@
         "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
       },
       {
-        "date": "2026-04-22",
-        "company": "Remarkable",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "Norway",
-        "stage": "Unknown",
-        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
-      },
-      {
         "date": "2026-04-02",
         "company": "Meta",
         "num_laid_off": 200,
@@ -288,6 +282,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+      },
+      {
+        "date": "2026-04-22",
+        "company": "Remarkable",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Norway",
+        "stage": "Unknown",
+        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
       },
       {
         "date": "2026-04-21",
@@ -403,16 +407,6 @@
       },
       {
         "date": "2026-04-16",
-        "company": "Quora",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
-      },
-      {
-        "date": "2026-04-16",
         "company": "Shutterfly",
         "num_laid_off": 80,
         "percentage_laid_off": null,
@@ -420,6 +414,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+      },
+      {
+        "date": "2026-04-16",
+        "company": "Quora",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
       },
       {
         "date": "2026-04-15",
@@ -453,6 +457,16 @@
       },
       {
         "date": "2026-04-15",
+        "company": "Swyftx",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+      },
+      {
+        "date": "2026-04-15",
         "company": "Nayax",
         "num_laid_off": 32,
         "percentage_laid_off": 0.03,
@@ -483,16 +497,6 @@
       },
       {
         "date": "2026-04-13",
-        "company": "StarkWare",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
-      },
-      {
-        "date": "2026-04-13",
         "company": "Eventbrite",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -500,6 +504,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+      },
+      {
+        "date": "2026-04-13",
+        "company": "StarkWare",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
       },
       {
         "date": "2026-04-12",
@@ -510,16 +524,6 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
-      },
-      {
-        "date": "2026-04-10",
-        "company": "Life360",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
       }
     ],
     "high_intensity_events": [
@@ -596,7 +600,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 32 public layoff events and 12,675 reported layoffs.",
+    "2026-04 includes 33 public layoff events and 12,712 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

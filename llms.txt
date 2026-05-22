@@ -12,9 +12,9 @@ Canonical pages:
 
 Current dataset:
 - Data range: 2025-01-06 to 2026-05-20
-- Total reported layoffs: 238,809
-- 2026 YTD reported layoffs: 114,173
-- Companies affected: 271
+- Total reported layoffs: 238,846
+- 2026 YTD reported layoffs: 114,210
+- Companies affected: 272
 - Countries or regions: 23
 - Peak month: 2026-03 with 46,536 reported layoffs
 - Top company: Oracle with 31,094 reported layoffs

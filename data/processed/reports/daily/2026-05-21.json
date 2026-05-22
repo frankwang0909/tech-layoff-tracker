@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2026-04-01",
+  "period": "2026-05-21",
   "status": "final",
   "date_range": {
-    "start": "2026-04-01",
-    "end": "2026-04-01"
+    "start": "2026-05-21",
+    "end": "2026-05-21"
   },
   "updated_at": "2026-05-21",
-  "canonical_url": "/reports/daily/2026-04-01.html",
+  "canonical_url": "/reports/daily/2026-05-21.html",
   "kpis": {
     "total_laid_off": 0,
     "event_count": 1,
@@ -21,20 +21,20 @@
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-03-31",
-      "total_laid_off": 30050,
-      "event_count": 5,
-      "total_laid_off_delta": -30050,
+      "period": "2026-05-20",
+      "total_laid_off": 3000,
+      "event_count": 1,
+      "total_laid_off_delta": -3000,
       "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.8,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
-      "period": "2025-04-01",
-      "total_laid_off": 600,
+      "period": "2025-05-21",
+      "total_laid_off": 106,
       "event_count": 1,
-      "total_laid_off_delta": -600,
+      "total_laid_off_delta": -106,
       "total_laid_off_pct_change": -1.0,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
@@ -73,20 +73,20 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2026-04-01",
-        "company": "Sonos",
+        "date": "2026-05-21",
+        "company": "ClickUp",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
+        "stage": "Series C",
+        "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-04-01 includes 1 public layoff events and 0 reported layoffs."
+    "2026-05-21 includes 1 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

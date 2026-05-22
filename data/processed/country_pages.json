@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-20"
+      "end": "2026-05-21"
     },
     "kpis": {
       "total_laid_off": 202116,
-      "event_count": 289,
+      "event_count": 290,
       "headcount_event_count": 193,
-      "company_count": 219,
+      "company_count": 220,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 48
@@ -135,6 +135,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-21",
+          "company": "ClickUp",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.22,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
+        },
+        {
           "date": "2026-05-20",
           "company": "Intuit",
           "num_laid_off": 3000,
@@ -166,16 +176,6 @@
         },
         {
           "date": "2026-05-13",
-          "company": "LinkedIn",
-          "num_laid_off": 875,
-          "percentage_laid_off": 0.05,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
-        },
-        {
-          "date": "2026-05-13",
           "company": "Cisco",
           "num_laid_off": 4000,
           "percentage_laid_off": 0.05,
@@ -183,6 +183,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://blogs.cisco.com/news/our-path-forward"
+        },
+        {
+          "date": "2026-05-13",
+          "company": "LinkedIn",
+          "num_laid_off": 875,
+          "percentage_laid_off": 0.05,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
         },
         {
           "date": "2026-05-11",
@@ -226,6 +236,26 @@
         },
         {
           "date": "2026-05-07",
+          "company": "Cloudflare",
+          "num_laid_off": 1100,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blog.cloudflare.com/building-for-the-future/"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Bill.com",
+          "num_laid_off": 709,
+          "percentage_laid_off": 0.3,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+        },
+        {
+          "date": "2026-05-07",
           "company": "Ticketmaster",
           "num_laid_off": 350,
           "percentage_laid_off": 0.08,
@@ -245,26 +275,6 @@
           "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
         },
         {
-          "date": "2026-05-07",
-          "company": "Bill.com",
-          "num_laid_off": 709,
-          "percentage_laid_off": 0.3,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Cloudflare",
-          "num_laid_off": 1100,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blog.cloudflare.com/building-for-the-future/"
-        },
-        {
           "date": "2026-05-06",
           "company": "Arctic Wolf",
           "num_laid_off": 250,
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "reAlpha",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
         }
       ]
     },
-    "summary": "United States has 202,116 reported tech layoffs across 289 public events from 2025-01-02 to 2026-05-20."
+    "summary": "United States has 202,116 reported tech layoffs across 290 public events from 2025-01-02 to 2026-05-21."
   },
   {
     "type": "country",
@@ -1003,15 +1003,15 @@
     "canonical_url": "/countries/australia.html",
     "date_range": {
       "start": "2025-04-02",
-      "end": "2026-03-11"
+      "end": "2026-04-15"
     },
     "kpis": {
-      "total_laid_off": 4220,
-      "event_count": 9,
-      "headcount_event_count": 7,
-      "company_count": 6,
+      "total_laid_off": 4257,
+      "event_count": 10,
+      "headcount_event_count": 8,
+      "company_count": 7,
       "country_count": 1,
-      "industry_count": 6,
+      "industry_count": 7,
       "high_intensity_event_count": 3
     },
     "charts": {
@@ -1039,6 +1039,10 @@
         {
           "month": "2026-03",
           "total_laid_off": 1800
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 37
         }
       ],
       "company_top": [
@@ -1059,6 +1063,10 @@
           "total_laid_off": 60
         },
         {
+          "company": "Swyftx",
+          "total_laid_off": 37
+        },
+        {
           "company": "Canva",
           "total_laid_off": 10
         }
@@ -1066,6 +1074,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-04-15",
+          "company": "Swyftx",
+          "num_laid_off": 37,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+        },
         {
           "date": "2026-03-11",
           "company": "Atlassian",
@@ -1158,7 +1176,7 @@
         }
       ]
     },
-    "summary": "Australia has 4,220 reported tech layoffs across 9 public events from 2025-04-02 to 2026-03-11."
+    "summary": "Australia has 4,257 reported tech layoffs across 10 public events from 2025-04-02 to 2026-04-15."
   },
   {
     "type": "country",

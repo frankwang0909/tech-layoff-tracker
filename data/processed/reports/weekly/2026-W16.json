@@ -6,17 +6,17 @@
     "start": "2026-04-13",
     "end": "2026-04-17"
   },
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-05-21",
   "canonical_url": "/reports/weekly/2026-W16.html",
   "kpis": {
-    "total_laid_off": 11360,
-    "event_count": 12,
-    "headcount_event_count": 8,
-    "company_count": 12,
-    "country_count": 4,
+    "total_laid_off": 11397,
+    "event_count": 13,
+    "headcount_event_count": 9,
+    "company_count": 13,
+    "country_count": 5,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 1420.0,
-    "median_layoffs_per_headcount_event": 525.0,
+    "average_layoffs_per_headcount_event": 1266.33,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W15",
       "total_laid_off": 312,
       "event_count": 7,
-      "total_laid_off_delta": 11048,
-      "total_laid_off_pct_change": 35.4103,
-      "event_count_delta": 5,
-      "event_count_pct_change": 0.7143,
+      "total_laid_off_delta": 11085,
+      "total_laid_off_pct_change": 35.5288,
+      "event_count_delta": 6,
+      "event_count_pct_change": 0.8571,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 10806,
-      "total_laid_off_pct_change": 19.5054,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": 10843,
+      "total_laid_off_pct_change": 19.5722,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.1667,
       "note": null
     }
   },
@@ -72,6 +72,10 @@
         "total_laid_off": 80
       },
       {
+        "company": "Swyftx",
+        "total_laid_off": 37
+      },
+      {
         "company": "Nayax",
         "total_laid_off": 32
       }
@@ -100,6 +104,10 @@
       {
         "industry": "Manufacturing",
         "total_laid_off": 80
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 37
       }
     ],
     "country_top": [
@@ -114,6 +122,10 @@
       {
         "country": "United Kingdom",
         "total_laid_off": 90
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 37
       },
       {
         "country": "Israel",
@@ -131,7 +143,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 950
+        "total_laid_off": 987
       },
       {
         "stage": "Series G",
@@ -145,7 +157,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -235,6 +247,16 @@
       },
       {
         "date": "2026-04-15",
+        "company": "Swyftx",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+      },
+      {
+        "date": "2026-04-15",
         "company": "Nayax",
         "num_laid_off": 32,
         "percentage_laid_off": 0.03,
@@ -317,6 +339,16 @@
       },
       {
         "date": "2026-04-15",
+        "company": "Swyftx",
+        "num_laid_off": 37,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+      },
+      {
+        "date": "2026-04-15",
         "company": "Nayax",
         "num_laid_off": 32,
         "percentage_laid_off": 0.03,
@@ -380,7 +412,7 @@
     ]
   },
   "insights": [
-    "2026-W16 includes 12 public layoff events and 11,360 reported layoffs.",
+    "2026-W16 includes 13 public layoff events and 11,397 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Consumer with 9,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

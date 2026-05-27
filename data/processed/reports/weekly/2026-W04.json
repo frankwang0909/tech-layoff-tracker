@@ -6,17 +6,17 @@
     "start": "2026-01-20",
     "end": "2026-01-25"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/weekly/2026-W04.html",
   "kpis": {
-    "total_laid_off": 1000,
-    "event_count": 5,
-    "headcount_event_count": 1,
-    "company_count": 4,
-    "country_count": 2,
+    "total_laid_off": 1220,
+    "event_count": 6,
+    "headcount_event_count": 2,
+    "company_count": 5,
+    "country_count": 3,
     "industry_count": 4,
-    "average_layoffs_per_headcount_event": 1000.0,
-    "median_layoffs_per_headcount_event": 1000.0,
+    "average_layoffs_per_headcount_event": 610.0,
+    "median_layoffs_per_headcount_event": 610.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W03",
       "total_laid_off": 4031,
       "event_count": 9,
-      "total_laid_off_delta": -3031,
-      "total_laid_off_pct_change": -0.7519,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.4444,
+      "total_laid_off_delta": -2811,
+      "total_laid_off_pct_change": -0.6973,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W04",
       "total_laid_off": 366,
       "event_count": 3,
-      "total_laid_off_delta": 634,
-      "total_laid_off_pct_change": 1.7322,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.6667,
+      "total_laid_off_delta": 854,
+      "total_laid_off_pct_change": 2.3333,
+      "event_count_delta": 3,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,24 +46,40 @@
       {
         "company": "Autodesk",
         "total_laid_off": 1000
+      },
+      {
+        "company": "Roof Stacks",
+        "total_laid_off": 220
       }
     ],
     "industry_top": [
       {
         "industry": "Other",
         "total_laid_off": 1000
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 220
       }
     ],
     "country_top": [
       {
         "country": "United States",
         "total_laid_off": 1000
+      },
+      {
+        "country": "Turkey",
+        "total_laid_off": 220
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 1000
+      },
+      {
+        "stage": "Seed",
+        "total_laid_off": 220
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +116,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
+      },
+      {
+        "date": "2026-01-24",
+        "company": "Roof Stacks",
+        "num_laid_off": 220,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Turkey",
+        "stage": "Seed",
+        "source": "https://www.yenicaggazetesi.com/erdoganin-mektup-arkadasinin-sirketinde-skandal-olay-yuzlerce-kisi-isten-cikarildi-995293h.htm"
       }
     ],
     "recent_events": [
@@ -112,6 +138,16 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
+      },
+      {
+        "date": "2026-01-24",
+        "company": "Roof Stacks",
+        "num_laid_off": 220,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Turkey",
+        "stage": "Seed",
+        "source": "https://www.yenicaggazetesi.com/erdoganin-mektup-arkadasinin-sirketinde-skandal-olay-yuzlerce-kisi-isten-cikarildi-995293h.htm"
       },
       {
         "date": "2026-01-22",
@@ -168,9 +204,9 @@
     ]
   },
   "insights": [
-    "2026-W04 includes 5 public layoff events and 1,000 reported layoffs.",
+    "2026-W04 includes 6 public layoff events and 1,220 reported layoffs.",
     "The largest company contributor is Autodesk with 1,000 reported layoffs.",
-    "The leading named industry is Other with 1,000 reported layoffs.",
+    "The leading named industry is Consumer with 220 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

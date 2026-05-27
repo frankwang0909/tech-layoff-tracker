@@ -4,19 +4,19 @@
   "status": "final",
   "date_range": {
     "start": "2026-04-13",
-    "end": "2026-04-17"
+    "end": "2026-04-16"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/weekly/2026-W16.html",
   "kpis": {
-    "total_laid_off": 11397,
-    "event_count": 13,
-    "headcount_event_count": 9,
-    "company_count": 13,
+    "total_laid_off": 3397,
+    "event_count": 12,
+    "headcount_event_count": 8,
+    "company_count": 12,
     "country_count": 5,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 1266.33,
-    "median_layoffs_per_headcount_event": 100.0,
+    "average_layoffs_per_headcount_event": 424.62,
+    "median_layoffs_per_headcount_event": 95.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,29 +24,25 @@
       "period": "2026-W15",
       "total_laid_off": 312,
       "event_count": 7,
-      "total_laid_off_delta": 11085,
-      "total_laid_off_pct_change": 35.5288,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.8571,
+      "total_laid_off_delta": 3085,
+      "total_laid_off_pct_change": 9.8878,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.7143,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W16",
       "total_laid_off": 554,
       "event_count": 6,
-      "total_laid_off_delta": 10843,
-      "total_laid_off_pct_change": 19.5722,
-      "event_count_delta": 7,
-      "event_count_pct_change": 1.1667,
+      "total_laid_off_delta": 2843,
+      "total_laid_off_pct_change": 5.1318,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
-      {
-        "company": "Meta",
-        "total_laid_off": 8000
-      },
       {
         "company": "Sama",
         "total_laid_off": 1108
@@ -82,12 +78,12 @@
     ],
     "industry_top": [
       {
-        "industry": "Consumer",
-        "total_laid_off": 9000
-      },
-      {
         "industry": "AI",
         "total_laid_off": 1108
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 1000
       },
       {
         "industry": "HR",
@@ -113,7 +109,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10130
+        "total_laid_off": 2130
       },
       {
         "country": "Kenya",
@@ -135,7 +131,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9212
+        "total_laid_off": 1212
       },
       {
         "stage": "Series B",
@@ -157,7 +153,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 3
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -175,16 +171,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2026-04-17",
-        "company": "Meta",
-        "num_laid_off": 8000,
-        "percentage_laid_off": 0.1,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-      },
       {
         "date": "2026-04-16",
         "company": "Sama",
@@ -267,16 +253,6 @@
       }
     ],
     "recent_events": [
-      {
-        "date": "2026-04-17",
-        "company": "Meta",
-        "num_laid_off": 8000,
-        "percentage_laid_off": 0.1,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-      },
       {
         "date": "2026-04-16",
         "company": "Sama",
@@ -412,9 +388,9 @@
     ]
   },
   "insights": [
-    "2026-W16 includes 13 public layoff events and 11,397 reported layoffs.",
-    "The largest company contributor is Meta with 8,000 reported layoffs.",
-    "The leading named industry is Consumer with 9,000 reported layoffs.",
+    "2026-W16 includes 12 public layoff events and 3,397 reported layoffs.",
+    "The largest company contributor is Sama with 1,108 reported layoffs.",
+    "The leading named industry is AI with 1,108 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

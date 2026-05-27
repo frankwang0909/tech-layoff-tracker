@@ -6,17 +6,17 @@
     "start": "2026-05-20",
     "end": "2026-05-20"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/daily/2026-05-20.html",
   "kpis": {
-    "total_laid_off": 3000,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 11000,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 3000.0,
-    "median_layoffs_per_headcount_event": 3000.0,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 5500.0,
+    "median_layoffs_per_headcount_event": 5500.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -34,21 +34,29 @@
       "period": "2025-05-20",
       "total_laid_off": 0,
       "event_count": 2,
-      "total_laid_off_delta": 3000,
+      "total_laid_off_delta": 11000,
       "total_laid_off_pct_change": null,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
       {
+        "company": "Meta",
+        "total_laid_off": 8000
+      },
+      {
         "company": "Intuit",
         "total_laid_off": 3000
       }
     ],
     "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 8000
+      },
       {
         "industry": "Finance",
         "total_laid_off": 3000
@@ -57,13 +65,13 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 3000
+        "total_laid_off": 11000
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 3000
+        "total_laid_off": 11000
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +81,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -93,6 +101,16 @@
     "largest_events": [
       {
         "date": "2026-05-20",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+      },
+      {
+        "date": "2026-05-20",
         "company": "Intuit",
         "num_laid_off": 3000,
         "percentage_laid_off": 0.17,
@@ -103,6 +121,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-20",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+      },
       {
         "date": "2026-05-20",
         "company": "Intuit",
@@ -117,9 +145,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-20 includes 1 public layoff events and 3,000 reported layoffs.",
-    "The largest company contributor is Intuit with 3,000 reported layoffs.",
-    "The leading named industry is Finance with 3,000 reported layoffs."
+    "2026-05-20 includes 2 public layoff events and 11,000 reported layoffs.",
+    "The largest company contributor is Meta with 8,000 reported layoffs.",
+    "The leading named industry is Consumer with 8,000 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

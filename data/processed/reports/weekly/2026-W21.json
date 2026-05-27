@@ -1,22 +1,22 @@
 {
   "report_type": "weekly",
   "period": "2026-W21",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-05-18",
     "end": "2026-05-21"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/weekly/2026-W21.html",
   "kpis": {
-    "total_laid_off": 3110,
-    "event_count": 3,
-    "headcount_event_count": 2,
-    "company_count": 3,
+    "total_laid_off": 11110,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
     "country_count": 2,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 1555.0,
-    "median_layoffs_per_headcount_event": 1555.0,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 3703.33,
+    "median_layoffs_per_headcount_event": 3000.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W20",
       "total_laid_off": 5884,
       "event_count": 13,
-      "total_laid_off_delta": -2774,
-      "total_laid_off_pct_change": -0.4714,
-      "event_count_delta": -10,
-      "event_count_pct_change": -0.7692,
+      "total_laid_off_delta": 5226,
+      "total_laid_off_pct_change": 0.8882,
+      "event_count_delta": -9,
+      "event_count_pct_change": -0.6923,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W21",
       "total_laid_off": 544,
       "event_count": 6,
-      "total_laid_off_delta": 2566,
-      "total_laid_off_pct_change": 4.7169,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 10566,
+      "total_laid_off_pct_change": 19.4228,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.3333,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Meta",
+        "total_laid_off": 8000
+      },
       {
         "company": "Intuit",
         "total_laid_off": 3000
@@ -53,6 +57,10 @@
       }
     ],
     "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 8000
+      },
       {
         "industry": "Finance",
         "total_laid_off": 3000
@@ -65,7 +73,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 3000
+        "total_laid_off": 11000
       },
       {
         "country": "Israel",
@@ -75,7 +83,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 3000
+        "total_laid_off": 11000
       },
       {
         "stage": "Series D",
@@ -89,7 +97,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -107,6 +115,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-05-20",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+      },
       {
         "date": "2026-05-20",
         "company": "Intuit",
@@ -138,6 +156,16 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
+      },
+      {
+        "date": "2026-05-20",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
       },
       {
         "date": "2026-05-20",
@@ -174,9 +202,9 @@
     ]
   },
   "insights": [
-    "2026-W21 includes 3 public layoff events and 3,110 reported layoffs.",
-    "The largest company contributor is Intuit with 3,000 reported layoffs.",
-    "The leading named industry is Finance with 3,000 reported layoffs.",
+    "2026-W21 includes 4 public layoff events and 11,110 reported layoffs.",
+    "The largest company contributor is Meta with 8,000 reported layoffs.",
+    "The leading named industry is Consumer with 8,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

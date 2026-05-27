@@ -6,16 +6,16 @@
     "start": "2026-01-05",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
-    "total_laid_off": 82483,
-    "event_count": 88,
-    "headcount_event_count": 59,
-    "company_count": 84,
-    "country_count": 14,
+    "total_laid_off": 82703,
+    "event_count": 89,
+    "headcount_event_count": 60,
+    "company_count": 85,
+    "country_count": 15,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 1398.02,
+    "average_layoffs_per_headcount_event": 1378.38,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 18
   },
@@ -24,20 +24,20 @@
       "period": "2025-Q4",
       "total_laid_off": 29554,
       "event_count": 68,
-      "total_laid_off_delta": 52929,
-      "total_laid_off_pct_change": 1.7909,
-      "event_count_delta": 20,
-      "event_count_pct_change": 0.2941,
+      "total_laid_off_delta": 53149,
+      "total_laid_off_pct_change": 1.7984,
+      "event_count_delta": 21,
+      "event_count_pct_change": 0.3088,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q1",
       "total_laid_off": 29925,
       "event_count": 105,
-      "total_laid_off_delta": 52558,
-      "total_laid_off_pct_change": 1.7563,
-      "event_count_delta": -17,
-      "event_count_pct_change": -0.1619,
+      "total_laid_off_delta": 52778,
+      "total_laid_off_pct_change": 1.7637,
+      "event_count_delta": -16,
+      "event_count_pct_change": -0.1524,
       "note": null
     }
   },
@@ -80,7 +80,7 @@
         "total_laid_off": 1600
       },
       {
-        "company": "Ocado",
+        "company": "Autodesk",
         "total_laid_off": 1000
       }
     ],
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 6060
+        "total_laid_off": 6280
       },
       {
         "industry": "Finance",
@@ -140,11 +140,11 @@
         "total_laid_off": 1734
       },
       {
-        "country": "Netherlands",
+        "country": "India",
         "total_laid_off": 1700
       },
       {
-        "country": "India",
+        "country": "Netherlands",
         "total_laid_off": 1700
       },
       {
@@ -194,6 +194,10 @@
         "total_laid_off": 250
       },
       {
+        "stage": "Seed",
+        "total_laid_off": 220
+      },
+      {
         "stage": "Series A",
         "total_laid_off": 215
       },
@@ -204,10 +208,6 @@
       {
         "stage": "Series C",
         "total_laid_off": 59
-      },
-      {
-        "stage": "Series D",
-        "total_laid_off": 55
       }
     ],
     "layoff_pct_distribution": [
@@ -326,14 +326,14 @@
         "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
       },
       {
-        "date": "2026-03-24",
-        "company": "Epic Games",
+        "date": "2026-02-26",
+        "company": "Ocado",
         "num_laid_off": 1000,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
       }
     ],
     "recent_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 88 public layoff events and 82,483 reported layoffs.",
+    "2026-Q1 includes 89 public layoff events and 82,703 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

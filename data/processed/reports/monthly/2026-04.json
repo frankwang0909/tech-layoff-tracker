@@ -6,17 +6,17 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 12712,
-    "event_count": 33,
-    "headcount_event_count": 20,
+    "total_laid_off": 4712,
+    "event_count": 32,
+    "headcount_event_count": 19,
     "company_count": 32,
     "country_count": 9,
     "industry_count": 15,
-    "average_layoffs_per_headcount_event": 635.6,
-    "median_layoffs_per_headcount_event": 95.0,
+    "average_layoffs_per_headcount_event": 248.0,
+    "median_layoffs_per_headcount_event": 90.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,29 +24,25 @@
       "period": "2026-03",
       "total_laid_off": 46536,
       "event_count": 31,
-      "total_laid_off_delta": -33824,
-      "total_laid_off_pct_change": -0.7268,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.0645,
+      "total_laid_off_delta": -41824,
+      "total_laid_off_pct_change": -0.8987,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.0323,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25420,
       "event_count": 29,
-      "total_laid_off_delta": -12708,
-      "total_laid_off_pct_change": -0.4999,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.1379,
+      "total_laid_off_delta": -20708,
+      "total_laid_off_pct_change": -0.8146,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.1034,
       "note": null
     }
   },
   "charts": {
     "company_top": [
-      {
-        "company": "Meta",
-        "total_laid_off": 8200
-      },
       {
         "company": "Sama",
         "total_laid_off": 1108
@@ -62,6 +58,10 @@
       {
         "company": "Welltech",
         "total_laid_off": 225
+      },
+      {
+        "company": "Meta",
+        "total_laid_off": 200
       },
       {
         "company": "Remarkable",
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Consumer",
-        "total_laid_off": 9422
+        "total_laid_off": 1422
       },
       {
         "industry": "AI",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10750
+        "total_laid_off": 2750
       },
       {
         "country": "Kenya",
@@ -167,7 +167,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9634
+        "total_laid_off": 1634
       },
       {
         "stage": "Unknown",
@@ -205,7 +205,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 6
+        "event_count": 5
       },
       {
         "bucket": "25-49%",
@@ -223,16 +223,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2026-04-17",
-        "company": "Meta",
-        "num_laid_off": 8000,
-        "percentage_laid_off": 0.1,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-      },
       {
         "date": "2026-04-16",
         "company": "Sama",
@@ -322,6 +312,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+      },
+      {
+        "date": "2026-04-07",
+        "company": "Pendo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.1,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
       }
     ],
     "recent_events": [
@@ -384,16 +384,6 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
-      },
-      {
-        "date": "2026-04-17",
-        "company": "Meta",
-        "num_laid_off": 8000,
-        "percentage_laid_off": 0.1,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
       },
       {
         "date": "2026-04-16",
@@ -497,16 +487,6 @@
       },
       {
         "date": "2026-04-13",
-        "company": "Eventbrite",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
-      },
-      {
-        "date": "2026-04-13",
         "company": "StarkWare",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -514,6 +494,16 @@
         "country": "Israel",
         "stage": "Series D",
         "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+      },
+      {
+        "date": "2026-04-13",
+        "company": "Eventbrite",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
       },
       {
         "date": "2026-04-12",
@@ -524,6 +514,16 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
+      },
+      {
+        "date": "2026-04-10",
+        "company": "Life360",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
       }
     ],
     "high_intensity_events": [
@@ -600,9 +600,9 @@
     ]
   },
   "insights": [
-    "2026-04 includes 33 public layoff events and 12,712 reported layoffs.",
-    "The largest company contributor is Meta with 8,200 reported layoffs.",
-    "The leading named industry is Consumer with 9,422 reported layoffs.",
+    "2026-04 includes 32 public layoff events and 4,712 reported layoffs.",
+    "The largest company contributor is Sama with 1,108 reported layoffs.",
+    "The leading named industry is Consumer with 1,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

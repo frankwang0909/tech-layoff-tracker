@@ -1,0 +1,171 @@
+{
+  "report_type": "daily",
+  "period": "2026-05-26",
+  "status": "final",
+  "date_range": {
+    "start": "2026-05-26",
+    "end": "2026-05-26"
+  },
+  "updated_at": "2026-05-26",
+  "canonical_url": "/reports/daily/2026-05-26.html",
+  "kpis": {
+    "total_laid_off": 400,
+    "event_count": 3,
+    "headcount_event_count": 1,
+    "company_count": 3,
+    "country_count": 1,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 400.0,
+    "median_layoffs_per_headcount_event": 400.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-05-25",
+      "total_laid_off": 1000,
+      "event_count": 1,
+      "total_laid_off_delta": -600,
+      "total_laid_off_pct_change": -0.6,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-05-26",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Groupon",
+        "total_laid_off": 400
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Retail",
+        "total_laid_off": 400
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 400
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 400
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-05-26",
+        "company": "Groupon",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-05-26",
+        "company": "Groupon",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+      },
+      {
+        "date": "2026-05-26",
+        "company": "BigID",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+      },
+      {
+        "date": "2026-05-26",
+        "company": "Picnic",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-05-26",
+        "company": "Picnic",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+      },
+      {
+        "date": "2026-05-26",
+        "company": "Groupon",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+      }
+    ]
+  },
+  "insights": [
+    "2026-05-26 includes 3 public layoff events and 400 reported layoffs.",
+    "The largest company contributor is Groupon with 400 reported layoffs.",
+    "The leading named industry is Retail with 400 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

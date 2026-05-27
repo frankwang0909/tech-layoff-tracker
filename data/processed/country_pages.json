@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-21"
+      "end": "2026-05-26"
     },
     "kpis": {
-      "total_laid_off": 202116,
-      "event_count": 290,
-      "headcount_event_count": 193,
-      "company_count": 220,
+      "total_laid_off": 202516,
+      "event_count": 293,
+      "headcount_event_count": 194,
+      "company_count": 223,
       "country_count": 1,
       "industry_count": 29,
-      "high_intensity_event_count": 48
+      "high_intensity_event_count": 50
     },
     "charts": {
       "monthly_trend": [
@@ -82,11 +82,11 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 10750
+          "total_laid_off": 2750
         },
         {
           "month": "2026-05",
-          "total_laid_off": 17685
+          "total_laid_off": 26085
         }
       ],
       "company_top": [
@@ -135,6 +135,36 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-26",
+          "company": "Groupon",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.25,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+        },
+        {
+          "date": "2026-05-26",
+          "company": "Picnic",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+        },
+        {
+          "date": "2026-05-26",
+          "company": "BigID",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+        },
+        {
           "date": "2026-05-21",
           "company": "ClickUp",
           "num_laid_off": null,
@@ -153,6 +183,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+        },
+        {
+          "date": "2026-05-20",
+          "company": "Meta",
+          "num_laid_off": 8000,
+          "percentage_laid_off": 0.1,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
         },
         {
           "date": "2026-05-15",
@@ -243,50 +283,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://blog.cloudflare.com/building-for-the-future/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Bill.com",
-          "num_laid_off": 709,
-          "percentage_laid_off": 0.3,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Ticketmaster",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.08,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Upwork",
-          "num_laid_off": 151,
-          "percentage_laid_off": 0.24,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "Arctic Wolf",
-          "num_laid_off": 250,
-          "percentage_laid_off": 0.1,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
         }
       ]
     },
-    "summary": "United States has 202,116 reported tech layoffs across 290 public events from 2025-01-02 to 2026-05-21."
+    "summary": "United States has 202,516 reported tech layoffs across 293 public events from 2025-01-02 to 2026-05-26."
   },
   {
     "type": "country",
@@ -577,15 +577,15 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-05-18"
+      "end": "2026-05-25"
     },
     "kpis": {
-      "total_laid_off": 4983,
-      "event_count": 48,
-      "headcount_event_count": 33,
-      "company_count": 42,
+      "total_laid_off": 5983,
+      "event_count": 49,
+      "headcount_event_count": 34,
+      "company_count": 43,
       "country_count": 1,
-      "industry_count": 18,
+      "industry_count": 19,
       "high_intensity_event_count": 15
     },
     "charts": {
@@ -644,7 +644,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 170
+          "total_laid_off": 1170
         }
       ],
       "company_top": [
@@ -655,6 +655,10 @@
         {
           "company": "eBay",
           "total_laid_off": 1020
+        },
+        {
+          "company": "Wix",
+          "total_laid_off": 1000
         },
         {
           "company": "Sapiens",
@@ -683,15 +687,21 @@
         {
           "company": "AI21 Labs",
           "total_laid_off": 110
-        },
-        {
-          "company": "eToro",
-          "total_laid_off": 105
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-25",
+          "company": "Wix",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+        },
         {
           "date": "2026-05-18",
           "company": "AI21 Labs",
@@ -814,16 +824,6 @@
         },
         {
           "date": "2026-01-13",
-          "company": "StoreDot",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
-        },
-        {
-          "date": "2026-01-13",
           "company": "eToro",
           "num_laid_off": 105,
           "percentage_laid_off": 0.07,
@@ -833,18 +833,18 @@
           "source": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
         },
         {
-          "date": "2026-01-08",
-          "company": "Hailo",
-          "num_laid_off": 30,
-          "percentage_laid_off": 0.1,
-          "industry": "Manufacturing",
+          "date": "2026-01-13",
+          "company": "StoreDot",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Other",
           "country": "Israel",
-          "stage": "Series C",
-          "source": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
         }
       ]
     },
-    "summary": "Israel has 4,983 reported tech layoffs across 48 public events from 2025-01-06 to 2026-05-18."
+    "summary": "Israel has 5,983 reported tech layoffs across 49 public events from 2025-01-06 to 2026-05-25."
   },
   {
     "type": "country",

@@ -6,17 +6,17 @@
     "start": "2026-01-05",
     "end": "2026-01-30"
   },
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-26",
   "canonical_url": "/reports/monthly/2026-01.html",
   "kpis": {
-    "total_laid_off": 24928,
-    "event_count": 30,
-    "headcount_event_count": 22,
-    "company_count": 29,
-    "country_count": 11,
+    "total_laid_off": 25148,
+    "event_count": 31,
+    "headcount_event_count": 23,
+    "company_count": 30,
+    "country_count": 12,
     "industry_count": 14,
-    "average_layoffs_per_headcount_event": 1133.09,
-    "median_layoffs_per_headcount_event": 210.0,
+    "average_layoffs_per_headcount_event": 1093.39,
+    "median_layoffs_per_headcount_event": 220.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025-12",
       "total_laid_off": 1552,
       "event_count": 20,
-      "total_laid_off_delta": 23376,
-      "total_laid_off_pct_change": 15.0619,
-      "event_count_delta": 10,
-      "event_count_pct_change": 0.5,
+      "total_laid_off_delta": 23596,
+      "total_laid_off_pct_change": 15.2036,
+      "event_count_delta": 11,
+      "event_count_pct_change": 0.55,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-01",
       "total_laid_off": 2537,
       "event_count": 32,
-      "total_laid_off_delta": 22391,
-      "total_laid_off_pct_change": 8.8258,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.0625,
+      "total_laid_off_delta": 22611,
+      "total_laid_off_pct_change": 8.9125,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0312,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 3360
+        "total_laid_off": 3580
       },
       {
         "industry": "Other",
@@ -148,6 +148,10 @@
         "total_laid_off": 250
       },
       {
+        "country": "Turkey",
+        "total_laid_off": 220
+      },
+      {
         "country": "India",
         "total_laid_off": 200
       },
@@ -162,10 +166,6 @@
       {
         "country": "United Kingdom",
         "total_laid_off": 55
-      },
-      {
-        "country": "Germany",
-        "total_laid_off": 50
       }
     ],
     "stage_top": [
@@ -178,12 +178,16 @@
         "total_laid_off": 528
       },
       {
+        "stage": "Series B",
+        "total_laid_off": 250
+      },
+      {
         "stage": "Private Equity",
         "total_laid_off": 250
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 250
+        "stage": "Seed",
+        "total_laid_off": 220
       },
       {
         "stage": "Series F",
@@ -304,16 +308,6 @@
         "source": "https://ir.angi.com/node/12951/html"
       },
       {
-        "date": "2026-01-29",
-        "company": "Kiwi.com",
-        "num_laid_off": 250,
-        "percentage_laid_off": 0.36,
-        "industry": "Travel",
-        "country": "Czech Republic",
-        "stage": "Unknown",
-        "source": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/"
-      },
-      {
         "date": "2026-01-08",
         "company": "Kaseya",
         "num_laid_off": 250,
@@ -322,6 +316,16 @@
         "country": "United States",
         "stage": "Private Equity",
         "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+      },
+      {
+        "date": "2026-01-29",
+        "company": "Kiwi.com",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.36,
+        "industry": "Travel",
+        "country": "Czech Republic",
+        "stage": "Unknown",
+        "source": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/"
       }
     ],
     "recent_events": [
@@ -426,6 +430,16 @@
         "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
       },
       {
+        "date": "2026-01-24",
+        "company": "Roof Stacks",
+        "num_laid_off": 220,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Turkey",
+        "stage": "Seed",
+        "source": "https://www.yenicaggazetesi.com/erdoganin-mektup-arkadasinin-sirketinde-skandal-olay-yuzlerce-kisi-isten-cikarildi-995293h.htm"
+      },
+      {
         "date": "2026-01-22",
         "company": "Autodesk",
         "num_laid_off": 1000,
@@ -477,16 +491,6 @@
       },
       {
         "date": "2026-01-15",
-        "company": "Tipalti",
-        "num_laid_off": 100,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
-      },
-      {
-        "date": "2026-01-15",
         "company": "Ericsson",
         "num_laid_off": 1600,
         "percentage_laid_off": null,
@@ -494,6 +498,16 @@
         "country": "Sweden",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Tipalti",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
       },
       {
         "date": "2026-01-14",
@@ -514,16 +528,6 @@
         "country": "Germany",
         "stage": "Series B",
         "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
-      },
-      {
-        "date": "2026-01-13",
-        "company": "Meta",
-        "num_laid_off": 1500,
-        "percentage_laid_off": 0.02,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
       }
     ],
     "high_intensity_events": [
@@ -550,7 +554,7 @@
     ]
   },
   "insights": [
-    "2026-01 includes 30 public layoff events and 24,928 reported layoffs.",
+    "2026-01 includes 31 public layoff events and 25,148 reported layoffs.",
     "The largest company contributor is Amazon with 16,000 reported layoffs.",
     "The leading named industry is Retail with 16,116 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

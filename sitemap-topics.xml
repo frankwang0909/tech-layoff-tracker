@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tech.debugcanada.com/industries/</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -20,13 +20,13 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/retail.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/consumer.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -62,13 +62,13 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/security.html</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/food.html</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -97,14 +97,14 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://tech.debugcanada.com/industries/manufacturing.html</loc>
-    <lastmod>2026-04-16</lastmod>
+    <loc>https://tech.debugcanada.com/industries/marketing.html</loc>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://tech.debugcanada.com/industries/marketing.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://tech.debugcanada.com/industries/manufacturing.html</loc>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/united-states.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -188,7 +188,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/israel.html</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>

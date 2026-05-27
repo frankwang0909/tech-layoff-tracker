@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-05-26",
+    "company": "Groupon",
+    "num_laid_off": 400,
+    "percentage_laid_off": 0.25,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+  },
+  {
+    "date": "2026-05-26",
+    "company": "Picnic",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Food",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+  },
+  {
+    "date": "2026-05-26",
+    "company": "BigID",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.2,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+  },
+  {
+    "date": "2026-05-25",
+    "company": "Wix",
+    "num_laid_off": 1000,
+    "percentage_laid_off": 0.2,
+    "industry": "Marketing",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+  },
+  {
     "date": "2026-05-21",
     "company": "ClickUp",
     "num_laid_off": null,
@@ -8,6 +48,16 @@
     "country": "United States",
     "stage": "Series C",
     "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
+  },
+  {
+    "date": "2026-05-20",
+    "company": "Meta",
+    "num_laid_off": 8000,
+    "percentage_laid_off": 0.1,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
   },
   {
     "date": "2026-05-20",
@@ -68,55 +118,5 @@
     "country": "Ireland",
     "stage": "Post-IPO",
     "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
-  },
-  {
-    "date": "2026-05-13",
-    "company": "Cisco",
-    "num_laid_off": 4000,
-    "percentage_laid_off": 0.05,
-    "industry": "Infrastructure",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://blogs.cisco.com/news/our-path-forward"
-  },
-  {
-    "date": "2026-05-13",
-    "company": "LinkedIn",
-    "num_laid_off": 875,
-    "percentage_laid_off": 0.05,
-    "industry": "Recruiting",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
-  },
-  {
-    "date": "2026-05-13",
-    "company": "Jumia",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "Nigeria",
-    "stage": "Post-IPO",
-    "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
-  },
-  {
-    "date": "2026-05-13",
-    "company": "Guesty",
-    "num_laid_off": 20,
-    "percentage_laid_off": 0.02,
-    "industry": "Travel",
-    "country": "Israel",
-    "stage": "Series F",
-    "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
-  },
-  {
-    "date": "2026-05-12",
-    "company": "Breadfast",
-    "num_laid_off": 58,
-    "percentage_laid_off": null,
-    "industry": "Food",
-    "country": "Egypt",
-    "stage": "Series C",
-    "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
   }
 ]

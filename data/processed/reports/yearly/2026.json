@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-05-26"
+    "end": "2026-05-27"
   },
-  "updated_at": "2026-05-26",
+  "updated_at": "2026-05-27",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 115830,
-    "event_count": 163,
+    "event_count": 164,
     "headcount_event_count": 110,
-    "company_count": 155,
+    "company_count": 156,
     "country_count": 21,
     "industry_count": 27,
     "average_layoffs_per_headcount_event": 1053.0,
@@ -26,8 +26,8 @@
       "event_count": 331,
       "total_laid_off_delta": -8806,
       "total_laid_off_pct_change": -0.0707,
-      "event_count_delta": -168,
-      "event_count_pct_change": -0.5076,
+      "event_count_delta": -167,
+      "event_count_pct_change": -0.5045,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 331,
       "total_laid_off_delta": -8806,
       "total_laid_off_pct_change": -0.0707,
-      "event_count_delta": -168,
-      "event_count_pct_change": -0.5076,
+      "event_count_delta": -167,
+      "event_count_pct_change": -0.5045,
       "note": null
     }
   },
@@ -338,14 +338,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-05-26",
-        "company": "Groupon",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.25,
-        "industry": "Retail",
+        "date": "2026-05-27",
+        "company": "Webflow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+        "stage": "Series C",
+        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
       },
       {
         "date": "2026-05-26",
@@ -356,6 +356,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+      },
+      {
+        "date": "2026-05-26",
+        "company": "Groupon",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
       },
       {
         "date": "2026-05-26",
@@ -429,6 +439,16 @@
       },
       {
         "date": "2026-05-14",
+        "company": "Innovaccer",
+        "num_laid_off": 340,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+      },
+      {
+        "date": "2026-05-14",
         "company": "Dune",
         "num_laid_off": null,
         "percentage_laid_off": 0.25,
@@ -446,16 +466,6 @@
         "country": "Ireland",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
-      },
-      {
-        "date": "2026-05-14",
-        "company": "Innovaccer",
-        "num_laid_off": 340,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
       },
       {
         "date": "2026-05-13",
@@ -509,16 +519,6 @@
       },
       {
         "date": "2026-05-11",
-        "company": "MessageBird",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Other",
-        "country": "Netherlands",
-        "stage": "Series C",
-        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
-      },
-      {
-        "date": "2026-05-11",
         "company": "GitLab",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -529,13 +529,13 @@
       },
       {
         "date": "2026-05-11",
-        "company": "One Identity",
-        "num_laid_off": 41,
-        "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "Germany",
-        "stage": "Unknown",
-        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+        "company": "MessageBird",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Other",
+        "country": "Netherlands",
+        "stage": "Series C",
+        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 163 public layoff events and 115,830 reported layoffs.",
+    "2026 includes 164 public layoff events and 115,830 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "33 events report a layoff percentage of 25% or higher."

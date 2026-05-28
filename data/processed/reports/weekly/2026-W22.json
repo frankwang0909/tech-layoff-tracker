@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-25",
-    "end": "2026-05-26"
+    "end": "2026-05-27"
   },
-  "updated_at": "2026-05-26",
+  "updated_at": "2026-05-27",
   "canonical_url": "/reports/weekly/2026-W22.html",
   "kpis": {
     "total_laid_off": 1400,
-    "event_count": 4,
+    "event_count": 5,
     "headcount_event_count": 2,
-    "company_count": 4,
+    "company_count": 5,
     "country_count": 2,
     "industry_count": 4,
     "average_layoffs_per_headcount_event": 700.0,
@@ -26,8 +26,8 @@
       "event_count": 4,
       "total_laid_off_delta": -9710,
       "total_laid_off_pct_change": -0.874,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.25,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": 1012,
       "total_laid_off_pct_change": 2.6082,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.2,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -126,6 +126,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-05-27",
+        "company": "Webflow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+      },
+      {
         "date": "2026-05-26",
         "company": "Groupon",
         "num_laid_off": 400,
@@ -190,7 +200,7 @@
     ]
   },
   "insights": [
-    "2026-W22 includes 4 public layoff events and 1,400 reported layoffs.",
+    "2026-W22 includes 5 public layoff events and 1,400 reported layoffs.",
     "The largest company contributor is Wix with 1,000 reported layoffs.",
     "The leading named industry is Marketing with 1,000 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

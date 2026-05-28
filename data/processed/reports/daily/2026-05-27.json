@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2025-07-12",
+  "period": "2026-05-27",
   "status": "final",
   "date_range": {
-    "start": "2025-07-12",
-    "end": "2025-07-12"
+    "start": "2026-05-27",
+    "end": "2026-05-27"
   },
   "updated_at": "2026-05-27",
-  "canonical_url": "/reports/daily/2025-07-12.html",
+  "canonical_url": "/reports/daily/2026-05-27.html",
   "kpis": {
     "total_laid_off": 0,
     "event_count": 1,
@@ -17,28 +17,28 @@
     "industry_count": 1,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-07-11",
-      "total_laid_off": 5000,
+      "period": "2026-05-26",
+      "total_laid_off": 400,
+      "event_count": 3,
+      "total_laid_off_delta": -400,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.6667,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-05-27",
+      "total_laid_off": 120,
       "event_count": 2,
-      "total_laid_off_delta": -5000,
+      "total_laid_off_delta": -120,
       "total_laid_off_pct_change": -1.0,
       "event_count_delta": -1,
       "event_count_pct_change": -0.5,
       "note": null
-    },
-    "same_period_last_year": {
-      "period": "2024-07-12",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
     }
   },
   "charts": {
@@ -73,32 +73,20 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2025-07-12",
-        "company": "Blip",
+        "date": "2026-05-27",
+        "company": "Webflow",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
       }
     ],
-    "high_intensity_events": [
-      {
-        "date": "2025-07-12",
-        "company": "Blip",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/quick-fashion-startup-blip-shuts-shop/"
-      }
-    ]
+    "high_intensity_events": []
   },
   "insights": [
-    "2025-07-12 includes 1 public layoff events and 0 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2026-05-27 includes 1 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

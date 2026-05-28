@@ -3269,13 +3269,13 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-05-25"
+      "end": "2026-05-27"
     },
     "kpis": {
       "total_laid_off": 2486,
-      "event_count": 17,
+      "event_count": 18,
       "headcount_event_count": 12,
-      "company_count": 16,
+      "company_count": 17,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 4
@@ -3364,6 +3364,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-27",
+          "company": "Webflow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+        },
         {
           "date": "2026-05-25",
           "company": "Wix",
@@ -3503,20 +3513,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.benzinga.com/news/guidance/25/03/44189581/saas-company-liveramp-lays-off-5-of-full-time-workforce-amid-strategic-restructuring"
-        },
-        {
-          "date": "2025-02-05",
-          "company": "Outbrain",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/rkxxve11yyl"
         }
       ]
     },
-    "summary": "Marketing has 2,486 reported tech layoffs across 17 public events from 2025-01-15 to 2026-05-25."
+    "summary": "Marketing has 2,486 reported tech layoffs across 18 public events from 2025-01-15 to 2026-05-27."
   },
   {
     "type": "industry",

@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-05-26"
+    "end": "2026-05-27"
   },
-  "updated_at": "2026-05-26",
+  "updated_at": "2026-05-27",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 33127,
-    "event_count": 74,
+    "event_count": 75,
     "headcount_event_count": 50,
-    "company_count": 73,
+    "company_count": 74,
     "country_count": 16,
     "industry_count": 25,
     "average_layoffs_per_headcount_event": 662.54,
@@ -26,8 +26,8 @@
       "event_count": 89,
       "total_laid_off_delta": -49576,
       "total_laid_off_pct_change": -0.5994,
-      "event_count_delta": -15,
-      "event_count_pct_change": -0.1685,
+      "event_count_delta": -14,
+      "event_count_pct_change": -0.1573,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 72,
       "total_laid_off_delta": -4476,
       "total_laid_off_pct_change": -0.119,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.0278,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.0417,
       "note": null
     }
   },
@@ -338,14 +338,24 @@
     ],
     "recent_events": [
       {
-        "date": "2026-05-26",
-        "company": "Groupon",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.25,
-        "industry": "Retail",
+        "date": "2026-05-27",
+        "company": "Webflow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+        "stage": "Series C",
+        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+      },
+      {
+        "date": "2026-05-26",
+        "company": "BigID",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
       },
       {
         "date": "2026-05-26",
@@ -359,13 +369,13 @@
       },
       {
         "date": "2026-05-26",
-        "company": "BigID",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Security",
+        "company": "Groupon",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Retail",
         "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
       },
       {
         "date": "2026-05-25",
@@ -429,6 +439,16 @@
       },
       {
         "date": "2026-05-14",
+        "company": "Gambling.com Group",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+      },
+      {
+        "date": "2026-05-14",
         "company": "Innovaccer",
         "num_laid_off": 340,
         "percentage_laid_off": null,
@@ -446,16 +466,6 @@
         "country": "Norway",
         "stage": "Series B",
         "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-      },
-      {
-        "date": "2026-05-14",
-        "company": "Gambling.com Group",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Ireland",
-        "stage": "Post-IPO",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
       },
       {
         "date": "2026-05-13",
@@ -509,13 +519,13 @@
       },
       {
         "date": "2026-05-11",
-        "company": "One Identity",
-        "num_laid_off": 41,
+        "company": "GitLab",
+        "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "Germany",
-        "stage": "Unknown",
-        "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
       },
       {
         "date": "2026-05-11",
@@ -526,16 +536,6 @@
         "country": "Netherlands",
         "stage": "Series C",
         "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
-      },
-      {
-        "date": "2026-05-11",
-        "company": "GitLab",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 74 public layoff events and 33,127 reported layoffs.",
+    "2026-Q2 includes 75 public layoff events and 33,127 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,842 reported layoffs.",
     "15 events report a layoff percentage of 25% or higher."

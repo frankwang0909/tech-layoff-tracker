@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-05-26",
-    "company": "Groupon",
-    "num_laid_off": 400,
-    "percentage_laid_off": 0.25,
-    "industry": "Retail",
+    "date": "2026-05-27",
+    "company": "Webflow",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
     "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+    "stage": "Series C",
+    "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
   },
   {
     "date": "2026-05-26",
@@ -18,6 +18,16 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+  },
+  {
+    "date": "2026-05-26",
+    "company": "Groupon",
+    "num_laid_off": 400,
+    "percentage_laid_off": 0.25,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
   },
   {
     "date": "2026-05-26",
@@ -51,16 +61,6 @@
   },
   {
     "date": "2026-05-20",
-    "company": "Meta",
-    "num_laid_off": 8000,
-    "percentage_laid_off": 0.1,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-  },
-  {
-    "date": "2026-05-20",
     "company": "Intuit",
     "num_laid_off": 3000,
     "percentage_laid_off": 0.17,
@@ -68,6 +68,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+  },
+  {
+    "date": "2026-05-20",
+    "company": "Meta",
+    "num_laid_off": 8000,
+    "percentage_laid_off": 0.1,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
   },
   {
     "date": "2026-05-18",
@@ -108,15 +118,5 @@
     "country": "Norway",
     "stage": "Series B",
     "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-  },
-  {
-    "date": "2026-05-14",
-    "company": "Gambling.com Group",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "Ireland",
-    "stage": "Post-IPO",
-    "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
   }
 ]

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-26"
+      "end": "2026-05-27"
     },
     "kpis": {
       "total_laid_off": 202516,
-      "event_count": 293,
+      "event_count": 294,
       "headcount_event_count": 194,
-      "company_count": 223,
+      "company_count": 224,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -135,14 +135,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-05-26",
-          "company": "Groupon",
-          "num_laid_off": 400,
-          "percentage_laid_off": 0.25,
-          "industry": "Retail",
+          "date": "2026-05-27",
+          "company": "Webflow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+          "stage": "Series C",
+          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
         },
         {
           "date": "2026-05-26",
@@ -153,6 +153,16 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+        },
+        {
+          "date": "2026-05-26",
+          "company": "Groupon",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.25,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
         },
         {
           "date": "2026-05-26",
@@ -176,16 +186,6 @@
         },
         {
           "date": "2026-05-20",
-          "company": "Intuit",
-          "num_laid_off": 3000,
-          "percentage_laid_off": 0.17,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-        },
-        {
-          "date": "2026-05-20",
           "company": "Meta",
           "num_laid_off": 8000,
           "percentage_laid_off": 0.1,
@@ -193,6 +193,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+        },
+        {
+          "date": "2026-05-20",
+          "company": "Intuit",
+          "num_laid_off": 3000,
+          "percentage_laid_off": 0.17,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
         },
         {
           "date": "2026-05-15",
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Cloudflare",
-          "num_laid_off": 1100,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blog.cloudflare.com/building-for-the-future/"
         }
       ]
     },
-    "summary": "United States has 202,516 reported tech layoffs across 293 public events from 2025-01-02 to 2026-05-26."
+    "summary": "United States has 202,516 reported tech layoffs across 294 public events from 2025-01-02 to 2026-05-27."
   },
   {
     "type": "country",

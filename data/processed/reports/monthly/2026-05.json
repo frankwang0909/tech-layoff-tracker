@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-04",
-    "end": "2026-05-27"
+    "end": "2026-05-28"
   },
-  "updated_at": "2026-05-27",
+  "updated_at": "2026-05-28",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
-    "total_laid_off": 28415,
-    "event_count": 43,
-    "headcount_event_count": 31,
-    "company_count": 43,
+    "total_laid_off": 28492,
+    "event_count": 46,
+    "headcount_event_count": 32,
+    "company_count": 46,
     "country_count": 12,
     "industry_count": 21,
-    "average_layoffs_per_headcount_event": 916.61,
-    "median_layoffs_per_headcount_event": 250.0,
+    "average_layoffs_per_headcount_event": 890.38,
+    "median_layoffs_per_headcount_event": 225.0,
     "high_intensity_event_count": 8
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-04",
       "total_laid_off": 4712,
       "event_count": 32,
-      "total_laid_off_delta": 23703,
-      "total_laid_off_pct_change": 5.0303,
-      "event_count_delta": 11,
-      "event_count_pct_change": 0.3438,
+      "total_laid_off_delta": 23780,
+      "total_laid_off_pct_change": 5.0467,
+      "event_count_delta": 14,
+      "event_count_pct_change": 0.4375,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05",
       "total_laid_off": 10577,
       "event_count": 27,
-      "total_laid_off_delta": 17838,
-      "total_laid_off_pct_change": 1.6865,
-      "event_count_delta": 16,
-      "event_count_pct_change": 0.5926,
+      "total_laid_off_delta": 17915,
+      "total_laid_off_pct_change": 1.6938,
+      "event_count_delta": 19,
+      "event_count_pct_change": 0.7037,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 26085
+        "total_laid_off": 26162
       },
       {
         "country": "Israel",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 25220
+        "total_laid_off": 25297
       },
       {
         "stage": "Acquired",
@@ -322,6 +322,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-05-28",
+        "company": "Rapyd",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "NetApp",
+        "num_laid_off": 77,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "Lightricks",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
+      },
+      {
         "date": "2026-05-27",
         "company": "Webflow",
         "num_laid_off": null,
@@ -330,16 +360,6 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
-      },
-      {
-        "date": "2026-05-26",
-        "company": "Picnic",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
         "date": "2026-05-26",
@@ -360,6 +380,16 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+      },
+      {
+        "date": "2026-05-26",
+        "company": "Picnic",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
         "date": "2026-05-25",
@@ -490,36 +520,6 @@
         "country": "Israel",
         "stage": "Series F",
         "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
-      },
-      {
-        "date": "2026-05-12",
-        "company": "Breadfast",
-        "num_laid_off": 58,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "Egypt",
-        "stage": "Series C",
-        "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
-      },
-      {
-        "date": "2026-05-11",
-        "company": "GitLab",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
-      },
-      {
-        "date": "2026-05-11",
-        "company": "MessageBird",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Other",
-        "country": "Netherlands",
-        "stage": "Series C",
-        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
       }
     ],
     "high_intensity_events": [
@@ -606,7 +606,7 @@
     ]
   },
   "insights": [
-    "2026-05 includes 43 public layoff events and 28,415 reported layoffs.",
+    "2026-05 includes 46 public layoff events and 28,492 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Finance with 8,469 reported layoffs.",
     "8 events report a layoff percentage of 25% or higher."

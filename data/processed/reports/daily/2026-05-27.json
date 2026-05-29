@@ -6,17 +6,17 @@
     "start": "2026-05-27",
     "end": "2026-05-27"
   },
-  "updated_at": "2026-05-27",
+  "updated_at": "2026-05-28",
   "canonical_url": "/reports/daily/2026-05-27.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "total_laid_off": 77,
+    "event_count": 3,
+    "headcount_event_count": 1,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 77.0,
+    "median_layoffs_per_headcount_event": 77.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,28 +24,48 @@
       "period": "2026-05-26",
       "total_laid_off": 400,
       "event_count": 3,
-      "total_laid_off_delta": -400,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": -323,
+      "total_laid_off_pct_change": -0.8075,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-27",
       "total_laid_off": 120,
       "event_count": 2,
-      "total_laid_off_delta": -120,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -43,
+      "total_laid_off_pct_change": -0.3583,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "NetApp",
+        "total_laid_off": 77
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Data",
+        "total_laid_off": 77
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 77
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 77
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,39 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-05-27",
+        "company": "NetApp",
+        "num_laid_off": 77,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-05-27",
+        "company": "NetApp",
+        "num_laid_off": 77,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "Lightricks",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
+      },
       {
         "date": "2026-05-27",
         "company": "Webflow",
@@ -86,7 +137,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-27 includes 1 public layoff events and 0 reported layoffs."
+    "2026-05-27 includes 3 public layoff events and 77 reported layoffs.",
+    "The largest company contributor is NetApp with 77 reported layoffs.",
+    "The leading named industry is Data with 77 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

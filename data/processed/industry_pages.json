@@ -549,11 +549,11 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-05-20"
+      "end": "2026-05-27"
     },
     "kpis": {
       "total_laid_off": 25886,
-      "event_count": 71,
+      "event_count": 72,
       "headcount_event_count": 49,
       "company_count": 47,
       "country_count": 9,
@@ -672,6 +672,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-27",
+          "company": "Lightricks",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
+        },
         {
           "date": "2026-05-20",
           "company": "Meta",
@@ -811,20 +821,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
-        },
-        {
-          "date": "2026-03-24",
-          "company": "Epic Games",
-          "num_laid_off": 1000,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
         }
       ]
     },
-    "summary": "Consumer has 25,886 reported tech layoffs across 71 public events from 2025-01-27 to 2026-05-20."
+    "summary": "Consumer has 25,886 reported tech layoffs across 72 public events from 2025-01-27 to 2026-05-27."
   },
   {
     "type": "industry",
@@ -834,13 +834,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-20"
+      "end": "2026-05-28"
     },
     "kpis": {
       "total_laid_off": 17455,
-      "event_count": 49,
+      "event_count": 50,
       "headcount_event_count": 31,
-      "company_count": 44,
+      "company_count": 45,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 16
@@ -954,6 +954,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-05-28",
+          "company": "Rapyd",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
+        },
+        {
           "date": "2026-05-20",
           "company": "Intuit",
           "num_laid_off": 3000,
@@ -1055,16 +1065,6 @@
         },
         {
           "date": "2026-03-31",
-          "company": "Monzo",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United Kingdom",
-          "stage": "Series F",
-          "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
-        },
-        {
-          "date": "2026-03-31",
           "company": "Covrzy",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -1072,6 +1072,16 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+        },
+        {
+          "date": "2026-03-31",
+          "company": "Monzo",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United Kingdom",
+          "stage": "Series F",
+          "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
         },
         {
           "date": "2026-03-17",
@@ -1092,20 +1102,10 @@
           "country": "Brazil",
           "stage": "Post-IPO",
           "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
-        },
-        {
-          "date": "2026-03-10",
-          "company": "InvestCloud",
-          "num_laid_off": 150,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Private Equity",
-          "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
         }
       ]
     },
-    "summary": "Finance has 17,455 reported tech layoffs across 49 public events from 2025-01-02 to 2026-05-20."
+    "summary": "Finance has 17,455 reported tech layoffs across 50 public events from 2025-01-02 to 2026-05-28."
   },
   {
     "type": "industry",
@@ -2620,12 +2620,12 @@
     "canonical_url": "/industries/data.html",
     "date_range": {
       "start": "2025-01-29",
-      "end": "2026-05-06"
+      "end": "2026-05-27"
     },
     "kpis": {
-      "total_laid_off": 2952,
-      "event_count": 14,
-      "headcount_event_count": 9,
+      "total_laid_off": 3029,
+      "event_count": 15,
+      "headcount_event_count": 10,
       "company_count": 13,
       "country_count": 4,
       "industry_count": 1,
@@ -2663,7 +2663,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 40
+          "total_laid_off": 117
         }
       ],
       "company_top": [
@@ -2673,7 +2673,7 @@
         },
         {
           "company": "NetApp",
-          "total_laid_off": 700
+          "total_laid_off": 777
         },
         {
           "company": "Scale AI",
@@ -2707,6 +2707,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-27",
+          "company": "NetApp",
+          "num_laid_off": 77,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+        },
         {
           "date": "2026-05-06",
           "company": "LSports",
@@ -2849,7 +2859,7 @@
         }
       ]
     },
-    "summary": "Data has 2,952 reported tech layoffs across 14 public events from 2025-01-29 to 2026-05-06."
+    "summary": "Data has 3,029 reported tech layoffs across 15 public events from 2025-01-29 to 2026-05-27."
   },
   {
     "type": "industry",

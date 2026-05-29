@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-28",
+    "company": "Rapyd",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Israel",
+    "stage": "Unknown",
+    "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
+  },
+  {
     "date": "2026-05-27",
     "company": "Webflow",
     "num_laid_off": null,
@@ -8,6 +18,26 @@
     "country": "United States",
     "stage": "Series C",
     "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+  },
+  {
+    "date": "2026-05-27",
+    "company": "NetApp",
+    "num_laid_off": 77,
+    "percentage_laid_off": null,
+    "industry": "Data",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+  },
+  {
+    "date": "2026-05-27",
+    "company": "Lightricks",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "Israel",
+    "stage": "Series D",
+    "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
   },
   {
     "date": "2026-05-26",
@@ -61,16 +91,6 @@
   },
   {
     "date": "2026-05-20",
-    "company": "Intuit",
-    "num_laid_off": 3000,
-    "percentage_laid_off": 0.17,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-  },
-  {
-    "date": "2026-05-20",
     "company": "Meta",
     "num_laid_off": 8000,
     "percentage_laid_off": 0.1,
@@ -78,6 +98,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+  },
+  {
+    "date": "2026-05-20",
+    "company": "Intuit",
+    "num_laid_off": 3000,
+    "percentage_laid_off": 0.17,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
   },
   {
     "date": "2026-05-18",
@@ -88,35 +118,5 @@
     "country": "Israel",
     "stage": "Series D",
     "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
-  },
-  {
-    "date": "2026-05-15",
-    "company": "Kraken",
-    "num_laid_off": 150,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
-  },
-  {
-    "date": "2026-05-14",
-    "company": "Innovaccer",
-    "num_laid_off": 340,
-    "percentage_laid_off": null,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Series E",
-    "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
-  },
-  {
-    "date": "2026-05-14",
-    "company": "Dune",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.25,
-    "industry": "Crypto",
-    "country": "Norway",
-    "stage": "Series B",
-    "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
   }
 ]

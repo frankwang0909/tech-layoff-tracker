@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2025-03-09",
+  "period": "2026-05-28",
   "status": "final",
   "date_range": {
-    "start": "2025-03-09",
-    "end": "2025-03-09"
+    "start": "2026-05-28",
+    "end": "2026-05-28"
   },
   "updated_at": "2026-05-28",
-  "canonical_url": "/reports/daily/2025-03-09.html",
+  "canonical_url": "/reports/daily/2026-05-28.html",
   "kpis": {
     "total_laid_off": 0,
     "event_count": 1,
@@ -21,24 +21,24 @@
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-03-08",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2026-05-27",
+      "total_laid_off": 77,
+      "event_count": 3,
+      "total_laid_off_delta": -77,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.6667,
+      "note": null
     },
     "same_period_last_year": {
-      "period": "2024-03-09",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2025-05-28",
+      "total_laid_off": 200,
+      "event_count": 1,
+      "total_laid_off_delta": -200,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
     }
   },
   "charts": {
@@ -73,20 +73,20 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2025-03-09",
-        "company": "Zonar Systems",
+        "date": "2026-05-28",
+        "company": "Rapyd",
         "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Logistics",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.bizjournals.com/seattle/news/2025/03/09/zonar-systems-layoffs-gps-trackit-inverness-graham.html"
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-03-09 includes 1 public layoff events and 0 reported layoffs."
+    "2026-05-28 includes 1 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

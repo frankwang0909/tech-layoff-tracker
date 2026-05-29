@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-05-27"
+    "end": "2026-05-28"
   },
-  "updated_at": "2026-05-27",
+  "updated_at": "2026-05-28",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 115830,
-    "event_count": 164,
-    "headcount_event_count": 110,
-    "company_count": 156,
+    "total_laid_off": 115907,
+    "event_count": 167,
+    "headcount_event_count": 111,
+    "company_count": 159,
     "country_count": 21,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 1053.0,
+    "average_layoffs_per_headcount_event": 1044.21,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 33
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 331,
-      "total_laid_off_delta": -8806,
-      "total_laid_off_pct_change": -0.0707,
-      "event_count_delta": -167,
-      "event_count_pct_change": -0.5045,
+      "total_laid_off_delta": -8729,
+      "total_laid_off_pct_change": -0.07,
+      "event_count_delta": -164,
+      "event_count_pct_change": -0.4955,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 331,
-      "total_laid_off_delta": -8806,
-      "total_laid_off_pct_change": -0.0707,
-      "event_count_delta": -167,
-      "event_count_pct_change": -0.5045,
+      "total_laid_off_delta": -8729,
+      "total_laid_off_pct_change": -0.07,
+      "event_count_delta": -164,
+      "event_count_pct_change": -0.4955,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 98250
+        "total_laid_off": 98327
       },
       {
         "country": "Australia",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 103191
+        "total_laid_off": 103268
       },
       {
         "stage": "Unknown",
@@ -286,16 +286,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -304,6 +294,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -338,6 +338,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-05-28",
+        "company": "Rapyd",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
+      },
+      {
         "date": "2026-05-27",
         "company": "Webflow",
         "num_laid_off": null,
@@ -346,6 +356,26 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "NetApp",
+        "num_laid_off": 77,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "Lightricks",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
       },
       {
         "date": "2026-05-26",
@@ -439,13 +469,13 @@
       },
       {
         "date": "2026-05-14",
-        "company": "Innovaccer",
-        "num_laid_off": 340,
+        "company": "Gambling.com Group",
+        "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+        "industry": "Other",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
       },
       {
         "date": "2026-05-14",
@@ -459,13 +489,13 @@
       },
       {
         "date": "2026-05-14",
-        "company": "Gambling.com Group",
-        "num_laid_off": null,
+        "company": "Innovaccer",
+        "num_laid_off": 340,
         "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Ireland",
-        "stage": "Post-IPO",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
       },
       {
         "date": "2026-05-13",
@@ -506,36 +536,6 @@
         "country": "Israel",
         "stage": "Series F",
         "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
-      },
-      {
-        "date": "2026-05-12",
-        "company": "Breadfast",
-        "num_laid_off": 58,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "Egypt",
-        "stage": "Series C",
-        "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
-      },
-      {
-        "date": "2026-05-11",
-        "company": "GitLab",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
-      },
-      {
-        "date": "2026-05-11",
-        "company": "MessageBird",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Other",
-        "country": "Netherlands",
-        "stage": "Series C",
-        "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 164 public layoff events and 115,830 reported layoffs.",
+    "2026 includes 167 public layoff events and 115,907 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "33 events report a layoff percentage of 25% or higher."

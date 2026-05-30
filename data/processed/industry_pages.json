@@ -1923,13 +1923,13 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-05-26"
+      "end": "2026-05-29"
     },
     "kpis": {
-      "total_laid_off": 3952,
-      "event_count": 26,
-      "headcount_event_count": 21,
-      "company_count": 23,
+      "total_laid_off": 4182,
+      "event_count": 27,
+      "headcount_event_count": 22,
+      "company_count": 24,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -1986,7 +1986,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 1391
+          "total_laid_off": 1621
         }
       ],
       "company_top": [
@@ -2015,6 +2015,10 @@
           "total_laid_off": 250
         },
         {
+          "company": "SentinelOne",
+          "total_laid_off": 230
+        },
+        {
           "company": "Okta",
           "total_laid_off": 180
         },
@@ -2025,15 +2029,21 @@
         {
           "company": "F5",
           "total_laid_off": 106
-        },
-        {
-          "company": "Deepwatch",
-          "total_laid_off": 80
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-29",
+          "company": "SentinelOne",
+          "num_laid_off": 230,
+          "percentage_laid_off": 0.08,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+        },
         {
           "date": "2026-05-26",
           "company": "BigID",
@@ -2173,20 +2183,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.calcalistech.com/ctechnews/article/sj0syry1wg"
-        },
-        {
-          "date": "2025-10-23",
-          "company": "Kaseya",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Private Equity",
-          "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
         }
       ]
     },
-    "summary": "Security has 3,952 reported tech layoffs across 26 public events from 2025-01-07 to 2026-05-26."
+    "summary": "Security has 4,182 reported tech layoffs across 27 public events from 2025-01-07 to 2026-05-29."
   },
   {
     "type": "industry",

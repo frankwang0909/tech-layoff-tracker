@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-04",
-    "end": "2026-05-28"
+    "end": "2026-05-29"
   },
-  "updated_at": "2026-05-28",
+  "updated_at": "2026-05-29",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
-    "total_laid_off": 28492,
-    "event_count": 46,
-    "headcount_event_count": 32,
-    "company_count": 46,
+    "total_laid_off": 28722,
+    "event_count": 47,
+    "headcount_event_count": 33,
+    "company_count": 47,
     "country_count": 12,
     "industry_count": 21,
-    "average_layoffs_per_headcount_event": 890.38,
-    "median_layoffs_per_headcount_event": 225.0,
+    "average_layoffs_per_headcount_event": 870.36,
+    "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 8
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-04",
       "total_laid_off": 4712,
       "event_count": 32,
-      "total_laid_off_delta": 23780,
-      "total_laid_off_pct_change": 5.0467,
-      "event_count_delta": 14,
-      "event_count_pct_change": 0.4375,
+      "total_laid_off_delta": 24010,
+      "total_laid_off_pct_change": 5.0955,
+      "event_count_delta": 15,
+      "event_count_pct_change": 0.4688,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05",
       "total_laid_off": 10577,
       "event_count": 27,
-      "total_laid_off_delta": 17915,
-      "total_laid_off_pct_change": 1.6938,
-      "event_count_delta": 19,
-      "event_count_pct_change": 0.7037,
+      "total_laid_off_delta": 18145,
+      "total_laid_off_pct_change": 1.7155,
+      "event_count_delta": 20,
+      "event_count_pct_change": 0.7407,
       "note": null
     }
   },
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 1391
+        "total_laid_off": 1621
       },
       {
         "industry": "Marketing",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 26162
+        "total_laid_off": 26392
       },
       {
         "country": "Israel",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 25297
+        "total_laid_off": 25527
       },
       {
         "stage": "Acquired",
@@ -197,7 +197,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 4
+        "event_count": 5
       },
       {
         "bucket": "10-24%",
@@ -321,6 +321,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-29",
+        "company": "SentinelOne",
+        "num_laid_off": 230,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
       {
         "date": "2026-05-28",
         "company": "Rapyd",
@@ -510,16 +520,6 @@
         "country": "Nigeria",
         "stage": "Post-IPO",
         "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "Guesty",
-        "num_laid_off": 20,
-        "percentage_laid_off": 0.02,
-        "industry": "Travel",
-        "country": "Israel",
-        "stage": "Series F",
-        "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
       }
     ],
     "high_intensity_events": [
@@ -606,7 +606,7 @@
     ]
   },
   "insights": [
-    "2026-05 includes 46 public layoff events and 28,492 reported layoffs.",
+    "2026-05 includes 47 public layoff events and 28,722 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Finance with 8,469 reported layoffs.",
     "8 events report a layoff percentage of 25% or higher."

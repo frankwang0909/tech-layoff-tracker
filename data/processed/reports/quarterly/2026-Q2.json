@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-05-28"
+    "end": "2026-05-29"
   },
-  "updated_at": "2026-05-28",
+  "updated_at": "2026-05-29",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 33204,
-    "event_count": 78,
-    "headcount_event_count": 51,
-    "company_count": 77,
+    "total_laid_off": 33434,
+    "event_count": 79,
+    "headcount_event_count": 52,
+    "company_count": 78,
     "country_count": 16,
     "industry_count": 25,
-    "average_layoffs_per_headcount_event": 651.06,
-    "median_layoffs_per_headcount_event": 176.0,
+    "average_layoffs_per_headcount_event": 642.96,
+    "median_layoffs_per_headcount_event": 188.0,
     "high_intensity_event_count": 15
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q1",
       "total_laid_off": 82703,
       "event_count": 89,
-      "total_laid_off_delta": -49499,
-      "total_laid_off_pct_change": -0.5985,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.1236,
+      "total_laid_off_delta": -49269,
+      "total_laid_off_pct_change": -0.5957,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.1124,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -4399,
-      "total_laid_off_pct_change": -0.117,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.0833,
+      "total_laid_off_delta": -4169,
+      "total_laid_off_pct_change": -0.1109,
+      "event_count_delta": 7,
+      "event_count_pct_change": 0.0972,
       "note": null
     }
   },
@@ -68,11 +68,11 @@
         "total_laid_off": 1100
       },
       {
-        "company": "Wix",
+        "company": "Snap",
         "total_laid_off": 1000
       },
       {
-        "company": "Snap",
+        "company": "Wix",
         "total_laid_off": 1000
       },
       {
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 1499
+        "total_laid_off": 1729
       },
       {
         "industry": "AI",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 28912
+        "total_laid_off": 29142
       },
       {
         "country": "Israel",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 26931
+        "total_laid_off": 27161
       },
       {
         "stage": "Unknown",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 9
+        "event_count": 10
       },
       {
         "bucket": "10-24%",
@@ -338,6 +338,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-05-29",
+        "company": "SentinelOne",
+        "num_laid_off": 230,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
         "date": "2026-05-28",
         "company": "Rapyd",
         "num_laid_off": null,
@@ -349,16 +359,6 @@
       },
       {
         "date": "2026-05-27",
-        "company": "Webflow",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
-      },
-      {
-        "date": "2026-05-27",
         "company": "NetApp",
         "num_laid_off": 77,
         "percentage_laid_off": null,
@@ -366,6 +366,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "Webflow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
       },
       {
         "date": "2026-05-27",
@@ -499,6 +509,16 @@
       },
       {
         "date": "2026-05-13",
+        "company": "LinkedIn",
+        "num_laid_off": 875,
+        "percentage_laid_off": 0.05,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+      },
+      {
+        "date": "2026-05-13",
         "company": "Guesty",
         "num_laid_off": 20,
         "percentage_laid_off": 0.02,
@@ -516,26 +536,6 @@
         "country": "Nigeria",
         "stage": "Post-IPO",
         "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "LinkedIn",
-        "num_laid_off": 875,
-        "percentage_laid_off": 0.05,
-        "industry": "Recruiting",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 78 public layoff events and 33,204 reported layoffs.",
+    "2026-Q2 includes 79 public layoff events and 33,434 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,842 reported layoffs.",
     "15 events report a layoff percentage of 25% or higher."

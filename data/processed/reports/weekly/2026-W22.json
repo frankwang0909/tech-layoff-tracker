@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-05-25",
-    "end": "2026-05-28"
+    "end": "2026-05-29"
   },
-  "updated_at": "2026-05-28",
+  "updated_at": "2026-05-29",
   "canonical_url": "/reports/weekly/2026-W22.html",
   "kpis": {
-    "total_laid_off": 1477,
-    "event_count": 8,
-    "headcount_event_count": 3,
-    "company_count": 8,
+    "total_laid_off": 1707,
+    "event_count": 9,
+    "headcount_event_count": 4,
+    "company_count": 9,
     "country_count": 2,
     "industry_count": 7,
-    "average_layoffs_per_headcount_event": 492.33,
-    "median_layoffs_per_headcount_event": 400.0,
+    "average_layoffs_per_headcount_event": 426.75,
+    "median_layoffs_per_headcount_event": 315.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W21",
       "total_laid_off": 11110,
       "event_count": 4,
-      "total_laid_off_delta": -9633,
-      "total_laid_off_pct_change": -0.8671,
-      "event_count_delta": 4,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": -9403,
+      "total_laid_off_pct_change": -0.8464,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.25,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W22",
       "total_laid_off": 388,
       "event_count": 5,
-      "total_laid_off_delta": 1089,
-      "total_laid_off_pct_change": 2.8067,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.6,
+      "total_laid_off_delta": 1319,
+      "total_laid_off_pct_change": 3.3995,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.8,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Groupon",
         "total_laid_off": 400
+      },
+      {
+        "company": "SentinelOne",
+        "total_laid_off": 230
       },
       {
         "company": "NetApp",
@@ -66,6 +70,10 @@
         "total_laid_off": 400
       },
       {
+        "industry": "Security",
+        "total_laid_off": 230
+      },
+      {
         "industry": "Data",
         "total_laid_off": 77
       }
@@ -77,19 +85,19 @@
       },
       {
         "country": "United States",
-        "total_laid_off": 477
+        "total_laid_off": 707
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1477
+        "total_laid_off": 1707
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -132,6 +140,16 @@
         "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
       },
       {
+        "date": "2026-05-29",
+        "company": "SentinelOne",
+        "num_laid_off": 230,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
         "date": "2026-05-27",
         "company": "NetApp",
         "num_laid_off": 77,
@@ -143,6 +161,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-29",
+        "company": "SentinelOne",
+        "num_laid_off": 230,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
       {
         "date": "2026-05-28",
         "company": "Rapyd",
@@ -248,7 +276,7 @@
     ]
   },
   "insights": [
-    "2026-W22 includes 8 public layoff events and 1,477 reported layoffs.",
+    "2026-W22 includes 9 public layoff events and 1,707 reported layoffs.",
     "The largest company contributor is Wix with 1,000 reported layoffs.",
     "The leading named industry is Marketing with 1,000 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

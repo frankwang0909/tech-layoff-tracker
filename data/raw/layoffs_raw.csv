@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+SentinelOne,SF Bay Area,230.0,2026-05-29,0.08,Security,https://www.calcalistech.com/ctechnews/article/r1goyeuxgx,Post-IPO,696.0,United States,2026-05-29T15:59:58.000Z
 Rapyd,"Tel Aviv, Non-U.S.",,2026-05-28,,Finance,https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl,Unknown,770.0,Israel,2026-05-28T23:34:13.000Z
 NetApp,SF Bay Area,77.0,2026-05-27,,Data,https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/,Post-IPO,,United States,2026-05-28T23:32:28.000Z
 Lightricks,"Jerusalem, Non-U.S.",,2026-05-27,,Consumer,https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185,Series D,335.0,Israel,2026-05-28T23:31:14.000Z

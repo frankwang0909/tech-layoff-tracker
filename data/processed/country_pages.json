@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-27"
+      "end": "2026-05-29"
     },
     "kpis": {
-      "total_laid_off": 202593,
-      "event_count": 295,
-      "headcount_event_count": 195,
-      "company_count": 224,
+      "total_laid_off": 202823,
+      "event_count": 296,
+      "headcount_event_count": 196,
+      "company_count": 225,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 26162
+          "total_laid_off": 26392
         }
       ],
       "company_top": [
@@ -135,14 +135,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-05-27",
-          "company": "NetApp",
-          "num_laid_off": 77,
-          "percentage_laid_off": null,
-          "industry": "Data",
+          "date": "2026-05-29",
+          "company": "SentinelOne",
+          "num_laid_off": 230,
+          "percentage_laid_off": 0.08,
+          "industry": "Security",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+          "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
         },
         {
           "date": "2026-05-27",
@@ -153,6 +153,16 @@
           "country": "United States",
           "stage": "Series C",
           "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+        },
+        {
+          "date": "2026-05-27",
+          "company": "NetApp",
+          "num_laid_off": 77,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
         },
         {
           "date": "2026-05-26",
@@ -166,16 +176,6 @@
         },
         {
           "date": "2026-05-26",
-          "company": "BigID",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
-        },
-        {
-          "date": "2026-05-26",
           "company": "Picnic",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -183,6 +183,16 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+        },
+        {
+          "date": "2026-05-26",
+          "company": "BigID",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
         },
         {
           "date": "2026-05-21",
@@ -273,20 +283,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
-        },
-        {
-          "date": "2026-05-10",
-          "company": "ZoomInfo",
-          "num_laid_off": 600,
-          "percentage_laid_off": 0.2,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html"
         }
       ]
     },
-    "summary": "United States has 202,593 reported tech layoffs across 295 public events from 2025-01-02 to 2026-05-27."
+    "summary": "United States has 202,823 reported tech layoffs across 296 public events from 2025-01-02 to 2026-05-29."
   },
   {
     "type": "country",

@@ -1,69 +1,69 @@
 {
   "report_type": "daily",
-  "period": "2025-07-22",
+  "period": "2026-05-29",
   "status": "final",
   "date_range": {
-    "start": "2025-07-22",
-    "end": "2025-07-22"
+    "start": "2026-05-29",
+    "end": "2026-05-29"
   },
   "updated_at": "2026-05-29",
-  "canonical_url": "/reports/daily/2025-07-22.html",
+  "canonical_url": "/reports/daily/2026-05-29.html",
   "kpis": {
-    "total_laid_off": 47,
+    "total_laid_off": 230,
     "event_count": 1,
     "headcount_event_count": 1,
     "company_count": 1,
     "country_count": 1,
     "industry_count": 1,
-    "average_layoffs_per_headcount_event": 47.0,
-    "median_layoffs_per_headcount_event": 47.0,
+    "average_layoffs_per_headcount_event": 230.0,
+    "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-07-21",
+      "period": "2026-05-28",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 47,
+      "total_laid_off_delta": 230,
       "total_laid_off_pct_change": null,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
-      "period": "2024-07-22",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
+      "period": "2025-05-29",
+      "total_laid_off": 0,
+      "event_count": 1,
+      "total_laid_off_delta": 230,
       "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
     }
   },
   "charts": {
     "company_top": [
       {
-        "company": "ConsenSys",
-        "total_laid_off": 47
+        "company": "SentinelOne",
+        "total_laid_off": 230
       }
     ],
     "industry_top": [
       {
-        "industry": "Crypto",
-        "total_laid_off": 47
+        "industry": "Security",
+        "total_laid_off": 230
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 47
+        "total_laid_off": 230
       }
     ],
     "stage_top": [
       {
-        "stage": "Series D",
-        "total_laid_off": 47
+        "stage": "Post-IPO",
+        "total_laid_off": 230
       }
     ],
     "layoff_pct_distribution": [
@@ -92,34 +92,34 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2025-07-22",
-        "company": "ConsenSys",
-        "num_laid_off": 47,
-        "percentage_laid_off": 0.07,
-        "industry": "Crypto",
+        "date": "2026-05-29",
+        "company": "SentinelOne",
+        "num_laid_off": 230,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
         "country": "United States",
-        "stage": "Series D",
-        "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
       }
     ],
     "recent_events": [
       {
-        "date": "2025-07-22",
-        "company": "ConsenSys",
-        "num_laid_off": 47,
-        "percentage_laid_off": 0.07,
-        "industry": "Crypto",
+        "date": "2026-05-29",
+        "company": "SentinelOne",
+        "num_laid_off": 230,
+        "percentage_laid_off": 0.08,
+        "industry": "Security",
         "country": "United States",
-        "stage": "Series D",
-        "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-07-22 includes 1 public layoff events and 47 reported layoffs.",
-    "The largest company contributor is ConsenSys with 47 reported layoffs.",
-    "The leading named industry is Crypto with 47 reported layoffs."
+    "2026-05-29 includes 1 public layoff events and 230 reported layoffs.",
+    "The largest company contributor is SentinelOne with 230 reported layoffs.",
+    "The leading named industry is Security with 230 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

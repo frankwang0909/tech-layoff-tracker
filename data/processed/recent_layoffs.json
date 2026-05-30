@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-29",
+    "company": "SentinelOne",
+    "num_laid_off": 230,
+    "percentage_laid_off": 0.08,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+  },
+  {
     "date": "2026-05-28",
     "company": "Rapyd",
     "num_laid_off": null,
@@ -8,16 +18,6 @@
     "country": "Israel",
     "stage": "Unknown",
     "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
-  },
-  {
-    "date": "2026-05-27",
-    "company": "Webflow",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
   },
   {
     "date": "2026-05-27",
@@ -40,14 +40,14 @@
     "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
   },
   {
-    "date": "2026-05-26",
-    "company": "Picnic",
+    "date": "2026-05-27",
+    "company": "Webflow",
     "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
+    "percentage_laid_off": null,
+    "industry": "Marketing",
     "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+    "stage": "Series C",
+    "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
   },
   {
     "date": "2026-05-26",
@@ -68,6 +68,16 @@
     "country": "United States",
     "stage": "Series E",
     "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+  },
+  {
+    "date": "2026-05-26",
+    "company": "Picnic",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Food",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
   },
   {
     "date": "2026-05-25",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-  },
-  {
-    "date": "2026-05-18",
-    "company": "AI21 Labs",
-    "num_laid_off": 110,
-    "percentage_laid_off": 0.61,
-    "industry": "AI",
-    "country": "Israel",
-    "stage": "Series D",
-    "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
   }
 ]

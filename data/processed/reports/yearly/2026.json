@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-05-29"
+    "end": "2026-06-02"
   },
-  "updated_at": "2026-05-29",
+  "updated_at": "2026-06-02",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 116137,
-    "event_count": 168,
-    "headcount_event_count": 112,
-    "company_count": 160,
+    "total_laid_off": 116739,
+    "event_count": 172,
+    "headcount_event_count": 117,
+    "company_count": 164,
     "country_count": 21,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 1036.94,
+    "average_layoffs_per_headcount_event": 997.77,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 33
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 331,
-      "total_laid_off_delta": -8499,
-      "total_laid_off_pct_change": -0.0682,
-      "event_count_delta": -163,
-      "event_count_pct_change": -0.4924,
+      "total_laid_off_delta": -7897,
+      "total_laid_off_pct_change": -0.0634,
+      "event_count_delta": -159,
+      "event_count_pct_change": -0.4804,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 331,
-      "total_laid_off_delta": -8499,
-      "total_laid_off_pct_change": -0.0682,
-      "event_count_delta": -163,
-      "event_count_pct_change": -0.4924,
+      "total_laid_off_delta": -7897,
+      "total_laid_off_pct_change": -0.0634,
+      "event_count_delta": -159,
+      "event_count_pct_change": -0.4804,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -95,11 +95,11 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 16122
+        "total_laid_off": 16197
       },
       {
         "industry": "Finance",
-        "total_laid_off": 13566
+        "total_laid_off": 13683
       },
       {
         "industry": "Hardware",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 98557
+        "total_laid_off": 99074
       },
       {
         "country": "Australia",
@@ -137,7 +137,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 2936
+        "total_laid_off": 3021
       },
       {
         "country": "India",
@@ -171,15 +171,15 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 103498
+        "total_laid_off": 103848
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 4302
+        "total_laid_off": 4362
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 2837
+        "total_laid_off": 2954
       },
       {
         "stage": "Series B",
@@ -199,7 +199,7 @@
       },
       {
         "stage": "Series D",
-        "total_laid_off": 305
+        "total_laid_off": 380
       },
       {
         "stage": "Seed",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 32
+        "event_count": 34
       },
       {
         "bucket": "25-49%",
@@ -338,6 +338,56 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-02",
+        "company": "GitLab",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.14,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Manhattan Associates",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Aleph Farms",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+      },
+      {
+        "date": "2026-06-01",
+        "company": "Lightricks",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.17,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
+      },
+      {
+        "date": "2026-05-30",
+        "company": "Credit Karma",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+      },
+      {
         "date": "2026-05-29",
         "company": "SentinelOne",
         "num_laid_off": 230,
@@ -346,6 +396,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       },
       {
         "date": "2026-05-28",
@@ -366,16 +426,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "Lightricks",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
       },
       {
         "date": "2026-05-27",
@@ -486,56 +536,6 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
-      },
-      {
-        "date": "2026-05-14",
-        "company": "Dune",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.25,
-        "industry": "Crypto",
-        "country": "Norway",
-        "stage": "Series B",
-        "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-      },
-      {
-        "date": "2026-05-14",
-        "company": "Gambling.com Group",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Ireland",
-        "stage": "Post-IPO",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "LinkedIn",
-        "num_laid_off": 875,
-        "percentage_laid_off": 0.05,
-        "industry": "Recruiting",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "Jumia",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "Nigeria",
-        "stage": "Post-IPO",
-        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 168 public layoff events and 116,137 reported layoffs.",
+    "2026 includes 172 public layoff events and 116,739 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "33 events report a layoff percentage of 25% or higher."

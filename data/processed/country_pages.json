@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-29"
+      "end": "2026-06-02"
     },
     "kpis": {
-      "total_laid_off": 202823,
-      "event_count": 296,
-      "headcount_event_count": 196,
-      "company_count": 225,
+      "total_laid_off": 203340,
+      "event_count": 299,
+      "headcount_event_count": 199,
+      "company_count": 228,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -86,7 +86,11 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 26392
+          "total_laid_off": 26559
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 350
         }
       ],
       "company_top": [
@@ -135,6 +139,36 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-06-02",
+          "company": "GitLab",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.14,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+        },
+        {
+          "date": "2026-06-02",
+          "company": "Manhattan Associates",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.06,
+          "industry": "Logistics",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+        },
+        {
+          "date": "2026-05-30",
+          "company": "Credit Karma",
+          "num_laid_off": 117,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+        },
+        {
           "date": "2026-05-29",
           "company": "SentinelOne",
           "num_laid_off": 230,
@@ -145,14 +179,14 @@
           "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
         },
         {
-          "date": "2026-05-27",
-          "company": "Webflow",
-          "num_laid_off": null,
+          "date": "2026-05-29",
+          "company": "Interview Kickstart",
+          "num_laid_off": 50,
           "percentage_laid_off": null,
-          "industry": "Marketing",
+          "industry": "Education",
           "country": "United States",
-          "stage": "Series C",
-          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
         },
         {
           "date": "2026-05-27",
@@ -163,6 +197,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+        },
+        {
+          "date": "2026-05-27",
+          "company": "Webflow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
         },
         {
           "date": "2026-05-26",
@@ -176,16 +220,6 @@
         },
         {
           "date": "2026-05-26",
-          "company": "Picnic",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Food",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
-        },
-        {
-          "date": "2026-05-26",
           "company": "BigID",
           "num_laid_off": null,
           "percentage_laid_off": 0.2,
@@ -193,6 +227,16 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+        },
+        {
+          "date": "2026-05-26",
+          "company": "Picnic",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
         },
         {
           "date": "2026-05-21",
@@ -206,16 +250,6 @@
         },
         {
           "date": "2026-05-20",
-          "company": "Meta",
-          "num_laid_off": 8000,
-          "percentage_laid_off": 0.1,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-        },
-        {
-          "date": "2026-05-20",
           "company": "Intuit",
           "num_laid_off": 3000,
           "percentage_laid_off": 0.17,
@@ -223,6 +257,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+        },
+        {
+          "date": "2026-05-20",
+          "company": "Meta",
+          "num_laid_off": 8000,
+          "percentage_laid_off": 0.1,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
         },
         {
           "date": "2026-05-15",
@@ -243,50 +287,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
-        },
-        {
-          "date": "2026-05-13",
-          "company": "Cisco",
-          "num_laid_off": 4000,
-          "percentage_laid_off": 0.05,
-          "industry": "Infrastructure",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blogs.cisco.com/news/our-path-forward"
-        },
-        {
-          "date": "2026-05-13",
-          "company": "LinkedIn",
-          "num_laid_off": 875,
-          "percentage_laid_off": 0.05,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
-        },
-        {
-          "date": "2026-05-11",
-          "company": "MRI Software",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
-        },
-        {
-          "date": "2026-05-11",
-          "company": "GitLab",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
         }
       ]
     },
-    "summary": "United States has 202,823 reported tech layoffs across 296 public events from 2025-01-02 to 2026-05-29."
+    "summary": "United States has 203,340 reported tech layoffs across 299 public events from 2025-01-02 to 2026-06-02."
   },
   {
     "type": "country",
@@ -577,13 +581,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-05-28"
+      "end": "2026-06-02"
     },
     "kpis": {
-      "total_laid_off": 5983,
-      "event_count": 51,
-      "headcount_event_count": 34,
-      "company_count": 44,
+      "total_laid_off": 6068,
+      "event_count": 52,
+      "headcount_event_count": 36,
+      "company_count": 45,
       "country_count": 1,
       "industry_count": 19,
       "high_intensity_event_count": 15
@@ -645,6 +649,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 1170
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 85
         }
       ],
       "company_top": [
@@ -677,21 +685,41 @@
           "total_laid_off": 200
         },
         {
+          "company": "Lightricks",
+          "total_laid_off": 160
+        },
+        {
           "company": "Rewire",
           "total_laid_off": 110
         },
         {
           "company": "Moon Active",
           "total_laid_off": 110
-        },
-        {
-          "company": "AI21 Labs",
-          "total_laid_off": 110
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-02",
+          "company": "Aleph Farms",
+          "num_laid_off": 10,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+        },
+        {
+          "date": "2026-06-01",
+          "company": "Lightricks",
+          "num_laid_off": 75,
+          "percentage_laid_off": 0.17,
+          "industry": "Consumer",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
+        },
         {
           "date": "2026-05-28",
           "company": "Rapyd",
@@ -701,16 +729,6 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
-        },
-        {
-          "date": "2026-05-27",
-          "company": "Lightricks",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
         },
         {
           "date": "2026-05-25",
@@ -831,20 +849,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
-        },
-        {
-          "date": "2026-01-14",
-          "company": "Playtika",
-          "num_laid_off": 500,
-          "percentage_laid_off": 0.15,
-          "industry": "Consumer",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
         }
       ]
     },
-    "summary": "Israel has 5,983 reported tech layoffs across 51 public events from 2025-01-06 to 2026-05-28."
+    "summary": "Israel has 6,068 reported tech layoffs across 52 public events from 2025-01-06 to 2026-06-02."
   },
   {
     "type": "country",

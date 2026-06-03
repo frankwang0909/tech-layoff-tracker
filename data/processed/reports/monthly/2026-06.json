@@ -1,0 +1,207 @@
+{
+  "report_type": "monthly",
+  "period": "2026-06",
+  "status": "rolling",
+  "date_range": {
+    "start": "2026-06-01",
+    "end": "2026-06-02"
+  },
+  "updated_at": "2026-06-02",
+  "canonical_url": "/reports/monthly/2026-06.html",
+  "kpis": {
+    "total_laid_off": 435,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
+    "country_count": 2,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 145.0,
+    "median_layoffs_per_headcount_event": 75.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-05",
+      "total_laid_off": 28889,
+      "event_count": 47,
+      "total_laid_off_delta": -28454,
+      "total_laid_off_pct_change": -0.9849,
+      "event_count_delta": -43,
+      "event_count_pct_change": -0.9149,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-06",
+      "total_laid_off": 1606,
+      "event_count": 16,
+      "total_laid_off_delta": -1171,
+      "total_laid_off_pct_change": -0.7291,
+      "event_count_delta": -12,
+      "event_count_pct_change": -0.75,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "GitLab",
+        "total_laid_off": 350
+      },
+      {
+        "company": "Lightricks",
+        "total_laid_off": 75
+      },
+      {
+        "company": "Aleph Farms",
+        "total_laid_off": 10
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Product",
+        "total_laid_off": 350
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 75
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 10
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 350
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 85
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 350
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 75
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 10
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 2
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-06-02",
+        "company": "GitLab",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.14,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-01",
+        "company": "Lightricks",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.17,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Aleph Farms",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-06-02",
+        "company": "GitLab",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.14,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Aleph Farms",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Manhattan Associates",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+      },
+      {
+        "date": "2026-06-01",
+        "company": "Lightricks",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.17,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-06 includes 4 public layoff events and 435 reported layoffs.",
+    "The largest company contributor is GitLab with 350 reported layoffs.",
+    "The leading named industry is Product with 350 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

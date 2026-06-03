@@ -1,22 +1,22 @@
 {
   "report_type": "monthly",
   "period": "2026-05",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-05-04",
-    "end": "2026-05-29"
+    "end": "2026-05-30"
   },
-  "updated_at": "2026-05-29",
+  "updated_at": "2026-06-02",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
-    "total_laid_off": 28722,
+    "total_laid_off": 28889,
     "event_count": 47,
-    "headcount_event_count": 33,
+    "headcount_event_count": 35,
     "company_count": 47,
     "country_count": 12,
-    "industry_count": 21,
-    "average_layoffs_per_headcount_event": 870.36,
-    "median_layoffs_per_headcount_event": 230.0,
+    "industry_count": 20,
+    "average_layoffs_per_headcount_event": 825.4,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 8
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-04",
       "total_laid_off": 4712,
       "event_count": 32,
-      "total_laid_off_delta": 24010,
-      "total_laid_off_pct_change": 5.0955,
+      "total_laid_off_delta": 24177,
+      "total_laid_off_pct_change": 5.1309,
       "event_count_delta": 15,
       "event_count_pct_change": 0.4688,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-05",
       "total_laid_off": 10577,
       "event_count": 27,
-      "total_laid_off_delta": 18145,
-      "total_laid_off_pct_change": 1.7155,
+      "total_laid_off_delta": 18312,
+      "total_laid_off_pct_change": 1.7313,
       "event_count_delta": 20,
       "event_count_pct_change": 0.7407,
       "note": null
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Finance",
-        "total_laid_off": 8469
+        "total_laid_off": 8586
       },
       {
         "industry": "Consumer",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 26392
+        "total_laid_off": 26559
       },
       {
         "country": "Israel",
@@ -167,11 +167,11 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 1425
+        "total_laid_off": 1542
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 731
+        "total_laid_off": 781
       },
       {
         "stage": "Series E",
@@ -322,6 +322,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-05-30",
+        "company": "Credit Karma",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+      },
+      {
         "date": "2026-05-29",
         "company": "SentinelOne",
         "num_laid_off": 230,
@@ -350,16 +370,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "Lightricks",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
       },
       {
         "date": "2026-05-27",
@@ -423,16 +433,6 @@
       },
       {
         "date": "2026-05-20",
-        "company": "Meta",
-        "num_laid_off": 8000,
-        "percentage_laid_off": 0.1,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-      },
-      {
-        "date": "2026-05-20",
         "company": "Intuit",
         "num_laid_off": 3000,
         "percentage_laid_off": 0.17,
@@ -440,6 +440,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+      },
+      {
+        "date": "2026-05-20",
+        "company": "Meta",
+        "num_laid_off": 8000,
+        "percentage_laid_off": 0.1,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
       },
       {
         "date": "2026-05-18",
@@ -510,16 +520,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "Jumia",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "Nigeria",
-        "stage": "Post-IPO",
-        "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
       }
     ],
     "high_intensity_events": [
@@ -606,9 +606,9 @@
     ]
   },
   "insights": [
-    "2026-05 includes 47 public layoff events and 28,722 reported layoffs.",
+    "2026-05 includes 47 public layoff events and 28,889 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
-    "The leading named industry is Finance with 8,469 reported layoffs.",
+    "The leading named industry is Finance with 8,586 reported layoffs.",
     "8 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

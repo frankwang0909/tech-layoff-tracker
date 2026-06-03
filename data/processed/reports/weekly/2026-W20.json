@@ -6,15 +6,15 @@
     "start": "2026-05-11",
     "end": "2026-05-15"
   },
-  "updated_at": "2026-05-29",
+  "updated_at": "2026-06-02",
   "canonical_url": "/reports/weekly/2026-W20.html",
   "kpis": {
     "total_laid_off": 5884,
-    "event_count": 13,
+    "event_count": 12,
     "headcount_event_count": 9,
-    "company_count": 13,
+    "company_count": 12,
     "country_count": 8,
-    "industry_count": 11,
+    "industry_count": 10,
     "average_layoffs_per_headcount_event": 653.78,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 21,
       "total_laid_off_delta": -4137,
       "total_laid_off_pct_change": -0.4128,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.381,
+      "event_count_delta": -9,
+      "event_count_pct_change": -0.4286,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 6,
       "total_laid_off_delta": -921,
       "total_laid_off_pct_change": -0.1353,
-      "event_count_delta": 7,
-      "event_count_pct_change": 1.1667,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -395,16 +395,6 @@
       },
       {
         "date": "2026-05-11",
-        "company": "GitLab",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era"
-      },
-      {
-        "date": "2026-05-11",
         "company": "MessageBird",
         "num_laid_off": null,
         "percentage_laid_off": 0.2,
@@ -428,7 +418,7 @@
     ]
   },
   "insights": [
-    "2026-W20 includes 13 public layoff events and 5,884 reported layoffs.",
+    "2026-W20 includes 12 public layoff events and 5,884 reported layoffs.",
     "The largest company contributor is Cisco with 4,000 reported layoffs.",
     "The leading named industry is Infrastructure with 4,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

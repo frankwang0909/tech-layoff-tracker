@@ -6,17 +6,17 @@
     "start": "2026-05-29",
     "end": "2026-05-29"
   },
-  "updated_at": "2026-05-29",
+  "updated_at": "2026-06-02",
   "canonical_url": "/reports/daily/2026-05-29.html",
   "kpis": {
-    "total_laid_off": 230,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 280,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 230.0,
-    "median_layoffs_per_headcount_event": 230.0,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 140.0,
+    "median_layoffs_per_headcount_event": 140.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-05-28",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 230,
+      "total_laid_off_delta": 280,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-29",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 230,
+      "total_laid_off_delta": 280,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,24 +46,36 @@
       {
         "company": "SentinelOne",
         "total_laid_off": 230
+      },
+      {
+        "company": "Interview Kickstart",
+        "total_laid_off": 50
       }
     ],
     "industry_top": [
       {
         "industry": "Security",
         "total_laid_off": 230
+      },
+      {
+        "industry": "Education",
+        "total_laid_off": 50
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 230
+        "total_laid_off": 280
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 230
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 50
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +112,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       }
     ],
     "recent_events": [
@@ -112,12 +134,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-29 includes 1 public layoff events and 230 reported layoffs.",
+    "2026-05-29 includes 2 public layoff events and 280 reported layoffs.",
     "The largest company contributor is SentinelOne with 230 reported layoffs.",
     "The leading named industry is Security with 230 reported layoffs."
   ],

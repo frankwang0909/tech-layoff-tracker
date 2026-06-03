@@ -1,0 +1,175 @@
+{
+  "report_type": "daily",
+  "period": "2026-06-02",
+  "status": "final",
+  "date_range": {
+    "start": "2026-06-02",
+    "end": "2026-06-02"
+  },
+  "updated_at": "2026-06-02",
+  "canonical_url": "/reports/daily/2026-06-02.html",
+  "kpis": {
+    "total_laid_off": 360,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 180.0,
+    "median_layoffs_per_headcount_event": 180.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-06-01",
+      "total_laid_off": 75,
+      "event_count": 1,
+      "total_laid_off_delta": 285,
+      "total_laid_off_pct_change": 3.8,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-06-02",
+      "total_laid_off": 305,
+      "event_count": 1,
+      "total_laid_off_delta": 55,
+      "total_laid_off_pct_change": 0.1803,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "GitLab",
+        "total_laid_off": 350
+      },
+      {
+        "company": "Aleph Farms",
+        "total_laid_off": 10
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Product",
+        "total_laid_off": 350
+      },
+      {
+        "industry": "Food",
+        "total_laid_off": 10
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 350
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 10
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 350
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 10
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-06-02",
+        "company": "GitLab",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.14,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Aleph Farms",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-06-02",
+        "company": "GitLab",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.14,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Aleph Farms",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Manhattan Associates",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-06-02 includes 3 public layoff events and 360 reported layoffs.",
+    "The largest company contributor is GitLab with 350 reported layoffs.",
+    "The leading named industry is Product with 350 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

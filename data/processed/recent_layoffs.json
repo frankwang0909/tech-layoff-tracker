@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-06-02",
+    "company": "GitLab",
+    "num_laid_off": 350,
+    "percentage_laid_off": 0.14,
+    "industry": "Product",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+  },
+  {
+    "date": "2026-06-02",
+    "company": "Manhattan Associates",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.06,
+    "industry": "Logistics",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+  },
+  {
+    "date": "2026-06-02",
+    "company": "Aleph Farms",
+    "num_laid_off": 10,
+    "percentage_laid_off": null,
+    "industry": "Food",
+    "country": "Israel",
+    "stage": "Unknown",
+    "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+  },
+  {
+    "date": "2026-06-01",
+    "company": "Lightricks",
+    "num_laid_off": 75,
+    "percentage_laid_off": 0.17,
+    "industry": "Consumer",
+    "country": "Israel",
+    "stage": "Series D",
+    "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
+  },
+  {
+    "date": "2026-05-30",
+    "company": "Credit Karma",
+    "num_laid_off": 117,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+  },
+  {
     "date": "2026-05-29",
     "company": "SentinelOne",
     "num_laid_off": 230,
@@ -8,6 +58,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+  },
+  {
+    "date": "2026-05-29",
+    "company": "Interview Kickstart",
+    "num_laid_off": 50,
+    "percentage_laid_off": null,
+    "industry": "Education",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
   },
   {
     "date": "2026-05-28",
@@ -28,16 +88,6 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-  },
-  {
-    "date": "2026-05-27",
-    "company": "Lightricks",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "Israel",
-    "stage": "Series D",
-    "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
   },
   {
     "date": "2026-05-27",
@@ -68,55 +118,5 @@
     "country": "United States",
     "stage": "Series E",
     "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
-  },
-  {
-    "date": "2026-05-26",
-    "company": "Picnic",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
-  },
-  {
-    "date": "2026-05-25",
-    "company": "Wix",
-    "num_laid_off": 1000,
-    "percentage_laid_off": 0.2,
-    "industry": "Marketing",
-    "country": "Israel",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
-  },
-  {
-    "date": "2026-05-21",
-    "company": "ClickUp",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.22,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
-  },
-  {
-    "date": "2026-05-20",
-    "company": "Meta",
-    "num_laid_off": 8000,
-    "percentage_laid_off": 0.1,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-  },
-  {
-    "date": "2026-05-20",
-    "company": "Intuit",
-    "num_laid_off": 3000,
-    "percentage_laid_off": 0.17,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
   }
 ]

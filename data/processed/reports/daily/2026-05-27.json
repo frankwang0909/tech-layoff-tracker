@@ -6,15 +6,15 @@
     "start": "2026-05-27",
     "end": "2026-05-27"
   },
-  "updated_at": "2026-05-29",
+  "updated_at": "2026-06-02",
   "canonical_url": "/reports/daily/2026-05-27.html",
   "kpis": {
     "total_laid_off": 77,
-    "event_count": 3,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
+    "company_count": 2,
+    "country_count": 1,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 77.0,
     "median_layoffs_per_headcount_event": 77.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 3,
       "total_laid_off_delta": -323,
       "total_laid_off_pct_change": -0.8075,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 2,
       "total_laid_off_delta": -43,
       "total_laid_off_pct_change": -0.3583,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.5,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -115,16 +115,6 @@
       },
       {
         "date": "2026-05-27",
-        "company": "Lightricks",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
-      },
-      {
-        "date": "2026-05-27",
         "company": "Webflow",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -137,7 +127,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-27 includes 3 public layoff events and 77 reported layoffs.",
+    "2026-05-27 includes 2 public layoff events and 77 reported layoffs.",
     "The largest company contributor is NetApp with 77 reported layoffs.",
     "The leading named industry is Data with 77 reported layoffs."
   ],

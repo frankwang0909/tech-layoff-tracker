@@ -1,22 +1,22 @@
 {
   "report_type": "weekly",
   "period": "2026-W22",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-05-25",
-    "end": "2026-05-29"
+    "end": "2026-05-30"
   },
-  "updated_at": "2026-05-29",
+  "updated_at": "2026-06-02",
   "canonical_url": "/reports/weekly/2026-W22.html",
   "kpis": {
-    "total_laid_off": 1707,
-    "event_count": 9,
-    "headcount_event_count": 4,
-    "company_count": 9,
+    "total_laid_off": 1874,
+    "event_count": 10,
+    "headcount_event_count": 6,
+    "company_count": 10,
     "country_count": 2,
     "industry_count": 7,
-    "average_layoffs_per_headcount_event": 426.75,
-    "median_layoffs_per_headcount_event": 315.0,
+    "average_layoffs_per_headcount_event": 312.33,
+    "median_layoffs_per_headcount_event": 173.5,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W21",
       "total_laid_off": 11110,
       "event_count": 4,
-      "total_laid_off_delta": -9403,
-      "total_laid_off_pct_change": -0.8464,
-      "event_count_delta": 5,
-      "event_count_pct_change": 1.25,
+      "total_laid_off_delta": -9236,
+      "total_laid_off_pct_change": -0.8313,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.5,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W22",
       "total_laid_off": 388,
       "event_count": 5,
-      "total_laid_off_delta": 1319,
-      "total_laid_off_pct_change": 3.3995,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.8,
+      "total_laid_off_delta": 1486,
+      "total_laid_off_pct_change": 3.8299,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -56,8 +56,16 @@
         "total_laid_off": 230
       },
       {
+        "company": "Credit Karma",
+        "total_laid_off": 117
+      },
+      {
         "company": "NetApp",
         "total_laid_off": 77
+      },
+      {
+        "company": "Interview Kickstart",
+        "total_laid_off": 50
       }
     ],
     "industry_top": [
@@ -74,8 +82,16 @@
         "total_laid_off": 230
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 117
+      },
+      {
         "industry": "Data",
         "total_laid_off": 77
+      },
+      {
+        "industry": "Education",
+        "total_laid_off": 50
       }
     ],
     "country_top": [
@@ -85,13 +101,21 @@
       },
       {
         "country": "United States",
-        "total_laid_off": 707
+        "total_laid_off": 874
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 1707
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 117
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 50
       }
     ],
     "layoff_pct_distribution": [
@@ -150,6 +174,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
       },
       {
+        "date": "2026-05-30",
+        "company": "Credit Karma",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+      },
+      {
         "date": "2026-05-27",
         "company": "NetApp",
         "num_laid_off": 77,
@@ -158,9 +192,29 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-05-30",
+        "company": "Credit Karma",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+      },
       {
         "date": "2026-05-29",
         "company": "SentinelOne",
@@ -170,6 +224,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       },
       {
         "date": "2026-05-28",
@@ -190,16 +254,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "Lightricks",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://en.globes.co.il/en/article-lightricks-readies-for-another-round-of-layoffs-1001544185"
       },
       {
         "date": "2026-05-27",
@@ -276,7 +330,7 @@
     ]
   },
   "insights": [
-    "2026-W22 includes 9 public layoff events and 1,707 reported layoffs.",
+    "2026-W22 includes 10 public layoff events and 1,874 reported layoffs.",
     "The largest company contributor is Wix with 1,000 reported layoffs.",
     "The leading named industry is Marketing with 1,000 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

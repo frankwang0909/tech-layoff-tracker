@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2026-04-05",
+  "period": "2026-06-03",
   "status": "final",
   "date_range": {
-    "start": "2026-04-05",
-    "end": "2026-04-05"
+    "start": "2026-06-03",
+    "end": "2026-06-03"
   },
   "updated_at": "2026-06-03",
-  "canonical_url": "/reports/daily/2026-04-05.html",
+  "canonical_url": "/reports/daily/2026-06-03.html",
   "kpis": {
     "total_laid_off": 0,
     "event_count": 1,
@@ -17,21 +17,21 @@
     "industry_count": 1,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-04-04",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2026-06-02",
+      "total_laid_off": 360,
+      "event_count": 3,
+      "total_laid_off_delta": -360,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.6667,
+      "note": null
     },
     "same_period_last_year": {
-      "period": "2025-04-05",
+      "period": "2025-06-03",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -73,32 +73,20 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2026-04-05",
-        "company": "Bolt",
+        "date": "2026-06-03",
+        "company": "Uber",
         "num_laid_off": null,
-        "percentage_laid_off": 0.33,
-        "industry": "Finance",
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
       }
     ],
-    "high_intensity_events": [
-      {
-        "date": "2026-04-05",
-        "company": "Bolt",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.33,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
-      }
-    ]
+    "high_intensity_events": []
   },
   "insights": [
-    "2026-04-05 includes 1 public layoff events and 0 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2026-06-03 includes 1 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

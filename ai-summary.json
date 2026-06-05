@@ -134,7 +134,7 @@
         "name": "Transportation",
         "canonical_url": "https://tech.debugcanada.com/industries/transportation.html",
         "total_laid_off": 4584,
-        "event_count": 26
+        "event_count": 27
       },
       {
         "name": "Infrastructure",
@@ -160,7 +160,7 @@
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
         "total_laid_off": 203340,
-        "event_count": 299
+        "event_count": 300
       },
       {
         "name": "India",

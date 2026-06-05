@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-06-02"
+    "end": "2026-06-03"
   },
-  "updated_at": "2026-06-02",
+  "updated_at": "2026-06-03",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 116739,
-    "event_count": 172,
+    "event_count": 173,
     "headcount_event_count": 117,
-    "company_count": 164,
+    "company_count": 165,
     "country_count": 21,
     "industry_count": 27,
     "average_layoffs_per_headcount_event": 997.77,
@@ -26,8 +26,8 @@
       "event_count": 331,
       "total_laid_off_delta": -7897,
       "total_laid_off_pct_change": -0.0634,
-      "event_count_delta": -159,
-      "event_count_pct_change": -0.4804,
+      "event_count_delta": -158,
+      "event_count_pct_change": -0.4773,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 331,
       "total_laid_off_delta": -7897,
       "total_laid_off_pct_change": -0.0634,
-      "event_count_delta": -159,
-      "event_count_pct_change": -0.4804,
+      "event_count_delta": -158,
+      "event_count_pct_change": -0.4773,
       "note": null
     }
   },
@@ -338,6 +338,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-03",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+      },
+      {
         "date": "2026-06-02",
         "company": "GitLab",
         "num_laid_off": 350,
@@ -349,16 +359,6 @@
       },
       {
         "date": "2026-06-02",
-        "company": "Manhattan Associates",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.06,
-        "industry": "Logistics",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
-      },
-      {
-        "date": "2026-06-02",
         "company": "Aleph Farms",
         "num_laid_off": 10,
         "percentage_laid_off": null,
@@ -366,6 +366,16 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Manhattan Associates",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
       },
       {
         "date": "2026-06-01",
@@ -419,16 +429,6 @@
       },
       {
         "date": "2026-05-27",
-        "company": "NetApp",
-        "num_laid_off": 77,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-      },
-      {
-        "date": "2026-05-27",
         "company": "Webflow",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -436,6 +436,16 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+      },
+      {
+        "date": "2026-05-27",
+        "company": "NetApp",
+        "num_laid_off": 77,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
       },
       {
         "date": "2026-05-26",
@@ -489,16 +499,6 @@
       },
       {
         "date": "2026-05-20",
-        "company": "Intuit",
-        "num_laid_off": 3000,
-        "percentage_laid_off": 0.17,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-      },
-      {
-        "date": "2026-05-20",
         "company": "Meta",
         "num_laid_off": 8000,
         "percentage_laid_off": 0.1,
@@ -506,6 +506,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+      },
+      {
+        "date": "2026-05-20",
+        "company": "Intuit",
+        "num_laid_off": 3000,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
       },
       {
         "date": "2026-05-18",
@@ -526,16 +536,6 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
-      },
-      {
-        "date": "2026-05-14",
-        "company": "Innovaccer",
-        "num_laid_off": 340,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 172 public layoff events and 116,739 reported layoffs.",
+    "2026 includes 173 public layoff events and 116,739 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "33 events report a layoff percentage of 25% or higher."

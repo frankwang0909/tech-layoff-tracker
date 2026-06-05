@@ -1585,13 +1585,13 @@
     "canonical_url": "/industries/transportation.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-05-05"
+      "end": "2026-06-03"
     },
     "kpis": {
       "total_laid_off": 4584,
-      "event_count": 26,
+      "event_count": 27,
       "headcount_event_count": 17,
-      "company_count": 22,
+      "company_count": 23,
       "country_count": 6,
       "industry_count": 1,
       "high_intensity_event_count": 8
@@ -1692,6 +1692,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-03",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.01,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+        },
         {
           "date": "2026-05-05",
           "company": "Careem",
@@ -1831,20 +1841,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://techcrunch.com/2025/06/26/rivian-cuts-dozens-on-manufacturing-team-ahead-of-r2-launch/"
-        },
-        {
-          "date": "2025-05-27",
-          "company": "Cars24",
-          "num_laid_off": 120,
-          "percentage_laid_off": null,
-          "industry": "Transportation",
-          "country": "India",
-          "stage": "Series G",
-          "source": "https://inc42.com/buzz/cars24-to-fire-120-more-employees-in-restructuring-exercise/"
         }
       ]
     },
-    "summary": "Transportation has 4,584 reported tech layoffs across 26 public events from 2025-01-27 to 2026-05-05."
+    "summary": "Transportation has 4,584 reported tech layoffs across 27 public events from 2025-01-27 to 2026-06-03."
   },
   {
     "type": "industry",

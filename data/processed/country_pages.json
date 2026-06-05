@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-02"
+      "end": "2026-06-03"
     },
     "kpis": {
       "total_laid_off": 203340,
-      "event_count": 299,
+      "event_count": 300,
       "headcount_event_count": 199,
-      "company_count": 228,
+      "company_count": 229,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -139,14 +139,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-06-02",
-          "company": "GitLab",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.14,
-          "industry": "Product",
+          "date": "2026-06-03",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.01,
+          "industry": "Transportation",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+          "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
         },
         {
           "date": "2026-06-02",
@@ -157,6 +157,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+        },
+        {
+          "date": "2026-06-02",
+          "company": "GitLab",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.14,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
         },
         {
           "date": "2026-05-30",
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
-        },
-        {
-          "date": "2026-05-14",
-          "company": "Innovaccer",
-          "num_laid_off": 340,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
         }
       ]
     },
-    "summary": "United States has 203,340 reported tech layoffs across 299 public events from 2025-01-02 to 2026-06-02."
+    "summary": "United States has 203,340 reported tech layoffs across 300 public events from 2025-01-02 to 2026-06-03."
   },
   {
     "type": "country",

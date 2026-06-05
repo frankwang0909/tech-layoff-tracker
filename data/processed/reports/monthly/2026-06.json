@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-02"
+    "end": "2026-06-03"
   },
-  "updated_at": "2026-06-02",
+  "updated_at": "2026-06-03",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
     "total_laid_off": 435,
-    "event_count": 4,
+    "event_count": 5,
     "headcount_event_count": 3,
-    "company_count": 4,
+    "company_count": 5,
     "country_count": 2,
-    "industry_count": 4,
+    "industry_count": 5,
     "average_layoffs_per_headcount_event": 145.0,
     "median_layoffs_per_headcount_event": 75.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 47,
       "total_laid_off_delta": -28454,
       "total_laid_off_pct_change": -0.9849,
-      "event_count_delta": -43,
-      "event_count_pct_change": -0.9149,
+      "event_count_delta": -42,
+      "event_count_pct_change": -0.8936,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 16,
       "total_laid_off_delta": -1171,
       "total_laid_off_pct_change": -0.7291,
-      "event_count_delta": -12,
-      "event_count_pct_change": -0.75,
+      "event_count_delta": -11,
+      "event_count_pct_change": -0.6875,
       "note": null
     }
   },
@@ -152,6 +152,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-03",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+      },
+      {
         "date": "2026-06-02",
         "company": "GitLab",
         "num_laid_off": 350,
@@ -195,7 +205,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06 includes 4 public layoff events and 435 reported layoffs.",
+    "2026-06 includes 5 public layoff events and 435 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs."
   ],

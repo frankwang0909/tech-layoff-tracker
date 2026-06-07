@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2026-03-17",
+  "period": "2026-06-04",
   "status": "final",
   "date_range": {
-    "start": "2026-03-17",
-    "end": "2026-03-17"
+    "start": "2026-06-04",
+    "end": "2026-06-04"
   },
   "updated_at": "2026-06-04",
-  "canonical_url": "/reports/daily/2026-03-17.html",
+  "canonical_url": "/reports/daily/2026-06-04.html",
   "kpis": {
     "total_laid_off": 0,
     "event_count": 1,
@@ -17,27 +17,27 @@
     "industry_count": 1,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-03-16",
-      "total_laid_off": 11000,
-      "event_count": 1,
-      "total_laid_off_delta": -11000,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
-      "note": null
-    },
-    "same_period_last_year": {
-      "period": "2025-03-17",
-      "total_laid_off": 318,
+      "period": "2026-06-03",
+      "total_laid_off": 100,
       "event_count": 2,
-      "total_laid_off_delta": -318,
+      "total_laid_off_delta": -100,
       "total_laid_off_pct_change": -1.0,
       "event_count_delta": -1,
       "event_count_pct_change": -0.5,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-06-04",
+      "total_laid_off": 25,
+      "event_count": 1,
+      "total_laid_off_delta": -25,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -73,32 +73,20 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2026-03-17",
-        "company": "FranShares",
+        "date": "2026-06-04",
+        "company": "Google",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
       }
     ],
-    "high_intensity_events": [
-      {
-        "date": "2026-03-17",
-        "company": "FranShares",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
-      }
-    ]
+    "high_intensity_events": []
   },
   "insights": [
-    "2026-03-17 includes 1 public layoff events and 0 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2026-06-04 includes 1 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

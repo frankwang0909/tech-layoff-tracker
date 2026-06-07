@@ -7,11 +7,11 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-03"
+      "end": "2026-06-04"
     },
     "kpis": {
       "total_laid_off": 203340,
-      "event_count": 300,
+      "event_count": 301,
       "headcount_event_count": 199,
       "company_count": 229,
       "country_count": 1,
@@ -139,6 +139,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-06-04",
+          "company": "Google",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+        },
+        {
           "date": "2026-06-03",
           "company": "Uber",
           "num_laid_off": null,
@@ -150,16 +160,6 @@
         },
         {
           "date": "2026-06-02",
-          "company": "Manhattan Associates",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.06,
-          "industry": "Logistics",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
-        },
-        {
-          "date": "2026-06-02",
           "company": "GitLab",
           "num_laid_off": 350,
           "percentage_laid_off": 0.14,
@@ -167,6 +167,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+        },
+        {
+          "date": "2026-06-02",
+          "company": "Manhattan Associates",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.06,
+          "industry": "Logistics",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
         },
         {
           "date": "2026-05-30",
@@ -220,13 +230,13 @@
         },
         {
           "date": "2026-05-26",
-          "company": "Groupon",
-          "num_laid_off": 400,
-          "percentage_laid_off": 0.25,
-          "industry": "Retail",
+          "company": "Picnic",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+          "stage": "Unknown",
+          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
         },
         {
           "date": "2026-05-26",
@@ -240,13 +250,13 @@
         },
         {
           "date": "2026-05-26",
-          "company": "Picnic",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Food",
+          "company": "Groupon",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.25,
+          "industry": "Retail",
           "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
         },
         {
           "date": "2026-05-21",
@@ -260,16 +270,6 @@
         },
         {
           "date": "2026-05-20",
-          "company": "Intuit",
-          "num_laid_off": 3000,
-          "percentage_laid_off": 0.17,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-        },
-        {
-          "date": "2026-05-20",
           "company": "Meta",
           "num_laid_off": 8000,
           "percentage_laid_off": 0.1,
@@ -279,18 +279,18 @@
           "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
         },
         {
-          "date": "2026-05-15",
-          "company": "Kraken",
-          "num_laid_off": 150,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
+          "date": "2026-05-20",
+          "company": "Intuit",
+          "num_laid_off": 3000,
+          "percentage_laid_off": 0.17,
+          "industry": "Finance",
           "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
         }
       ]
     },
-    "summary": "United States has 203,340 reported tech layoffs across 300 public events from 2025-01-02 to 2026-06-03."
+    "summary": "United States has 203,340 reported tech layoffs across 301 public events from 2025-01-02 to 2026-06-04."
   },
   {
     "type": "country",
@@ -581,13 +581,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-02"
+      "end": "2026-06-03"
     },
     "kpis": {
-      "total_laid_off": 6068,
-      "event_count": 52,
-      "headcount_event_count": 36,
-      "company_count": 45,
+      "total_laid_off": 6168,
+      "event_count": 53,
+      "headcount_event_count": 37,
+      "company_count": 46,
       "country_count": 1,
       "industry_count": 19,
       "high_intensity_event_count": 15
@@ -652,7 +652,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 85
+          "total_laid_off": 185
         }
       ],
       "company_top": [
@@ -689,7 +689,7 @@
           "total_laid_off": 160
         },
         {
-          "company": "Rewire",
+          "company": "AI21 Labs",
           "total_laid_off": 110
         },
         {
@@ -700,6 +700,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-03",
+          "company": "Skai",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+        },
         {
           "date": "2026-06-02",
           "company": "Aleph Farms",
@@ -812,16 +822,6 @@
         },
         {
           "date": "2026-02-15",
-          "company": "Huawei",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
-        },
-        {
-          "date": "2026-02-15",
           "company": "Firebolt",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -829,6 +829,16 @@
           "country": "Israel",
           "stage": "Series C",
           "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
+        },
+        {
+          "date": "2026-02-15",
+          "company": "Huawei",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
         },
         {
           "date": "2026-02-04",
@@ -839,20 +849,10 @@
           "country": "Israel",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
-        },
-        {
-          "date": "2026-01-27",
-          "company": "Moon Active",
-          "num_laid_off": 110,
-          "percentage_laid_off": 0.05,
-          "industry": "Consumer",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
         }
       ]
     },
-    "summary": "Israel has 6,068 reported tech layoffs across 52 public events from 2025-01-06 to 2026-06-02."
+    "summary": "Israel has 6,168 reported tech layoffs across 53 public events from 2025-01-06 to 2026-06-03."
   },
   {
     "type": "country",

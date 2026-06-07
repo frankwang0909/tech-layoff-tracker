@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-04",
+    "company": "Google",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+  },
+  {
     "date": "2026-06-03",
     "company": "Uber",
     "num_laid_off": null,
@@ -10,14 +20,14 @@
     "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
   },
   {
-    "date": "2026-06-02",
-    "company": "Manhattan Associates",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.06,
-    "industry": "Logistics",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+    "date": "2026-06-03",
+    "company": "Skai",
+    "num_laid_off": 100,
+    "percentage_laid_off": 0.2,
+    "industry": "Marketing",
+    "country": "Israel",
+    "stage": "Series E",
+    "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
   },
   {
     "date": "2026-06-02",
@@ -28,6 +38,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+  },
+  {
+    "date": "2026-06-02",
+    "company": "Manhattan Associates",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.06,
+    "industry": "Logistics",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
   },
   {
     "date": "2026-06-02",
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-  },
-  {
-    "date": "2026-05-27",
-    "company": "Webflow",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
-  },
-  {
-    "date": "2026-05-26",
-    "company": "Groupon",
-    "num_laid_off": 400,
-    "percentage_laid_off": 0.25,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
   }
 ]

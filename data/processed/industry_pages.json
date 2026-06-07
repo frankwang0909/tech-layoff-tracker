@@ -549,11 +549,11 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-06-01"
+      "end": "2026-06-04"
     },
     "kpis": {
       "total_laid_off": 25961,
-      "event_count": 72,
+      "event_count": 73,
       "headcount_event_count": 50,
       "company_count": 47,
       "country_count": 9,
@@ -676,6 +676,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-04",
+          "company": "Google",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+        },
         {
           "date": "2026-06-01",
           "company": "Lightricks",
@@ -815,20 +825,10 @@
           "country": "United States",
           "stage": "Series F",
           "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
-        },
-        {
-          "date": "2026-03-25",
-          "company": "Meta",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.01,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
         }
       ]
     },
-    "summary": "Consumer has 25,961 reported tech layoffs across 72 public events from 2025-01-27 to 2026-06-01."
+    "summary": "Consumer has 25,961 reported tech layoffs across 73 public events from 2025-01-27 to 2026-06-04."
   },
   {
     "type": "industry",
@@ -3297,13 +3297,13 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-05-27"
+      "end": "2026-06-03"
     },
     "kpis": {
-      "total_laid_off": 2486,
-      "event_count": 18,
-      "headcount_event_count": 12,
-      "company_count": 17,
+      "total_laid_off": 2586,
+      "event_count": 19,
+      "headcount_event_count": 13,
+      "company_count": 18,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 4
@@ -3345,6 +3345,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 1000
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 100
         }
       ],
       "company_top": [
@@ -3357,11 +3361,11 @@
           "total_laid_off": 200
         },
         {
-          "company": "Yotpo",
+          "company": "Outbrain",
           "total_laid_off": 200
         },
         {
-          "company": "Outbrain",
+          "company": "Yotpo",
           "total_laid_off": 200
         },
         {
@@ -3381,17 +3385,27 @@
           "total_laid_off": 130
         },
         {
-          "company": "Taboola",
+          "company": "Skai",
           "total_laid_off": 100
         },
         {
-          "company": "LiveRamp",
-          "total_laid_off": 65
+          "company": "Taboola",
+          "total_laid_off": 100
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-03",
+          "company": "Skai",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+        },
         {
           "date": "2026-05-27",
           "company": "Webflow",
@@ -3531,20 +3545,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://adage.com/article/agency-news/acxiom-lays-35-staff-more-130-employees/2606146"
-        },
-        {
-          "date": "2025-03-05",
-          "company": "LiveRamp",
-          "num_laid_off": 65,
-          "percentage_laid_off": 0.05,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.benzinga.com/news/guidance/25/03/44189581/saas-company-liveramp-lays-off-5-of-full-time-workforce-amid-strategic-restructuring"
         }
       ]
     },
-    "summary": "Marketing has 2,486 reported tech layoffs across 18 public events from 2025-01-15 to 2026-05-27."
+    "summary": "Marketing has 2,586 reported tech layoffs across 19 public events from 2025-01-15 to 2026-06-03."
   },
   {
     "type": "industry",

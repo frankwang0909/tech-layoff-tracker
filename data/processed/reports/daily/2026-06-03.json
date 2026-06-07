@@ -6,17 +6,17 @@
     "start": "2026-06-03",
     "end": "2026-06-03"
   },
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-04",
   "canonical_url": "/reports/daily/2026-06-03.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "total_laid_off": 100,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 100.0,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-06-02",
       "total_laid_off": 360,
       "event_count": 3,
-      "total_laid_off_delta": -360,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": -260,
+      "total_laid_off_pct_change": -0.7222,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -42,10 +42,30 @@
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Skai",
+        "total_laid_off": 100
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Marketing",
+        "total_laid_off": 100
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Israel",
+        "total_laid_off": 100
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series E",
+        "total_laid_off": 100
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -53,7 +73,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-06-03",
+        "company": "Skai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-06-03",
+        "company": "Skai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+      },
       {
         "date": "2026-06-03",
         "company": "Uber",
@@ -86,7 +127,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06-03 includes 1 public layoff events and 0 reported layoffs."
+    "2026-06-03 includes 2 public layoff events and 100 reported layoffs.",
+    "The largest company contributor is Skai with 100 reported layoffs.",
+    "The leading named industry is Marketing with 100 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

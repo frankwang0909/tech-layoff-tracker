@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-03"
+    "end": "2026-06-04"
   },
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-04",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 435,
-    "event_count": 5,
-    "headcount_event_count": 3,
-    "company_count": 5,
+    "total_laid_off": 535,
+    "event_count": 7,
+    "headcount_event_count": 4,
+    "company_count": 7,
     "country_count": 2,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 145.0,
-    "median_layoffs_per_headcount_event": 75.0,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 133.75,
+    "median_layoffs_per_headcount_event": 87.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-05",
       "total_laid_off": 28889,
       "event_count": 47,
-      "total_laid_off_delta": -28454,
-      "total_laid_off_pct_change": -0.9849,
-      "event_count_delta": -42,
-      "event_count_pct_change": -0.8936,
+      "total_laid_off_delta": -28354,
+      "total_laid_off_pct_change": -0.9815,
+      "event_count_delta": -40,
+      "event_count_pct_change": -0.8511,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": -1171,
-      "total_laid_off_pct_change": -0.7291,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.6875,
+      "total_laid_off_delta": -1071,
+      "total_laid_off_pct_change": -0.6669,
+      "event_count_delta": -9,
+      "event_count_pct_change": -0.5625,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "GitLab",
         "total_laid_off": 350
+      },
+      {
+        "company": "Skai",
+        "total_laid_off": 100
       },
       {
         "company": "Lightricks",
@@ -60,6 +64,10 @@
       {
         "industry": "Product",
         "total_laid_off": 350
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 100
       },
       {
         "industry": "Consumer",
@@ -77,13 +85,17 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 85
+        "total_laid_off": 185
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 350
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 100
       },
       {
         "stage": "Series D",
@@ -101,7 +113,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -130,6 +142,16 @@
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
       },
       {
+        "date": "2026-06-03",
+        "company": "Skai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+      },
+      {
         "date": "2026-06-01",
         "company": "Lightricks",
         "num_laid_off": 75,
@@ -151,6 +173,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-04",
+        "company": "Google",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+      },
+      {
+        "date": "2026-06-03",
+        "company": "Skai",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+      },
       {
         "date": "2026-06-03",
         "company": "Uber",
@@ -205,7 +247,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06 includes 5 public layoff events and 435 reported layoffs.",
+    "2026-06 includes 7 public layoff events and 535 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs."
   ],

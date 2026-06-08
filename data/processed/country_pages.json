@@ -581,13 +581,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-03"
+      "end": "2026-06-07"
     },
     "kpis": {
-      "total_laid_off": 6168,
-      "event_count": 53,
-      "headcount_event_count": 37,
-      "company_count": 46,
+      "total_laid_off": 6183,
+      "event_count": 54,
+      "headcount_event_count": 38,
+      "company_count": 47,
       "country_count": 1,
       "industry_count": 19,
       "high_intensity_event_count": 15
@@ -652,7 +652,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 185
+          "total_laid_off": 200
         }
       ],
       "company_top": [
@@ -689,17 +689,27 @@
           "total_laid_off": 160
         },
         {
-          "company": "AI21 Labs",
+          "company": "Moon Active",
           "total_laid_off": 110
         },
         {
-          "company": "Moon Active",
+          "company": "AI21 Labs",
           "total_laid_off": 110
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-07",
+          "company": "Zencity",
+          "num_laid_off": 15,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+        },
         {
           "date": "2026-06-03",
           "company": "Skai",
@@ -839,20 +849,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
-        },
-        {
-          "date": "2026-02-04",
-          "company": "Rewire",
-          "num_laid_off": 110,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
         }
       ]
     },
-    "summary": "Israel has 6,168 reported tech layoffs across 53 public events from 2025-01-06 to 2026-06-03."
+    "summary": "Israel has 6,183 reported tech layoffs across 54 public events from 2025-01-06 to 2026-06-07."
   },
   {
     "type": "country",

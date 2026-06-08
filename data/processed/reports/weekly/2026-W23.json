@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-04"
+    "end": "2026-06-07"
   },
-  "updated_at": "2026-06-04",
+  "updated_at": "2026-06-07",
   "canonical_url": "/reports/weekly/2026-W23.html",
   "kpis": {
-    "total_laid_off": 535,
-    "event_count": 7,
-    "headcount_event_count": 4,
-    "company_count": 7,
+    "total_laid_off": 550,
+    "event_count": 8,
+    "headcount_event_count": 5,
+    "company_count": 8,
     "country_count": 2,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 133.75,
-    "median_layoffs_per_headcount_event": 87.5,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 110.0,
+    "median_layoffs_per_headcount_event": 75.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W22",
       "total_laid_off": 1874,
       "event_count": 10,
-      "total_laid_off_delta": -1339,
-      "total_laid_off_pct_change": -0.7145,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.3,
+      "total_laid_off_delta": -1324,
+      "total_laid_off_pct_change": -0.7065,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.2,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W23",
       "total_laid_off": 420,
       "event_count": 3,
-      "total_laid_off_delta": 115,
-      "total_laid_off_pct_change": 0.2738,
-      "event_count_delta": 4,
-      "event_count_pct_change": 1.3333,
+      "total_laid_off_delta": 130,
+      "total_laid_off_pct_change": 0.3095,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.6667,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "Lightricks",
         "total_laid_off": 75
+      },
+      {
+        "company": "Zencity",
+        "total_laid_off": 15
       },
       {
         "company": "Aleph Farms",
@@ -74,6 +78,10 @@
         "total_laid_off": 75
       },
       {
+        "industry": "Other",
+        "total_laid_off": 15
+      },
+      {
         "industry": "Food",
         "total_laid_off": 10
       }
@@ -85,7 +93,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 185
+        "total_laid_off": 200
       }
     ],
     "stage_top": [
@@ -103,7 +111,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 10
+        "total_laid_off": 25
       }
     ],
     "layoff_pct_distribution": [
@@ -162,6 +170,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
       },
       {
+        "date": "2026-06-07",
+        "company": "Zencity",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+      },
+      {
         "date": "2026-06-02",
         "company": "Aleph Farms",
         "num_laid_off": 10,
@@ -173,6 +191,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-07",
+        "company": "Zencity",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+      },
       {
         "date": "2026-06-04",
         "company": "Google",
@@ -247,7 +275,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W23 includes 7 public layoff events and 535 reported layoffs.",
+    "2026-W23 includes 8 public layoff events and 550 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs."
   ],

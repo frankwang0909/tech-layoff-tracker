@@ -1,27 +1,27 @@
 {
   "report_type": "daily",
-  "period": "2025-10-29",
+  "period": "2026-06-07",
   "status": "final",
   "date_range": {
-    "start": "2025-10-29",
-    "end": "2025-10-29"
+    "start": "2026-06-07",
+    "end": "2026-06-07"
   },
   "updated_at": "2026-06-07",
-  "canonical_url": "/reports/daily/2025-10-29.html",
+  "canonical_url": "/reports/daily/2026-06-07.html",
   "kpis": {
-    "total_laid_off": 165,
+    "total_laid_off": 15,
     "event_count": 1,
     "headcount_event_count": 1,
     "company_count": 1,
     "country_count": 1,
     "industry_count": 1,
-    "average_layoffs_per_headcount_event": 165.0,
-    "median_layoffs_per_headcount_event": 165.0,
+    "average_layoffs_per_headcount_event": 15.0,
+    "median_layoffs_per_headcount_event": 15.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-10-28",
+      "period": "2026-06-06",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -31,7 +31,7 @@
       "note": "No comparison data is available for this period."
     },
     "same_period_last_year": {
-      "period": "2024-10-29",
+      "period": "2025-06-07",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -44,26 +44,26 @@
   "charts": {
     "company_top": [
       {
-        "company": "Personio",
-        "total_laid_off": 165
+        "company": "Zencity",
+        "total_laid_off": 15
       }
     ],
     "industry_top": [
       {
-        "industry": "HR",
-        "total_laid_off": 165
+        "industry": "Other",
+        "total_laid_off": 15
       }
     ],
     "country_top": [
       {
-        "country": "Germany",
-        "total_laid_off": 165
+        "country": "Israel",
+        "total_laid_off": 15
       }
     ],
     "stage_top": [
       {
-        "stage": "Series E",
-        "total_laid_off": 165
+        "stage": "Unknown",
+        "total_laid_off": 15
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +73,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 0
       },
       {
         "bucket": "25-49%",
@@ -92,34 +92,34 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2025-10-29",
-        "company": "Personio",
-        "num_laid_off": 165,
-        "percentage_laid_off": 0.1,
-        "industry": "HR",
-        "country": "Germany",
-        "stage": "Series E",
-        "source": "Internal memo"
+        "date": "2026-06-07",
+        "company": "Zencity",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
       }
     ],
     "recent_events": [
       {
-        "date": "2025-10-29",
-        "company": "Personio",
-        "num_laid_off": 165,
-        "percentage_laid_off": 0.1,
-        "industry": "HR",
-        "country": "Germany",
-        "stage": "Series E",
-        "source": "Internal memo"
+        "date": "2026-06-07",
+        "company": "Zencity",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-10-29 includes 1 public layoff events and 165 reported layoffs.",
-    "The largest company contributor is Personio with 165 reported layoffs.",
-    "The leading named industry is HR with 165 reported layoffs."
+    "2026-06-07 includes 1 public layoff events and 15 reported layoffs.",
+    "The largest company contributor is Zencity with 15 reported layoffs.",
+    "The leading named industry is Other with 15 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

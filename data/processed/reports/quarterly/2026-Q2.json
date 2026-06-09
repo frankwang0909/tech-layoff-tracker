@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-07"
+    "end": "2026-06-08"
   },
-  "updated_at": "2026-06-07",
+  "updated_at": "2026-06-08",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 34151,
-    "event_count": 87,
-    "headcount_event_count": 59,
-    "company_count": 86,
+    "total_laid_off": 34261,
+    "event_count": 89,
+    "headcount_event_count": 60,
+    "company_count": 88,
     "country_count": 16,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 578.83,
+    "average_layoffs_per_headcount_event": 571.02,
     "median_layoffs_per_headcount_event": 150.0,
-    "high_intensity_event_count": 15
+    "high_intensity_event_count": 16
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
       "total_laid_off": 82703,
       "event_count": 89,
-      "total_laid_off_delta": -48552,
-      "total_laid_off_pct_change": -0.5871,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.0225,
+      "total_laid_off_delta": -48442,
+      "total_laid_off_pct_change": -0.5857,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -3452,
-      "total_laid_off_pct_change": -0.0918,
-      "event_count_delta": 15,
-      "event_count_pct_change": 0.2083,
+      "total_laid_off_delta": -3342,
+      "total_laid_off_pct_change": -0.0889,
+      "event_count_delta": 17,
+      "event_count_pct_change": 0.2361,
       "note": null
     }
   },
@@ -133,7 +133,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 1402
+        "total_laid_off": 1512
       },
       {
         "country": "Kenya",
@@ -194,12 +194,12 @@
         "total_laid_off": 325
       },
       {
-        "stage": "Private Equity",
-        "total_laid_off": 218
+        "stage": "Series C",
+        "total_laid_off": 228
       },
       {
-        "stage": "Series C",
-        "total_laid_off": 118
+        "stage": "Private Equity",
+        "total_laid_off": 218
       },
       {
         "stage": "Series F",
@@ -225,7 +225,7 @@
       },
       {
         "bucket": "50-99%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "100%+",
@@ -337,6 +337,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Tools for Humanity",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+      },
       {
         "date": "2026-06-07",
         "company": "Zencity",
@@ -516,26 +536,6 @@
         "country": "Israel",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
-      },
-      {
-        "date": "2026-05-21",
-        "company": "ClickUp",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.22,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
-      },
-      {
-        "date": "2026-05-20",
-        "company": "Intuit",
-        "num_laid_off": 3000,
-        "percentage_laid_off": 0.17,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
       }
     ],
     "high_intensity_events": [
@@ -560,16 +560,6 @@
         "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
       },
       {
-        "date": "2026-04-03",
-        "company": "NeuroPixel.AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
-      },
-      {
         "date": "2026-04-09",
         "company": "Pepper Pay",
         "num_laid_off": null,
@@ -580,6 +570,16 @@
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
+        "date": "2026-04-03",
+        "company": "NeuroPixel.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+      },
+      {
         "date": "2026-05-18",
         "company": "AI21 Labs",
         "num_laid_off": 110,
@@ -588,6 +588,16 @@
         "country": "Israel",
         "stage": "Series D",
         "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
       },
       {
         "date": "2026-04-05",
@@ -628,24 +638,14 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
-      },
-      {
-        "date": "2026-04-03",
-        "company": "Welltech",
-        "num_laid_off": 225,
-        "percentage_laid_off": 0.3,
-        "industry": "Fitness",
-        "country": "Cyprus",
-        "stage": "Unknown",
-        "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
       }
     ]
   },
   "insights": [
-    "2026-Q2 includes 87 public layoff events and 34,151 reported layoffs.",
+    "2026-Q2 includes 89 public layoff events and 34,261 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
-    "15 events report a layoff percentage of 25% or higher."
+    "16 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

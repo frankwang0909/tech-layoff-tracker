@@ -3028,13 +3028,13 @@
     "canonical_url": "/industries/ai.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-05-18"
+      "end": "2026-06-08"
     },
     "kpis": {
       "total_laid_off": 2712,
-      "event_count": 19,
+      "event_count": 20,
       "headcount_event_count": 16,
-      "company_count": 18,
+      "company_count": 19,
       "country_count": 6,
       "industry_count": 1,
       "high_intensity_event_count": 7
@@ -3135,6 +3135,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-08",
+          "company": "Tools for Humanity",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+        },
         {
           "date": "2026-05-18",
           "company": "AI21 Labs",
@@ -3274,20 +3284,10 @@
           "country": "Israel",
           "stage": "Series A",
           "source": "https://www.calcalistech.com/ctechnews/article/bjluv00711xe"
-        },
-        {
-          "date": "2025-04-25",
-          "company": "SambaNova",
-          "num_laid_off": 77,
-          "percentage_laid_off": 0.15,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/"
         }
       ]
     },
-    "summary": "AI has 2,712 reported tech layoffs across 19 public events from 2025-02-05 to 2026-05-18."
+    "summary": "AI has 2,712 reported tech layoffs across 20 public events from 2025-02-05 to 2026-06-08."
   },
   {
     "type": "industry",
@@ -3558,16 +3558,16 @@
     "canonical_url": "/industries/manufacturing.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-04-16"
+      "end": "2026-06-08"
     },
     "kpis": {
-      "total_laid_off": 1930,
-      "event_count": 8,
-      "headcount_event_count": 6,
+      "total_laid_off": 2040,
+      "event_count": 9,
+      "headcount_event_count": 7,
       "company_count": 8,
       "country_count": 4,
       "industry_count": 1,
-      "high_intensity_event_count": 1
+      "high_intensity_event_count": 2
     },
     "charts": {
       "monthly_trend": [
@@ -3590,6 +3590,10 @@
         {
           "month": "2026-04",
           "total_laid_off": 80
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 110
         }
       ],
       "company_top": [
@@ -3606,21 +3610,31 @@
           "total_laid_off": 140
         },
         {
+          "company": "Hailo",
+          "total_laid_off": 140
+        },
+        {
           "company": "Shutterfly",
           "total_laid_off": 80
         },
         {
           "company": "Augury",
           "total_laid_off": 60
-        },
-        {
-          "company": "Hailo",
-          "total_laid_off": 30
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-08",
+          "company": "Hailo",
+          "num_laid_off": 110,
+          "percentage_laid_off": 0.5,
+          "industry": "Manufacturing",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+        },
         {
           "date": "2026-04-16",
           "company": "Shutterfly",
@@ -3703,7 +3717,7 @@
         }
       ]
     },
-    "summary": "Manufacturing has 1,930 reported tech layoffs across 8 public events from 2025-02-05 to 2026-04-16."
+    "summary": "Manufacturing has 2,040 reported tech layoffs across 9 public events from 2025-02-05 to 2026-06-08."
   },
   {
     "type": "industry",

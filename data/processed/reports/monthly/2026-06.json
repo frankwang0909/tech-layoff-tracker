@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-07"
+    "end": "2026-06-08"
   },
-  "updated_at": "2026-06-07",
+  "updated_at": "2026-06-08",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 550,
-    "event_count": 8,
-    "headcount_event_count": 5,
-    "company_count": 8,
+    "total_laid_off": 660,
+    "event_count": 10,
+    "headcount_event_count": 6,
+    "company_count": 10,
     "country_count": 2,
-    "industry_count": 7,
+    "industry_count": 9,
     "average_layoffs_per_headcount_event": 110.0,
-    "median_layoffs_per_headcount_event": 75.0,
-    "high_intensity_event_count": 0
+    "median_layoffs_per_headcount_event": 87.5,
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05",
       "total_laid_off": 28889,
       "event_count": 47,
-      "total_laid_off_delta": -28339,
-      "total_laid_off_pct_change": -0.981,
-      "event_count_delta": -39,
-      "event_count_pct_change": -0.8298,
+      "total_laid_off_delta": -28229,
+      "total_laid_off_pct_change": -0.9772,
+      "event_count_delta": -37,
+      "event_count_pct_change": -0.7872,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": -1056,
-      "total_laid_off_pct_change": -0.6575,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -946,
+      "total_laid_off_pct_change": -0.589,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.375,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "GitLab",
         "total_laid_off": 350
+      },
+      {
+        "company": "Hailo",
+        "total_laid_off": 110
       },
       {
         "company": "Skai",
@@ -68,6 +72,10 @@
       {
         "industry": "Product",
         "total_laid_off": 350
+      },
+      {
+        "industry": "Manufacturing",
+        "total_laid_off": 110
       },
       {
         "industry": "Marketing",
@@ -93,13 +101,17 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 200
+        "total_laid_off": 310
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 350
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 110
       },
       {
         "stage": "Series E",
@@ -129,7 +141,7 @@
       },
       {
         "bucket": "50-99%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "100%+",
@@ -148,6 +160,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
       },
       {
         "date": "2026-06-03",
@@ -191,6 +213,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Tools for Humanity",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+      },
       {
         "date": "2026-06-07",
         "company": "Zencity",
@@ -272,12 +314,24 @@
         "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      }
+    ]
   },
   "insights": [
-    "2026-06 includes 8 public layoff events and 550 reported layoffs.",
+    "2026-06 includes 10 public layoff events and 660 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
-    "The leading named industry is Product with 350 reported layoffs."
+    "The leading named industry is Product with 350 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-04"
+      "end": "2026-06-08"
     },
     "kpis": {
       "total_laid_off": 203340,
-      "event_count": 301,
+      "event_count": 302,
       "headcount_event_count": 199,
-      "company_count": 229,
+      "company_count": 230,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -139,6 +139,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-06-08",
+          "company": "Tools for Humanity",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+        },
+        {
           "date": "2026-06-04",
           "company": "Google",
           "num_laid_off": null,
@@ -210,16 +220,6 @@
         },
         {
           "date": "2026-05-27",
-          "company": "NetApp",
-          "num_laid_off": 77,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-        },
-        {
-          "date": "2026-05-27",
           "company": "Webflow",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -229,14 +229,24 @@
           "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
         },
         {
-          "date": "2026-05-26",
-          "company": "Picnic",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Food",
+          "date": "2026-05-27",
+          "company": "NetApp",
+          "num_laid_off": 77,
+          "percentage_laid_off": null,
+          "industry": "Data",
           "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+          "stage": "Post-IPO",
+          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+        },
+        {
+          "date": "2026-05-26",
+          "company": "Groupon",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.25,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
         },
         {
           "date": "2026-05-26",
@@ -250,13 +260,13 @@
         },
         {
           "date": "2026-05-26",
-          "company": "Groupon",
-          "num_laid_off": 400,
-          "percentage_laid_off": 0.25,
-          "industry": "Retail",
+          "company": "Picnic",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+          "stage": "Unknown",
+          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
         },
         {
           "date": "2026-05-21",
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-        },
-        {
-          "date": "2026-05-20",
-          "company": "Intuit",
-          "num_laid_off": 3000,
-          "percentage_laid_off": 0.17,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
         }
       ]
     },
-    "summary": "United States has 203,340 reported tech layoffs across 301 public events from 2025-01-02 to 2026-06-04."
+    "summary": "United States has 203,340 reported tech layoffs across 302 public events from 2025-01-02 to 2026-06-08."
   },
   {
     "type": "country",
@@ -581,16 +581,16 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-07"
+      "end": "2026-06-08"
     },
     "kpis": {
-      "total_laid_off": 6183,
-      "event_count": 54,
-      "headcount_event_count": 38,
+      "total_laid_off": 6293,
+      "event_count": 55,
+      "headcount_event_count": 39,
       "company_count": 47,
       "country_count": 1,
       "industry_count": 19,
-      "high_intensity_event_count": 15
+      "high_intensity_event_count": 16
     },
     "charts": {
       "monthly_trend": [
@@ -652,7 +652,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 200
+          "total_laid_off": 310
         }
       ],
       "company_top": [
@@ -689,17 +689,27 @@
           "total_laid_off": 160
         },
         {
-          "company": "Moon Active",
-          "total_laid_off": 110
+          "company": "Hailo",
+          "total_laid_off": 140
         },
         {
-          "company": "AI21 Labs",
+          "company": "Moon Active",
           "total_laid_off": 110
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-08",
+          "company": "Hailo",
+          "num_laid_off": 110,
+          "percentage_laid_off": 0.5,
+          "industry": "Manufacturing",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+        },
         {
           "date": "2026-06-07",
           "company": "Zencity",
@@ -832,16 +842,6 @@
         },
         {
           "date": "2026-02-15",
-          "company": "Firebolt",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Israel",
-          "stage": "Series C",
-          "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
-        },
-        {
-          "date": "2026-02-15",
           "company": "Huawei",
           "num_laid_off": 50,
           "percentage_laid_off": null,
@@ -852,7 +852,7 @@
         }
       ]
     },
-    "summary": "Israel has 6,183 reported tech layoffs across 54 public events from 2025-01-06 to 2026-06-07."
+    "summary": "Israel has 6,293 reported tech layoffs across 55 public events from 2025-01-06 to 2026-06-08."
   },
   {
     "type": "country",

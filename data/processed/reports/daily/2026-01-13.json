@@ -6,18 +6,18 @@
     "start": "2026-01-13",
     "end": "2026-01-13"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/daily/2026-01-13.html",
   "kpis": {
     "total_laid_off": 1605,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 2,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 802.5,
     "median_layoffs_per_headcount_event": 802.5,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 1,
       "total_laid_off_delta": 1489,
       "total_laid_off_pct_change": 12.8362,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 2,
       "total_laid_off_delta": 1605,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.5,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -151,6 +151,16 @@
       },
       {
         "date": "2026-01-13",
+        "company": "Alle",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+      },
+      {
+        "date": "2026-01-13",
         "company": "StoreDot",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -160,12 +170,24 @@
         "source": "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-01-13",
+        "company": "Alle",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+      }
+    ]
   },
   "insights": [
-    "2026-01-13 includes 3 public layoff events and 1,605 reported layoffs.",
+    "2026-01-13 includes 4 public layoff events and 1,605 reported layoffs.",
     "The largest company contributor is Meta with 1,500 reported layoffs.",
-    "The leading named industry is Consumer with 1,500 reported layoffs."
+    "The leading named industry is Consumer with 1,500 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

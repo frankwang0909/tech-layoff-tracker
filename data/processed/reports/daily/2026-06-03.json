@@ -6,17 +6,17 @@
     "start": "2026-06-03",
     "end": "2026-06-03"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/daily/2026-06-03.html",
   "kpis": {
-    "total_laid_off": 100,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
+    "total_laid_off": 260,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
     "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 100.0,
-    "median_layoffs_per_headcount_event": 100.0,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 130.0,
+    "median_layoffs_per_headcount_event": 130.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-06-02",
       "total_laid_off": 360,
       "event_count": 3,
-      "total_laid_off_delta": -260,
-      "total_laid_off_pct_change": -0.7222,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.3333,
+      "total_laid_off_delta": -100,
+      "total_laid_off_pct_change": -0.2778,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -44,11 +44,19 @@
   "charts": {
     "company_top": [
       {
+        "company": "Dandy",
+        "total_laid_off": 160
+      },
+      {
         "company": "Skai",
         "total_laid_off": 100
       }
     ],
     "industry_top": [
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 160
+      },
       {
         "industry": "Marketing",
         "total_laid_off": 100
@@ -56,11 +64,19 @@
     ],
     "country_top": [
       {
+        "country": "United States",
+        "total_laid_off": 160
+      },
+      {
         "country": "Israel",
         "total_laid_off": 100
       }
     ],
     "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 160
+      },
       {
         "stage": "Series E",
         "total_laid_off": 100
@@ -93,6 +109,16 @@
     "largest_events": [
       {
         "date": "2026-06-03",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-06-03",
         "company": "Skai",
         "num_laid_off": 100,
         "percentage_laid_off": 0.2,
@@ -103,6 +129,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-03",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "Internal memo"
+      },
       {
         "date": "2026-06-03",
         "company": "Skai",
@@ -127,9 +163,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06-03 includes 2 public layoff events and 100 reported layoffs.",
-    "The largest company contributor is Skai with 100 reported layoffs.",
-    "The leading named industry is Marketing with 100 reported layoffs."
+    "2026-06-03 includes 3 public layoff events and 260 reported layoffs.",
+    "The largest company contributor is Dandy with 160 reported layoffs.",
+    "The leading named industry is Healthcare with 160 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

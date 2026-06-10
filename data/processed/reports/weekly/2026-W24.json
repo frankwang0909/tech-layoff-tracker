@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-08",
-    "end": "2026-06-08"
+    "end": "2026-06-09"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/weekly/2026-W24.html",
   "kpis": {
-    "total_laid_off": 110,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
+    "total_laid_off": 196,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
     "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 110.0,
-    "median_layoffs_per_headcount_event": 110.0,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 98.0,
+    "median_layoffs_per_headcount_event": 98.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W23",
-      "total_laid_off": 550,
-      "event_count": 8,
-      "total_laid_off_delta": -440,
-      "total_laid_off_pct_change": -0.8,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.75,
+      "total_laid_off": 710,
+      "event_count": 10,
+      "total_laid_off_delta": -514,
+      "total_laid_off_pct_change": -0.7239,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.7,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W24",
       "total_laid_off": 180,
       "event_count": 2,
-      "total_laid_off_delta": -70,
-      "total_laid_off_pct_change": -0.3889,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 16,
+      "total_laid_off_pct_change": 0.0889,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
@@ -46,24 +46,40 @@
       {
         "company": "Hailo",
         "total_laid_off": 110
+      },
+      {
+        "company": "Salesforce",
+        "total_laid_off": 86
       }
     ],
     "industry_top": [
       {
         "industry": "Manufacturing",
         "total_laid_off": 110
+      },
+      {
+        "industry": "Sales",
+        "total_laid_off": 86
       }
     ],
     "country_top": [
       {
         "country": "Israel",
         "total_laid_off": 110
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 86
       }
     ],
     "stage_top": [
       {
         "stage": "Series C",
         "total_laid_off": 110
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 86
       }
     ],
     "layoff_pct_distribution": [
@@ -100,9 +116,29 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Salesforce",
+        "num_laid_off": 86,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-09",
+        "company": "Salesforce",
+        "num_laid_off": 86,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      },
       {
         "date": "2026-06-08",
         "company": "Hailo",
@@ -138,7 +174,7 @@
     ]
   },
   "insights": [
-    "2026-W24 includes 2 public layoff events and 110 reported layoffs.",
+    "2026-W24 includes 3 public layoff events and 196 reported layoffs.",
     "The largest company contributor is Hailo with 110 reported layoffs.",
     "The leading named industry is Manufacturing with 110 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

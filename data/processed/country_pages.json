@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-08"
+      "end": "2026-06-09"
     },
     "kpis": {
-      "total_laid_off": 203340,
-      "event_count": 302,
-      "headcount_event_count": 199,
-      "company_count": 230,
+      "total_laid_off": 203747,
+      "event_count": 307,
+      "headcount_event_count": 203,
+      "company_count": 234,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -78,11 +78,11 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 43420
+          "total_laid_off": 43477
         },
         {
           "month": "2026-04",
-          "total_laid_off": 2750
+          "total_laid_off": 2854
         },
         {
           "month": "2026-05",
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 350
+          "total_laid_off": 596
         }
       ],
       "company_top": [
@@ -124,7 +124,7 @@
         },
         {
           "company": "Salesforce",
-          "total_laid_off": 5385
+          "total_laid_off": 5471
         },
         {
           "company": "Block",
@@ -139,6 +139,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-06-09",
+          "company": "Salesforce",
+          "num_laid_off": 86,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+        },
+        {
           "date": "2026-06-08",
           "company": "Tools for Humanity",
           "num_laid_off": null,
@@ -149,6 +159,16 @@
           "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
         },
         {
+          "date": "2026-06-05",
+          "company": "FanDuel",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+        },
+        {
           "date": "2026-06-04",
           "company": "Google",
           "num_laid_off": null,
@@ -157,6 +177,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+        },
+        {
+          "date": "2026-06-03",
+          "company": "Dandy",
+          "num_laid_off": 160,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "Internal memo"
         },
         {
           "date": "2026-06-03",
@@ -200,16 +230,6 @@
         },
         {
           "date": "2026-05-29",
-          "company": "SentinelOne",
-          "num_laid_off": 230,
-          "percentage_laid_off": 0.08,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
-        },
-        {
-          "date": "2026-05-29",
           "company": "Interview Kickstart",
           "num_laid_off": 50,
           "percentage_laid_off": null,
@@ -219,14 +239,14 @@
           "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
         },
         {
-          "date": "2026-05-27",
-          "company": "Webflow",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
+          "date": "2026-05-29",
+          "company": "SentinelOne",
+          "num_laid_off": 230,
+          "percentage_laid_off": 0.08,
+          "industry": "Security",
           "country": "United States",
-          "stage": "Series C",
-          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
         },
         {
           "date": "2026-05-27",
@@ -237,6 +257,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+        },
+        {
+          "date": "2026-05-27",
+          "company": "Webflow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
         },
         {
           "date": "2026-05-26",
@@ -257,40 +287,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
-        },
-        {
-          "date": "2026-05-26",
-          "company": "Picnic",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Food",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
-        },
-        {
-          "date": "2026-05-21",
-          "company": "ClickUp",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.22,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
-        },
-        {
-          "date": "2026-05-20",
-          "company": "Meta",
-          "num_laid_off": 8000,
-          "percentage_laid_off": 0.1,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
         }
       ]
     },
-    "summary": "United States has 203,340 reported tech layoffs across 302 public events from 2025-01-02 to 2026-06-08."
+    "summary": "United States has 203,747 reported tech layoffs across 307 public events from 2025-01-02 to 2026-06-09."
   },
   {
     "type": "country",
@@ -304,12 +304,12 @@
     },
     "kpis": {
       "total_laid_off": 9210,
-      "event_count": 52,
+      "event_count": 53,
       "headcount_event_count": 41,
-      "company_count": 42,
+      "company_count": 43,
       "country_count": 1,
       "industry_count": 14,
-      "high_intensity_event_count": 17
+      "high_intensity_event_count": 18
     },
     "charts": {
       "monthly_trend": [
@@ -530,14 +530,14 @@
           "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
         },
         {
-          "date": "2025-12-09",
-          "company": "Whatfix",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.06,
-          "industry": "AI",
+          "date": "2026-01-13",
+          "company": "Alle",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Retail",
           "country": "India",
-          "stage": "Series E",
-          "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+          "stage": "Seed",
+          "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
         },
         {
           "date": "2025-12-09",
@@ -550,6 +550,16 @@
           "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
         },
         {
+          "date": "2025-12-09",
+          "company": "Whatfix",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.06,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Series E",
+          "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+        },
+        {
           "date": "2025-11-26",
           "company": "Junglee Games",
           "num_laid_off": 350,
@@ -558,20 +568,10 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://inc42.com/buzz/junglee-games-parent-flutter-sheds-350-jobs-in-post-rmg-ban-recast/"
-        },
-        {
-          "date": "2025-11-16",
-          "company": "Flipkart",
-          "num_laid_off": 40,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
         }
       ]
     },
-    "summary": "India has 9,210 reported tech layoffs across 52 public events from 2025-01-15 to 2026-05-10."
+    "summary": "India has 9,210 reported tech layoffs across 53 public events from 2025-01-15 to 2026-05-10."
   },
   {
     "type": "country",
@@ -2268,6 +2268,79 @@
       ]
     },
     "summary": "Brazil has 516 reported tech layoffs across 2 public events from 2026-01-12 to 2026-03-13."
+  },
+  {
+    "type": "country",
+    "name": "Norway",
+    "slug": "norway",
+    "title": "Tech Layoffs by Country: Norway",
+    "canonical_url": "/countries/norway.html",
+    "date_range": {
+      "start": "2026-04-20",
+      "end": "2026-05-14"
+    },
+    "kpis": {
+      "total_laid_off": 400,
+      "event_count": 3,
+      "headcount_event_count": 2,
+      "company_count": 3,
+      "country_count": 1,
+      "industry_count": 3,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2026-04",
+          "total_laid_off": 400
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Qt Company",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Remarkable",
+          "total_laid_off": 200
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-05-14",
+          "company": "Dune",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "Norway",
+          "stage": "Series B",
+          "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+        },
+        {
+          "date": "2026-04-22",
+          "company": "Remarkable",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Norway",
+          "stage": "Unknown",
+          "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+        },
+        {
+          "date": "2026-04-20",
+          "company": "Qt Company",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "Norway",
+          "stage": "Series B",
+          "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+        }
+      ]
+    },
+    "summary": "Norway has 400 reported tech layoffs across 3 public events from 2026-04-20 to 2026-05-14."
   },
   {
     "type": "country",

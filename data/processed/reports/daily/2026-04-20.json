@@ -6,17 +6,17 @@
     "start": "2026-04-20",
     "end": "2026-04-20"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/daily/2026-04-20.html",
   "kpis": {
-    "total_laid_off": 60,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 60.0,
-    "median_layoffs_per_headcount_event": 60.0,
+    "total_laid_off": 260,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 130.0,
+    "median_layoffs_per_headcount_event": 130.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -44,11 +44,19 @@
   "charts": {
     "company_top": [
       {
+        "company": "Qt Company",
+        "total_laid_off": 200
+      },
+      {
         "company": "Acko",
         "total_laid_off": 60
       }
     ],
     "industry_top": [
+      {
+        "industry": "Product",
+        "total_laid_off": 200
+      },
       {
         "industry": "Finance",
         "total_laid_off": 60
@@ -56,11 +64,19 @@
     ],
     "country_top": [
       {
+        "country": "Norway",
+        "total_laid_off": 200
+      },
+      {
         "country": "India",
         "total_laid_off": 60
       }
     ],
     "stage_top": [
+      {
+        "stage": "Series B",
+        "total_laid_off": 200
+      },
       {
         "stage": "Unknown",
         "total_laid_off": 60
@@ -93,6 +109,16 @@
     "largest_events": [
       {
         "date": "2026-04-20",
+        "company": "Qt Company",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+      },
+      {
+        "date": "2026-04-20",
         "company": "Acko",
         "num_laid_off": 60,
         "percentage_laid_off": 0.05,
@@ -103,6 +129,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-04-20",
+        "company": "Qt Company",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+      },
       {
         "date": "2026-04-20",
         "company": "Acko",
@@ -117,9 +153,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-04-20 includes 1 public layoff events and 60 reported layoffs.",
-    "The largest company contributor is Acko with 60 reported layoffs.",
-    "The leading named industry is Finance with 60 reported layoffs."
+    "2026-04-20 includes 2 public layoff events and 260 reported layoffs.",
+    "The largest company contributor is Qt Company with 200 reported layoffs.",
+    "The leading named industry is Product with 200 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -57,11 +57,11 @@
   },
   {
     "month": "2026-03",
-    "total_laid_off": 46536
+    "total_laid_off": 46593
   },
   {
     "month": "2026-04",
-    "total_laid_off": 4712
+    "total_laid_off": 5016
   },
   {
     "month": "2026-05",
@@ -69,6 +69,6 @@
   },
   {
     "month": "2026-06",
-    "total_laid_off": 660
+    "total_laid_off": 906
   }
 ]

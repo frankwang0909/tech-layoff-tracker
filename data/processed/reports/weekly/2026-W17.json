@@ -6,17 +6,17 @@
     "start": "2026-04-20",
     "end": "2026-04-24"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/weekly/2026-W17.html",
   "kpis": {
-    "total_laid_off": 538,
-    "event_count": 5,
-    "headcount_event_count": 5,
-    "company_count": 5,
+    "total_laid_off": 738,
+    "event_count": 6,
+    "headcount_event_count": 6,
+    "company_count": 6,
     "country_count": 4,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 107.6,
-    "median_layoffs_per_headcount_event": 68.0,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 123.0,
+    "median_layoffs_per_headcount_event": 109.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W16",
       "total_laid_off": 3397,
       "event_count": 12,
-      "total_laid_off_delta": -2859,
-      "total_laid_off_pct_change": -0.8416,
-      "event_count_delta": -7,
-      "event_count_pct_change": -0.5833,
+      "total_laid_off_delta": -2659,
+      "total_laid_off_pct_change": -0.7827,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W17",
       "total_laid_off": 22652,
       "event_count": 6,
-      "total_laid_off_delta": -22114,
-      "total_laid_off_pct_change": -0.9762,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.1667,
+      "total_laid_off_delta": -21914,
+      "total_laid_off_pct_change": -0.9674,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -45,6 +45,10 @@
     "company_top": [
       {
         "company": "Remarkable",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Qt Company",
         "total_laid_off": 200
       },
       {
@@ -70,6 +74,10 @@
         "total_laid_off": 200
       },
       {
+        "industry": "Product",
+        "total_laid_off": 200
+      },
+      {
         "industry": "Media",
         "total_laid_off": 150
       },
@@ -89,7 +97,7 @@
     "country_top": [
       {
         "country": "Norway",
-        "total_laid_off": 200
+        "total_laid_off": 400
       },
       {
         "country": "Sweden",
@@ -112,6 +120,10 @@
       {
         "stage": "Private Equity",
         "total_laid_off": 218
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 200
       },
       {
         "stage": "Series C",
@@ -152,6 +164,16 @@
         "country": "Norway",
         "stage": "Unknown",
         "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
+      {
+        "date": "2026-04-20",
+        "company": "Qt Company",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
       },
       {
         "date": "2026-04-21",
@@ -237,6 +259,16 @@
       },
       {
         "date": "2026-04-20",
+        "company": "Qt Company",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+      },
+      {
+        "date": "2026-04-20",
         "company": "Acko",
         "num_laid_off": 60,
         "percentage_laid_off": 0.05,
@@ -270,7 +302,7 @@
     ]
   },
   "insights": [
-    "2026-W17 includes 5 public layoff events and 538 reported layoffs.",
+    "2026-W17 includes 6 public layoff events and 738 reported layoffs.",
     "The largest company contributor is Remarkable with 200 reported layoffs.",
     "The leading named industry is Hardware with 200 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

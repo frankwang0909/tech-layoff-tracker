@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-06-08",
-    "company": "Hailo",
-    "num_laid_off": 110,
-    "percentage_laid_off": 0.5,
-    "industry": "Manufacturing",
-    "country": "Israel",
-    "stage": "Series C",
-    "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+    "date": "2026-06-09",
+    "company": "Salesforce",
+    "num_laid_off": 86,
+    "percentage_laid_off": null,
+    "industry": "Sales",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
   },
   {
     "date": "2026-06-08",
@@ -20,6 +20,16 @@
     "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
   },
   {
+    "date": "2026-06-08",
+    "company": "Hailo",
+    "num_laid_off": 110,
+    "percentage_laid_off": 0.5,
+    "industry": "Manufacturing",
+    "country": "Israel",
+    "stage": "Series C",
+    "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+  },
+  {
     "date": "2026-06-07",
     "company": "Zencity",
     "num_laid_off": 15,
@@ -30,6 +40,16 @@
     "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
   },
   {
+    "date": "2026-06-05",
+    "company": "FanDuel",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+  },
+  {
     "date": "2026-06-04",
     "company": "Google",
     "num_laid_off": null,
@@ -38,6 +58,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+  },
+  {
+    "date": "2026-06-03",
+    "company": "Dandy",
+    "num_laid_off": 160,
+    "percentage_laid_off": null,
+    "industry": "Healthcare",
+    "country": "United States",
+    "stage": "Series D",
+    "source": "Internal memo"
   },
   {
     "date": "2026-06-03",
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
-  },
-  {
-    "date": "2026-06-01",
-    "company": "Lightricks",
-    "num_laid_off": 75,
-    "percentage_laid_off": 0.17,
-    "industry": "Consumer",
-    "country": "Israel",
-    "stage": "Series D",
-    "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
-  },
-  {
-    "date": "2026-05-30",
-    "company": "Credit Karma",
-    "num_laid_off": 117,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
-  },
-  {
-    "date": "2026-05-29",
-    "company": "SentinelOne",
-    "num_laid_off": 230,
-    "percentage_laid_off": 0.08,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
   }
 ]

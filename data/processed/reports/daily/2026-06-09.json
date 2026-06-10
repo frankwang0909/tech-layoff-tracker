@@ -1,0 +1,129 @@
+{
+  "report_type": "daily",
+  "period": "2026-06-09",
+  "status": "final",
+  "date_range": {
+    "start": "2026-06-09",
+    "end": "2026-06-09"
+  },
+  "updated_at": "2026-06-09",
+  "canonical_url": "/reports/daily/2026-06-09.html",
+  "kpis": {
+    "total_laid_off": 86,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 86.0,
+    "median_layoffs_per_headcount_event": 86.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-06-08",
+      "total_laid_off": 110,
+      "event_count": 2,
+      "total_laid_off_delta": -24,
+      "total_laid_off_pct_change": -0.2182,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.5,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-06-09",
+      "total_laid_off": 150,
+      "event_count": 1,
+      "total_laid_off_delta": -64,
+      "total_laid_off_pct_change": -0.4267,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Salesforce",
+        "total_laid_off": 86
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 86
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 86
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 86
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-06-09",
+        "company": "Salesforce",
+        "num_laid_off": 86,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-06-09",
+        "company": "Salesforce",
+        "num_laid_off": 86,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-06-09 includes 1 public layoff events and 86 reported layoffs.",
+    "The largest company contributor is Salesforce with 86 reported layoffs.",
+    "The leading named industry is Sales with 86 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

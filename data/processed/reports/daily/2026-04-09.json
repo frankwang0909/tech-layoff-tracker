@@ -6,17 +6,17 @@
     "start": "2026-04-09",
     "end": "2026-04-09"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/daily/2026-04-09.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 2,
-    "headcount_event_count": 0,
-    "company_count": 2,
+    "total_laid_off": 104,
+    "event_count": 3,
+    "headcount_event_count": 1,
+    "company_count": 3,
     "country_count": 1,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 104.0,
+    "median_layoffs_per_headcount_event": 104.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,28 +24,48 @@
       "period": "2026-04-08",
       "total_laid_off": 77,
       "event_count": 1,
-      "total_laid_off_delta": -77,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": 27,
+      "total_laid_off_pct_change": 0.3506,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04-09",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 0,
+      "total_laid_off_delta": 104,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Qualcomm",
+        "total_laid_off": 104
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 104
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 104
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 104
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-04-09",
+        "company": "Qualcomm",
+        "num_laid_off": 104,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-04-09",
+        "company": "Qualcomm",
+        "num_laid_off": 104,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+      },
       {
         "date": "2026-04-09",
         "company": "Cars.com",
@@ -107,7 +148,9 @@
     ]
   },
   "insights": [
-    "2026-04-09 includes 2 public layoff events and 0 reported layoffs.",
+    "2026-04-09 includes 3 public layoff events and 104 reported layoffs.",
+    "The largest company contributor is Qualcomm with 104 reported layoffs.",
+    "The leading named industry is Hardware with 104 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

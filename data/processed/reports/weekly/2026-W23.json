@@ -6,17 +6,17 @@
     "start": "2026-06-01",
     "end": "2026-06-07"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/weekly/2026-W23.html",
   "kpis": {
-    "total_laid_off": 550,
-    "event_count": 8,
-    "headcount_event_count": 5,
-    "company_count": 8,
+    "total_laid_off": 710,
+    "event_count": 10,
+    "headcount_event_count": 6,
+    "company_count": 10,
     "country_count": 2,
-    "industry_count": 7,
-    "average_layoffs_per_headcount_event": 110.0,
-    "median_layoffs_per_headcount_event": 75.0,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 118.33,
+    "median_layoffs_per_headcount_event": 87.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W22",
       "total_laid_off": 1874,
       "event_count": 10,
-      "total_laid_off_delta": -1324,
-      "total_laid_off_pct_change": -0.7065,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.2,
+      "total_laid_off_delta": -1164,
+      "total_laid_off_pct_change": -0.6211,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W23",
       "total_laid_off": 420,
       "event_count": 3,
-      "total_laid_off_delta": 130,
-      "total_laid_off_pct_change": 0.3095,
-      "event_count_delta": 5,
-      "event_count_pct_change": 1.6667,
+      "total_laid_off_delta": 290,
+      "total_laid_off_pct_change": 0.6905,
+      "event_count_delta": 7,
+      "event_count_pct_change": 2.3333,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "GitLab",
         "total_laid_off": 350
+      },
+      {
+        "company": "Dandy",
+        "total_laid_off": 160
       },
       {
         "company": "Skai",
@@ -70,6 +74,10 @@
         "total_laid_off": 350
       },
       {
+        "industry": "Healthcare",
+        "total_laid_off": 160
+      },
+      {
         "industry": "Marketing",
         "total_laid_off": 100
       },
@@ -89,7 +97,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 350
+        "total_laid_off": 510
       },
       {
         "country": "Israel",
@@ -102,12 +110,12 @@
         "total_laid_off": 350
       },
       {
-        "stage": "Series E",
-        "total_laid_off": 100
+        "stage": "Series D",
+        "total_laid_off": 235
       },
       {
-        "stage": "Series D",
-        "total_laid_off": 75
+        "stage": "Series E",
+        "total_laid_off": 100
       },
       {
         "stage": "Unknown",
@@ -148,6 +156,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-03",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "Internal memo"
       },
       {
         "date": "2026-06-03",
@@ -202,6 +220,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
       },
       {
+        "date": "2026-06-05",
+        "company": "FanDuel",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+      },
+      {
         "date": "2026-06-04",
         "company": "Google",
         "num_laid_off": null,
@@ -210,6 +238,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+      },
+      {
+        "date": "2026-06-03",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "Internal memo"
       },
       {
         "date": "2026-06-03",
@@ -275,7 +313,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W23 includes 8 public layoff events and 550 reported layoffs.",
+    "2026-W23 includes 10 public layoff events and 710 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs."
   ],

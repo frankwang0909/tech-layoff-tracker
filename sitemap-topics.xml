@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tech.debugcanada.com/industries/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/consumer.html</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/sales.html</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -152,19 +152,19 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/healthcare.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://tech.debugcanada.com/industries/travel.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/product.html</loc>
     <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://tech.debugcanada.com/industries/travel.html</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/united-states.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -243,6 +243,12 @@
   <url>
     <loc>https://tech.debugcanada.com/countries/brazil.html</loc>
     <lastmod>2026-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://tech.debugcanada.com/countries/norway.html</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>

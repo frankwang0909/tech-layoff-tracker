@@ -6,18 +6,18 @@
     "start": "2026-01-05",
     "end": "2026-01-30"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/monthly/2026-01.html",
   "kpis": {
     "total_laid_off": 25148,
-    "event_count": 31,
+    "event_count": 32,
     "headcount_event_count": 23,
-    "company_count": 30,
+    "company_count": 31,
     "country_count": 12,
     "industry_count": 14,
     "average_layoffs_per_headcount_event": 1093.39,
     "median_layoffs_per_headcount_event": 220.0,
-    "high_intensity_event_count": 2
+    "high_intensity_event_count": 3
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 20,
       "total_laid_off_delta": 23596,
       "total_laid_off_pct_change": 15.2036,
-      "event_count_delta": 11,
-      "event_count_pct_change": 0.55,
+      "event_count_delta": 12,
+      "event_count_pct_change": 0.6,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 32,
       "total_laid_off_delta": 22611,
       "total_laid_off_pct_change": 8.9125,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.0312,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -491,16 +491,6 @@
       },
       {
         "date": "2026-01-15",
-        "company": "Ericsson",
-        "num_laid_off": 1600,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
-      },
-      {
-        "date": "2026-01-15",
         "company": "Tipalti",
         "num_laid_off": 100,
         "percentage_laid_off": null,
@@ -508,6 +498,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
       },
       {
         "date": "2026-01-14",
@@ -542,6 +542,16 @@
         "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
       },
       {
+        "date": "2026-01-13",
+        "company": "Alle",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+      },
+      {
         "date": "2026-01-29",
         "company": "Kiwi.com",
         "num_laid_off": 250,
@@ -554,10 +564,10 @@
     ]
   },
   "insights": [
-    "2026-01 includes 31 public layoff events and 25,148 reported layoffs.",
+    "2026-01 includes 32 public layoff events and 25,148 reported layoffs.",
     "The largest company contributor is Amazon with 16,000 reported layoffs.",
     "The leading named industry is Retail with 16,116 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

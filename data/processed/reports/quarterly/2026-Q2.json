@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-08"
+    "end": "2026-06-09"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 34261,
-    "event_count": 89,
-    "headcount_event_count": 60,
-    "company_count": 88,
+    "total_laid_off": 34811,
+    "event_count": 94,
+    "headcount_event_count": 64,
+    "company_count": 93,
     "country_count": 16,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 571.02,
+    "average_layoffs_per_headcount_event": 543.92,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 16
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
-      "total_laid_off": 82703,
-      "event_count": 89,
-      "total_laid_off_delta": -48442,
-      "total_laid_off_pct_change": -0.5857,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off": 82760,
+      "event_count": 91,
+      "total_laid_off_delta": -47949,
+      "total_laid_off_pct_change": -0.5794,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.033,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -3342,
-      "total_laid_off_pct_change": -0.0889,
-      "event_count_delta": 17,
-      "event_count_pct_change": 0.2361,
+      "total_laid_off_delta": -2792,
+      "total_laid_off_pct_change": -0.0742,
+      "event_count_delta": 22,
+      "event_count_pct_change": 0.3056,
       "note": null
     }
   },
@@ -122,14 +122,14 @@
         "total_laid_off": 875
       },
       {
-        "industry": "Retail",
-        "total_laid_off": 630
+        "industry": "Sales",
+        "total_laid_off": 686
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 29659
+        "total_laid_off": 30009
       },
       {
         "country": "Israel",
@@ -148,16 +148,16 @@
         "total_laid_off": 455
       },
       {
+        "country": "Norway",
+        "total_laid_off": 400
+      },
+      {
         "country": "Cyprus",
         "total_laid_off": 225
       },
       {
         "country": "Sweden",
         "total_laid_off": 220
-      },
-      {
-        "country": "Norway",
-        "total_laid_off": 200
       },
       {
         "country": "Nigeria",
@@ -171,19 +171,19 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 27511
+        "total_laid_off": 27701
       },
       {
         "stage": "Unknown",
         "total_laid_off": 2278
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 1542
+        "stage": "Series B",
+        "total_laid_off": 1543
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 1343
+        "stage": "Acquired",
+        "total_laid_off": 1542
       },
       {
         "stage": "Series E",
@@ -191,7 +191,7 @@
       },
       {
         "stage": "Series D",
-        "total_laid_off": 325
+        "total_laid_off": 485
       },
       {
         "stage": "Series C",
@@ -338,14 +338,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-06-08",
-        "company": "Hailo",
-        "num_laid_off": 110,
-        "percentage_laid_off": 0.5,
-        "industry": "Manufacturing",
-        "country": "Israel",
-        "stage": "Series C",
-        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+        "date": "2026-06-09",
+        "company": "Salesforce",
+        "num_laid_off": 86,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
       },
       {
         "date": "2026-06-08",
@@ -358,6 +358,16 @@
         "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
       },
       {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
         "date": "2026-06-07",
         "company": "Zencity",
         "num_laid_off": 15,
@@ -368,6 +378,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
       },
       {
+        "date": "2026-06-05",
+        "company": "FanDuel",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+      },
+      {
         "date": "2026-06-04",
         "company": "Google",
         "num_laid_off": null,
@@ -376,6 +396,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+      },
+      {
+        "date": "2026-06-03",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "Internal memo"
       },
       {
         "date": "2026-06-03",
@@ -449,16 +479,6 @@
       },
       {
         "date": "2026-05-29",
-        "company": "Interview Kickstart",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-      },
-      {
-        "date": "2026-05-29",
         "company": "SentinelOne",
         "num_laid_off": 230,
         "percentage_laid_off": 0.08,
@@ -466,6 +486,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       },
       {
         "date": "2026-05-28",
@@ -506,36 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
-      },
-      {
-        "date": "2026-05-26",
-        "company": "BigID",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
-      },
-      {
-        "date": "2026-05-26",
-        "company": "Picnic",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
-      },
-      {
-        "date": "2026-05-25",
-        "company": "Wix",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 89 public layoff events and 34,261 reported layoffs.",
+    "2026-Q2 includes 94 public layoff events and 34,811 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "16 events report a layoff percentage of 25% or higher."

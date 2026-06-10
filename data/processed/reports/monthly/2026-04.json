@@ -6,38 +6,38 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 4712,
-    "event_count": 32,
-    "headcount_event_count": 19,
-    "company_count": 32,
+    "total_laid_off": 5016,
+    "event_count": 34,
+    "headcount_event_count": 21,
+    "company_count": 34,
     "country_count": 9,
     "industry_count": 15,
-    "average_layoffs_per_headcount_event": 248.0,
-    "median_layoffs_per_headcount_event": 90.0,
+    "average_layoffs_per_headcount_event": 238.86,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-03",
-      "total_laid_off": 46536,
-      "event_count": 31,
-      "total_laid_off_delta": -41824,
-      "total_laid_off_pct_change": -0.8987,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.0323,
+      "total_laid_off": 46593,
+      "event_count": 32,
+      "total_laid_off_delta": -41577,
+      "total_laid_off_pct_change": -0.8923,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.0625,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25420,
       "event_count": 29,
-      "total_laid_off_delta": -20708,
-      "total_laid_off_pct_change": -0.8146,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.1034,
+      "total_laid_off_delta": -20404,
+      "total_laid_off_pct_change": -0.8027,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.1724,
       "note": null
     }
   },
@@ -68,6 +68,10 @@
         "total_laid_off": 200
       },
       {
+        "company": "Qt Company",
+        "total_laid_off": 200
+      },
+      {
         "company": "Epidemic Sound",
         "total_laid_off": 150
       },
@@ -76,12 +80,8 @@
         "total_laid_off": 145
       },
       {
-        "company": "Taboola",
-        "total_laid_off": 100
-      },
-      {
-        "company": "GoCardless",
-        "total_laid_off": 90
+        "company": "Qualcomm",
+        "total_laid_off": 104
       }
     ],
     "industry_top": [
@@ -98,12 +98,16 @@
         "total_laid_off": 950
       },
       {
-        "industry": "Fitness",
-        "total_laid_off": 225
+        "industry": "Hardware",
+        "total_laid_off": 304
       },
       {
-        "industry": "Hardware",
-        "total_laid_off": 200
+        "industry": "Product",
+        "total_laid_off": 290
+      },
+      {
+        "industry": "Fitness",
+        "total_laid_off": 225
       },
       {
         "industry": "Finance",
@@ -120,28 +124,24 @@
       {
         "industry": "Marketing",
         "total_laid_off": 100
-      },
-      {
-        "industry": "Product",
-        "total_laid_off": 90
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2750
+        "total_laid_off": 2854
       },
       {
         "country": "Kenya",
         "total_laid_off": 1108
       },
       {
-        "country": "Cyprus",
-        "total_laid_off": 225
+        "country": "Norway",
+        "total_laid_off": 400
       },
       {
-        "country": "Norway",
-        "total_laid_off": 200
+        "country": "Cyprus",
+        "total_laid_off": 225
       },
       {
         "country": "Sweden",
@@ -167,7 +167,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1634
+        "total_laid_off": 1738
       },
       {
         "stage": "Unknown",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Series B",
-        "total_laid_off": 1108
+        "total_laid_off": 1308
       },
       {
         "stage": "Private Equity",
@@ -264,6 +264,16 @@
         "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
       },
       {
+        "date": "2026-04-22",
+        "company": "Remarkable",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Norway",
+        "stage": "Unknown",
+        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
+      {
         "date": "2026-04-02",
         "company": "Meta",
         "num_laid_off": 200,
@@ -274,14 +284,14 @@
         "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
       },
       {
-        "date": "2026-04-22",
-        "company": "Remarkable",
+        "date": "2026-04-20",
+        "company": "Qt Company",
         "num_laid_off": 200,
         "percentage_laid_off": null,
-        "industry": "Hardware",
+        "industry": "Product",
         "country": "Norway",
-        "stage": "Unknown",
-        "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+        "stage": "Series B",
+        "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
       },
       {
         "date": "2026-04-21",
@@ -304,24 +314,14 @@
         "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
       },
       {
-        "date": "2026-04-15",
-        "company": "Taboola",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.05,
-        "industry": "Marketing",
+        "date": "2026-04-09",
+        "company": "Qualcomm",
+        "num_laid_off": 104,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
-      },
-      {
-        "date": "2026-04-07",
-        "company": "Pendo",
-        "num_laid_off": 90,
-        "percentage_laid_off": 0.1,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
       }
     ],
     "recent_events": [
@@ -374,6 +374,16 @@
         "country": "United States",
         "stage": "Private Equity",
         "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
+      },
+      {
+        "date": "2026-04-20",
+        "company": "Qt Company",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "Norway",
+        "stage": "Series B",
+        "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
       },
       {
         "date": "2026-04-20",
@@ -514,16 +524,6 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
-      },
-      {
-        "date": "2026-04-10",
-        "company": "Life360",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
       }
     ],
     "high_intensity_events": [
@@ -600,7 +600,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 32 public layoff events and 4,712 reported layoffs.",
+    "2026-04 includes 34 public layoff events and 5,016 reported layoffs.",
     "The largest company contributor is Sama with 1,108 reported layoffs.",
     "The leading named industry is Consumer with 1,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

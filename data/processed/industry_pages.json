@@ -10,10 +10,10 @@
       "end": "2026-04-22"
     },
     "kpis": {
-      "total_laid_off": 51287,
-      "event_count": 18,
-      "headcount_event_count": 15,
-      "company_count": 12,
+      "total_laid_off": 51391,
+      "event_count": 19,
+      "headcount_event_count": 16,
+      "company_count": 13,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 1
@@ -66,7 +66,7 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 200
+          "total_laid_off": 304
         }
       ],
       "company_top": [
@@ -103,12 +103,12 @@
           "total_laid_off": 200
         },
         {
-          "company": "Lenovo",
-          "total_laid_off": 100
+          "company": "Qualcomm",
+          "total_laid_off": 104
         },
         {
-          "company": "Tenstorrent",
-          "total_laid_off": 80
+          "company": "Lenovo",
+          "total_laid_off": 100
         }
       ]
     },
@@ -123,6 +123,16 @@
           "country": "Norway",
           "stage": "Unknown",
           "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+        },
+        {
+          "date": "2026-04-09",
+          "company": "Qualcomm",
+          "num_laid_off": 104,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
         },
         {
           "date": "2026-03-16",
@@ -253,20 +263,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://thespoon.tech/next-gen-fridge-startup-tomorrow-shuts-down/"
-        },
-        {
-          "date": "2025-04-23",
-          "company": "Intel",
-          "num_laid_off": 22000,
-          "percentage_laid_off": 0.2,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2025-04-23/intel-to-announce-plans-this-week-to-cut-more-than-20-of-staff?srnd=homepage-americas"
         }
       ]
     },
-    "summary": "Hardware has 51,287 reported tech layoffs across 18 public events from 2025-02-04 to 2026-04-22."
+    "summary": "Hardware has 51,391 reported tech layoffs across 19 public events from 2025-02-04 to 2026-04-22."
   },
   {
     "type": "industry",
@@ -280,12 +280,12 @@
     },
     "kpis": {
       "total_laid_off": 34727,
-      "event_count": 37,
+      "event_count": 38,
       "headcount_event_count": 24,
-      "company_count": 25,
+      "company_count": 26,
       "country_count": 9,
       "industry_count": 1,
-      "high_intensity_event_count": 7
+      "high_intensity_event_count": 8
     },
     "charts": {
       "monthly_trend": [
@@ -498,6 +498,16 @@
           "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
         },
         {
+          "date": "2026-01-13",
+          "company": "Alle",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Retail",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+        },
+        {
           "date": "2026-01-12",
           "company": "MercadoLibre",
           "num_laid_off": 116,
@@ -526,20 +536,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
-        },
-        {
-          "date": "2025-11-16",
-          "company": "Flipkart",
-          "num_laid_off": 40,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/sk7ktewxwg"
         }
       ]
     },
-    "summary": "Retail has 34,727 reported tech layoffs across 37 public events from 2025-01-10 to 2026-05-26."
+    "summary": "Retail has 34,727 reported tech layoffs across 38 public events from 2025-01-10 to 2026-05-26."
   },
   {
     "type": "industry",
@@ -549,13 +549,13 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-06-04"
+      "end": "2026-06-05"
     },
     "kpis": {
       "total_laid_off": 25961,
-      "event_count": 73,
+      "event_count": 74,
       "headcount_event_count": 50,
-      "company_count": 47,
+      "company_count": 48,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -676,6 +676,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-05",
+          "company": "FanDuel",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+        },
         {
           "date": "2026-06-04",
           "company": "Google",
@@ -815,20 +825,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
-        },
-        {
-          "date": "2026-03-31",
-          "company": "Rec Room",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
         }
       ]
     },
-    "summary": "Consumer has 25,961 reported tech layoffs across 73 public events from 2025-01-27 to 2026-06-04."
+    "summary": "Consumer has 25,961 reported tech layoffs across 74 public events from 2025-01-27 to 2026-06-05."
   },
   {
     "type": "industry",
@@ -1119,13 +1119,13 @@
     "canonical_url": "/industries/sales.html",
     "date_range": {
       "start": "2025-02-03",
-      "end": "2026-05-10"
+      "end": "2026-06-09"
     },
     "kpis": {
-      "total_laid_off": 6578,
-      "event_count": 15,
-      "headcount_event_count": 13,
-      "company_count": 9,
+      "total_laid_off": 6721,
+      "event_count": 17,
+      "headcount_event_count": 15,
+      "company_count": 10,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 3
@@ -1162,17 +1162,21 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 36
+          "total_laid_off": 93
         },
         {
           "month": "2026-05",
           "total_laid_off": 600
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 86
         }
       ],
       "company_top": [
         {
           "company": "Salesforce",
-          "total_laid_off": 5385
+          "total_laid_off": 5471
         },
         {
           "company": "ZoomInfo",
@@ -1195,6 +1199,10 @@
           "total_laid_off": 76
         },
         {
+          "company": "Marketsource",
+          "total_laid_off": 57
+        },
+        {
           "company": "Loopio",
           "total_laid_off": 36
         },
@@ -1206,6 +1214,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-09",
+          "company": "Salesforce",
+          "num_laid_off": 86,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+        },
         {
           "date": "2026-05-10",
           "company": "ZoomInfo",
@@ -1225,6 +1243,16 @@
           "country": "Canada",
           "stage": "Private Equity",
           "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+        },
+        {
+          "date": "2026-03-05",
+          "company": "Marketsource",
+          "num_laid_off": 57,
+          "percentage_laid_off": 0.11,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bizjournals.com/atlanta/news/2026/03/05/sales-accelerator-to-lay-off-dozens.html"
         },
         {
           "date": "2026-02-12",
@@ -1269,22 +1297,22 @@
         {
           "date": "2025-09-03",
           "company": "Salesforce",
-          "num_laid_off": 93,
-          "percentage_laid_off": null,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/"
-        },
-        {
-          "date": "2025-09-03",
-          "company": "Salesforce",
           "num_laid_off": 30,
           "percentage_laid_off": null,
           "industry": "Sales",
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.thejournal.ie/salesforce-ireland-redundancies-6806486-Sep2025/"
+        },
+        {
+          "date": "2025-09-03",
+          "company": "Salesforce",
+          "num_laid_off": 93,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.seattletimes.com/business/seattle-area-tech-layoffs-mount-with-salesforce-and-oracle-job-cuts/"
         },
         {
           "date": "2025-08-31",
@@ -1335,30 +1363,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://www.oregonlive.com/silicon-forest/2025/06/zoominfo-one-of-portland-areas-most-valuable-companies-will-cut-200-jobs.html"
-        },
-        {
-          "date": "2025-04-06",
-          "company": "Coho AI",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Sales",
-          "country": "Israel",
-          "stage": "Seed",
-          "source": "https://www.calcalistech.com/ctechnews/article/hjkodbg0jg"
-        },
-        {
-          "date": "2025-02-03",
-          "company": "Salesforce",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.01,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://finance.yahoo.com/news/salesforce-cut-1-000-roles-002028643.html"
         }
       ]
     },
-    "summary": "Sales has 6,578 reported tech layoffs across 15 public events from 2025-02-03 to 2026-05-10."
+    "summary": "Sales has 6,721 reported tech layoffs across 17 public events from 2025-02-03 to 2026-06-09."
   },
   {
     "type": "industry",
@@ -4752,13 +4760,13 @@
     "canonical_url": "/industries/healthcare.html",
     "date_range": {
       "start": "2025-02-24",
-      "end": "2026-05-14"
+      "end": "2026-06-03"
     },
     "kpis": {
-      "total_laid_off": 683,
-      "event_count": 10,
-      "headcount_event_count": 6,
-      "company_count": 10,
+      "total_laid_off": 843,
+      "event_count": 11,
+      "headcount_event_count": 7,
+      "company_count": 11,
       "country_count": 2,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -4784,12 +4792,20 @@
         {
           "month": "2026-05",
           "total_laid_off": 340
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 160
         }
       ],
       "company_top": [
         {
           "company": "Innovaccer",
           "total_laid_off": 340
+        },
+        {
+          "company": "Dandy",
+          "total_laid_off": 160
         },
         {
           "company": "GroundGame Health",
@@ -4815,6 +4831,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-03",
+          "company": "Dandy",
+          "num_laid_off": 160,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "Internal memo"
+        },
         {
           "date": "2026-05-14",
           "company": "Innovaccer",
@@ -4917,7 +4943,136 @@
         }
       ]
     },
-    "summary": "Healthcare has 683 reported tech layoffs across 10 public events from 2025-02-24 to 2026-05-14."
+    "summary": "Healthcare has 843 reported tech layoffs across 11 public events from 2025-02-24 to 2026-06-03."
+  },
+  {
+    "type": "industry",
+    "name": "Product",
+    "slug": "product",
+    "title": "Tech Layoffs by Industry: Product",
+    "canonical_url": "/industries/product.html",
+    "date_range": {
+      "start": "2025-01-21",
+      "end": "2026-06-02"
+    },
+    "kpis": {
+      "total_laid_off": 643,
+      "event_count": 7,
+      "headcount_event_count": 4,
+      "company_count": 7,
+      "country_count": 4,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2026-01",
+          "total_laid_off": 3
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 290
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 350
+        }
+      ],
+      "company_top": [
+        {
+          "company": "GitLab",
+          "total_laid_off": 350
+        },
+        {
+          "company": "Qt Company",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Pendo",
+          "total_laid_off": 90
+        },
+        {
+          "company": "Tailwind Labs",
+          "total_laid_off": 3
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-06-02",
+          "company": "GitLab",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.14,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+        },
+        {
+          "date": "2026-04-20",
+          "company": "Qt Company",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "Norway",
+          "stage": "Series B",
+          "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Productboard",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+        },
+        {
+          "date": "2026-04-07",
+          "company": "Pendo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.1,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        },
+        {
+          "date": "2026-01-08",
+          "company": "Tailwind Labs",
+          "num_laid_off": 3,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
+        },
+        {
+          "date": "2025-07-17",
+          "company": "CodeParrot",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Product",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+        },
+        {
+          "date": "2025-01-21",
+          "company": "Turso",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United Kingdom",
+          "stage": "Seed",
+          "source": "https://turso.tech/blog/upcoming-changes-to-the-turso-platform-and-roadmap"
+        }
+      ]
+    },
+    "summary": "Product has 643 reported tech layoffs across 7 public events from 2025-01-21 to 2026-06-02."
   },
   {
     "type": "industry",
@@ -5081,121 +5236,6 @@
       ]
     },
     "summary": "Travel has 445 reported tech layoffs across 10 public events from 2025-02-04 to 2026-05-13."
-  },
-  {
-    "type": "industry",
-    "name": "Product",
-    "slug": "product",
-    "title": "Tech Layoffs by Industry: Product",
-    "canonical_url": "/industries/product.html",
-    "date_range": {
-      "start": "2025-01-21",
-      "end": "2026-06-02"
-    },
-    "kpis": {
-      "total_laid_off": 443,
-      "event_count": 6,
-      "headcount_event_count": 3,
-      "company_count": 6,
-      "country_count": 3,
-      "industry_count": 1,
-      "high_intensity_event_count": 2
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2026-01",
-          "total_laid_off": 3
-        },
-        {
-          "month": "2026-04",
-          "total_laid_off": 90
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 350
-        }
-      ],
-      "company_top": [
-        {
-          "company": "GitLab",
-          "total_laid_off": 350
-        },
-        {
-          "company": "Pendo",
-          "total_laid_off": 90
-        },
-        {
-          "company": "Tailwind Labs",
-          "total_laid_off": 3
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-06-02",
-          "company": "GitLab",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.14,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Productboard",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
-        },
-        {
-          "date": "2026-04-07",
-          "company": "Pendo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.1,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
-        },
-        {
-          "date": "2026-01-08",
-          "company": "Tailwind Labs",
-          "num_laid_off": 3,
-          "percentage_laid_off": null,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
-        },
-        {
-          "date": "2025-07-17",
-          "company": "CodeParrot",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Product",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
-        },
-        {
-          "date": "2025-01-21",
-          "company": "Turso",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Product",
-          "country": "United Kingdom",
-          "stage": "Seed",
-          "source": "https://turso.tech/blog/upcoming-changes-to-the-turso-platform-and-roadmap"
-        }
-      ]
-    },
-    "summary": "Product has 443 reported tech layoffs across 6 public events from 2025-01-21 to 2026-06-02."
   },
   {
     "type": "industry",

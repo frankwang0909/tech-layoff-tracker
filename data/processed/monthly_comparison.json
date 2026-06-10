@@ -15,13 +15,13 @@
     "month_num": 3,
     "month_label": "Mar",
     "layoffs_2025": 8914,
-    "layoffs_2026": 46536
+    "layoffs_2026": 46593
   },
   {
     "month_num": 4,
     "month_label": "Apr",
     "layoffs_2025": 25420,
-    "layoffs_2026": 4712
+    "layoffs_2026": 5016
   },
   {
     "month_num": 5,
@@ -33,7 +33,7 @@
     "month_num": 6,
     "month_label": "Jun",
     "layoffs_2025": 1606,
-    "layoffs_2026": 660
+    "layoffs_2026": 906
   },
   {
     "month_num": 7,

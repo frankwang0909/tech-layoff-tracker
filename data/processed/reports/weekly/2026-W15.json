@@ -6,17 +6,17 @@
     "start": "2026-04-07",
     "end": "2026-04-12"
   },
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "canonical_url": "/reports/weekly/2026-W15.html",
   "kpis": {
-    "total_laid_off": 312,
-    "event_count": 7,
-    "headcount_event_count": 3,
-    "company_count": 7,
+    "total_laid_off": 416,
+    "event_count": 8,
+    "headcount_event_count": 4,
+    "company_count": 8,
     "country_count": 2,
-    "industry_count": 4,
+    "industry_count": 5,
     "average_layoffs_per_headcount_event": 104.0,
-    "median_layoffs_per_headcount_event": 90.0,
+    "median_layoffs_per_headcount_event": 97.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W14",
       "total_laid_off": 30475,
       "event_count": 12,
-      "total_laid_off_delta": -30163,
-      "total_laid_off_pct_change": -0.9898,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.4167,
+      "total_laid_off_delta": -30059,
+      "total_laid_off_pct_change": -0.9863,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W15",
       "total_laid_off": 200,
       "event_count": 4,
-      "total_laid_off_delta": 112,
-      "total_laid_off_pct_change": 0.56,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.75,
+      "total_laid_off_delta": 216,
+      "total_laid_off_pct_change": 1.08,
+      "event_count_delta": 4,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "GoPro",
         "total_laid_off": 145
+      },
+      {
+        "company": "Qualcomm",
+        "total_laid_off": 104
       },
       {
         "company": "Pendo",
@@ -62,6 +66,10 @@
         "total_laid_off": 222
       },
       {
+        "industry": "Hardware",
+        "total_laid_off": 104
+      },
+      {
         "industry": "Product",
         "total_laid_off": 90
       }
@@ -69,13 +77,13 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 312
+        "total_laid_off": 416
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 222
+        "total_laid_off": 326
       },
       {
         "stage": "Series F",
@@ -118,6 +126,16 @@
         "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
       },
       {
+        "date": "2026-04-09",
+        "company": "Qualcomm",
+        "num_laid_off": 104,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+      },
+      {
         "date": "2026-04-07",
         "company": "Pendo",
         "num_laid_off": 90,
@@ -158,6 +176,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
+      },
+      {
+        "date": "2026-04-09",
+        "company": "Qualcomm",
+        "num_laid_off": 104,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
       },
       {
         "date": "2026-04-09",
@@ -224,7 +252,7 @@
     ]
   },
   "insights": [
-    "2026-W15 includes 7 public layoff events and 312 reported layoffs.",
+    "2026-W15 includes 8 public layoff events and 416 reported layoffs.",
     "The largest company contributor is GoPro with 145 reported layoffs.",
     "The leading named industry is Consumer with 222 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-09"
+    "end": "2026-06-10"
   },
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 34811,
-    "event_count": 94,
-    "headcount_event_count": 64,
-    "company_count": 93,
-    "country_count": 16,
+    "total_laid_off": 34869,
+    "event_count": 96,
+    "headcount_event_count": 65,
+    "company_count": 95,
+    "country_count": 17,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 543.92,
+    "average_layoffs_per_headcount_event": 536.45,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 16
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
-      "total_laid_off": 82760,
-      "event_count": 91,
-      "total_laid_off_delta": -47949,
-      "total_laid_off_pct_change": -0.5794,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.033,
+      "total_laid_off": 83010,
+      "event_count": 92,
+      "total_laid_off_delta": -48141,
+      "total_laid_off_pct_change": -0.5799,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.0435,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -2792,
-      "total_laid_off_pct_change": -0.0742,
-      "event_count_delta": 22,
-      "event_count_pct_change": 0.3056,
+      "total_laid_off_delta": -2734,
+      "total_laid_off_pct_change": -0.0727,
+      "event_count_delta": 24,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 30009
+        "total_laid_off": 30067
       },
       {
         "country": "Israel",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-10",
+        "company": "Shopee",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.08,
+        "industry": "Food",
+        "country": "Indonesia",
+        "stage": "Unknown",
+        "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Verily",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+      },
+      {
         "date": "2026-06-09",
         "company": "Salesforce",
         "num_laid_off": 86,
@@ -349,16 +369,6 @@
       },
       {
         "date": "2026-06-08",
-        "company": "Tools for Humanity",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
-      },
-      {
-        "date": "2026-06-08",
         "company": "Hailo",
         "num_laid_off": 110,
         "percentage_laid_off": 0.5,
@@ -366,6 +376,16 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Tools for Humanity",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
       },
       {
         "date": "2026-06-07",
@@ -429,13 +449,13 @@
       },
       {
         "date": "2026-06-02",
-        "company": "GitLab",
-        "num_laid_off": 350,
-        "percentage_laid_off": 0.14,
-        "industry": "Product",
+        "company": "Manhattan Associates",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Logistics",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
       },
       {
         "date": "2026-06-02",
@@ -449,13 +469,13 @@
       },
       {
         "date": "2026-06-02",
-        "company": "Manhattan Associates",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.06,
-        "industry": "Logistics",
+        "company": "GitLab",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.14,
+        "industry": "Product",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
       },
       {
         "date": "2026-06-01",
@@ -516,26 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "Webflow",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
-      },
-      {
-        "date": "2026-05-26",
-        "company": "Groupon",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.25,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 94 public layoff events and 34,811 reported layoffs.",
+    "2026-Q2 includes 96 public layoff events and 34,869 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "16 events report a layoff percentage of 25% or higher."

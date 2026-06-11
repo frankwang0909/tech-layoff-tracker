@@ -841,11 +841,11 @@
       "end": "2026-05-30"
     },
     "kpis": {
-      "total_laid_off": 17572,
-      "event_count": 51,
-      "headcount_event_count": 32,
-      "company_count": 46,
-      "country_count": 8,
+      "total_laid_off": 17822,
+      "event_count": 52,
+      "headcount_event_count": 33,
+      "company_count": 47,
+      "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 16
     },
@@ -897,7 +897,7 @@
         },
         {
           "month": "2026-02",
-          "total_laid_off": 4110
+          "total_laid_off": 4360
         },
         {
           "month": "2026-03",
@@ -938,11 +938,11 @@
           "total_laid_off": 400
         },
         {
-          "company": "Stripe",
+          "company": "Wise",
           "total_laid_off": 300
         },
         {
-          "company": "Wise",
+          "company": "Stripe",
           "total_laid_off": 300
         },
         {
@@ -950,8 +950,8 @@
           "total_laid_off": 280
         },
         {
-          "company": "Pipe",
-          "total_laid_off": 200
+          "company": "Xero",
+          "total_laid_off": 250
         }
       ]
     },
@@ -1109,7 +1109,7 @@
         }
       ]
     },
-    "summary": "Finance has 17,572 reported tech layoffs across 51 public events from 2025-01-02 to 2026-05-30."
+    "summary": "Finance has 17,822 reported tech layoffs across 52 public events from 2025-01-02 to 2026-05-30."
   },
   {
     "type": "industry",
@@ -2208,14 +2208,14 @@
     "canonical_url": "/industries/food.html",
     "date_range": {
       "start": "2025-02-19",
-      "end": "2026-06-02"
+      "end": "2026-06-10"
     },
     "kpis": {
       "total_laid_off": 3710,
-      "event_count": 17,
+      "event_count": 18,
       "headcount_event_count": 14,
-      "company_count": 17,
-      "country_count": 8,
+      "company_count": 18,
+      "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 5
     },
@@ -2307,6 +2307,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-10",
+          "company": "Shopee",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.08,
+          "industry": "Food",
+          "country": "Indonesia",
+          "stage": "Unknown",
+          "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+        },
         {
           "date": "2026-06-02",
           "company": "Aleph Farms",
@@ -2446,20 +2456,10 @@
           "country": "India",
           "stage": "Series J",
           "source": "https://inc42.com/buzz/zomato-trims-600-jobs-amid-increasing-automation-quick-commerce-wars/"
-        },
-        {
-          "date": "2025-03-17",
-          "company": "HelloFresh",
-          "num_laid_off": 273,
-          "percentage_laid_off": null,
-          "industry": "Food",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.grocerydive.com/news/hellofresh-close-texas-distribution-centers-cut-nearly-300-jobs/742616/"
         }
       ]
     },
-    "summary": "Food has 3,710 reported tech layoffs across 17 public events from 2025-02-19 to 2026-06-02."
+    "summary": "Food has 3,710 reported tech layoffs across 18 public events from 2025-02-19 to 2026-06-10."
   },
   {
     "type": "industry",
@@ -4436,6 +4436,213 @@
   },
   {
     "type": "industry",
+    "name": "Healthcare",
+    "slug": "healthcare",
+    "title": "Tech Layoffs by Industry: Healthcare",
+    "canonical_url": "/industries/healthcare.html",
+    "date_range": {
+      "start": "2025-02-24",
+      "end": "2026-06-09"
+    },
+    "kpis": {
+      "total_laid_off": 901,
+      "event_count": 12,
+      "headcount_event_count": 8,
+      "company_count": 11,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-05",
+          "total_laid_off": 165
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 35
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 83
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 340
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 218
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Innovaccer",
+          "total_laid_off": 340
+        },
+        {
+          "company": "Dandy",
+          "total_laid_off": 160
+        },
+        {
+          "company": "GroundGame Health",
+          "total_laid_off": 97
+        },
+        {
+          "company": "BenchSci",
+          "total_laid_off": 83
+        },
+        {
+          "company": "Hims & Hers",
+          "total_laid_off": 68
+        },
+        {
+          "company": "Medtronic",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Verily",
+          "total_laid_off": 58
+        },
+        {
+          "company": "TytoCare",
+          "total_laid_off": 35
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-06-09",
+          "company": "Verily",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Subsidiary",
+          "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+        },
+        {
+          "date": "2026-06-03",
+          "company": "Dandy",
+          "num_laid_off": 160,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "Internal memo"
+        },
+        {
+          "date": "2026-05-14",
+          "company": "Innovaccer",
+          "num_laid_off": 340,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+        },
+        {
+          "date": "2025-12-01",
+          "company": "Inbound Health",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.axios.com/pro/health-tech-deals/2025/12/01/inbound-health-closing-home-care-waiver"
+        },
+        {
+          "date": "2025-10-27",
+          "company": "Medtronic",
+          "num_laid_off": 60,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/s1g3z02cgg"
+        },
+        {
+          "date": "2025-10-17",
+          "company": "Tia",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.23,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.businessinsider.com/womens-health-startup-tia-cut-23-of-workforce-layoff-2025-10"
+        },
+        {
+          "date": "2025-08-26",
+          "company": "Verily",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Subsidiary",
+          "source": "https://www.businessinsider.com/alphabets-verily-lays-off-staff-cuts-its-devices-program-2025-8"
+        },
+        {
+          "date": "2025-08-12",
+          "company": "BenchSci",
+          "num_laid_off": 83,
+          "percentage_laid_off": 0.23,
+          "industry": "Healthcare",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
+        },
+        {
+          "date": "2025-07-17",
+          "company": "TytoCare",
+          "num_laid_off": 35,
+          "percentage_laid_off": 0.22,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
+        },
+        {
+          "date": "2025-05-30",
+          "company": "Hims & Hers",
+          "num_laid_off": 68,
+          "percentage_laid_off": 0.04,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
+        },
+        {
+          "date": "2025-05-15",
+          "company": "GroundGame Health",
+          "num_laid_off": 97,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
+        },
+        {
+          "date": "2025-02-24",
+          "company": "HerMD",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
+        }
+      ]
+    },
+    "summary": "Healthcare has 901 reported tech layoffs across 12 public events from 2025-02-24 to 2026-06-09."
+  },
+  {
+    "type": "industry",
     "name": "Real Estate",
     "slug": "real-estate",
     "title": "Tech Layoffs by Industry: Real Estate",
@@ -4751,199 +4958,6 @@
       ]
     },
     "summary": "Media has 860 reported tech layoffs across 10 public events from 2025-01-14 to 2026-05-06."
-  },
-  {
-    "type": "industry",
-    "name": "Healthcare",
-    "slug": "healthcare",
-    "title": "Tech Layoffs by Industry: Healthcare",
-    "canonical_url": "/industries/healthcare.html",
-    "date_range": {
-      "start": "2025-02-24",
-      "end": "2026-06-03"
-    },
-    "kpis": {
-      "total_laid_off": 843,
-      "event_count": 11,
-      "headcount_event_count": 7,
-      "company_count": 11,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 2
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-05",
-          "total_laid_off": 165
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 35
-        },
-        {
-          "month": "2025-08",
-          "total_laid_off": 83
-        },
-        {
-          "month": "2025-10",
-          "total_laid_off": 60
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 340
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 160
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Innovaccer",
-          "total_laid_off": 340
-        },
-        {
-          "company": "Dandy",
-          "total_laid_off": 160
-        },
-        {
-          "company": "GroundGame Health",
-          "total_laid_off": 97
-        },
-        {
-          "company": "BenchSci",
-          "total_laid_off": 83
-        },
-        {
-          "company": "Hims & Hers",
-          "total_laid_off": 68
-        },
-        {
-          "company": "Medtronic",
-          "total_laid_off": 60
-        },
-        {
-          "company": "TytoCare",
-          "total_laid_off": 35
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-06-03",
-          "company": "Dandy",
-          "num_laid_off": 160,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "Internal memo"
-        },
-        {
-          "date": "2026-05-14",
-          "company": "Innovaccer",
-          "num_laid_off": 340,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
-        },
-        {
-          "date": "2025-12-01",
-          "company": "Inbound Health",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.axios.com/pro/health-tech-deals/2025/12/01/inbound-health-closing-home-care-waiver"
-        },
-        {
-          "date": "2025-10-27",
-          "company": "Medtronic",
-          "num_laid_off": 60,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/s1g3z02cgg"
-        },
-        {
-          "date": "2025-10-17",
-          "company": "Tia",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.23,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.businessinsider.com/womens-health-startup-tia-cut-23-of-workforce-layoff-2025-10"
-        },
-        {
-          "date": "2025-08-26",
-          "company": "Verily",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Subsidiary",
-          "source": "https://www.businessinsider.com/alphabets-verily-lays-off-staff-cuts-its-devices-program-2025-8"
-        },
-        {
-          "date": "2025-08-12",
-          "company": "BenchSci",
-          "num_laid_off": 83,
-          "percentage_laid_off": 0.23,
-          "industry": "Healthcare",
-          "country": "Canada",
-          "stage": "Series D",
-          "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
-        },
-        {
-          "date": "2025-07-17",
-          "company": "TytoCare",
-          "num_laid_off": 35,
-          "percentage_laid_off": 0.22,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
-        },
-        {
-          "date": "2025-05-30",
-          "company": "Hims & Hers",
-          "num_laid_off": 68,
-          "percentage_laid_off": 0.04,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
-        },
-        {
-          "date": "2025-05-15",
-          "company": "GroundGame Health",
-          "num_laid_off": 97,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
-        },
-        {
-          "date": "2025-02-24",
-          "company": "HerMD",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
-        }
-      ]
-    },
-    "summary": "Healthcare has 843 reported tech layoffs across 11 public events from 2025-02-24 to 2026-06-03."
   },
   {
     "type": "industry",

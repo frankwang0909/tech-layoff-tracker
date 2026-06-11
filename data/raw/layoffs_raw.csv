@@ -1,5 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Shopee,"Jakarta, Non-U.S.",,2026-06-10,0.08,Food,https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai,Unknown,,Indonesia,2026-06-10T22:19:41.000Z
 Salesforce,SF Bay Area,86.0,2026-06-09,,Sales,https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6,Post-IPO,65.0,United States,2026-06-09T23:08:37.000Z
+Verily,SF Bay Area,58.0,2026-06-09,,Healthcare,https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html,Subsidiary,3500.0,United States,2026-06-10T22:21:11.000Z
 Hailo,"Tel Aviv, Non-U.S.",110.0,2026-06-08,0.5,Manufacturing,https://www.calcalistech.com/ctechnews/article/3hmpcioxj,Series C,344.0,Israel,2026-06-08T23:06:39.000Z
 Tools for Humanity,SF Bay Area,,2026-06-08,,AI,https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe,Series C,244.0,United States,2026-06-08T23:07:29.000Z
 Zencity,"Tel Aviv, Non-U.S.",15.0,2026-06-07,,Other,https://www.calcalistech.com/ctechnews/article/rkxkiagbgg,Unknown,51.0,Israel,2026-06-08T01:25:33.000Z
@@ -137,6 +139,7 @@ DraftKings,Boston,,2026-02-24,,Consumer,https://next.io/news/people/draftkings-r
 Livspace,"Bengaluru, Non-U.S.",1000.0,2026-02-20,0.12,Consumer,https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/,Series F,482.0,India,2026-02-22T01:34:30.000Z
 Lucid Motors,SF Bay Area,,2026-02-20,0.12,Transportation,https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/,Post-IPO,8300.0,United States,2026-02-22T01:32:12.000Z
 Codecademy,New York City,,2026-02-19,,Education,https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms,Acquired,87.0,United States,2026-03-17T23:11:52.000Z
+Xero,"Wellington, Non-U.S.",250.0,2026-02-18,,Finance,https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line,Post-IPO,681.0,New Zealand,2026-06-10T22:18:35.000Z
 Cyberark,Boston,500.0,2026-02-17,0.12,Security,https://www.calcalistech.com/ctechnews/article/hy707511ube,Acquired,1700.0,United States,2026-02-18T03:36:28.000Z
 Huawei,"Tel Aviv, Non-U.S.",50.0,2026-02-15,,Hardware,https://www.calcalistech.com/ctechnews/article/bkmmdojuwx,Unknown,,Israel,2026-02-18T03:44:10.000Z
 Axonius,New York City,40.0,2026-02-15,0.04,Security,https://www.calcalistech.com/ctechnews/article/s1xchi1oze,Series E,865.0,United States,2026-02-18T03:37:56.000Z

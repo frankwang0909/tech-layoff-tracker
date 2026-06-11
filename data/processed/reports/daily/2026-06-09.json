@@ -6,17 +6,17 @@
     "start": "2026-06-09",
     "end": "2026-06-09"
   },
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "canonical_url": "/reports/daily/2026-06-09.html",
   "kpis": {
-    "total_laid_off": 86,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 144,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 86.0,
-    "median_layoffs_per_headcount_event": 86.0,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 72.0,
+    "median_layoffs_per_headcount_event": 72.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-06-08",
       "total_laid_off": 110,
       "event_count": 2,
-      "total_laid_off_delta": -24,
-      "total_laid_off_pct_change": -0.2182,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 34,
+      "total_laid_off_pct_change": 0.3091,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06-09",
       "total_laid_off": 150,
       "event_count": 1,
-      "total_laid_off_delta": -64,
-      "total_laid_off_pct_change": -0.4267,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -6,
+      "total_laid_off_pct_change": -0.04,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,24 +46,36 @@
       {
         "company": "Salesforce",
         "total_laid_off": 86
+      },
+      {
+        "company": "Verily",
+        "total_laid_off": 58
       }
     ],
     "industry_top": [
       {
         "industry": "Sales",
         "total_laid_off": 86
+      },
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 58
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 86
+        "total_laid_off": 144
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 86
+      },
+      {
+        "stage": "Subsidiary",
+        "total_laid_off": 58
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +112,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Verily",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       }
     ],
     "recent_events": [
@@ -112,12 +134,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Verily",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06-09 includes 1 public layoff events and 86 reported layoffs.",
+    "2026-06-09 includes 2 public layoff events and 144 reported layoffs.",
     "The largest company contributor is Salesforce with 86 reported layoffs.",
     "The leading named industry is Sales with 86 reported layoffs."
   ],

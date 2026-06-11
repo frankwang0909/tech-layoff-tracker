@@ -6,17 +6,17 @@
     "start": "2026-02-17",
     "end": "2026-02-20"
   },
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "canonical_url": "/reports/weekly/2026-W08.html",
   "kpis": {
-    "total_laid_off": 1500,
-    "event_count": 4,
-    "headcount_event_count": 2,
-    "company_count": 4,
-    "country_count": 2,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 750.0,
-    "median_layoffs_per_headcount_event": 750.0,
+    "total_laid_off": 1750,
+    "event_count": 5,
+    "headcount_event_count": 3,
+    "company_count": 5,
+    "country_count": 3,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 583.33,
+    "median_layoffs_per_headcount_event": 500.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W07",
       "total_laid_off": 216,
       "event_count": 8,
-      "total_laid_off_delta": 1284,
-      "total_laid_off_pct_change": 5.9444,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 1534,
+      "total_laid_off_pct_change": 7.1019,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.375,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W08",
       "total_laid_off": 431,
       "event_count": 8,
-      "total_laid_off_delta": 1069,
-      "total_laid_off_pct_change": 2.4803,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 1319,
+      "total_laid_off_pct_change": 3.0603,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.375,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Cyberark",
         "total_laid_off": 500
+      },
+      {
+        "company": "Xero",
+        "total_laid_off": 250
       }
     ],
     "industry_top": [
@@ -60,6 +64,10 @@
       {
         "industry": "Security",
         "total_laid_off": 500
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 250
       }
     ],
     "country_top": [
@@ -70,6 +78,10 @@
       {
         "country": "United States",
         "total_laid_off": 500
+      },
+      {
+        "country": "New Zealand",
+        "total_laid_off": 250
       }
     ],
     "stage_top": [
@@ -80,6 +92,10 @@
       {
         "stage": "Acquired",
         "total_laid_off": 500
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 250
       }
     ],
     "layoff_pct_distribution": [
@@ -126,6 +142,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.calcalistech.com/ctechnews/article/hy707511ube"
+      },
+      {
+        "date": "2026-02-18",
+        "company": "Xero",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "New Zealand",
+        "stage": "Post-IPO",
+        "source": "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line"
       }
     ],
     "recent_events": [
@@ -160,6 +186,16 @@
         "source": "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms"
       },
       {
+        "date": "2026-02-18",
+        "company": "Xero",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "New Zealand",
+        "stage": "Post-IPO",
+        "source": "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line"
+      },
+      {
         "date": "2026-02-17",
         "company": "Cyberark",
         "num_laid_off": 500,
@@ -173,7 +209,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W08 includes 4 public layoff events and 1,500 reported layoffs.",
+    "2026-W08 includes 5 public layoff events and 1,750 reported layoffs.",
     "The largest company contributor is Livspace with 1,000 reported layoffs.",
     "The leading named industry is Consumer with 1,000 reported layoffs."
   ],

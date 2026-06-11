@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-09"
+    "end": "2026-06-10"
   },
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 906,
-    "event_count": 13,
-    "headcount_event_count": 8,
-    "company_count": 13,
-    "country_count": 2,
+    "total_laid_off": 964,
+    "event_count": 15,
+    "headcount_event_count": 9,
+    "company_count": 15,
+    "country_count": 3,
     "industry_count": 11,
-    "average_layoffs_per_headcount_event": 113.25,
-    "median_layoffs_per_headcount_event": 93.0,
+    "average_layoffs_per_headcount_event": 107.11,
+    "median_layoffs_per_headcount_event": 86.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-05",
       "total_laid_off": 28889,
       "event_count": 47,
-      "total_laid_off_delta": -27983,
-      "total_laid_off_pct_change": -0.9686,
-      "event_count_delta": -34,
-      "event_count_pct_change": -0.7234,
+      "total_laid_off_delta": -27925,
+      "total_laid_off_pct_change": -0.9666,
+      "event_count_delta": -32,
+      "event_count_pct_change": -0.6809,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": -700,
-      "total_laid_off_pct_change": -0.4359,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.1875,
+      "total_laid_off_delta": -642,
+      "total_laid_off_pct_change": -0.3998,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0625,
       "note": null
     }
   },
@@ -68,6 +68,10 @@
         "total_laid_off": 75
       },
       {
+        "company": "Verily",
+        "total_laid_off": 58
+      },
+      {
         "company": "Zencity",
         "total_laid_off": 15
       },
@@ -83,7 +87,7 @@
       },
       {
         "industry": "Healthcare",
-        "total_laid_off": 160
+        "total_laid_off": 218
       },
       {
         "industry": "Manufacturing",
@@ -113,7 +117,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 596
+        "total_laid_off": 654
       },
       {
         "country": "Israel",
@@ -136,6 +140,10 @@
       {
         "stage": "Series E",
         "total_laid_off": 100
+      },
+      {
+        "stage": "Subsidiary",
+        "total_laid_off": 58
       },
       {
         "stage": "Unknown",
@@ -228,6 +236,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
       },
       {
+        "date": "2026-06-09",
+        "company": "Verily",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+      },
+      {
         "date": "2026-06-07",
         "company": "Zencity",
         "num_laid_off": 15,
@@ -250,6 +268,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-10",
+        "company": "Shopee",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.08,
+        "industry": "Food",
+        "country": "Indonesia",
+        "stage": "Unknown",
+        "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+      },
+      {
         "date": "2026-06-09",
         "company": "Salesforce",
         "num_laid_off": 86,
@@ -258,6 +286,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Verily",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       },
       {
         "date": "2026-06-08",
@@ -394,7 +432,7 @@
     ]
   },
   "insights": [
-    "2026-06 includes 13 public layoff events and 906 reported layoffs.",
+    "2026-06 includes 15 public layoff events and 964 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

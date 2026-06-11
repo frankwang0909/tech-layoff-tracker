@@ -6,17 +6,17 @@
     "start": "2026-02-01",
     "end": "2026-02-28"
   },
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "canonical_url": "/reports/monthly/2026-02.html",
   "kpis": {
-    "total_laid_off": 11019,
-    "event_count": 27,
-    "headcount_event_count": 18,
-    "company_count": 27,
-    "country_count": 7,
+    "total_laid_off": 11269,
+    "event_count": 28,
+    "headcount_event_count": 19,
+    "company_count": 28,
+    "country_count": 8,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 612.17,
-    "median_layoffs_per_headcount_event": 193.5,
+    "average_layoffs_per_headcount_event": 593.11,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-01",
       "total_laid_off": 25148,
       "event_count": 32,
-      "total_laid_off_delta": -14129,
-      "total_laid_off_pct_change": -0.5618,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.1562,
+      "total_laid_off_delta": -13879,
+      "total_laid_off_pct_change": -0.5519,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.125,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-02",
       "total_laid_off": 18474,
       "event_count": 51,
-      "total_laid_off_delta": -7455,
-      "total_laid_off_pct_change": -0.4035,
-      "event_count_delta": -24,
-      "event_count_pct_change": -0.4706,
+      "total_laid_off_delta": -7205,
+      "total_laid_off_pct_change": -0.39,
+      "event_count_delta": -23,
+      "event_count_pct_change": -0.451,
       "note": null
     }
   },
@@ -52,11 +52,11 @@
         "total_laid_off": 2000
       },
       {
-        "company": "Ocado",
+        "company": "Livspace",
         "total_laid_off": 1000
       },
       {
-        "company": "Livspace",
+        "company": "Ocado",
         "total_laid_off": 1000
       },
       {
@@ -76,18 +76,18 @@
         "total_laid_off": 280
       },
       {
-        "company": "Zillow",
-        "total_laid_off": 200
+        "company": "Xero",
+        "total_laid_off": 250
       },
       {
-        "company": "Deliveroo",
-        "total_laid_off": 187
+        "company": "Zillow",
+        "total_laid_off": 200
       }
     ],
     "industry_top": [
       {
         "industry": "Finance",
-        "total_laid_off": 4110
+        "total_laid_off": 4360
       },
       {
         "industry": "Logistics",
@@ -146,12 +146,16 @@
       {
         "country": "Israel",
         "total_laid_off": 960
+      },
+      {
+        "country": "New Zealand",
+        "total_laid_off": 250
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 8787
+        "total_laid_off": 9037
       },
       {
         "stage": "Series F",
@@ -276,6 +280,16 @@
         "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
       },
       {
+        "date": "2026-02-18",
+        "company": "Xero",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "New Zealand",
+        "stage": "Post-IPO",
+        "source": "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line"
+      },
+      {
         "date": "2026-02-02",
         "company": "Zillow",
         "num_laid_off": 200,
@@ -284,16 +298,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.seattletimes.com/business/real-estate/seattle-based-zillow-lays-off-200-employees/"
-      },
-      {
-        "date": "2026-02-25",
-        "company": "Deliveroo",
-        "num_laid_off": 187,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "United Kingdom",
-        "stage": "Post-IPO",
-        "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
       }
     ],
     "recent_events": [
@@ -418,6 +422,16 @@
         "source": "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms"
       },
       {
+        "date": "2026-02-18",
+        "company": "Xero",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "New Zealand",
+        "stage": "Post-IPO",
+        "source": "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line"
+      },
+      {
         "date": "2026-02-17",
         "company": "Cyberark",
         "num_laid_off": 500,
@@ -486,16 +500,6 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "Internal memo"
-      },
-      {
-        "date": "2026-02-10",
-        "company": "Fi.Money",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Series C",
-        "source": "https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded"
       }
     ],
     "high_intensity_events": [
@@ -572,9 +576,9 @@
     ]
   },
   "insights": [
-    "2026-02 includes 27 public layoff events and 11,019 reported layoffs.",
+    "2026-02 includes 28 public layoff events and 11,269 reported layoffs.",
     "The largest company contributor is Block with 4,000 reported layoffs.",
-    "The leading named industry is Finance with 4,110 reported layoffs.",
+    "The leading named industry is Finance with 4,360 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

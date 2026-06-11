@@ -10,9 +10,9 @@
       "end": "2026-06-09"
     },
     "kpis": {
-      "total_laid_off": 203747,
-      "event_count": 307,
-      "headcount_event_count": 203,
+      "total_laid_off": 203805,
+      "event_count": 308,
+      "headcount_event_count": 204,
       "company_count": 234,
       "country_count": 1,
       "industry_count": 29,
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 596
+          "total_laid_off": 654
         }
       ],
       "company_top": [
@@ -147,6 +147,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+        },
+        {
+          "date": "2026-06-09",
+          "company": "Verily",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Subsidiary",
+          "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
         },
         {
           "date": "2026-06-08",
@@ -230,16 +240,6 @@
         },
         {
           "date": "2026-05-29",
-          "company": "Interview Kickstart",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-        },
-        {
-          "date": "2026-05-29",
           "company": "SentinelOne",
           "num_laid_off": 230,
           "percentage_laid_off": 0.08,
@@ -247,6 +247,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+        },
+        {
+          "date": "2026-05-29",
+          "company": "Interview Kickstart",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
         },
         {
           "date": "2026-05-27",
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
-        },
-        {
-          "date": "2026-05-26",
-          "company": "BigID",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
         }
       ]
     },
-    "summary": "United States has 203,747 reported tech layoffs across 307 public events from 2025-01-02 to 2026-06-09."
+    "summary": "United States has 203,805 reported tech layoffs across 308 public events from 2025-01-02 to 2026-06-09."
   },
   {
     "type": "country",

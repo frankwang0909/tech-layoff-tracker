@@ -6,16 +6,16 @@
     "start": "2026-01-05",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
-    "total_laid_off": 82760,
-    "event_count": 91,
-    "headcount_event_count": 61,
-    "company_count": 87,
-    "country_count": 15,
+    "total_laid_off": 83010,
+    "event_count": 92,
+    "headcount_event_count": 62,
+    "company_count": 88,
+    "country_count": 16,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 1356.72,
+    "average_layoffs_per_headcount_event": 1338.87,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 19
   },
@@ -24,20 +24,20 @@
       "period": "2025-Q4",
       "total_laid_off": 29554,
       "event_count": 68,
-      "total_laid_off_delta": 53206,
-      "total_laid_off_pct_change": 1.8003,
-      "event_count_delta": 23,
-      "event_count_pct_change": 0.3382,
+      "total_laid_off_delta": 53456,
+      "total_laid_off_pct_change": 1.8088,
+      "event_count_delta": 24,
+      "event_count_pct_change": 0.3529,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q1",
       "total_laid_off": 29925,
       "event_count": 105,
-      "total_laid_off_delta": 52835,
-      "total_laid_off_pct_change": 1.7656,
-      "event_count_delta": -14,
-      "event_count_pct_change": -0.1333,
+      "total_laid_off_delta": 53085,
+      "total_laid_off_pct_change": 1.7739,
+      "event_count_delta": -13,
+      "event_count_pct_change": -0.1238,
       "note": null
     }
   },
@@ -80,7 +80,7 @@
         "total_laid_off": 1600
       },
       {
-        "company": "Epic Games",
+        "company": "Ocado",
         "total_laid_off": 1000
       }
     ],
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 4915
+        "total_laid_off": 5165
       },
       {
         "industry": "Logistics",
@@ -140,11 +140,11 @@
         "total_laid_off": 1734
       },
       {
-        "country": "India",
+        "country": "Netherlands",
         "total_laid_off": 1700
       },
       {
-        "country": "Netherlands",
+        "country": "India",
         "total_laid_off": 1700
       },
       {
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 76337
+        "total_laid_off": 76587
       },
       {
         "stage": "Unknown",
@@ -296,16 +296,6 @@
         "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
       },
       {
-        "date": "2026-01-15",
-        "company": "Ericsson",
-        "num_laid_off": 1600,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
-      },
-      {
         "date": "2026-03-11",
         "company": "Atlassian",
         "num_laid_off": 1600,
@@ -314,6 +304,16 @@
         "country": "Australia",
         "stage": "Post-IPO",
         "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
       },
       {
         "date": "2026-01-13",
@@ -326,14 +326,14 @@
         "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
       },
       {
-        "date": "2026-02-20",
-        "company": "Livspace",
+        "date": "2026-01-22",
+        "company": "Autodesk",
         "num_laid_off": 1000,
-        "percentage_laid_off": 0.12,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Series F",
-        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+        "percentage_laid_off": 0.07,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
       }
     ],
     "recent_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 91 public layoff events and 82,760 reported layoffs.",
+    "2026-Q1 includes 92 public layoff events and 83,010 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "19 events report a layoff percentage of 25% or higher."

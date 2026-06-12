@@ -4,9 +4,9 @@
   "generated_from": "data/processed/*.json",
   "data_range": {
     "start": "2025-01-06",
-    "end": "2026-06-09"
+    "end": "2026-06-10"
   },
-  "summary": "Tech Layoff Tracker reports 242,515 public tech layoffs from 2025-01-06 to 2026-06-09. The dataset covers 288 companies across 25 countries or regions. The largest month is 2026-03 with 46,593 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 242,765 public tech layoffs from 2025-01-06 to 2026-06-10. The dataset covers 289 companies across 25 countries or regions. The largest month is 2026-03 with 46,593 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -14,19 +14,19 @@
     },
     {
       "name": "Data range",
-      "value": "2025-01-06 to 2026-06-09"
+      "value": "2025-01-06 to 2026-06-10"
     },
     {
       "name": "Total reported layoffs",
-      "value": "242,515"
+      "value": "242,765"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "117,879"
+      "value": "118,129"
     },
     {
       "name": "Companies affected",
-      "value": "288"
+      "value": "289"
     },
     {
       "name": "Countries or regions",
@@ -58,7 +58,7 @@
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-06-09. The month with the highest reported layoff total is 2026-03."
+      "answer": "The current data covers 2025-01-06 to 2026-06-10. The month with the highest reported layoff total is 2026-03."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
@@ -160,13 +160,13 @@
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
         "total_laid_off": 203805,
-        "event_count": 308
+        "event_count": 309
       },
       {
         "name": "India",
         "canonical_url": "https://tech.debugcanada.com/countries/india.html",
-        "total_laid_off": 9210,
-        "event_count": 53
+        "total_laid_off": 9460,
+        "event_count": 54
       },
       {
         "name": "Israel",

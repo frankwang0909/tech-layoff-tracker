@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/support.html</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -123,6 +123,12 @@
   <url>
     <loc>https://tech.debugcanada.com/industries/recruiting.html</loc>
     <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://tech.debugcanada.com/industries/real-estate.html</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -141,12 +147,6 @@
   <url>
     <loc>https://tech.debugcanada.com/industries/healthcare.html</loc>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://tech.debugcanada.com/industries/real-estate.html</loc>
-    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -182,7 +182,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/india.html</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>

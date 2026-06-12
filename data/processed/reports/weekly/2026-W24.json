@@ -9,14 +9,14 @@
   "updated_at": "2026-06-10",
   "canonical_url": "/reports/weekly/2026-W24.html",
   "kpis": {
-    "total_laid_off": 254,
-    "event_count": 5,
-    "headcount_event_count": 3,
-    "company_count": 5,
-    "country_count": 3,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 84.67,
-    "median_layoffs_per_headcount_event": 86.0,
+    "total_laid_off": 504,
+    "event_count": 6,
+    "headcount_event_count": 4,
+    "company_count": 6,
+    "country_count": 4,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 126.0,
+    "median_layoffs_per_headcount_event": 98.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W23",
       "total_laid_off": 710,
       "event_count": 10,
-      "total_laid_off_delta": -456,
-      "total_laid_off_pct_change": -0.6423,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -206,
+      "total_laid_off_pct_change": -0.2901,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.4,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W24",
       "total_laid_off": 180,
       "event_count": 2,
-      "total_laid_off_delta": 74,
-      "total_laid_off_pct_change": 0.4111,
-      "event_count_delta": 3,
-      "event_count_pct_change": 1.5,
+      "total_laid_off_delta": 324,
+      "total_laid_off_pct_change": 1.8,
+      "event_count_delta": 4,
+      "event_count_pct_change": 2.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Opendoor",
+        "total_laid_off": 250
+      },
       {
         "company": "Hailo",
         "total_laid_off": 110
@@ -58,6 +62,10 @@
     ],
     "industry_top": [
       {
+        "industry": "Real Estate",
+        "total_laid_off": 250
+      },
+      {
         "industry": "Manufacturing",
         "total_laid_off": 110
       },
@@ -72,6 +80,10 @@
     ],
     "country_top": [
       {
+        "country": "India",
+        "total_laid_off": 250
+      },
+      {
         "country": "United States",
         "total_laid_off": 144
       },
@@ -82,12 +94,12 @@
     ],
     "stage_top": [
       {
-        "stage": "Series C",
-        "total_laid_off": 110
+        "stage": "Post-IPO",
+        "total_laid_off": 336
       },
       {
-        "stage": "Post-IPO",
-        "total_laid_off": 86
+        "stage": "Series C",
+        "total_laid_off": 110
       },
       {
         "stage": "Subsidiary",
@@ -120,6 +132,16 @@
   "tables": {
     "largest_events": [
       {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
+      {
         "date": "2026-06-08",
         "company": "Hailo",
         "num_laid_off": 110,
@@ -151,6 +173,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
       {
         "date": "2026-06-10",
         "company": "Shopee",
@@ -216,9 +248,9 @@
     ]
   },
   "insights": [
-    "2026-W24 includes 5 public layoff events and 254 reported layoffs.",
-    "The largest company contributor is Hailo with 110 reported layoffs.",
-    "The leading named industry is Manufacturing with 110 reported layoffs.",
+    "2026-W24 includes 6 public layoff events and 504 reported layoffs.",
+    "The largest company contributor is Opendoor with 250 reported layoffs.",
+    "The leading named industry is Real Estate with 250 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

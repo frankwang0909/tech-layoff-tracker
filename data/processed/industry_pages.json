@@ -3735,11 +3735,11 @@
     "canonical_url": "/industries/support.html",
     "date_range": {
       "start": "2025-01-20",
-      "end": "2026-05-05"
+      "end": "2026-05-28"
     },
     "kpis": {
       "total_laid_off": 1440,
-      "event_count": 8,
+      "event_count": 9,
       "headcount_event_count": 7,
       "company_count": 7,
       "country_count": 2,
@@ -3802,6 +3802,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-05-28",
+          "company": "Amdocs",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.07,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
+        },
         {
           "date": "2026-05-05",
           "company": "Freshworks",
@@ -3884,7 +3894,7 @@
         }
       ]
     },
-    "summary": "Support has 1,440 reported tech layoffs across 8 public events from 2025-01-20 to 2026-05-05."
+    "summary": "Support has 1,440 reported tech layoffs across 9 public events from 2025-01-20 to 2026-05-28."
   },
   {
     "type": "industry",
@@ -4221,6 +4231,163 @@
       ]
     },
     "summary": "Recruiting has 1,160 reported tech layoffs across 5 public events from 2025-01-15 to 2026-05-13."
+  },
+  {
+    "type": "industry",
+    "name": "Real Estate",
+    "slug": "real-estate",
+    "title": "Tech Layoffs by Industry: Real Estate",
+    "canonical_url": "/industries/real-estate.html",
+    "date_range": {
+      "start": "2025-01-09",
+      "end": "2026-06-10"
+    },
+    "kpis": {
+      "total_laid_off": 1146,
+      "event_count": 9,
+      "headcount_event_count": 5,
+      "company_count": 7,
+      "country_count": 3,
+      "industry_count": 1,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 46
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 450
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 250
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Redfin",
+          "total_laid_off": 496
+        },
+        {
+          "company": "Opendoor",
+          "total_laid_off": 250
+        },
+        {
+          "company": "MRI Software",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Zillow",
+          "total_laid_off": 200
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-06-10",
+          "company": "Opendoor",
+          "num_laid_off": 250,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "India",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+        },
+        {
+          "date": "2026-05-11",
+          "company": "MRI Software",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+        },
+        {
+          "date": "2026-05-06",
+          "company": "reAlpha",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
+        },
+        {
+          "date": "2026-02-02",
+          "company": "Zillow",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.seattletimes.com/business/real-estate/seattle-based-zillow-lays-off-200-employees/"
+        },
+        {
+          "date": "2025-07-18",
+          "company": "Rocket Companies",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.02,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.housingwire.com/articles/rocket-lays-off-2-of-workforce-after-closing-redfin-acquisition/"
+        },
+        {
+          "date": "2025-04-03",
+          "company": "Tract",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United Kingdom",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
+        },
+        {
+          "date": "2025-02-12",
+          "company": "Redfin",
+          "num_laid_off": 450,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.realestatenews.com/2025/02/12/redfin-to-cut-450-roles-following-zillow-rentals-deal"
+        },
+        {
+          "date": "2025-01-10",
+          "company": "Zillow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2025/zillow-makes-job-cuts-after-reorganizing-agent-software-and-advertising-teams/"
+        },
+        {
+          "date": "2025-01-09",
+          "company": "Redfin",
+          "num_laid_off": 46,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2025/redfin-lays-off-46-employees-in-latest-cuts-at-seattle-real-estate-company/"
+        }
+      ]
+    },
+    "summary": "Real Estate has 1,146 reported tech layoffs across 9 public events from 2025-01-09 to 2026-06-10."
   },
   {
     "type": "industry",
@@ -4640,145 +4807,6 @@
       ]
     },
     "summary": "Healthcare has 901 reported tech layoffs across 12 public events from 2025-02-24 to 2026-06-09."
-  },
-  {
-    "type": "industry",
-    "name": "Real Estate",
-    "slug": "real-estate",
-    "title": "Tech Layoffs by Industry: Real Estate",
-    "canonical_url": "/industries/real-estate.html",
-    "date_range": {
-      "start": "2025-01-09",
-      "end": "2026-05-11"
-    },
-    "kpis": {
-      "total_laid_off": 896,
-      "event_count": 8,
-      "headcount_event_count": 4,
-      "company_count": 6,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 1
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 46
-        },
-        {
-          "month": "2025-02",
-          "total_laid_off": 450
-        },
-        {
-          "month": "2026-02",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 200
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Redfin",
-          "total_laid_off": 496
-        },
-        {
-          "company": "MRI Software",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Zillow",
-          "total_laid_off": 200
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-05-11",
-          "company": "MRI Software",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "reAlpha",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
-        },
-        {
-          "date": "2026-02-02",
-          "company": "Zillow",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.seattletimes.com/business/real-estate/seattle-based-zillow-lays-off-200-employees/"
-        },
-        {
-          "date": "2025-07-18",
-          "company": "Rocket Companies",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.02,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.housingwire.com/articles/rocket-lays-off-2-of-workforce-after-closing-redfin-acquisition/"
-        },
-        {
-          "date": "2025-04-03",
-          "company": "Tract",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United Kingdom",
-          "stage": "Unknown",
-          "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
-        },
-        {
-          "date": "2025-02-12",
-          "company": "Redfin",
-          "num_laid_off": 450,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.realestatenews.com/2025/02/12/redfin-to-cut-450-roles-following-zillow-rentals-deal"
-        },
-        {
-          "date": "2025-01-10",
-          "company": "Zillow",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2025/zillow-makes-job-cuts-after-reorganizing-agent-software-and-advertising-teams/"
-        },
-        {
-          "date": "2025-01-09",
-          "company": "Redfin",
-          "num_laid_off": 46,
-          "percentage_laid_off": null,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2025/redfin-lays-off-46-employees-in-latest-cuts-at-seattle-real-estate-company/"
-        }
-      ]
-    },
-    "summary": "Real Estate has 896 reported tech layoffs across 8 public events from 2025-01-09 to 2026-05-11."
   },
   {
     "type": "industry",

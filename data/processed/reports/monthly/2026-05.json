@@ -10,9 +10,9 @@
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
     "total_laid_off": 28889,
-    "event_count": 47,
+    "event_count": 48,
     "headcount_event_count": 35,
-    "company_count": 47,
+    "company_count": 48,
     "country_count": 12,
     "industry_count": 20,
     "average_layoffs_per_headcount_event": 825.4,
@@ -26,8 +26,8 @@
       "event_count": 34,
       "total_laid_off_delta": 23873,
       "total_laid_off_pct_change": 4.7594,
-      "event_count_delta": 13,
-      "event_count_pct_change": 0.3824,
+      "event_count_delta": 14,
+      "event_count_pct_change": 0.4118,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 27,
       "total_laid_off_delta": 18312,
       "total_laid_off_pct_change": 1.7313,
-      "event_count_delta": 20,
-      "event_count_pct_change": 0.7407,
+      "event_count_delta": 21,
+      "event_count_pct_change": 0.7778,
       "note": null
     }
   },
@@ -353,6 +353,16 @@
       },
       {
         "date": "2026-05-28",
+        "company": "Amdocs",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
+      },
+      {
+        "date": "2026-05-28",
         "company": "Rapyd",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -510,16 +520,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "LinkedIn",
-        "num_laid_off": 875,
-        "percentage_laid_off": 0.05,
-        "industry": "Recruiting",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
       }
     ],
     "high_intensity_events": [
@@ -606,7 +606,7 @@
     ]
   },
   "insights": [
-    "2026-05 includes 47 public layoff events and 28,889 reported layoffs.",
+    "2026-05 includes 48 public layoff events and 28,889 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Finance with 8,586 reported layoffs.",
     "8 events report a layoff percentage of 25% or higher."

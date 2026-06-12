@@ -10,11 +10,11 @@
   "canonical_url": "/reports/weekly/2026-W22.html",
   "kpis": {
     "total_laid_off": 1874,
-    "event_count": 10,
+    "event_count": 11,
     "headcount_event_count": 6,
-    "company_count": 10,
+    "company_count": 11,
     "country_count": 2,
-    "industry_count": 7,
+    "industry_count": 8,
     "average_layoffs_per_headcount_event": 312.33,
     "median_layoffs_per_headcount_event": 173.5,
     "high_intensity_event_count": 2
@@ -26,8 +26,8 @@
       "event_count": 4,
       "total_laid_off_delta": -9236,
       "total_laid_off_pct_change": -0.8313,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.5,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.75,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": 1486,
       "total_laid_off_pct_change": 3.8299,
-      "event_count_delta": 5,
-      "event_count_pct_change": 1.0,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.2,
       "note": null
     }
   },
@@ -237,6 +237,16 @@
       },
       {
         "date": "2026-05-28",
+        "company": "Amdocs",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
+      },
+      {
+        "date": "2026-05-28",
         "company": "Rapyd",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -330,7 +340,7 @@
     ]
   },
   "insights": [
-    "2026-W22 includes 10 public layoff events and 1,874 reported layoffs.",
+    "2026-W22 includes 11 public layoff events and 1,874 reported layoffs.",
     "The largest company contributor is Wix with 1,000 reported layoffs.",
     "The leading named industry is Marketing with 1,000 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

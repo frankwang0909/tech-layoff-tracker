@@ -9,13 +9,13 @@
   "updated_at": "2026-06-10",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 34869,
-    "event_count": 96,
-    "headcount_event_count": 65,
-    "company_count": 95,
+    "total_laid_off": 35119,
+    "event_count": 98,
+    "headcount_event_count": 66,
+    "company_count": 97,
     "country_count": 17,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 536.45,
+    "average_layoffs_per_headcount_event": 532.11,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 16
   },
@@ -24,20 +24,20 @@
       "period": "2026-Q1",
       "total_laid_off": 83010,
       "event_count": 92,
-      "total_laid_off_delta": -48141,
-      "total_laid_off_pct_change": -0.5799,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.0435,
+      "total_laid_off_delta": -47891,
+      "total_laid_off_pct_change": -0.5769,
+      "event_count_delta": 6,
+      "event_count_pct_change": 0.0652,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -2734,
-      "total_laid_off_pct_change": -0.0727,
-      "event_count_delta": 24,
-      "event_count_pct_change": 0.3333,
+      "total_laid_off_delta": -2484,
+      "total_laid_off_pct_change": -0.0661,
+      "event_count_delta": 26,
+      "event_count_pct_change": 0.3611,
       "note": null
     }
   },
@@ -140,12 +140,12 @@
         "total_laid_off": 1108
       },
       {
-        "country": "Germany",
-        "total_laid_off": 467
+        "country": "India",
+        "total_laid_off": 705
       },
       {
-        "country": "India",
-        "total_laid_off": 455
+        "country": "Germany",
+        "total_laid_off": 467
       },
       {
         "country": "Norway",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 27701
+        "total_laid_off": 27951
       },
       {
         "stage": "Unknown",
@@ -339,6 +339,16 @@
     "recent_events": [
       {
         "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
+      {
+        "date": "2026-06-10",
         "company": "Shopee",
         "num_laid_off": null,
         "percentage_laid_off": 0.08,
@@ -349,16 +359,6 @@
       },
       {
         "date": "2026-06-09",
-        "company": "Verily",
-        "num_laid_off": 58,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Subsidiary",
-        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
-      },
-      {
-        "date": "2026-06-09",
         "company": "Salesforce",
         "num_laid_off": 86,
         "percentage_laid_off": null,
@@ -366,6 +366,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Verily",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       },
       {
         "date": "2026-06-08",
@@ -459,16 +469,6 @@
       },
       {
         "date": "2026-06-02",
-        "company": "Aleph Farms",
-        "num_laid_off": 10,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
-      },
-      {
-        "date": "2026-06-02",
         "company": "GitLab",
         "num_laid_off": 350,
         "percentage_laid_off": 0.14,
@@ -476,6 +476,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-02",
+        "company": "Aleph Farms",
+        "num_laid_off": 10,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
       },
       {
         "date": "2026-06-01",
@@ -519,23 +529,13 @@
       },
       {
         "date": "2026-05-28",
-        "company": "Rapyd",
+        "company": "Amdocs",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "NetApp",
-        "num_laid_off": 77,
-        "percentage_laid_off": null,
-        "industry": "Data",
+        "percentage_laid_off": 0.07,
+        "industry": "Support",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+        "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 96 public layoff events and 34,869 reported layoffs.",
+    "2026-Q2 includes 98 public layoff events and 35,119 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "16 events report a layoff percentage of 25% or higher."

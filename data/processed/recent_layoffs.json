@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-10",
+    "company": "Opendoor",
+    "num_laid_off": 250,
+    "percentage_laid_off": null,
+    "industry": "Real Estate",
+    "country": "India",
+    "stage": "Post-IPO",
+    "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+  },
+  {
+    "date": "2026-06-10",
     "company": "Shopee",
     "num_laid_off": null,
     "percentage_laid_off": 0.08,
@@ -11,16 +21,6 @@
   },
   {
     "date": "2026-06-09",
-    "company": "Verily",
-    "num_laid_off": 58,
-    "percentage_laid_off": null,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Subsidiary",
-    "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
-  },
-  {
-    "date": "2026-06-09",
     "company": "Salesforce",
     "num_laid_off": 86,
     "percentage_laid_off": null,
@@ -28,6 +28,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+  },
+  {
+    "date": "2026-06-09",
+    "company": "Verily",
+    "num_laid_off": 58,
+    "percentage_laid_off": null,
+    "industry": "Healthcare",
+    "country": "United States",
+    "stage": "Subsidiary",
+    "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
   },
   {
     "date": "2026-06-08",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
-  },
-  {
-    "date": "2026-06-02",
-    "company": "GitLab",
-    "num_laid_off": 350,
-    "percentage_laid_off": 0.14,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
   }
 ]

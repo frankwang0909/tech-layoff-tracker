@@ -9,35 +9,35 @@
   "updated_at": "2026-06-10",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 964,
-    "event_count": 15,
-    "headcount_event_count": 9,
-    "company_count": 15,
-    "country_count": 3,
-    "industry_count": 11,
-    "average_layoffs_per_headcount_event": 107.11,
-    "median_layoffs_per_headcount_event": 86.0,
+    "total_laid_off": 1214,
+    "event_count": 16,
+    "headcount_event_count": 10,
+    "company_count": 16,
+    "country_count": 4,
+    "industry_count": 12,
+    "average_layoffs_per_headcount_event": 121.4,
+    "median_layoffs_per_headcount_event": 93.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05",
       "total_laid_off": 28889,
-      "event_count": 47,
-      "total_laid_off_delta": -27925,
-      "total_laid_off_pct_change": -0.9666,
+      "event_count": 48,
+      "total_laid_off_delta": -27675,
+      "total_laid_off_pct_change": -0.958,
       "event_count_delta": -32,
-      "event_count_pct_change": -0.6809,
+      "event_count_pct_change": -0.6667,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": -642,
-      "total_laid_off_pct_change": -0.3998,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.0625,
+      "total_laid_off_delta": -392,
+      "total_laid_off_pct_change": -0.2441,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "GitLab",
         "total_laid_off": 350
+      },
+      {
+        "company": "Opendoor",
+        "total_laid_off": 250
       },
       {
         "company": "Dandy",
@@ -86,6 +90,10 @@
         "total_laid_off": 350
       },
       {
+        "industry": "Real Estate",
+        "total_laid_off": 250
+      },
+      {
         "industry": "Healthcare",
         "total_laid_off": 218
       },
@@ -122,12 +130,16 @@
       {
         "country": "Israel",
         "total_laid_off": 310
+      },
+      {
+        "country": "India",
+        "total_laid_off": 250
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 436
+        "total_laid_off": 686
       },
       {
         "stage": "Series D",
@@ -184,6 +196,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+      },
+      {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
       },
       {
         "date": "2026-06-03",
@@ -267,6 +289,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
       {
         "date": "2026-06-10",
         "company": "Shopee",
@@ -432,7 +464,7 @@
     ]
   },
   "insights": [
-    "2026-06 includes 15 public layoff events and 964 reported layoffs.",
+    "2026-06 includes 16 public layoff events and 1,214 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

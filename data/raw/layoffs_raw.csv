@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Opendoor,"Bengaluru, Non-U.S.",250.0,2026-06-10,,Real Estate,https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/,Post-IPO,1900.0,India,2026-06-12T04:43:52.000Z
 Shopee,"Jakarta, Non-U.S.",,2026-06-10,0.08,Food,https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai,Unknown,,Indonesia,2026-06-10T22:19:41.000Z
 Salesforce,SF Bay Area,86.0,2026-06-09,,Sales,https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6,Post-IPO,65.0,United States,2026-06-09T23:08:37.000Z
 Verily,SF Bay Area,58.0,2026-06-09,,Healthcare,https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html,Subsidiary,3500.0,United States,2026-06-10T22:21:11.000Z
@@ -17,6 +18,7 @@ Lightricks,"Jerusalem, Non-U.S.",75.0,2026-06-01,0.17,Consumer,https://www.calca
 Credit Karma,SF Bay Area,117.0,2026-05-30,,Finance,https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump,Acquired,868.0,United States,2026-06-03T03:44:32.000Z
 SentinelOne,SF Bay Area,230.0,2026-05-29,0.08,Security,https://www.calcalistech.com/ctechnews/article/r1goyeuxgx,Post-IPO,696.0,United States,2026-05-29T15:59:58.000Z
 Interview Kickstart,SF Bay Area,50.0,2026-05-29,,Education,https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/,Unknown,10.0,United States,2026-06-03T03:36:58.000Z
+Amdocs,St. Louis,,2026-05-28,0.07,Support,https://www.calcalistech.com/ctechnews/article/u4qmp07cv,Post-IPO,,United States,2026-06-12T04:41:42.000Z
 Rapyd,"Tel Aviv, Non-U.S.",,2026-05-28,,Finance,https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl,Unknown,770.0,Israel,2026-05-28T23:34:13.000Z
 NetApp,SF Bay Area,77.0,2026-05-27,,Data,https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/,Post-IPO,,United States,2026-05-28T23:32:28.000Z
 Webflow,SF Bay Area,,2026-05-27,,Marketing,https://webflow.com/blog/evolving-webflow-for-the-agentic-web,Series C,335.0,United States,2026-05-27T20:09:30.000Z

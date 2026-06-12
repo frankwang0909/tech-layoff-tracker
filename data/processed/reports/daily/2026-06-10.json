@@ -9,14 +9,14 @@
   "updated_at": "2026-06-10",
   "canonical_url": "/reports/daily/2026-06-10.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "total_laid_off": 250,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 250.0,
+    "median_layoffs_per_headcount_event": 250.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,28 +24,48 @@
       "period": "2026-06-09",
       "total_laid_off": 144,
       "event_count": 2,
-      "total_laid_off_delta": -144,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 106,
+      "total_laid_off_pct_change": 0.7361,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06-10",
       "total_laid_off": 30,
       "event_count": 1,
-      "total_laid_off_delta": -30,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 220,
+      "total_laid_off_pct_change": 7.3333,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Opendoor",
+        "total_laid_off": 250
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Real Estate",
+        "total_laid_off": 250
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 250
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 250
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
       {
         "date": "2026-06-10",
         "company": "Shopee",
@@ -86,7 +127,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06-10 includes 1 public layoff events and 0 reported layoffs."
+    "2026-06-10 includes 2 public layoff events and 250 reported layoffs.",
+    "The largest company contributor is Opendoor with 250 reported layoffs.",
+    "The leading named industry is Real Estate with 250 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

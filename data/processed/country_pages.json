@@ -11,7 +11,7 @@
     },
     "kpis": {
       "total_laid_off": 203805,
-      "event_count": 308,
+      "event_count": 309,
       "headcount_event_count": 204,
       "company_count": 234,
       "country_count": 1,
@@ -240,6 +240,16 @@
         },
         {
           "date": "2026-05-29",
+          "company": "Interview Kickstart",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+        },
+        {
+          "date": "2026-05-29",
           "company": "SentinelOne",
           "num_laid_off": 230,
           "percentage_laid_off": 0.08,
@@ -249,14 +259,14 @@
           "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
         },
         {
-          "date": "2026-05-29",
-          "company": "Interview Kickstart",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Education",
+          "date": "2026-05-28",
+          "company": "Amdocs",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.07,
+          "industry": "Support",
           "country": "United States",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
         },
         {
           "date": "2026-05-27",
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Series C",
           "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
-        },
-        {
-          "date": "2026-05-26",
-          "company": "Groupon",
-          "num_laid_off": 400,
-          "percentage_laid_off": 0.25,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
         }
       ]
     },
-    "summary": "United States has 203,805 reported tech layoffs across 308 public events from 2025-01-02 to 2026-06-09."
+    "summary": "United States has 203,805 reported tech layoffs across 309 public events from 2025-01-02 to 2026-06-09."
   },
   {
     "type": "country",
@@ -300,15 +300,15 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-05-10"
+      "end": "2026-06-10"
     },
     "kpis": {
-      "total_laid_off": 9210,
-      "event_count": 53,
-      "headcount_event_count": 41,
-      "company_count": 43,
+      "total_laid_off": 9460,
+      "event_count": 54,
+      "headcount_event_count": 42,
+      "company_count": 44,
       "country_count": 1,
-      "industry_count": 14,
+      "industry_count": 15,
       "high_intensity_event_count": 18
     },
     "charts": {
@@ -372,6 +372,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 335
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 250
         }
       ],
       "company_top": [
@@ -412,13 +416,23 @@
           "total_laid_off": 370
         },
         {
-          "company": "Junglee Games",
+          "company": "VerSe Innovation copy",
           "total_laid_off": 350
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-10",
+          "company": "Opendoor",
+          "num_laid_off": 250,
+          "percentage_laid_off": null,
+          "industry": "Real Estate",
+          "country": "India",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+        },
         {
           "date": "2026-05-10",
           "company": "Adda247",
@@ -431,16 +445,6 @@
         },
         {
           "date": "2026-05-06",
-          "company": "ApnaMart",
-          "num_laid_off": 35,
-          "percentage_laid_off": 0.1,
-          "industry": "Food",
-          "country": "India",
-          "stage": "Series B",
-          "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
-        },
-        {
-          "date": "2026-05-06",
           "company": "Pocket FM",
           "num_laid_off": 100,
           "percentage_laid_off": 0.1,
@@ -448,6 +452,16 @@
           "country": "India",
           "stage": "Series D",
           "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+        },
+        {
+          "date": "2026-05-06",
+          "company": "ApnaMart",
+          "num_laid_off": 35,
+          "percentage_laid_off": 0.1,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Series B",
+          "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
         },
         {
           "date": "2026-04-24",
@@ -558,20 +572,10 @@
           "country": "India",
           "stage": "Series E",
           "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
-        },
-        {
-          "date": "2025-11-26",
-          "company": "Junglee Games",
-          "num_laid_off": 350,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/junglee-games-parent-flutter-sheds-350-jobs-in-post-rmg-ban-recast/"
         }
       ]
     },
-    "summary": "India has 9,210 reported tech layoffs across 53 public events from 2025-01-15 to 2026-05-10."
+    "summary": "India has 9,460 reported tech layoffs across 54 public events from 2025-01-15 to 2026-06-10."
   },
   {
     "type": "country",

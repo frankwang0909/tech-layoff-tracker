@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-10"
+    "end": "2026-06-12"
   },
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 1214,
-    "event_count": 16,
-    "headcount_event_count": 10,
-    "company_count": 16,
-    "country_count": 4,
-    "industry_count": 12,
-    "average_layoffs_per_headcount_event": 121.4,
-    "median_layoffs_per_headcount_event": 93.0,
+    "total_laid_off": 1397,
+    "event_count": 19,
+    "headcount_event_count": 13,
+    "company_count": 19,
+    "country_count": 5,
+    "industry_count": 15,
+    "average_layoffs_per_headcount_event": 107.46,
+    "median_layoffs_per_headcount_event": 79.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-05",
       "total_laid_off": 28889,
       "event_count": 48,
-      "total_laid_off_delta": -27675,
-      "total_laid_off_pct_change": -0.958,
-      "event_count_delta": -32,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": -27492,
+      "total_laid_off_pct_change": -0.9516,
+      "event_count_delta": -29,
+      "event_count_pct_change": -0.6042,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": -392,
-      "total_laid_off_pct_change": -0.2441,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -209,
+      "total_laid_off_pct_change": -0.1301,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.1875,
       "note": null
     }
   },
@@ -68,6 +68,10 @@
         "total_laid_off": 86
       },
       {
+        "company": "Quizlet",
+        "total_laid_off": 79
+      },
+      {
         "company": "Lightricks",
         "total_laid_off": 75
       },
@@ -76,12 +80,8 @@
         "total_laid_off": 58
       },
       {
-        "company": "Zencity",
-        "total_laid_off": 15
-      },
-      {
-        "company": "Aleph Farms",
-        "total_laid_off": 10
+        "company": "ServiceNow",
+        "total_laid_off": 54
       }
     ],
     "industry_top": [
@@ -110,22 +110,26 @@
         "total_laid_off": 86
       },
       {
+        "industry": "Education",
+        "total_laid_off": 79
+      },
+      {
         "industry": "Consumer",
         "total_laid_off": 75
       },
       {
-        "industry": "Other",
-        "total_laid_off": 15
+        "industry": "Support",
+        "total_laid_off": 54
       },
       {
-        "industry": "Food",
-        "total_laid_off": 10
+        "industry": "Finance",
+        "total_laid_off": 50
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 654
+        "total_laid_off": 787
       },
       {
         "country": "Israel",
@@ -134,20 +138,24 @@
       {
         "country": "India",
         "total_laid_off": 250
+      },
+      {
+        "country": "Denmark",
+        "total_laid_off": 50
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 686
+        "total_laid_off": 740
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 239
       },
       {
         "stage": "Series D",
         "total_laid_off": 235
-      },
-      {
-        "stage": "Series C",
-        "total_laid_off": 110
       },
       {
         "stage": "Series E",
@@ -248,6 +256,16 @@
         "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
       },
       {
+        "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
+      {
         "date": "2026-06-01",
         "company": "Lightricks",
         "num_laid_off": 75,
@@ -268,27 +286,37 @@
         "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       },
       {
-        "date": "2026-06-07",
-        "company": "Zencity",
-        "num_laid_off": 15,
+        "date": "2026-06-11",
+        "company": "ServiceNow",
+        "num_laid_off": 54,
         "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
-      },
-      {
-        "date": "2026-06-02",
-        "company": "Aleph Farms",
-        "num_laid_off": 10,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-12",
+        "company": "Pleo",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Denmark",
+        "stage": "Series C",
+        "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+      },
+      {
+        "date": "2026-06-11",
+        "company": "ServiceNow",
+        "num_laid_off": 54,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
       {
         "date": "2026-06-10",
         "company": "Opendoor",
@@ -368,6 +396,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+      },
+      {
+        "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
       },
       {
         "date": "2026-06-04",
@@ -464,7 +502,7 @@
     ]
   },
   "insights": [
-    "2026-06 includes 16 public layoff events and 1,214 reported layoffs.",
+    "2026-06 includes 19 public layoff events and 1,397 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-09"
+      "end": "2026-06-11"
     },
     "kpis": {
-      "total_laid_off": 203805,
-      "event_count": 309,
-      "headcount_event_count": 204,
-      "company_count": 234,
+      "total_laid_off": 203938,
+      "event_count": 311,
+      "headcount_event_count": 206,
+      "company_count": 236,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 50
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 654
+          "total_laid_off": 787
         }
       ],
       "company_top": [
@@ -139,14 +139,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-06-09",
-          "company": "Salesforce",
-          "num_laid_off": 86,
+          "date": "2026-06-11",
+          "company": "ServiceNow",
+          "num_laid_off": 54,
           "percentage_laid_off": null,
-          "industry": "Sales",
+          "industry": "Support",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
         },
         {
           "date": "2026-06-09",
@@ -157,6 +157,16 @@
           "country": "United States",
           "stage": "Subsidiary",
           "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+        },
+        {
+          "date": "2026-06-09",
+          "company": "Salesforce",
+          "num_laid_off": 86,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
         },
         {
           "date": "2026-06-08",
@@ -177,6 +187,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+        },
+        {
+          "date": "2026-06-05",
+          "company": "Quizlet",
+          "num_laid_off": 79,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
         },
         {
           "date": "2026-06-04",
@@ -240,16 +260,6 @@
         },
         {
           "date": "2026-05-29",
-          "company": "Interview Kickstart",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-        },
-        {
-          "date": "2026-05-29",
           "company": "SentinelOne",
           "num_laid_off": 230,
           "percentage_laid_off": 0.08,
@@ -257,6 +267,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+        },
+        {
+          "date": "2026-05-29",
+          "company": "Interview Kickstart",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
         },
         {
           "date": "2026-05-28",
@@ -267,30 +287,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
-        },
-        {
-          "date": "2026-05-27",
-          "company": "NetApp",
-          "num_laid_off": 77,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-        },
-        {
-          "date": "2026-05-27",
-          "company": "Webflow",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
         }
       ]
     },
-    "summary": "United States has 203,805 reported tech layoffs across 309 public events from 2025-01-02 to 2026-06-09."
+    "summary": "United States has 203,938 reported tech layoffs across 311 public events from 2025-01-02 to 2026-06-11."
   },
   {
     "type": "country",

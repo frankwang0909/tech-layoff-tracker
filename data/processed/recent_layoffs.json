@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-12",
+    "company": "Pleo",
+    "num_laid_off": 50,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Denmark",
+    "stage": "Series C",
+    "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+  },
+  {
+    "date": "2026-06-11",
+    "company": "ServiceNow",
+    "num_laid_off": 54,
+    "percentage_laid_off": null,
+    "industry": "Support",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+  },
+  {
     "date": "2026-06-10",
     "company": "Opendoor",
     "num_laid_off": 250,
@@ -71,6 +91,16 @@
   },
   {
     "date": "2026-06-05",
+    "company": "Quizlet",
+    "num_laid_off": 79,
+    "percentage_laid_off": null,
+    "industry": "Education",
+    "country": "United States",
+    "stage": "Series C",
+    "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+  },
+  {
+    "date": "2026-06-05",
     "company": "FanDuel",
     "num_laid_off": null,
     "percentage_laid_off": null,
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
-  },
-  {
-    "date": "2026-06-03",
-    "company": "Dandy",
-    "num_laid_off": 160,
-    "percentage_laid_off": null,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Series D",
-    "source": "Internal memo"
-  },
-  {
-    "date": "2026-06-03",
-    "company": "Skai",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.2,
-    "industry": "Marketing",
-    "country": "Israel",
-    "stage": "Series E",
-    "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
-  },
-  {
-    "date": "2026-06-03",
-    "company": "Uber",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.01,
-    "industry": "Transportation",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
   }
 ]

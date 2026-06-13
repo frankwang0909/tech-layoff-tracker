@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-06-10"
+    "end": "2026-06-12"
   },
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 118129,
-    "event_count": 190,
-    "headcount_event_count": 128,
-    "company_count": 180,
-    "country_count": 23,
+    "total_laid_off": 118312,
+    "event_count": 193,
+    "headcount_event_count": 131,
+    "company_count": 183,
+    "country_count": 24,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 922.88,
-    "median_layoffs_per_headcount_event": 168.0,
+    "average_layoffs_per_headcount_event": 903.15,
+    "median_layoffs_per_headcount_event": 151.0,
     "high_intensity_event_count": 35
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 331,
-      "total_laid_off_delta": -6507,
-      "total_laid_off_pct_change": -0.0522,
-      "event_count_delta": -141,
-      "event_count_pct_change": -0.426,
+      "total_laid_off_delta": -6324,
+      "total_laid_off_pct_change": -0.0507,
+      "event_count_delta": -138,
+      "event_count_pct_change": -0.4169,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 331,
-      "total_laid_off_delta": -6507,
-      "total_laid_off_pct_change": -0.0522,
-      "event_count_delta": -141,
-      "event_count_pct_change": -0.426,
+      "total_laid_off_delta": -6324,
+      "total_laid_off_pct_change": -0.0507,
+      "event_count_delta": -138,
+      "event_count_pct_change": -0.4169,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 13933
+        "total_laid_off": 13983
       },
       {
         "industry": "Hardware",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 99539
+        "total_laid_off": 99672
       },
       {
         "country": "Australia",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 104538
+        "total_laid_off": 104592
       },
       {
         "stage": "Unknown",
@@ -203,7 +203,7 @@
       },
       {
         "stage": "Series C",
-        "total_laid_off": 287
+        "total_laid_off": 416
       },
       {
         "stage": "Seed",
@@ -286,16 +286,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-02-26",
-        "company": "Block",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
-      },
-      {
         "date": "2026-05-13",
         "company": "Cisco",
         "num_laid_off": 4000,
@@ -304,6 +294,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
       },
       {
         "date": "2026-05-20",
@@ -337,6 +337,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-12",
+        "company": "Pleo",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Denmark",
+        "stage": "Series C",
+        "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+      },
+      {
+        "date": "2026-06-11",
+        "company": "ServiceNow",
+        "num_laid_off": 54,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
       {
         "date": "2026-06-10",
         "company": "Opendoor",
@@ -409,6 +429,16 @@
       },
       {
         "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
+      {
+        "date": "2026-06-05",
         "company": "FanDuel",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -429,13 +459,13 @@
       },
       {
         "date": "2026-06-03",
-        "company": "Dandy",
-        "num_laid_off": 160,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Series D",
-        "source": "Internal memo"
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
       },
       {
         "date": "2026-06-03",
@@ -449,13 +479,13 @@
       },
       {
         "date": "2026-06-03",
-        "company": "Uber",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.01,
-        "industry": "Transportation",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+        "stage": "Series D",
+        "source": "Internal memo"
       },
       {
         "date": "2026-06-02",
@@ -506,36 +536,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
-      },
-      {
-        "date": "2026-05-29",
-        "company": "SentinelOne",
-        "num_laid_off": 230,
-        "percentage_laid_off": 0.08,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
-      },
-      {
-        "date": "2026-05-29",
-        "company": "Interview Kickstart",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-      },
-      {
-        "date": "2026-05-28",
-        "company": "Amdocs",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.07,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 190 public layoff events and 118,129 reported layoffs.",
+    "2026 includes 193 public layoff events and 118,312 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "35 events report a layoff percentage of 25% or higher."

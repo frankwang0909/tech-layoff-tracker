@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Pleo,"Copenhagen, Non-U.S.",50.0,2026-06-12,,Finance,https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/,Series C,428.0,Denmark,2026-06-12T14:09:18.000Z
+ServiceNow,SF Bay Area,54.0,2026-06-11,,Support,https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/,Post-IPO,84.0,United States,2026-06-12T14:08:48.000Z
 Opendoor,"Bengaluru, Non-U.S.",250.0,2026-06-10,,Real Estate,https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/,Post-IPO,1900.0,India,2026-06-12T04:43:52.000Z
 Shopee,"Jakarta, Non-U.S.",,2026-06-10,0.08,Food,https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai,Unknown,,Indonesia,2026-06-10T22:19:41.000Z
 Salesforce,SF Bay Area,86.0,2026-06-09,,Sales,https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6,Post-IPO,65.0,United States,2026-06-09T23:08:37.000Z
@@ -6,6 +8,7 @@ Verily,SF Bay Area,58.0,2026-06-09,,Healthcare,https://www.bizjournals.com/sanfr
 Hailo,"Tel Aviv, Non-U.S.",110.0,2026-06-08,0.5,Manufacturing,https://www.calcalistech.com/ctechnews/article/3hmpcioxj,Series C,344.0,Israel,2026-06-08T23:06:39.000Z
 Tools for Humanity,SF Bay Area,,2026-06-08,,AI,https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe,Series C,244.0,United States,2026-06-08T23:07:29.000Z
 Zencity,"Tel Aviv, Non-U.S.",15.0,2026-06-07,,Other,https://www.calcalistech.com/ctechnews/article/rkxkiagbgg,Unknown,51.0,Israel,2026-06-08T01:25:33.000Z
+Quizlet,SF Bay Area,79.0,2026-06-05,,Education,https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/,Series C,62.0,United States,2026-06-12T13:56:34.000Z
 FanDuel,New York City,,2026-06-05,,Consumer,https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/,Acquired,416.0,United States,2026-06-09T23:13:18.000Z
 Google,SF Bay Area,,2026-06-04,,Consumer,https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6,Post-IPO,26.0,United States,2026-06-07T03:35:11.000Z
 Dandy,New York City,160.0,2026-06-03,,Healthcare,Internal memo,Series D,172.0,United States,2026-06-09T23:18:24.000Z

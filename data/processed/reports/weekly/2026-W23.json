@@ -6,17 +6,17 @@
     "start": "2026-06-01",
     "end": "2026-06-07"
   },
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "canonical_url": "/reports/weekly/2026-W23.html",
   "kpis": {
-    "total_laid_off": 710,
-    "event_count": 10,
-    "headcount_event_count": 6,
-    "company_count": 10,
+    "total_laid_off": 789,
+    "event_count": 11,
+    "headcount_event_count": 7,
+    "company_count": 11,
     "country_count": 2,
-    "industry_count": 8,
-    "average_layoffs_per_headcount_event": 118.33,
-    "median_layoffs_per_headcount_event": 87.5,
+    "industry_count": 9,
+    "average_layoffs_per_headcount_event": 112.71,
+    "median_layoffs_per_headcount_event": 79.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W22",
       "total_laid_off": 1874,
       "event_count": 11,
-      "total_laid_off_delta": -1164,
-      "total_laid_off_pct_change": -0.6211,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.0909,
+      "total_laid_off_delta": -1085,
+      "total_laid_off_pct_change": -0.579,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W23",
       "total_laid_off": 420,
       "event_count": 3,
-      "total_laid_off_delta": 290,
-      "total_laid_off_pct_change": 0.6905,
-      "event_count_delta": 7,
-      "event_count_pct_change": 2.3333,
+      "total_laid_off_delta": 369,
+      "total_laid_off_pct_change": 0.8786,
+      "event_count_delta": 8,
+      "event_count_pct_change": 2.6667,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "Skai",
         "total_laid_off": 100
+      },
+      {
+        "company": "Quizlet",
+        "total_laid_off": 79
       },
       {
         "company": "Lightricks",
@@ -82,6 +86,10 @@
         "total_laid_off": 100
       },
       {
+        "industry": "Education",
+        "total_laid_off": 79
+      },
+      {
         "industry": "Consumer",
         "total_laid_off": 75
       },
@@ -97,7 +105,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 510
+        "total_laid_off": 589
       },
       {
         "country": "Israel",
@@ -116,6 +124,10 @@
       {
         "stage": "Series E",
         "total_laid_off": 100
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 79
       },
       {
         "stage": "Unknown",
@@ -178,6 +190,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
       },
       {
+        "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
+      {
         "date": "2026-06-01",
         "company": "Lightricks",
         "num_laid_off": 75,
@@ -218,6 +240,16 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+      },
+      {
+        "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
       },
       {
         "date": "2026-06-05",
@@ -313,7 +345,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W23 includes 10 public layoff events and 710 reported layoffs.",
+    "2026-W23 includes 11 public layoff events and 789 reported layoffs.",
     "The largest company contributor is GitLab with 350 reported layoffs.",
     "The leading named industry is Product with 350 reported layoffs."
   ],

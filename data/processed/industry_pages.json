@@ -838,12 +838,12 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-05-30"
+      "end": "2026-06-12"
     },
     "kpis": {
-      "total_laid_off": 17822,
-      "event_count": 52,
-      "headcount_event_count": 33,
+      "total_laid_off": 17872,
+      "event_count": 53,
+      "headcount_event_count": 34,
       "company_count": 47,
       "country_count": 9,
       "industry_count": 1,
@@ -910,6 +910,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 8586
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 50
         }
       ],
       "company_top": [
@@ -957,6 +961,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-12",
+          "company": "Pleo",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Denmark",
+          "stage": "Series C",
+          "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+        },
         {
           "date": "2026-05-30",
           "company": "Credit Karma",
@@ -1096,20 +1110,10 @@
           "country": "United Kingdom",
           "stage": "Series F",
           "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
-        },
-        {
-          "date": "2026-03-17",
-          "company": "FranShares",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Seed",
-          "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
         }
       ]
     },
-    "summary": "Finance has 17,822 reported tech layoffs across 52 public events from 2025-01-02 to 2026-05-30."
+    "summary": "Finance has 17,872 reported tech layoffs across 53 public events from 2025-01-02 to 2026-06-12."
   },
   {
     "type": "industry",
@@ -3735,13 +3739,13 @@
     "canonical_url": "/industries/support.html",
     "date_range": {
       "start": "2025-01-20",
-      "end": "2026-05-28"
+      "end": "2026-06-11"
     },
     "kpis": {
-      "total_laid_off": 1440,
-      "event_count": 9,
-      "headcount_event_count": 7,
-      "company_count": 7,
+      "total_laid_off": 1494,
+      "event_count": 10,
+      "headcount_event_count": 8,
+      "company_count": 8,
       "country_count": 2,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -3771,6 +3775,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 500
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 54
         }
       ],
       "company_top": [
@@ -3797,11 +3805,25 @@
         {
           "company": "Unbabel",
           "total_laid_off": 66
+        },
+        {
+          "company": "ServiceNow",
+          "total_laid_off": 54
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-11",
+          "company": "ServiceNow",
+          "num_laid_off": 54,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+        },
         {
           "date": "2026-05-28",
           "company": "Amdocs",
@@ -3894,7 +3916,7 @@
         }
       ]
     },
-    "summary": "Support has 1,440 reported tech layoffs across 9 public events from 2025-01-20 to 2026-05-28."
+    "summary": "Support has 1,494 reported tech layoffs across 10 public events from 2025-01-20 to 2026-06-11."
   },
   {
     "type": "industry",
@@ -4391,78 +4413,19 @@
   },
   {
     "type": "industry",
-    "name": "Aerospace",
-    "slug": "aerospace",
-    "title": "Tech Layoffs by Industry: Aerospace",
-    "canonical_url": "/industries/aerospace.html",
-    "date_range": {
-      "start": "2025-02-13",
-      "end": "2025-02-14"
-    },
-    "kpis": {
-      "total_laid_off": 1000,
-      "event_count": 2,
-      "headcount_event_count": 1,
-      "company_count": 2,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 0
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 1000
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Blue Origin",
-          "total_laid_off": 1000
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2025-02-14",
-          "company": "Eviation Aircraft",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Aerospace",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
-        },
-        {
-          "date": "2025-02-13",
-          "company": "Blue Origin",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.1,
-          "industry": "Aerospace",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
-        }
-      ]
-    },
-    "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
-  },
-  {
-    "type": "industry",
     "name": "Education",
     "slug": "education",
     "title": "Tech Layoffs by Industry: Education",
     "canonical_url": "/industries/education.html",
     "date_range": {
       "start": "2025-03-31",
-      "end": "2026-05-29"
+      "end": "2026-06-05"
     },
     "kpis": {
-      "total_laid_off": 941,
-      "event_count": 9,
-      "headcount_event_count": 5,
-      "company_count": 8,
+      "total_laid_off": 1020,
+      "event_count": 10,
+      "headcount_event_count": 6,
+      "company_count": 9,
       "country_count": 3,
       "industry_count": 1,
       "high_intensity_event_count": 1
@@ -4484,6 +4447,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 250
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 79
         }
       ],
       "company_top": [
@@ -4494,6 +4461,10 @@
         {
           "company": "Adda247",
           "total_laid_off": 200
+        },
+        {
+          "company": "Quizlet",
+          "total_laid_off": 79
         },
         {
           "company": "Multiverse",
@@ -4507,6 +4478,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-05",
+          "company": "Quizlet",
+          "num_laid_off": 79,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+        },
         {
           "date": "2026-05-29",
           "company": "Interview Kickstart",
@@ -4599,7 +4580,66 @@
         }
       ]
     },
-    "summary": "Education has 941 reported tech layoffs across 9 public events from 2025-03-31 to 2026-05-29."
+    "summary": "Education has 1,020 reported tech layoffs across 10 public events from 2025-03-31 to 2026-06-05."
+  },
+  {
+    "type": "industry",
+    "name": "Aerospace",
+    "slug": "aerospace",
+    "title": "Tech Layoffs by Industry: Aerospace",
+    "canonical_url": "/industries/aerospace.html",
+    "date_range": {
+      "start": "2025-02-13",
+      "end": "2025-02-14"
+    },
+    "kpis": {
+      "total_laid_off": 1000,
+      "event_count": 2,
+      "headcount_event_count": 1,
+      "company_count": 2,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 1000
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Blue Origin",
+          "total_laid_off": 1000
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2025-02-14",
+          "company": "Eviation Aircraft",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Aerospace",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Blue Origin",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.1,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
+        }
+      ]
+    },
+    "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
   },
   {
     "type": "industry",

@@ -6,17 +6,17 @@
     "start": "2026-06-05",
     "end": "2026-06-05"
   },
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "canonical_url": "/reports/daily/2026-06-05.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
+    "total_laid_off": 79,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 79.0,
+    "median_layoffs_per_headcount_event": 79.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,28 +24,48 @@
       "period": "2026-06-04",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 0,
+      "total_laid_off_delta": 79,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06-05",
       "total_laid_off": 90,
       "event_count": 1,
-      "total_laid_off_delta": -90,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -11,
+      "total_laid_off_pct_change": -0.1222,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Quizlet",
+        "total_laid_off": 79
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Education",
+        "total_laid_off": 79
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 79
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series C",
+        "total_laid_off": 79
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
       {
         "date": "2026-06-05",
         "company": "FanDuel",
@@ -86,7 +127,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06-05 includes 1 public layoff events and 0 reported layoffs."
+    "2026-06-05 includes 2 public layoff events and 79 reported layoffs.",
+    "The largest company contributor is Quizlet with 79 reported layoffs.",
+    "The leading named industry is Education with 79 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

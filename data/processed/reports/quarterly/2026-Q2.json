@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-10"
+    "end": "2026-06-12"
   },
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-12",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 35119,
-    "event_count": 98,
-    "headcount_event_count": 66,
-    "company_count": 97,
-    "country_count": 17,
+    "total_laid_off": 35302,
+    "event_count": 101,
+    "headcount_event_count": 69,
+    "company_count": 100,
+    "country_count": 18,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 532.11,
-    "median_layoffs_per_headcount_event": 150.0,
+    "average_layoffs_per_headcount_event": 511.62,
+    "median_layoffs_per_headcount_event": 145.0,
     "high_intensity_event_count": 16
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q1",
       "total_laid_off": 83010,
       "event_count": 92,
-      "total_laid_off_delta": -47891,
-      "total_laid_off_pct_change": -0.5769,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.0652,
+      "total_laid_off_delta": -47708,
+      "total_laid_off_pct_change": -0.5747,
+      "event_count_delta": 9,
+      "event_count_pct_change": 0.0978,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -2484,
-      "total_laid_off_pct_change": -0.0661,
-      "event_count_delta": 26,
-      "event_count_pct_change": 0.3611,
+      "total_laid_off_delta": -2301,
+      "total_laid_off_pct_change": -0.0612,
+      "event_count_delta": 29,
+      "event_count_pct_change": 0.4028,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 8768
+        "total_laid_off": 8818
       },
       {
         "industry": "Infrastructure",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 30067
+        "total_laid_off": 30200
       },
       {
         "country": "Israel",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 27951
+        "total_laid_off": 28005
       },
       {
         "stage": "Unknown",
@@ -195,7 +195,7 @@
       },
       {
         "stage": "Series C",
-        "total_laid_off": 228
+        "total_laid_off": 357
       },
       {
         "stage": "Private Equity",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-12",
+        "company": "Pleo",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Denmark",
+        "stage": "Series C",
+        "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+      },
+      {
+        "date": "2026-06-11",
+        "company": "ServiceNow",
+        "num_laid_off": 54,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
+      {
         "date": "2026-06-10",
         "company": "Opendoor",
         "num_laid_off": 250,
@@ -409,6 +429,16 @@
       },
       {
         "date": "2026-06-05",
+        "company": "Quizlet",
+        "num_laid_off": 79,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+      },
+      {
+        "date": "2026-06-05",
         "company": "FanDuel",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -426,6 +456,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+      },
+      {
+        "date": "2026-06-03",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
       },
       {
         "date": "2026-06-03",
@@ -448,26 +488,6 @@
         "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
       },
       {
-        "date": "2026-06-03",
-        "company": "Uber",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.01,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
-      },
-      {
-        "date": "2026-06-02",
-        "company": "Manhattan Associates",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.06,
-        "industry": "Logistics",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
-      },
-      {
         "date": "2026-06-02",
         "company": "GitLab",
         "num_laid_off": 350,
@@ -488,6 +508,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
       },
       {
+        "date": "2026-06-02",
+        "company": "Manhattan Associates",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.06,
+        "industry": "Logistics",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+      },
+      {
         "date": "2026-06-01",
         "company": "Lightricks",
         "num_laid_off": 75,
@@ -506,36 +536,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
-      },
-      {
-        "date": "2026-05-29",
-        "company": "SentinelOne",
-        "num_laid_off": 230,
-        "percentage_laid_off": 0.08,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
-      },
-      {
-        "date": "2026-05-29",
-        "company": "Interview Kickstart",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-      },
-      {
-        "date": "2026-05-28",
-        "company": "Amdocs",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.07,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 98 public layoff events and 35,119 reported layoffs.",
+    "2026-Q2 includes 101 public layoff events and 35,302 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "16 events report a layoff percentage of 25% or higher."

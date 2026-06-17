@@ -6,16 +6,16 @@
     "start": "2026-05-04",
     "end": "2026-05-30"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
-    "total_laid_off": 28889,
-    "event_count": 48,
-    "headcount_event_count": 35,
-    "company_count": 48,
-    "country_count": 12,
+    "total_laid_off": 28934,
+    "event_count": 49,
+    "headcount_event_count": 36,
+    "company_count": 49,
+    "country_count": 13,
     "industry_count": 20,
-    "average_layoffs_per_headcount_event": 825.4,
+    "average_layoffs_per_headcount_event": 803.72,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 8
   },
@@ -24,20 +24,20 @@
       "period": "2026-04",
       "total_laid_off": 5016,
       "event_count": 34,
-      "total_laid_off_delta": 23873,
-      "total_laid_off_pct_change": 4.7594,
-      "event_count_delta": 14,
-      "event_count_pct_change": 0.4118,
+      "total_laid_off_delta": 23918,
+      "total_laid_off_pct_change": 4.7683,
+      "event_count_delta": 15,
+      "event_count_pct_change": 0.4412,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05",
       "total_laid_off": 10577,
       "event_count": 27,
-      "total_laid_off_delta": 18312,
-      "total_laid_off_pct_change": 1.7313,
-      "event_count_delta": 21,
-      "event_count_pct_change": 0.7778,
+      "total_laid_off_delta": 18357,
+      "total_laid_off_pct_change": 1.7356,
+      "event_count_delta": 22,
+      "event_count_pct_change": 0.8148,
       "note": null
     }
   },
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 1621
+        "total_laid_off": 1666
       },
       {
         "industry": "Marketing",
@@ -156,6 +156,10 @@
         "total_laid_off": 58
       },
       {
+        "country": "Australia",
+        "total_laid_off": 45
+      },
+      {
         "country": "Canada",
         "total_laid_off": 30
       }
@@ -163,7 +167,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 25527
+        "total_laid_off": 25572
       },
       {
         "stage": "Acquired",
@@ -333,16 +337,6 @@
       },
       {
         "date": "2026-05-29",
-        "company": "Interview Kickstart",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-      },
-      {
-        "date": "2026-05-29",
         "company": "SentinelOne",
         "num_laid_off": 230,
         "percentage_laid_off": 0.08,
@@ -350,6 +344,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "Interview Kickstart",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
       },
       {
         "date": "2026-05-28",
@@ -443,16 +447,6 @@
       },
       {
         "date": "2026-05-20",
-        "company": "Intuit",
-        "num_laid_off": 3000,
-        "percentage_laid_off": 0.17,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-      },
-      {
-        "date": "2026-05-20",
         "company": "Meta",
         "num_laid_off": 8000,
         "percentage_laid_off": 0.1,
@@ -460,6 +454,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+      },
+      {
+        "date": "2026-05-20",
+        "company": "Intuit",
+        "num_laid_off": 3000,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
       },
       {
         "date": "2026-05-18",
@@ -606,7 +610,7 @@
     ]
   },
   "insights": [
-    "2026-05 includes 48 public layoff events and 28,889 reported layoffs.",
+    "2026-05 includes 49 public layoff events and 28,934 reported layoffs.",
     "The largest company contributor is Meta with 8,000 reported layoffs.",
     "The leading named industry is Finance with 8,586 reported layoffs.",
     "8 events report a layoff percentage of 25% or higher."

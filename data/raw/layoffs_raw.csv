@@ -1,8 +1,12 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Robinhood,SF Bay Area,290.0,2026-06-16,0.1,Finance,https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/,Post-IPO,6200.0,United States,2026-06-16T20:28:07.000Z
+Artlist,"Tel Aviv, Non-U.S.",200.0,2026-06-16,0.4,Media,https://www.calcalistech.com/ctechnews/article/xrqudqiq6,Unknown,48.0,Israel,2026-06-16T20:39:55.000Z
+FNZ,"London, Non-U.S.",,2026-06-16,,Finance,https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053,Private Equity,3500.0,United Kingdom,2026-06-16T20:41:53.000Z
+Rivian,Detroit,,2026-06-16,0.02,Transportation,https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/,Post-IPO,10700.0,United States,2026-06-16T23:11:11.000Z
 Pleo,"Copenhagen, Non-U.S.",50.0,2026-06-12,,Finance,https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/,Series C,428.0,Denmark,2026-06-12T14:09:18.000Z
 ServiceNow,SF Bay Area,54.0,2026-06-11,,Support,https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/,Post-IPO,84.0,United States,2026-06-12T14:08:48.000Z
 Opendoor,"Bengaluru, Non-U.S.",250.0,2026-06-10,,Real Estate,https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/,Post-IPO,1900.0,India,2026-06-12T04:43:52.000Z
-Shopee,"Jakarta, Non-U.S.",,2026-06-10,0.08,Food,https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai,Unknown,,Indonesia,2026-06-10T22:19:41.000Z
+Shopee,"Singapore, Non-U.S.",,2026-06-10,0.08,Food,https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai,Unknown,,Singapore,2026-06-10T22:19:41.000Z
 Salesforce,SF Bay Area,86.0,2026-06-09,,Sales,https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6,Post-IPO,65.0,United States,2026-06-09T23:08:37.000Z
 Verily,SF Bay Area,58.0,2026-06-09,,Healthcare,https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html,Subsidiary,3500.0,United States,2026-06-10T22:21:11.000Z
 Hailo,"Tel Aviv, Non-U.S.",110.0,2026-06-08,0.5,Manufacturing,https://www.calcalistech.com/ctechnews/article/3hmpcioxj,Series C,344.0,Israel,2026-06-08T23:06:39.000Z
@@ -42,6 +46,7 @@ LinkedIn,SF Bay Area,875.0,2026-05-13,0.05,Recruiting,https://www.reuters.com/bu
 Jumia,"Lagos, Non-U.S.",200.0,2026-05-13,,Retail,https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/,Post-IPO,1200.0,Nigeria,2026-05-15T20:48:41.000Z
 Guesty,"Tel Aviv, Non-U.S.",20.0,2026-05-13,0.02,Travel,https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/,Series F,411.0,Israel,2026-05-13T21:11:26.000Z
 Breadfast,"Cairo, Non-U.S.",58.0,2026-05-12,,Food,https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise,Series C,89.0,Egypt,2026-05-13T21:12:58.000Z
+Trend Micro,"Sydney, Non-U.S.",45.0,2026-05-12,,Security,https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788,Post-IPO,,Australia,2026-06-16T20:32:20.000Z
 MRI Software,Cleveland,200.0,2026-05-11,,Real Estate,https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/,Acquired,16.0,United States,2026-05-13T21:14:56.000Z
 One Identity,"Dresden, Non-U.S.",41.0,2026-05-11,,Security,https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html,Unknown,,Germany,2026-05-15T20:43:42.000Z
 MessageBird,"Amsterdam, Non-U.S.",,2026-05-11,0.2,Other,https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/,Series C,1100.0,Netherlands,2026-05-13T20:42:31.000Z
@@ -229,6 +234,7 @@ AI Fleet,Austin,,2025-11-13,,Transportation,https://www.bizjournals.com/austin/n
 Synopsys,SF Bay Area,2000.0,2025-11-12,0.1,Other,https://www.reuters.com/business/world-at-work/synopsys-cut-about-10-its-workforce-2025-11-12/,Post-IPO,,United States,2025-11-14T02:50:37.000Z
 Deepwatch,Tampa Bay,80.0,2025-11-12,0.32,Security,https://techcrunch.com/2025/11/12/cybersecurity-firm-deepwatch-lays-off-dozens-citing-move-to-accelerate-ai-investment/,Series C,256.0,United States,2025-11-14T02:51:58.000Z
 GamesKraft,"Bengaluru, Non-U.S.",280.0,2025-11-10,,Consumer,https://inc42.com/buzz/real-money-gaming-ban-gameskrafts-layoff-count-climbs-to-400/,Unknown,,India,2025-11-11T19:39:10.000Z
+FNZ,"London, Non-U.S.",,2025-11-10,0.03,Finance,https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-3-of-global-workforce-accenture-operations-frontrunner/a2478068,Private Equity,3500.0,United Kingdom,2026-06-16T20:43:09.000Z
 Sonder,SF Bay Area,,2025-11-10,1.0,Travel,https://skift.com/2025/11/10/sonder-shuts-down-after-marriott-termination-marking-the-end-of-a-hospitality-experiment/,Post-IPO,839.0,United States,2025-11-10T21:40:49.000Z
 Axonius,New York City,100.0,2025-11-06,0.11,Security,https://www.calcalistech.com/ctechnews/article/sj0syry1wg,Series E,865.0,United States,2025-11-07T04:50:55.000Z
 MyBambu,Memphis,141.0,2025-11-05,1.0,Finance,https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025,Unknown,15.0,United States,2025-11-07T01:18:24.000Z

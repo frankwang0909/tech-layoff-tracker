@@ -6,13 +6,13 @@
     "start": "2025-01-02",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/yearly/2025.html",
   "kpis": {
     "total_laid_off": 124636,
-    "event_count": 331,
+    "event_count": 332,
     "headcount_event_count": 227,
-    "company_count": 275,
+    "company_count": 276,
     "country_count": 19,
     "industry_count": 30,
     "average_layoffs_per_headcount_event": 549.06,
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025 includes 331 public layoff events and 124,636 reported layoffs.",
+    "2025 includes 332 public layoff events and 124,636 reported layoffs.",
     "The largest company contributor is Intel with 27,058 reported layoffs.",
     "The leading named industry is Hardware with 38,337 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

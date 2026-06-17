@@ -6,17 +6,17 @@
     "start": "2026-05-12",
     "end": "2026-05-12"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/daily/2026-05-12.html",
   "kpis": {
-    "total_laid_off": 58,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 58.0,
-    "median_layoffs_per_headcount_event": 58.0,
+    "total_laid_off": 103,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 51.5,
+    "median_layoffs_per_headcount_event": 51.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-05-11",
       "total_laid_off": 241,
       "event_count": 3,
-      "total_laid_off_delta": -183,
-      "total_laid_off_pct_change": -0.7593,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": -138,
+      "total_laid_off_pct_change": -0.5726,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-12",
       "total_laid_off": 248,
       "event_count": 1,
-      "total_laid_off_delta": -190,
-      "total_laid_off_pct_change": -0.7661,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -145,
+      "total_laid_off_pct_change": -0.5847,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -46,24 +46,40 @@
       {
         "company": "Breadfast",
         "total_laid_off": 58
+      },
+      {
+        "company": "Trend Micro",
+        "total_laid_off": 45
       }
     ],
     "industry_top": [
       {
         "industry": "Food",
         "total_laid_off": 58
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 45
       }
     ],
     "country_top": [
       {
         "country": "Egypt",
         "total_laid_off": 58
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 45
       }
     ],
     "stage_top": [
       {
         "stage": "Series C",
         "total_laid_off": 58
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 45
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +116,16 @@
         "country": "Egypt",
         "stage": "Series C",
         "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-12",
+        "company": "Trend Micro",
+        "num_laid_off": 45,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
       }
     ],
     "recent_events": [
@@ -112,12 +138,22 @@
         "country": "Egypt",
         "stage": "Series C",
         "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-12",
+        "company": "Trend Micro",
+        "num_laid_off": 45,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-12 includes 1 public layoff events and 58 reported layoffs.",
+    "2026-05-12 includes 2 public layoff events and 103 reported layoffs.",
     "The largest company contributor is Breadfast with 58 reported layoffs.",
     "The leading named industry is Food with 58 reported layoffs."
   ],

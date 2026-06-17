@@ -6,13 +6,13 @@
     "start": "2025-10-01",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/quarterly/2025-Q4.html",
   "kpis": {
     "total_laid_off": 29554,
-    "event_count": 68,
+    "event_count": 69,
     "headcount_event_count": 49,
-    "company_count": 66,
+    "company_count": 67,
     "country_count": 9,
     "industry_count": 21,
     "average_layoffs_per_headcount_event": 603.14,
@@ -26,8 +26,8 @@
       "event_count": 86,
       "total_laid_off_delta": 2000,
       "total_laid_off_pct_change": 0.0726,
-      "event_count_delta": -18,
-      "event_count_pct_change": -0.2093,
+      "event_count_delta": -17,
+      "event_count_pct_change": -0.1977,
       "note": null
     },
     "same_period_last_year": {
@@ -634,7 +634,7 @@
     ]
   },
   "insights": [
-    "2025-Q4 includes 68 public layoff events and 29,554 reported layoffs.",
+    "2025-Q4 includes 69 public layoff events and 29,554 reported layoffs.",
     "The largest company contributor is Amazon with 14,084 reported layoffs.",
     "The leading named industry is Retail with 14,424 reported layoffs.",
     "12 events report a layoff percentage of 25% or higher."

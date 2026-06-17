@@ -6,14 +6,14 @@
     "start": "2025-11-04",
     "end": "2025-11-26"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/monthly/2025-11.html",
   "kpis": {
     "total_laid_off": 8932,
-    "event_count": 24,
+    "event_count": 25,
     "headcount_event_count": 18,
-    "company_count": 24,
-    "country_count": 7,
+    "company_count": 25,
+    "country_count": 8,
     "industry_count": 11,
     "average_layoffs_per_headcount_event": 496.22,
     "median_layoffs_per_headcount_event": 121.5,
@@ -26,8 +26,8 @@
       "event_count": 24,
       "total_laid_off_delta": -10138,
       "total_laid_off_pct_change": -0.5316,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.0417,
       "note": null
     },
     "same_period_last_year": {
@@ -485,6 +485,16 @@
       },
       {
         "date": "2025-11-10",
+        "company": "FNZ",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-3-of-global-workforce-accenture-operations-frontrunner/a2478068"
+      },
+      {
+        "date": "2025-11-10",
         "company": "Sonder",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -502,16 +512,6 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://www.calcalistech.com/ctechnews/article/sj0syry1wg"
-      },
-      {
-        "date": "2025-11-05",
-        "company": "MyBambu",
-        "num_laid_off": 141,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://cbs12.com/news/local/new-west-palm-beach-fintech-firm-to-lay-off-141-employees-amid-funding-collapse-layoff-south-florida-palm-beach-county-downtown-west-palm-beach-news-mybambu-a-fintech-startup-2751-s-dixie-hwy-420-november-5-2025"
       }
     ],
     "high_intensity_events": [
@@ -568,7 +568,7 @@
     ]
   },
   "insights": [
-    "2025-11 includes 24 public layoff events and 8,932 reported layoffs.",
+    "2025-11 includes 25 public layoff events and 8,932 reported layoffs.",
     "The largest company contributor is HP with 4,000 reported layoffs.",
     "The leading named industry is Hardware with 4,052 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."

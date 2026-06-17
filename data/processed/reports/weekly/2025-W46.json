@@ -6,14 +6,14 @@
     "start": "2025-11-10",
     "end": "2025-11-16"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/weekly/2025-W46.html",
   "kpis": {
     "total_laid_off": 2637,
-    "event_count": 8,
+    "event_count": 9,
     "headcount_event_count": 6,
-    "company_count": 8,
-    "country_count": 2,
+    "company_count": 9,
+    "country_count": 3,
     "industry_count": 8,
     "average_layoffs_per_headcount_event": 439.5,
     "median_layoffs_per_headcount_event": 140.0,
@@ -26,8 +26,8 @@
       "event_count": 6,
       "total_laid_off_delta": 1994,
       "total_laid_off_pct_change": 3.1011,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.3333,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -289,6 +289,16 @@
       },
       {
         "date": "2025-11-10",
+        "company": "FNZ",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.03,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-3-of-global-workforce-accenture-operations-frontrunner/a2478068"
+      },
+      {
+        "date": "2025-11-10",
         "company": "Sonder",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -342,7 +352,7 @@
     ]
   },
   "insights": [
-    "2025-W46 includes 8 public layoff events and 2,637 reported layoffs.",
+    "2025-W46 includes 9 public layoff events and 2,637 reported layoffs.",
     "The largest company contributor is Synopsys with 2,000 reported layoffs.",
     "The leading named industry is Consumer with 280 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

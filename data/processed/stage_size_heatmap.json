@@ -19,12 +19,12 @@
     {
       "stage": "Post-IPO",
       "size_bucket": "<100",
-      "event_count": 36
+      "event_count": 37
     },
     {
       "stage": "Post-IPO",
       "size_bucket": "100-499",
-      "event_count": 66
+      "event_count": 67
     },
     {
       "stage": "Post-IPO",
@@ -149,7 +149,7 @@
     {
       "stage": "Unknown",
       "size_bucket": "100-499",
-      "event_count": 29
+      "event_count": 30
     },
     {
       "stage": "Unknown",

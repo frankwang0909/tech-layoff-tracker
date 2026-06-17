@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-06-12"
+    "end": "2026-06-16"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 118312,
-    "event_count": 193,
-    "headcount_event_count": 131,
-    "company_count": 183,
-    "country_count": 24,
+    "total_laid_off": 118847,
+    "event_count": 198,
+    "headcount_event_count": 134,
+    "company_count": 188,
+    "country_count": 23,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 903.15,
-    "median_layoffs_per_headcount_event": 151.0,
-    "high_intensity_event_count": 35
+    "average_layoffs_per_headcount_event": 886.92,
+    "median_layoffs_per_headcount_event": 155.5,
+    "high_intensity_event_count": 36
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 124636,
-      "event_count": 331,
-      "total_laid_off_delta": -6324,
-      "total_laid_off_pct_change": -0.0507,
-      "event_count_delta": -138,
-      "event_count_pct_change": -0.4169,
+      "event_count": 332,
+      "total_laid_off_delta": -5789,
+      "total_laid_off_pct_change": -0.0464,
+      "event_count_delta": -134,
+      "event_count_pct_change": -0.4036,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
-      "event_count": 331,
-      "total_laid_off_delta": -6324,
-      "total_laid_off_pct_change": -0.0507,
-      "event_count_delta": -138,
-      "event_count_pct_change": -0.4169,
+      "event_count": 332,
+      "total_laid_off_delta": -5789,
+      "total_laid_off_pct_change": -0.0464,
+      "event_count_delta": -134,
+      "event_count_pct_change": -0.4036,
       "note": null
     }
   },
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 13983
+        "total_laid_off": 14273
       },
       {
         "industry": "Hardware",
@@ -111,7 +111,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 2544
+        "total_laid_off": 2589
       },
       {
         "industry": "Logistics",
@@ -129,15 +129,15 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 99672
+        "total_laid_off": 99962
       },
       {
         "country": "Australia",
-        "total_laid_off": 3837
+        "total_laid_off": 3882
       },
       {
         "country": "Israel",
-        "total_laid_off": 3246
+        "total_laid_off": 3446
       },
       {
         "country": "India",
@@ -171,11 +171,11 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 104592
+        "total_laid_off": 104927
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 4434
+        "total_laid_off": 4634
       },
       {
         "stage": "Acquired",
@@ -217,11 +217,11 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 36
+        "event_count": 37
       },
       {
         "bucket": "25-49%",
-        "event_count": 12
+        "event_count": 13
       },
       {
         "bucket": "50-99%",
@@ -286,16 +286,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -304,6 +294,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -337,6 +337,46 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-16",
+        "company": "Robinhood",
+        "num_laid_off": 290,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Rivian",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.02,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Artlist",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.4,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "FNZ",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+      },
       {
         "date": "2026-06-12",
         "company": "Pleo",
@@ -373,7 +413,7 @@
         "num_laid_off": null,
         "percentage_laid_off": 0.08,
         "industry": "Food",
-        "country": "Indonesia",
+        "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
       },
@@ -459,13 +499,13 @@
       },
       {
         "date": "2026-06-03",
-        "company": "Uber",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.01,
-        "industry": "Transportation",
+        "company": "Dandy",
+        "num_laid_off": 160,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+        "stage": "Series D",
+        "source": "Internal memo"
       },
       {
         "date": "2026-06-03",
@@ -479,13 +519,13 @@
       },
       {
         "date": "2026-06-03",
-        "company": "Dandy",
-        "num_laid_off": 160,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.01,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Series D",
-        "source": "Internal memo"
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
       },
       {
         "date": "2026-06-02",
@@ -496,46 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
-      },
-      {
-        "date": "2026-06-02",
-        "company": "Aleph Farms",
-        "num_laid_off": 10,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
-      },
-      {
-        "date": "2026-06-02",
-        "company": "Manhattan Associates",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.06,
-        "industry": "Logistics",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
-      },
-      {
-        "date": "2026-06-01",
-        "company": "Lightricks",
-        "num_laid_off": 75,
-        "percentage_laid_off": 0.17,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
-      },
-      {
-        "date": "2026-05-30",
-        "company": "Credit Karma",
-        "num_laid_off": 117,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
       },
       {
         "date": "2026-03-31",
@@ -590,14 +600,14 @@
         "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
       },
       {
-        "date": "2026-03-31",
-        "company": "Rec Room",
+        "date": "2026-03-17",
+        "company": "FranShares",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Consumer",
+        "industry": "Finance",
         "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+        "stage": "Seed",
+        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       },
       {
         "date": "2026-03-31",
@@ -628,24 +638,14 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
-      },
-      {
-        "date": "2026-03-17",
-        "company": "FranShares",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       }
     ]
   },
   "insights": [
-    "2026 includes 193 public layoff events and 118,312 reported layoffs.",
+    "2026 includes 198 public layoff events and 118,847 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
-    "35 events report a layoff percentage of 25% or higher."
+    "36 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

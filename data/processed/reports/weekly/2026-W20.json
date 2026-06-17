@@ -6,17 +6,17 @@
     "start": "2026-05-11",
     "end": "2026-05-15"
   },
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-16",
   "canonical_url": "/reports/weekly/2026-W20.html",
   "kpis": {
-    "total_laid_off": 5884,
-    "event_count": 12,
-    "headcount_event_count": 9,
-    "company_count": 12,
-    "country_count": 8,
+    "total_laid_off": 5929,
+    "event_count": 13,
+    "headcount_event_count": 10,
+    "company_count": 13,
+    "country_count": 9,
     "industry_count": 10,
-    "average_layoffs_per_headcount_event": 653.78,
-    "median_layoffs_per_headcount_event": 200.0,
+    "average_layoffs_per_headcount_event": 592.9,
+    "median_layoffs_per_headcount_event": 175.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W19",
       "total_laid_off": 10021,
       "event_count": 21,
-      "total_laid_off_delta": -4137,
-      "total_laid_off_pct_change": -0.4128,
-      "event_count_delta": -9,
-      "event_count_pct_change": -0.4286,
+      "total_laid_off_delta": -4092,
+      "total_laid_off_pct_change": -0.4083,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.381,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W20",
       "total_laid_off": 6805,
       "event_count": 6,
-      "total_laid_off_delta": -921,
-      "total_laid_off_pct_change": -0.1353,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": -876,
+      "total_laid_off_pct_change": -0.1287,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.1667,
       "note": null
     }
   },
@@ -70,6 +70,10 @@
       {
         "company": "Breadfast",
         "total_laid_off": 58
+      },
+      {
+        "company": "Trend Micro",
+        "total_laid_off": 45
       },
       {
         "company": "One Identity",
@@ -106,12 +110,12 @@
         "total_laid_off": 150
       },
       {
-        "industry": "Food",
-        "total_laid_off": 58
+        "industry": "Security",
+        "total_laid_off": 86
       },
       {
-        "industry": "Security",
-        "total_laid_off": 41
+        "industry": "Food",
+        "total_laid_off": 58
       },
       {
         "industry": "Travel",
@@ -132,6 +136,10 @@
         "total_laid_off": 58
       },
       {
+        "country": "Australia",
+        "total_laid_off": 45
+      },
+      {
         "country": "Germany",
         "total_laid_off": 41
       },
@@ -143,7 +151,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 4200
+        "total_laid_off": 4245
       },
       {
         "stage": "Acquired",
@@ -222,16 +230,6 @@
         "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
       },
       {
-        "date": "2026-05-11",
-        "company": "MRI Software",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Real Estate",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
-      },
-      {
         "date": "2026-05-13",
         "company": "Jumia",
         "num_laid_off": 200,
@@ -240,6 +238,16 @@
         "country": "Nigeria",
         "stage": "Post-IPO",
         "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+      },
+      {
+        "date": "2026-05-11",
+        "company": "MRI Software",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
       },
       {
         "date": "2026-05-15",
@@ -260,6 +268,16 @@
         "country": "Egypt",
         "stage": "Series C",
         "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+      },
+      {
+        "date": "2026-05-12",
+        "company": "Trend Micro",
+        "num_laid_off": 45,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
       },
       {
         "date": "2026-05-11",
@@ -374,6 +392,16 @@
         "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
       },
       {
+        "date": "2026-05-12",
+        "company": "Trend Micro",
+        "num_laid_off": 45,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
+      },
+      {
         "date": "2026-05-11",
         "company": "MRI Software",
         "num_laid_off": 200,
@@ -418,7 +446,7 @@
     ]
   },
   "insights": [
-    "2026-W20 includes 12 public layoff events and 5,884 reported layoffs.",
+    "2026-W20 includes 13 public layoff events and 5,929 reported layoffs.",
     "The largest company contributor is Cisco with 4,000 reported layoffs.",
     "The leading named industry is Infrastructure with 4,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

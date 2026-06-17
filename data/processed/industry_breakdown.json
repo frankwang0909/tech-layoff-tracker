@@ -17,7 +17,7 @@
   },
   {
     "industry": "Finance",
-    "total_laid_off": 17872
+    "total_laid_off": 18162
   },
   {
     "industry": "Sales",
@@ -32,11 +32,11 @@
     "total_laid_off": 4584
   },
   {
-    "industry": "Infrastructure",
-    "total_laid_off": 4221
+    "industry": "Security",
+    "total_laid_off": 4227
   },
   {
-    "industry": "Security",
-    "total_laid_off": 4182
+    "industry": "Infrastructure",
+    "total_laid_off": 4221
   }
 ]

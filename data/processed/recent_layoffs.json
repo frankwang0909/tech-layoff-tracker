@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-17",
+    "company": "Lastminute",
+    "num_laid_off": 400,
+    "percentage_laid_off": 0.25,
+    "industry": "Travel",
+    "country": "Netherlands",
+    "stage": "Post-IPO",
+    "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
+  },
+  {
+    "date": "2026-06-17",
+    "company": "Optimove",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.1,
+    "industry": "Marketing",
+    "country": "Israel",
+    "stage": "Series A",
+    "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+  },
+  {
     "date": "2026-06-16",
     "company": "Robinhood",
     "num_laid_off": 290,
@@ -8,6 +28,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+  },
+  {
+    "date": "2026-06-16",
+    "company": "Artlist",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.4,
+    "industry": "Media",
+    "country": "Israel",
+    "stage": "Unknown",
+    "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
   },
   {
     "date": "2026-06-16",
@@ -21,6 +51,26 @@
   },
   {
     "date": "2026-06-16",
+    "company": "Matter Labs",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
+    "country": "Germany",
+    "stage": "Unknown",
+    "source": "https://x.com/gluk64/status/2066964567884747146"
+  },
+  {
+    "date": "2026-06-16",
+    "company": "Rackspace",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.15,
+    "industry": "Data",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+  },
+  {
+    "date": "2026-06-16",
     "company": "Rivian",
     "num_laid_off": null,
     "percentage_laid_off": 0.02,
@@ -28,16 +78,6 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
-  },
-  {
-    "date": "2026-06-16",
-    "company": "Artlist",
-    "num_laid_off": 200,
-    "percentage_laid_off": 0.4,
-    "industry": "Media",
-    "country": "Israel",
-    "stage": "Unknown",
-    "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
   },
   {
     "date": "2026-06-12",
@@ -71,52 +111,12 @@
   },
   {
     "date": "2026-06-10",
-    "company": "Shopee",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.08,
-    "industry": "Food",
-    "country": "Singapore",
-    "stage": "Unknown",
-    "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
-  },
-  {
-    "date": "2026-06-09",
-    "company": "Verily",
-    "num_laid_off": 58,
-    "percentage_laid_off": null,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Subsidiary",
-    "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
-  },
-  {
-    "date": "2026-06-09",
-    "company": "Salesforce",
-    "num_laid_off": 86,
-    "percentage_laid_off": null,
-    "industry": "Sales",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
-  },
-  {
-    "date": "2026-06-08",
-    "company": "Hailo",
-    "num_laid_off": 110,
-    "percentage_laid_off": 0.5,
-    "industry": "Manufacturing",
-    "country": "Israel",
-    "stage": "Series C",
-    "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
-  },
-  {
-    "date": "2026-06-08",
-    "company": "Tools for Humanity",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
+    "company": "Veritone",
+    "num_laid_off": 111,
+    "percentage_laid_off": 0.25,
     "industry": "AI",
     "country": "United States",
-    "stage": "Series C",
-    "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+    "stage": "Post-IPO",
+    "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
   }
 ]

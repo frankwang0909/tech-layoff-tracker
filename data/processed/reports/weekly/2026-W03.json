@@ -6,17 +6,17 @@
     "start": "2026-01-12",
     "end": "2026-01-16"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/weekly/2026-W03.html",
   "kpis": {
-    "total_laid_off": 4031,
-    "event_count": 10,
-    "headcount_event_count": 8,
-    "company_count": 10,
+    "total_laid_off": 4066,
+    "event_count": 11,
+    "headcount_event_count": 9,
+    "company_count": 11,
     "country_count": 7,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 503.88,
-    "median_layoffs_per_headcount_event": 110.5,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 451.78,
+    "median_layoffs_per_headcount_event": 105.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W02",
       "total_laid_off": 937,
       "event_count": 7,
-      "total_laid_off_delta": 3094,
-      "total_laid_off_pct_change": 3.302,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.4286,
+      "total_laid_off_delta": 3129,
+      "total_laid_off_pct_change": 3.3394,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.5714,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W03",
       "total_laid_off": 464,
       "event_count": 12,
-      "total_laid_off_delta": 3567,
-      "total_laid_off_pct_change": 7.6875,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.1667,
+      "total_laid_off_delta": 3602,
+      "total_laid_off_pct_change": 7.7629,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0833,
       "note": null
     }
   },
@@ -74,6 +74,10 @@
       {
         "company": "Aleph Alpha",
         "total_laid_off": 50
+      },
+      {
+        "company": "Informatica",
+        "total_laid_off": 35
       }
     ],
     "industry_top": [
@@ -100,15 +104,19 @@
       {
         "industry": "AI",
         "total_laid_off": 50
+      },
+      {
+        "industry": "Data",
+        "total_laid_off": 35
       }
     ],
     "country_top": [
       {
-        "country": "Sweden",
-        "total_laid_off": 1600
+        "country": "United States",
+        "total_laid_off": 1635
       },
       {
-        "country": "United States",
+        "country": "Sweden",
         "total_laid_off": 1600
       },
       {
@@ -131,7 +139,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 3716
+        "total_laid_off": 3751
       },
       {
         "stage": "Unknown",
@@ -250,6 +258,16 @@
         "country": "Germany",
         "stage": "Series B",
         "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Informatica",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html"
       }
     ],
     "recent_events": [
@@ -282,6 +300,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Informatica",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html"
       },
       {
         "date": "2026-01-14",
@@ -368,7 +396,7 @@
     ]
   },
   "insights": [
-    "2026-W03 includes 10 public layoff events and 4,031 reported layoffs.",
+    "2026-W03 includes 11 public layoff events and 4,066 reported layoffs.",
     "The largest company contributor is Ericsson with 1,600 reported layoffs.",
     "The leading named industry is Consumer with 2,000 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

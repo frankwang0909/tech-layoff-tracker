@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-06-16"
+    "end": "2026-06-17"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 118847,
-    "event_count": 198,
-    "headcount_event_count": 134,
-    "company_count": 188,
+    "total_laid_off": 119462,
+    "event_count": 205,
+    "headcount_event_count": 138,
+    "company_count": 195,
     "country_count": 23,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 886.92,
-    "median_layoffs_per_headcount_event": 155.5,
-    "high_intensity_event_count": 36
+    "average_layoffs_per_headcount_event": 865.67,
+    "median_layoffs_per_headcount_event": 150.5,
+    "high_intensity_event_count": 38
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5789,
-      "total_laid_off_pct_change": -0.0464,
-      "event_count_delta": -134,
-      "event_count_pct_change": -0.4036,
+      "total_laid_off_delta": -5174,
+      "total_laid_off_pct_change": -0.0415,
+      "event_count_delta": -127,
+      "event_count_pct_change": -0.3825,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5789,
-      "total_laid_off_pct_change": -0.0464,
-      "event_count_delta": -134,
-      "event_count_pct_change": -0.4036,
+      "total_laid_off_delta": -5174,
+      "total_laid_off_pct_change": -0.0415,
+      "event_count_delta": -127,
+      "event_count_pct_change": -0.3825,
       "note": null
     }
   },
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 34651
+        "total_laid_off": 34720
       },
       {
         "industry": "Retail",
@@ -119,7 +119,7 @@
       },
       {
         "industry": "AI",
-        "total_laid_off": 1798
+        "total_laid_off": 1909
       },
       {
         "industry": "Marketing",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 99962
+        "total_laid_off": 100177
       },
       {
         "country": "Australia",
@@ -144,12 +144,12 @@
         "total_laid_off": 2405
       },
       {
-        "country": "Sweden",
-        "total_laid_off": 1835
+        "country": "Netherlands",
+        "total_laid_off": 2100
       },
       {
-        "country": "Netherlands",
-        "total_laid_off": 1700
+        "country": "Sweden",
+        "total_laid_off": 1835
       },
       {
         "country": "United Kingdom",
@@ -171,11 +171,11 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 104927
+        "total_laid_off": 105473
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 4634
+        "total_laid_off": 4703
       },
       {
         "stage": "Acquired",
@@ -221,7 +221,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 13
+        "event_count": 15
       },
       {
         "bucket": "50-99%",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-17",
+        "company": "Lastminute",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
+      },
+      {
+        "date": "2026-06-17",
+        "company": "Optimove",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+      },
+      {
         "date": "2026-06-16",
         "company": "Robinhood",
         "num_laid_off": 290,
@@ -346,6 +366,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Rackspace",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
       },
       {
         "date": "2026-06-16",
@@ -366,6 +396,16 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Matter Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://x.com/gluk64/status/2066964567884747146"
       },
       {
         "date": "2026-06-16",
@@ -409,6 +449,16 @@
       },
       {
         "date": "2026-06-10",
+        "company": "Veritone",
+        "num_laid_off": 111,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
+      },
+      {
+        "date": "2026-06-10",
         "company": "Shopee",
         "num_laid_off": null,
         "percentage_laid_off": 0.08,
@@ -416,16 +466,6 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Salesforce",
-        "num_laid_off": 86,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
       },
       {
         "date": "2026-06-09",
@@ -438,14 +478,14 @@
         "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       },
       {
-        "date": "2026-06-08",
-        "company": "Hailo",
-        "num_laid_off": 110,
-        "percentage_laid_off": 0.5,
-        "industry": "Manufacturing",
-        "country": "Israel",
-        "stage": "Series C",
-        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+        "date": "2026-06-09",
+        "company": "Salesforce",
+        "num_laid_off": 86,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
       },
       {
         "date": "2026-06-08",
@@ -456,6 +496,16 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Hailo",
+        "num_laid_off": 110,
+        "percentage_laid_off": 0.5,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
       },
       {
         "date": "2026-06-07",
@@ -486,56 +536,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
-      },
-      {
-        "date": "2026-06-04",
-        "company": "Google",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
-      },
-      {
-        "date": "2026-06-03",
-        "company": "Dandy",
-        "num_laid_off": 160,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "Internal memo"
-      },
-      {
-        "date": "2026-06-03",
-        "company": "Skai",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "Israel",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
-      },
-      {
-        "date": "2026-06-03",
-        "company": "Uber",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.01,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
-      },
-      {
-        "date": "2026-06-02",
-        "company": "GitLab",
-        "num_laid_off": 350,
-        "percentage_laid_off": 0.14,
-        "industry": "Product",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,26 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+      },
+      {
+        "date": "2026-04-03",
+        "company": "NeuroPixel.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Yupp",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       },
       {
         "date": "2026-03-31",
@@ -610,42 +630,22 @@
         "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       },
       {
-        "date": "2026-03-31",
-        "company": "Yupp",
+        "date": "2026-03-26",
+        "company": "Quandoo",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
-      },
-      {
-        "date": "2026-04-03",
-        "company": "NeuroPixel.AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
-      },
-      {
-        "date": "2026-04-09",
-        "company": "Pepper Pay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+        "industry": "Food",
+        "country": "Germany",
+        "stage": "Acquired",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       }
     ]
   },
   "insights": [
-    "2026 includes 198 public layoff events and 118,847 reported layoffs.",
+    "2026 includes 205 public layoff events and 119,462 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
-    "36 events report a layoff percentage of 25% or higher."
+    "38 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

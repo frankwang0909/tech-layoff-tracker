@@ -6,17 +6,17 @@
     "start": "2026-04-20",
     "end": "2026-04-24"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/weekly/2026-W17.html",
   "kpis": {
-    "total_laid_off": 738,
-    "event_count": 6,
-    "headcount_event_count": 6,
-    "company_count": 6,
+    "total_laid_off": 807,
+    "event_count": 7,
+    "headcount_event_count": 7,
+    "company_count": 7,
     "country_count": 4,
     "industry_count": 6,
-    "average_layoffs_per_headcount_event": 123.0,
-    "median_layoffs_per_headcount_event": 109.0,
+    "average_layoffs_per_headcount_event": 115.29,
+    "median_layoffs_per_headcount_event": 69.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,36 +24,40 @@
       "period": "2026-W16",
       "total_laid_off": 3397,
       "event_count": 12,
-      "total_laid_off_delta": -2659,
-      "total_laid_off_pct_change": -0.7827,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -2590,
+      "total_laid_off_pct_change": -0.7624,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.4167,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W17",
       "total_laid_off": 22652,
       "event_count": 6,
-      "total_laid_off_delta": -21914,
-      "total_laid_off_pct_change": -0.9674,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -21845,
+      "total_laid_off_pct_change": -0.9644,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.1667,
       "note": null
     }
   },
   "charts": {
     "company_top": [
       {
-        "company": "Remarkable",
+        "company": "Qt Company",
         "total_laid_off": 200
       },
       {
-        "company": "Qt Company",
+        "company": "Remarkable",
         "total_laid_off": 200
       },
       {
         "company": "Epidemic Sound",
         "total_laid_off": 150
+      },
+      {
+        "company": "Noa Technologies",
+        "total_laid_off": 69
       },
       {
         "company": "GeoComply",
@@ -82,15 +86,15 @@
         "total_laid_off": 150
       },
       {
+        "industry": "Other",
+        "total_laid_off": 129
+      },
+      {
         "industry": "Security",
         "total_laid_off": 68
       },
       {
         "industry": "Finance",
-        "total_laid_off": 60
-      },
-      {
-        "industry": "Other",
         "total_laid_off": 60
       }
     ],
@@ -104,18 +108,18 @@
         "total_laid_off": 150
       },
       {
-        "country": "India",
-        "total_laid_off": 120
+        "country": "United States",
+        "total_laid_off": 137
       },
       {
-        "country": "United States",
-        "total_laid_off": 68
+        "country": "India",
+        "total_laid_off": 120
       }
     ],
     "stage_top": [
       {
         "stage": "Unknown",
-        "total_laid_off": 260
+        "total_laid_off": 329
       },
       {
         "stage": "Private Equity",
@@ -186,6 +190,16 @@
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
       },
       {
+        "date": "2026-04-22",
+        "company": "Noa Technologies",
+        "num_laid_off": 69,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
+      },
+      {
         "date": "2026-04-21",
         "company": "GeoComply",
         "num_laid_off": 68,
@@ -236,6 +250,16 @@
         "country": "Norway",
         "stage": "Unknown",
         "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
+      {
+        "date": "2026-04-22",
+        "company": "Noa Technologies",
+        "num_laid_off": 69,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
       },
       {
         "date": "2026-04-21",
@@ -302,8 +326,8 @@
     ]
   },
   "insights": [
-    "2026-W17 includes 6 public layoff events and 738 reported layoffs.",
-    "The largest company contributor is Remarkable with 200 reported layoffs.",
+    "2026-W17 includes 7 public layoff events and 807 reported layoffs.",
+    "The largest company contributor is Qt Company with 200 reported layoffs.",
     "The leading named industry is Hardware with 200 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],

@@ -6,38 +6,38 @@
     "start": "2026-06-08",
     "end": "2026-06-12"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/weekly/2026-W24.html",
   "kpis": {
-    "total_laid_off": 608,
-    "event_count": 8,
-    "headcount_event_count": 6,
-    "company_count": 8,
+    "total_laid_off": 719,
+    "event_count": 9,
+    "headcount_event_count": 7,
+    "company_count": 9,
     "country_count": 5,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 101.33,
-    "median_layoffs_per_headcount_event": 72.0,
-    "high_intensity_event_count": 1
+    "average_layoffs_per_headcount_event": 102.71,
+    "median_layoffs_per_headcount_event": 86.0,
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W23",
       "total_laid_off": 789,
       "event_count": 11,
-      "total_laid_off_delta": -181,
-      "total_laid_off_pct_change": -0.2294,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.2727,
+      "total_laid_off_delta": -70,
+      "total_laid_off_pct_change": -0.0887,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.1818,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W24",
       "total_laid_off": 180,
       "event_count": 2,
-      "total_laid_off_delta": 428,
-      "total_laid_off_pct_change": 2.3778,
-      "event_count_delta": 6,
-      "event_count_pct_change": 3.0,
+      "total_laid_off_delta": 539,
+      "total_laid_off_pct_change": 2.9944,
+      "event_count_delta": 7,
+      "event_count_pct_change": 3.5,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Opendoor",
         "total_laid_off": 250
+      },
+      {
+        "company": "Veritone",
+        "total_laid_off": 111
       },
       {
         "company": "Hailo",
@@ -74,6 +78,10 @@
         "total_laid_off": 250
       },
       {
+        "industry": "AI",
+        "total_laid_off": 111
+      },
+      {
         "industry": "Manufacturing",
         "total_laid_off": 110
       },
@@ -96,12 +104,12 @@
     ],
     "country_top": [
       {
-        "country": "India",
-        "total_laid_off": 250
+        "country": "United States",
+        "total_laid_off": 309
       },
       {
-        "country": "United States",
-        "total_laid_off": 198
+        "country": "India",
+        "total_laid_off": 250
       },
       {
         "country": "Israel",
@@ -115,7 +123,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 390
+        "total_laid_off": 501
       },
       {
         "stage": "Series C",
@@ -137,7 +145,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "50-99%",
@@ -160,6 +168,16 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
+      {
+        "date": "2026-06-10",
+        "company": "Veritone",
+        "num_laid_off": 111,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
       },
       {
         "date": "2026-06-08",
@@ -245,6 +263,16 @@
       },
       {
         "date": "2026-06-10",
+        "company": "Veritone",
+        "num_laid_off": 111,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
+      },
+      {
+        "date": "2026-06-10",
         "company": "Shopee",
         "num_laid_off": null,
         "percentage_laid_off": 0.08,
@@ -304,14 +332,24 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
+        "date": "2026-06-10",
+        "company": "Veritone",
+        "num_laid_off": 111,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
       }
     ]
   },
   "insights": [
-    "2026-W24 includes 8 public layoff events and 608 reported layoffs.",
+    "2026-W24 includes 9 public layoff events and 719 reported layoffs.",
     "The largest company contributor is Opendoor with 250 reported layoffs.",
     "The leading named industry is Real Estate with 250 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

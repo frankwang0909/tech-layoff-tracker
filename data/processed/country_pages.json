@@ -10,13 +10,13 @@
       "end": "2026-06-16"
     },
     "kpis": {
-      "total_laid_off": 204228,
-      "event_count": 313,
-      "headcount_event_count": 207,
-      "company_count": 237,
+      "total_laid_off": 204443,
+      "event_count": 317,
+      "headcount_event_count": 210,
+      "company_count": 241,
       "country_count": 1,
       "industry_count": 29,
-      "high_intensity_event_count": 50
+      "high_intensity_event_count": 51
     },
     "charts": {
       "monthly_trend": [
@@ -70,7 +70,7 @@
         },
         {
           "month": "2026-01",
-          "total_laid_off": 20123
+          "total_laid_off": 20158
         },
         {
           "month": "2026-02",
@@ -82,7 +82,7 @@
         },
         {
           "month": "2026-04",
-          "total_laid_off": 2854
+          "total_laid_off": 2923
         },
         {
           "month": "2026-05",
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 1077
+          "total_laid_off": 1188
         }
       ],
       "company_top": [
@@ -159,6 +159,16 @@
           "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
         },
         {
+          "date": "2026-06-16",
+          "company": "Rackspace",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.15,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+        },
+        {
           "date": "2026-06-11",
           "company": "ServiceNow",
           "num_laid_off": 54,
@@ -169,14 +179,14 @@
           "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
         },
         {
-          "date": "2026-06-09",
-          "company": "Verily",
-          "num_laid_off": 58,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
+          "date": "2026-06-10",
+          "company": "Veritone",
+          "num_laid_off": 111,
+          "percentage_laid_off": 0.25,
+          "industry": "AI",
           "country": "United States",
-          "stage": "Subsidiary",
-          "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+          "stage": "Post-IPO",
+          "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
         },
         {
           "date": "2026-06-09",
@@ -187,6 +197,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+        },
+        {
+          "date": "2026-06-09",
+          "company": "Verily",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "United States",
+          "stage": "Subsidiary",
+          "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
         },
         {
           "date": "2026-06-08",
@@ -230,16 +250,6 @@
         },
         {
           "date": "2026-06-03",
-          "company": "Dandy",
-          "num_laid_off": 160,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "Internal memo"
-        },
-        {
-          "date": "2026-06-03",
           "company": "Uber",
           "num_laid_off": null,
           "percentage_laid_off": 0.01,
@@ -249,14 +259,14 @@
           "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
         },
         {
-          "date": "2026-06-02",
-          "company": "Manhattan Associates",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.06,
-          "industry": "Logistics",
+          "date": "2026-06-03",
+          "company": "Dandy",
+          "num_laid_off": 160,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+          "stage": "Series D",
+          "source": "Internal memo"
         },
         {
           "date": "2026-06-02",
@@ -269,28 +279,18 @@
           "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
         },
         {
-          "date": "2026-05-30",
-          "company": "Credit Karma",
-          "num_laid_off": 117,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
-        },
-        {
-          "date": "2026-05-29",
-          "company": "SentinelOne",
-          "num_laid_off": 230,
-          "percentage_laid_off": 0.08,
-          "industry": "Security",
+          "date": "2026-06-02",
+          "company": "Manhattan Associates",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.06,
+          "industry": "Logistics",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+          "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
         }
       ]
     },
-    "summary": "United States has 204,228 reported tech layoffs across 313 public events from 2025-01-02 to 2026-06-16."
+    "summary": "United States has 204,443 reported tech layoffs across 317 public events from 2025-01-02 to 2026-06-16."
   },
   {
     "type": "country",
@@ -585,13 +585,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-16"
+      "end": "2026-06-17"
     },
     "kpis": {
       "total_laid_off": 6493,
-      "event_count": 56,
+      "event_count": 57,
       "headcount_event_count": 40,
-      "company_count": 48,
+      "company_count": 49,
       "country_count": 1,
       "industry_count": 20,
       "high_intensity_event_count": 17
@@ -704,6 +704,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-17",
+          "company": "Optimove",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Series A",
+          "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+        },
         {
           "date": "2026-06-16",
           "company": "Artlist",
@@ -843,20 +853,10 @@
           "country": "Israel",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
-        },
-        {
-          "date": "2026-02-26",
-          "company": "eBay",
-          "num_laid_off": 800,
-          "percentage_laid_off": 0.06,
-          "industry": "Retail",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
         }
       ]
     },
-    "summary": "Israel has 6,493 reported tech layoffs across 56 public events from 2025-01-06 to 2026-06-16."
+    "summary": "Israel has 6,493 reported tech layoffs across 57 public events from 2025-01-06 to 2026-06-17."
   },
   {
     "type": "country",
@@ -1216,16 +1216,16 @@
     "canonical_url": "/countries/netherlands.html",
     "date_range": {
       "start": "2025-02-10",
-      "end": "2026-05-11"
+      "end": "2026-06-17"
     },
     "kpis": {
-      "total_laid_off": 2570,
-      "event_count": 5,
-      "headcount_event_count": 4,
-      "company_count": 4,
+      "total_laid_off": 2970,
+      "event_count": 6,
+      "headcount_event_count": 5,
+      "company_count": 5,
       "country_count": 1,
-      "industry_count": 3,
-      "high_intensity_event_count": 1
+      "industry_count": 4,
+      "high_intensity_event_count": 2
     },
     "charts": {
       "monthly_trend": [
@@ -1244,6 +1244,10 @@
         {
           "month": "2026-01",
           "total_laid_off": 1700
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 400
         }
       ],
       "company_top": [
@@ -1254,6 +1258,10 @@
         {
           "company": "Just Eat",
           "total_laid_off": 450
+        },
+        {
+          "company": "Lastminute",
+          "total_laid_off": 400
         },
         {
           "company": "TomTom",
@@ -1267,6 +1275,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-17",
+          "company": "Lastminute",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.25,
+          "industry": "Travel",
+          "country": "Netherlands",
+          "stage": "Post-IPO",
+          "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
+        },
         {
           "date": "2026-05-11",
           "company": "MessageBird",
@@ -1319,7 +1337,7 @@
         }
       ]
     },
-    "summary": "Netherlands has 2,570 reported tech layoffs across 5 public events from 2025-02-10 to 2026-05-11."
+    "summary": "Netherlands has 2,970 reported tech layoffs across 6 public events from 2025-02-10 to 2026-06-17."
   },
   {
     "type": "country",
@@ -1578,15 +1596,15 @@
     "canonical_url": "/countries/germany.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-05-11"
+      "end": "2026-06-16"
     },
     "kpis": {
       "total_laid_off": 2252,
-      "event_count": 15,
+      "event_count": 16,
       "headcount_event_count": 11,
-      "company_count": 14,
+      "company_count": 15,
       "country_count": 1,
-      "industry_count": 9,
+      "industry_count": 10,
       "high_intensity_event_count": 3
     },
     "charts": {
@@ -1665,6 +1683,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-16",
+          "company": "Matter Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://x.com/gluk64/status/2066964567884747146"
+        },
         {
           "date": "2026-05-11",
           "company": "One Identity",
@@ -1804,20 +1832,10 @@
           "country": "Germany",
           "stage": "Series B",
           "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
-        },
-        {
-          "date": "2025-01-10",
-          "company": "Wayfair",
-          "num_laid_off": 730,
-          "percentage_laid_off": 0.03,
-          "industry": "Retail",
-          "country": "Germany",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2025/01/10/wayfair-to-exit-germany-cut-730-jobs-in-latest-layoffs.html"
         }
       ]
     },
-    "summary": "Germany has 2,252 reported tech layoffs across 15 public events from 2025-01-10 to 2026-05-11."
+    "summary": "Germany has 2,252 reported tech layoffs across 16 public events from 2025-01-10 to 2026-06-16."
   },
   {
     "type": "country",

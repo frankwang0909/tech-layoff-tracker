@@ -6,17 +6,17 @@
     "start": "2026-04-22",
     "end": "2026-04-22"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/daily/2026-04-22.html",
   "kpis": {
-    "total_laid_off": 200,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 200.0,
-    "median_layoffs_per_headcount_event": 200.0,
+    "total_laid_off": 269,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 134.5,
+    "median_layoffs_per_headcount_event": 134.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-04-21",
       "total_laid_off": 218,
       "event_count": 2,
-      "total_laid_off_delta": -18,
-      "total_laid_off_pct_change": -0.0826,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 51,
+      "total_laid_off_pct_change": 0.2339,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -46,24 +46,36 @@
       {
         "company": "Remarkable",
         "total_laid_off": 200
+      },
+      {
+        "company": "Noa Technologies",
+        "total_laid_off": 69
       }
     ],
     "industry_top": [
       {
         "industry": "Hardware",
         "total_laid_off": 200
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 69
       }
     ],
     "country_top": [
       {
         "country": "Norway",
         "total_laid_off": 200
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 69
       }
     ],
     "stage_top": [
       {
         "stage": "Unknown",
-        "total_laid_off": 200
+        "total_laid_off": 269
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +112,16 @@
         "country": "Norway",
         "stage": "Unknown",
         "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
+      {
+        "date": "2026-04-22",
+        "company": "Noa Technologies",
+        "num_laid_off": 69,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
       }
     ],
     "recent_events": [
@@ -112,12 +134,22 @@
         "country": "Norway",
         "stage": "Unknown",
         "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+      },
+      {
+        "date": "2026-04-22",
+        "company": "Noa Technologies",
+        "num_laid_off": 69,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-04-22 includes 1 public layoff events and 200 reported layoffs.",
+    "2026-04-22 includes 2 public layoff events and 269 reported layoffs.",
     "The largest company contributor is Remarkable with 200 reported layoffs.",
     "The leading named industry is Hardware with 200 reported layoffs."
   ],

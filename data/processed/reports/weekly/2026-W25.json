@@ -4,45 +4,49 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-16",
-    "end": "2026-06-16"
+    "end": "2026-06-17"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/weekly/2026-W25.html",
   "kpis": {
-    "total_laid_off": 490,
-    "event_count": 4,
-    "headcount_event_count": 2,
-    "company_count": 4,
-    "country_count": 3,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 245.0,
-    "median_layoffs_per_headcount_event": 245.0,
-    "high_intensity_event_count": 1
+    "total_laid_off": 890,
+    "event_count": 8,
+    "headcount_event_count": 3,
+    "company_count": 8,
+    "country_count": 5,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 296.67,
+    "median_layoffs_per_headcount_event": 290.0,
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W24",
-      "total_laid_off": 608,
-      "event_count": 8,
-      "total_laid_off_delta": -118,
-      "total_laid_off_pct_change": -0.1941,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.5,
+      "total_laid_off": 719,
+      "event_count": 9,
+      "total_laid_off_delta": 171,
+      "total_laid_off_pct_change": 0.2378,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1111,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W25",
       "total_laid_off": 166,
       "event_count": 3,
-      "total_laid_off_delta": 324,
-      "total_laid_off_pct_change": 1.9518,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.3333,
+      "total_laid_off_delta": 724,
+      "total_laid_off_pct_change": 4.3614,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.6667,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Lastminute",
+        "total_laid_off": 400
+      },
       {
         "company": "Robinhood",
         "total_laid_off": 290
@@ -54,6 +58,10 @@
     ],
     "industry_top": [
       {
+        "industry": "Travel",
+        "total_laid_off": 400
+      },
+      {
         "industry": "Finance",
         "total_laid_off": 290
       },
@@ -63,6 +71,10 @@
       }
     ],
     "country_top": [
+      {
+        "country": "Netherlands",
+        "total_laid_off": 400
+      },
       {
         "country": "United States",
         "total_laid_off": 290
@@ -75,7 +87,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 290
+        "total_laid_off": 690
       },
       {
         "stage": "Unknown",
@@ -93,7 +105,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "50-99%",
@@ -107,6 +119,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-06-17",
+        "company": "Lastminute",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
+      },
       {
         "date": "2026-06-16",
         "company": "Robinhood",
@@ -129,6 +151,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-17",
+        "company": "Lastminute",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
+      },
+      {
+        "date": "2026-06-17",
+        "company": "Optimove",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+      },
       {
         "date": "2026-06-16",
         "company": "Robinhood",
@@ -161,6 +203,26 @@
       },
       {
         "date": "2026-06-16",
+        "company": "Matter Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://x.com/gluk64/status/2066964567884747146"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Rackspace",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+      },
+      {
+        "date": "2026-06-16",
         "company": "Rivian",
         "num_laid_off": null,
         "percentage_laid_off": 0.02,
@@ -180,14 +242,24 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+      },
+      {
+        "date": "2026-06-17",
+        "company": "Lastminute",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.25,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Post-IPO",
+        "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
       }
     ]
   },
   "insights": [
-    "2026-W25 includes 4 public layoff events and 490 reported layoffs.",
-    "The largest company contributor is Robinhood with 290 reported layoffs.",
-    "The leading named industry is Finance with 290 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2026-W25 includes 8 public layoff events and 890 reported layoffs.",
+    "The largest company contributor is Lastminute with 400 reported layoffs.",
+    "The leading named industry is Travel with 400 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

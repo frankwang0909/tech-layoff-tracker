@@ -1,11 +1,16 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Lastminute,"Amsterdam, Non-U.S.",400.0,2026-06-17,0.25,Travel,https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf,Post-IPO,,Netherlands,2026-06-19T17:49:58.000Z
+Optimove,"Tel Aviv, Non-U.S.",,2026-06-17,0.1,Marketing,https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai,Series A,20.0,Israel,2026-06-19T17:48:02.000Z
 Robinhood,SF Bay Area,290.0,2026-06-16,0.1,Finance,https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/,Post-IPO,6200.0,United States,2026-06-16T20:28:07.000Z
 Artlist,"Tel Aviv, Non-U.S.",200.0,2026-06-16,0.4,Media,https://www.calcalistech.com/ctechnews/article/xrqudqiq6,Unknown,48.0,Israel,2026-06-16T20:39:55.000Z
 FNZ,"London, Non-U.S.",,2026-06-16,,Finance,https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053,Private Equity,3500.0,United Kingdom,2026-06-16T20:41:53.000Z
+Matter Labs,"Berlin, Non-U.S.",,2026-06-16,,Crypto,https://x.com/gluk64/status/2066964567884747146,Unknown,308.0,Germany,2026-06-19T17:43:04.000Z
+Rackspace,San Antonio,,2026-06-16,0.15,Data,https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html,Acquired,17.0,United States,2026-06-19T17:48:27.000Z
 Rivian,Detroit,,2026-06-16,0.02,Transportation,https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/,Post-IPO,10700.0,United States,2026-06-16T23:11:11.000Z
 Pleo,"Copenhagen, Non-U.S.",50.0,2026-06-12,,Finance,https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/,Series C,428.0,Denmark,2026-06-12T14:09:18.000Z
 ServiceNow,SF Bay Area,54.0,2026-06-11,,Support,https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/,Post-IPO,84.0,United States,2026-06-12T14:08:48.000Z
 Opendoor,"Bengaluru, Non-U.S.",250.0,2026-06-10,,Real Estate,https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/,Post-IPO,1900.0,India,2026-06-12T04:43:52.000Z
+Veritone,Los Angeles,111.0,2026-06-10,0.25,AI,https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb,Post-IPO,514.0,United States,2026-06-19T17:41:19.000Z
 Shopee,"Singapore, Non-U.S.",,2026-06-10,0.08,Food,https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai,Unknown,,Singapore,2026-06-10T22:19:41.000Z
 Salesforce,SF Bay Area,86.0,2026-06-09,,Sales,https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6,Post-IPO,65.0,United States,2026-06-09T23:08:37.000Z
 Verily,SF Bay Area,58.0,2026-06-09,,Healthcare,https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html,Subsidiary,3500.0,United States,2026-06-10T22:21:11.000Z
@@ -74,6 +79,7 @@ Shopify,"Ottawa, Non-U.S.",30.0,2026-05-04,,Retail,https://thelogic.co/news/excl
 Pentera,Boston,40.0,2026-04-27,0.08,Security,https://www.calcalistech.com/ctechnews/article/b1ioncnpzl,Series D,249.0,United States,2026-04-30T23:39:55.000Z
 SuperOps,"Chennai, Non-U.S.",60.0,2026-04-24,0.3,Other,https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/,Series C,54.0,India,2026-04-30T23:42:21.000Z
 Remarkable,"Oslo, Non-U.S.",200.0,2026-04-22,,Hardware,https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff,Unknown,104.0,Norway,2026-05-20T02:21:29.000Z
+Noa Technologies,SF Bay Area,69.0,2026-04-22,,Other,https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html,Unknown,,United States,2026-06-19T17:45:38.000Z
 Epidemic Sound,"Stockholm, Non-U.S.",150.0,2026-04-21,0.33,Media,https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20,Private Equity,509.0,Sweden,2026-05-07T21:03:10.000Z
 GeoComply,"Vancouver, Non-U.S.",68.0,2026-04-21,0.15,Security,https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/,Private Equity,,United States,2026-05-11T01:50:25.000Z
 Qt Company,"Oslo, Non-U.S.",200.0,2026-04-20,,Product,https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency,Series B,7.0,Norway,2026-06-09T23:15:43.000Z
@@ -183,6 +189,7 @@ Vimeo,"Tel Aviv, Non-U.S.",,2026-01-20,,Consumer,https://www.calcalistech.com/ct
 Polygon,"Cayman Islands, Non-U.S.",60.0,2026-01-16,,Crypto,https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition,Unknown,451.0,Cayman Islands,2026-01-16T23:11:47.000Z
 Ericsson,"Stockholm, Non-U.S.",1600.0,2026-01-15,,Other,https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/,Post-IPO,663.0,Sweden,2026-01-16T22:42:10.000Z
 Tipalti,SF Bay Area,100.0,2026-01-15,,Finance,https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153,Series F,565.0,United States,2026-01-19T03:31:14.000Z
+Informatica,SF Bay Area,35.0,2026-01-15,,Data,https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html,Post-IPO,,United States,2026-06-19T17:46:40.000Z
 Playtika,"Tel Aviv, Non-U.S.",500.0,2026-01-14,0.15,Consumer,https://www.calcalistech.com/ctechnews/article/bkl6xzhswe,Post-IPO,,Israel,2026-01-15T04:23:31.000Z
 Aleph Alpha,"Frankfurt, Non-U.S.",50.0,2026-01-14,0.16,AI,https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/,Series B,534.0,Germany,2026-01-19T03:29:59.000Z
 Meta,SF Bay Area,1500.0,2026-01-13,0.02,Consumer,https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share,Post-IPO,26000.0,United States,2026-01-14T01:04:03.000Z

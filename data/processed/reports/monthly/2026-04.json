@@ -6,17 +6,17 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
-    "total_laid_off": 5016,
-    "event_count": 34,
-    "headcount_event_count": 21,
-    "company_count": 34,
+    "total_laid_off": 5085,
+    "event_count": 35,
+    "headcount_event_count": 22,
+    "company_count": 35,
     "country_count": 9,
     "industry_count": 15,
-    "average_layoffs_per_headcount_event": 238.86,
-    "median_layoffs_per_headcount_event": 100.0,
+    "average_layoffs_per_headcount_event": 231.14,
+    "median_layoffs_per_headcount_event": 95.0,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-03",
       "total_laid_off": 46593,
       "event_count": 32,
-      "total_laid_off_delta": -41577,
-      "total_laid_off_pct_change": -0.8923,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.0625,
+      "total_laid_off_delta": -41508,
+      "total_laid_off_pct_change": -0.8909,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.0938,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-04",
       "total_laid_off": 25420,
       "event_count": 29,
-      "total_laid_off_delta": -20404,
-      "total_laid_off_pct_change": -0.8027,
-      "event_count_delta": 5,
-      "event_count_pct_change": 0.1724,
+      "total_laid_off_delta": -20335,
+      "total_laid_off_pct_change": -0.8,
+      "event_count_delta": 6,
+      "event_count_pct_change": 0.2069,
       "note": null
     }
   },
@@ -60,15 +60,15 @@
         "total_laid_off": 225
       },
       {
+        "company": "Qt Company",
+        "total_laid_off": 200
+      },
+      {
         "company": "Meta",
         "total_laid_off": 200
       },
       {
         "company": "Remarkable",
-        "total_laid_off": 200
-      },
-      {
-        "company": "Qt Company",
         "total_laid_off": 200
       },
       {
@@ -118,18 +118,18 @@
         "total_laid_off": 150
       },
       {
-        "industry": "Security",
-        "total_laid_off": 108
+        "industry": "Other",
+        "total_laid_off": 129
       },
       {
-        "industry": "Marketing",
-        "total_laid_off": 100
+        "industry": "Security",
+        "total_laid_off": 108
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2854
+        "total_laid_off": 2923
       },
       {
         "country": "Kenya",
@@ -171,7 +171,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1472
+        "total_laid_off": 1541
       },
       {
         "stage": "Series B",
@@ -356,6 +356,16 @@
         "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
       },
       {
+        "date": "2026-04-22",
+        "company": "Noa Technologies",
+        "num_laid_off": 69,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
+      },
+      {
         "date": "2026-04-21",
         "company": "Epidemic Sound",
         "num_laid_off": 150,
@@ -397,6 +407,16 @@
       },
       {
         "date": "2026-04-16",
+        "company": "Quora",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
+      },
+      {
+        "date": "2026-04-16",
         "company": "Sama",
         "num_laid_off": 1108,
         "percentage_laid_off": null,
@@ -414,16 +434,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
-      },
-      {
-        "date": "2026-04-16",
-        "company": "Quora",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
       },
       {
         "date": "2026-04-15",
@@ -497,16 +507,6 @@
       },
       {
         "date": "2026-04-13",
-        "company": "StarkWare",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
-      },
-      {
-        "date": "2026-04-13",
         "company": "Eventbrite",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -516,14 +516,14 @@
         "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
       },
       {
-        "date": "2026-04-12",
-        "company": "Esh Group",
+        "date": "2026-04-13",
+        "company": "StarkWare",
         "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Finance",
+        "industry": "Crypto",
         "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
       }
     ],
     "high_intensity_events": [
@@ -600,7 +600,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 34 public layoff events and 5,016 reported layoffs.",
+    "2026-04 includes 35 public layoff events and 5,085 reported layoffs.",
     "The largest company contributor is Sama with 1,108 reported layoffs.",
     "The leading named industry is Consumer with 1,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

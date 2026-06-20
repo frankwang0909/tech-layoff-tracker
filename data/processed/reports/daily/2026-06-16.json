@@ -6,15 +6,15 @@
     "start": "2026-06-16",
     "end": "2026-06-16"
   },
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "canonical_url": "/reports/daily/2026-06-16.html",
   "kpis": {
     "total_laid_off": 490,
-    "event_count": 4,
+    "event_count": 6,
     "headcount_event_count": 2,
-    "company_count": 4,
-    "country_count": 3,
-    "industry_count": 3,
+    "company_count": 6,
+    "country_count": 4,
+    "industry_count": 5,
     "average_layoffs_per_headcount_event": 245.0,
     "median_layoffs_per_headcount_event": 245.0,
     "high_intensity_event_count": 1
@@ -161,6 +161,26 @@
       },
       {
         "date": "2026-06-16",
+        "company": "Matter Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://x.com/gluk64/status/2066964567884747146"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Rackspace",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+      },
+      {
+        "date": "2026-06-16",
         "company": "Rivian",
         "num_laid_off": null,
         "percentage_laid_off": 0.02,
@@ -184,7 +204,7 @@
     ]
   },
   "insights": [
-    "2026-06-16 includes 4 public layoff events and 490 reported layoffs.",
+    "2026-06-16 includes 6 public layoff events and 490 reported layoffs.",
     "The largest company contributor is Robinhood with 290 reported layoffs.",
     "The leading named industry is Finance with 290 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-06-09",
-      "total_laid_off": 144,
-      "event_count": 2,
-      "total_laid_off_delta": 217,
-      "total_laid_off_pct_change": 1.5069,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.5,
+      "total_laid_off": 544,
+      "event_count": 3,
+      "total_laid_off_delta": -183,
+      "total_laid_off_pct_change": -0.3364,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {

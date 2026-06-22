@@ -841,10 +841,10 @@
       "end": "2026-06-16"
     },
     "kpis": {
-      "total_laid_off": 18162,
-      "event_count": 56,
-      "headcount_event_count": 35,
-      "company_count": 49,
+      "total_laid_off": 18562,
+      "event_count": 57,
+      "headcount_event_count": 36,
+      "company_count": 50,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 16
@@ -913,7 +913,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 340
+          "total_laid_off": 740
         }
       ],
       "company_top": [
@@ -938,6 +938,10 @@
           "total_laid_off": 700
         },
         {
+          "company": "Paytm",
+          "total_laid_off": 400
+        },
+        {
           "company": "Stone",
           "total_laid_off": 400
         },
@@ -952,10 +956,6 @@
         {
           "company": "Robinhood",
           "total_laid_off": 290
-        },
-        {
-          "company": "Yolo Group",
-          "total_laid_off": 280
         }
       ]
     },
@@ -990,6 +990,16 @@
           "country": "Denmark",
           "stage": "Series C",
           "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+        },
+        {
+          "date": "2026-06-09",
+          "company": "Paytm",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.01,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Subsidiary",
+          "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
         },
         {
           "date": "2026-05-30",
@@ -1100,20 +1110,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
-        },
-        {
-          "date": "2026-04-05",
-          "company": "Bolt",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.33,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
         }
       ]
     },
-    "summary": "Finance has 18,162 reported tech layoffs across 56 public events from 2025-01-02 to 2026-06-16."
+    "summary": "Finance has 18,562 reported tech layoffs across 57 public events from 2025-01-02 to 2026-06-16."
   },
   {
     "type": "industry",

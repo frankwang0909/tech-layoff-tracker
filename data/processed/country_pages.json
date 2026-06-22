@@ -303,10 +303,10 @@
       "end": "2026-06-10"
     },
     "kpis": {
-      "total_laid_off": 9460,
-      "event_count": 54,
-      "headcount_event_count": 42,
-      "company_count": 44,
+      "total_laid_off": 9860,
+      "event_count": 55,
+      "headcount_event_count": 43,
+      "company_count": 45,
       "country_count": 1,
       "industry_count": 15,
       "high_intensity_event_count": 18
@@ -375,7 +375,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 250
+          "total_laid_off": 650
         }
       ],
       "company_top": [
@@ -412,12 +412,12 @@
           "total_laid_off": 400
         },
         {
-          "company": "Zupee",
-          "total_laid_off": 370
+          "company": "Paytm",
+          "total_laid_off": 400
         },
         {
-          "company": "VerSe Innovation copy",
-          "total_laid_off": 350
+          "company": "Zupee",
+          "total_laid_off": 370
         }
       ]
     },
@@ -432,6 +432,16 @@
           "country": "India",
           "stage": "Post-IPO",
           "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+        },
+        {
+          "date": "2026-06-09",
+          "company": "Paytm",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.01,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Subsidiary",
+          "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
         },
         {
           "date": "2026-05-10",
@@ -555,16 +565,6 @@
         },
         {
           "date": "2025-12-09",
-          "company": "GenWise",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Other",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/exclusive-kunal-shah-backed-genwise-shuts-down-operations/"
-        },
-        {
-          "date": "2025-12-09",
           "company": "Whatfix",
           "num_laid_off": 60,
           "percentage_laid_off": 0.06,
@@ -575,7 +575,7 @@
         }
       ]
     },
-    "summary": "India has 9,460 reported tech layoffs across 54 public events from 2025-01-15 to 2026-06-10."
+    "summary": "India has 9,860 reported tech layoffs across 55 public events from 2025-01-15 to 2026-06-10."
   },
   {
     "type": "country",

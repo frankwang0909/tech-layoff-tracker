@@ -9,14 +9,14 @@
   "updated_at": "2026-06-17",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 119462,
-    "event_count": 205,
-    "headcount_event_count": 138,
-    "company_count": 195,
+    "total_laid_off": 119862,
+    "event_count": 206,
+    "headcount_event_count": 139,
+    "company_count": 196,
     "country_count": 23,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 865.67,
-    "median_layoffs_per_headcount_event": 150.5,
+    "average_layoffs_per_headcount_event": 862.32,
+    "median_layoffs_per_headcount_event": 151.0,
     "high_intensity_event_count": 38
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5174,
-      "total_laid_off_pct_change": -0.0415,
-      "event_count_delta": -127,
-      "event_count_pct_change": -0.3825,
+      "total_laid_off_delta": -4774,
+      "total_laid_off_pct_change": -0.0383,
+      "event_count_delta": -126,
+      "event_count_pct_change": -0.3795,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5174,
-      "total_laid_off_pct_change": -0.0415,
-      "event_count_delta": -127,
-      "event_count_pct_change": -0.3825,
+      "total_laid_off_delta": -4774,
+      "total_laid_off_pct_change": -0.0383,
+      "event_count_delta": -126,
+      "event_count_pct_change": -0.3795,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 14273
+        "total_laid_off": 14673
       },
       {
         "industry": "Hardware",
@@ -141,7 +141,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 2405
+        "total_laid_off": 2805
       },
       {
         "country": "Netherlands",
@@ -202,18 +202,18 @@
         "total_laid_off": 540
       },
       {
-        "stage": "Series C",
-        "total_laid_off": 416
+        "stage": "Subsidiary",
+        "total_laid_off": 458
       },
       {
-        "stage": "Seed",
-        "total_laid_off": 220
+        "stage": "Series C",
+        "total_laid_off": 416
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 21
+        "event_count": 22
       },
       {
         "bucket": "10-24%",
@@ -439,16 +439,6 @@
       },
       {
         "date": "2026-06-10",
-        "company": "Opendoor",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "Real Estate",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
-      },
-      {
-        "date": "2026-06-10",
         "company": "Veritone",
         "num_laid_off": 111,
         "percentage_laid_off": 0.25,
@@ -466,6 +456,26 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+      },
+      {
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Paytm",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.01,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Subsidiary",
+        "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
       },
       {
         "date": "2026-06-09",
@@ -489,16 +499,6 @@
       },
       {
         "date": "2026-06-08",
-        "company": "Tools for Humanity",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
-      },
-      {
-        "date": "2026-06-08",
         "company": "Hailo",
         "num_laid_off": 110,
         "percentage_laid_off": 0.5,
@@ -506,6 +506,16 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+      },
+      {
+        "date": "2026-06-08",
+        "company": "Tools for Humanity",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
       },
       {
         "date": "2026-06-07",
@@ -526,16 +536,6 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-      },
-      {
-        "date": "2026-06-05",
-        "company": "FanDuel",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 205 public layoff events and 119,462 reported layoffs.",
+    "2026 includes 206 public layoff events and 119,862 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "38 events report a layoff percentage of 25% or higher."

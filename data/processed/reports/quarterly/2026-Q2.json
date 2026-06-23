@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-17"
+    "end": "2026-06-22"
   },
-  "updated_at": "2026-06-17",
+  "updated_at": "2026-06-22",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 36817,
-    "event_count": 113,
-    "headcount_event_count": 76,
-    "company_count": 112,
+    "total_laid_off": 38417,
+    "event_count": 115,
+    "headcount_event_count": 78,
+    "company_count": 114,
     "country_count": 18,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 484.43,
+    "average_layoffs_per_headcount_event": 492.53,
     "median_layoffs_per_headcount_event": 147.5,
-    "high_intensity_event_count": 19
+    "high_intensity_event_count": 20
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
       "total_laid_off": 83045,
       "event_count": 93,
-      "total_laid_off_delta": -46228,
-      "total_laid_off_pct_change": -0.5567,
-      "event_count_delta": 20,
-      "event_count_pct_change": 0.2151,
+      "total_laid_off_delta": -44628,
+      "total_laid_off_pct_change": -0.5374,
+      "event_count_delta": 22,
+      "event_count_pct_change": 0.2366,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": -786,
-      "total_laid_off_pct_change": -0.0209,
-      "event_count_delta": 41,
-      "event_count_pct_change": 0.5694,
+      "total_laid_off_delta": 814,
+      "total_laid_off_pct_change": 0.0216,
+      "event_count_delta": 43,
+      "event_count_pct_change": 0.5972,
       "note": null
     }
   },
@@ -60,6 +60,10 @@
         "total_laid_off": 3000
       },
       {
+        "company": "Lucid Motors",
+        "total_laid_off": 1500
+      },
+      {
         "company": "Sama",
         "total_laid_off": 1108
       },
@@ -78,10 +82,6 @@
       {
         "company": "UKG",
         "total_laid_off": 950
-      },
-      {
-        "company": "LinkedIn",
-        "total_laid_off": 875
       }
     ],
     "industry_top": [
@@ -102,6 +102,10 @@
         "total_laid_off": 1774
       },
       {
+        "industry": "Transportation",
+        "total_laid_off": 1600
+      },
+      {
         "industry": "AI",
         "total_laid_off": 1579
       },
@@ -120,28 +124,24 @@
       {
         "industry": "Recruiting",
         "total_laid_off": 875
-      },
-      {
-        "industry": "Sales",
-        "total_laid_off": 686
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 30670
+        "total_laid_off": 32170
       },
       {
         "country": "Israel",
         "total_laid_off": 1712
       },
       {
-        "country": "Kenya",
-        "total_laid_off": 1108
+        "country": "India",
+        "total_laid_off": 1205
       },
       {
-        "country": "India",
-        "total_laid_off": 1105
+        "country": "Kenya",
+        "total_laid_off": 1108
       },
       {
         "country": "Germany",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 28851
+        "total_laid_off": 30351
       },
       {
         "stage": "Unknown",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 25
+        "event_count": 26
       },
       {
         "bucket": "25-49%",
@@ -225,7 +225,7 @@
       },
       {
         "bucket": "50-99%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "100%+",
@@ -276,6 +276,16 @@
         "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
       },
       {
+        "date": "2026-06-22",
+        "company": "Lucid Motors",
+        "num_laid_off": 1500,
+        "percentage_laid_off": 0.18,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+      },
+      {
         "date": "2026-04-16",
         "company": "Sama",
         "num_laid_off": 1108,
@@ -296,16 +306,6 @@
         "source": "https://blog.cloudflare.com/building-for-the-future/"
       },
       {
-        "date": "2026-04-15",
-        "company": "Snap",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.16,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
-      },
-      {
         "date": "2026-05-25",
         "company": "Wix",
         "num_laid_off": 1000,
@@ -317,6 +317,16 @@
       },
       {
         "date": "2026-04-15",
+        "company": "Snap",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.16,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+      },
+      {
+        "date": "2026-04-15",
         "company": "UKG",
         "num_laid_off": 950,
         "percentage_laid_off": null,
@@ -324,19 +334,29 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
-      },
-      {
-        "date": "2026-05-13",
-        "company": "LinkedIn",
-        "num_laid_off": 875,
-        "percentage_laid_off": 0.05,
-        "industry": "Recruiting",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-22",
+        "company": "Lucid Motors",
+        "num_laid_off": 1500,
+        "percentage_laid_off": 0.18,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+      },
+      {
+        "date": "2026-06-22",
+        "company": "91Trucks",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.7,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+      },
       {
         "date": "2026-06-17",
         "company": "Lastminute",
@@ -369,6 +389,36 @@
       },
       {
         "date": "2026-06-16",
+        "company": "Artlist",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.4,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "FNZ",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Matter Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Germany",
+        "stage": "Unknown",
+        "source": "https://x.com/gluk64/status/2066964567884747146"
+      },
+      {
+        "date": "2026-06-16",
         "company": "Rackspace",
         "num_laid_off": null,
         "percentage_laid_off": 0.15,
@@ -386,36 +436,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Artlist",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.4,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Matter Labs",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "Germany",
-        "stage": "Unknown",
-        "source": "https://x.com/gluk64/status/2066964567884747146"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "FNZ",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Private Equity",
-        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
       },
       {
         "date": "2026-06-12",
@@ -439,16 +459,6 @@
       },
       {
         "date": "2026-06-10",
-        "company": "Opendoor",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "Real Estate",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
-      },
-      {
-        "date": "2026-06-10",
         "company": "Veritone",
         "num_laid_off": 111,
         "percentage_laid_off": 0.25,
@@ -468,14 +478,24 @@
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
       },
       {
-        "date": "2026-06-09",
-        "company": "Verily",
-        "num_laid_off": 58,
+        "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
         "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
+      {
+        "date": "2026-06-09",
+        "company": "Paytm",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.01,
+        "industry": "Finance",
+        "country": "India",
         "stage": "Subsidiary",
-        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+        "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
       },
       {
         "date": "2026-06-09",
@@ -489,23 +509,13 @@
       },
       {
         "date": "2026-06-09",
-        "company": "Paytm",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.01,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Subsidiary",
-        "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
-      },
-      {
-        "date": "2026-06-08",
-        "company": "Tools for Humanity",
-        "num_laid_off": null,
+        "company": "Verily",
+        "num_laid_off": 58,
         "percentage_laid_off": null,
-        "industry": "AI",
+        "industry": "Healthcare",
         "country": "United States",
-        "stage": "Series C",
-        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+        "stage": "Subsidiary",
+        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       },
       {
         "date": "2026-06-08",
@@ -518,27 +528,27 @@
         "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
       },
       {
-        "date": "2026-06-07",
-        "company": "Zencity",
-        "num_laid_off": 15,
+        "date": "2026-06-08",
+        "company": "Tools for Humanity",
+        "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
-      },
-      {
-        "date": "2026-06-05",
-        "company": "Quizlet",
-        "num_laid_off": 79,
-        "percentage_laid_off": null,
-        "industry": "Education",
+        "industry": "AI",
         "country": "United States",
         "stage": "Series C",
-        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-04-03",
+        "company": "NeuroPixel.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+      },
       {
         "date": "2026-04-09",
         "company": "Pepper Pay",
@@ -570,14 +580,14 @@
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
-        "date": "2026-04-03",
-        "company": "NeuroPixel.AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
+        "date": "2026-06-22",
+        "company": "91Trucks",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.7,
+        "industry": "Transportation",
         "country": "India",
-        "stage": "Seed",
-        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+        "stage": "Series A",
+        "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
       },
       {
         "date": "2026-05-18",
@@ -628,24 +638,14 @@
         "country": "Sweden",
         "stage": "Private Equity",
         "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
-      },
-      {
-        "date": "2026-04-24",
-        "company": "SuperOps",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.3,
-        "industry": "Other",
-        "country": "India",
-        "stage": "Series C",
-        "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
       }
     ]
   },
   "insights": [
-    "2026-Q2 includes 113 public layoff events and 36,817 reported layoffs.",
+    "2026-Q2 includes 115 public layoff events and 38,417 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
-    "19 events report a layoff percentage of 25% or higher."
+    "20 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -34,7 +34,7 @@
     {
       "stage": "Post-IPO",
       "size_bucket": "1k-4.9k",
-      "event_count": 26
+      "event_count": 27
     },
     {
       "stage": "Post-IPO",
@@ -74,7 +74,7 @@
     {
       "stage": "Series A-C",
       "size_bucket": "100-499",
-      "event_count": 16
+      "event_count": 17
     },
     {
       "stage": "Series A-C",

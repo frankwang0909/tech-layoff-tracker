@@ -7,12 +7,12 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-16"
+      "end": "2026-06-22"
     },
     "kpis": {
-      "total_laid_off": 204443,
-      "event_count": 317,
-      "headcount_event_count": 210,
+      "total_laid_off": 205943,
+      "event_count": 318,
+      "headcount_event_count": 211,
       "company_count": 241,
       "country_count": 1,
       "industry_count": 29,
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 1188
+          "total_laid_off": 2688
         }
       ],
       "company_top": [
@@ -139,14 +139,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-06-16",
-          "company": "Robinhood",
-          "num_laid_off": 290,
-          "percentage_laid_off": 0.1,
-          "industry": "Finance",
+          "date": "2026-06-22",
+          "company": "Lucid Motors",
+          "num_laid_off": 1500,
+          "percentage_laid_off": 0.18,
+          "industry": "Transportation",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+          "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
         },
         {
           "date": "2026-06-16",
@@ -157,6 +157,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Robinhood",
+          "num_laid_off": 290,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
         },
         {
           "date": "2026-06-16",
@@ -250,16 +260,6 @@
         },
         {
           "date": "2026-06-03",
-          "company": "Uber",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.01,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
-        },
-        {
-          "date": "2026-06-03",
           "company": "Dandy",
           "num_laid_off": 160,
           "percentage_laid_off": null,
@@ -267,6 +267,16 @@
           "country": "United States",
           "stage": "Series D",
           "source": "Internal memo"
+        },
+        {
+          "date": "2026-06-03",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.01,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
         },
         {
           "date": "2026-06-02",
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
-        },
-        {
-          "date": "2026-06-02",
-          "company": "Manhattan Associates",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.06,
-          "industry": "Logistics",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
         }
       ]
     },
-    "summary": "United States has 204,443 reported tech layoffs across 317 public events from 2025-01-02 to 2026-06-16."
+    "summary": "United States has 205,943 reported tech layoffs across 318 public events from 2025-01-02 to 2026-06-22."
   },
   {
     "type": "country",
@@ -300,16 +300,16 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-06-10"
+      "end": "2026-06-22"
     },
     "kpis": {
-      "total_laid_off": 9860,
-      "event_count": 55,
-      "headcount_event_count": 43,
-      "company_count": 45,
+      "total_laid_off": 9960,
+      "event_count": 56,
+      "headcount_event_count": 44,
+      "company_count": 46,
       "country_count": 1,
       "industry_count": 15,
-      "high_intensity_event_count": 18
+      "high_intensity_event_count": 19
     },
     "charts": {
       "monthly_trend": [
@@ -375,16 +375,16 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 650
+          "total_laid_off": 750
         }
       ],
       "company_top": [
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
@@ -408,11 +408,11 @@
           "total_laid_off": 500
         },
         {
-          "company": "GamesKraft",
+          "company": "Paytm",
           "total_laid_off": 400
         },
         {
-          "company": "Paytm",
+          "company": "GamesKraft",
           "total_laid_off": 400
         },
         {
@@ -423,6 +423,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-22",
+          "company": "91Trucks",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.7,
+          "industry": "Transportation",
+          "country": "India",
+          "stage": "Series A",
+          "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+        },
         {
           "date": "2026-06-10",
           "company": "Opendoor",
@@ -562,20 +572,10 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
-        },
-        {
-          "date": "2025-12-09",
-          "company": "Whatfix",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.06,
-          "industry": "AI",
-          "country": "India",
-          "stage": "Series E",
-          "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
         }
       ]
     },
-    "summary": "India has 9,860 reported tech layoffs across 55 public events from 2025-01-15 to 2026-06-10."
+    "summary": "India has 9,960 reported tech layoffs across 56 public events from 2025-01-15 to 2026-06-22."
   },
   {
     "type": "country",

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-22",
+    "company": "Lucid Motors",
+    "num_laid_off": 1500,
+    "percentage_laid_off": 0.18,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+  },
+  {
+    "date": "2026-06-22",
+    "company": "91Trucks",
+    "num_laid_off": 100,
+    "percentage_laid_off": 0.7,
+    "industry": "Transportation",
+    "country": "India",
+    "stage": "Series A",
+    "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+  },
+  {
     "date": "2026-06-17",
     "company": "Lastminute",
     "num_laid_off": 400,
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-  },
-  {
-    "date": "2026-06-10",
-    "company": "Opendoor",
-    "num_laid_off": 250,
-    "percentage_laid_off": null,
-    "industry": "Real Estate",
-    "country": "India",
-    "stage": "Post-IPO",
-    "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
-  },
-  {
-    "date": "2026-06-10",
-    "company": "Veritone",
-    "num_laid_off": 111,
-    "percentage_laid_off": 0.25,
-    "industry": "AI",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
   }
 ]

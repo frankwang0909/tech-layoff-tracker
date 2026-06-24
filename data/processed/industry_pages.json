@@ -276,14 +276,14 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-05-26"
+      "end": "2026-06-23"
     },
     "kpis": {
       "total_laid_off": 34727,
-      "event_count": 38,
+      "event_count": 39,
       "headcount_event_count": 24,
-      "company_count": 26,
-      "country_count": 9,
+      "company_count": 27,
+      "country_count": 10,
       "industry_count": 1,
       "high_intensity_event_count": 8
     },
@@ -387,6 +387,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-23",
+          "company": "Lazada Group",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.05,
+          "industry": "Retail",
+          "country": "Singapore",
+          "stage": "Acquired",
+          "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
+        },
         {
           "date": "2026-05-26",
           "company": "Groupon",
@@ -526,20 +536,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bizjournals.com/seattle/news/2025/12/15/amazon-layoffs-84-february.html"
-        },
-        {
-          "date": "2025-11-26",
-          "company": "Shopify",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
         }
       ]
     },
-    "summary": "Retail has 34,727 reported tech layoffs across 38 public events from 2025-01-10 to 2026-05-26."
+    "summary": "Retail has 34,727 reported tech layoffs across 39 public events from 2025-01-10 to 2026-06-23."
   },
   {
     "type": "industry",
@@ -3942,14 +3942,14 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-06-16"
+      "end": "2026-06-23"
     },
     "kpis": {
-      "total_laid_off": 1223,
-      "event_count": 15,
-      "headcount_event_count": 7,
-      "company_count": 14,
-      "country_count": 7,
+      "total_laid_off": 1277,
+      "event_count": 16,
+      "headcount_event_count": 8,
+      "company_count": 15,
+      "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 5
     },
@@ -3974,6 +3974,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 850
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 54
         }
       ],
       "company_top": [
@@ -3994,6 +3998,10 @@
           "total_laid_off": 60
         },
         {
+          "company": "Ethereum Foundation",
+          "total_laid_off": 54
+        },
+        {
           "company": "ConsenSys",
           "total_laid_off": 47
         },
@@ -4009,6 +4017,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-23",
+          "company": "Ethereum Foundation",
+          "num_laid_off": 54,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "Switzerland",
+          "stage": "Unknown",
+          "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+        },
         {
           "date": "2026-06-16",
           "company": "Matter Labs",
@@ -4148,20 +4166,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
-        },
-        {
-          "date": "2025-02-05",
-          "company": "Gemini",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.reuters.com/business/world-at-work/gemini-space-station-plans-cut-200-jobs-2026-02-05/"
         }
       ]
     },
-    "summary": "Crypto has 1,223 reported tech layoffs across 15 public events from 2025-02-05 to 2026-06-16."
+    "summary": "Crypto has 1,277 reported tech layoffs across 16 public events from 2025-02-05 to 2026-06-23."
   },
   {
     "type": "industry",

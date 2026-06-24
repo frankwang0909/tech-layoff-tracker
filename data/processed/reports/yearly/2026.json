@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-06-22"
+    "end": "2026-06-23"
   },
-  "updated_at": "2026-06-22",
+  "updated_at": "2026-06-23",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 121462,
-    "event_count": 208,
-    "headcount_event_count": 141,
-    "company_count": 197,
-    "country_count": 23,
+    "total_laid_off": 121516,
+    "event_count": 210,
+    "headcount_event_count": 142,
+    "company_count": 199,
+    "country_count": 24,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 861.43,
-    "median_layoffs_per_headcount_event": 151.0,
+    "average_layoffs_per_headcount_event": 855.75,
+    "median_layoffs_per_headcount_event": 150.5,
     "high_intensity_event_count": 39
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -3174,
-      "total_laid_off_pct_change": -0.0255,
-      "event_count_delta": -124,
-      "event_count_pct_change": -0.3735,
+      "total_laid_off_delta": -3120,
+      "total_laid_off_pct_change": -0.025,
+      "event_count_delta": -122,
+      "event_count_pct_change": -0.3675,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -3174,
-      "total_laid_off_pct_change": -0.0255,
-      "event_count_delta": -124,
-      "event_count_pct_change": -0.3735,
+      "total_laid_off_delta": -3120,
+      "total_laid_off_pct_change": -0.025,
+      "event_count_delta": -122,
+      "event_count_pct_change": -0.3675,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 4703
+        "total_laid_off": 4757
       },
       {
         "stage": "Acquired",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 38
+        "event_count": 39
       },
       {
         "bucket": "25-49%",
@@ -337,6 +337,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-23",
+        "company": "Ethereum Foundation",
+        "num_laid_off": 54,
+        "percentage_laid_off": 0.2,
+        "industry": "Crypto",
+        "country": "Switzerland",
+        "stage": "Unknown",
+        "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+      },
+      {
+        "date": "2026-06-23",
+        "company": "Lazada Group",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.05,
+        "industry": "Retail",
+        "country": "Singapore",
+        "stage": "Acquired",
+        "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
+      },
       {
         "date": "2026-06-22",
         "company": "Lucid Motors",
@@ -459,6 +479,16 @@
       },
       {
         "date": "2026-06-10",
+        "company": "Veritone",
+        "num_laid_off": 111,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
+      },
+      {
+        "date": "2026-06-10",
         "company": "Shopee",
         "num_laid_off": null,
         "percentage_laid_off": 0.08,
@@ -476,16 +506,6 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
-      },
-      {
-        "date": "2026-06-10",
-        "company": "Veritone",
-        "num_laid_off": 111,
-        "percentage_laid_off": 0.25,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
       },
       {
         "date": "2026-06-09",
@@ -516,26 +536,6 @@
         "country": "United States",
         "stage": "Subsidiary",
         "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
-      },
-      {
-        "date": "2026-06-08",
-        "company": "Hailo",
-        "num_laid_off": 110,
-        "percentage_laid_off": 0.5,
-        "industry": "Manufacturing",
-        "country": "Israel",
-        "stage": "Series C",
-        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
-      },
-      {
-        "date": "2026-06-08",
-        "company": "Tools for Humanity",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 208 public layoff events and 121,462 reported layoffs.",
+    "2026 includes 210 public layoff events and 121,516 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "39 events report a layoff percentage of 25% or higher."

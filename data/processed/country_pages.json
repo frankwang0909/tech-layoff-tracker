@@ -2450,5 +2450,64 @@
       ]
     },
     "summary": "Ireland has 300 reported tech layoffs across 3 public events from 2025-03-06 to 2026-05-14."
+  },
+  {
+    "type": "country",
+    "name": "Singapore",
+    "slug": "singapore",
+    "title": "Tech Layoffs by Country: Singapore",
+    "canonical_url": "/countries/singapore.html",
+    "date_range": {
+      "start": "2026-03-19",
+      "end": "2026-06-23"
+    },
+    "kpis": {
+      "total_laid_off": 0,
+      "event_count": 3,
+      "headcount_event_count": 0,
+      "company_count": 3,
+      "country_count": 1,
+      "industry_count": 3,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [],
+      "company_top": []
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-06-23",
+          "company": "Lazada Group",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.05,
+          "industry": "Retail",
+          "country": "Singapore",
+          "stage": "Acquired",
+          "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
+        },
+        {
+          "date": "2026-06-10",
+          "company": "Shopee",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.08,
+          "industry": "Food",
+          "country": "Singapore",
+          "stage": "Unknown",
+          "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+        },
+        {
+          "date": "2026-03-19",
+          "company": "Crypto.com",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.12,
+          "industry": "Crypto",
+          "country": "Singapore",
+          "stage": "Unknown",
+          "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+        }
+      ]
+    },
+    "summary": "Singapore has 0 reported tech layoffs across 3 public events from 2026-03-19 to 2026-06-23."
   }
 ]

@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Elastic,SF Bay Area,,2026-06-24,0.07,Data,https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees,Post-IPO,162.0,United States,2026-06-24T23:17:51.000Z
+Snyk,Boston,,2026-06-24,,Security,https://snyk.io/blog/a-note-to-our-customers-and-partners/,Series F,849.0,United States,2026-06-24T21:07:12.000Z
 Ethereum Foundation,"Zug, Non-U.S.",54.0,2026-06-23,0.2,Crypto,https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus,Unknown,18.0,Switzerland,2026-06-23T17:35:50.000Z
 Lazada Group ,"Singapore, Non-U.S.",,2026-06-23,0.05,Retail,https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review,Acquired,7200.0,Singapore,2026-06-23T17:32:37.000Z
 Lucid Motors,SF Bay Area,1500.0,2026-06-22,0.18,Transportation,https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/,Post-IPO,8300.0,United States,2026-06-23T01:29:47.000Z

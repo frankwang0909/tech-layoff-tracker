@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-23"
+    "end": "2026-06-24"
   },
-  "updated_at": "2026-06-23",
+  "updated_at": "2026-06-24",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 38471,
-    "event_count": 117,
+    "event_count": 119,
     "headcount_event_count": 79,
-    "company_count": 116,
+    "company_count": 118,
     "country_count": 19,
     "industry_count": 26,
     "average_layoffs_per_headcount_event": 486.97,
@@ -26,8 +26,8 @@
       "event_count": 93,
       "total_laid_off_delta": -44574,
       "total_laid_off_pct_change": -0.5367,
-      "event_count_delta": 24,
-      "event_count_pct_change": 0.2581,
+      "event_count_delta": 26,
+      "event_count_pct_change": 0.2796,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 72,
       "total_laid_off_delta": 868,
       "total_laid_off_pct_change": 0.0231,
-      "event_count_delta": 45,
-      "event_count_pct_change": 0.625,
+      "event_count_delta": 47,
+      "event_count_pct_change": 0.6528,
       "note": null
     }
   },
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-24",
+        "company": "Elastic",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+      },
+      {
         "date": "2026-06-23",
         "company": "Ethereum Foundation",
         "num_laid_off": 54,
@@ -479,6 +499,16 @@
       },
       {
         "date": "2026-06-10",
+        "company": "Opendoor",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Real Estate",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+      },
+      {
+        "date": "2026-06-10",
         "company": "Veritone",
         "num_laid_off": 111,
         "percentage_laid_off": 0.25,
@@ -498,16 +528,6 @@
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
       },
       {
-        "date": "2026-06-10",
-        "company": "Opendoor",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "Real Estate",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
-      },
-      {
         "date": "2026-06-09",
         "company": "Paytm",
         "num_laid_off": 400,
@@ -516,26 +536,6 @@
         "country": "India",
         "stage": "Subsidiary",
         "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Salesforce",
-        "num_laid_off": 86,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Verily",
-        "num_laid_off": 58,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Subsidiary",
-        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 117 public layoff events and 38,471 reported layoffs.",
+    "2026-Q2 includes 119 public layoff events and 38,471 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "20 events report a layoff percentage of 25% or higher."

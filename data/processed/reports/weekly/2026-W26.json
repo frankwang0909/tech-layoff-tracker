@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-22",
-    "end": "2026-06-23"
+    "end": "2026-06-24"
   },
-  "updated_at": "2026-06-23",
+  "updated_at": "2026-06-24",
   "canonical_url": "/reports/weekly/2026-W26.html",
   "kpis": {
     "total_laid_off": 1654,
-    "event_count": 4,
+    "event_count": 6,
     "headcount_event_count": 3,
-    "company_count": 4,
+    "company_count": 6,
     "country_count": 4,
-    "industry_count": 3,
+    "industry_count": 5,
     "average_layoffs_per_headcount_event": 551.33,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 8,
       "total_laid_off_delta": 764,
       "total_laid_off_pct_change": 0.8584,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.25,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 7,
       "total_laid_off_delta": 1114,
       "total_laid_off_pct_change": 2.063,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.4286,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1429,
       "note": null
     }
   },
@@ -152,6 +152,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-24",
+        "company": "Elastic",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+      },
+      {
         "date": "2026-06-23",
         "company": "Ethereum Foundation",
         "num_laid_off": 54,
@@ -206,7 +226,7 @@
     ]
   },
   "insights": [
-    "2026-W26 includes 4 public layoff events and 1,654 reported layoffs.",
+    "2026-W26 includes 6 public layoff events and 1,654 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-23"
+    "end": "2026-06-24"
   },
-  "updated_at": "2026-06-23",
+  "updated_at": "2026-06-24",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
     "total_laid_off": 4452,
-    "event_count": 33,
+    "event_count": 35,
     "headcount_event_count": 21,
-    "company_count": 33,
+    "company_count": 35,
     "country_count": 9,
-    "industry_count": 20,
+    "industry_count": 21,
     "average_layoffs_per_headcount_event": 212.0,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 5
@@ -26,8 +26,8 @@
       "event_count": 49,
       "total_laid_off_delta": -24482,
       "total_laid_off_pct_change": -0.8461,
-      "event_count_delta": -16,
-      "event_count_pct_change": -0.3265,
+      "event_count_delta": -14,
+      "event_count_pct_change": -0.2857,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 16,
       "total_laid_off_delta": 2846,
       "total_laid_off_pct_change": 1.7721,
-      "event_count_delta": 17,
-      "event_count_pct_change": 1.0625,
+      "event_count_delta": 19,
+      "event_count_pct_change": 1.1875,
       "note": null
     }
   },
@@ -310,6 +310,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-24",
+        "company": "Elastic",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+      },
+      {
         "date": "2026-06-23",
         "company": "Ethereum Foundation",
         "num_laid_off": 54,
@@ -371,36 +391,6 @@
       },
       {
         "date": "2026-06-16",
-        "company": "Robinhood",
-        "num_laid_off": 290,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Artlist",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.4,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "FNZ",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Private Equity",
-        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
-      },
-      {
-        "date": "2026-06-16",
         "company": "Matter Labs",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -408,6 +398,16 @@
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://x.com/gluk64/status/2066964567884747146"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Rivian",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.02,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
       },
       {
         "date": "2026-06-16",
@@ -421,13 +421,33 @@
       },
       {
         "date": "2026-06-16",
-        "company": "Rivian",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.02,
-        "industry": "Transportation",
+        "company": "Robinhood",
+        "num_laid_off": 290,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "FNZ",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Artlist",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.4,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
       },
       {
         "date": "2026-06-12",
@@ -451,16 +471,6 @@
       },
       {
         "date": "2026-06-10",
-        "company": "Veritone",
-        "num_laid_off": 111,
-        "percentage_laid_off": 0.25,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
-      },
-      {
-        "date": "2026-06-10",
         "company": "Shopee",
         "num_laid_off": null,
         "percentage_laid_off": 0.08,
@@ -468,6 +478,16 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+      },
+      {
+        "date": "2026-06-10",
+        "company": "Veritone",
+        "num_laid_off": 111,
+        "percentage_laid_off": 0.25,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
       },
       {
         "date": "2026-06-10",
@@ -488,26 +508,6 @@
         "country": "India",
         "stage": "Subsidiary",
         "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Salesforce",
-        "num_laid_off": 86,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Verily",
-        "num_laid_off": 58,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Subsidiary",
-        "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
       }
     ],
     "high_intensity_events": [
@@ -564,7 +564,7 @@
     ]
   },
   "insights": [
-    "2026-06 includes 33 public layoff events and 4,452 reported layoffs.",
+    "2026-06 includes 35 public layoff events and 4,452 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."

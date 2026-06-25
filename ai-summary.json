@@ -140,7 +140,7 @@
         "name": "Security",
         "canonical_url": "https://tech.debugcanada.com/industries/security.html",
         "total_laid_off": 4227,
-        "event_count": 28
+        "event_count": 29
       },
       {
         "name": "Infrastructure",
@@ -160,7 +160,7 @@
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
         "total_laid_off": 205943,
-        "event_count": 318
+        "event_count": 320
       },
       {
         "name": "India",

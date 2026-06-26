@@ -585,13 +585,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-17"
+      "end": "2026-06-24"
     },
     "kpis": {
       "total_laid_off": 6493,
-      "event_count": 57,
+      "event_count": 58,
       "headcount_event_count": 40,
-      "company_count": 49,
+      "company_count": 50,
       "country_count": 1,
       "industry_count": 20,
       "high_intensity_event_count": 17
@@ -704,6 +704,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-24",
+          "company": "Cyberbit",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
+        },
         {
           "date": "2026-06-17",
           "company": "Optimove",
@@ -843,20 +853,10 @@
           "country": "Israel",
           "stage": "Series D",
           "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
-        },
-        {
-          "date": "2026-04-12",
-          "company": "Esh Group",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
         }
       ]
     },
-    "summary": "Israel has 6,493 reported tech layoffs across 57 public events from 2025-01-06 to 2026-06-17."
+    "summary": "Israel has 6,493 reported tech layoffs across 58 public events from 2025-01-06 to 2026-06-24."
   },
   {
     "type": "country",

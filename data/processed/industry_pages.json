@@ -1874,9 +1874,9 @@
     },
     "kpis": {
       "total_laid_off": 4227,
-      "event_count": 29,
+      "event_count": 30,
       "headcount_event_count": 23,
-      "company_count": 26,
+      "company_count": 27,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -1981,6 +1981,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-24",
+          "company": "Cyberbit",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
+        },
         {
           "date": "2026-06-24",
           "company": "Snyk",
@@ -2120,20 +2130,10 @@
           "country": "United States",
           "stage": "Private Equity",
           "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
-        },
-        {
-          "date": "2025-12-01",
-          "company": "Aqua Security",
-          "num_laid_off": 20,
-          "percentage_laid_off": null,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/4bzp62ggf"
         }
       ]
     },
-    "summary": "Security has 4,227 reported tech layoffs across 29 public events from 2025-01-07 to 2026-06-24."
+    "summary": "Security has 4,227 reported tech layoffs across 30 public events from 2025-01-07 to 2026-06-24."
   },
   {
     "type": "industry",

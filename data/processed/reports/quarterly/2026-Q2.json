@@ -10,9 +10,9 @@
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 38471,
-    "event_count": 119,
+    "event_count": 120,
     "headcount_event_count": 79,
-    "company_count": 118,
+    "company_count": 119,
     "country_count": 19,
     "industry_count": 26,
     "average_layoffs_per_headcount_event": 486.97,
@@ -26,8 +26,8 @@
       "event_count": 93,
       "total_laid_off_delta": -44574,
       "total_laid_off_pct_change": -0.5367,
-      "event_count_delta": 26,
-      "event_count_pct_change": 0.2796,
+      "event_count_delta": 27,
+      "event_count_pct_change": 0.2903,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 72,
       "total_laid_off_delta": 868,
       "total_laid_off_pct_change": 0.0231,
-      "event_count_delta": 47,
-      "event_count_pct_change": 0.6528,
+      "event_count_delta": 48,
+      "event_count_pct_change": 0.6667,
       "note": null
     }
   },
@@ -339,13 +339,13 @@
     "recent_events": [
       {
         "date": "2026-06-24",
-        "company": "Elastic",
+        "company": "Cyberbit",
         "num_laid_off": null,
-        "percentage_laid_off": 0.07,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
       },
       {
         "date": "2026-06-24",
@@ -356,6 +356,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Elastic",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
       },
       {
         "date": "2026-06-23",
@@ -526,16 +536,6 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Paytm",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.01,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Subsidiary",
-        "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 119 public layoff events and 38,471 reported layoffs.",
+    "2026-Q2 includes 120 public layoff events and 38,471 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "20 events report a layoff percentage of 25% or higher."

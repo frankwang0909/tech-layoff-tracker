@@ -10,9 +10,9 @@
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 121516,
-    "event_count": 212,
+    "event_count": 213,
     "headcount_event_count": 142,
-    "company_count": 201,
+    "company_count": 202,
     "country_count": 24,
     "industry_count": 27,
     "average_layoffs_per_headcount_event": 855.75,
@@ -26,8 +26,8 @@
       "event_count": 332,
       "total_laid_off_delta": -3120,
       "total_laid_off_pct_change": -0.025,
-      "event_count_delta": -120,
-      "event_count_pct_change": -0.3614,
+      "event_count_delta": -119,
+      "event_count_pct_change": -0.3584,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 332,
       "total_laid_off_delta": -3120,
       "total_laid_off_pct_change": -0.025,
-      "event_count_delta": -120,
-      "event_count_pct_change": -0.3614,
+      "event_count_delta": -119,
+      "event_count_pct_change": -0.3584,
       "note": null
     }
   },
@@ -339,13 +339,13 @@
     "recent_events": [
       {
         "date": "2026-06-24",
-        "company": "Elastic",
+        "company": "Cyberbit",
         "num_laid_off": null,
-        "percentage_laid_off": 0.07,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
       },
       {
         "date": "2026-06-24",
@@ -356,6 +356,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Elastic",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
       },
       {
         "date": "2026-06-23",
@@ -419,36 +429,6 @@
       },
       {
         "date": "2026-06-16",
-        "company": "Robinhood",
-        "num_laid_off": 290,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Artlist",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.4,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "FNZ",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Private Equity",
-        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
-      },
-      {
-        "date": "2026-06-16",
         "company": "Matter Labs",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -456,6 +436,16 @@
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://x.com/gluk64/status/2066964567884747146"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Rivian",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.02,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
       },
       {
         "date": "2026-06-16",
@@ -469,13 +459,33 @@
       },
       {
         "date": "2026-06-16",
-        "company": "Rivian",
+        "company": "FNZ",
         "num_laid_off": null,
-        "percentage_laid_off": 0.02,
-        "industry": "Transportation",
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United Kingdom",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Artlist",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.4,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+      },
+      {
+        "date": "2026-06-16",
+        "company": "Robinhood",
+        "num_laid_off": 290,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
       },
       {
         "date": "2026-06-12",
@@ -526,16 +536,6 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
-      },
-      {
-        "date": "2026-06-09",
-        "company": "Paytm",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.01,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Subsidiary",
-        "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 212 public layoff events and 121,516 reported layoffs.",
+    "2026 includes 213 public layoff events and 121,516 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "39 events report a layoff percentage of 25% or higher."

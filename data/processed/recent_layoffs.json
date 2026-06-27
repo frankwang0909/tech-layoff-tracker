@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-25",
+    "company": "Amperity",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series D",
+    "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+  },
+  {
+    "date": "2026-06-25",
+    "company": "BitGo",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.15,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://x.com/mikebelshe/status/2070240967479996463"
+  },
+  {
     "date": "2026-06-24",
     "company": "Cyberbit",
     "num_laid_off": null,
@@ -11,16 +31,6 @@
   },
   {
     "date": "2026-06-24",
-    "company": "Snyk",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
-  },
-  {
-    "date": "2026-06-24",
     "company": "Elastic",
     "num_laid_off": null,
     "percentage_laid_off": 0.07,
@@ -28,6 +38,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+  },
+  {
+    "date": "2026-06-24",
+    "company": "Snyk",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
   },
   {
     "date": "2026-06-23",
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-  },
-  {
-    "date": "2026-06-16",
-    "company": "Artlist",
-    "num_laid_off": 200,
-    "percentage_laid_off": 0.4,
-    "industry": "Media",
-    "country": "Israel",
-    "stage": "Unknown",
-    "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-  },
-  {
-    "date": "2026-06-16",
-    "company": "FNZ",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United Kingdom",
-    "stage": "Private Equity",
-    "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
   }
 ]

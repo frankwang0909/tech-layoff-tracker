@@ -1,44 +1,44 @@
 {
   "report_type": "daily",
-  "period": "2025-08-25",
+  "period": "2026-06-25",
   "status": "final",
   "date_range": {
-    "start": "2025-08-25",
-    "end": "2025-08-25"
+    "start": "2026-06-25",
+    "end": "2026-06-25"
   },
   "updated_at": "2026-06-25",
-  "canonical_url": "/reports/daily/2025-08-25.html",
+  "canonical_url": "/reports/daily/2026-06-25.html",
   "kpis": {
     "total_laid_off": 0,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 0,
-    "company_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-08-24",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
+      "period": "2026-06-24",
+      "total_laid_off": 0,
+      "event_count": 3,
+      "total_laid_off_delta": 0,
       "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
+      "note": null
     },
     "same_period_last_year": {
-      "period": "2024-08-25",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2025-06-25",
+      "total_laid_off": 325,
+      "event_count": 2,
+      "total_laid_off_delta": -325,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
     }
   },
   "charts": {
@@ -73,20 +73,30 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2025-08-25",
-        "company": "Klaviyo",
+        "date": "2026-06-25",
+        "company": "Amperity",
         "num_laid_off": null,
         "percentage_laid_off": null,
         "industry": "Marketing",
         "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
         "stage": "Unknown",
-        "source": "https://www.theinformation.com/briefings/klaviyo-restructures-r-d-teams-emphasizes-ai-technical-skills"
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-08-25 includes 1 public layoff events and 0 reported layoffs."
+    "2026-06-25 includes 2 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

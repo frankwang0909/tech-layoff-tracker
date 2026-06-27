@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-04-01",
-    "end": "2026-06-24"
+    "end": "2026-06-25"
   },
-  "updated_at": "2026-06-24",
+  "updated_at": "2026-06-25",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 38471,
-    "event_count": 120,
+    "event_count": 122,
     "headcount_event_count": 79,
-    "company_count": 119,
+    "company_count": 121,
     "country_count": 19,
     "industry_count": 26,
     "average_layoffs_per_headcount_event": 486.97,
@@ -26,8 +26,8 @@
       "event_count": 93,
       "total_laid_off_delta": -44574,
       "total_laid_off_pct_change": -0.5367,
-      "event_count_delta": 27,
-      "event_count_pct_change": 0.2903,
+      "event_count_delta": 29,
+      "event_count_pct_change": 0.3118,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 72,
       "total_laid_off_delta": 868,
       "total_laid_off_pct_change": 0.0231,
-      "event_count_delta": 48,
-      "event_count_pct_change": 0.6667,
+      "event_count_delta": 50,
+      "event_count_pct_change": 0.6944,
       "note": null
     }
   },
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-25",
+        "company": "Amperity",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
+      {
         "date": "2026-06-24",
         "company": "Cyberbit",
         "num_laid_off": null,
@@ -349,16 +369,6 @@
       },
       {
         "date": "2026-06-24",
-        "company": "Snyk",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
-      },
-      {
-        "date": "2026-06-24",
         "company": "Elastic",
         "num_laid_off": null,
         "percentage_laid_off": 0.07,
@@ -366,6 +376,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
       },
       {
         "date": "2026-06-23",
@@ -516,26 +536,6 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
-      },
-      {
-        "date": "2026-06-10",
-        "company": "Veritone",
-        "num_laid_off": 111,
-        "percentage_laid_off": 0.25,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
-      },
-      {
-        "date": "2026-06-10",
-        "company": "Shopee",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.08,
-        "industry": "Food",
-        "country": "Singapore",
-        "stage": "Unknown",
-        "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 120 public layoff events and 38,471 reported layoffs.",
+    "2026-Q2 includes 122 public layoff events and 38,471 reported layoffs.",
     "The largest company contributor is Meta with 8,200 reported layoffs.",
     "The leading named industry is Consumer with 9,917 reported layoffs.",
     "20 events report a layoff percentage of 25% or higher."

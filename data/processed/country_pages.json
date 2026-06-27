@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-24"
+      "end": "2026-06-25"
     },
     "kpis": {
       "total_laid_off": 205943,
-      "event_count": 320,
+      "event_count": 322,
       "headcount_event_count": 211,
-      "company_count": 243,
+      "company_count": 245,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -139,6 +139,26 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-06-25",
+          "company": "Amperity",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
+        {
           "date": "2026-06-24",
           "company": "Elastic",
           "num_laid_off": null,
@@ -170,16 +190,6 @@
         },
         {
           "date": "2026-06-16",
-          "company": "Rivian",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.02,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
-        },
-        {
-          "date": "2026-06-16",
           "company": "Robinhood",
           "num_laid_off": 290,
           "percentage_laid_off": 0.1,
@@ -197,6 +207,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Rivian",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.02,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
         },
         {
           "date": "2026-06-11",
@@ -220,16 +240,6 @@
         },
         {
           "date": "2026-06-09",
-          "company": "Salesforce",
-          "num_laid_off": 86,
-          "percentage_laid_off": null,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
-        },
-        {
-          "date": "2026-06-09",
           "company": "Verily",
           "num_laid_off": 58,
           "percentage_laid_off": null,
@@ -237,6 +247,16 @@
           "country": "United States",
           "stage": "Subsidiary",
           "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+        },
+        {
+          "date": "2026-06-09",
+          "company": "Salesforce",
+          "num_laid_off": 86,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
         },
         {
           "date": "2026-06-08",
@@ -267,30 +287,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
-        },
-        {
-          "date": "2026-06-04",
-          "company": "Google",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
-        },
-        {
-          "date": "2026-06-03",
-          "company": "Dandy",
-          "num_laid_off": 160,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "Internal memo"
         }
       ]
     },
-    "summary": "United States has 205,943 reported tech layoffs across 320 public events from 2025-01-02 to 2026-06-24."
+    "summary": "United States has 205,943 reported tech layoffs across 322 public events from 2025-01-02 to 2026-06-25."
   },
   {
     "type": "country",

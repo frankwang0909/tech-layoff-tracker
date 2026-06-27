@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-22",
-    "end": "2026-06-24"
+    "end": "2026-06-25"
   },
-  "updated_at": "2026-06-24",
+  "updated_at": "2026-06-25",
   "canonical_url": "/reports/weekly/2026-W26.html",
   "kpis": {
     "total_laid_off": 1654,
-    "event_count": 7,
+    "event_count": 9,
     "headcount_event_count": 3,
-    "company_count": 7,
+    "company_count": 9,
     "country_count": 5,
-    "industry_count": 5,
+    "industry_count": 6,
     "average_layoffs_per_headcount_event": 551.33,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 8,
       "total_laid_off_delta": 764,
       "total_laid_off_pct_change": 0.8584,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.125,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.125,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 7,
       "total_laid_off_delta": 1114,
       "total_laid_off_pct_change": 2.063,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.2857,
       "note": null
     }
   },
@@ -152,6 +152,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-25",
+        "company": "Amperity",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
+      {
         "date": "2026-06-24",
         "company": "Cyberbit",
         "num_laid_off": null,
@@ -236,7 +256,7 @@
     ]
   },
   "insights": [
-    "2026-W26 includes 7 public layoff events and 1,654 reported layoffs.",
+    "2026-W26 includes 9 public layoff events and 1,654 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

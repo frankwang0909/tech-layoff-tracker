@@ -3325,13 +3325,13 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-06-17"
+      "end": "2026-06-25"
     },
     "kpis": {
       "total_laid_off": 2586,
-      "event_count": 20,
+      "event_count": 21,
       "headcount_event_count": 13,
-      "company_count": 19,
+      "company_count": 20,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 4
@@ -3424,6 +3424,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-25",
+          "company": "Amperity",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+        },
         {
           "date": "2026-06-17",
           "company": "Optimove",
@@ -3563,20 +3573,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://searchengineland.com/marin-software-shutting-down-454228"
-        },
-        {
-          "date": "2025-03-19",
-          "company": "Brightcove",
-          "num_laid_off": 198,
-          "percentage_laid_off": 0.33,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.boston.com/news/business/2025/03/19/boston-based-streaming-company-brightcove-to-lay-off-198-workers/"
         }
       ]
     },
-    "summary": "Marketing has 2,586 reported tech layoffs across 20 public events from 2025-01-15 to 2026-06-17."
+    "summary": "Marketing has 2,586 reported tech layoffs across 21 public events from 2025-01-15 to 2026-06-25."
   },
   {
     "type": "industry",
@@ -3942,13 +3942,13 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-06-23"
+      "end": "2026-06-25"
     },
     "kpis": {
       "total_laid_off": 1277,
-      "event_count": 16,
+      "event_count": 17,
       "headcount_event_count": 8,
-      "company_count": 15,
+      "company_count": 16,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -4017,6 +4017,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
         {
           "date": "2026-06-23",
           "company": "Ethereum Foundation",
@@ -4156,20 +4166,10 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://www.bloomberg.com/news/articles/2025-07-22/crypto-software-firm-consensys-eliminates-about-7-of-workforce"
-        },
-        {
-          "date": "2025-07-08",
-          "company": "Eigen Labs",
-          "num_laid_off": 29,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://blockworks.co/news/eigen-layoffs-25-eigencloud"
         }
       ]
     },
-    "summary": "Crypto has 1,277 reported tech layoffs across 16 public events from 2025-02-05 to 2026-06-23."
+    "summary": "Crypto has 1,277 reported tech layoffs across 17 public events from 2025-02-05 to 2026-06-25."
   },
   {
     "type": "industry",

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-25"
+      "end": "2026-06-26"
     },
     "kpis": {
-      "total_laid_off": 205943,
-      "event_count": 322,
-      "headcount_event_count": 211,
-      "company_count": 245,
+      "total_laid_off": 206625,
+      "event_count": 326,
+      "headcount_event_count": 214,
+      "company_count": 248,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 2688
+          "total_laid_off": 3370
         }
       ],
       "company_top": [
@@ -139,6 +139,56 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-06-26",
+          "company": "SAS",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.newsobserver.com/news/business/article316281262.html"
+        },
+        {
+          "date": "2026-06-26",
+          "company": "CompanyCam",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Bungie",
+          "num_laid_off": 292,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Sonos",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.03,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
+        {
           "date": "2026-06-25",
           "company": "Amperity",
           "num_laid_off": null,
@@ -147,16 +197,6 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
         },
         {
           "date": "2026-06-24",
@@ -247,50 +287,10 @@
           "country": "United States",
           "stage": "Subsidiary",
           "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
-        },
-        {
-          "date": "2026-06-09",
-          "company": "Salesforce",
-          "num_laid_off": 86,
-          "percentage_laid_off": null,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
-        },
-        {
-          "date": "2026-06-08",
-          "company": "Tools for Humanity",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
-        },
-        {
-          "date": "2026-06-05",
-          "company": "Quizlet",
-          "num_laid_off": 79,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-        },
-        {
-          "date": "2026-06-05",
-          "company": "FanDuel",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
         }
       ]
     },
-    "summary": "United States has 205,943 reported tech layoffs across 322 public events from 2025-01-02 to 2026-06-25."
+    "summary": "United States has 206,625 reported tech layoffs across 326 public events from 2025-01-02 to 2026-06-26."
   },
   {
     "type": "country",
@@ -300,16 +300,16 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-06-22"
+      "end": "2026-06-26"
     },
     "kpis": {
       "total_laid_off": 9960,
-      "event_count": 56,
+      "event_count": 57,
       "headcount_event_count": 44,
-      "company_count": 46,
+      "company_count": 47,
       "country_count": 1,
-      "industry_count": 15,
-      "high_intensity_event_count": 19
+      "industry_count": 16,
+      "high_intensity_event_count": 20
     },
     "charts": {
       "monthly_trend": [
@@ -423,6 +423,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-26",
+          "company": "JiviAI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+        },
         {
           "date": "2026-06-22",
           "company": "91Trucks",
@@ -562,20 +572,10 @@
           "country": "India",
           "stage": "Series B",
           "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
-        },
-        {
-          "date": "2026-01-13",
-          "company": "Alle",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
         }
       ]
     },
-    "summary": "India has 9,960 reported tech layoffs across 56 public events from 2025-01-15 to 2026-06-22."
+    "summary": "India has 9,960 reported tech layoffs across 57 public events from 2025-01-15 to 2026-06-26."
   },
   {
     "type": "country",
@@ -1015,12 +1015,12 @@
     "canonical_url": "/countries/australia.html",
     "date_range": {
       "start": "2025-04-02",
-      "end": "2026-05-12"
+      "end": "2026-06-26"
     },
     "kpis": {
-      "total_laid_off": 4302,
-      "event_count": 11,
-      "headcount_event_count": 9,
+      "total_laid_off": 4372,
+      "event_count": 12,
+      "headcount_event_count": 10,
       "company_count": 8,
       "country_count": 1,
       "industry_count": 8,
@@ -1059,6 +1059,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 45
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 70
         }
       ],
       "company_top": [
@@ -1076,7 +1080,7 @@
         },
         {
           "company": "Culture Amp",
-          "total_laid_off": 60
+          "total_laid_off": 130
         },
         {
           "company": "Trend Micro",
@@ -1094,6 +1098,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-26",
+          "company": "Culture Amp",
+          "num_laid_off": 70,
+          "percentage_laid_off": 0.09,
+          "industry": "HR",
+          "country": "Australia",
+          "stage": "Series F",
+          "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+        },
         {
           "date": "2026-05-12",
           "company": "Trend Micro",
@@ -1206,7 +1220,7 @@
         }
       ]
     },
-    "summary": "Australia has 4,302 reported tech layoffs across 11 public events from 2025-04-02 to 2026-05-12."
+    "summary": "Australia has 4,372 reported tech layoffs across 12 public events from 2025-04-02 to 2026-06-26."
   },
   {
     "type": "country",

@@ -549,13 +549,13 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-06-05"
+      "end": "2026-06-25"
     },
     "kpis": {
-      "total_laid_off": 25961,
-      "event_count": 74,
-      "headcount_event_count": 50,
-      "company_count": 48,
+      "total_laid_off": 26253,
+      "event_count": 76,
+      "headcount_event_count": 51,
+      "company_count": 49,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -628,7 +628,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 75
+          "total_laid_off": 367
         }
       ],
       "company_top": [
@@ -641,11 +641,11 @@
           "total_laid_off": 1290
         },
         {
-          "company": "Epic Games",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Epic Games",
           "total_laid_off": 1000
         },
         {
@@ -676,6 +676,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-25",
+          "company": "Bungie",
+          "num_laid_off": 292,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Sonos",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.03,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+        },
         {
           "date": "2026-06-05",
           "company": "FanDuel",
@@ -805,30 +825,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
-        },
-        {
-          "date": "2026-04-02",
-          "company": "Meta",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
-        },
-        {
-          "date": "2026-04-01",
-          "company": "Sonos",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
         }
       ]
     },
-    "summary": "Consumer has 25,961 reported tech layoffs across 74 public events from 2025-01-27 to 2026-06-05."
+    "summary": "Consumer has 26,253 reported tech layoffs across 76 public events from 2025-01-27 to 2026-06-25."
   },
   {
     "type": "industry",
@@ -1653,12 +1653,12 @@
     "canonical_url": "/industries/hr.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-04-15"
+      "end": "2026-06-26"
     },
     "kpis": {
-      "total_laid_off": 5645,
-      "event_count": 13,
-      "headcount_event_count": 10,
+      "total_laid_off": 5715,
+      "event_count": 14,
+      "headcount_event_count": 11,
       "company_count": 10,
       "country_count": 6,
       "industry_count": 1,
@@ -1689,6 +1689,10 @@
         {
           "month": "2026-04",
           "total_laid_off": 950
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 70
         }
       ],
       "company_top": [
@@ -1718,7 +1722,7 @@
         },
         {
           "company": "Culture Amp",
-          "total_laid_off": 60
+          "total_laid_off": 130
         },
         {
           "company": "Retrain.ai",
@@ -1728,6 +1732,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-26",
+          "company": "Culture Amp",
+          "num_laid_off": 70,
+          "percentage_laid_off": 0.09,
+          "industry": "HR",
+          "country": "Australia",
+          "stage": "Series F",
+          "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+        },
         {
           "date": "2026-04-15",
           "company": "UKG",
@@ -1860,7 +1874,7 @@
         }
       ]
     },
-    "summary": "HR has 5,645 reported tech layoffs across 13 public events from 2025-02-05 to 2026-04-15."
+    "summary": "HR has 5,715 reported tech layoffs across 14 public events from 2025-02-05 to 2026-06-26."
   },
   {
     "type": "industry",
@@ -2644,13 +2658,13 @@
     "canonical_url": "/industries/data.html",
     "date_range": {
       "start": "2025-01-29",
-      "end": "2026-06-24"
+      "end": "2026-06-26"
     },
     "kpis": {
-      "total_laid_off": 3064,
-      "event_count": 18,
-      "headcount_event_count": 11,
-      "company_count": 16,
+      "total_laid_off": 3364,
+      "event_count": 19,
+      "headcount_event_count": 12,
+      "company_count": 17,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -2692,6 +2706,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 117
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 300
         }
       ],
       "company_top": [
@@ -2702,6 +2720,10 @@
         {
           "company": "NetApp",
           "total_laid_off": 777
+        },
+        {
+          "company": "SAS",
+          "total_laid_off": 300
         },
         {
           "company": "Scale AI",
@@ -2730,15 +2752,21 @@
         {
           "company": "Verbit",
           "total_laid_off": 22
-        },
-        {
-          "company": "Prefect",
-          "total_laid_off": 20
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-26",
+          "company": "SAS",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.newsobserver.com/news/business/article316281262.html"
+        },
         {
           "date": "2026-06-24",
           "company": "Elastic",
@@ -2878,20 +2906,10 @@
           "country": "Australia",
           "stage": "Seed",
           "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
-        },
-        {
-          "date": "2025-03-27",
-          "company": "Palantir",
-          "num_laid_off": 120,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://finance.yahoo.com/news/palantir-just-cut-over-60-192816370.html"
         }
       ]
     },
-    "summary": "Data has 3,064 reported tech layoffs across 18 public events from 2025-01-29 to 2026-06-24."
+    "summary": "Data has 3,364 reported tech layoffs across 19 public events from 2025-01-29 to 2026-06-26."
   },
   {
     "type": "industry",
@@ -3945,9 +3963,9 @@
       "end": "2026-06-25"
     },
     "kpis": {
-      "total_laid_off": 1277,
+      "total_laid_off": 1367,
       "event_count": 17,
-      "headcount_event_count": 8,
+      "headcount_event_count": 9,
       "company_count": 16,
       "country_count": 8,
       "industry_count": 1,
@@ -3977,7 +3995,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 54
+          "total_laid_off": 144
         }
       ],
       "company_top": [
@@ -3992,6 +4010,10 @@
         {
           "company": "Kraken",
           "total_laid_off": 150
+        },
+        {
+          "company": "BitGo",
+          "total_laid_off": 90
         },
         {
           "company": "Polygon",
@@ -4020,7 +4042,7 @@
         {
           "date": "2026-06-25",
           "company": "BitGo",
-          "num_laid_off": null,
+          "num_laid_off": 90,
           "percentage_laid_off": 0.15,
           "industry": "Crypto",
           "country": "United States",
@@ -4169,7 +4191,7 @@
         }
       ]
     },
-    "summary": "Crypto has 1,277 reported tech layoffs across 17 public events from 2025-02-05 to 2026-06-25."
+    "summary": "Crypto has 1,367 reported tech layoffs across 17 public events from 2025-02-05 to 2026-06-25."
   },
   {
     "type": "industry",
@@ -4179,13 +4201,13 @@
     "canonical_url": "/industries/recruiting.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-05-13"
+      "end": "2026-06-26"
     },
     "kpis": {
       "total_laid_off": 1160,
-      "event_count": 5,
+      "event_count": 6,
       "headcount_event_count": 5,
-      "company_count": 5,
+      "company_count": 6,
       "country_count": 2,
       "industry_count": 1,
       "high_intensity_event_count": 0
@@ -4234,6 +4256,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-26",
+          "company": "CompanyCam",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+        },
         {
           "date": "2026-05-13",
           "company": "LinkedIn",
@@ -4286,7 +4318,7 @@
         }
       ]
     },
-    "summary": "Recruiting has 1,160 reported tech layoffs across 5 public events from 2025-01-15 to 2026-05-13."
+    "summary": "Recruiting has 1,160 reported tech layoffs across 6 public events from 2025-01-15 to 2026-06-26."
   },
   {
     "type": "industry",
@@ -4880,16 +4912,16 @@
     "canonical_url": "/industries/healthcare.html",
     "date_range": {
       "start": "2025-02-24",
-      "end": "2026-06-09"
+      "end": "2026-06-26"
     },
     "kpis": {
       "total_laid_off": 901,
-      "event_count": 12,
+      "event_count": 13,
       "headcount_event_count": 8,
-      "company_count": 11,
-      "country_count": 2,
+      "company_count": 12,
+      "country_count": 3,
       "industry_count": 1,
-      "high_intensity_event_count": 2
+      "high_intensity_event_count": 3
     },
     "charts": {
       "monthly_trend": [
@@ -4955,6 +4987,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-26",
+          "company": "JiviAI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+        },
         {
           "date": "2026-06-09",
           "company": "Verily",
@@ -5077,7 +5119,7 @@
         }
       ]
     },
-    "summary": "Healthcare has 901 reported tech layoffs across 12 public events from 2025-02-24 to 2026-06-09."
+    "summary": "Healthcare has 901 reported tech layoffs across 13 public events from 2025-02-24 to 2026-06-26."
   },
   {
     "type": "industry",

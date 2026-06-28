@@ -1,0 +1,197 @@
+{
+  "report_type": "daily",
+  "period": "2026-06-26",
+  "status": "final",
+  "date_range": {
+    "start": "2026-06-26",
+    "end": "2026-06-26"
+  },
+  "updated_at": "2026-06-26",
+  "canonical_url": "/reports/daily/2026-06-26.html",
+  "kpis": {
+    "total_laid_off": 370,
+    "event_count": 4,
+    "headcount_event_count": 2,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 185.0,
+    "median_layoffs_per_headcount_event": 185.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-06-25",
+      "total_laid_off": 382,
+      "event_count": 4,
+      "total_laid_off_delta": -12,
+      "total_laid_off_pct_change": -0.0314,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-06-26",
+      "total_laid_off": 140,
+      "event_count": 1,
+      "total_laid_off_delta": 230,
+      "total_laid_off_pct_change": 1.6429,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "SAS",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Culture Amp",
+        "total_laid_off": 70
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Data",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "HR",
+        "total_laid_off": 70
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 300
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 70
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 300
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 70
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "CompanyCam",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      }
+    ]
+  },
+  "insights": [
+    "2026-06-26 includes 4 public layoff events and 370 reported layoffs.",
+    "The largest company contributor is SAS with 300 reported layoffs.",
+    "The leading named industry is Data with 300 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

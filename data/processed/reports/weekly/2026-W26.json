@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-22",
-    "end": "2026-06-25"
+    "end": "2026-06-26"
   },
-  "updated_at": "2026-06-25",
+  "updated_at": "2026-06-26",
   "canonical_url": "/reports/weekly/2026-W26.html",
   "kpis": {
-    "total_laid_off": 1654,
-    "event_count": 9,
-    "headcount_event_count": 3,
-    "company_count": 9,
-    "country_count": 5,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 551.33,
+    "total_laid_off": 2406,
+    "event_count": 15,
+    "headcount_event_count": 7,
+    "company_count": 15,
+    "country_count": 6,
+    "industry_count": 10,
+    "average_layoffs_per_headcount_event": 343.71,
     "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W25",
       "total_laid_off": 890,
       "event_count": 8,
-      "total_laid_off_delta": 764,
-      "total_laid_off_pct_change": 0.8584,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.125,
+      "total_laid_off_delta": 1516,
+      "total_laid_off_pct_change": 1.7034,
+      "event_count_delta": 7,
+      "event_count_pct_change": 0.875,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W26",
       "total_laid_off": 540,
       "event_count": 7,
-      "total_laid_off_delta": 1114,
-      "total_laid_off_pct_change": 2.063,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.2857,
+      "total_laid_off_delta": 1866,
+      "total_laid_off_pct_change": 3.4556,
+      "event_count_delta": 8,
+      "event_count_pct_change": 1.1429,
       "note": null
     }
   },
@@ -48,8 +48,24 @@
         "total_laid_off": 1500
       },
       {
+        "company": "SAS",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Bungie",
+        "total_laid_off": 292
+      },
+      {
         "company": "91Trucks",
         "total_laid_off": 100
+      },
+      {
+        "company": "BitGo",
+        "total_laid_off": 90
+      },
+      {
+        "company": "Culture Amp",
+        "total_laid_off": 70
       },
       {
         "company": "Ethereum Foundation",
@@ -62,18 +78,34 @@
         "total_laid_off": 1600
       },
       {
+        "industry": "Data",
+        "total_laid_off": 300
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 292
+      },
+      {
         "industry": "Crypto",
-        "total_laid_off": 54
+        "total_laid_off": 144
+      },
+      {
+        "industry": "HR",
+        "total_laid_off": 70
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1500
+        "total_laid_off": 2182
       },
       {
         "country": "India",
         "total_laid_off": 100
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 70
       },
       {
         "country": "Switzerland",
@@ -86,22 +118,30 @@
         "total_laid_off": 1500
       },
       {
+        "stage": "Unknown",
+        "total_laid_off": 444
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 292
+      },
+      {
         "stage": "Series A",
         "total_laid_off": 100
       },
       {
-        "stage": "Unknown",
-        "total_laid_off": 54
+        "stage": "Series F",
+        "total_laid_off": 70
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -130,6 +170,26 @@
         "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
       },
       {
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "Bungie",
+        "num_laid_off": 292,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+      },
+      {
         "date": "2026-06-22",
         "company": "91Trucks",
         "num_laid_off": 100,
@@ -138,6 +198,26 @@
         "country": "India",
         "stage": "Series A",
         "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
       },
       {
         "date": "2026-06-23",
@@ -152,6 +232,66 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "CompanyCam",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "Bungie",
+        "num_laid_off": 292,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
+      {
         "date": "2026-06-25",
         "company": "Amperity",
         "num_laid_off": null,
@@ -163,13 +303,13 @@
       },
       {
         "date": "2026-06-25",
-        "company": "BitGo",
+        "company": "Sonos",
         "num_laid_off": null,
-        "percentage_laid_off": 0.15,
-        "industry": "Crypto",
+        "percentage_laid_off": 0.03,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
       },
       {
         "date": "2026-06-24",
@@ -244,6 +384,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      },
+      {
         "date": "2026-06-22",
         "company": "91Trucks",
         "num_laid_off": 100,
@@ -256,10 +406,10 @@
     ]
   },
   "insights": [
-    "2026-W26 includes 9 public layoff events and 1,654 reported layoffs.",
+    "2026-W26 includes 15 public layoff events and 2,406 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

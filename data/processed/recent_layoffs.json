@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-06-26",
+    "company": "SAS",
+    "num_laid_off": 300,
+    "percentage_laid_off": null,
+    "industry": "Data",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.newsobserver.com/news/business/article316281262.html"
+  },
+  {
+    "date": "2026-06-26",
+    "company": "JiviAI",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Healthcare",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+  },
+  {
+    "date": "2026-06-26",
+    "company": "Culture Amp",
+    "num_laid_off": 70,
+    "percentage_laid_off": 0.09,
+    "industry": "HR",
+    "country": "Australia",
+    "stage": "Series F",
+    "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+  },
+  {
+    "date": "2026-06-26",
+    "company": "CompanyCam",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Recruiting",
+    "country": "United States",
+    "stage": "Series C",
+    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+  },
+  {
     "date": "2026-06-25",
     "company": "Amperity",
     "num_laid_off": null,
@@ -11,8 +51,28 @@
   },
   {
     "date": "2026-06-25",
-    "company": "BitGo",
+    "company": "Sonos",
     "num_laid_off": null,
+    "percentage_laid_off": 0.03,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+  },
+  {
+    "date": "2026-06-25",
+    "company": "Bungie",
+    "num_laid_off": 292,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+  },
+  {
+    "date": "2026-06-25",
+    "company": "BitGo",
+    "num_laid_off": 90,
     "percentage_laid_off": 0.15,
     "industry": "Crypto",
     "country": "United States",
@@ -51,16 +111,6 @@
   },
   {
     "date": "2026-06-23",
-    "company": "Ethereum Foundation",
-    "num_laid_off": 54,
-    "percentage_laid_off": 0.2,
-    "industry": "Crypto",
-    "country": "Switzerland",
-    "stage": "Unknown",
-    "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
-  },
-  {
-    "date": "2026-06-23",
     "company": "Lazada Group",
     "num_laid_off": null,
     "percentage_laid_off": 0.05,
@@ -68,55 +118,5 @@
     "country": "Singapore",
     "stage": "Acquired",
     "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
-  },
-  {
-    "date": "2026-06-22",
-    "company": "Lucid Motors",
-    "num_laid_off": 1500,
-    "percentage_laid_off": 0.18,
-    "industry": "Transportation",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
-  },
-  {
-    "date": "2026-06-22",
-    "company": "91Trucks",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.7,
-    "industry": "Transportation",
-    "country": "India",
-    "stage": "Series A",
-    "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
-  },
-  {
-    "date": "2026-06-17",
-    "company": "Lastminute",
-    "num_laid_off": 400,
-    "percentage_laid_off": 0.25,
-    "industry": "Travel",
-    "country": "Netherlands",
-    "stage": "Post-IPO",
-    "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
-  },
-  {
-    "date": "2026-06-17",
-    "company": "Optimove",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.1,
-    "industry": "Marketing",
-    "country": "Israel",
-    "stage": "Series A",
-    "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
-  },
-  {
-    "date": "2026-06-16",
-    "company": "Robinhood",
-    "num_laid_off": 290,
-    "percentage_laid_off": 0.1,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
   }
 ]

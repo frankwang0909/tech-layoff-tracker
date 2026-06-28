@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-25"
+    "end": "2026-06-26"
   },
-  "updated_at": "2026-06-25",
+  "updated_at": "2026-06-26",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 4452,
-    "event_count": 38,
-    "headcount_event_count": 21,
-    "company_count": 38,
-    "country_count": 9,
-    "industry_count": 21,
-    "average_layoffs_per_headcount_event": 212.0,
+    "total_laid_off": 5204,
+    "event_count": 44,
+    "headcount_event_count": 25,
+    "company_count": 44,
+    "country_count": 10,
+    "industry_count": 23,
+    "average_layoffs_per_headcount_event": 208.16,
     "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 5
+    "high_intensity_event_count": 6
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05",
       "total_laid_off": 28934,
       "event_count": 49,
-      "total_laid_off_delta": -24482,
-      "total_laid_off_pct_change": -0.8461,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.2245,
+      "total_laid_off_delta": -23730,
+      "total_laid_off_pct_change": -0.8201,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.102,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": 2846,
-      "total_laid_off_pct_change": 1.7721,
-      "event_count_delta": 22,
-      "event_count_pct_change": 1.375,
+      "total_laid_off_delta": 3598,
+      "total_laid_off_pct_change": 2.2403,
+      "event_count_delta": 28,
+      "event_count_pct_change": 1.75,
       "note": null
     }
   },
@@ -60,6 +60,14 @@
         "total_laid_off": 350
       },
       {
+        "company": "SAS",
+        "total_laid_off": 300
+      },
+      {
+        "company": "Bungie",
+        "total_laid_off": 292
+      },
+      {
         "company": "Robinhood",
         "total_laid_off": 290
       },
@@ -74,14 +82,6 @@
       {
         "company": "Dandy",
         "total_laid_off": 160
-      },
-      {
-        "company": "Veritone",
-        "total_laid_off": 111
-      },
-      {
-        "company": "Hailo",
-        "total_laid_off": 110
       }
     ],
     "industry_top": [
@@ -98,8 +98,16 @@
         "total_laid_off": 400
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 367
+      },
+      {
         "industry": "Product",
         "total_laid_off": 350
+      },
+      {
+        "industry": "Data",
+        "total_laid_off": 300
       },
       {
         "industry": "Real Estate",
@@ -114,22 +122,14 @@
         "total_laid_off": 200
       },
       {
-        "industry": "AI",
-        "total_laid_off": 111
-      },
-      {
-        "industry": "Manufacturing",
-        "total_laid_off": 110
-      },
-      {
-        "industry": "Marketing",
-        "total_laid_off": 100
+        "industry": "Crypto",
+        "total_laid_off": 144
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2688
+        "total_laid_off": 3370
       },
       {
         "country": "India",
@@ -142,6 +142,10 @@
       {
         "country": "Netherlands",
         "total_laid_off": 400
+      },
+      {
+        "country": "Australia",
+        "total_laid_off": 70
       },
       {
         "country": "Switzerland",
@@ -158,12 +162,16 @@
         "total_laid_off": 3041
       },
       {
+        "stage": "Unknown",
+        "total_laid_off": 669
+      },
+      {
         "stage": "Subsidiary",
         "total_laid_off": 458
       },
       {
-        "stage": "Unknown",
-        "total_laid_off": 279
+        "stage": "Acquired",
+        "total_laid_off": 292
       },
       {
         "stage": "Series C",
@@ -180,16 +188,20 @@
       {
         "stage": "Series E",
         "total_laid_off": 100
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 70
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
-        "event_count": 6
+        "event_count": 7
       },
       {
         "bucket": "25-49%",
@@ -248,6 +260,26 @@
         "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
       },
       {
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "Bungie",
+        "num_laid_off": 292,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+      },
+      {
         "date": "2026-06-16",
         "company": "Robinhood",
         "num_laid_off": 290,
@@ -286,29 +318,69 @@
         "country": "United States",
         "stage": "Series D",
         "source": "Internal memo"
-      },
-      {
-        "date": "2026-06-10",
-        "company": "Veritone",
-        "num_laid_off": 111,
-        "percentage_laid_off": 0.25,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
-      },
-      {
-        "date": "2026-06-08",
-        "company": "Hailo",
-        "num_laid_off": 110,
-        "percentage_laid_off": 0.5,
-        "industry": "Manufacturing",
-        "country": "Israel",
-        "stage": "Series C",
-        "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "CompanyCam",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "Bungie",
+        "num_laid_off": 292,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
       {
         "date": "2026-06-25",
         "company": "Amperity",
@@ -321,23 +393,23 @@
       },
       {
         "date": "2026-06-25",
-        "company": "BitGo",
+        "company": "Sonos",
         "num_laid_off": null,
-        "percentage_laid_off": 0.15,
-        "industry": "Crypto",
+        "percentage_laid_off": 0.03,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
       },
       {
         "date": "2026-06-24",
-        "company": "Cyberbit",
+        "company": "Snyk",
         "num_laid_off": null,
         "percentage_laid_off": null,
         "industry": "Security",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
       },
       {
         "date": "2026-06-24",
@@ -351,13 +423,13 @@
       },
       {
         "date": "2026-06-24",
-        "company": "Snyk",
+        "company": "Cyberbit",
         "num_laid_off": null,
         "percentage_laid_off": null,
         "industry": "Security",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
       },
       {
         "date": "2026-06-23",
@@ -401,16 +473,6 @@
       },
       {
         "date": "2026-06-17",
-        "company": "Optimove",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.1,
-        "industry": "Marketing",
-        "country": "Israel",
-        "stage": "Series A",
-        "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
-      },
-      {
-        "date": "2026-06-17",
         "company": "Lastminute",
         "num_laid_off": 400,
         "percentage_laid_off": 0.25,
@@ -420,24 +482,14 @@
         "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
       },
       {
-        "date": "2026-06-16",
-        "company": "Artlist",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.4,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "FNZ",
+        "date": "2026-06-17",
+        "company": "Optimove",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United Kingdom",
-        "stage": "Private Equity",
-        "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Israel",
+        "stage": "Series A",
+        "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
       },
       {
         "date": "2026-06-16",
@@ -468,49 +520,19 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Robinhood",
-        "num_laid_off": 290,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-      },
-      {
-        "date": "2026-06-12",
-        "company": "Pleo",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "Denmark",
-        "stage": "Series C",
-        "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
-      },
-      {
-        "date": "2026-06-11",
-        "company": "ServiceNow",
-        "num_laid_off": 54,
-        "percentage_laid_off": null,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-      },
-      {
-        "date": "2026-06-10",
-        "company": "Shopee",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.08,
-        "industry": "Food",
-        "country": "Singapore",
-        "stage": "Unknown",
-        "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      },
       {
         "date": "2026-06-22",
         "company": "91Trucks",
@@ -564,10 +586,10 @@
     ]
   },
   "insights": [
-    "2026-06 includes 38 public layoff events and 4,452 reported layoffs.",
+    "2026-06 includes 44 public layoff events and 5,204 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
-    "5 events report a layoff percentage of 25% or higher."
+    "6 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

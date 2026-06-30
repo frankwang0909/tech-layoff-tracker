@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-26"
+      "end": "2026-06-29"
     },
     "kpis": {
       "total_laid_off": 206625,
-      "event_count": 326,
+      "event_count": 327,
       "headcount_event_count": 214,
-      "company_count": 248,
+      "company_count": 249,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -139,14 +139,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-06-26",
-          "company": "SAS",
-          "num_laid_off": 300,
-          "percentage_laid_off": null,
-          "industry": "Data",
+          "date": "2026-06-29",
+          "company": "Equip Health",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.04,
+          "industry": "Healthcare",
           "country": "United States",
           "stage": "Unknown",
-          "source": "https://www.newsobserver.com/news/business/article316281262.html"
+          "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
         },
         {
           "date": "2026-06-26",
@@ -159,6 +159,16 @@
           "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
         },
         {
+          "date": "2026-06-26",
+          "company": "SAS",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.newsobserver.com/news/business/article316281262.html"
+        },
+        {
           "date": "2026-06-25",
           "company": "Bungie",
           "num_laid_off": 292,
@@ -167,6 +177,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Amperity",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
         },
         {
           "date": "2026-06-25",
@@ -187,16 +207,6 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://x.com/mikebelshe/status/2070240967479996463"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "Amperity",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
         },
         {
           "date": "2026-06-24",
@@ -230,16 +240,6 @@
         },
         {
           "date": "2026-06-16",
-          "company": "Robinhood",
-          "num_laid_off": 290,
-          "percentage_laid_off": 0.1,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-        },
-        {
-          "date": "2026-06-16",
           "company": "Rackspace",
           "num_laid_off": null,
           "percentage_laid_off": 0.15,
@@ -257,6 +257,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Robinhood",
+          "num_laid_off": 290,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
         },
         {
           "date": "2026-06-11",
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
-        },
-        {
-          "date": "2026-06-09",
-          "company": "Verily",
-          "num_laid_off": 58,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Subsidiary",
-          "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
         }
       ]
     },
-    "summary": "United States has 206,625 reported tech layoffs across 326 public events from 2025-01-02 to 2026-06-26."
+    "summary": "United States has 206,625 reported tech layoffs across 327 public events from 2025-01-02 to 2026-06-29."
   },
   {
     "type": "country",
@@ -585,16 +585,16 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-24"
+      "end": "2026-06-29"
     },
     "kpis": {
-      "total_laid_off": 6493,
-      "event_count": 58,
-      "headcount_event_count": 40,
-      "company_count": 50,
+      "total_laid_off": 6593,
+      "event_count": 59,
+      "headcount_event_count": 41,
+      "company_count": 51,
       "country_count": 1,
       "industry_count": 20,
-      "high_intensity_event_count": 17
+      "high_intensity_event_count": 18
     },
     "charts": {
       "monthly_trend": [
@@ -656,7 +656,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 510
+          "total_laid_off": 610
         }
       ],
       "company_top": [
@@ -704,6 +704,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-29",
+          "company": "Elementor",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.3,
+          "industry": "Media",
+          "country": "Israel",
+          "stage": "Series B",
+          "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+        },
         {
           "date": "2026-06-24",
           "company": "Cyberbit",
@@ -843,20 +853,10 @@
           "country": "Israel",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
-        },
-        {
-          "date": "2026-04-13",
-          "company": "StarkWare",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
         }
       ]
     },
-    "summary": "Israel has 6,493 reported tech layoffs across 58 public events from 2025-01-06 to 2026-06-24."
+    "summary": "Israel has 6,593 reported tech layoffs across 59 public events from 2025-01-06 to 2026-06-29."
   },
   {
     "type": "country",

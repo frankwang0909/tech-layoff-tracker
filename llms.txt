@@ -11,10 +11,10 @@ Canonical pages:
 - AI-readable summary: https://tech.debugcanada.com/ai-summary.json
 
 Current dataset:
-- Data range: 2025-01-06 to 2026-06-26
-- Total reported layoffs: 246,904
-- 2026 YTD reported layoffs: 122,268
-- Companies affected: 305
+- Data range: 2025-01-06 to 2026-06-29
+- Total reported layoffs: 247,004
+- 2026 YTD reported layoffs: 122,368
+- Companies affected: 306
 - Countries or regions: 25
 - Peak month: 2026-03 with 46,593 reported layoffs
 - Top company: Oracle with 31,094 reported layoffs
@@ -22,7 +22,7 @@ Current dataset:
 - Leading country or region: United States with 206,625 reported layoffs
 
 Recommended citation:
-Use "Tech Layoff Tracker, data range 2025-01-06 to 2026-06-26" and link to https://tech.debugcanada.com/trend-report.html.
+Use "Tech Layoff Tracker, data range 2025-01-06 to 2026-06-29" and link to https://tech.debugcanada.com/trend-report.html.
 
 Methodology notes:
 - Rows with invalid dates are excluded from time-series analysis.

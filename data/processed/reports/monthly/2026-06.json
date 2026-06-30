@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-01",
-    "end": "2026-06-26"
+    "end": "2026-06-29"
   },
-  "updated_at": "2026-06-26",
+  "updated_at": "2026-06-29",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 5204,
-    "event_count": 44,
-    "headcount_event_count": 25,
-    "company_count": 44,
+    "total_laid_off": 5304,
+    "event_count": 46,
+    "headcount_event_count": 26,
+    "company_count": 46,
     "country_count": 10,
     "industry_count": 23,
-    "average_layoffs_per_headcount_event": 208.16,
+    "average_layoffs_per_headcount_event": 204.0,
     "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 6
+    "high_intensity_event_count": 7
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05",
       "total_laid_off": 28934,
       "event_count": 49,
-      "total_laid_off_delta": -23730,
-      "total_laid_off_pct_change": -0.8201,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.102,
+      "total_laid_off_delta": -23630,
+      "total_laid_off_pct_change": -0.8167,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.0612,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": 3598,
-      "total_laid_off_pct_change": 2.2403,
-      "event_count_delta": 28,
-      "event_count_pct_change": 1.75,
+      "total_laid_off_delta": 3698,
+      "total_laid_off_pct_change": 2.3026,
+      "event_count_delta": 30,
+      "event_count_pct_change": 1.875,
       "note": null
     }
   },
@@ -106,6 +106,10 @@
         "total_laid_off": 350
       },
       {
+        "industry": "Media",
+        "total_laid_off": 300
+      },
+      {
         "industry": "Data",
         "total_laid_off": 300
       },
@@ -116,10 +120,6 @@
       {
         "industry": "Healthcare",
         "total_laid_off": 218
-      },
-      {
-        "industry": "Media",
-        "total_laid_off": 200
       },
       {
         "industry": "Crypto",
@@ -137,7 +137,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 510
+        "total_laid_off": 610
       },
       {
         "country": "Netherlands",
@@ -186,6 +186,10 @@
         "total_laid_off": 100
       },
       {
+        "stage": "Series B",
+        "total_laid_off": 100
+      },
+      {
         "stage": "Series E",
         "total_laid_off": 100
       },
@@ -205,7 +209,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 3
+        "event_count": 4
       },
       {
         "bucket": "50-99%",
@@ -322,6 +326,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-06-29",
+        "company": "Elementor",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+      },
+      {
+        "date": "2026-06-29",
+        "company": "Equip Health",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+      },
+      {
         "date": "2026-06-26",
         "company": "SAS",
         "num_laid_off": 300,
@@ -330,6 +354,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
       },
       {
         "date": "2026-06-26",
@@ -350,16 +384,6 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "Culture Amp",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.09,
-        "industry": "HR",
-        "country": "Australia",
-        "stage": "Series F",
-        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
       },
       {
         "date": "2026-06-25",
@@ -500,26 +524,6 @@
         "country": "Germany",
         "stage": "Unknown",
         "source": "https://x.com/gluk64/status/2066964567884747146"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Rackspace",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.15,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Rivian",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.02,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
       }
     ],
     "high_intensity_events": [
@@ -564,6 +568,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
       },
       {
+        "date": "2026-06-29",
+        "company": "Elementor",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+      },
+      {
         "date": "2026-06-17",
         "company": "Lastminute",
         "num_laid_off": 400,
@@ -586,10 +600,10 @@
     ]
   },
   "insights": [
-    "2026-06 includes 44 public layoff events and 5,204 reported layoffs.",
+    "2026-06 includes 46 public layoff events and 5,304 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
-    "6 events report a layoff percentage of 25% or higher."
+    "7 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

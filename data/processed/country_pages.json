@@ -10,10 +10,10 @@
       "end": "2026-06-29"
     },
     "kpis": {
-      "total_laid_off": 206625,
-      "event_count": 327,
-      "headcount_event_count": 214,
-      "company_count": 249,
+      "total_laid_off": 206701,
+      "event_count": 328,
+      "headcount_event_count": 215,
+      "company_count": 250,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 3370
+          "total_laid_off": 3446
         }
       ],
       "company_top": [
@@ -169,6 +169,16 @@
           "source": "https://www.newsobserver.com/news/business/article316281262.html"
         },
         {
+          "date": "2026-06-26",
+          "company": "ADP",
+          "num_laid_off": 76,
+          "percentage_laid_off": null,
+          "industry": "HR",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+        },
+        {
           "date": "2026-06-25",
           "company": "Bungie",
           "num_laid_off": 292,
@@ -177,6 +187,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
         },
         {
           "date": "2026-06-25",
@@ -197,16 +217,6 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
         },
         {
           "date": "2026-06-24",
@@ -240,6 +250,16 @@
         },
         {
           "date": "2026-06-16",
+          "company": "Robinhood",
+          "num_laid_off": 290,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+        },
+        {
+          "date": "2026-06-16",
           "company": "Rackspace",
           "num_laid_off": null,
           "percentage_laid_off": 0.15,
@@ -259,16 +279,6 @@
           "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
         },
         {
-          "date": "2026-06-16",
-          "company": "Robinhood",
-          "num_laid_off": 290,
-          "percentage_laid_off": 0.1,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-        },
-        {
           "date": "2026-06-11",
           "company": "ServiceNow",
           "num_laid_off": 54,
@@ -277,20 +287,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-        },
-        {
-          "date": "2026-06-10",
-          "company": "Veritone",
-          "num_laid_off": 111,
-          "percentage_laid_off": 0.25,
-          "industry": "AI",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
         }
       ]
     },
-    "summary": "United States has 206,625 reported tech layoffs across 327 public events from 2025-01-02 to 2026-06-29."
+    "summary": "United States has 206,701 reported tech layoffs across 328 public events from 2025-01-02 to 2026-06-29."
   },
   {
     "type": "country",
@@ -585,12 +585,12 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-06-29"
+      "end": "2026-06-30"
     },
     "kpis": {
-      "total_laid_off": 6593,
-      "event_count": 59,
-      "headcount_event_count": 41,
+      "total_laid_off": 6673,
+      "event_count": 60,
+      "headcount_event_count": 42,
       "company_count": 51,
       "country_count": 1,
       "industry_count": 20,
@@ -656,7 +656,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 610
+          "total_laid_off": 690
         }
       ],
       "company_top": [
@@ -697,13 +697,23 @@
           "total_laid_off": 160
         },
         {
-          "company": "Hailo",
-          "total_laid_off": 140
+          "company": "PlaxidityX",
+          "total_laid_off": 145
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-06-30",
+          "company": "PlaxidityX",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
+        },
         {
           "date": "2026-06-29",
           "company": "Elementor",
@@ -843,20 +853,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Nayax",
-          "num_laid_off": 32,
-          "percentage_laid_off": 0.03,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
         }
       ]
     },
-    "summary": "Israel has 6,593 reported tech layoffs across 59 public events from 2025-01-06 to 2026-06-29."
+    "summary": "Israel has 6,673 reported tech layoffs across 60 public events from 2025-01-06 to 2026-06-30."
   },
   {
     "type": "country",

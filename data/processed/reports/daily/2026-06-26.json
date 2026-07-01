@@ -6,17 +6,17 @@
     "start": "2026-06-26",
     "end": "2026-06-26"
   },
-  "updated_at": "2026-06-29",
+  "updated_at": "2026-06-30",
   "canonical_url": "/reports/daily/2026-06-26.html",
   "kpis": {
-    "total_laid_off": 370,
-    "event_count": 4,
-    "headcount_event_count": 2,
-    "company_count": 4,
+    "total_laid_off": 446,
+    "event_count": 5,
+    "headcount_event_count": 3,
+    "company_count": 5,
     "country_count": 3,
     "industry_count": 4,
-    "average_layoffs_per_headcount_event": 185.0,
-    "median_layoffs_per_headcount_event": 185.0,
+    "average_layoffs_per_headcount_event": 148.67,
+    "median_layoffs_per_headcount_event": 76.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-06-25",
       "total_laid_off": 382,
       "event_count": 4,
-      "total_laid_off_delta": -12,
-      "total_laid_off_pct_change": -0.0314,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 64,
+      "total_laid_off_pct_change": 0.1675,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.25,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-06-26",
       "total_laid_off": 140,
       "event_count": 1,
-      "total_laid_off_delta": 230,
-      "total_laid_off_pct_change": 1.6429,
-      "event_count_delta": 3,
-      "event_count_pct_change": 3.0,
+      "total_laid_off_delta": 306,
+      "total_laid_off_pct_change": 2.1857,
+      "event_count_delta": 4,
+      "event_count_pct_change": 4.0,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "SAS",
         "total_laid_off": 300
+      },
+      {
+        "company": "ADP",
+        "total_laid_off": 76
       },
       {
         "company": "Culture Amp",
@@ -59,13 +63,13 @@
       },
       {
         "industry": "HR",
-        "total_laid_off": 70
+        "total_laid_off": 146
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 300
+        "total_laid_off": 376
       },
       {
         "country": "Australia",
@@ -76,6 +80,10 @@
       {
         "stage": "Unknown",
         "total_laid_off": 300
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 76
       },
       {
         "stage": "Series F",
@@ -119,6 +127,16 @@
       },
       {
         "date": "2026-06-26",
+        "company": "ADP",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+      },
+      {
+        "date": "2026-06-26",
         "company": "Culture Amp",
         "num_laid_off": 70,
         "percentage_laid_off": 0.09,
@@ -138,6 +156,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "ADP",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
       },
       {
         "date": "2026-06-26",
@@ -184,7 +212,7 @@
     ]
   },
   "insights": [
-    "2026-06-26 includes 4 public layoff events and 370 reported layoffs.",
+    "2026-06-26 includes 5 public layoff events and 446 reported layoffs.",
     "The largest company contributor is SAS with 300 reported layoffs.",
     "The leading named industry is Data with 300 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

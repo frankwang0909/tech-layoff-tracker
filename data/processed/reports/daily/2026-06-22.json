@@ -6,15 +6,15 @@
     "start": "2026-06-22",
     "end": "2026-06-22"
   },
-  "updated_at": "2026-06-29",
+  "updated_at": "2026-06-30",
   "canonical_url": "/reports/daily/2026-06-22.html",
   "kpis": {
     "total_laid_off": 1600,
-    "event_count": 2,
+    "event_count": 3,
     "headcount_event_count": 2,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 1,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 800.0,
     "median_layoffs_per_headcount_event": 800.0,
     "high_intensity_event_count": 1
@@ -144,6 +144,16 @@
         "country": "India",
         "stage": "Series A",
         "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+      },
+      {
+        "date": "2026-06-22",
+        "company": "Tractive",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Austria",
+        "stage": "Acquired",
+        "source": "https://ooe.orf.at/stories/3359562/"
       }
     ],
     "high_intensity_events": [
@@ -160,7 +170,7 @@
     ]
   },
   "insights": [
-    "2026-06-22 includes 2 public layoff events and 1,600 reported layoffs.",
+    "2026-06-22 includes 3 public layoff events and 1,600 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

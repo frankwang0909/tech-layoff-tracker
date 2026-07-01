@@ -4,9 +4,9 @@
   "generated_from": "data/processed/*.json",
   "data_range": {
     "start": "2025-01-06",
-    "end": "2026-06-29"
+    "end": "2026-06-30"
   },
-  "summary": "Tech Layoff Tracker reports 247,004 public tech layoffs from 2025-01-06 to 2026-06-29. The dataset covers 306 companies across 25 countries or regions. The largest month is 2026-03 with 46,593 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 247,160 public tech layoffs from 2025-01-06 to 2026-06-30. The dataset covers 307 companies across 25 countries or regions. The largest month is 2026-03 with 46,593 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -14,19 +14,19 @@
     },
     {
       "name": "Data range",
-      "value": "2025-01-06 to 2026-06-29"
+      "value": "2025-01-06 to 2026-06-30"
     },
     {
       "name": "Total reported layoffs",
-      "value": "247,004"
+      "value": "247,160"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "122,368"
+      "value": "122,524"
     },
     {
       "name": "Companies affected",
-      "value": "306"
+      "value": "307"
     },
     {
       "name": "Countries or regions",
@@ -46,19 +46,19 @@
     },
     {
       "name": "Leading country or region",
-      "value": "United States (206,625 layoffs)"
+      "value": "United States (206,701 layoffs)"
     }
   ],
   "insights": [
     "Oracle is the highest-ranked company by reported layoffs in the current company summary, with 31,094 layoffs.",
     "Hardware is the largest industry category, accounting for 51,391 reported layoffs.",
-    "United States is the leading country or region in the current dataset, with 206,625 reported layoffs.",
+    "United States is the leading country or region in the current dataset, with 206,701 reported layoffs.",
     "The peak month is 2026-03, with 46,593 reported layoffs."
   ],
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-06-29. The month with the highest reported layoff total is 2026-03."
+      "answer": "The current data covers 2025-01-06 to 2026-06-30. The month with the highest reported layoff total is 2026-03."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
@@ -98,7 +98,7 @@
         "name": "Hardware",
         "canonical_url": "https://tech.debugcanada.com/industries/hardware.html",
         "total_laid_off": 51391,
-        "event_count": 19
+        "event_count": 20
       },
       {
         "name": "Retail",
@@ -133,14 +133,14 @@
       {
         "name": "HR",
         "canonical_url": "https://tech.debugcanada.com/industries/hr.html",
-        "total_laid_off": 5715,
-        "event_count": 14
+        "total_laid_off": 5791,
+        "event_count": 15
       },
       {
         "name": "Security",
         "canonical_url": "https://tech.debugcanada.com/industries/security.html",
-        "total_laid_off": 4227,
-        "event_count": 30
+        "total_laid_off": 4307,
+        "event_count": 31
       },
       {
         "name": "Infrastructure",
@@ -159,8 +159,8 @@
       {
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
-        "total_laid_off": 206625,
-        "event_count": 327
+        "total_laid_off": 206701,
+        "event_count": 328
       },
       {
         "name": "India",
@@ -171,8 +171,8 @@
       {
         "name": "Israel",
         "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
-        "total_laid_off": 6593,
-        "event_count": 59
+        "total_laid_off": 6673,
+        "event_count": 60
       },
       {
         "name": "Sweden",

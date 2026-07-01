@@ -1,7 +1,9 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+PlaxidityX,"Tel Aviv, Non-U.S.",80.0,2026-06-30,,Security,https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg,Acquired,25.0,Israel,2026-07-01T00:19:03.000Z
 Elementor,"Tel Aviv, Non-U.S.",100.0,2026-06-29,0.3,Media,https://www.calcalistech.com/ctechnews/article/sycgn6yxze,Series B,65.0,Israel,2026-06-30T01:28:53.000Z
 Equip Health,San Diego,,2026-06-29,0.04,Healthcare,https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/,Unknown,164.0,United States,2026-06-30T01:30:02.000Z
 SAS,Raleigh,300.0,2026-06-26,,Data,https://www.newsobserver.com/news/business/article316281262.html,Unknown,,United States,2026-06-27T16:41:37.000Z
+ADP,Jersey City,76.0,2026-06-26,,HR,https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf,Post-IPO,,United States,2026-06-30T17:56:06.000Z
 Culture Amp,"Melbourne, Non-U.S.",70.0,2026-06-26,0.09,HR,https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/,Series F,257.0,Australia,2026-06-27T16:42:13.000Z
 CompanyCam,Lincoln,,2026-06-26,,Recruiting,https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html,Series C,38.0,United States,2026-06-27T16:51:12.000Z
 JiviAI,"Gurugram, Non-U.S.",,2026-06-26,1.0,Healthcare,https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207,Seed,,India,2026-06-27T16:54:22.000Z
@@ -16,6 +18,7 @@ Ethereum Foundation,"Zug, Non-U.S.",54.0,2026-06-23,0.2,Crypto,https://www.coind
 Lazada Group ,"Singapore, Non-U.S.",,2026-06-23,0.05,Retail,https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review,Acquired,7200.0,Singapore,2026-06-23T17:32:37.000Z
 Lucid Motors,SF Bay Area,1500.0,2026-06-22,0.18,Transportation,https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/,Post-IPO,8300.0,United States,2026-06-23T01:29:47.000Z
 91Trucks,"Gurugram, Non-U.S.",100.0,2026-06-22,0.7,Transportation,https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133,Series A,5.0,India,2026-06-23T01:30:54.000Z
+Tractive,"Vienna, Non-U.S.",,2026-06-22,,Hardware,https://ooe.orf.at/stories/3359562/,Acquired,38.0,Austria,2026-06-30T17:54:21.000Z
 Lastminute,"Amsterdam, Non-U.S.",400.0,2026-06-17,0.25,Travel,https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf,Post-IPO,,Netherlands,2026-06-19T17:49:58.000Z
 Optimove,"Tel Aviv, Non-U.S.",,2026-06-17,0.1,Marketing,https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai,Series A,20.0,Israel,2026-06-19T17:48:02.000Z
 Robinhood,SF Bay Area,290.0,2026-06-16,0.1,Finance,https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/,Post-IPO,6200.0,United States,2026-06-16T20:28:07.000Z

@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-06-29"
+    "end": "2026-06-30"
   },
-  "updated_at": "2026-06-29",
+  "updated_at": "2026-06-30",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 122368,
-    "event_count": 223,
-    "headcount_event_count": 147,
-    "company_count": 211,
-    "country_count": 24,
+    "total_laid_off": 122524,
+    "event_count": 226,
+    "headcount_event_count": 149,
+    "company_count": 214,
+    "country_count": 25,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 832.44,
+    "average_layoffs_per_headcount_event": 822.31,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 41
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -2268,
-      "total_laid_off_pct_change": -0.0182,
-      "event_count_delta": -109,
-      "event_count_pct_change": -0.3283,
+      "total_laid_off_delta": -2112,
+      "total_laid_off_pct_change": -0.0169,
+      "event_count_delta": -106,
+      "event_count_pct_change": -0.3193,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -2268,
-      "total_laid_off_pct_change": -0.0182,
-      "event_count_delta": -109,
-      "event_count_pct_change": -0.3283,
+      "total_laid_off_delta": -2112,
+      "total_laid_off_pct_change": -0.0169,
+      "event_count_delta": -106,
+      "event_count_pct_change": -0.3193,
       "note": null
     }
   },
@@ -111,7 +111,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 2589
+        "total_laid_off": 2669
       },
       {
         "industry": "Transportation",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 102359
+        "total_laid_off": 102435
       },
       {
         "country": "Australia",
@@ -137,7 +137,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 3546
+        "total_laid_off": 3626
       },
       {
         "country": "India",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 106973
+        "total_laid_off": 107049
       },
       {
         "stage": "Unknown",
@@ -179,7 +179,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 3246
+        "total_laid_off": 3326
       },
       {
         "stage": "Series B",
@@ -338,14 +338,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-06-29",
-        "company": "Elementor",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.3,
-        "industry": "Media",
+        "date": "2026-06-30",
+        "company": "PlaxidityX",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Security",
         "country": "Israel",
-        "stage": "Series B",
-        "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
       },
       {
         "date": "2026-06-29",
@@ -358,6 +358,16 @@
         "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
       },
       {
+        "date": "2026-06-29",
+        "company": "Elementor",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.3,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+      },
+      {
         "date": "2026-06-26",
         "company": "SAS",
         "num_laid_off": 300,
@@ -366,6 +376,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.newsobserver.com/news/business/article316281262.html"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "Culture Amp",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.09,
+        "industry": "HR",
+        "country": "Australia",
+        "stage": "Series F",
+        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
       },
       {
         "date": "2026-06-26",
@@ -389,13 +409,13 @@
       },
       {
         "date": "2026-06-26",
-        "company": "Culture Amp",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.09,
+        "company": "ADP",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
         "industry": "HR",
-        "country": "Australia",
-        "stage": "Series F",
-        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
       },
       {
         "date": "2026-06-25",
@@ -469,6 +489,16 @@
       },
       {
         "date": "2026-06-23",
+        "company": "Lazada Group",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.05,
+        "industry": "Retail",
+        "country": "Singapore",
+        "stage": "Acquired",
+        "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
+      },
+      {
+        "date": "2026-06-23",
         "company": "Ethereum Foundation",
         "num_laid_off": 54,
         "percentage_laid_off": 0.2,
@@ -478,14 +508,14 @@
         "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
       },
       {
-        "date": "2026-06-23",
-        "company": "Lazada Group",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.05,
-        "industry": "Retail",
-        "country": "Singapore",
-        "stage": "Acquired",
-        "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
+        "date": "2026-06-22",
+        "company": "Lucid Motors",
+        "num_laid_off": 1500,
+        "percentage_laid_off": 0.18,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
       },
       {
         "date": "2026-06-22",
@@ -499,43 +529,13 @@
       },
       {
         "date": "2026-06-22",
-        "company": "Lucid Motors",
-        "num_laid_off": 1500,
-        "percentage_laid_off": 0.18,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
-      },
-      {
-        "date": "2026-06-17",
-        "company": "Lastminute",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.25,
-        "industry": "Travel",
-        "country": "Netherlands",
-        "stage": "Post-IPO",
-        "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
-      },
-      {
-        "date": "2026-06-17",
-        "company": "Optimove",
+        "company": "Tractive",
         "num_laid_off": null,
-        "percentage_laid_off": 0.1,
-        "industry": "Marketing",
-        "country": "Israel",
-        "stage": "Series A",
-        "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
-      },
-      {
-        "date": "2026-06-16",
-        "company": "Robinhood",
-        "num_laid_off": 290,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Austria",
+        "stage": "Acquired",
+        "source": "https://ooe.orf.at/stories/3359562/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 223 public layoff events and 122,368 reported layoffs.",
+    "2026 includes 226 public layoff events and 122,524 reported layoffs.",
     "The largest company contributor is Oracle with 30,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "41 events report a layoff percentage of 25% or higher."

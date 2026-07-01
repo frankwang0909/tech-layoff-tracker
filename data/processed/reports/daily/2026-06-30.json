@@ -1,41 +1,41 @@
 {
   "report_type": "daily",
-  "period": "2026-05-30",
+  "period": "2026-06-30",
   "status": "final",
   "date_range": {
-    "start": "2026-05-30",
-    "end": "2026-05-30"
+    "start": "2026-06-30",
+    "end": "2026-06-30"
   },
   "updated_at": "2026-06-30",
-  "canonical_url": "/reports/daily/2026-05-30.html",
+  "canonical_url": "/reports/daily/2026-06-30.html",
   "kpis": {
-    "total_laid_off": 117,
+    "total_laid_off": 80,
     "event_count": 1,
     "headcount_event_count": 1,
     "company_count": 1,
     "country_count": 1,
     "industry_count": 1,
-    "average_layoffs_per_headcount_event": 117.0,
-    "median_layoffs_per_headcount_event": 117.0,
+    "average_layoffs_per_headcount_event": 80.0,
+    "median_layoffs_per_headcount_event": 80.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-05-29",
-      "total_laid_off": 280,
+      "period": "2026-06-29",
+      "total_laid_off": 100,
       "event_count": 2,
-      "total_laid_off_delta": -163,
-      "total_laid_off_pct_change": -0.5821,
+      "total_laid_off_delta": -20,
+      "total_laid_off_pct_change": -0.2,
       "event_count_delta": -1,
       "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
-      "period": "2025-05-30",
-      "total_laid_off": 68,
+      "period": "2025-06-30",
+      "total_laid_off": 300,
       "event_count": 1,
-      "total_laid_off_delta": 49,
-      "total_laid_off_pct_change": 0.7206,
+      "total_laid_off_delta": -220,
+      "total_laid_off_pct_change": -0.7333,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
@@ -44,26 +44,26 @@
   "charts": {
     "company_top": [
       {
-        "company": "Credit Karma",
-        "total_laid_off": 117
+        "company": "PlaxidityX",
+        "total_laid_off": 80
       }
     ],
     "industry_top": [
       {
-        "industry": "Finance",
-        "total_laid_off": 117
+        "industry": "Security",
+        "total_laid_off": 80
       }
     ],
     "country_top": [
       {
-        "country": "United States",
-        "total_laid_off": 117
+        "country": "Israel",
+        "total_laid_off": 80
       }
     ],
     "stage_top": [
       {
         "stage": "Acquired",
-        "total_laid_off": 117
+        "total_laid_off": 80
       }
     ],
     "layoff_pct_distribution": [
@@ -92,34 +92,34 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2026-05-30",
-        "company": "Credit Karma",
-        "num_laid_off": 117,
+        "date": "2026-06-30",
+        "company": "PlaxidityX",
+        "num_laid_off": 80,
         "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
+        "industry": "Security",
+        "country": "Israel",
         "stage": "Acquired",
-        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+        "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
       }
     ],
     "recent_events": [
       {
-        "date": "2026-05-30",
-        "company": "Credit Karma",
-        "num_laid_off": 117,
+        "date": "2026-06-30",
+        "company": "PlaxidityX",
+        "num_laid_off": 80,
         "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
+        "industry": "Security",
+        "country": "Israel",
         "stage": "Acquired",
-        "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+        "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-05-30 includes 1 public layoff events and 117 reported layoffs.",
-    "The largest company contributor is Credit Karma with 117 reported layoffs.",
-    "The leading named industry is Finance with 117 reported layoffs."
+    "2026-06-30 includes 1 public layoff events and 80 reported layoffs.",
+    "The largest company contributor is PlaxidityX with 80 reported layoffs.",
+    "The leading named industry is Security with 80 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

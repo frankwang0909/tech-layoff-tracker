@@ -6,17 +6,17 @@
     "start": "2026-06-22",
     "end": "2026-06-26"
   },
-  "updated_at": "2026-06-29",
+  "updated_at": "2026-06-30",
   "canonical_url": "/reports/weekly/2026-W26.html",
   "kpis": {
-    "total_laid_off": 2406,
-    "event_count": 15,
-    "headcount_event_count": 7,
-    "company_count": 15,
-    "country_count": 6,
-    "industry_count": 10,
-    "average_layoffs_per_headcount_event": 343.71,
-    "median_layoffs_per_headcount_event": 100.0,
+    "total_laid_off": 2482,
+    "event_count": 17,
+    "headcount_event_count": 8,
+    "company_count": 17,
+    "country_count": 7,
+    "industry_count": 11,
+    "average_layoffs_per_headcount_event": 310.25,
+    "median_layoffs_per_headcount_event": 95.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W25",
       "total_laid_off": 890,
       "event_count": 8,
-      "total_laid_off_delta": 1516,
-      "total_laid_off_pct_change": 1.7034,
-      "event_count_delta": 7,
-      "event_count_pct_change": 0.875,
+      "total_laid_off_delta": 1592,
+      "total_laid_off_pct_change": 1.7888,
+      "event_count_delta": 9,
+      "event_count_pct_change": 1.125,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W26",
       "total_laid_off": 540,
       "event_count": 7,
-      "total_laid_off_delta": 1866,
-      "total_laid_off_pct_change": 3.4556,
-      "event_count_delta": 8,
-      "event_count_pct_change": 1.1429,
+      "total_laid_off_delta": 1942,
+      "total_laid_off_pct_change": 3.5963,
+      "event_count_delta": 10,
+      "event_count_pct_change": 1.4286,
       "note": null
     }
   },
@@ -64,6 +64,10 @@
         "total_laid_off": 90
       },
       {
+        "company": "ADP",
+        "total_laid_off": 76
+      },
+      {
         "company": "Culture Amp",
         "total_laid_off": 70
       },
@@ -86,18 +90,18 @@
         "total_laid_off": 292
       },
       {
-        "industry": "Crypto",
-        "total_laid_off": 144
+        "industry": "HR",
+        "total_laid_off": 146
       },
       {
-        "industry": "HR",
-        "total_laid_off": 70
+        "industry": "Crypto",
+        "total_laid_off": 144
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2182
+        "total_laid_off": 2258
       },
       {
         "country": "India",
@@ -115,7 +119,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1500
+        "total_laid_off": 1576
       },
       {
         "stage": "Unknown",
@@ -211,6 +215,16 @@
       },
       {
         "date": "2026-06-26",
+        "company": "ADP",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+      },
+      {
+        "date": "2026-06-26",
         "company": "Culture Amp",
         "num_laid_off": 70,
         "percentage_laid_off": 0.09,
@@ -272,24 +286,14 @@
         "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
       },
       {
-        "date": "2026-06-25",
-        "company": "Bungie",
-        "num_laid_off": 292,
+        "date": "2026-06-26",
+        "company": "ADP",
+        "num_laid_off": 76,
         "percentage_laid_off": null,
-        "industry": "Consumer",
+        "industry": "HR",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
-      },
-      {
-        "date": "2026-06-25",
-        "company": "BitGo",
-        "num_laid_off": 90,
-        "percentage_laid_off": 0.15,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        "stage": "Post-IPO",
+        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
       },
       {
         "date": "2026-06-25",
@@ -310,6 +314,26 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "Bungie",
+        "num_laid_off": 292,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
       },
       {
         "date": "2026-06-24",
@@ -380,6 +404,16 @@
         "country": "India",
         "stage": "Series A",
         "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+      },
+      {
+        "date": "2026-06-22",
+        "company": "Tractive",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Austria",
+        "stage": "Acquired",
+        "source": "https://ooe.orf.at/stories/3359562/"
       }
     ],
     "high_intensity_events": [
@@ -406,7 +440,7 @@
     ]
   },
   "insights": [
-    "2026-W26 includes 15 public layoff events and 2,406 reported layoffs.",
+    "2026-W26 includes 17 public layoff events and 2,482 reported layoffs.",
     "The largest company contributor is Lucid Motors with 1,500 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

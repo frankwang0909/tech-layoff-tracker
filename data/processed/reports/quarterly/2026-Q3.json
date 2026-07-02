@@ -1,0 +1,129 @@
+{
+  "report_type": "quarterly",
+  "period": "2026-Q3",
+  "status": "rolling",
+  "date_range": {
+    "start": "2026-07-01",
+    "end": "2026-07-01"
+  },
+  "updated_at": "2026-07-01",
+  "canonical_url": "/reports/quarterly/2026-Q3.html",
+  "kpis": {
+    "total_laid_off": 5500,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 5500.0,
+    "median_layoffs_per_headcount_event": 5500.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-Q2",
+      "total_laid_off": 39479,
+      "event_count": 133,
+      "total_laid_off_delta": -33979,
+      "total_laid_off_pct_change": -0.8607,
+      "event_count_delta": -132,
+      "event_count_pct_change": -0.9925,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-Q3",
+      "total_laid_off": 27554,
+      "event_count": 86,
+      "total_laid_off_delta": -22054,
+      "total_laid_off_pct_change": -0.8004,
+      "event_count_delta": -85,
+      "event_count_pct_change": -0.9884,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 5500
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 5500
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 5500
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5500
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-07-01",
+        "company": "Microsoft",
+        "num_laid_off": 5500,
+        "percentage_laid_off": 0.025,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-07-01",
+        "company": "Microsoft",
+        "num_laid_off": 5500,
+        "percentage_laid_off": 0.025,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-Q3 includes 1 public layoff events and 5,500 reported layoffs.",
+    "The largest company contributor is Microsoft with 5,500 reported layoffs.",
+    "The leading named industry is Other with 5,500 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

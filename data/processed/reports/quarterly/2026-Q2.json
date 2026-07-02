@@ -1,12 +1,12 @@
 {
   "report_type": "quarterly",
   "period": "2026-Q2",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-04-01",
     "end": "2026-06-30"
   },
-  "updated_at": "2026-06-30",
+  "updated_at": "2026-07-01",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 39479,

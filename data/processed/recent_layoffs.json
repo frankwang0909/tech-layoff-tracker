@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-01",
+    "company": "Microsoft",
+    "num_laid_off": 5500,
+    "percentage_laid_off": 0.025,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+  },
+  {
     "date": "2026-06-30",
     "company": "PlaxidityX",
     "num_laid_off": 80,
@@ -8,16 +18,6 @@
     "country": "Israel",
     "stage": "Acquired",
     "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
-  },
-  {
-    "date": "2026-06-29",
-    "company": "Equip Health",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.04,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
   },
   {
     "date": "2026-06-29",
@@ -30,6 +30,16 @@
     "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
   },
   {
+    "date": "2026-06-29",
+    "company": "Equip Health",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.04,
+    "industry": "Healthcare",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+  },
+  {
     "date": "2026-06-26",
     "company": "SAS",
     "num_laid_off": 300,
@@ -38,26 +48,6 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://www.newsobserver.com/news/business/article316281262.html"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "CompanyCam",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Recruiting",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "JiviAI",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Healthcare",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
   },
   {
     "date": "2026-06-26",
@@ -80,24 +70,24 @@
     "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
   },
   {
-    "date": "2026-06-25",
-    "company": "Amperity",
+    "date": "2026-06-26",
+    "company": "CompanyCam",
     "num_laid_off": null,
     "percentage_laid_off": null,
-    "industry": "Marketing",
+    "industry": "Recruiting",
     "country": "United States",
-    "stage": "Series D",
-    "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+    "stage": "Series C",
+    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
   },
   {
-    "date": "2026-06-25",
-    "company": "Sonos",
+    "date": "2026-06-26",
+    "company": "JiviAI",
     "num_laid_off": null,
-    "percentage_laid_off": 0.03,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+    "percentage_laid_off": 1.0,
+    "industry": "Healthcare",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
   },
   {
     "date": "2026-06-25",
@@ -118,5 +108,15 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://x.com/mikebelshe/status/2070240967479996463"
+  },
+  {
+    "date": "2026-06-25",
+    "company": "Amperity",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series D",
+    "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
   }
 ]

@@ -7,12 +7,12 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-29"
+      "end": "2026-07-01"
     },
     "kpis": {
-      "total_laid_off": 206701,
-      "event_count": 328,
-      "headcount_event_count": 215,
+      "total_laid_off": 212201,
+      "event_count": 329,
+      "headcount_event_count": 216,
       "company_count": 250,
       "country_count": 1,
       "industry_count": 29,
@@ -91,6 +91,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 3446
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 5500
         }
       ],
       "company_top": [
@@ -108,7 +112,7 @@
         },
         {
           "company": "Microsoft",
-          "total_laid_off": 15347
+          "total_laid_off": 20847
         },
         {
           "company": "Meta",
@@ -139,6 +143,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-07-01",
+          "company": "Microsoft",
+          "num_laid_off": 5500,
+          "percentage_laid_off": 0.025,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        },
+        {
           "date": "2026-06-29",
           "company": "Equip Health",
           "num_laid_off": null,
@@ -147,16 +161,6 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
-        },
-        {
-          "date": "2026-06-26",
-          "company": "CompanyCam",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
         },
         {
           "date": "2026-06-26",
@@ -177,6 +181,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+        },
+        {
+          "date": "2026-06-26",
+          "company": "CompanyCam",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
         },
         {
           "date": "2026-06-25",
@@ -277,20 +291,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
-        },
-        {
-          "date": "2026-06-11",
-          "company": "ServiceNow",
-          "num_laid_off": 54,
-          "percentage_laid_off": null,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
         }
       ]
     },
-    "summary": "United States has 206,701 reported tech layoffs across 328 public events from 2025-01-02 to 2026-06-29."
+    "summary": "United States has 212,201 reported tech layoffs across 329 public events from 2025-01-02 to 2026-07-01."
   },
   {
     "type": "country",

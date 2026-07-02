@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-06-29",
-    "end": "2026-06-30"
+    "end": "2026-07-01"
   },
-  "updated_at": "2026-06-30",
+  "updated_at": "2026-07-01",
   "canonical_url": "/reports/weekly/2026-W27.html",
   "kpis": {
-    "total_laid_off": 180,
-    "event_count": 3,
-    "headcount_event_count": 2,
-    "company_count": 3,
+    "total_laid_off": 5680,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
     "country_count": 2,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 90.0,
-    "median_layoffs_per_headcount_event": 90.0,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 1893.33,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W26",
       "total_laid_off": 2482,
       "event_count": 17,
-      "total_laid_off_delta": -2302,
-      "total_laid_off_pct_change": -0.9275,
-      "event_count_delta": -14,
-      "event_count_pct_change": -0.8235,
+      "total_laid_off_delta": 3198,
+      "total_laid_off_pct_change": 1.2885,
+      "event_count_delta": -13,
+      "event_count_pct_change": -0.7647,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W27",
       "total_laid_off": 9320,
       "event_count": 6,
-      "total_laid_off_delta": -9140,
-      "total_laid_off_pct_change": -0.9807,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -3640,
+      "total_laid_off_pct_change": -0.3906,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.3333,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 5500
+      },
       {
         "company": "Elementor",
         "total_laid_off": 100
@@ -54,6 +58,10 @@
     ],
     "industry_top": [
       {
+        "industry": "Other",
+        "total_laid_off": 5500
+      },
+      {
         "industry": "Media",
         "total_laid_off": 100
       },
@@ -64,11 +72,19 @@
     ],
     "country_top": [
       {
+        "country": "United States",
+        "total_laid_off": 5500
+      },
+      {
         "country": "Israel",
         "total_laid_off": 180
       }
     ],
     "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 5500
+      },
       {
         "stage": "Series B",
         "total_laid_off": 100
@@ -81,7 +97,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -104,6 +120,16 @@
   "tables": {
     "largest_events": [
       {
+        "date": "2026-07-01",
+        "company": "Microsoft",
+        "num_laid_off": 5500,
+        "percentage_laid_off": 0.025,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      },
+      {
         "date": "2026-06-29",
         "company": "Elementor",
         "num_laid_off": 100,
@@ -125,6 +151,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-01",
+        "company": "Microsoft",
+        "num_laid_off": 5500,
+        "percentage_laid_off": 0.025,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      },
       {
         "date": "2026-06-30",
         "company": "PlaxidityX",
@@ -170,8 +206,8 @@
     ]
   },
   "insights": [
-    "2026-W27 includes 3 public layoff events and 180 reported layoffs.",
-    "The largest company contributor is Elementor with 100 reported layoffs.",
+    "2026-W27 includes 4 public layoff events and 5,680 reported layoffs.",
+    "The largest company contributor is Microsoft with 5,500 reported layoffs.",
     "The leading named industry is Media with 100 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],

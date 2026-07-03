@@ -6,7 +6,7 @@
     "start": "2025-01-06",
     "end": "2026-07-01"
   },
-  "summary": "Tech Layoff Tracker reports 252,660 public tech layoffs from 2025-01-06 to 2026-07-01. The dataset covers 307 companies across 25 countries or regions. The largest month is 2026-03 with 46,593 reported layoffs. The top company is Oracle; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 243,660 public tech layoffs from 2025-01-06 to 2026-07-01. The dataset covers 307 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -18,11 +18,11 @@
     },
     {
       "name": "Total reported layoffs",
-      "value": "252,660"
+      "value": "243,660"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "128,024"
+      "value": "119,024"
     },
     {
       "name": "Companies affected",
@@ -34,11 +34,11 @@
     },
     {
       "name": "Peak month",
-      "value": "2026-03 (46,593 layoffs)"
+      "value": "2026-05 (28,934 layoffs)"
     },
     {
       "name": "Top company",
-      "value": "Oracle (31,094 layoffs)"
+      "value": "Amazon (30,284 layoffs)"
     },
     {
       "name": "Leading named industry",
@@ -46,23 +46,23 @@
     },
     {
       "name": "Leading country or region",
-      "value": "United States (212,201 layoffs)"
+      "value": "United States (203,201 layoffs)"
     }
   ],
   "insights": [
-    "Oracle is the highest-ranked company by reported layoffs in the current company summary, with 31,094 layoffs.",
+    "Amazon is the highest-ranked company by reported layoffs in the current company summary, with 30,284 layoffs.",
     "Hardware is the largest industry category, accounting for 51,391 reported layoffs.",
-    "United States is the leading country or region in the current dataset, with 212,201 reported layoffs.",
-    "The peak month is 2026-03, with 46,593 reported layoffs."
+    "United States is the leading country or region in the current dataset, with 203,201 reported layoffs.",
+    "The peak month is 2026-05, with 28,934 reported layoffs."
   ],
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-07-01. The month with the highest reported layoff total is 2026-03."
+      "answer": "The current data covers 2025-01-06 to 2026-07-01. The month with the highest reported layoff total is 2026-05."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
-      "answer": "Oracle ranks first in the current company summary with 31,094 reported layoffs."
+      "answer": "Amazon ranks first in the current company summary with 30,284 reported layoffs."
     },
     {
       "question": "Which industry is most affected by tech layoffs?",
@@ -159,7 +159,7 @@
       {
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
-        "total_laid_off": 212201,
+        "total_laid_off": 203201,
         "event_count": 329
       },
       {

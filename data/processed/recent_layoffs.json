@@ -51,26 +51,6 @@
   },
   {
     "date": "2026-06-26",
-    "company": "ADP",
-    "num_laid_off": 76,
-    "percentage_laid_off": null,
-    "industry": "HR",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "Culture Amp",
-    "num_laid_off": 70,
-    "percentage_laid_off": 0.09,
-    "industry": "HR",
-    "country": "Australia",
-    "stage": "Series F",
-    "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
-  },
-  {
-    "date": "2026-06-26",
     "company": "CompanyCam",
     "num_laid_off": null,
     "percentage_laid_off": null,
@@ -90,14 +70,24 @@
     "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
   },
   {
-    "date": "2026-06-25",
-    "company": "Bungie",
-    "num_laid_off": 292,
+    "date": "2026-06-26",
+    "company": "ADP",
+    "num_laid_off": 76,
     "percentage_laid_off": null,
-    "industry": "Consumer",
+    "industry": "HR",
     "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+    "stage": "Post-IPO",
+    "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+  },
+  {
+    "date": "2026-06-26",
+    "company": "Culture Amp",
+    "num_laid_off": 70,
+    "percentage_laid_off": 0.09,
+    "industry": "HR",
+    "country": "Australia",
+    "stage": "Series F",
+    "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
   },
   {
     "date": "2026-06-25",
@@ -118,5 +108,15 @@
     "country": "United States",
     "stage": "Series D",
     "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+  },
+  {
+    "date": "2026-06-25",
+    "company": "Sonos",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.03,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
   }
 ]

@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
-    "total_laid_off": 46593,
-    "event_count": 32,
-    "headcount_event_count": 20,
-    "company_count": 32,
+    "total_laid_off": 16593,
+    "event_count": 31,
+    "headcount_event_count": 19,
+    "company_count": 31,
     "country_count": 9,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 2329.65,
-    "median_layoffs_per_headcount_event": 175.0,
+    "average_layoffs_per_headcount_event": 873.32,
+    "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 9
   },
   "comparisons": {
@@ -24,29 +24,25 @@
       "period": "2026-02",
       "total_laid_off": 11269,
       "event_count": 28,
-      "total_laid_off_delta": 35324,
-      "total_laid_off_pct_change": 3.1346,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.1429,
+      "total_laid_off_delta": 5324,
+      "total_laid_off_pct_change": 0.4724,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.1071,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 37679,
-      "total_laid_off_pct_change": 4.2269,
-      "event_count_delta": 10,
-      "event_count_pct_change": 0.4545,
+      "total_laid_off_delta": 7679,
+      "total_laid_off_pct_change": 0.8615,
+      "event_count_delta": 9,
+      "event_count_pct_change": 0.4091,
       "note": null
     }
   },
   "charts": {
     "company_top": [
-      {
-        "company": "Oracle",
-        "total_laid_off": 30000
-      },
       {
         "company": "Dell",
         "total_laid_off": 11000
@@ -82,13 +78,13 @@
       {
         "company": "Envato",
         "total_laid_off": 200
+      },
+      {
+        "company": "InvestCloud",
+        "total_laid_off": 150
       }
     ],
     "industry_top": [
-      {
-        "industry": "Other",
-        "total_laid_off": 31649
-      },
       {
         "industry": "Hardware",
         "total_laid_off": 11000
@@ -96,6 +92,10 @@
       {
         "industry": "Consumer",
         "total_laid_off": 1700
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 1649
       },
       {
         "industry": "Retail",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 43477
+        "total_laid_off": 13477
       },
       {
         "country": "Australia",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 43864
+        "total_laid_off": 13864
       },
       {
         "stage": "Unknown",
@@ -215,16 +215,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-      },
       {
         "date": "2026-03-16",
         "company": "Dell",
@@ -314,19 +304,19 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      },
+      {
+        "date": "2026-03-10",
+        "company": "InvestCloud",
+        "num_laid_off": 150,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Private Equity",
+        "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
       }
     ],
     "recent_events": [
-      {
-        "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-      },
       {
         "date": "2026-03-31",
         "company": "Monzo",
@@ -516,6 +506,16 @@
         "country": "Canada",
         "stage": "Private Equity",
         "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+      },
+      {
+        "date": "2026-03-13",
+        "company": "Digg",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
       }
     ],
     "high_intensity_events": [
@@ -612,8 +612,8 @@
     ]
   },
   "insights": [
-    "2026-03 includes 32 public layoff events and 46,593 reported layoffs.",
-    "The largest company contributor is Oracle with 30,000 reported layoffs.",
+    "2026-03 includes 31 public layoff events and 16,593 reported layoffs.",
+    "The largest company contributor is Dell with 11,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
     "9 events report a layoff percentage of 25% or higher."
   ],

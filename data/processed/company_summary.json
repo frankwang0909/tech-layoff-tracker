@@ -1,15 +1,15 @@
 [
   {
-    "company": "Oracle",
-    "total_laid_off": 31094
-  },
-  {
     "company": "Amazon",
     "total_laid_off": 30284
   },
   {
     "company": "Intel",
     "total_laid_off": 27058
+  },
+  {
+    "company": "Oracle",
+    "total_laid_off": 22094
   },
   {
     "company": "Microsoft",

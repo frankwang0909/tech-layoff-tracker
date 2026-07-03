@@ -10,7 +10,7 @@
       "end": "2026-07-01"
     },
     "kpis": {
-      "total_laid_off": 212201,
+      "total_laid_off": 203201,
       "event_count": 329,
       "headcount_event_count": 216,
       "company_count": 250,
@@ -78,7 +78,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 43477
+          "total_laid_off": 13477
         },
         {
           "month": "2026-04",
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 3446
+          "total_laid_off": 24446
         },
         {
           "month": "2026-07",
@@ -99,16 +99,16 @@
       ],
       "company_top": [
         {
-          "company": "Oracle",
-          "total_laid_off": 31094
-        },
-        {
           "company": "Amazon",
           "total_laid_off": 30284
         },
         {
           "company": "Intel",
           "total_laid_off": 27058
+        },
+        {
+          "company": "Oracle",
+          "total_laid_off": 22094
         },
         {
           "company": "Microsoft",
@@ -174,16 +174,6 @@
         },
         {
           "date": "2026-06-26",
-          "company": "ADP",
-          "num_laid_off": 76,
-          "percentage_laid_off": null,
-          "industry": "HR",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
-        },
-        {
-          "date": "2026-06-26",
           "company": "CompanyCam",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -191,6 +181,16 @@
           "country": "United States",
           "stage": "Series C",
           "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+        },
+        {
+          "date": "2026-06-26",
+          "company": "ADP",
+          "num_laid_off": 76,
+          "percentage_laid_off": null,
+          "industry": "HR",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
         },
         {
           "date": "2026-06-25",
@@ -253,6 +253,16 @@
           "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
         },
         {
+          "date": "2026-06-23",
+          "company": "Oracle",
+          "num_laid_off": 21000,
+          "percentage_laid_off": 0.13,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"
+        },
+        {
           "date": "2026-06-22",
           "company": "Lucid Motors",
           "num_laid_off": 1500,
@@ -281,20 +291,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Rivian",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.02,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
         }
       ]
     },
-    "summary": "United States has 212,201 reported tech layoffs across 329 public events from 2025-01-02 to 2026-07-01."
+    "summary": "United States has 203,201 reported tech layoffs across 329 public events from 2025-01-02 to 2026-07-01."
   },
   {
     "type": "country",

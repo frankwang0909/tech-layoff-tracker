@@ -9,40 +9,44 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 39479,
-    "event_count": 133,
-    "headcount_event_count": 86,
-    "company_count": 131,
+    "total_laid_off": 60479,
+    "event_count": 134,
+    "headcount_event_count": 87,
+    "company_count": 132,
     "country_count": 20,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 459.06,
-    "median_layoffs_per_headcount_event": 114.0,
+    "average_layoffs_per_headcount_event": 695.16,
+    "median_layoffs_per_headcount_event": 117.0,
     "high_intensity_event_count": 22
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
-      "total_laid_off": 83045,
-      "event_count": 93,
-      "total_laid_off_delta": -43566,
-      "total_laid_off_pct_change": -0.5246,
-      "event_count_delta": 40,
-      "event_count_pct_change": 0.4301,
+      "total_laid_off": 53045,
+      "event_count": 92,
+      "total_laid_off_delta": 7434,
+      "total_laid_off_pct_change": 0.1401,
+      "event_count_delta": 42,
+      "event_count_pct_change": 0.4565,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q2",
       "total_laid_off": 37603,
       "event_count": 72,
-      "total_laid_off_delta": 1876,
-      "total_laid_off_pct_change": 0.0499,
-      "event_count_delta": 61,
-      "event_count_pct_change": 0.8472,
+      "total_laid_off_delta": 22876,
+      "total_laid_off_pct_change": 0.6084,
+      "event_count_delta": 62,
+      "event_count_pct_change": 0.8611,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Oracle",
+        "total_laid_off": 21000
+      },
       {
         "company": "Meta",
         "total_laid_off": 8200
@@ -72,19 +76,19 @@
         "total_laid_off": 1100
       },
       {
-        "company": "Snap",
-        "total_laid_off": 1000
-      },
-      {
         "company": "Wix",
         "total_laid_off": 1000
       },
       {
-        "company": "UKG",
-        "total_laid_off": 950
+        "company": "Snap",
+        "total_laid_off": 1000
       }
     ],
     "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 21471
+      },
       {
         "industry": "Consumer",
         "total_laid_off": 10209
@@ -120,16 +124,12 @@
       {
         "industry": "Crypto",
         "total_laid_off": 1031
-      },
-      {
-        "industry": "Recruiting",
-        "total_laid_off": 875
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 32928
+        "total_laid_off": 53928
       },
       {
         "country": "Israel",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 30427
+        "total_laid_off": 51427
       },
       {
         "stage": "Unknown",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 28
+        "event_count": 29
       },
       {
         "bucket": "25-49%",
@@ -235,6 +235,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-06-23",
+        "company": "Oracle",
+        "num_laid_off": 21000,
+        "percentage_laid_off": 0.13,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"
+      },
       {
         "date": "2026-05-20",
         "company": "Meta",
@@ -324,16 +334,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
-      },
-      {
-        "date": "2026-04-15",
-        "company": "UKG",
-        "num_laid_off": 950,
-        "percentage_laid_off": null,
-        "industry": "HR",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
       }
     ],
     "recent_events": [
@@ -489,16 +489,6 @@
       },
       {
         "date": "2026-06-23",
-        "company": "Ethereum Foundation",
-        "num_laid_off": 54,
-        "percentage_laid_off": 0.2,
-        "industry": "Crypto",
-        "country": "Switzerland",
-        "stage": "Unknown",
-        "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
-      },
-      {
-        "date": "2026-06-23",
         "company": "Lazada Group",
         "num_laid_off": null,
         "percentage_laid_off": 0.05,
@@ -508,24 +498,24 @@
         "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
       },
       {
-        "date": "2026-06-22",
-        "company": "Tractive",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "Austria",
-        "stage": "Acquired",
-        "source": "https://ooe.orf.at/stories/3359562/"
+        "date": "2026-06-23",
+        "company": "Oracle",
+        "num_laid_off": 21000,
+        "percentage_laid_off": 0.13,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"
       },
       {
-        "date": "2026-06-22",
-        "company": "91Trucks",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.7,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Series A",
-        "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+        "date": "2026-06-23",
+        "company": "Ethereum Foundation",
+        "num_laid_off": 54,
+        "percentage_laid_off": 0.2,
+        "industry": "Crypto",
+        "country": "Switzerland",
+        "stage": "Unknown",
+        "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
       },
       {
         "date": "2026-06-22",
@@ -536,6 +526,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+      },
+      {
+        "date": "2026-06-22",
+        "company": "91Trucks",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.7,
+        "industry": "Transportation",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
       }
     ],
     "high_intensity_events": [
@@ -642,8 +642,8 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 133 public layoff events and 39,479 reported layoffs.",
-    "The largest company contributor is Meta with 8,200 reported layoffs.",
+    "2026-Q2 includes 134 public layoff events and 60,479 reported layoffs.",
+    "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Consumer with 10,209 reported layoffs.",
     "22 events report a layoff percentage of 25% or higher."
   ],

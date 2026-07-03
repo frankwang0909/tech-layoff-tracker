@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/weekly/2026-W14.html",
   "kpis": {
-    "total_laid_off": 30475,
-    "event_count": 12,
-    "headcount_event_count": 4,
-    "company_count": 12,
+    "total_laid_off": 475,
+    "event_count": 11,
+    "headcount_event_count": 3,
+    "company_count": 11,
     "country_count": 4,
-    "industry_count": 7,
-    "average_layoffs_per_headcount_event": 7618.75,
-    "median_layoffs_per_headcount_event": 212.5,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 158.33,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 6
   },
   "comparisons": {
@@ -24,29 +24,25 @@
       "period": "2026-W13",
       "total_laid_off": 1915,
       "event_count": 8,
-      "total_laid_off_delta": 28560,
-      "total_laid_off_pct_change": 14.9138,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.5,
+      "total_laid_off_delta": -1440,
+      "total_laid_off_pct_change": -0.752,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.375,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W14",
       "total_laid_off": 3814,
       "event_count": 9,
-      "total_laid_off_delta": 26661,
-      "total_laid_off_pct_change": 6.9903,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.3333,
+      "total_laid_off_delta": -3339,
+      "total_laid_off_pct_change": -0.8755,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.2222,
       "note": null
     }
   },
   "charts": {
     "company_top": [
-      {
-        "company": "Oracle",
-        "total_laid_off": 30000
-      },
       {
         "company": "Welltech",
         "total_laid_off": 225
@@ -62,10 +58,6 @@
     ],
     "industry_top": [
       {
-        "industry": "Other",
-        "total_laid_off": 30000
-      },
-      {
         "industry": "Fitness",
         "total_laid_off": 225
       },
@@ -80,12 +72,12 @@
     ],
     "country_top": [
       {
-        "country": "United States",
-        "total_laid_off": 30200
-      },
-      {
         "country": "Cyprus",
         "total_laid_off": 225
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 200
       },
       {
         "country": "United Kingdom",
@@ -94,12 +86,12 @@
     ],
     "stage_top": [
       {
-        "stage": "Post-IPO",
-        "total_laid_off": 30200
-      },
-      {
         "stage": "Unknown",
         "total_laid_off": 225
+      },
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 200
       },
       {
         "stage": "Series F",
@@ -131,16 +123,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-      },
       {
         "date": "2026-04-03",
         "company": "Welltech",
@@ -242,16 +224,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
       },
       {
         "date": "2026-03-31",
@@ -358,8 +330,8 @@
     ]
   },
   "insights": [
-    "2026-W14 includes 12 public layoff events and 30,475 reported layoffs.",
-    "The largest company contributor is Oracle with 30,000 reported layoffs.",
+    "2026-W14 includes 11 public layoff events and 475 reported layoffs.",
+    "The largest company contributor is Welltech with 225 reported layoffs.",
     "The leading named industry is Fitness with 225 reported layoffs.",
     "6 events report a layoff percentage of 25% or higher."
   ],

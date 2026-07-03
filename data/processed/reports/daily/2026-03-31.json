@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/daily/2026-03-31.html",
   "kpis": {
-    "total_laid_off": 30050,
-    "event_count": 5,
-    "headcount_event_count": 2,
-    "company_count": 5,
+    "total_laid_off": 50,
+    "event_count": 4,
+    "headcount_event_count": 1,
+    "company_count": 4,
     "country_count": 3,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 15025.0,
-    "median_layoffs_per_headcount_event": 15025.0,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 50.0,
+    "median_layoffs_per_headcount_event": 50.0,
     "high_intensity_event_count": 3
   },
   "comparisons": {
@@ -34,19 +34,15 @@
       "period": "2025-03-31",
       "total_laid_off": 2800,
       "event_count": 2,
-      "total_laid_off_delta": 27250,
-      "total_laid_off_pct_change": 9.7321,
-      "event_count_delta": 3,
-      "event_count_pct_change": 1.5,
+      "total_laid_off_delta": -2750,
+      "total_laid_off_pct_change": -0.9821,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
-      {
-        "company": "Oracle",
-        "total_laid_off": 30000
-      },
       {
         "company": "Monzo",
         "total_laid_off": 50
@@ -54,29 +50,17 @@
     ],
     "industry_top": [
       {
-        "industry": "Other",
-        "total_laid_off": 30000
-      },
-      {
         "industry": "Finance",
         "total_laid_off": 50
       }
     ],
     "country_top": [
       {
-        "country": "United States",
-        "total_laid_off": 30000
-      },
-      {
         "country": "United Kingdom",
         "total_laid_off": 50
       }
     ],
     "stage_top": [
-      {
-        "stage": "Post-IPO",
-        "total_laid_off": 30000
-      },
       {
         "stage": "Series F",
         "total_laid_off": 50
@@ -109,16 +93,6 @@
     "largest_events": [
       {
         "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-      },
-      {
-        "date": "2026-03-31",
         "company": "Monzo",
         "num_laid_off": 50,
         "percentage_laid_off": null,
@@ -129,16 +103,6 @@
       }
     ],
     "recent_events": [
-      {
-        "date": "2026-03-31",
-        "company": "Oracle",
-        "num_laid_off": 30000,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"
-      },
       {
         "date": "2026-03-31",
         "company": "Monzo",
@@ -214,8 +178,8 @@
     ]
   },
   "insights": [
-    "2026-03-31 includes 5 public layoff events and 30,050 reported layoffs.",
-    "The largest company contributor is Oracle with 30,000 reported layoffs.",
+    "2026-03-31 includes 4 public layoff events and 50 reported layoffs.",
+    "The largest company contributor is Monzo with 50 reported layoffs.",
     "The leading named industry is Finance with 50 reported layoffs.",
     "3 events report a layoff percentage of 25% or higher."
   ],

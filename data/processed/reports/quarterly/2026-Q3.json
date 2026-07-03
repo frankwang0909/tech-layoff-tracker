@@ -22,11 +22,11 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
-      "total_laid_off": 39479,
-      "event_count": 133,
-      "total_laid_off_delta": -33979,
-      "total_laid_off_pct_change": -0.8607,
-      "event_count_delta": -132,
+      "total_laid_off": 60479,
+      "event_count": 134,
+      "total_laid_off_delta": -54979,
+      "total_laid_off_pct_change": -0.9091,
+      "event_count_delta": -133,
       "event_count_pct_change": -0.9925,
       "note": null
     },

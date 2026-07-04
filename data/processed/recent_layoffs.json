@@ -10,6 +10,16 @@
     "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
   },
   {
+    "date": "2026-07-01",
+    "company": "Tokopedia",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.9,
+    "industry": "Retail",
+    "country": "Indonesia",
+    "stage": "Acquired",
+    "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+  },
+  {
     "date": "2026-06-30",
     "company": "PlaxidityX",
     "num_laid_off": 80,
@@ -21,16 +31,6 @@
   },
   {
     "date": "2026-06-29",
-    "company": "Elementor",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.3,
-    "industry": "Media",
-    "country": "Israel",
-    "stage": "Series B",
-    "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
-  },
-  {
-    "date": "2026-06-29",
     "company": "Equip Health",
     "num_laid_off": null,
     "percentage_laid_off": 0.04,
@@ -38,6 +38,16 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+  },
+  {
+    "date": "2026-06-29",
+    "company": "Elementor",
+    "num_laid_off": 100,
+    "percentage_laid_off": 0.3,
+    "industry": "Media",
+    "country": "Israel",
+    "stage": "Series B",
+    "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
   },
   {
     "date": "2026-06-26",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Series D",
     "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
-  },
-  {
-    "date": "2026-06-25",
-    "company": "Sonos",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.03,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
   }
 ]

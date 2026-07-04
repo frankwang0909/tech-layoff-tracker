@@ -276,16 +276,16 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-06-23"
+      "end": "2026-07-01"
     },
     "kpis": {
       "total_laid_off": 34727,
-      "event_count": 39,
+      "event_count": 40,
       "headcount_event_count": 24,
-      "company_count": 27,
-      "country_count": 10,
+      "company_count": 28,
+      "country_count": 11,
       "industry_count": 1,
-      "high_intensity_event_count": 8
+      "high_intensity_event_count": 9
     },
     "charts": {
       "monthly_trend": [
@@ -387,6 +387,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-01",
+          "company": "Tokopedia",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.9,
+          "industry": "Retail",
+          "country": "Indonesia",
+          "stage": "Acquired",
+          "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+        },
         {
           "date": "2026-06-23",
           "company": "Lazada Group",
@@ -526,20 +536,10 @@
           "country": "Brazil",
           "stage": "Post-IPO",
           "source": "https://eleconomista.com.ar/economia/despidos-mercado-libre-entrenamos-ia-nos-reemplazo-n91871"
-        },
-        {
-          "date": "2025-12-15",
-          "company": "Amazon",
-          "num_laid_off": 84,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bizjournals.com/seattle/news/2025/12/15/amazon-layoffs-84-february.html"
         }
       ]
     },
-    "summary": "Retail has 34,727 reported tech layoffs across 39 public events from 2025-01-10 to 2026-06-23."
+    "summary": "Retail has 34,727 reported tech layoffs across 40 public events from 2025-01-10 to 2026-07-01."
   },
   {
     "type": "industry",

@@ -10,14 +10,14 @@
   "canonical_url": "/reports/daily/2026-07-01.html",
   "kpis": {
     "total_laid_off": 5500,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 5500.0,
     "median_layoffs_per_headcount_event": 5500.0,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 1,
       "total_laid_off_delta": 5420,
       "total_laid_off_pct_change": 67.75,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -112,14 +112,36 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      },
+      {
+        "date": "2026-07-01",
+        "company": "Tokopedia",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.9,
+        "industry": "Retail",
+        "country": "Indonesia",
+        "stage": "Acquired",
+        "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-07-01",
+        "company": "Tokopedia",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.9,
+        "industry": "Retail",
+        "country": "Indonesia",
+        "stage": "Acquired",
+        "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+      }
+    ]
   },
   "insights": [
-    "2026-07-01 includes 1 public layoff events and 5,500 reported layoffs.",
+    "2026-07-01 includes 2 public layoff events and 5,500 reported layoffs.",
     "The largest company contributor is Microsoft with 5,500 reported layoffs.",
-    "The leading named industry is Other with 5,500 reported layoffs."
+    "The leading named industry is Other with 5,500 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

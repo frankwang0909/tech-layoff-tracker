@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/weekly/2026-W27.html",
   "kpis": {
-    "total_laid_off": 5680,
-    "event_count": 5,
-    "headcount_event_count": 3,
-    "company_count": 5,
-    "country_count": 3,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 1893.33,
-    "median_layoffs_per_headcount_event": 100.0,
+    "total_laid_off": 5980,
+    "event_count": 6,
+    "headcount_event_count": 4,
+    "company_count": 6,
+    "country_count": 4,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 1495.0,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W26",
       "total_laid_off": 23482,
       "event_count": 18,
-      "total_laid_off_delta": -17802,
-      "total_laid_off_pct_change": -0.7581,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.7222,
+      "total_laid_off_delta": -17502,
+      "total_laid_off_pct_change": -0.7453,
+      "event_count_delta": -12,
+      "event_count_pct_change": -0.6667,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W27",
       "total_laid_off": 9320,
       "event_count": 6,
-      "total_laid_off_delta": -3640,
-      "total_laid_off_pct_change": -0.3906,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.1667,
+      "total_laid_off_delta": -3340,
+      "total_laid_off_pct_change": -0.3584,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Microsoft",
         "total_laid_off": 5500
+      },
+      {
+        "company": "TikTok",
+        "total_laid_off": 300
       },
       {
         "company": "Elementor",
@@ -62,6 +66,10 @@
         "total_laid_off": 5500
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 300
+      },
+      {
         "industry": "Media",
         "total_laid_off": 100
       },
@@ -76,6 +84,10 @@
         "total_laid_off": 5500
       },
       {
+        "country": "Ireland",
+        "total_laid_off": 300
+      },
+      {
         "country": "Israel",
         "total_laid_off": 180
       }
@@ -86,12 +98,12 @@
         "total_laid_off": 5500
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 100
+        "stage": "Acquired",
+        "total_laid_off": 380
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 80
+        "stage": "Series B",
+        "total_laid_off": 100
       }
     ],
     "layoff_pct_distribution": [
@@ -130,6 +142,16 @@
         "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
       },
       {
+        "date": "2026-07-01",
+        "company": "TikTok",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+      },
+      {
         "date": "2026-06-29",
         "company": "Elementor",
         "num_laid_off": 100,
@@ -160,6 +182,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      },
+      {
+        "date": "2026-07-01",
+        "company": "TikTok",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
       },
       {
         "date": "2026-07-01",
@@ -226,9 +258,9 @@
     ]
   },
   "insights": [
-    "2026-W27 includes 5 public layoff events and 5,680 reported layoffs.",
+    "2026-W27 includes 6 public layoff events and 5,980 reported layoffs.",
     "The largest company contributor is Microsoft with 5,500 reported layoffs.",
-    "The leading named industry is Media with 100 reported layoffs.",
+    "The leading named industry is Consumer with 300 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

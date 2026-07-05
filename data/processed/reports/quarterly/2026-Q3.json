@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 5500,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 5500.0,
-    "median_layoffs_per_headcount_event": 5500.0,
+    "total_laid_off": 5800,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 2900.0,
+    "median_layoffs_per_headcount_event": 2900.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60479,
       "event_count": 134,
-      "total_laid_off_delta": -54979,
-      "total_laid_off_pct_change": -0.9091,
-      "event_count_delta": -132,
-      "event_count_pct_change": -0.9851,
+      "total_laid_off_delta": -54679,
+      "total_laid_off_pct_change": -0.9041,
+      "event_count_delta": -131,
+      "event_count_pct_change": -0.9776,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -22054,
-      "total_laid_off_pct_change": -0.8004,
-      "event_count_delta": -84,
-      "event_count_pct_change": -0.9767,
+      "total_laid_off_delta": -21754,
+      "total_laid_off_pct_change": -0.7895,
+      "event_count_delta": -83,
+      "event_count_pct_change": -0.9651,
       "note": null
     }
   },
@@ -46,24 +46,40 @@
       {
         "company": "Microsoft",
         "total_laid_off": 5500
+      },
+      {
+        "company": "TikTok",
+        "total_laid_off": 300
       }
     ],
     "industry_top": [
       {
         "industry": "Other",
         "total_laid_off": 5500
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 300
       }
     ],
     "country_top": [
       {
         "country": "United States",
         "total_laid_off": 5500
+      },
+      {
+        "country": "Ireland",
+        "total_laid_off": 300
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 5500
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 300
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +116,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      },
+      {
+        "date": "2026-07-01",
+        "company": "TikTok",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
       }
     ],
     "recent_events": [
@@ -112,6 +138,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+      },
+      {
+        "date": "2026-07-01",
+        "company": "TikTok",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
       },
       {
         "date": "2026-07-01",
@@ -138,9 +174,9 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 2 public layoff events and 5,500 reported layoffs.",
+    "2026-Q3 includes 3 public layoff events and 5,800 reported layoffs.",
     "The largest company contributor is Microsoft with 5,500 reported layoffs.",
-    "The leading named industry is Other with 5,500 reported layoffs.",
+    "The leading named industry is Consumer with 300 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

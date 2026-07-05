@@ -20,6 +20,16 @@
     "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
   },
   {
+    "date": "2026-07-01",
+    "company": "TikTok",
+    "num_laid_off": 300,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "Ireland",
+    "stage": "Acquired",
+    "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+  },
+  {
     "date": "2026-06-30",
     "company": "PlaxidityX",
     "num_laid_off": 80,
@@ -61,26 +71,6 @@
   },
   {
     "date": "2026-06-26",
-    "company": "CompanyCam",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Recruiting",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "JiviAI",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Healthcare",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-  },
-  {
-    "date": "2026-06-26",
     "company": "ADP",
     "num_laid_off": 76,
     "percentage_laid_off": null,
@@ -100,23 +90,33 @@
     "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
   },
   {
-    "date": "2026-06-25",
-    "company": "BitGo",
-    "num_laid_off": 90,
-    "percentage_laid_off": 0.15,
-    "industry": "Crypto",
+    "date": "2026-06-26",
+    "company": "CompanyCam",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Recruiting",
     "country": "United States",
-    "stage": "Unknown",
-    "source": "https://x.com/mikebelshe/status/2070240967479996463"
+    "stage": "Series C",
+    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+  },
+  {
+    "date": "2026-06-26",
+    "company": "JiviAI",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Healthcare",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
   },
   {
     "date": "2026-06-25",
-    "company": "Amperity",
-    "num_laid_off": null,
+    "company": "Bungie",
+    "num_laid_off": 292,
     "percentage_laid_off": null,
-    "industry": "Marketing",
+    "industry": "Consumer",
     "country": "United States",
-    "stage": "Series D",
-    "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+    "stage": "Acquired",
+    "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
   }
 ]

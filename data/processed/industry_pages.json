@@ -549,12 +549,12 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-06-25"
+      "end": "2026-07-01"
     },
     "kpis": {
-      "total_laid_off": 26253,
-      "event_count": 76,
-      "headcount_event_count": 51,
+      "total_laid_off": 26553,
+      "event_count": 77,
+      "headcount_event_count": 52,
       "company_count": 49,
       "country_count": 9,
       "industry_count": 1,
@@ -629,6 +629,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 367
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 300
         }
       ],
       "company_top": [
@@ -657,6 +661,10 @@
           "total_laid_off": 700
         },
         {
+          "company": "TikTok",
+          "total_laid_off": 600
+        },
+        {
           "company": "Games 24x7",
           "total_laid_off": 580
         },
@@ -667,15 +675,21 @@
         {
           "company": "GamesKraft",
           "total_laid_off": 400
-        },
-        {
-          "company": "Zupee",
-          "total_laid_off": 370
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-01",
+          "company": "TikTok",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Ireland",
+          "stage": "Acquired",
+          "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+        },
         {
           "date": "2026-06-25",
           "company": "Bungie",
@@ -815,20 +829,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
-        },
-        {
-          "date": "2026-04-03",
-          "company": "Vimeo",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
         }
       ]
     },
-    "summary": "Consumer has 26,253 reported tech layoffs across 76 public events from 2025-01-27 to 2026-06-25."
+    "summary": "Consumer has 26,553 reported tech layoffs across 77 public events from 2025-01-27 to 2026-07-01."
   },
   {
     "type": "industry",
@@ -2679,9 +2683,9 @@
       "end": "2026-06-26"
     },
     "kpis": {
-      "total_laid_off": 3364,
+      "total_laid_off": 3434,
       "event_count": 19,
-      "headcount_event_count": 12,
+      "headcount_event_count": 13,
       "company_count": 17,
       "country_count": 4,
       "industry_count": 1,
@@ -2722,6 +2726,10 @@
           "total_laid_off": 35
         },
         {
+          "month": "2026-03",
+          "total_laid_off": 70
+        },
+        {
           "month": "2026-05",
           "total_laid_off": 117
         },
@@ -2760,16 +2768,16 @@
           "total_laid_off": 100
         },
         {
+          "company": "Snowflake",
+          "total_laid_off": 70
+        },
+        {
           "company": "LSports",
           "total_laid_off": 40
         },
         {
           "company": "Informatica",
           "total_laid_off": 35
-        },
-        {
-          "company": "Verbit",
-          "total_laid_off": 22
         }
       ]
     },
@@ -2848,7 +2856,7 @@
         {
           "date": "2026-03-19",
           "company": "Snowflake",
-          "num_laid_off": null,
+          "num_laid_off": 70,
           "percentage_laid_off": null,
           "industry": "Data",
           "country": "United States",
@@ -2927,7 +2935,7 @@
         }
       ]
     },
-    "summary": "Data has 3,364 reported tech layoffs across 19 public events from 2025-01-29 to 2026-06-26."
+    "summary": "Data has 3,434 reported tech layoffs across 19 public events from 2025-01-29 to 2026-06-26."
   },
   {
     "type": "industry",

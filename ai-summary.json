@@ -6,7 +6,7 @@
     "start": "2025-01-06",
     "end": "2026-07-01"
   },
-  "summary": "Tech Layoff Tracker reports 243,660 public tech layoffs from 2025-01-06 to 2026-07-01. The dataset covers 307 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 244,030 public tech layoffs from 2025-01-06 to 2026-07-01. The dataset covers 308 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -18,15 +18,15 @@
     },
     {
       "name": "Total reported layoffs",
-      "value": "243,660"
+      "value": "244,030"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "119,024"
+      "value": "119,394"
     },
     {
       "name": "Companies affected",
-      "value": "307"
+      "value": "308"
     },
     {
       "name": "Countries or regions",
@@ -46,13 +46,13 @@
     },
     {
       "name": "Leading country or region",
-      "value": "United States (203,201 layoffs)"
+      "value": "United States (203,271 layoffs)"
     }
   ],
   "insights": [
     "Amazon is the highest-ranked company by reported layoffs in the current company summary, with 30,284 layoffs.",
     "Hardware is the largest industry category, accounting for 51,391 reported layoffs.",
-    "United States is the leading country or region in the current dataset, with 203,201 reported layoffs.",
+    "United States is the leading country or region in the current dataset, with 203,271 reported layoffs.",
     "The peak month is 2026-05, with 28,934 reported layoffs."
   ],
   "faq": [
@@ -109,8 +109,8 @@
       {
         "name": "Consumer",
         "canonical_url": "https://tech.debugcanada.com/industries/consumer.html",
-        "total_laid_off": 26253,
-        "event_count": 76
+        "total_laid_off": 26553,
+        "event_count": 77
       },
       {
         "name": "Finance",
@@ -159,7 +159,7 @@
       {
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
-        "total_laid_off": 203201,
+        "total_laid_off": 203271,
         "event_count": 329
       },
       {

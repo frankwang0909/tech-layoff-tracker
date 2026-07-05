@@ -9,13 +9,13 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 119024,
-    "event_count": 228,
-    "headcount_event_count": 150,
-    "company_count": 216,
+    "total_laid_off": 119394,
+    "event_count": 229,
+    "headcount_event_count": 152,
+    "company_count": 217,
     "country_count": 26,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 793.49,
+    "average_layoffs_per_headcount_event": 785.49,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 42
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5612,
-      "total_laid_off_pct_change": -0.045,
-      "event_count_delta": -104,
-      "event_count_pct_change": -0.3133,
+      "total_laid_off_delta": -5242,
+      "total_laid_off_pct_change": -0.0421,
+      "event_count_delta": -103,
+      "event_count_pct_change": -0.3102,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5612,
-      "total_laid_off_pct_change": -0.045,
-      "event_count_delta": -104,
-      "event_count_pct_change": -0.3133,
+      "total_laid_off_delta": -5242,
+      "total_laid_off_pct_change": -0.0421,
+      "event_count_delta": -103,
+      "event_count_pct_change": -0.3102,
       "note": null
     }
   },
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 16489
+        "total_laid_off": 16789
       },
       {
         "industry": "Finance",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 98935
+        "total_laid_off": 99005
       },
       {
         "country": "Australia",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 103549
+        "total_laid_off": 103619
       },
       {
         "stage": "Unknown",
@@ -179,7 +179,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 3326
+        "total_laid_off": 3626
       },
       {
         "stage": "Series B",
@@ -358,6 +358,16 @@
         "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
       },
       {
+        "date": "2026-07-01",
+        "company": "TikTok",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+      },
+      {
         "date": "2026-06-30",
         "company": "PlaxidityX",
         "num_laid_off": 80,
@@ -399,6 +409,16 @@
       },
       {
         "date": "2026-06-26",
+        "company": "ADP",
+        "num_laid_off": 76,
+        "percentage_laid_off": null,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+      },
+      {
+        "date": "2026-06-26",
         "company": "Culture Amp",
         "num_laid_off": 70,
         "percentage_laid_off": 0.09,
@@ -426,16 +446,6 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "ADP",
-        "num_laid_off": 76,
-        "percentage_laid_off": null,
-        "industry": "HR",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
       },
       {
         "date": "2026-06-25",
@@ -479,16 +489,6 @@
       },
       {
         "date": "2026-06-24",
-        "company": "Elastic",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.07,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
-      },
-      {
-        "date": "2026-06-24",
         "company": "Snyk",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -506,6 +506,16 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Elastic",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
       },
       {
         "date": "2026-06-23",
@@ -526,16 +536,6 @@
         "country": "Switzerland",
         "stage": "Unknown",
         "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
-      },
-      {
-        "date": "2026-06-23",
-        "company": "Lazada Group",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.05,
-        "industry": "Retail",
-        "country": "Singapore",
-        "stage": "Acquired",
-        "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 228 public layoff events and 119,024 reported layoffs.",
+    "2026 includes 229 public layoff events and 119,394 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "42 events report a layoff percentage of 25% or higher."

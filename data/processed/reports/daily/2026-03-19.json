@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/daily/2026-03-19.html",
   "kpis": {
-    "total_laid_off": 0,
+    "total_laid_off": 70,
     "event_count": 2,
-    "headcount_event_count": 0,
+    "headcount_event_count": 1,
     "company_count": 2,
     "country_count": 2,
     "industry_count": 2,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "average_layoffs_per_headcount_event": 70.0,
+    "median_layoffs_per_headcount_event": 70.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -34,18 +34,38 @@
       "period": "2025-03-19",
       "total_laid_off": 328,
       "event_count": 2,
-      "total_laid_off_delta": -328,
-      "total_laid_off_pct_change": -1.0,
+      "total_laid_off_delta": -258,
+      "total_laid_off_pct_change": -0.7866,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Snowflake",
+        "total_laid_off": 70
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Data",
+        "total_laid_off": 70
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 70
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 70
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-03-19",
+        "company": "Snowflake",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-03-19",
+        "company": "Snowflake",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+      },
       {
         "date": "2026-03-19",
         "company": "Crypto.com",
@@ -81,22 +122,14 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-      },
-      {
-        "date": "2026-03-19",
-        "company": "Snowflake",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-03-19 includes 2 public layoff events and 0 reported layoffs."
+    "2026-03-19 includes 2 public layoff events and 70 reported layoffs.",
+    "The largest company contributor is Snowflake with 70 reported layoffs.",
+    "The leading named industry is Data with 70 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

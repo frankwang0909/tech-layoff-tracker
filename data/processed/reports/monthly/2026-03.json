@@ -9,14 +9,14 @@
   "updated_at": "2026-07-01",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
-    "total_laid_off": 16593,
+    "total_laid_off": 16663,
     "event_count": 31,
-    "headcount_event_count": 19,
+    "headcount_event_count": 20,
     "company_count": 31,
     "country_count": 9,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 873.32,
-    "median_layoffs_per_headcount_event": 150.0,
+    "average_layoffs_per_headcount_event": 833.15,
+    "median_layoffs_per_headcount_event": 125.0,
     "high_intensity_event_count": 9
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-02",
       "total_laid_off": 11269,
       "event_count": 28,
-      "total_laid_off_delta": 5324,
-      "total_laid_off_pct_change": 0.4724,
+      "total_laid_off_delta": 5394,
+      "total_laid_off_pct_change": 0.4787,
       "event_count_delta": 3,
       "event_count_pct_change": 0.1071,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 7679,
-      "total_laid_off_pct_change": 0.8615,
+      "total_laid_off_delta": 7749,
+      "total_laid_off_pct_change": 0.8693,
       "event_count_delta": 9,
       "event_count_pct_change": 0.4091,
       "note": null
@@ -114,11 +114,11 @@
         "total_laid_off": 200
       },
       {
-        "industry": "Energy",
+        "industry": "Support",
         "total_laid_off": 100
       },
       {
-        "industry": "Support",
+        "industry": "Energy",
         "total_laid_off": 100
       },
       {
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 13477
+        "total_laid_off": 13547
       },
       {
         "country": "Australia",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 13864
+        "total_laid_off": 13934
       },
       {
         "stage": "Unknown",
@@ -449,6 +449,16 @@
       },
       {
         "date": "2026-03-19",
+        "company": "Snowflake",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+      },
+      {
+        "date": "2026-03-19",
         "company": "Crypto.com",
         "num_laid_off": null,
         "percentage_laid_off": 0.12,
@@ -456,16 +466,6 @@
         "country": "Singapore",
         "stage": "Unknown",
         "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-      },
-      {
-        "date": "2026-03-19",
-        "company": "Snowflake",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
       },
       {
         "date": "2026-03-17",
@@ -612,7 +612,7 @@
     ]
   },
   "insights": [
-    "2026-03 includes 31 public layoff events and 16,593 reported layoffs.",
+    "2026-03 includes 31 public layoff events and 16,663 reported layoffs.",
     "The largest company contributor is Dell with 11,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
     "9 events report a layoff percentage of 25% or higher."

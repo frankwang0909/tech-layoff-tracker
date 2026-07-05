@@ -10,9 +10,9 @@
       "end": "2026-07-01"
     },
     "kpis": {
-      "total_laid_off": 203201,
+      "total_laid_off": 203271,
       "event_count": 329,
-      "headcount_event_count": 216,
+      "headcount_event_count": 217,
       "company_count": 250,
       "country_count": 1,
       "industry_count": 29,
@@ -78,7 +78,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 13477
+          "total_laid_off": 13547
         },
         {
           "month": "2026-04",
@@ -294,7 +294,7 @@
         }
       ]
     },
-    "summary": "United States has 203,201 reported tech layoffs across 329 public events from 2025-01-02 to 2026-07-01."
+    "summary": "United States has 203,271 reported tech layoffs across 329 public events from 2025-01-02 to 2026-07-01."
   },
   {
     "type": "country",
@@ -2143,6 +2143,89 @@
   },
   {
     "type": "country",
+    "name": "Ireland",
+    "slug": "ireland",
+    "title": "Tech Layoffs by Country: Ireland",
+    "canonical_url": "/countries/ireland.html",
+    "date_range": {
+      "start": "2025-03-06",
+      "end": "2026-07-01"
+    },
+    "kpis": {
+      "total_laid_off": 600,
+      "event_count": 4,
+      "headcount_event_count": 2,
+      "company_count": 2,
+      "country_count": 1,
+      "industry_count": 2,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-03",
+          "total_laid_off": 300
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 300
+        }
+      ],
+      "company_top": [
+        {
+          "company": "TikTok",
+          "total_laid_off": 600
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-01",
+          "company": "TikTok",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Ireland",
+          "stage": "Acquired",
+          "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+        },
+        {
+          "date": "2026-05-14",
+          "company": "Gambling.com Group",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Ireland",
+          "stage": "Post-IPO",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+        },
+        {
+          "date": "2025-07-02",
+          "company": "TikTok",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Ireland",
+          "stage": "Acquired",
+          "source": "https://www.bloomberg.com/news/articles/2025-07-02/tiktok-shop-cuts-more-us-workers-in-third-round-since-april"
+        },
+        {
+          "date": "2025-03-06",
+          "company": "TikTok",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Ireland",
+          "stage": "Acquired",
+          "source": "https://www.rte.ie/news/ireland/2025/0306/1500535-tik-tok-ireland/"
+        }
+      ]
+    },
+    "summary": "Ireland has 600 reported tech layoffs across 4 public events from 2025-03-06 to 2026-07-01."
+  },
+  {
+    "type": "country",
     "name": "Nigeria",
     "slug": "nigeria",
     "title": "Tech Layoffs by Country: Nigeria",
@@ -2399,75 +2482,6 @@
       ]
     },
     "summary": "Norway has 400 reported tech layoffs across 3 public events from 2026-04-20 to 2026-05-14."
-  },
-  {
-    "type": "country",
-    "name": "Ireland",
-    "slug": "ireland",
-    "title": "Tech Layoffs by Country: Ireland",
-    "canonical_url": "/countries/ireland.html",
-    "date_range": {
-      "start": "2025-03-06",
-      "end": "2026-05-14"
-    },
-    "kpis": {
-      "total_laid_off": 300,
-      "event_count": 3,
-      "headcount_event_count": 1,
-      "company_count": 2,
-      "country_count": 1,
-      "industry_count": 2,
-      "high_intensity_event_count": 0
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-03",
-          "total_laid_off": 300
-        }
-      ],
-      "company_top": [
-        {
-          "company": "TikTok",
-          "total_laid_off": 300
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-05-14",
-          "company": "Gambling.com Group",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "Ireland",
-          "stage": "Post-IPO",
-          "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
-        },
-        {
-          "date": "2025-07-02",
-          "company": "TikTok",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "Ireland",
-          "stage": "Acquired",
-          "source": "https://www.bloomberg.com/news/articles/2025-07-02/tiktok-shop-cuts-more-us-workers-in-third-round-since-april"
-        },
-        {
-          "date": "2025-03-06",
-          "company": "TikTok",
-          "num_laid_off": 300,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "Ireland",
-          "stage": "Acquired",
-          "source": "https://www.rte.ie/news/ireland/2025/0306/1500535-tik-tok-ireland/"
-        }
-      ]
-    },
-    "summary": "Ireland has 300 reported tech layoffs across 3 public events from 2025-03-06 to 2026-05-14."
   },
   {
     "type": "country",

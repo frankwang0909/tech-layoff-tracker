@@ -41,16 +41,6 @@
   },
   {
     "date": "2026-06-29",
-    "company": "Equip Health",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.04,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
-  },
-  {
-    "date": "2026-06-29",
     "company": "Elementor",
     "num_laid_off": 100,
     "percentage_laid_off": 0.3,
@@ -58,6 +48,16 @@
     "country": "Israel",
     "stage": "Series B",
     "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+  },
+  {
+    "date": "2026-06-29",
+    "company": "Equip Health",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.04,
+    "industry": "Healthcare",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
   },
   {
     "date": "2026-06-26",

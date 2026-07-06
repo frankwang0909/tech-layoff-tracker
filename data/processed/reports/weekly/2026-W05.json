@@ -23,11 +23,11 @@
     "previous_period": {
       "period": "2026-W04",
       "total_laid_off": 1220,
-      "event_count": 6,
+      "event_count": 5,
       "total_laid_off_delta": 17840,
       "total_laid_off_pct_change": 14.623,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.6667,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {

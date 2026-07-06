@@ -10,7 +10,7 @@
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 119394,
-    "event_count": 229,
+    "event_count": 228,
     "headcount_event_count": 152,
     "company_count": 217,
     "country_count": 26,
@@ -26,8 +26,8 @@
       "event_count": 332,
       "total_laid_off_delta": -5242,
       "total_laid_off_pct_change": -0.0421,
-      "event_count_delta": -103,
-      "event_count_pct_change": -0.3102,
+      "event_count_delta": -104,
+      "event_count_pct_change": -0.3133,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 332,
       "total_laid_off_delta": -5242,
       "total_laid_off_pct_change": -0.0421,
-      "event_count_delta": -103,
-      "event_count_pct_change": -0.3102,
+      "event_count_delta": -104,
+      "event_count_pct_change": -0.3133,
       "note": null
     }
   },
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 229 public layoff events and 119,394 reported layoffs.",
+    "2026 includes 228 public layoff events and 119,394 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
     "42 events report a layoff percentage of 25% or higher."

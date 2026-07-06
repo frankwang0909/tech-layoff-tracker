@@ -10,7 +10,7 @@
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
     "total_laid_off": 53115,
-    "event_count": 92,
+    "event_count": 91,
     "headcount_event_count": 63,
     "company_count": 88,
     "country_count": 16,
@@ -26,8 +26,8 @@
       "event_count": 69,
       "total_laid_off_delta": 23561,
       "total_laid_off_pct_change": 0.7972,
-      "event_count_delta": 23,
-      "event_count_pct_change": 0.3333,
+      "event_count_delta": 22,
+      "event_count_pct_change": 0.3188,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 105,
       "total_laid_off_delta": 23190,
       "total_laid_off_pct_change": 0.7749,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.1238,
+      "event_count_delta": -14,
+      "event_count_pct_change": -0.1333,
       "note": null
     }
   },
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 92 public layoff events and 53,115 reported layoffs.",
+    "2026-Q1 includes 91 public layoff events and 53,115 reported layoffs.",
     "The largest company contributor is Amazon with 16,100 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "19 events report a layoff percentage of 25% or higher."

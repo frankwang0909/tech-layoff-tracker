@@ -11,7 +11,7 @@
     },
     "kpis": {
       "total_laid_off": 203271,
-      "event_count": 329,
+      "event_count": 328,
       "headcount_event_count": 217,
       "company_count": 250,
       "country_count": 1,
@@ -174,16 +174,6 @@
         },
         {
           "date": "2026-06-26",
-          "company": "CompanyCam",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-        },
-        {
-          "date": "2026-06-26",
           "company": "ADP",
           "num_laid_off": 76,
           "percentage_laid_off": null,
@@ -191,6 +181,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+        },
+        {
+          "date": "2026-06-26",
+          "company": "CompanyCam",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
         },
         {
           "date": "2026-06-25",
@@ -234,16 +234,6 @@
         },
         {
           "date": "2026-06-24",
-          "company": "Elastic",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.07,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
-        },
-        {
-          "date": "2026-06-24",
           "company": "Snyk",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -251,6 +241,16 @@
           "country": "United States",
           "stage": "Series F",
           "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+        },
+        {
+          "date": "2026-06-24",
+          "company": "Elastic",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.07,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
         },
         {
           "date": "2026-06-23",
@@ -294,7 +294,7 @@
         }
       ]
     },
-    "summary": "United States has 203,271 reported tech layoffs across 329 public events from 2025-01-02 to 2026-07-01."
+    "summary": "United States has 203,271 reported tech layoffs across 328 public events from 2025-01-02 to 2026-07-01."
   },
   {
     "type": "country",

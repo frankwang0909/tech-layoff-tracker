@@ -553,7 +553,7 @@
     },
     "kpis": {
       "total_laid_off": 26553,
-      "event_count": 77,
+      "event_count": 76,
       "headcount_event_count": 52,
       "company_count": 49,
       "country_count": 9,
@@ -832,7 +832,7 @@
         }
       ]
     },
-    "summary": "Consumer has 26,553 reported tech layoffs across 77 public events from 2025-01-27 to 2026-07-01."
+    "summary": "Consumer has 26,553 reported tech layoffs across 76 public events from 2025-01-27 to 2026-07-01."
   },
   {
     "type": "industry",

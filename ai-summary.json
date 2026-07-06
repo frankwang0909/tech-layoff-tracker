@@ -110,7 +110,7 @@
         "name": "Consumer",
         "canonical_url": "https://tech.debugcanada.com/industries/consumer.html",
         "total_laid_off": 26553,
-        "event_count": 77
+        "event_count": 76
       },
       {
         "name": "Finance",
@@ -160,7 +160,7 @@
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
         "total_laid_off": 203271,
-        "event_count": 329
+        "event_count": 328
       },
       {
         "name": "India",

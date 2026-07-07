@@ -6,18 +6,18 @@
     "start": "2026-03-02",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
     "total_laid_off": 16663,
-    "event_count": 31,
+    "event_count": 32,
     "headcount_event_count": 20,
-    "company_count": 31,
+    "company_count": 32,
     "country_count": 9,
     "industry_count": 16,
     "average_layoffs_per_headcount_event": 833.15,
     "median_layoffs_per_headcount_event": 125.0,
-    "high_intensity_event_count": 9
+    "high_intensity_event_count": 10
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 28,
       "total_laid_off_delta": 5394,
       "total_laid_off_pct_change": 0.4787,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.1071,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.1429,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 22,
       "total_laid_off_delta": 7749,
       "total_laid_off_pct_change": 0.8693,
-      "event_count_delta": 9,
-      "event_count_pct_change": 0.4091,
+      "event_count_delta": 10,
+      "event_count_pct_change": 0.4545,
       "note": null
     }
   },
@@ -468,6 +468,16 @@
         "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
       },
       {
+        "date": "2026-03-18",
+        "company": "Algorand Foundation",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
+      },
+      {
         "date": "2026-03-17",
         "company": "FranShares",
         "num_laid_off": null,
@@ -506,16 +516,6 @@
         "country": "Canada",
         "stage": "Private Equity",
         "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
-      },
-      {
-        "date": "2026-03-13",
-        "company": "Digg",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
       }
     ],
     "high_intensity_events": [
@@ -580,16 +580,6 @@
         "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
       },
       {
-        "date": "2026-03-26",
-        "company": "Monte Carlo",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.3,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
-      },
-      {
         "date": "2026-03-20",
         "company": "Gemini",
         "num_laid_off": null,
@@ -600,6 +590,16 @@
         "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
       },
       {
+        "date": "2026-03-26",
+        "company": "Monte Carlo",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.3,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+      },
+      {
         "date": "2026-03-04",
         "company": "Envato",
         "num_laid_off": 200,
@@ -608,14 +608,24 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+      },
+      {
+        "date": "2026-03-18",
+        "company": "Algorand Foundation",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
       }
     ]
   },
   "insights": [
-    "2026-03 includes 31 public layoff events and 16,663 reported layoffs.",
+    "2026-03 includes 32 public layoff events and 16,663 reported layoffs.",
     "The largest company contributor is Dell with 11,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
-    "9 events report a layoff percentage of 25% or higher."
+    "10 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-01"
+    "end": "2026-07-06"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/monthly/2026-07.html",
   "kpis": {
-    "total_laid_off": 5800,
-    "event_count": 3,
-    "headcount_event_count": 2,
-    "company_count": 3,
-    "country_count": 3,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 2900.0,
-    "median_layoffs_per_headcount_event": 2900.0,
+    "total_laid_off": 5900,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
+    "country_count": 4,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 1966.67,
+    "median_layoffs_per_headcount_event": 800.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-06",
       "total_laid_off": 26460,
       "event_count": 50,
-      "total_laid_off_delta": -20660,
-      "total_laid_off_pct_change": -0.7808,
-      "event_count_delta": -47,
-      "event_count_pct_change": -0.94,
+      "total_laid_off_delta": -20560,
+      "total_laid_off_pct_change": -0.777,
+      "event_count_delta": -46,
+      "event_count_pct_change": -0.92,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-07",
       "total_laid_off": 16648,
       "event_count": 31,
-      "total_laid_off_delta": -10848,
-      "total_laid_off_pct_change": -0.6516,
-      "event_count_delta": -28,
-      "event_count_pct_change": -0.9032,
+      "total_laid_off_delta": -10748,
+      "total_laid_off_pct_change": -0.6456,
+      "event_count_delta": -27,
+      "event_count_pct_change": -0.871,
       "note": null
     }
   },
@@ -45,7 +45,11 @@
     "company_top": [
       {
         "company": "Microsoft",
-        "total_laid_off": 5500
+        "total_laid_off": 4800
+      },
+      {
+        "company": "CorroHealth",
+        "total_laid_off": 800
       },
       {
         "company": "TikTok",
@@ -55,7 +59,11 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 5500
+        "total_laid_off": 4800
+      },
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 800
       },
       {
         "industry": "Consumer",
@@ -65,7 +73,11 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 5500
+        "total_laid_off": 4800
+      },
+      {
+        "country": "India",
+        "total_laid_off": 800
       },
       {
         "country": "Ireland",
@@ -75,7 +87,11 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 5500
+        "total_laid_off": 4800
+      },
+      {
+        "stage": "Private Equity",
+        "total_laid_off": 800
       },
       {
         "stage": "Acquired",
@@ -108,14 +124,24 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2026-07-01",
+        "date": "2026-07-06",
         "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
         "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-03",
+        "company": "CorroHealth",
+        "num_laid_off": 800,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
       },
       {
         "date": "2026-07-01",
@@ -130,14 +156,24 @@
     ],
     "recent_events": [
       {
-        "date": "2026-07-01",
+        "date": "2026-07-06",
         "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
         "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-03",
+        "company": "CorroHealth",
+        "num_laid_off": 800,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
       },
       {
         "date": "2026-07-01",
@@ -174,9 +210,9 @@
     ]
   },
   "insights": [
-    "2026-07 includes 3 public layoff events and 5,800 reported layoffs.",
-    "The largest company contributor is Microsoft with 5,500 reported layoffs.",
-    "The leading named industry is Consumer with 300 reported layoffs.",
+    "2026-07 includes 4 public layoff events and 5,900 reported layoffs.",
+    "The largest company contributor is Microsoft with 4,800 reported layoffs.",
+    "The leading named industry is Healthcare with 800 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

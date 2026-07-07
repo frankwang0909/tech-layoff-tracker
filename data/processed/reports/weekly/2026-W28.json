@@ -1,0 +1,129 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W28",
+  "status": "rolling",
+  "date_range": {
+    "start": "2026-07-06",
+    "end": "2026-07-06"
+  },
+  "updated_at": "2026-07-06",
+  "canonical_url": "/reports/weekly/2026-W28.html",
+  "kpis": {
+    "total_laid_off": 4800,
+    "event_count": 1,
+    "headcount_event_count": 1,
+    "company_count": 1,
+    "country_count": 1,
+    "industry_count": 1,
+    "average_layoffs_per_headcount_event": 4800.0,
+    "median_layoffs_per_headcount_event": 4800.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W27",
+      "total_laid_off": 1280,
+      "event_count": 6,
+      "total_laid_off_delta": 3520,
+      "total_laid_off_pct_change": 2.75,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.8333,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W28",
+      "total_laid_off": 6459,
+      "event_count": 7,
+      "total_laid_off_delta": -1659,
+      "total_laid_off_pct_change": -0.2569,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.8571,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 4800
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 4800
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 4800
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 4800
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-07-06",
+        "company": "Microsoft",
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-07-06",
+        "company": "Microsoft",
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-W28 includes 1 public layoff events and 4,800 reported layoffs.",
+    "The largest company contributor is Microsoft with 4,800 reported layoffs.",
+    "The leading named industry is Other with 4,800 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

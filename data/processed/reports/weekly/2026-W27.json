@@ -1,21 +1,21 @@
 {
   "report_type": "weekly",
   "period": "2026-W27",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-06-29",
-    "end": "2026-07-01"
+    "end": "2026-07-03"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/weekly/2026-W27.html",
   "kpis": {
-    "total_laid_off": 5980,
+    "total_laid_off": 1280,
     "event_count": 6,
     "headcount_event_count": 4,
     "company_count": 6,
-    "country_count": 4,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 1495.0,
+    "country_count": 5,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 320.0,
     "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 2
   },
@@ -24,8 +24,8 @@
       "period": "2026-W26",
       "total_laid_off": 23482,
       "event_count": 18,
-      "total_laid_off_delta": -17502,
-      "total_laid_off_pct_change": -0.7453,
+      "total_laid_off_delta": -22202,
+      "total_laid_off_pct_change": -0.9455,
       "event_count_delta": -12,
       "event_count_pct_change": -0.6667,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-W27",
       "total_laid_off": 9320,
       "event_count": 6,
-      "total_laid_off_delta": -3340,
-      "total_laid_off_pct_change": -0.3584,
+      "total_laid_off_delta": -8040,
+      "total_laid_off_pct_change": -0.8627,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
@@ -44,8 +44,8 @@
   "charts": {
     "company_top": [
       {
-        "company": "Microsoft",
-        "total_laid_off": 5500
+        "company": "CorroHealth",
+        "total_laid_off": 800
       },
       {
         "company": "TikTok",
@@ -62,8 +62,8 @@
     ],
     "industry_top": [
       {
-        "industry": "Other",
-        "total_laid_off": 5500
+        "industry": "Healthcare",
+        "total_laid_off": 800
       },
       {
         "industry": "Consumer",
@@ -80,8 +80,8 @@
     ],
     "country_top": [
       {
-        "country": "United States",
-        "total_laid_off": 5500
+        "country": "India",
+        "total_laid_off": 800
       },
       {
         "country": "Ireland",
@@ -94,8 +94,8 @@
     ],
     "stage_top": [
       {
-        "stage": "Post-IPO",
-        "total_laid_off": 5500
+        "stage": "Private Equity",
+        "total_laid_off": 800
       },
       {
         "stage": "Acquired",
@@ -109,7 +109,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 0
       },
       {
         "bucket": "10-24%",
@@ -132,14 +132,14 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2026-07-01",
-        "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        "date": "2026-07-03",
+        "company": "CorroHealth",
+        "num_laid_off": 800,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
       },
       {
         "date": "2026-07-01",
@@ -174,14 +174,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-07-01",
-        "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        "date": "2026-07-03",
+        "company": "CorroHealth",
+        "num_laid_off": 800,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
       },
       {
         "date": "2026-07-01",
@@ -258,9 +258,9 @@
     ]
   },
   "insights": [
-    "2026-W27 includes 6 public layoff events and 5,980 reported layoffs.",
-    "The largest company contributor is Microsoft with 5,500 reported layoffs.",
-    "The leading named industry is Consumer with 300 reported layoffs.",
+    "2026-W27 includes 6 public layoff events and 1,280 reported layoffs.",
+    "The largest company contributor is CorroHealth with 800 reported layoffs.",
+    "The leading named industry is Healthcare with 800 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

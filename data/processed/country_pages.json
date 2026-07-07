@@ -7,10 +7,10 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-01"
+      "end": "2026-07-06"
     },
     "kpis": {
-      "total_laid_off": 203271,
+      "total_laid_off": 202571,
       "event_count": 328,
       "headcount_event_count": 217,
       "company_count": 250,
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 5500
+          "total_laid_off": 4800
         }
       ],
       "company_top": [
@@ -112,7 +112,7 @@
         },
         {
           "company": "Microsoft",
-          "total_laid_off": 20847
+          "total_laid_off": 20147
         },
         {
           "company": "Meta",
@@ -143,14 +143,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-07-01",
+          "date": "2026-07-06",
           "company": "Microsoft",
-          "num_laid_off": 5500,
-          "percentage_laid_off": 0.025,
+          "num_laid_off": 4800,
+          "percentage_laid_off": 0.02,
           "industry": "Other",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
         },
         {
           "date": "2026-06-29",
@@ -294,7 +294,7 @@
         }
       ]
     },
-    "summary": "United States has 203,271 reported tech layoffs across 328 public events from 2025-01-02 to 2026-07-01."
+    "summary": "United States has 202,571 reported tech layoffs across 328 public events from 2025-01-02 to 2026-07-06."
   },
   {
     "type": "country",
@@ -304,13 +304,13 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-06-26"
+      "end": "2026-07-03"
     },
     "kpis": {
-      "total_laid_off": 9960,
-      "event_count": 57,
-      "headcount_event_count": 44,
-      "company_count": 47,
+      "total_laid_off": 10760,
+      "event_count": 58,
+      "headcount_event_count": 45,
+      "company_count": 48,
       "country_count": 1,
       "industry_count": 16,
       "high_intensity_event_count": 20
@@ -380,16 +380,24 @@
         {
           "month": "2026-06",
           "total_laid_off": 750
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 800
         }
       ],
       "company_top": [
+        {
+          "company": "Ola Electric",
+          "total_laid_off": 1000
+        },
         {
           "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Ola Electric",
-          "total_laid_off": 1000
+          "company": "CorroHealth",
+          "total_laid_off": 800
         },
         {
           "company": "Zomato",
@@ -412,21 +420,27 @@
           "total_laid_off": 500
         },
         {
-          "company": "Paytm",
-          "total_laid_off": 400
-        },
-        {
           "company": "GamesKraft",
           "total_laid_off": 400
         },
         {
-          "company": "Zupee",
-          "total_laid_off": 370
+          "company": "Paytm",
+          "total_laid_off": 400
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-03",
+          "company": "CorroHealth",
+          "num_laid_off": 800,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "India",
+          "stage": "Private Equity",
+          "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
+        },
         {
           "date": "2026-06-26",
           "company": "JiviAI",
@@ -566,20 +580,10 @@
           "country": "India",
           "stage": "Series C",
           "source": "https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded"
-        },
-        {
-          "date": "2026-01-30",
-          "company": "Zupee",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "India",
-          "stage": "Series B",
-          "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
         }
       ]
     },
-    "summary": "India has 9,960 reported tech layoffs across 57 public events from 2025-01-15 to 2026-06-26."
+    "summary": "India has 10,760 reported tech layoffs across 58 public events from 2025-01-15 to 2026-07-03."
   },
   {
     "type": "country",
@@ -2490,17 +2494,17 @@
     "title": "Tech Layoffs by Country: Singapore",
     "canonical_url": "/countries/singapore.html",
     "date_range": {
-      "start": "2026-03-19",
+      "start": "2026-03-18",
       "end": "2026-06-23"
     },
     "kpis": {
       "total_laid_off": 0,
-      "event_count": 3,
+      "event_count": 4,
       "headcount_event_count": 0,
-      "company_count": 3,
+      "company_count": 4,
       "country_count": 1,
       "industry_count": 3,
-      "high_intensity_event_count": 0
+      "high_intensity_event_count": 1
     },
     "charts": {
       "monthly_trend": [],
@@ -2537,9 +2541,19 @@
           "country": "Singapore",
           "stage": "Unknown",
           "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+        },
+        {
+          "date": "2026-03-18",
+          "company": "Algorand Foundation",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "Singapore",
+          "stage": "Unknown",
+          "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
         }
       ]
     },
-    "summary": "Singapore has 0 reported tech layoffs across 3 public events from 2026-03-19 to 2026-06-23."
+    "summary": "Singapore has 0 reported tech layoffs across 4 public events from 2026-03-18 to 2026-06-23."
   }
 ]

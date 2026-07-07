@@ -6,18 +6,18 @@
     "start": "2026-01-05",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
     "total_laid_off": 53115,
-    "event_count": 91,
+    "event_count": 92,
     "headcount_event_count": 63,
-    "company_count": 88,
+    "company_count": 89,
     "country_count": 16,
     "industry_count": 24,
     "average_layoffs_per_headcount_event": 843.1,
     "median_layoffs_per_headcount_event": 200.0,
-    "high_intensity_event_count": 19
+    "high_intensity_event_count": 20
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 69,
       "total_laid_off_delta": 23561,
       "total_laid_off_pct_change": 0.7972,
-      "event_count_delta": 22,
-      "event_count_pct_change": 0.3188,
+      "event_count_delta": 23,
+      "event_count_pct_change": 0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 105,
       "total_laid_off_delta": 23190,
       "total_laid_off_pct_change": 0.7749,
-      "event_count_delta": -14,
-      "event_count_pct_change": -0.1333,
+      "event_count_delta": -13,
+      "event_count_pct_change": -0.1238,
       "note": null
     }
   },
@@ -488,6 +488,16 @@
         "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
       },
       {
+        "date": "2026-03-18",
+        "company": "Algorand Foundation",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
+      },
+      {
         "date": "2026-03-17",
         "company": "FranShares",
         "num_laid_off": null,
@@ -526,16 +536,6 @@
         "country": "Canada",
         "stage": "Private Equity",
         "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
-      },
-      {
-        "date": "2026-03-13",
-        "company": "Digg",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
       }
     ],
     "high_intensity_events": [
@@ -580,16 +580,6 @@
         "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       },
       {
-        "date": "2026-03-17",
-        "company": "FranShares",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
-      },
-      {
         "date": "2026-01-13",
         "company": "Alle",
         "num_laid_off": null,
@@ -598,6 +588,16 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+      },
+      {
+        "date": "2026-03-17",
+        "company": "FranShares",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
       },
       {
         "date": "2026-01-25",
@@ -642,10 +642,10 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 91 public layoff events and 53,115 reported layoffs.",
+    "2026-Q1 includes 92 public layoff events and 53,115 reported layoffs.",
     "The largest company contributor is Amazon with 16,100 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
-    "19 events report a layoff percentage of 25% or higher."
+    "20 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

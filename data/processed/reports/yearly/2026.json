@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-01"
+    "end": "2026-07-06"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 119394,
-    "event_count": 228,
-    "headcount_event_count": 152,
-    "company_count": 217,
+    "total_laid_off": 119494,
+    "event_count": 230,
+    "headcount_event_count": 153,
+    "company_count": 219,
     "country_count": 26,
     "industry_count": 27,
-    "average_layoffs_per_headcount_event": 785.49,
+    "average_layoffs_per_headcount_event": 781.01,
     "median_layoffs_per_headcount_event": 150.0,
-    "high_intensity_event_count": 42
+    "high_intensity_event_count": 43
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5242,
-      "total_laid_off_pct_change": -0.0421,
-      "event_count_delta": -104,
-      "event_count_pct_change": -0.3133,
+      "total_laid_off_delta": -5142,
+      "total_laid_off_pct_change": -0.0413,
+      "event_count_delta": -102,
+      "event_count_pct_change": -0.3072,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 124636,
       "event_count": 332,
-      "total_laid_off_delta": -5242,
-      "total_laid_off_pct_change": -0.0421,
-      "event_count_delta": -104,
-      "event_count_pct_change": -0.3133,
+      "total_laid_off_delta": -5142,
+      "total_laid_off_pct_change": -0.0413,
+      "event_count_delta": -102,
+      "event_count_pct_change": -0.3072,
       "note": null
     }
   },
@@ -61,18 +61,18 @@
       },
       {
         "company": "Microsoft",
-        "total_laid_off": 5500
+        "total_laid_off": 4800
       },
       {
         "company": "PayPal",
         "total_laid_off": 4760
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 31220
+        "total_laid_off": 30520
       },
       {
         "industry": "Retail",
@@ -129,19 +129,19 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 99005
+        "total_laid_off": 98305
       },
       {
         "country": "Australia",
         "total_laid_off": 3952
       },
       {
-        "country": "Israel",
-        "total_laid_off": 3626
+        "country": "India",
+        "total_laid_off": 3705
       },
       {
-        "country": "India",
-        "total_laid_off": 2905
+        "country": "Israel",
+        "total_laid_off": 3626
       },
       {
         "country": "Netherlands",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 103619
+        "total_laid_off": 102919
       },
       {
         "stage": "Unknown",
@@ -190,12 +190,12 @@
         "total_laid_off": 1610
       },
       {
-        "stage": "Series E",
-        "total_laid_off": 806
+        "stage": "Private Equity",
+        "total_laid_off": 1454
       },
       {
-        "stage": "Private Equity",
-        "total_laid_off": 654
+        "stage": "Series E",
+        "total_laid_off": 806
       },
       {
         "stage": "Series D",
@@ -276,14 +276,14 @@
         "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
       },
       {
-        "date": "2026-07-01",
+        "date": "2026-07-06",
         "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
         "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
       },
       {
         "date": "2026-05-05",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-02-26",
-        "company": "Block",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
-      },
-      {
         "date": "2026-05-13",
         "company": "Cisco",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
       },
       {
         "date": "2026-05-20",
@@ -338,24 +338,24 @@
     ],
     "recent_events": [
       {
-        "date": "2026-07-01",
+        "date": "2026-07-06",
         "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
         "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
       },
       {
-        "date": "2026-07-01",
-        "company": "Tokopedia",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.9,
-        "industry": "Retail",
-        "country": "Indonesia",
-        "stage": "Acquired",
-        "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+        "date": "2026-07-03",
+        "company": "CorroHealth",
+        "num_laid_off": 800,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Private Equity",
+        "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
       },
       {
         "date": "2026-07-01",
@@ -366,6 +366,16 @@
         "country": "Ireland",
         "stage": "Acquired",
         "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+      },
+      {
+        "date": "2026-07-01",
+        "company": "Tokopedia",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.9,
+        "industry": "Retail",
+        "country": "Indonesia",
+        "stage": "Acquired",
+        "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
       },
       {
         "date": "2026-06-30",
@@ -379,16 +389,6 @@
       },
       {
         "date": "2026-06-29",
-        "company": "Equip Health",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.04,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
-      },
-      {
-        "date": "2026-06-29",
         "company": "Elementor",
         "num_laid_off": 100,
         "percentage_laid_off": 0.3,
@@ -396,6 +396,16 @@
         "country": "Israel",
         "stage": "Series B",
         "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+      },
+      {
+        "date": "2026-06-29",
+        "company": "Equip Health",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
       },
       {
         "date": "2026-06-26",
@@ -449,26 +459,6 @@
       },
       {
         "date": "2026-06-25",
-        "company": "Bungie",
-        "num_laid_off": 292,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
-      },
-      {
-        "date": "2026-06-25",
-        "company": "BitGo",
-        "num_laid_off": 90,
-        "percentage_laid_off": 0.15,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://x.com/mikebelshe/status/2070240967479996463"
-      },
-      {
-        "date": "2026-06-25",
         "company": "Amperity",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -488,14 +478,24 @@
         "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
       },
       {
-        "date": "2026-06-24",
-        "company": "Snyk",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Security",
+        "date": "2026-06-25",
+        "company": "BitGo",
+        "num_laid_off": 90,
+        "percentage_laid_off": 0.15,
+        "industry": "Crypto",
         "country": "United States",
-        "stage": "Series F",
-        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+        "stage": "Unknown",
+        "source": "https://x.com/mikebelshe/status/2070240967479996463"
+      },
+      {
+        "date": "2026-06-25",
+        "company": "Bungie",
+        "num_laid_off": 292,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
       },
       {
         "date": "2026-06-24",
@@ -518,6 +518,16 @@
         "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
       },
       {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+      },
+      {
         "date": "2026-06-23",
         "company": "Oracle",
         "num_laid_off": 21000,
@@ -526,19 +536,19 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"
-      },
-      {
-        "date": "2026-06-23",
-        "company": "Ethereum Foundation",
-        "num_laid_off": 54,
-        "percentage_laid_off": 0.2,
-        "industry": "Crypto",
-        "country": "Switzerland",
-        "stage": "Unknown",
-        "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+      },
       {
         "date": "2026-05-26",
         "company": "Picnic",
@@ -550,14 +560,14 @@
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
-        "date": "2026-06-26",
-        "company": "JiviAI",
+        "date": "2026-01-25",
+        "company": "Entropy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "India",
+        "industry": "Crypto",
+        "country": "United States",
         "stage": "Seed",
-        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
       },
       {
         "date": "2026-03-26",
@@ -590,14 +600,14 @@
         "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
       },
       {
-        "date": "2026-04-03",
-        "company": "NeuroPixel.AI",
+        "date": "2026-03-31",
+        "company": "Covrzy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Retail",
+        "industry": "Finance",
         "country": "India",
         "stage": "Seed",
-        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
         "date": "2026-03-31",
@@ -610,6 +620,16 @@
         "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       },
       {
+        "date": "2026-04-03",
+        "company": "NeuroPixel.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+      },
+      {
         "date": "2026-03-31",
         "company": "Rec Room",
         "num_laid_off": null,
@@ -618,34 +638,14 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Covrzy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
-      },
-      {
-        "date": "2026-05-09",
-        "company": "Parker",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
       }
     ]
   },
   "insights": [
-    "2026 includes 228 public layoff events and 119,394 reported layoffs.",
+    "2026 includes 230 public layoff events and 119,494 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,411 reported layoffs.",
-    "42 events report a layoff percentage of 25% or higher."
+    "43 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

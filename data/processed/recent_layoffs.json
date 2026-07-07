@@ -1,23 +1,23 @@
 [
   {
-    "date": "2026-07-01",
+    "date": "2026-07-06",
     "company": "Microsoft",
-    "num_laid_off": 5500,
-    "percentage_laid_off": 0.025,
+    "num_laid_off": 4800,
+    "percentage_laid_off": 0.02,
     "industry": "Other",
     "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
+    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
   },
   {
-    "date": "2026-07-01",
-    "company": "Tokopedia",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.9,
-    "industry": "Retail",
-    "country": "Indonesia",
-    "stage": "Acquired",
-    "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+    "date": "2026-07-03",
+    "company": "CorroHealth",
+    "num_laid_off": 800,
+    "percentage_laid_off": null,
+    "industry": "Healthcare",
+    "country": "India",
+    "stage": "Private Equity",
+    "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
   },
   {
     "date": "2026-07-01",
@@ -28,6 +28,16 @@
     "country": "Ireland",
     "stage": "Acquired",
     "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+  },
+  {
+    "date": "2026-07-01",
+    "company": "Tokopedia",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.9,
+    "industry": "Retail",
+    "country": "Indonesia",
+    "stage": "Acquired",
+    "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
   },
   {
     "date": "2026-06-30",
@@ -61,13 +71,23 @@
   },
   {
     "date": "2026-06-26",
-    "company": "SAS",
-    "num_laid_off": 300,
+    "company": "CompanyCam",
+    "num_laid_off": null,
     "percentage_laid_off": null,
-    "industry": "Data",
+    "industry": "Recruiting",
     "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.newsobserver.com/news/business/article316281262.html"
+    "stage": "Series C",
+    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+  },
+  {
+    "date": "2026-06-26",
+    "company": "JiviAI",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Healthcare",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
   },
   {
     "date": "2026-06-26",
@@ -91,32 +111,12 @@
   },
   {
     "date": "2026-06-26",
-    "company": "CompanyCam",
-    "num_laid_off": null,
+    "company": "SAS",
+    "num_laid_off": 300,
     "percentage_laid_off": null,
-    "industry": "Recruiting",
+    "industry": "Data",
     "country": "United States",
-    "stage": "Series C",
-    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "JiviAI",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Healthcare",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-  },
-  {
-    "date": "2026-06-25",
-    "company": "Bungie",
-    "num_laid_off": 292,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+    "stage": "Unknown",
+    "source": "https://www.newsobserver.com/news/business/article316281262.html"
   }
 ]

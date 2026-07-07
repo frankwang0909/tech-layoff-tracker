@@ -6,18 +6,18 @@
     "start": "2026-03-16",
     "end": "2026-03-20"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/weekly/2026-W12.html",
   "kpis": {
     "total_laid_off": 11070,
-    "event_count": 5,
+    "event_count": 6,
     "headcount_event_count": 2,
-    "company_count": 5,
+    "company_count": 6,
     "country_count": 2,
     "industry_count": 4,
     "average_layoffs_per_headcount_event": 5535.0,
     "median_layoffs_per_headcount_event": 5535.0,
-    "high_intensity_event_count": 2
+    "high_intensity_event_count": 3
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 5,
       "total_laid_off_delta": 8884,
       "total_laid_off_pct_change": 4.064,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.2,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 4,
       "total_laid_off_delta": 10424,
       "total_laid_off_pct_change": 16.1362,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.25,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
@@ -152,6 +152,16 @@
         "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
       },
       {
+        "date": "2026-03-18",
+        "company": "Algorand Foundation",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
+      },
+      {
         "date": "2026-03-17",
         "company": "FranShares",
         "num_laid_off": null,
@@ -192,14 +202,24 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
+      },
+      {
+        "date": "2026-03-18",
+        "company": "Algorand Foundation",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.25,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
       }
     ]
   },
   "insights": [
-    "2026-W12 includes 5 public layoff events and 11,070 reported layoffs.",
+    "2026-W12 includes 6 public layoff events and 11,070 reported layoffs.",
     "The largest company contributor is Dell with 11,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

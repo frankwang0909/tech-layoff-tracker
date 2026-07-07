@@ -6,17 +6,17 @@
     "start": "2026-07-01",
     "end": "2026-07-01"
   },
-  "updated_at": "2026-07-01",
+  "updated_at": "2026-07-06",
   "canonical_url": "/reports/daily/2026-07-01.html",
   "kpis": {
-    "total_laid_off": 5800,
-    "event_count": 3,
-    "headcount_event_count": 2,
-    "company_count": 3,
-    "country_count": 3,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 2900.0,
-    "median_layoffs_per_headcount_event": 2900.0,
+    "total_laid_off": 300,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 300.0,
+    "median_layoffs_per_headcount_event": 300.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-06-30",
       "total_laid_off": 80,
       "event_count": 1,
-      "total_laid_off_delta": 5720,
-      "total_laid_off_pct_change": 71.5,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "total_laid_off_delta": 220,
+      "total_laid_off_pct_change": 2.75,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -44,19 +44,11 @@
   "charts": {
     "company_top": [
       {
-        "company": "Microsoft",
-        "total_laid_off": 5500
-      },
-      {
         "company": "TikTok",
         "total_laid_off": 300
       }
     ],
     "industry_top": [
-      {
-        "industry": "Other",
-        "total_laid_off": 5500
-      },
       {
         "industry": "Consumer",
         "total_laid_off": 300
@@ -64,19 +56,11 @@
     ],
     "country_top": [
       {
-        "country": "United States",
-        "total_laid_off": 5500
-      },
-      {
         "country": "Ireland",
         "total_laid_off": 300
       }
     ],
     "stage_top": [
-      {
-        "stage": "Post-IPO",
-        "total_laid_off": 5500
-      },
       {
         "stage": "Acquired",
         "total_laid_off": 300
@@ -85,7 +69,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 0
       },
       {
         "bucket": "10-24%",
@@ -109,16 +93,6 @@
     "largest_events": [
       {
         "date": "2026-07-01",
-        "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
-      },
-      {
-        "date": "2026-07-01",
         "company": "TikTok",
         "num_laid_off": 300,
         "percentage_laid_off": null,
@@ -129,16 +103,6 @@
       }
     ],
     "recent_events": [
-      {
-        "date": "2026-07-01",
-        "company": "Microsoft",
-        "num_laid_off": 5500,
-        "percentage_laid_off": 0.025,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.morningstar.com/news/marketwatch/2026070131/microsoft-is-reportedly-planning-thousands-of-layoffs-as-it-spends-on-ai"
-      },
       {
         "date": "2026-07-01",
         "company": "TikTok",
@@ -174,8 +138,8 @@
     ]
   },
   "insights": [
-    "2026-07-01 includes 3 public layoff events and 5,800 reported layoffs.",
-    "The largest company contributor is Microsoft with 5,500 reported layoffs.",
+    "2026-07-01 includes 2 public layoff events and 300 reported layoffs.",
+    "The largest company contributor is TikTok with 300 reported layoffs.",
     "The leading named industry is Consumer with 300 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],

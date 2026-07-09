@@ -1,5 +1,11 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Mews,"Amsterdam, Non-U.S.",200.0,2026-07-07,0.15,Travel,https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/,Series D,817.0,Netherlands,2026-07-08T15:01:22.000Z
+Darrow,"Tel Aviv, Non-U.S.",60.0,2026-07-07,0.33,Legal,https://www.calcalistech.com/ctechnews/article/hy7svt97ge,Series B,63.0,Israel,2026-07-08T14:59:54.000Z
+Billion Hearts,"Bengaluru, Non-U.S.",,2026-07-07,1.0,Consumer,https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/,Seed,5.0,India,2026-07-08T14:56:18.000Z
+PokerStars,"Leeds, Non-U.S.",,2026-07-07,,Consumer,https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/,Acquired,,United Kingdom,2026-07-08T16:11:36.000Z
 Microsoft,Seattle,4800.0,2026-07-06,0.02,Other,https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html,Post-IPO,1.0,United States,2026-07-06T16:32:44.000Z
+Yield Guild Games,New York City,35.0,2026-07-06,,Crypto,https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai,Unknown,36.0,United States,2026-07-08T16:09:58.000Z
+Coursera,SF Bay Area,,2026-07-06,,Education,https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/,Acquired,458.0,United States,2026-07-08T14:58:15.000Z
 CorroHealth,"Kochi, Non-U.S.",800.0,2026-07-03,,Healthcare,https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html,Private Equity,376.0,India,2026-07-06T17:04:17.000Z
 TikTok,"Dublin, Non-U.S.",300.0,2026-07-01,,Consumer,https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/,Acquired,,Ireland,2026-07-05T03:05:13.000Z
 Tokopedia,"Jakarta, Non-U.S.",,2026-07-01,0.9,Retail,https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia,Acquired,2800.0,Indonesia,2026-07-03T15:53:00.000Z

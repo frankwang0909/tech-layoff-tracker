@@ -549,16 +549,16 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-07-01"
+      "end": "2026-07-07"
     },
     "kpis": {
       "total_laid_off": 26553,
-      "event_count": 76,
+      "event_count": 78,
       "headcount_event_count": 52,
-      "company_count": 49,
+      "company_count": 51,
       "country_count": 9,
       "industry_count": 1,
-      "high_intensity_event_count": 9
+      "high_intensity_event_count": 10
     },
     "charts": {
       "monthly_trend": [
@@ -681,6 +681,26 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-07-07",
+          "company": "Billion Hearts",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Consumer",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+        },
+        {
+          "date": "2026-07-07",
+          "company": "PokerStars",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+        },
+        {
           "date": "2026-07-01",
           "company": "TikTok",
           "num_laid_off": 300,
@@ -752,16 +772,6 @@
         },
         {
           "date": "2026-05-07",
-          "company": "Ticketmaster",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.08,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-        },
-        {
-          "date": "2026-05-07",
           "company": "Truecaller",
           "num_laid_off": 70,
           "percentage_laid_off": null,
@@ -769,6 +779,16 @@
           "country": "Sweden",
           "stage": "Post-IPO",
           "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Ticketmaster",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.08,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
         },
         {
           "date": "2026-04-16",
@@ -809,30 +829,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
-        },
-        {
-          "date": "2026-04-08",
-          "company": "IAC",
-          "num_laid_off": 77,
-          "percentage_laid_off": 0.02,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://variety.com/2026/digital/news/barry-diller-iac-name-people-incorporated-layoffs-1236732057/"
-        },
-        {
-          "date": "2026-04-07",
-          "company": "GoPro",
-          "num_laid_off": 145,
-          "percentage_laid_off": 0.23,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
         }
       ]
     },
-    "summary": "Consumer has 26,553 reported tech layoffs across 76 public events from 2025-01-27 to 2026-07-01."
+    "summary": "Consumer has 26,553 reported tech layoffs across 78 public events from 2025-01-27 to 2026-07-07."
   },
   {
     "type": "industry",
@@ -4231,13 +4231,13 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-06-25"
+      "end": "2026-07-06"
     },
     "kpis": {
-      "total_laid_off": 1367,
-      "event_count": 18,
-      "headcount_event_count": 9,
-      "company_count": 17,
+      "total_laid_off": 1402,
+      "event_count": 19,
+      "headcount_event_count": 10,
+      "company_count": 18,
       "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 6
@@ -4267,6 +4267,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 144
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 35
         }
       ],
       "company_top": [
@@ -4303,6 +4307,10 @@
           "total_laid_off": 37
         },
         {
+          "company": "Yield Guild Games",
+          "total_laid_off": 35
+        },
+        {
           "company": "Eigen Labs",
           "total_laid_off": 29
         }
@@ -4310,6 +4318,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-06",
+          "company": "Yield Guild Games",
+          "num_laid_off": 35,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+        },
         {
           "date": "2026-06-25",
           "company": "BitGo",
@@ -4449,20 +4467,10 @@
           "country": "United States",
           "stage": "Seed",
           "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
-        },
-        {
-          "date": "2026-01-16",
-          "company": "Polygon",
-          "num_laid_off": 60,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Cayman Islands",
-          "stage": "Unknown",
-          "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
         }
       ]
     },
-    "summary": "Crypto has 1,367 reported tech layoffs across 18 public events from 2025-02-05 to 2026-06-25."
+    "summary": "Crypto has 1,402 reported tech layoffs across 19 public events from 2025-02-05 to 2026-07-06."
   },
   {
     "type": "industry",
@@ -4961,249 +4969,19 @@
   },
   {
     "type": "industry",
-    "name": "Education",
-    "slug": "education",
-    "title": "Tech Layoffs by Industry: Education",
-    "canonical_url": "/industries/education.html",
-    "date_range": {
-      "start": "2025-03-31",
-      "end": "2026-06-05"
-    },
-    "kpis": {
-      "total_laid_off": 1020,
-      "event_count": 10,
-      "headcount_event_count": 6,
-      "company_count": 9,
-      "country_count": 3,
-      "industry_count": 1,
-      "high_intensity_event_count": 1
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-05",
-          "total_laid_off": 248
-        },
-        {
-          "month": "2025-10",
-          "total_laid_off": 388
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 55
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 250
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 79
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Chegg",
-          "total_laid_off": 636
-        },
-        {
-          "company": "Adda247",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Quizlet",
-          "total_laid_off": 79
-        },
-        {
-          "company": "Multiverse",
-          "total_laid_off": 55
-        },
-        {
-          "company": "Interview Kickstart",
-          "total_laid_off": 50
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-06-05",
-          "company": "Quizlet",
-          "num_laid_off": 79,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-        },
-        {
-          "date": "2026-05-29",
-          "company": "Interview Kickstart",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
-        },
-        {
-          "date": "2026-05-10",
-          "company": "Adda247",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.2,
-          "industry": "Education",
-          "country": "India",
-          "stage": "Series B",
-          "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
-        },
-        {
-          "date": "2026-02-19",
-          "company": "Codecademy",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms"
-        },
-        {
-          "date": "2026-01-05",
-          "company": "Multiverse",
-          "num_laid_off": 55,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United Kingdom",
-          "stage": "Series D",
-          "source": "https://sifted.eu/articles/multiverse-job-cuts-euan-blair"
-        },
-        {
-          "date": "2025-12-12",
-          "company": "PowerSchool",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.bizjournals.com/sacramento/news/2025/12/12/powerschool-restructuring-layoffs.html"
-        },
-        {
-          "date": "2025-10-27",
-          "company": "Chegg",
-          "num_laid_off": 388,
-          "percentage_laid_off": 0.45,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/sustainability/boards-policy-regulation/hit-by-ai-edtech-firm-chegg-slashes-jobs-names-new-ceo-major-overhaul-2025-10-27/"
-        },
-        {
-          "date": "2025-06-24",
-          "company": "Pluralsight",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.17,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.sltrib.com/news/business/2025/06/26/pluralsight-is-leaving-utah-after/"
-        },
-        {
-          "date": "2025-05-12",
-          "company": "Chegg",
-          "num_laid_off": 248,
-          "percentage_laid_off": 0.22,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/"
-        },
-        {
-          "date": "2025-03-31",
-          "company": "2U",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.classcentral.com/report/2u-layoffs-march-2025/"
-        }
-      ]
-    },
-    "summary": "Education has 1,020 reported tech layoffs across 10 public events from 2025-03-31 to 2026-06-05."
-  },
-  {
-    "type": "industry",
-    "name": "Aerospace",
-    "slug": "aerospace",
-    "title": "Tech Layoffs by Industry: Aerospace",
-    "canonical_url": "/industries/aerospace.html",
-    "date_range": {
-      "start": "2025-02-13",
-      "end": "2025-02-14"
-    },
-    "kpis": {
-      "total_laid_off": 1000,
-      "event_count": 2,
-      "headcount_event_count": 1,
-      "company_count": 2,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 0
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 1000
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Blue Origin",
-          "total_laid_off": 1000
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2025-02-14",
-          "company": "Eviation Aircraft",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Aerospace",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
-        },
-        {
-          "date": "2025-02-13",
-          "company": "Blue Origin",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.1,
-          "industry": "Aerospace",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
-        }
-      ]
-    },
-    "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
-  },
-  {
-    "type": "industry",
     "name": "Travel",
     "slug": "travel",
     "title": "Tech Layoffs by Industry: Travel",
     "canonical_url": "/industries/travel.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-06-17"
+      "end": "2026-07-07"
     },
     "kpis": {
-      "total_laid_off": 845,
-      "event_count": 11,
-      "headcount_event_count": 5,
-      "company_count": 6,
+      "total_laid_off": 1045,
+      "event_count": 12,
+      "headcount_event_count": 6,
+      "company_count": 7,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 3
@@ -5229,6 +5007,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 400
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 200
         }
       ],
       "company_top": [
@@ -5239,6 +5021,10 @@
         {
           "company": "Kiwi.com",
           "total_laid_off": 250
+        },
+        {
+          "company": "Mews",
+          "total_laid_off": 200
         },
         {
           "company": "Expedia",
@@ -5256,6 +5042,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-07",
+          "company": "Mews",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.15,
+          "industry": "Travel",
+          "country": "Netherlands",
+          "stage": "Series D",
+          "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+        },
         {
           "date": "2026-06-17",
           "company": "Lastminute",
@@ -5368,7 +5164,247 @@
         }
       ]
     },
-    "summary": "Travel has 845 reported tech layoffs across 11 public events from 2025-02-04 to 2026-06-17."
+    "summary": "Travel has 1,045 reported tech layoffs across 12 public events from 2025-02-04 to 2026-07-07."
+  },
+  {
+    "type": "industry",
+    "name": "Education",
+    "slug": "education",
+    "title": "Tech Layoffs by Industry: Education",
+    "canonical_url": "/industries/education.html",
+    "date_range": {
+      "start": "2025-03-31",
+      "end": "2026-07-06"
+    },
+    "kpis": {
+      "total_laid_off": 1020,
+      "event_count": 11,
+      "headcount_event_count": 6,
+      "company_count": 10,
+      "country_count": 3,
+      "industry_count": 1,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-05",
+          "total_laid_off": 248
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 388
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 55
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 250
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 79
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Chegg",
+          "total_laid_off": 636
+        },
+        {
+          "company": "Adda247",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Quizlet",
+          "total_laid_off": 79
+        },
+        {
+          "company": "Multiverse",
+          "total_laid_off": 55
+        },
+        {
+          "company": "Interview Kickstart",
+          "total_laid_off": 50
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-06",
+          "company": "Coursera",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+        },
+        {
+          "date": "2026-06-05",
+          "company": "Quizlet",
+          "num_laid_off": 79,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+        },
+        {
+          "date": "2026-05-29",
+          "company": "Interview Kickstart",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+        },
+        {
+          "date": "2026-05-10",
+          "company": "Adda247",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.2,
+          "industry": "Education",
+          "country": "India",
+          "stage": "Series B",
+          "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
+        },
+        {
+          "date": "2026-02-19",
+          "company": "Codecademy",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms"
+        },
+        {
+          "date": "2026-01-05",
+          "company": "Multiverse",
+          "num_laid_off": 55,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United Kingdom",
+          "stage": "Series D",
+          "source": "https://sifted.eu/articles/multiverse-job-cuts-euan-blair"
+        },
+        {
+          "date": "2025-12-12",
+          "company": "PowerSchool",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.bizjournals.com/sacramento/news/2025/12/12/powerschool-restructuring-layoffs.html"
+        },
+        {
+          "date": "2025-10-27",
+          "company": "Chegg",
+          "num_laid_off": 388,
+          "percentage_laid_off": 0.45,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/sustainability/boards-policy-regulation/hit-by-ai-edtech-firm-chegg-slashes-jobs-names-new-ceo-major-overhaul-2025-10-27/"
+        },
+        {
+          "date": "2025-06-24",
+          "company": "Pluralsight",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.17,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.sltrib.com/news/business/2025/06/26/pluralsight-is-leaving-utah-after/"
+        },
+        {
+          "date": "2025-05-12",
+          "company": "Chegg",
+          "num_laid_off": 248,
+          "percentage_laid_off": 0.22,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/world/americas/chegg-lay-off-22-workforce-ai-tools-shake-up-edtech-industry-2025-05-12/"
+        },
+        {
+          "date": "2025-03-31",
+          "company": "2U",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.classcentral.com/report/2u-layoffs-march-2025/"
+        }
+      ]
+    },
+    "summary": "Education has 1,020 reported tech layoffs across 11 public events from 2025-03-31 to 2026-07-06."
+  },
+  {
+    "type": "industry",
+    "name": "Aerospace",
+    "slug": "aerospace",
+    "title": "Tech Layoffs by Industry: Aerospace",
+    "canonical_url": "/industries/aerospace.html",
+    "date_range": {
+      "start": "2025-02-13",
+      "end": "2025-02-14"
+    },
+    "kpis": {
+      "total_laid_off": 1000,
+      "event_count": 2,
+      "headcount_event_count": 1,
+      "company_count": 2,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 1000
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Blue Origin",
+          "total_laid_off": 1000
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2025-02-14",
+          "company": "Eviation Aircraft",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Aerospace",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Blue Origin",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.1,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
+        }
+      ]
+    },
+    "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
   },
   {
     "type": "industry",

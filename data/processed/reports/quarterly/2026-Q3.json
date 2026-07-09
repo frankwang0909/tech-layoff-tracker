@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-06"
+    "end": "2026-07-07"
   },
-  "updated_at": "2026-07-06",
+  "updated_at": "2026-07-07",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 5900,
-    "event_count": 4,
-    "headcount_event_count": 3,
-    "company_count": 4,
-    "country_count": 4,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 1966.67,
-    "median_layoffs_per_headcount_event": 800.0,
-    "high_intensity_event_count": 1
+    "total_laid_off": 6195,
+    "event_count": 10,
+    "headcount_event_count": 6,
+    "company_count": 10,
+    "country_count": 7,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 1032.5,
+    "median_layoffs_per_headcount_event": 250.0,
+    "high_intensity_event_count": 3
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
       "total_laid_off": 60479,
       "event_count": 134,
-      "total_laid_off_delta": -54579,
-      "total_laid_off_pct_change": -0.9024,
-      "event_count_delta": -130,
-      "event_count_pct_change": -0.9701,
+      "total_laid_off_delta": -54284,
+      "total_laid_off_pct_change": -0.8976,
+      "event_count_delta": -124,
+      "event_count_pct_change": -0.9254,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -21654,
-      "total_laid_off_pct_change": -0.7859,
-      "event_count_delta": -82,
-      "event_count_pct_change": -0.9535,
+      "total_laid_off_delta": -21359,
+      "total_laid_off_pct_change": -0.7752,
+      "event_count_delta": -76,
+      "event_count_pct_change": -0.8837,
       "note": null
     }
   },
@@ -54,6 +54,18 @@
       {
         "company": "TikTok",
         "total_laid_off": 300
+      },
+      {
+        "company": "Mews",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Darrow",
+        "total_laid_off": 60
+      },
+      {
+        "company": "Yield Guild Games",
+        "total_laid_off": 35
       }
     ],
     "industry_top": [
@@ -68,12 +80,24 @@
       {
         "industry": "Consumer",
         "total_laid_off": 300
+      },
+      {
+        "industry": "Travel",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Legal",
+        "total_laid_off": 60
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 35
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 4800
+        "total_laid_off": 4835
       },
       {
         "country": "India",
@@ -82,6 +106,14 @@
       {
         "country": "Ireland",
         "total_laid_off": 300
+      },
+      {
+        "country": "Netherlands",
+        "total_laid_off": 200
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 60
       }
     ],
     "stage_top": [
@@ -96,6 +128,18 @@
       {
         "stage": "Acquired",
         "total_laid_off": 300
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 60
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 35
       }
     ],
     "layoff_pct_distribution": [
@@ -105,11 +149,11 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "50-99%",
@@ -152,9 +196,79 @@
         "country": "Ireland",
         "stage": "Acquired",
         "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Mews",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.15,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Series D",
+        "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Darrow",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.33,
+        "industry": "Legal",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Yield Guild Games",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-07",
+        "company": "Mews",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.15,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Series D",
+        "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Darrow",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.33,
+        "industry": "Legal",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Billion Hearts",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "PokerStars",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+      },
       {
         "date": "2026-07-06",
         "company": "Microsoft",
@@ -164,6 +278,26 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Yield Guild Games",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Coursera",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
       },
       {
         "date": "2026-07-03",
@@ -198,6 +332,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-07-07",
+        "company": "Billion Hearts",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+      },
+      {
         "date": "2026-07-01",
         "company": "Tokopedia",
         "num_laid_off": null,
@@ -206,14 +350,24 @@
         "country": "Indonesia",
         "stage": "Acquired",
         "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Darrow",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.33,
+        "industry": "Legal",
+        "country": "Israel",
+        "stage": "Series B",
+        "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 4 public layoff events and 5,900 reported layoffs.",
+    "2026-Q3 includes 10 public layoff events and 6,195 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Healthcare with 800 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

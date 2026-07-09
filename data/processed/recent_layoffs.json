@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-07-07",
+    "company": "Mews",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.15,
+    "industry": "Travel",
+    "country": "Netherlands",
+    "stage": "Series D",
+    "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "PokerStars",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United Kingdom",
+    "stage": "Acquired",
+    "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "Darrow",
+    "num_laid_off": 60,
+    "percentage_laid_off": 0.33,
+    "industry": "Legal",
+    "country": "Israel",
+    "stage": "Series B",
+    "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "Billion Hearts",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Consumer",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+  },
+  {
+    "date": "2026-07-06",
+    "company": "Coursera",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Education",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+  },
+  {
     "date": "2026-07-06",
     "company": "Microsoft",
     "num_laid_off": 4800,
@@ -8,6 +58,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+  },
+  {
+    "date": "2026-07-06",
+    "company": "Yield Guild Games",
+    "num_laid_off": 35,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
   },
   {
     "date": "2026-07-03",
@@ -51,16 +111,6 @@
   },
   {
     "date": "2026-06-29",
-    "company": "Elementor",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.3,
-    "industry": "Media",
-    "country": "Israel",
-    "stage": "Series B",
-    "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
-  },
-  {
-    "date": "2026-06-29",
     "company": "Equip Health",
     "num_laid_off": null,
     "percentage_laid_off": 0.04,
@@ -68,55 +118,5 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "CompanyCam",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Recruiting",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "JiviAI",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Healthcare",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "ADP",
-    "num_laid_off": 76,
-    "percentage_laid_off": null,
-    "industry": "HR",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "Culture Amp",
-    "num_laid_off": 70,
-    "percentage_laid_off": 0.09,
-    "industry": "HR",
-    "country": "Australia",
-    "stage": "Series F",
-    "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
-  },
-  {
-    "date": "2026-06-26",
-    "company": "SAS",
-    "num_laid_off": 300,
-    "percentage_laid_off": null,
-    "industry": "Data",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.newsobserver.com/news/business/article316281262.html"
   }
 ]

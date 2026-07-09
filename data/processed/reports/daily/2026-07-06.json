@@ -6,17 +6,17 @@
     "start": "2026-07-06",
     "end": "2026-07-06"
   },
-  "updated_at": "2026-07-06",
+  "updated_at": "2026-07-07",
   "canonical_url": "/reports/daily/2026-07-06.html",
   "kpis": {
-    "total_laid_off": 4800,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 4835,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 4800.0,
-    "median_layoffs_per_headcount_event": 4800.0,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 2417.5,
+    "median_layoffs_per_headcount_event": 2417.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -46,24 +46,36 @@
       {
         "company": "Microsoft",
         "total_laid_off": 4800
+      },
+      {
+        "company": "Yield Guild Games",
+        "total_laid_off": 35
       }
     ],
     "industry_top": [
       {
         "industry": "Other",
         "total_laid_off": 4800
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 35
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 4800
+        "total_laid_off": 4835
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 4800
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 35
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +112,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Yield Guild Games",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
       }
     ],
     "recent_events": [
@@ -112,14 +134,34 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Yield Guild Games",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Coursera",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-07-06 includes 1 public layoff events and 4,800 reported layoffs.",
+    "2026-07-06 includes 3 public layoff events and 4,835 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Other with 4,800 reported layoffs."
+    "The leading named industry is Crypto with 35 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

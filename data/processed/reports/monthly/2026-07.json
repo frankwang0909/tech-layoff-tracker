@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-07"
+    "end": "2026-07-08"
   },
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "canonical_url": "/reports/monthly/2026-07.html",
   "kpis": {
-    "total_laid_off": 6195,
-    "event_count": 10,
-    "headcount_event_count": 6,
-    "company_count": 10,
+    "total_laid_off": 6752,
+    "event_count": 12,
+    "headcount_event_count": 8,
+    "company_count": 12,
     "country_count": 7,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 1032.5,
+    "average_layoffs_per_headcount_event": 844.0,
     "median_layoffs_per_headcount_event": 250.0,
     "high_intensity_event_count": 3
   },
@@ -24,20 +24,20 @@
       "period": "2026-06",
       "total_laid_off": 26460,
       "event_count": 50,
-      "total_laid_off_delta": -20265,
-      "total_laid_off_pct_change": -0.7659,
-      "event_count_delta": -40,
-      "event_count_pct_change": -0.8,
+      "total_laid_off_delta": -19708,
+      "total_laid_off_pct_change": -0.7448,
+      "event_count_delta": -38,
+      "event_count_pct_change": -0.76,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-07",
       "total_laid_off": 16648,
       "event_count": 31,
-      "total_laid_off_delta": -10453,
-      "total_laid_off_pct_change": -0.6279,
-      "event_count_delta": -21,
-      "event_count_pct_change": -0.6774,
+      "total_laid_off_delta": -9896,
+      "total_laid_off_pct_change": -0.5944,
+      "event_count_delta": -19,
+      "event_count_pct_change": -0.6129,
       "note": null
     }
   },
@@ -52,6 +52,10 @@
         "total_laid_off": 800
       },
       {
+        "company": "MyHeritage",
+        "total_laid_off": 500
+      },
+      {
         "company": "TikTok",
         "total_laid_off": 300
       },
@@ -62,6 +66,10 @@
       {
         "company": "Darrow",
         "total_laid_off": 60
+      },
+      {
+        "company": "Amazon",
+        "total_laid_off": 57
       },
       {
         "company": "Yield Guild Games",
@@ -79,7 +87,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 300
+        "total_laid_off": 800
       },
       {
         "industry": "Travel",
@@ -90,6 +98,10 @@
         "total_laid_off": 60
       },
       {
+        "industry": "Retail",
+        "total_laid_off": 57
+      },
+      {
         "industry": "Crypto",
         "total_laid_off": 35
       }
@@ -97,11 +109,15 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 4835
+        "total_laid_off": 4892
       },
       {
         "country": "India",
         "total_laid_off": 800
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 560
       },
       {
         "country": "Ireland",
@@ -110,24 +126,20 @@
       {
         "country": "Netherlands",
         "total_laid_off": 200
-      },
-      {
-        "country": "Israel",
-        "total_laid_off": 60
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 4800
+        "total_laid_off": 4857
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 800
       },
       {
         "stage": "Private Equity",
         "total_laid_off": 800
-      },
-      {
-        "stage": "Acquired",
-        "total_laid_off": 300
       },
       {
         "stage": "Series D",
@@ -149,7 +161,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -188,6 +200,16 @@
         "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
       },
       {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+      },
+      {
         "date": "2026-07-01",
         "company": "TikTok",
         "num_laid_off": 300,
@@ -219,6 +241,16 @@
       },
       {
         "date": "2026-07-06",
+        "company": "Amazon",
+        "num_laid_off": 57,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+      },
+      {
+        "date": "2026-07-06",
         "company": "Yield Guild Games",
         "num_laid_off": 35,
         "percentage_laid_off": null,
@@ -229,6 +261,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+      },
       {
         "date": "2026-07-07",
         "company": "Mews",
@@ -278,6 +320,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Amazon",
+        "num_laid_off": 57,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
       },
       {
         "date": "2026-07-06",
@@ -364,7 +416,7 @@
     ]
   },
   "insights": [
-    "2026-07 includes 10 public layoff events and 6,195 reported layoffs.",
+    "2026-07 includes 12 public layoff events and 6,752 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Healthcare with 800 reported layoffs.",
     "3 events report a layoff percentage of 25% or higher."

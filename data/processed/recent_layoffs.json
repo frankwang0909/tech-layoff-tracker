@@ -1,13 +1,23 @@
 [
   {
-    "date": "2026-07-07",
-    "company": "Mews",
-    "num_laid_off": 200,
+    "date": "2026-07-08",
+    "company": "MyHeritage",
+    "num_laid_off": 500,
     "percentage_laid_off": 0.15,
-    "industry": "Travel",
-    "country": "Netherlands",
-    "stage": "Series D",
-    "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+    "industry": "Consumer",
+    "country": "Israel",
+    "stage": "Acquired",
+    "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "Billion Hearts",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Consumer",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
   },
   {
     "date": "2026-07-07",
@@ -21,6 +31,16 @@
   },
   {
     "date": "2026-07-07",
+    "company": "Mews",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.15,
+    "industry": "Travel",
+    "country": "Netherlands",
+    "stage": "Series D",
+    "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+  },
+  {
+    "date": "2026-07-07",
     "company": "Darrow",
     "num_laid_off": 60,
     "percentage_laid_off": 0.33,
@@ -30,14 +50,24 @@
     "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
   },
   {
-    "date": "2026-07-07",
-    "company": "Billion Hearts",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Consumer",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+    "date": "2026-07-06",
+    "company": "Amazon",
+    "num_laid_off": 57,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+  },
+  {
+    "date": "2026-07-06",
+    "company": "Yield Guild Games",
+    "num_laid_off": 35,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
   },
   {
     "date": "2026-07-06",
@@ -58,16 +88,6 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Yield Guild Games",
-    "num_laid_off": 35,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
   },
   {
     "date": "2026-07-03",
@@ -98,25 +118,5 @@
     "country": "Indonesia",
     "stage": "Acquired",
     "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
-  },
-  {
-    "date": "2026-06-30",
-    "company": "PlaxidityX",
-    "num_laid_off": 80,
-    "percentage_laid_off": null,
-    "industry": "Security",
-    "country": "Israel",
-    "stage": "Acquired",
-    "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
-  },
-  {
-    "date": "2026-06-29",
-    "company": "Equip Health",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.04,
-    "industry": "Healthcare",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
   }
 ]

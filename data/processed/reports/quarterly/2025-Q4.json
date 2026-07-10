@@ -6,13 +6,13 @@
     "start": "2025-10-01",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "canonical_url": "/reports/quarterly/2025-Q4.html",
   "kpis": {
     "total_laid_off": 29554,
-    "event_count": 69,
+    "event_count": 70,
     "headcount_event_count": 49,
-    "company_count": 67,
+    "company_count": 68,
     "country_count": 9,
     "industry_count": 21,
     "average_layoffs_per_headcount_event": 603.14,
@@ -26,8 +26,8 @@
       "event_count": 86,
       "total_laid_off_delta": 2000,
       "total_laid_off_pct_change": 0.0726,
-      "event_count_delta": -17,
-      "event_count_pct_change": -0.1977,
+      "event_count_delta": -16,
+      "event_count_pct_change": -0.186,
       "note": null
     },
     "same_period_last_year": {
@@ -490,6 +490,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/skb9q0lgwl"
       },
       {
+        "date": "2025-12-04",
+        "company": "Discourse",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://blog.discourse.org/2025/12/our-commitment-to-your-ongoing-success-with-discourse/"
+      },
+      {
         "date": "2025-12-03",
         "company": "Modern Hydrogen",
         "num_laid_off": null,
@@ -518,16 +528,6 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://www.calcalistech.com/ctechnews/article/4bzp62ggf"
-      },
-      {
-        "date": "2025-12-01",
-        "company": "Inbound Health",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://www.axios.com/pro/health-tech-deals/2025/12/01/inbound-health-closing-home-care-waiver"
       }
     ],
     "high_intensity_events": [
@@ -634,7 +634,7 @@
     ]
   },
   "insights": [
-    "2025-Q4 includes 69 public layoff events and 29,554 reported layoffs.",
+    "2025-Q4 includes 70 public layoff events and 29,554 reported layoffs.",
     "The largest company contributor is Amazon with 14,084 reported layoffs.",
     "The leading named industry is Retail with 14,424 reported layoffs.",
     "12 events report a layoff percentage of 25% or higher."

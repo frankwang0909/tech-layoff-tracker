@@ -276,12 +276,12 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-07-01"
+      "end": "2026-07-06"
     },
     "kpis": {
-      "total_laid_off": 34727,
-      "event_count": 40,
-      "headcount_event_count": 24,
+      "total_laid_off": 34784,
+      "event_count": 41,
+      "headcount_event_count": 25,
       "company_count": 28,
       "country_count": 11,
       "industry_count": 1,
@@ -340,12 +340,16 @@
         {
           "month": "2026-05",
           "total_laid_off": 630
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 57
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 30284
+          "total_laid_off": 30341
         },
         {
           "company": "Wayfair",
@@ -387,6 +391,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-06",
+          "company": "Amazon",
+          "num_laid_off": 57,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+        },
         {
           "date": "2026-07-01",
           "company": "Tokopedia",
@@ -526,20 +540,10 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
-        },
-        {
-          "date": "2026-01-12",
-          "company": "MercadoLibre",
-          "num_laid_off": 116,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Brazil",
-          "stage": "Post-IPO",
-          "source": "https://eleconomista.com.ar/economia/despidos-mercado-libre-entrenamos-ia-nos-reemplazo-n91871"
         }
       ]
     },
-    "summary": "Retail has 34,727 reported tech layoffs across 40 public events from 2025-01-10 to 2026-07-01."
+    "summary": "Retail has 34,784 reported tech layoffs across 41 public events from 2025-01-10 to 2026-07-06."
   },
   {
     "type": "industry",
@@ -549,13 +553,13 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-07-07"
+      "end": "2026-07-08"
     },
     "kpis": {
-      "total_laid_off": 26553,
-      "event_count": 78,
-      "headcount_event_count": 52,
-      "company_count": 51,
+      "total_laid_off": 27053,
+      "event_count": 80,
+      "headcount_event_count": 53,
+      "company_count": 53,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 10
@@ -632,7 +636,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 300
+          "total_laid_off": 800
         }
       ],
       "company_top": [
@@ -645,11 +649,11 @@
           "total_laid_off": 1290
         },
         {
-          "company": "Livspace",
+          "company": "Epic Games",
           "total_laid_off": 1000
         },
         {
-          "company": "Epic Games",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
@@ -673,22 +677,22 @@
           "total_laid_off": 500
         },
         {
-          "company": "GamesKraft",
-          "total_laid_off": 400
+          "company": "MyHeritage",
+          "total_laid_off": 500
         }
       ]
     },
     "tables": {
       "recent_events": [
         {
-          "date": "2026-07-07",
-          "company": "Billion Hearts",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
+          "date": "2026-07-08",
+          "company": "MyHeritage",
+          "num_laid_off": 500,
+          "percentage_laid_off": 0.15,
           "industry": "Consumer",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
         },
         {
           "date": "2026-07-07",
@@ -699,6 +703,16 @@
           "country": "United Kingdom",
           "stage": "Acquired",
           "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+        },
+        {
+          "date": "2026-07-07",
+          "company": "Billion Hearts",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Consumer",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
         },
         {
           "date": "2026-07-01",
@@ -819,20 +833,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
-        },
-        {
-          "date": "2026-04-10",
-          "company": "Life360",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
         }
       ]
     },
-    "summary": "Consumer has 26,553 reported tech layoffs across 78 public events from 2025-01-27 to 2026-07-07."
+    "summary": "Consumer has 27,053 reported tech layoffs across 80 public events from 2025-01-27 to 2026-07-08."
   },
   {
     "type": "industry",

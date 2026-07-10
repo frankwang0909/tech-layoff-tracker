@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "date_range": {
     "start": "2025-01-02",
-    "end": "2026-07-07"
+    "end": "2026-07-08"
   },
   "report_groups": [
     {
       "report_type": "daily",
-      "count": 301,
+      "count": 302,
       "reports": [
         {
           "report_type": "daily",
@@ -2295,7 +2295,7 @@
           "path": "reports/daily/2025-12-04.json",
           "canonical_url": "/reports/daily/2025-12-04.html",
           "total_laid_off": 180,
-          "event_count": 1
+          "event_count": 2
         },
         {
           "report_type": "daily",
@@ -3906,8 +3906,8 @@
           },
           "path": "reports/daily/2026-07-06.json",
           "canonical_url": "/reports/daily/2026-07-06.html",
-          "total_laid_off": 4835,
-          "event_count": 3
+          "total_laid_off": 4892,
+          "event_count": 4
         },
         {
           "report_type": "daily",
@@ -3921,6 +3921,19 @@
           "canonical_url": "/reports/daily/2026-07-07.html",
           "total_laid_off": 260,
           "event_count": 4
+        },
+        {
+          "report_type": "daily",
+          "period": "2026-07-08",
+          "status": "final",
+          "date_range": {
+            "start": "2026-07-08",
+            "end": "2026-07-08"
+          },
+          "path": "reports/daily/2026-07-08.json",
+          "canonical_url": "/reports/daily/2026-07-08.html",
+          "total_laid_off": 500,
+          "event_count": 1
         }
       ]
     },
@@ -4550,7 +4563,7 @@
           "path": "reports/weekly/2025-W49.json",
           "canonical_url": "/reports/weekly/2025-W49.html",
           "total_laid_off": 220,
-          "event_count": 5
+          "event_count": 6
         },
         {
           "report_type": "weekly",
@@ -4935,12 +4948,12 @@
           "status": "rolling",
           "date_range": {
             "start": "2026-07-06",
-            "end": "2026-07-07"
+            "end": "2026-07-08"
           },
           "path": "reports/weekly/2026-W28.json",
           "canonical_url": "/reports/weekly/2026-W28.html",
-          "total_laid_off": 5095,
-          "event_count": 7
+          "total_laid_off": 5652,
+          "event_count": 9
         }
       ]
     },
@@ -5102,7 +5115,7 @@
           "path": "reports/monthly/2025-12.json",
           "canonical_url": "/reports/monthly/2025-12.html",
           "total_laid_off": 1552,
-          "event_count": 20
+          "event_count": 21
         },
         {
           "report_type": "monthly",
@@ -5188,12 +5201,12 @@
           "status": "rolling",
           "date_range": {
             "start": "2026-07-01",
-            "end": "2026-07-07"
+            "end": "2026-07-08"
           },
           "path": "reports/monthly/2026-07.json",
           "canonical_url": "/reports/monthly/2026-07.html",
-          "total_laid_off": 6195,
-          "event_count": 10
+          "total_laid_off": 6752,
+          "event_count": 12
         }
       ]
     },
@@ -5251,7 +5264,7 @@
           "path": "reports/quarterly/2025-Q4.json",
           "canonical_url": "/reports/quarterly/2025-Q4.html",
           "total_laid_off": 29554,
-          "event_count": 69
+          "event_count": 70
         },
         {
           "report_type": "quarterly",
@@ -5285,12 +5298,12 @@
           "status": "rolling",
           "date_range": {
             "start": "2026-07-01",
-            "end": "2026-07-07"
+            "end": "2026-07-08"
           },
           "path": "reports/quarterly/2026-Q3.json",
           "canonical_url": "/reports/quarterly/2026-Q3.html",
-          "total_laid_off": 6195,
-          "event_count": 10
+          "total_laid_off": 6752,
+          "event_count": 12
         }
       ]
     },
@@ -5309,7 +5322,7 @@
           "path": "reports/yearly/2025.json",
           "canonical_url": "/reports/yearly/2025.html",
           "total_laid_off": 124636,
-          "event_count": 332
+          "event_count": 333
         },
         {
           "report_type": "yearly",
@@ -5317,12 +5330,12 @@
           "status": "rolling",
           "date_range": {
             "start": "2026-01-05",
-            "end": "2026-07-07"
+            "end": "2026-07-08"
           },
           "path": "reports/yearly/2026.json",
           "canonical_url": "/reports/yearly/2026.html",
-          "total_laid_off": 119789,
-          "event_count": 236
+          "total_laid_off": 120346,
+          "event_count": 238
         }
       ]
     }

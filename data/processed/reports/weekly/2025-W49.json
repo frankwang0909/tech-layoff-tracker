@@ -6,15 +6,15 @@
     "start": "2025-12-01",
     "end": "2025-12-04"
   },
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "canonical_url": "/reports/weekly/2025-W49.html",
   "kpis": {
     "total_laid_off": 220,
-    "event_count": 5,
+    "event_count": 6,
     "headcount_event_count": 3,
-    "company_count": 5,
+    "company_count": 6,
     "country_count": 2,
-    "industry_count": 5,
+    "industry_count": 6,
     "average_layoffs_per_headcount_event": 73.33,
     "median_layoffs_per_headcount_event": 20.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 3,
       "total_laid_off_delta": -4130,
       "total_laid_off_pct_change": -0.9494,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.6667,
+      "event_count_delta": 3,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -162,6 +162,16 @@
         "source": "https://www.calcalistech.com/ctechnews/article/skb9q0lgwl"
       },
       {
+        "date": "2025-12-04",
+        "company": "Discourse",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://blog.discourse.org/2025/12/our-commitment-to-your-ongoing-success-with-discourse/"
+      },
+      {
         "date": "2025-12-03",
         "company": "Cellebrite",
         "num_laid_off": 20,
@@ -216,7 +226,7 @@
     ]
   },
   "insights": [
-    "2025-W49 includes 5 public layoff events and 220 reported layoffs.",
+    "2025-W49 includes 6 public layoff events and 220 reported layoffs.",
     "The largest company contributor is Teads with 180 reported layoffs.",
     "The leading named industry is Marketing with 180 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

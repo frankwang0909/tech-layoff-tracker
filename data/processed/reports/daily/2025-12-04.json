@@ -6,15 +6,15 @@
     "start": "2025-12-04",
     "end": "2025-12-04"
   },
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "canonical_url": "/reports/daily/2025-12-04.html",
   "kpis": {
     "total_laid_off": 180,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 180.0,
     "median_layoffs_per_headcount_event": 180.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 2,
       "total_laid_off_delta": 160,
       "total_laid_off_pct_change": 8.0,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -112,12 +112,22 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/skb9q0lgwl"
+      },
+      {
+        "date": "2025-12-04",
+        "company": "Discourse",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://blog.discourse.org/2025/12/our-commitment-to-your-ongoing-success-with-discourse/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-12-04 includes 1 public layoff events and 180 reported layoffs.",
+    "2025-12-04 includes 2 public layoff events and 180 reported layoffs.",
     "The largest company contributor is Teads with 180 reported layoffs.",
     "The leading named industry is Marketing with 180 reported layoffs."
   ],

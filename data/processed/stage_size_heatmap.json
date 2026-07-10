@@ -19,7 +19,7 @@
     {
       "stage": "Post-IPO",
       "size_bucket": "<100",
-      "event_count": 40
+      "event_count": 41
     },
     {
       "stage": "Post-IPO",
@@ -129,7 +129,7 @@
     {
       "stage": "Acquired / PE",
       "size_bucket": "500-999",
-      "event_count": 7
+      "event_count": 8
     },
     {
       "stage": "Acquired / PE",

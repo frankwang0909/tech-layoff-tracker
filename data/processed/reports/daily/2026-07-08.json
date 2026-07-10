@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2026-02-17",
+  "period": "2026-07-08",
   "status": "final",
   "date_range": {
-    "start": "2026-02-17",
-    "end": "2026-02-17"
+    "start": "2026-07-08",
+    "end": "2026-07-08"
   },
   "updated_at": "2026-07-08",
-  "canonical_url": "/reports/daily/2026-02-17.html",
+  "canonical_url": "/reports/daily/2026-07-08.html",
   "kpis": {
     "total_laid_off": 500,
     "event_count": 1,
@@ -21,21 +21,21 @@
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-02-16",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2026-07-07",
+      "total_laid_off": 260,
+      "event_count": 4,
+      "total_laid_off_delta": 240,
+      "total_laid_off_pct_change": 0.9231,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.75,
+      "note": null
     },
     "same_period_last_year": {
-      "period": "2025-02-17",
-      "total_laid_off": 40,
+      "period": "2025-07-08",
+      "total_laid_off": 29,
       "event_count": 1,
-      "total_laid_off_delta": 460,
-      "total_laid_off_pct_change": 11.5,
+      "total_laid_off_delta": 471,
+      "total_laid_off_pct_change": 16.2414,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
@@ -44,19 +44,19 @@
   "charts": {
     "company_top": [
       {
-        "company": "Cyberark",
+        "company": "MyHeritage",
         "total_laid_off": 500
       }
     ],
     "industry_top": [
       {
-        "industry": "Security",
+        "industry": "Consumer",
         "total_laid_off": 500
       }
     ],
     "country_top": [
       {
-        "country": "United States",
+        "country": "Israel",
         "total_laid_off": 500
       }
     ],
@@ -92,34 +92,34 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2026-02-17",
-        "company": "Cyberark",
+        "date": "2026-07-08",
+        "company": "MyHeritage",
         "num_laid_off": 500,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
         "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/hy707511ube"
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       }
     ],
     "recent_events": [
       {
-        "date": "2026-02-17",
-        "company": "Cyberark",
+        "date": "2026-07-08",
+        "company": "MyHeritage",
         "num_laid_off": 500,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
         "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/hy707511ube"
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-02-17 includes 1 public layoff events and 500 reported layoffs.",
-    "The largest company contributor is Cyberark with 500 reported layoffs.",
-    "The leading named industry is Security with 500 reported layoffs."
+    "2026-07-08 includes 1 public layoff events and 500 reported layoffs.",
+    "The largest company contributor is MyHeritage with 500 reported layoffs.",
+    "The leading named industry is Consumer with 500 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

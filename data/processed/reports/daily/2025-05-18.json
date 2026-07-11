@@ -44,7 +44,7 @@
   "charts": {
     "company_top": [
       {
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "total_laid_off": 350
       }
     ],
@@ -93,7 +93,7 @@
     "largest_events": [
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",
@@ -105,7 +105,7 @@
     "recent_events": [
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",
@@ -118,7 +118,7 @@
   },
   "insights": [
     "2025-05-18 includes 1 public layoff events and 350 reported layoffs.",
-    "The largest company contributor is VerSe Innovation copy with 350 reported layoffs.",
+    "The largest company contributor is VerSe Innovation with 350 reported layoffs.",
     "The leading named industry is Media with 350 reported layoffs."
   ],
   "methodology_notes": [

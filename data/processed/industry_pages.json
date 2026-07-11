@@ -1391,9 +1391,9 @@
       "end": "2026-06-22"
     },
     "kpis": {
-      "total_laid_off": 6184,
-      "event_count": 30,
-      "headcount_event_count": 19,
+      "total_laid_off": 5984,
+      "event_count": 29,
+      "headcount_event_count": 18,
       "company_count": 24,
       "country_count": 6,
       "industry_count": 1,
@@ -1415,7 +1415,7 @@
         },
         {
           "month": "2025-04",
-          "total_laid_off": 550
+          "total_laid_off": 350
         },
         {
           "month": "2025-05",
@@ -1473,7 +1473,7 @@
         },
         {
           "company": "Cars24",
-          "total_laid_off": 520
+          "total_laid_off": 320
         },
         {
           "company": "Supernal",
@@ -1651,7 +1651,7 @@
         }
       ]
     },
-    "summary": "Transportation has 6,184 reported tech layoffs across 30 public events from 2025-01-27 to 2026-06-22."
+    "summary": "Transportation has 5,984 reported tech layoffs across 29 public events from 2025-01-27 to 2026-06-22."
   },
   {
     "type": "industry",
@@ -2250,6 +2250,275 @@
   },
   {
     "type": "industry",
+    "name": "Data",
+    "slug": "data",
+    "title": "Tech Layoffs by Industry: Data",
+    "canonical_url": "/industries/data.html",
+    "date_range": {
+      "start": "2025-01-29",
+      "end": "2026-07-08"
+    },
+    "kpis": {
+      "total_laid_off": 3834,
+      "event_count": 20,
+      "headcount_event_count": 14,
+      "company_count": 17,
+      "country_count": 4,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 150
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 140
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 700
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 1600
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 22
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 35
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 70
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 117
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 300
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 400
+        }
+      ],
+      "company_top": [
+        {
+          "company": "OpenText",
+          "total_laid_off": 2000
+        },
+        {
+          "company": "NetApp",
+          "total_laid_off": 777
+        },
+        {
+          "company": "SAS",
+          "total_laid_off": 300
+        },
+        {
+          "company": "Scale AI",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Placer.ai",
+          "total_laid_off": 150
+        },
+        {
+          "company": "Palantir",
+          "total_laid_off": 120
+        },
+        {
+          "company": "AppsFlyer",
+          "total_laid_off": 100
+        },
+        {
+          "company": "Snowflake",
+          "total_laid_off": 70
+        },
+        {
+          "company": "LSports",
+          "total_laid_off": 40
+        },
+        {
+          "company": "Informatica",
+          "total_laid_off": 35
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-08",
+          "company": "OpenText",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.02,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+        },
+        {
+          "date": "2026-06-26",
+          "company": "SAS",
+          "num_laid_off": 300,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.newsobserver.com/news/business/article316281262.html"
+        },
+        {
+          "date": "2026-06-24",
+          "company": "Elastic",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.07,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Rackspace",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.15,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+        },
+        {
+          "date": "2026-05-27",
+          "company": "NetApp",
+          "num_laid_off": 77,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+        },
+        {
+          "date": "2026-05-06",
+          "company": "LSports",
+          "num_laid_off": 40,
+          "percentage_laid_off": 0.2,
+          "industry": "Data",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+        },
+        {
+          "date": "2026-03-26",
+          "company": "Monte Carlo",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+        },
+        {
+          "date": "2026-03-24",
+          "company": "OpenText",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+        },
+        {
+          "date": "2026-03-19",
+          "company": "Snowflake",
+          "num_laid_off": 70,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+        },
+        {
+          "date": "2026-02-15",
+          "company": "Firebolt",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
+        },
+        {
+          "date": "2026-01-15",
+          "company": "Informatica",
+          "num_laid_off": 35,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html"
+        },
+        {
+          "date": "2025-09-10",
+          "company": "Verbit",
+          "num_laid_off": 22,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/r19t0xjixg"
+        },
+        {
+          "date": "2025-07-16",
+          "company": "Scale AI",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.14,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
+        },
+        {
+          "date": "2025-05-06",
+          "company": "OpenText",
+          "num_laid_off": 1600,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
+        },
+        {
+          "date": "2025-04-30",
+          "company": "NetApp",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.06,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://blocksandfiles.com/2025/04/30/netapp-making-layoffs/"
+        }
+      ]
+    },
+    "summary": "Data has 3,834 reported tech layoffs across 20 public events from 2025-01-29 to 2026-07-08."
+  },
+  {
+    "type": "industry",
     "name": "Food",
     "slug": "food",
     "title": "Tech Layoffs by Industry: Food",
@@ -2675,271 +2944,6 @@
       ]
     },
     "summary": "Energy has 3,464 reported tech layoffs across 10 public events from 2025-01-06 to 2026-03-27."
-  },
-  {
-    "type": "industry",
-    "name": "Data",
-    "slug": "data",
-    "title": "Tech Layoffs by Industry: Data",
-    "canonical_url": "/industries/data.html",
-    "date_range": {
-      "start": "2025-01-29",
-      "end": "2026-06-26"
-    },
-    "kpis": {
-      "total_laid_off": 3434,
-      "event_count": 19,
-      "headcount_event_count": 13,
-      "company_count": 17,
-      "country_count": 4,
-      "industry_count": 1,
-      "high_intensity_event_count": 2
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 150
-        },
-        {
-          "month": "2025-02",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2025-03",
-          "total_laid_off": 140
-        },
-        {
-          "month": "2025-04",
-          "total_laid_off": 700
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 1600
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-09",
-          "total_laid_off": 22
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 35
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 70
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 117
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 300
-        }
-      ],
-      "company_top": [
-        {
-          "company": "OpenText",
-          "total_laid_off": 1600
-        },
-        {
-          "company": "NetApp",
-          "total_laid_off": 777
-        },
-        {
-          "company": "SAS",
-          "total_laid_off": 300
-        },
-        {
-          "company": "Scale AI",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Placer.ai",
-          "total_laid_off": 150
-        },
-        {
-          "company": "Palantir",
-          "total_laid_off": 120
-        },
-        {
-          "company": "AppsFlyer",
-          "total_laid_off": 100
-        },
-        {
-          "company": "Snowflake",
-          "total_laid_off": 70
-        },
-        {
-          "company": "LSports",
-          "total_laid_off": 40
-        },
-        {
-          "company": "Informatica",
-          "total_laid_off": 35
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-06-26",
-          "company": "SAS",
-          "num_laid_off": 300,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.newsobserver.com/news/business/article316281262.html"
-        },
-        {
-          "date": "2026-06-24",
-          "company": "Elastic",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.07,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Rackspace",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.15,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
-        },
-        {
-          "date": "2026-05-27",
-          "company": "NetApp",
-          "num_laid_off": 77,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "LSports",
-          "num_laid_off": 40,
-          "percentage_laid_off": 0.2,
-          "industry": "Data",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
-        },
-        {
-          "date": "2026-03-26",
-          "company": "Monte Carlo",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
-        },
-        {
-          "date": "2026-03-24",
-          "company": "OpenText",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
-        },
-        {
-          "date": "2026-03-19",
-          "company": "Snowflake",
-          "num_laid_off": 70,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
-        },
-        {
-          "date": "2026-02-15",
-          "company": "Firebolt",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Israel",
-          "stage": "Series C",
-          "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
-        },
-        {
-          "date": "2026-01-15",
-          "company": "Informatica",
-          "num_laid_off": 35,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html"
-        },
-        {
-          "date": "2025-09-10",
-          "company": "Verbit",
-          "num_laid_off": 22,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/r19t0xjixg"
-        },
-        {
-          "date": "2025-07-16",
-          "company": "Scale AI",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.14,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
-        },
-        {
-          "date": "2025-05-06",
-          "company": "OpenText",
-          "num_laid_off": 1600,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
-        },
-        {
-          "date": "2025-04-30",
-          "company": "NetApp",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.06,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blocksandfiles.com/2025/04/30/netapp-making-layoffs/"
-        },
-        {
-          "date": "2025-04-02",
-          "company": "WhyHive",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Data",
-          "country": "Australia",
-          "stage": "Seed",
-          "source": "https://www.startupdaily.net/topic/business/data-analytics-startup-whyhive-is-shutting-down-2-years-after-raising-600000/"
-        }
-      ]
-    },
-    "summary": "Data has 3,434 reported tech layoffs across 19 public events from 2025-01-29 to 2026-06-26."
   },
   {
     "type": "industry",
@@ -4528,7 +4532,7 @@
       ],
       "company_top": [
         {
-          "company": "VerSe Innovation copy",
+          "company": "VerSe Innovation",
           "total_laid_off": 350
         },
         {
@@ -4655,7 +4659,7 @@
         },
         {
           "date": "2025-05-18",
-          "company": "VerSe Innovation copy",
+          "company": "VerSe Innovation",
           "num_laid_off": 350,
           "percentage_laid_off": null,
           "industry": "Media",

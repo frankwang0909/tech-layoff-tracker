@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2025-04",
-      "total_laid_off": 25420,
-      "event_count": 29,
-      "total_laid_off_delta": -14843,
-      "total_laid_off_pct_change": -0.5839,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.069,
+      "total_laid_off": 25220,
+      "event_count": 28,
+      "total_laid_off_delta": -14643,
+      "total_laid_off_pct_change": -0.5806,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0357,
       "note": null
     },
     "same_period_last_year": {
@@ -56,7 +56,7 @@
         "total_laid_off": 500
       },
       {
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "total_laid_off": 350
       },
       {
@@ -243,7 +243,7 @@
       },
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",
@@ -425,7 +425,7 @@
       },
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",

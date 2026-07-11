@@ -9,14 +9,14 @@
   "updated_at": "2026-07-08",
   "canonical_url": "/reports/yearly/2025.html",
   "kpis": {
-    "total_laid_off": 124636,
-    "event_count": 333,
-    "headcount_event_count": 227,
+    "total_laid_off": 124436,
+    "event_count": 332,
+    "headcount_event_count": 226,
     "company_count": 277,
     "country_count": 19,
     "industry_count": 30,
-    "average_layoffs_per_headcount_event": 549.06,
-    "median_layoffs_per_headcount_event": 122.0,
+    "average_layoffs_per_headcount_event": 550.6,
+    "median_layoffs_per_headcount_event": 121.0,
     "high_intensity_event_count": 72
   },
   "comparisons": {
@@ -110,12 +110,12 @@
         "total_laid_off": 4295
       },
       {
-        "industry": "Transportation",
-        "total_laid_off": 4033
-      },
-      {
         "industry": "Finance",
         "total_laid_off": 3889
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 3833
       },
       {
         "industry": "Energy",
@@ -133,7 +133,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 7055
+        "total_laid_off": 6855
       },
       {
         "country": "Israel",
@@ -286,16 +286,6 @@
         "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
       },
       {
-        "date": "2025-11-25",
-        "company": "HP",
-        "num_laid_off": 4000,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
-      },
-      {
         "date": "2025-02-28",
         "company": "HP",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
+      },
+      {
+        "date": "2025-11-25",
+        "company": "HP",
+        "num_laid_off": 4000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
       },
       {
         "date": "2025-02-10",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025 includes 333 public layoff events and 124,636 reported layoffs.",
+    "2025 includes 332 public layoff events and 124,436 reported layoffs.",
     "The largest company contributor is Intel with 27,058 reported layoffs.",
     "The leading named industry is Hardware with 38,337 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

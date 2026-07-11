@@ -1,5 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
 MyHeritage,"Tel Aviv, Non-U.S.",500.0,2026-07-08,0.15,Consumer,https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761,Acquired,49.0,Israel,2026-07-09T17:00:20.000Z
+OpenText,"Waterloo, Non-U.S.",400.0,2026-07-08,0.02,Data,https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/,Post-IPO,1100.0,Canada,2026-07-10T15:33:00.000Z
 Mews,"Amsterdam, Non-U.S.",200.0,2026-07-07,0.15,Travel,https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/,Series D,817.0,Netherlands,2026-07-08T15:01:22.000Z
 Darrow,"Tel Aviv, Non-U.S.",60.0,2026-07-07,0.33,Legal,https://www.calcalistech.com/ctechnews/article/hy7svt97ge,Series B,63.0,Israel,2026-07-08T14:59:54.000Z
 Billion Hearts,"Bengaluru, Non-U.S.",,2026-07-07,1.0,Consumer,https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/,Seed,5.0,India,2026-07-08T14:56:18.000Z
@@ -420,7 +421,7 @@ Climeworks,"Zurich, Non-U.S.",106.0,2025-05-21,0.22,Energy,https://www.bloomberg
 Builder.ai,"London, Non-U.S.",,2025-05-20,1.0,AI,https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/,Series D,445.0,United Kingdom,2025-05-22T23:13:25.000Z
 Luminar,Orlando,,2025-05-20,,Transportation,https://techcrunch.com/2025/05/20/luminar-kicks-off-another-round-of-layoffs-amid-ceos-sudden-resignation/,Post-IPO,780.0,United States,2025-05-26T23:55:52.000Z
 Blink Charging,Baltimore,,2025-05-19,0.2,Other,https://blinkcharging.com/news/blink-charging-announces-workforce-reduction-to-accelerate-blinkforward-initiative-and-strengthen-global-market-position,Post-IPO,110.0,United States,2025-05-22T21:25:54.000Z
-VerSe Innovation copy,"Bengaluru, Non-U.S.",350.0,2025-05-18,,Media,https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/,Series J,1700.0,India,2025-05-22T21:22:27.000Z
+VerSe Innovation,"Bengaluru, Non-U.S.",350.0,2025-05-18,,Media,https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/,Series J,1700.0,India,2025-05-22T21:22:27.000Z
 GroundGame Health,Tampa Bay,97.0,2025-05-15,,Healthcare,https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html,Series A,17.0,United States,2025-05-16T04:33:39.000Z
 Noogata,"Tel Aviv, Non-U.S.",10.0,2025-05-15,1.0,AI,https://www.calcalistech.com/ctechnews/article/bjluv00711xe,Series A,28.0,Israel,2025-05-16T04:32:48.000Z
 Amazon,Seattle,100.0,2025-05-14,,Retail,https://www.cnbc.com/2025/05/14/amazon-lays-off-about-100-employees-in-devices-and-services-unit.html,Post-IPO,8100.0,United States,2025-05-16T04:34:25.000Z
@@ -443,7 +444,6 @@ Expedia,Seattle,,2025-04-28,0.03,Travel,https://skift.com/2025/04/28/expedia-res
 Spotter,Los Angeles,,2025-04-28,,Other,https://www.businessinsider.com/amazon-backed-creator-startup-spotter-lays-off-staffers-2025-5,Unknown,238.0,United States,2025-05-03T07:49:08.000Z
 Tomorrow,Seattle,,2025-04-28,1.0,Hardware,https://thespoon.tech/next-gen-fridge-startup-tomorrow-shuts-down/,Unknown,,United States,2025-05-03T07:46:50.000Z
 Cars24,"Gurugram, Non-U.S.",200.0,2025-04-26,,Transportation,https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193,Series G,1300.0,India,2025-04-29T04:20:46.000Z
-Cars24,"Gurugram, Non-U.S.",200.0,2025-04-26,,Transportation,https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/,Series G,1300.0,India,2025-12-09T00:06:43.000Z
 SambaNova,SF Bay Area,77.0,2025-04-25,0.15,AI,https://www.eetimes.com/sambanova-lays-off-15-of-workforce-to-refocus-on-inference/,Series D,1100.0,United States,2025-05-03T07:51:14.000Z
 Meta,SF Bay Area,100.0,2025-04-24,,Consumer,https://www.bloomberg.com/news/articles/2025-04-24/meta-lays-off-more-than-100-staff-across-reality-labs-unit,Post-IPO,26000.0,United States,2025-04-29T04:18:07.000Z
 Katana,"Tallinn, Non-U.S.",75.0,2025-04-24,,Other,https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet,Series B,67.0,Estonia,2026-05-20T02:24:05.000Z

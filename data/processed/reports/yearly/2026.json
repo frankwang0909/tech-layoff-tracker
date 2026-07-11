@@ -9,35 +9,35 @@
   "updated_at": "2026-07-08",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 120346,
-    "event_count": 238,
-    "headcount_event_count": 158,
+    "total_laid_off": 120746,
+    "event_count": 239,
+    "headcount_event_count": 159,
     "company_count": 226,
     "country_count": 26,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 761.68,
+    "average_layoffs_per_headcount_event": 759.41,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 45
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
-      "total_laid_off": 124636,
-      "event_count": 333,
-      "total_laid_off_delta": -4290,
-      "total_laid_off_pct_change": -0.0344,
-      "event_count_delta": -95,
-      "event_count_pct_change": -0.2853,
+      "total_laid_off": 124436,
+      "event_count": 332,
+      "total_laid_off_delta": -3690,
+      "total_laid_off_pct_change": -0.0297,
+      "event_count_delta": -93,
+      "event_count_pct_change": -0.2801,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
-      "total_laid_off": 124636,
-      "event_count": 333,
-      "total_laid_off_delta": -4290,
-      "total_laid_off_pct_change": -0.0344,
-      "event_count_delta": -95,
-      "event_count_pct_change": -0.2853,
+      "total_laid_off": 124436,
+      "event_count": 332,
+      "total_laid_off_delta": -3690,
+      "total_laid_off_pct_change": -0.0297,
+      "event_count_delta": -93,
+      "event_count_pct_change": -0.2801,
       "note": null
     }
   },
@@ -68,11 +68,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
@@ -160,18 +160,18 @@
         "total_laid_off": 1108
       },
       {
-        "country": "Germany",
-        "total_laid_off": 617
+        "country": "Canada",
+        "total_laid_off": 681
       },
       {
-        "country": "Brazil",
-        "total_laid_off": 516
+        "country": "Germany",
+        "total_laid_off": 617
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 102976
+        "total_laid_off": 103376
       },
       {
         "stage": "Unknown",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 24
+        "event_count": 25
       },
       {
         "bucket": "10-24%",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-02-26",
-        "company": "Block",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
-      },
-      {
         "date": "2026-05-13",
         "company": "Cisco",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
       },
       {
         "date": "2026-05-20",
@@ -348,24 +348,14 @@
         "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       },
       {
-        "date": "2026-07-07",
-        "company": "Billion Hearts",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
-      },
-      {
-        "date": "2026-07-07",
-        "company": "PokerStars",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United Kingdom",
-        "stage": "Acquired",
-        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+        "date": "2026-07-08",
+        "company": "OpenText",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
         "date": "2026-07-07",
@@ -379,6 +369,16 @@
       },
       {
         "date": "2026-07-07",
+        "company": "PokerStars",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+      },
+      {
+        "date": "2026-07-07",
         "company": "Darrow",
         "num_laid_off": 60,
         "percentage_laid_off": 0.33,
@@ -388,24 +388,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
       },
       {
-        "date": "2026-07-06",
-        "company": "Yield Guild Games",
-        "num_laid_off": 35,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-      },
-      {
-        "date": "2026-07-06",
-        "company": "Coursera",
+        "date": "2026-07-07",
+        "company": "Billion Hearts",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
       },
       {
         "date": "2026-07-06",
@@ -426,6 +416,26 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Yield Guild Games",
+        "num_laid_off": 35,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Coursera",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
       },
       {
         "date": "2026-07-03",
@@ -469,6 +479,16 @@
       },
       {
         "date": "2026-06-29",
+        "company": "Equip Health",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+      },
+      {
+        "date": "2026-06-29",
         "company": "Elementor",
         "num_laid_off": 100,
         "percentage_laid_off": 0.3,
@@ -478,14 +498,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
       },
       {
-        "date": "2026-06-29",
-        "company": "Equip Health",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.04,
-        "industry": "Healthcare",
+        "date": "2026-06-26",
+        "company": "SAS",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Data",
         "country": "United States",
         "stage": "Unknown",
-        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+        "source": "https://www.newsobserver.com/news/business/article316281262.html"
       },
       {
         "date": "2026-06-26",
@@ -516,26 +536,6 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "ADP",
-        "num_laid_off": 76,
-        "percentage_laid_off": null,
-        "industry": "HR",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "SAS",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.newsobserver.com/news/business/article316281262.html"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 238 public layoff events and 120,346 reported layoffs.",
+    "2026 includes 239 public layoff events and 120,746 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,468 reported layoffs.",
     "45 events report a layoff percentage of 25% or higher."

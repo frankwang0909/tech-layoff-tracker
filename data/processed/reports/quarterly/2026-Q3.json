@@ -9,14 +9,14 @@
   "updated_at": "2026-07-08",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 6752,
-    "event_count": 12,
-    "headcount_event_count": 8,
-    "company_count": 12,
-    "country_count": 7,
-    "industry_count": 8,
-    "average_layoffs_per_headcount_event": 844.0,
-    "median_layoffs_per_headcount_event": 250.0,
+    "total_laid_off": 7152,
+    "event_count": 13,
+    "headcount_event_count": 9,
+    "company_count": 13,
+    "country_count": 8,
+    "industry_count": 9,
+    "average_layoffs_per_headcount_event": 794.67,
+    "median_layoffs_per_headcount_event": 300.0,
     "high_intensity_event_count": 3
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60479,
       "event_count": 134,
-      "total_laid_off_delta": -53727,
-      "total_laid_off_pct_change": -0.8884,
-      "event_count_delta": -122,
-      "event_count_pct_change": -0.9104,
+      "total_laid_off_delta": -53327,
+      "total_laid_off_pct_change": -0.8817,
+      "event_count_delta": -121,
+      "event_count_pct_change": -0.903,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -20802,
-      "total_laid_off_pct_change": -0.755,
-      "event_count_delta": -74,
-      "event_count_pct_change": -0.8605,
+      "total_laid_off_delta": -20402,
+      "total_laid_off_pct_change": -0.7404,
+      "event_count_delta": -73,
+      "event_count_pct_change": -0.8488,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "MyHeritage",
         "total_laid_off": 500
+      },
+      {
+        "company": "OpenText",
+        "total_laid_off": 400
       },
       {
         "company": "TikTok",
@@ -82,12 +86,16 @@
         "total_laid_off": 4800
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 800
+      },
+      {
         "industry": "Healthcare",
         "total_laid_off": 800
       },
       {
-        "industry": "Consumer",
-        "total_laid_off": 800
+        "industry": "Data",
+        "total_laid_off": 400
       },
       {
         "industry": "Travel",
@@ -120,6 +128,10 @@
         "total_laid_off": 560
       },
       {
+        "country": "Canada",
+        "total_laid_off": 400
+      },
+      {
         "country": "Ireland",
         "total_laid_off": 300
       },
@@ -131,7 +143,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 4857
+        "total_laid_off": 5257
       },
       {
         "stage": "Acquired",
@@ -157,7 +169,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -208,6 +220,16 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "OpenText",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
         "date": "2026-07-01",
@@ -270,6 +292,16 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "OpenText",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
         "date": "2026-07-07",
@@ -416,9 +448,9 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 12 public layoff events and 6,752 reported layoffs.",
+    "2026-Q3 includes 13 public layoff events and 7,152 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Healthcare with 800 reported layoffs.",
+    "The leading named industry is Consumer with 800 reported layoffs.",
     "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

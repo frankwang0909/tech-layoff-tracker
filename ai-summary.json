@@ -6,7 +6,7 @@
     "start": "2025-01-06",
     "end": "2026-07-08"
   },
-  "summary": "Tech Layoff Tracker reports 244,982 public tech layoffs from 2025-01-06 to 2026-07-08. The dataset covers 313 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 245,182 public tech layoffs from 2025-01-06 to 2026-07-08. The dataset covers 313 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -18,11 +18,11 @@
     },
     {
       "name": "Total reported layoffs",
-      "value": "244,982"
+      "value": "245,182"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "120,346"
+      "value": "120,746"
     },
     {
       "name": "Companies affected",
@@ -127,8 +127,8 @@
       {
         "name": "Transportation",
         "canonical_url": "https://tech.debugcanada.com/industries/transportation.html",
-        "total_laid_off": 6184,
-        "event_count": 30
+        "total_laid_off": 5984,
+        "event_count": 29
       },
       {
         "name": "HR",
@@ -149,10 +149,10 @@
         "event_count": 3
       },
       {
-        "name": "Food",
-        "canonical_url": "https://tech.debugcanada.com/industries/food.html",
-        "total_laid_off": 3710,
-        "event_count": 18
+        "name": "Data",
+        "canonical_url": "https://tech.debugcanada.com/industries/data.html",
+        "total_laid_off": 3834,
+        "event_count": 20
       }
     ],
     "countries": [
@@ -165,8 +165,8 @@
       {
         "name": "India",
         "canonical_url": "https://tech.debugcanada.com/countries/india.html",
-        "total_laid_off": 10760,
-        "event_count": 59
+        "total_laid_off": 10560,
+        "event_count": 58
       },
       {
         "name": "Israel",
@@ -195,8 +195,8 @@
       {
         "name": "Canada",
         "canonical_url": "https://tech.debugcanada.com/countries/canada.html",
-        "total_laid_off": 2557,
-        "event_count": 17
+        "total_laid_off": 2957,
+        "event_count": 18
       },
       {
         "name": "Germany",

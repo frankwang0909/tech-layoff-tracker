@@ -12,8 +12,8 @@ Canonical pages:
 
 Current dataset:
 - Data range: 2025-01-06 to 2026-07-08
-- Total reported layoffs: 244,982
-- 2026 YTD reported layoffs: 120,346
+- Total reported layoffs: 245,182
+- 2026 YTD reported layoffs: 120,746
 - Companies affected: 313
 - Countries or regions: 25
 - Peak month: 2026-05 with 28,934 reported layoffs

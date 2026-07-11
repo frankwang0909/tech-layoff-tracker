@@ -10,24 +10,14 @@
     "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
   },
   {
-    "date": "2026-07-07",
-    "company": "Billion Hearts",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Consumer",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
-  },
-  {
-    "date": "2026-07-07",
-    "company": "PokerStars",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United Kingdom",
-    "stage": "Acquired",
-    "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+    "date": "2026-07-08",
+    "company": "OpenText",
+    "num_laid_off": 400,
+    "percentage_laid_off": 0.02,
+    "industry": "Data",
+    "country": "Canada",
+    "stage": "Post-IPO",
+    "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
   },
   {
     "date": "2026-07-07",
@@ -48,6 +38,36 @@
     "country": "Israel",
     "stage": "Series B",
     "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "Billion Hearts",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Consumer",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "PokerStars",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United Kingdom",
+    "stage": "Acquired",
+    "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+  },
+  {
+    "date": "2026-07-06",
+    "company": "Microsoft",
+    "num_laid_off": 4800,
+    "percentage_laid_off": 0.02,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
   },
   {
     "date": "2026-07-06",
@@ -80,16 +100,6 @@
     "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
   },
   {
-    "date": "2026-07-06",
-    "company": "Microsoft",
-    "num_laid_off": 4800,
-    "percentage_laid_off": 0.02,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-  },
-  {
     "date": "2026-07-03",
     "company": "CorroHealth",
     "num_laid_off": 800,
@@ -108,15 +118,5 @@
     "country": "Ireland",
     "stage": "Acquired",
     "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
-  },
-  {
-    "date": "2026-07-01",
-    "company": "Tokopedia",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.9,
-    "industry": "Retail",
-    "country": "Indonesia",
-    "stage": "Acquired",
-    "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
   }
 ]

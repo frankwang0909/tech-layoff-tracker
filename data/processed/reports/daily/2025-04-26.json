@@ -9,9 +9,9 @@
   "updated_at": "2026-07-08",
   "canonical_url": "/reports/daily/2025-04-26.html",
   "kpis": {
-    "total_laid_off": 400,
-    "event_count": 2,
-    "headcount_event_count": 2,
+    "total_laid_off": 200,
+    "event_count": 1,
+    "headcount_event_count": 1,
     "company_count": 1,
     "country_count": 1,
     "industry_count": 1,
@@ -24,10 +24,10 @@
       "period": "2025-04-25",
       "total_laid_off": 77,
       "event_count": 1,
-      "total_laid_off_delta": 323,
-      "total_laid_off_pct_change": 4.1948,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": 123,
+      "total_laid_off_pct_change": 1.5974,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -45,25 +45,25 @@
     "company_top": [
       {
         "company": "Cars24",
-        "total_laid_off": 400
+        "total_laid_off": 200
       }
     ],
     "industry_top": [
       {
         "industry": "Transportation",
-        "total_laid_off": 400
+        "total_laid_off": 200
       }
     ],
     "country_top": [
       {
         "country": "India",
-        "total_laid_off": 400
+        "total_laid_off": 200
       }
     ],
     "stage_top": [
       {
         "stage": "Series G",
-        "total_laid_off": 400
+        "total_laid_off": 200
       }
     ],
     "layoff_pct_distribution": [
@@ -100,16 +100,6 @@
         "country": "India",
         "stage": "Series G",
         "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
-      },
-      {
-        "date": "2025-04-26",
-        "company": "Cars24",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Series G",
-        "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
       }
     ],
     "recent_events": [
@@ -122,24 +112,14 @@
         "country": "India",
         "stage": "Series G",
         "source": "https://entrackr.com/exclusive/exclusive-cars24-lays-off-200-employees-9003193"
-      },
-      {
-        "date": "2025-04-26",
-        "company": "Cars24",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "India",
-        "stage": "Series G",
-        "source": "https://inc42.com/buzz/cars24-lays-off-200-staff-in-restructuring-exercise/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-04-26 includes 2 public layoff events and 400 reported layoffs.",
-    "The largest company contributor is Cars24 with 400 reported layoffs.",
-    "The leading named industry is Transportation with 400 reported layoffs."
+    "2025-04-26 includes 1 public layoff events and 200 reported layoffs.",
+    "The largest company contributor is Cars24 with 200 reported layoffs.",
+    "The leading named industry is Transportation with 200 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

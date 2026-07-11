@@ -32,12 +32,12 @@
     },
     "same_period_last_year": {
       "period": "2025-W17",
-      "total_laid_off": 22652,
-      "event_count": 6,
-      "total_laid_off_delta": -21845,
-      "total_laid_off_pct_change": -0.9644,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.1667,
+      "total_laid_off": 22452,
+      "event_count": 5,
+      "total_laid_off_delta": -21645,
+      "total_laid_off_pct_change": -0.9641,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.4,
       "note": null
     }
   },

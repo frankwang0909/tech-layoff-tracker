@@ -9,14 +9,14 @@
   "updated_at": "2026-07-08",
   "canonical_url": "/reports/quarterly/2025-Q2.html",
   "kpis": {
-    "total_laid_off": 37603,
-    "event_count": 72,
-    "headcount_event_count": 49,
+    "total_laid_off": 37403,
+    "event_count": 71,
+    "headcount_event_count": 48,
     "company_count": 65,
     "country_count": 11,
     "industry_count": 22,
-    "average_layoffs_per_headcount_event": 767.41,
-    "median_layoffs_per_headcount_event": 140.0,
+    "average_layoffs_per_headcount_event": 779.23,
+    "median_layoffs_per_headcount_event": 139.0,
     "high_intensity_event_count": 18
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-Q1",
       "total_laid_off": 29925,
       "event_count": 105,
-      "total_laid_off_delta": 7678,
-      "total_laid_off_pct_change": 0.2566,
-      "event_count_delta": -33,
-      "event_count_pct_change": -0.3143,
+      "total_laid_off_delta": 7478,
+      "total_laid_off_pct_change": 0.2499,
+      "event_count_delta": -34,
+      "event_count_pct_change": -0.3238,
       "note": null
     },
     "same_period_last_year": {
@@ -64,20 +64,20 @@
         "total_laid_off": 600
       },
       {
-        "company": "Cars24",
-        "total_laid_off": 520
-      },
-      {
         "company": "CrowdStrike",
         "total_laid_off": 500
       },
       {
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "total_laid_off": 350
       },
       {
         "company": "Match Group",
         "total_laid_off": 325
+      },
+      {
+        "company": "Cars24",
+        "total_laid_off": 320
       },
       {
         "company": "Otipy",
@@ -102,12 +102,12 @@
         "total_laid_off": 1352
       },
       {
-        "industry": "Transportation",
-        "total_laid_off": 948
-      },
-      {
         "industry": "Food",
         "total_laid_off": 900
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 748
       },
       {
         "industry": "Security",
@@ -133,7 +133,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 2265
+        "total_laid_off": 2065
       },
       {
         "country": "Canada",
@@ -182,10 +182,6 @@
         "total_laid_off": 565
       },
       {
-        "stage": "Series G",
-        "total_laid_off": 520
-      },
-      {
         "stage": "Series E",
         "total_laid_off": 431
       },
@@ -196,6 +192,10 @@
       {
         "stage": "Series D",
         "total_laid_off": 377
+      },
+      {
+        "stage": "Series G",
+        "total_laid_off": 320
       },
       {
         "stage": "Private Equity",
@@ -297,7 +297,7 @@
       },
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2025-Q2 includes 72 public layoff events and 37,603 reported layoffs.",
+    "2025-Q2 includes 71 public layoff events and 37,403 reported layoffs.",
     "The largest company contributor is Intel with 22,000 reported layoffs.",
     "The leading named industry is Hardware with 22,000 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

@@ -48,7 +48,7 @@
         "total_laid_off": 6000
       },
       {
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "total_laid_off": 350
       },
       {
@@ -159,7 +159,7 @@
       },
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",
@@ -211,7 +211,7 @@
     "recent_events": [
       {
         "date": "2025-05-18",
-        "company": "VerSe Innovation copy",
+        "company": "VerSe Innovation",
         "num_laid_off": 350,
         "percentage_laid_off": null,
         "industry": "Media",

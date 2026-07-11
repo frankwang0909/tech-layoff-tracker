@@ -307,9 +307,9 @@
       "end": "2026-07-07"
     },
     "kpis": {
-      "total_laid_off": 10760,
-      "event_count": 59,
-      "headcount_event_count": 45,
+      "total_laid_off": 10560,
+      "event_count": 58,
+      "headcount_event_count": 44,
       "company_count": 49,
       "country_count": 1,
       "industry_count": 16,
@@ -327,7 +327,7 @@
         },
         {
           "month": "2025-04",
-          "total_laid_off": 1300
+          "total_laid_off": 1100
         },
         {
           "month": "2025-05",
@@ -412,10 +412,6 @@
           "total_laid_off": 540
         },
         {
-          "company": "Cars24",
-          "total_laid_off": 520
-        },
-        {
           "company": "Head Digital Works",
           "total_laid_off": 500
         },
@@ -426,6 +422,10 @@
         {
           "company": "Paytm",
           "total_laid_off": 400
+        },
+        {
+          "company": "Zupee",
+          "total_laid_off": 370
         }
       ]
     },
@@ -583,7 +583,7 @@
         }
       ]
     },
-    "summary": "India has 10,760 reported tech layoffs across 59 public events from 2025-01-15 to 2026-07-07."
+    "summary": "India has 10,560 reported tech layoffs across 58 public events from 2025-01-15 to 2026-07-07."
   },
   {
     "type": "country",
@@ -1391,12 +1391,12 @@
     "canonical_url": "/countries/canada.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-05-04"
+      "end": "2026-07-08"
     },
     "kpis": {
-      "total_laid_off": 2557,
-      "event_count": 17,
-      "headcount_event_count": 10,
+      "total_laid_off": 2957,
+      "event_count": 18,
+      "headcount_event_count": 11,
       "company_count": 13,
       "country_count": 1,
       "industry_count": 10,
@@ -1431,12 +1431,16 @@
         {
           "month": "2026-05",
           "total_laid_off": 30
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 400
         }
       ],
       "company_top": [
         {
           "company": "OpenText",
-          "total_laid_off": 1600
+          "total_laid_off": 2000
         },
         {
           "company": "SSense",
@@ -1478,6 +1482,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-08",
+          "company": "OpenText",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.02,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+        },
         {
           "date": "2026-05-04",
           "company": "Shopify",
@@ -1617,20 +1631,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
-        },
-        {
-          "date": "2025-05-05",
-          "company": "General Fusion",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Energy",
-          "country": "Canada",
-          "stage": "Unknown",
-          "source": "https://techcrunch.com/2025/05/05/layoffs-hit-general-fusion-as-the-fusion-power-startup-runs-short-on-cash/"
         }
       ]
     },
-    "summary": "Canada has 2,557 reported tech layoffs across 17 public events from 2025-02-05 to 2026-05-04."
+    "summary": "Canada has 2,957 reported tech layoffs across 18 public events from 2025-02-05 to 2026-07-08."
   },
   {
     "type": "country",

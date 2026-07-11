@@ -9,14 +9,14 @@
   "updated_at": "2026-07-08",
   "canonical_url": "/reports/weekly/2026-W28.html",
   "kpis": {
-    "total_laid_off": 5652,
-    "event_count": 9,
-    "headcount_event_count": 6,
-    "company_count": 9,
-    "country_count": 5,
-    "industry_count": 7,
-    "average_layoffs_per_headcount_event": 942.0,
-    "median_layoffs_per_headcount_event": 130.0,
+    "total_laid_off": 6052,
+    "event_count": 10,
+    "headcount_event_count": 7,
+    "company_count": 10,
+    "country_count": 6,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 864.57,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W27",
       "total_laid_off": 1280,
       "event_count": 6,
-      "total_laid_off_delta": 4372,
-      "total_laid_off_pct_change": 3.4156,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.5,
+      "total_laid_off_delta": 4772,
+      "total_laid_off_pct_change": 3.7281,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.6667,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W28",
       "total_laid_off": 6459,
       "event_count": 7,
-      "total_laid_off_delta": -807,
-      "total_laid_off_pct_change": -0.1249,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.2857,
+      "total_laid_off_delta": -407,
+      "total_laid_off_pct_change": -0.063,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.4286,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "MyHeritage",
         "total_laid_off": 500
+      },
+      {
+        "company": "OpenText",
+        "total_laid_off": 400
       },
       {
         "company": "Mews",
@@ -78,6 +82,10 @@
         "total_laid_off": 500
       },
       {
+        "industry": "Data",
+        "total_laid_off": 400
+      },
+      {
         "industry": "Travel",
         "total_laid_off": 200
       },
@@ -104,6 +112,10 @@
         "total_laid_off": 560
       },
       {
+        "country": "Canada",
+        "total_laid_off": 400
+      },
+      {
         "country": "Netherlands",
         "total_laid_off": 200
       }
@@ -111,7 +123,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 4857
+        "total_laid_off": 5257
       },
       {
         "stage": "Acquired",
@@ -133,7 +145,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -174,6 +186,16 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "OpenText",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
         "date": "2026-07-07",
@@ -226,6 +248,16 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "OpenText",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
         "date": "2026-07-07",
@@ -332,7 +364,7 @@
     ]
   },
   "insights": [
-    "2026-W28 includes 9 public layoff events and 5,652 reported layoffs.",
+    "2026-W28 includes 10 public layoff events and 6,052 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Consumer with 500 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-06",
-    "end": "2026-07-08"
+    "end": "2026-07-11"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/weekly/2026-W28.html",
   "kpis": {
-    "total_laid_off": 6052,
-    "event_count": 10,
-    "headcount_event_count": 7,
-    "company_count": 10,
-    "country_count": 6,
-    "industry_count": 8,
-    "average_layoffs_per_headcount_event": 864.57,
-    "median_layoffs_per_headcount_event": 200.0,
+    "total_laid_off": 6152,
+    "event_count": 12,
+    "headcount_event_count": 8,
+    "company_count": 12,
+    "country_count": 7,
+    "industry_count": 10,
+    "average_layoffs_per_headcount_event": 769.0,
+    "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W27",
       "total_laid_off": 1280,
       "event_count": 6,
-      "total_laid_off_delta": 4772,
-      "total_laid_off_pct_change": 3.7281,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.6667,
+      "total_laid_off_delta": 4872,
+      "total_laid_off_pct_change": 3.8062,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W28",
       "total_laid_off": 6459,
       "event_count": 7,
-      "total_laid_off_delta": -407,
-      "total_laid_off_pct_change": -0.063,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.4286,
+      "total_laid_off_delta": -307,
+      "total_laid_off_pct_change": -0.0475,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.7143,
       "note": null
     }
   },
@@ -58,6 +58,10 @@
       {
         "company": "Mews",
         "total_laid_off": 200
+      },
+      {
+        "company": "GoKwik",
+        "total_laid_off": 100
       },
       {
         "company": "Darrow",
@@ -90,6 +94,10 @@
         "total_laid_off": 200
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 100
+      },
+      {
         "industry": "Legal",
         "total_laid_off": 60
       },
@@ -118,6 +126,10 @@
       {
         "country": "Netherlands",
         "total_laid_off": 200
+      },
+      {
+        "country": "India",
+        "total_laid_off": 100
       }
     ],
     "stage_top": [
@@ -134,12 +146,12 @@
         "total_laid_off": 200
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 60
+        "stage": "Unknown",
+        "total_laid_off": 135
       },
       {
-        "stage": "Unknown",
-        "total_laid_off": 35
+        "stage": "Series B",
+        "total_laid_off": 60
       }
     ],
     "layoff_pct_distribution": [
@@ -208,6 +220,16 @@
         "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
       },
       {
+        "date": "2026-07-11",
+        "company": "GoKwik",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
+      },
+      {
         "date": "2026-07-07",
         "company": "Darrow",
         "num_laid_off": 60,
@@ -239,6 +261,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-11",
+        "company": "GoKwik",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
+      },
       {
         "date": "2026-07-08",
         "company": "MyHeritage",
@@ -338,6 +370,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Hotmart",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Brazil",
+        "stage": "Series C",
+        "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
       }
     ],
     "high_intensity_events": [
@@ -364,7 +406,7 @@
     ]
   },
   "insights": [
-    "2026-W28 includes 10 public layoff events and 6,052 reported layoffs.",
+    "2026-W28 includes 12 public layoff events and 6,152 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Consumer with 500 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

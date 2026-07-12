@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-07-08",
-    "company": "MyHeritage",
-    "num_laid_off": 500,
-    "percentage_laid_off": 0.15,
-    "industry": "Consumer",
-    "country": "Israel",
-    "stage": "Acquired",
-    "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+    "date": "2026-07-11",
+    "company": "GoKwik",
+    "num_laid_off": 100,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "India",
+    "stage": "Unknown",
+    "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
   },
   {
     "date": "2026-07-08",
@@ -20,6 +20,16 @@
     "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
   },
   {
+    "date": "2026-07-08",
+    "company": "MyHeritage",
+    "num_laid_off": 500,
+    "percentage_laid_off": 0.15,
+    "industry": "Consumer",
+    "country": "Israel",
+    "stage": "Acquired",
+    "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+  },
+  {
     "date": "2026-07-07",
     "company": "Mews",
     "num_laid_off": 200,
@@ -28,16 +38,6 @@
     "country": "Netherlands",
     "stage": "Series D",
     "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
-  },
-  {
-    "date": "2026-07-07",
-    "company": "Darrow",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.33,
-    "industry": "Legal",
-    "country": "Israel",
-    "stage": "Series B",
-    "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
   },
   {
     "date": "2026-07-07",
@@ -60,24 +60,14 @@
     "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
   },
   {
-    "date": "2026-07-06",
-    "company": "Microsoft",
-    "num_laid_off": 4800,
-    "percentage_laid_off": 0.02,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Amazon",
-    "num_laid_off": 57,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+    "date": "2026-07-07",
+    "company": "Darrow",
+    "num_laid_off": 60,
+    "percentage_laid_off": 0.33,
+    "industry": "Legal",
+    "country": "Israel",
+    "stage": "Series B",
+    "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
   },
   {
     "date": "2026-07-06",
@@ -100,23 +90,33 @@
     "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
   },
   {
-    "date": "2026-07-03",
-    "company": "CorroHealth",
-    "num_laid_off": 800,
-    "percentage_laid_off": null,
-    "industry": "Healthcare",
-    "country": "India",
-    "stage": "Private Equity",
-    "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
+    "date": "2026-07-06",
+    "company": "Hotmart",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.1,
+    "industry": "Marketing",
+    "country": "Brazil",
+    "stage": "Series C",
+    "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
   },
   {
-    "date": "2026-07-01",
-    "company": "TikTok",
-    "num_laid_off": 300,
+    "date": "2026-07-06",
+    "company": "Amazon",
+    "num_laid_off": 57,
     "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "Ireland",
-    "stage": "Acquired",
-    "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+  },
+  {
+    "date": "2026-07-06",
+    "company": "Microsoft",
+    "num_laid_off": 4800,
+    "percentage_laid_off": 0.02,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
   }
 ]

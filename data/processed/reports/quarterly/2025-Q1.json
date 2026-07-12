@@ -6,16 +6,16 @@
     "start": "2025-01-02",
     "end": "2025-03-31"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/quarterly/2025-Q1.html",
   "kpis": {
-    "total_laid_off": 29925,
+    "total_laid_off": 27925,
     "event_count": 105,
     "headcount_event_count": 72,
     "company_count": 102,
     "country_count": 14,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 415.62,
+    "average_layoffs_per_headcount_event": 387.85,
     "median_layoffs_per_headcount_event": 121.0,
     "high_intensity_event_count": 21
   },
@@ -44,10 +44,6 @@
   "charts": {
     "company_top": [
       {
-        "company": "HP",
-        "total_laid_off": 4000
-      },
-      {
         "company": "Meta",
         "total_laid_off": 3600
       },
@@ -58,6 +54,10 @@
       {
         "company": "Hewlett Packard Enterprise",
         "total_laid_off": 2500
+      },
+      {
+        "company": "HP",
+        "total_laid_off": 2000
       },
       {
         "company": "Workday",
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Hardware",
-        "total_laid_off": 6558
+        "total_laid_off": 4558
       },
       {
         "industry": "Consumer",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 22950
+        "total_laid_off": 20950
       },
       {
         "country": "Sweden",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 20607
+        "total_laid_off": 18607
       },
       {
         "stage": "Unknown",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 13
+        "event_count": 12
       },
       {
         "bucket": "25-49%",
@@ -235,16 +235,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2025-02-28",
-        "company": "HP",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.1,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
-      },
       {
         "date": "2025-02-10",
         "company": "Meta",
@@ -274,6 +264,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2025/03/06/hewlett-packard-enterprise-hpe-q1-earnings-report-2025.html"
+      },
+      {
+        "date": "2025-02-28",
+        "company": "HP",
+        "num_laid_off": 2000,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
       },
       {
         "date": "2025-02-05",
@@ -642,9 +642,9 @@
     ]
   },
   "insights": [
-    "2025-Q1 includes 105 public layoff events and 29,925 reported layoffs.",
-    "The largest company contributor is HP with 4,000 reported layoffs.",
-    "The leading named industry is Hardware with 6,558 reported layoffs.",
+    "2025-Q1 includes 105 public layoff events and 27,925 reported layoffs.",
+    "The largest company contributor is Meta with 3,600 reported layoffs.",
+    "The leading named industry is Hardware with 4,558 reported layoffs.",
     "21 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

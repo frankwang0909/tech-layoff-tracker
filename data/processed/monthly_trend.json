@@ -5,7 +5,7 @@
   },
   {
     "month": "2025-02",
-    "total_laid_off": 18474
+    "total_laid_off": 16474
   },
   {
     "month": "2025-03",
@@ -37,7 +37,7 @@
   },
   {
     "month": "2025-10",
-    "total_laid_off": 19070
+    "total_laid_off": 19240
   },
   {
     "month": "2025-11",
@@ -73,6 +73,6 @@
   },
   {
     "month": "2026-07",
-    "total_laid_off": 7152
+    "total_laid_off": 7252
   }
 ]

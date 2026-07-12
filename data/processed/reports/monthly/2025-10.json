@@ -6,17 +6,17 @@
     "start": "2025-10-01",
     "end": "2025-10-29"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/monthly/2025-10.html",
   "kpis": {
-    "total_laid_off": 19070,
-    "event_count": 24,
-    "headcount_event_count": 19,
-    "company_count": 23,
+    "total_laid_off": 19240,
+    "event_count": 25,
+    "headcount_event_count": 20,
+    "company_count": 24,
     "country_count": 6,
     "industry_count": 14,
-    "average_layoffs_per_headcount_event": 1003.68,
-    "median_layoffs_per_headcount_event": 165.0,
+    "average_layoffs_per_headcount_event": 962.0,
+    "median_layoffs_per_headcount_event": 167.5,
     "high_intensity_event_count": 3
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-09",
       "total_laid_off": 4454,
       "event_count": 29,
-      "total_laid_off_delta": 14616,
-      "total_laid_off_pct_change": 3.2815,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.1724,
+      "total_laid_off_delta": 14786,
+      "total_laid_off_pct_change": 3.3197,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.1379,
       "note": null
     },
     "same_period_last_year": {
@@ -52,11 +52,11 @@
         "total_laid_off": 1400
       },
       {
-        "company": "Rivian",
+        "company": "Meta",
         "total_laid_off": 600
       },
       {
-        "company": "Meta",
+        "company": "Rivian",
         "total_laid_off": 600
       },
       {
@@ -80,8 +80,8 @@
         "total_laid_off": 200
       },
       {
-        "company": "Personio",
-        "total_laid_off": 165
+        "company": "AirSlate",
+        "total_laid_off": 170
       }
     ],
     "industry_top": [
@@ -110,6 +110,10 @@
         "total_laid_off": 388
       },
       {
+        "industry": "Other",
+        "total_laid_off": 290
+      },
+      {
         "industry": "Hardware",
         "total_laid_off": 247
       },
@@ -120,16 +124,12 @@
       {
         "industry": "Finance",
         "total_laid_off": 130
-      },
-      {
-        "industry": "Other",
-        "total_laid_off": 120
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 18440
+        "total_laid_off": 18610
       },
       {
         "country": "India",
@@ -154,6 +154,10 @@
         "total_laid_off": 300
       },
       {
+        "stage": "Series B",
+        "total_laid_off": 250
+      },
+      {
         "stage": "Series E",
         "total_laid_off": 215
       },
@@ -168,10 +172,6 @@
       {
         "stage": "Series D",
         "total_laid_off": 85
-      },
-      {
-        "stage": "Series B",
-        "total_laid_off": 80
       },
       {
         "stage": "Series A",
@@ -294,14 +294,14 @@
         "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
       },
       {
-        "date": "2025-10-29",
-        "company": "Personio",
-        "num_laid_off": 165,
-        "percentage_laid_off": 0.1,
-        "industry": "HR",
-        "country": "Germany",
-        "stage": "Series E",
-        "source": "Internal memo"
+        "date": "2025-10-23",
+        "company": "AirSlate",
+        "num_laid_off": 170,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.bizjournals.com/boston/news/2025/10/23/airslate-layoffs-2025.html"
       }
     ],
     "recent_events": [
@@ -407,6 +407,16 @@
       },
       {
         "date": "2025-10-23",
+        "company": "AirSlate",
+        "num_laid_off": 170,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.bizjournals.com/boston/news/2025/10/23/airslate-layoffs-2025.html"
+      },
+      {
+        "date": "2025-10-23",
         "company": "Altruist",
         "num_laid_off": 50,
         "percentage_laid_off": 0.15,
@@ -494,16 +504,6 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://www.upstartsmedia.com/p/handshake-refounding-layoff-ai"
-      },
-      {
-        "date": "2025-10-02",
-        "company": "Smartsheet",
-        "num_laid_off": 120,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2025/smartsheet-cuts-jobs-shortly-after-departure-of-longtime-ceo/"
       }
     ],
     "high_intensity_events": [
@@ -540,7 +540,7 @@
     ]
   },
   "insights": [
-    "2025-10 includes 24 public layoff events and 19,070 reported layoffs.",
+    "2025-10 includes 25 public layoff events and 19,240 reported layoffs.",
     "The largest company contributor is Amazon with 14,000 reported layoffs.",
     "The leading named industry is Retail with 14,300 reported layoffs.",
     "3 events report a layoff percentage of 25% or higher."

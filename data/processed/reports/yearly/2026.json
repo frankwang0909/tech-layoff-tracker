@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-08"
+    "end": "2026-07-11"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 120746,
-    "event_count": 239,
-    "headcount_event_count": 159,
-    "company_count": 226,
+    "total_laid_off": 120846,
+    "event_count": 241,
+    "headcount_event_count": 160,
+    "company_count": 228,
     "country_count": 26,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 759.41,
+    "average_layoffs_per_headcount_event": 755.29,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 45
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
-      "total_laid_off": 124436,
-      "event_count": 332,
-      "total_laid_off_delta": -3690,
-      "total_laid_off_pct_change": -0.0297,
-      "event_count_delta": -93,
-      "event_count_pct_change": -0.2801,
+      "total_laid_off": 122606,
+      "event_count": 333,
+      "total_laid_off_delta": -1760,
+      "total_laid_off_pct_change": -0.0144,
+      "event_count_delta": -92,
+      "event_count_pct_change": -0.2763,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
-      "total_laid_off": 124436,
-      "event_count": 332,
-      "total_laid_off_delta": -3690,
-      "total_laid_off_pct_change": -0.0297,
-      "event_count_delta": -93,
-      "event_count_pct_change": -0.2801,
+      "total_laid_off": 122606,
+      "event_count": 333,
+      "total_laid_off_delta": -1760,
+      "total_laid_off_pct_change": -0.0144,
+      "event_count_delta": -92,
+      "event_count_pct_change": -0.2763,
       "note": null
     }
   },
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 14673
+        "total_laid_off": 14773
       },
       {
         "industry": "Hardware",
@@ -141,7 +141,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 3705
+        "total_laid_off": 3805
       },
       {
         "country": "Netherlands",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5182
+        "total_laid_off": 5282
       },
       {
         "stage": "Acquired",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -338,14 +338,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-07-08",
-        "company": "MyHeritage",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.15,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+        "date": "2026-07-11",
+        "company": "GoKwik",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
       },
       {
         "date": "2026-07-08",
@@ -356,6 +356,16 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       },
       {
         "date": "2026-07-07",
@@ -399,16 +409,6 @@
       },
       {
         "date": "2026-07-06",
-        "company": "Microsoft",
-        "num_laid_off": 4800,
-        "percentage_laid_off": 0.02,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-      },
-      {
-        "date": "2026-07-06",
         "company": "Amazon",
         "num_laid_off": 57,
         "percentage_laid_off": null,
@@ -436,6 +436,26 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Hotmart",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Brazil",
+        "stage": "Series C",
+        "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Microsoft",
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
       },
       {
         "date": "2026-07-03",
@@ -479,16 +499,6 @@
       },
       {
         "date": "2026-06-29",
-        "company": "Equip Health",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.04,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
-      },
-      {
-        "date": "2026-06-29",
         "company": "Elementor",
         "num_laid_off": 100,
         "percentage_laid_off": 0.3,
@@ -498,24 +508,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
       },
       {
-        "date": "2026-06-26",
-        "company": "SAS",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Data",
+        "date": "2026-06-29",
+        "company": "Equip Health",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.04,
+        "industry": "Healthcare",
         "country": "United States",
         "stage": "Unknown",
-        "source": "https://www.newsobserver.com/news/business/article316281262.html"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "Culture Amp",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.09,
-        "industry": "HR",
-        "country": "Australia",
-        "stage": "Series F",
-        "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
       },
       {
         "date": "2026-06-26",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 239 public layoff events and 120,746 reported layoffs.",
+    "2026 includes 241 public layoff events and 120,846 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,468 reported layoffs.",
     "45 events report a layoff percentage of 25% or higher."

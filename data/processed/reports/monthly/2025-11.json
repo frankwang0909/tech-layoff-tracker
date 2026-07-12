@@ -6,7 +6,7 @@
     "start": "2025-11-04",
     "end": "2025-11-26"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/monthly/2025-11.html",
   "kpis": {
     "total_laid_off": 8932,
@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2025-10",
-      "total_laid_off": 19070,
-      "event_count": 24,
-      "total_laid_off_delta": -10138,
-      "total_laid_off_pct_change": -0.5316,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.0417,
+      "total_laid_off": 19240,
+      "event_count": 25,
+      "total_laid_off_delta": -10308,
+      "total_laid_off_pct_change": -0.5358,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {

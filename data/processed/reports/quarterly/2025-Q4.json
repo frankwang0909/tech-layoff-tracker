@@ -6,17 +6,17 @@
     "start": "2025-10-01",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/quarterly/2025-Q4.html",
   "kpis": {
-    "total_laid_off": 29554,
-    "event_count": 70,
-    "headcount_event_count": 49,
-    "company_count": 68,
+    "total_laid_off": 29724,
+    "event_count": 71,
+    "headcount_event_count": 50,
+    "company_count": 69,
     "country_count": 9,
     "industry_count": 21,
-    "average_layoffs_per_headcount_event": 603.14,
-    "median_layoffs_per_headcount_event": 100.0,
+    "average_layoffs_per_headcount_event": 594.48,
+    "median_layoffs_per_headcount_event": 101.0,
     "high_intensity_event_count": 12
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": 2000,
-      "total_laid_off_pct_change": 0.0726,
-      "event_count_delta": -16,
-      "event_count_pct_change": -0.186,
+      "total_laid_off_delta": 2170,
+      "total_laid_off_pct_change": 0.0788,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.1744,
       "note": null
     },
     "same_period_last_year": {
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Other",
-        "total_laid_off": 2242
+        "total_laid_off": 2412
       },
       {
         "industry": "Consumer",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 25647
+        "total_laid_off": 25817
       },
       {
         "country": "Israel",
@@ -194,12 +194,12 @@
         "total_laid_off": 300
       },
       {
-        "stage": "Series C",
-        "total_laid_off": 280
+        "stage": "Series B",
+        "total_laid_off": 298
       },
       {
-        "stage": "Private Equity",
-        "total_laid_off": 200
+        "stage": "Series C",
+        "total_laid_off": 280
       }
     ],
     "layoff_pct_distribution": [
@@ -268,16 +268,6 @@
         "source": "https://www.bloomberg.com/news/articles/2025-10-23/applied-materials-to-cut-4-of-global-staff-after-sales-slow"
       },
       {
-        "date": "2025-12-28",
-        "company": "Sapiens",
-        "num_laid_off": 700,
-        "percentage_laid_off": 0.15,
-        "industry": "Finance",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
-      },
-      {
         "date": "2025-11-17",
         "company": "Playtika",
         "num_laid_off": 700,
@@ -288,14 +278,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/h1y4ejyg11g"
       },
       {
-        "date": "2025-10-23",
-        "company": "Rivian",
-        "num_laid_off": 600,
-        "percentage_laid_off": 0.04,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
+        "date": "2025-12-28",
+        "company": "Sapiens",
+        "num_laid_off": 700,
+        "percentage_laid_off": 0.15,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/r1oyau0mzl"
       },
       {
         "date": "2025-10-22",
@@ -306,6 +296,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html"
+      },
+      {
+        "date": "2025-10-23",
+        "company": "Rivian",
+        "num_laid_off": 600,
+        "percentage_laid_off": 0.04,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
       },
       {
         "date": "2025-10-01",
@@ -634,7 +634,7 @@
     ]
   },
   "insights": [
-    "2025-Q4 includes 70 public layoff events and 29,554 reported layoffs.",
+    "2025-Q4 includes 71 public layoff events and 29,724 reported layoffs.",
     "The largest company contributor is Amazon with 14,084 reported layoffs.",
     "The leading named industry is Retail with 14,424 reported layoffs.",
     "12 events report a layoff percentage of 25% or higher."

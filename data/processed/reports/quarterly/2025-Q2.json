@@ -6,7 +6,7 @@
     "start": "2025-04-01",
     "end": "2025-06-30"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/quarterly/2025-Q2.html",
   "kpis": {
     "total_laid_off": 37403,
@@ -22,10 +22,10 @@
   "comparisons": {
     "previous_period": {
       "period": "2025-Q1",
-      "total_laid_off": 29925,
+      "total_laid_off": 27925,
       "event_count": 105,
-      "total_laid_off_delta": 7478,
-      "total_laid_off_pct_change": 0.2499,
+      "total_laid_off_delta": 9478,
+      "total_laid_off_pct_change": 0.3394,
       "event_count_delta": -34,
       "event_count_pct_change": -0.3238,
       "note": null

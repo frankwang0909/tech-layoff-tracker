@@ -6,17 +6,17 @@
     "start": "2025-10-23",
     "end": "2025-10-23"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/daily/2025-10-23.html",
   "kpis": {
-    "total_laid_off": 2250,
-    "event_count": 4,
-    "headcount_event_count": 4,
-    "company_count": 4,
+    "total_laid_off": 2420,
+    "event_count": 5,
+    "headcount_event_count": 5,
+    "company_count": 5,
     "country_count": 1,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 562.5,
-    "median_layoffs_per_headcount_event": 400.0,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 484.0,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2025-10-22",
       "total_laid_off": 600,
       "event_count": 1,
-      "total_laid_off_delta": 1650,
-      "total_laid_off_pct_change": 2.75,
-      "event_count_delta": 3,
-      "event_count_pct_change": 3.0,
+      "total_laid_off_delta": 1820,
+      "total_laid_off_pct_change": 3.0333,
+      "event_count_delta": 4,
+      "event_count_pct_change": 4.0,
       "note": null
     },
     "same_period_last_year": {
@@ -56,6 +56,10 @@
         "total_laid_off": 200
       },
       {
+        "company": "AirSlate",
+        "total_laid_off": 170
+      },
+      {
         "company": "Altruist",
         "total_laid_off": 50
       }
@@ -74,6 +78,10 @@
         "total_laid_off": 200
       },
       {
+        "industry": "Other",
+        "total_laid_off": 170
+      },
+      {
         "industry": "Finance",
         "total_laid_off": 50
       }
@@ -81,7 +89,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2250
+        "total_laid_off": 2420
       }
     ],
     "stage_top": [
@@ -92,6 +100,10 @@
       {
         "stage": "Private Equity",
         "total_laid_off": 200
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 170
       },
       {
         "stage": "Series E",
@@ -155,6 +167,16 @@
       },
       {
         "date": "2025-10-23",
+        "company": "AirSlate",
+        "num_laid_off": 170,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.bizjournals.com/boston/news/2025/10/23/airslate-layoffs-2025.html"
+      },
+      {
+        "date": "2025-10-23",
         "company": "Altruist",
         "num_laid_off": 50,
         "percentage_laid_off": 0.15,
@@ -197,6 +219,16 @@
       },
       {
         "date": "2025-10-23",
+        "company": "AirSlate",
+        "num_laid_off": 170,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.bizjournals.com/boston/news/2025/10/23/airslate-layoffs-2025.html"
+      },
+      {
+        "date": "2025-10-23",
         "company": "Altruist",
         "num_laid_off": 50,
         "percentage_laid_off": 0.15,
@@ -209,7 +241,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2025-10-23 includes 4 public layoff events and 2,250 reported layoffs.",
+    "2025-10-23 includes 5 public layoff events and 2,420 reported layoffs.",
     "The largest company contributor is Applied Material with 1,400 reported layoffs.",
     "The leading named industry is Manufacturing with 1,400 reported layoffs."
   ],

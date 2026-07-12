@@ -10,10 +10,10 @@
       "end": "2026-07-06"
     },
     "kpis": {
-      "total_laid_off": 202663,
-      "event_count": 332,
-      "headcount_event_count": 219,
-      "company_count": 253,
+      "total_laid_off": 200833,
+      "event_count": 333,
+      "headcount_event_count": 220,
+      "company_count": 254,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -26,7 +26,7 @@
         },
         {
           "month": "2025-02",
-          "total_laid_off": 17629
+          "total_laid_off": 15629
         },
         {
           "month": "2025-03",
@@ -58,7 +58,7 @@
         },
         {
           "month": "2025-10",
-          "total_laid_off": 18440
+          "total_laid_off": 18610
         },
         {
           "month": "2025-11",
@@ -124,7 +124,7 @@
         },
         {
           "company": "HP",
-          "total_laid_off": 8000
+          "total_laid_off": 6000
         },
         {
           "company": "Salesforce",
@@ -294,7 +294,7 @@
         }
       ]
     },
-    "summary": "United States has 202,663 reported tech layoffs across 332 public events from 2025-01-02 to 2026-07-06."
+    "summary": "United States has 200,833 reported tech layoffs across 333 public events from 2025-01-02 to 2026-07-06."
   },
   {
     "type": "country",
@@ -304,13 +304,13 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-07-07"
+      "end": "2026-07-11"
     },
     "kpis": {
-      "total_laid_off": 10560,
-      "event_count": 58,
-      "headcount_event_count": 44,
-      "company_count": 49,
+      "total_laid_off": 10660,
+      "event_count": 59,
+      "headcount_event_count": 45,
+      "company_count": 50,
       "country_count": 1,
       "industry_count": 16,
       "high_intensity_event_count": 21
@@ -383,16 +383,16 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 800
+          "total_laid_off": 900
         }
       ],
       "company_top": [
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
@@ -416,11 +416,11 @@
           "total_laid_off": 500
         },
         {
-          "company": "GamesKraft",
+          "company": "Paytm",
           "total_laid_off": 400
         },
         {
-          "company": "Paytm",
+          "company": "GamesKraft",
           "total_laid_off": 400
         },
         {
@@ -431,6 +431,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-11",
+          "company": "GoKwik",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
+        },
         {
           "date": "2026-07-07",
           "company": "Billion Hearts",
@@ -570,20 +580,10 @@
           "country": "India",
           "stage": "Acquired",
           "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
-        },
-        {
-          "date": "2026-02-20",
-          "company": "Livspace",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.12,
-          "industry": "Consumer",
-          "country": "India",
-          "stage": "Series F",
-          "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
         }
       ]
     },
-    "summary": "India has 10,560 reported tech layoffs across 58 public events from 2025-01-15 to 2026-07-07."
+    "summary": "India has 10,660 reported tech layoffs across 59 public events from 2025-01-15 to 2026-07-11."
   },
   {
     "type": "country",
@@ -2381,15 +2381,15 @@
     "canonical_url": "/countries/brazil.html",
     "date_range": {
       "start": "2026-01-12",
-      "end": "2026-03-13"
+      "end": "2026-07-06"
     },
     "kpis": {
       "total_laid_off": 516,
-      "event_count": 2,
+      "event_count": 3,
       "headcount_event_count": 2,
-      "company_count": 2,
+      "company_count": 3,
       "country_count": 1,
-      "industry_count": 2,
+      "industry_count": 3,
       "high_intensity_event_count": 0
     },
     "charts": {
@@ -2417,6 +2417,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-07-06",
+          "company": "Hotmart",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Marketing",
+          "country": "Brazil",
+          "stage": "Series C",
+          "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+        },
+        {
           "date": "2026-03-13",
           "company": "Stone",
           "num_laid_off": 400,
@@ -2438,7 +2448,7 @@
         }
       ]
     },
-    "summary": "Brazil has 516 reported tech layoffs across 2 public events from 2026-01-12 to 2026-03-13."
+    "summary": "Brazil has 516 reported tech layoffs across 3 public events from 2026-01-12 to 2026-07-06."
   },
   {
     "type": "country",

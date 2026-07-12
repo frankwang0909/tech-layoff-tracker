@@ -6,17 +6,17 @@
     "start": "2025-01-02",
     "end": "2025-12-28"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/yearly/2025.html",
   "kpis": {
-    "total_laid_off": 124436,
-    "event_count": 332,
-    "headcount_event_count": 226,
-    "company_count": 277,
+    "total_laid_off": 122606,
+    "event_count": 333,
+    "headcount_event_count": 227,
+    "company_count": 278,
     "country_count": 19,
     "industry_count": 30,
-    "average_layoffs_per_headcount_event": 550.6,
-    "median_layoffs_per_headcount_event": 121.0,
+    "average_layoffs_per_headcount_event": 540.11,
+    "median_layoffs_per_headcount_event": 122.0,
     "high_intensity_event_count": 72
   },
   "comparisons": {
@@ -57,7 +57,7 @@
       },
       {
         "company": "HP",
-        "total_laid_off": 8000
+        "total_laid_off": 6000
       },
       {
         "company": "Salesforce",
@@ -87,11 +87,11 @@
     "industry_top": [
       {
         "industry": "Hardware",
-        "total_laid_off": 38337
+        "total_laid_off": 36337
       },
       {
         "industry": "Other",
-        "total_laid_off": 22378
+        "total_laid_off": 22548
       },
       {
         "industry": "Retail",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 104266
+        "total_laid_off": 102436
       },
       {
         "country": "India",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 101088
+        "total_laid_off": 99088
       },
       {
         "stage": "Unknown",
@@ -186,12 +186,12 @@
         "total_laid_off": 1955
       },
       {
-        "stage": "Private Equity",
-        "total_laid_off": 1344
+        "stage": "Series B",
+        "total_laid_off": 1379
       },
       {
-        "stage": "Series B",
-        "total_laid_off": 1209
+        "stage": "Private Equity",
+        "total_laid_off": 1344
       },
       {
         "stage": "Series D",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 42
+        "event_count": 41
       },
       {
         "bucket": "25-49%",
@@ -286,14 +286,14 @@
         "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
       },
       {
-        "date": "2025-02-28",
+        "date": "2025-11-25",
         "company": "HP",
         "num_laid_off": 4000,
-        "percentage_laid_off": 0.1,
+        "percentage_laid_off": null,
         "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php"
+        "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
       },
       {
         "date": "2025-08-31",
@@ -304,16 +304,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/marc-benioff-says-salesforce-cut-4000-roles-because-of-agents-2025-9"
-      },
-      {
-        "date": "2025-11-25",
-        "company": "HP",
-        "num_laid_off": 4000,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
       },
       {
         "date": "2025-02-10",
@@ -334,6 +324,16 @@
         "country": "Sweden",
         "stage": "Unknown",
         "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+      },
+      {
+        "date": "2025-03-06",
+        "company": "Hewlett Packard Enterprise",
+        "num_laid_off": 2500,
+        "percentage_laid_off": 0.05,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2025/03/06/hewlett-packard-enterprise-hpe-q1-earnings-report-2025.html"
       }
     ],
     "recent_events": [
@@ -429,16 +429,6 @@
       },
       {
         "date": "2025-12-09",
-        "company": "Whatfix",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.06,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Series E",
-        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
-      },
-      {
-        "date": "2025-12-09",
         "company": "GenWise",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -449,16 +439,6 @@
       },
       {
         "date": "2025-12-09",
-        "company": "Tenstorrent",
-        "num_laid_off": 80,
-        "percentage_laid_off": 0.07,
-        "industry": "Hardware",
-        "country": "Canada",
-        "stage": "Series D",
-        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
-      },
-      {
-        "date": "2025-12-09",
         "company": "VSCO",
         "num_laid_off": 24,
         "percentage_laid_off": null,
@@ -466,6 +446,26 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://techcrunch.com/2025/12/09/vsco-lays-off-24-staff-as-its-consumer-business-suffers/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "Whatfix",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.06,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Series E",
+        "source": "https://inc42.com/buzz/softbank-backed-whatfix-fires-60-employees/"
+      },
+      {
+        "date": "2025-12-09",
+        "company": "Tenstorrent",
+        "num_laid_off": 80,
+        "percentage_laid_off": 0.07,
+        "industry": "Hardware",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
       },
       {
         "date": "2025-12-08",
@@ -642,9 +642,9 @@
     ]
   },
   "insights": [
-    "2025 includes 332 public layoff events and 124,436 reported layoffs.",
+    "2025 includes 333 public layoff events and 122,606 reported layoffs.",
     "The largest company contributor is Intel with 27,058 reported layoffs.",
-    "The leading named industry is Hardware with 38,337 reported layoffs.",
+    "The leading named industry is Hardware with 36,337 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

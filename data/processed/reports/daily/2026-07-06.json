@@ -6,15 +6,15 @@
     "start": "2026-07-06",
     "end": "2026-07-06"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/daily/2026-07-06.html",
   "kpis": {
     "total_laid_off": 4892,
-    "event_count": 4,
+    "event_count": 5,
     "headcount_event_count": 3,
-    "company_count": 4,
-    "country_count": 1,
-    "industry_count": 4,
+    "company_count": 5,
+    "country_count": 2,
+    "industry_count": 5,
     "average_layoffs_per_headcount_event": 1630.67,
     "median_layoffs_per_headcount_event": 57.0,
     "high_intensity_event_count": 0
@@ -182,12 +182,22 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Hotmart",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Brazil",
+        "stage": "Series C",
+        "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-07-06 includes 4 public layoff events and 4,892 reported layoffs.",
+    "2026-07-06 includes 5 public layoff events and 4,892 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 57 reported layoffs."
   ],

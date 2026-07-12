@@ -10,7 +10,7 @@
       "end": "2026-06-22"
     },
     "kpis": {
-      "total_laid_off": 51391,
+      "total_laid_off": 49391,
       "event_count": 20,
       "headcount_event_count": 16,
       "company_count": 14,
@@ -22,7 +22,7 @@
       "monthly_trend": [
         {
           "month": "2025-02",
-          "total_laid_off": 4058
+          "total_laid_off": 2058
         },
         {
           "month": "2025-03",
@@ -80,7 +80,7 @@
         },
         {
           "company": "HP",
-          "total_laid_off": 8000
+          "total_laid_off": 6000
         },
         {
           "company": "Hewlett Packard Enterprise",
@@ -266,7 +266,7 @@
         }
       ]
     },
-    "summary": "Hardware has 51,391 reported tech layoffs across 20 public events from 2025-02-04 to 2026-06-22."
+    "summary": "Hardware has 49,391 reported tech layoffs across 20 public events from 2025-02-04 to 2026-06-22."
   },
   {
     "type": "industry",
@@ -846,13 +846,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-06-16"
+      "end": "2026-07-11"
     },
     "kpis": {
-      "total_laid_off": 18562,
-      "event_count": 57,
-      "headcount_event_count": 36,
-      "company_count": 50,
+      "total_laid_off": 18662,
+      "event_count": 58,
+      "headcount_event_count": 37,
+      "company_count": 51,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 16
@@ -922,6 +922,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 740
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 100
         }
       ],
       "company_top": [
@@ -946,19 +950,19 @@
           "total_laid_off": 700
         },
         {
-          "company": "Paytm",
-          "total_laid_off": 400
-        },
-        {
           "company": "Stone",
           "total_laid_off": 400
         },
         {
-          "company": "Stripe",
-          "total_laid_off": 300
+          "company": "Paytm",
+          "total_laid_off": 400
         },
         {
           "company": "Wise",
+          "total_laid_off": 300
+        },
+        {
+          "company": "Stripe",
           "total_laid_off": 300
         },
         {
@@ -969,6 +973,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-11",
+          "company": "GoKwik",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
+        },
         {
           "date": "2026-06-16",
           "company": "Robinhood",
@@ -1108,20 +1122,10 @@
           "country": "Israel",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
-        },
-        {
-          "date": "2026-04-09",
-          "company": "Pepper Pay",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
         }
       ]
     },
-    "summary": "Finance has 18,562 reported tech layoffs across 57 public events from 2025-01-02 to 2026-06-16."
+    "summary": "Finance has 18,662 reported tech layoffs across 58 public events from 2025-01-02 to 2026-07-11."
   },
   {
     "type": "industry",
@@ -3377,14 +3381,14 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-06-25"
+      "end": "2026-07-06"
     },
     "kpis": {
       "total_laid_off": 2586,
-      "event_count": 21,
+      "event_count": 22,
       "headcount_event_count": 13,
-      "company_count": 20,
-      "country_count": 5,
+      "company_count": 21,
+      "country_count": 6,
       "industry_count": 1,
       "high_intensity_event_count": 4
     },
@@ -3476,6 +3480,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-06",
+          "company": "Hotmart",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Marketing",
+          "country": "Brazil",
+          "stage": "Series C",
+          "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+        },
         {
           "date": "2026-06-25",
           "company": "Amperity",
@@ -3615,20 +3629,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.pocketgamer.biz/applovin-lays-off-97-staff/"
-        },
-        {
-          "date": "2025-04-10",
-          "company": "Marin Software",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://searchengineland.com/marin-software-shutting-down-454228"
         }
       ]
     },
-    "summary": "Marketing has 2,586 reported tech layoffs across 21 public events from 2025-01-15 to 2026-06-25."
+    "summary": "Marketing has 2,586 reported tech layoffs across 22 public events from 2025-01-15 to 2026-07-06."
   },
   {
     "type": "industry",

@@ -6,16 +6,16 @@
     "start": "2025-02-24",
     "end": "2025-03-02"
   },
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-11",
   "canonical_url": "/reports/weekly/2025-W09.html",
   "kpis": {
-    "total_laid_off": 6385,
+    "total_laid_off": 4385,
     "event_count": 13,
     "headcount_event_count": 7,
     "company_count": 13,
     "country_count": 5,
     "industry_count": 10,
-    "average_layoffs_per_headcount_event": 912.14,
+    "average_layoffs_per_headcount_event": 626.43,
     "median_layoffs_per_headcount_event": 300.0,
     "high_intensity_event_count": 4
   },
@@ -24,8 +24,8 @@
       "period": "2025-W08",
       "total_laid_off": 431,
       "event_count": 8,
-      "total_laid_off_delta": 5954,
-      "total_laid_off_pct_change": 13.8144,
+      "total_laid_off_delta": 3954,
+      "total_laid_off_pct_change": 9.174,
       "event_count_delta": 5,
       "event_count_pct_change": 0.625,
       "note": null
@@ -45,7 +45,7 @@
     "company_top": [
       {
         "company": "HP",
-        "total_laid_off": 4000
+        "total_laid_off": 2000
       },
       {
         "company": "Autodesk",
@@ -75,7 +75,7 @@
     "industry_top": [
       {
         "industry": "Hardware",
-        "total_laid_off": 4000
+        "total_laid_off": 2000
       },
       {
         "industry": "Other",
@@ -101,7 +101,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 6365
+        "total_laid_off": 4365
       },
       {
         "country": "Israel",
@@ -111,7 +111,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 5460
+        "total_laid_off": 3460
       },
       {
         "stage": "Acquired",
@@ -133,7 +133,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -154,8 +154,8 @@
       {
         "date": "2025-02-28",
         "company": "HP",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.1,
+        "num_laid_off": 2000,
+        "percentage_laid_off": null,
         "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
@@ -236,8 +236,8 @@
       {
         "date": "2025-02-28",
         "company": "HP",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.1,
+        "num_laid_off": 2000,
+        "percentage_laid_off": null,
         "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
@@ -398,9 +398,9 @@
     ]
   },
   "insights": [
-    "2025-W09 includes 13 public layoff events and 6,385 reported layoffs.",
-    "The largest company contributor is HP with 4,000 reported layoffs.",
-    "The leading named industry is Hardware with 4,000 reported layoffs.",
+    "2025-W09 includes 13 public layoff events and 4,385 reported layoffs.",
+    "The largest company contributor is HP with 2,000 reported layoffs.",
+    "The leading named industry is Hardware with 2,000 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

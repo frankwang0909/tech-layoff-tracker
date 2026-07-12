@@ -1,27 +1,27 @@
 {
   "report_type": "daily",
-  "period": "2025-07-07",
+  "period": "2026-07-11",
   "status": "final",
   "date_range": {
-    "start": "2025-07-07",
-    "end": "2025-07-07"
+    "start": "2026-07-11",
+    "end": "2026-07-11"
   },
   "updated_at": "2026-07-11",
-  "canonical_url": "/reports/daily/2025-07-07.html",
+  "canonical_url": "/reports/daily/2026-07-11.html",
   "kpis": {
-    "total_laid_off": 70,
+    "total_laid_off": 100,
     "event_count": 1,
     "headcount_event_count": 1,
     "company_count": 1,
     "country_count": 1,
     "industry_count": 1,
-    "average_layoffs_per_headcount_event": 70.0,
-    "median_layoffs_per_headcount_event": 70.0,
+    "average_layoffs_per_headcount_event": 100.0,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-07-06",
+      "period": "2026-07-10",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -31,45 +31,45 @@
       "note": "No comparison data is available for this period."
     },
     "same_period_last_year": {
-      "period": "2024-07-07",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2025-07-11",
+      "total_laid_off": 5000,
+      "event_count": 2,
+      "total_laid_off_delta": -4900,
+      "total_laid_off_pct_change": -0.98,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.5,
+      "note": null
     }
   },
   "charts": {
     "company_top": [
       {
-        "company": "Nayax",
-        "total_laid_off": 70
+        "company": "GoKwik",
+        "total_laid_off": 100
       }
     ],
     "industry_top": [
       {
         "industry": "Finance",
-        "total_laid_off": 70
+        "total_laid_off": 100
       }
     ],
     "country_top": [
       {
-        "country": "Israel",
-        "total_laid_off": 70
+        "country": "India",
+        "total_laid_off": 100
       }
     ],
     "stage_top": [
       {
-        "stage": "Post-IPO",
-        "total_laid_off": 70
+        "stage": "Unknown",
+        "total_laid_off": 100
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 0
       },
       {
         "bucket": "10-24%",
@@ -92,34 +92,34 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2025-07-07",
-        "company": "Nayax",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.06,
+        "date": "2026-07-11",
+        "company": "GoKwik",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
         "industry": "Finance",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/bjzblekrel"
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
       }
     ],
     "recent_events": [
       {
-        "date": "2025-07-07",
-        "company": "Nayax",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.06,
+        "date": "2026-07-11",
+        "company": "GoKwik",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
         "industry": "Finance",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/bjzblekrel"
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-07-07 includes 1 public layoff events and 70 reported layoffs.",
-    "The largest company contributor is Nayax with 70 reported layoffs.",
-    "The leading named industry is Finance with 70 reported layoffs."
+    "2026-07-11 includes 1 public layoff events and 100 reported layoffs.",
+    "The largest company contributor is GoKwik with 100 reported layoffs.",
+    "The leading named industry is Finance with 100 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

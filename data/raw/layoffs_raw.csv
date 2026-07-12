@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+GoKwik,"New Delhi, Non-U.S.",100.0,2026-07-11,,Finance,https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/,Unknown,68.0,India,2026-07-12T01:08:26.000Z
 MyHeritage,"Tel Aviv, Non-U.S.",500.0,2026-07-08,0.15,Consumer,https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761,Acquired,49.0,Israel,2026-07-09T17:00:20.000Z
 OpenText,"Waterloo, Non-U.S.",400.0,2026-07-08,0.02,Data,https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/,Post-IPO,1100.0,Canada,2026-07-10T15:33:00.000Z
 Mews,"Amsterdam, Non-U.S.",200.0,2026-07-07,0.15,Travel,https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/,Series D,817.0,Netherlands,2026-07-08T15:01:22.000Z
@@ -9,6 +10,7 @@ Microsoft,Seattle,4800.0,2026-07-06,0.02,Other,https://www.cnbc.com/2026/07/06/m
 Amazon,Seattle,57.0,2026-07-06,,Retail,https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/,Post-IPO,8100.0,United States,2026-07-09T16:58:28.000Z
 Yield Guild Games,New York City,35.0,2026-07-06,,Crypto,https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai,Unknown,36.0,United States,2026-07-08T16:09:58.000Z
 Coursera,SF Bay Area,,2026-07-06,,Education,https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/,Acquired,458.0,United States,2026-07-08T14:58:15.000Z
+Hotmart,"Belo Horizonte, Non-U.S.",,2026-07-06,0.1,Marketing,https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml,Series C,127.0,Brazil,2026-07-11T21:13:29.000Z
 CorroHealth,"Kochi, Non-U.S.",800.0,2026-07-03,,Healthcare,https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html,Private Equity,376.0,India,2026-07-06T17:04:17.000Z
 TikTok,"Dublin, Non-U.S.",300.0,2026-07-01,,Consumer,https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/,Acquired,,Ireland,2026-07-05T03:05:13.000Z
 Tokopedia,"Jakarta, Non-U.S.",,2026-07-01,0.9,Retail,https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia,Acquired,2800.0,Indonesia,2026-07-03T15:53:00.000Z
@@ -294,6 +296,7 @@ Robin AI,"London, Non-U.S.",,2025-10-24,0.33,Legal,https://sifted.eu/articles/ro
 Applied Material,SF Bay Area,1400.0,2025-10-23,0.04,Manufacturing,https://www.bloomberg.com/news/articles/2025-10-23/applied-materials-to-cut-4-of-global-staff-after-sales-slow,Post-IPO,2100.0,United States,2025-10-25T01:14:23.000Z
 Rivian,Los Angeles,600.0,2025-10-23,0.04,Transportation,https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/,Post-IPO,10700.0,United States,2025-10-25T01:12:17.000Z
 Kaseya,Miami,200.0,2025-10-23,,Security,https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh,Private Equity,547.0,United States,2026-01-13T01:36:45.000Z
+AirSlate,Boston,170.0,2025-10-23,,Other,https://www.bizjournals.com/boston/news/2025/10/23/airslate-layoffs-2025.html,Series B,181.0,United States,2026-07-11T21:11:47.000Z
 Altruist,SF Bay Area,50.0,2025-10-23,0.15,Finance,https://www.investmentnews.com/ria-news/altruist-lays-off-50-employees-but-ceo-says-profitability-is-in-sight/262681,Series E,449.0,United States,2025-10-25T01:11:50.000Z
 Meta,SF Bay Area,600.0,2025-10-22,,Consumer,https://www.cnbc.com/2025/10/22/meta-layoffs-ai.html,Post-IPO,26000.0,United States,2025-10-22T15:37:39.000Z
 Ludeo,Los Angeles,25.0,2025-10-20,0.5,Consumer,https://www.calcalistech.com/ctechnews/article/bjukuox0xe,Series A,42.0,United States,2025-10-25T01:13:13.000Z
@@ -487,7 +490,7 @@ LiveRamp,SF Bay Area,65.0,2025-03-05,0.05,Marketing,https://www.benzinga.com/new
 Ola Electric,"Bengaluru, Non-U.S.",1000.0,2025-03-03,,Transportation,https://inc42.com/buzz/ola-electric-to-cut-over-1k-jobs-amid-rising-losses-report/,Post-IPO,1700.0,India,2025-03-05T00:00:14.000Z
 Rec Room,Seattle,,2025-03-03,0.16,Consumer,https://blog.recroom.com/posts/2025/3/3/rec-room-update-march-2025,Series F,294.0,United States,2025-03-05T00:02:53.000Z
 ANS Commerce,"Gurugram, Non-U.S.",,2025-03-02,1.0,Retail,https://www.etnownews.com/technology/flipkart-shuts-down-ans-commerce-after-3-years-lays-off-employees-amid-e-commerce-restructuring-details-article-118657546,Acquired,2.0,India,2025-03-03T00:43:48.000Z
-HP,SF Bay Area,4000.0,2025-02-28,0.1,Hardware,https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php,Post-IPO,,United States,2025-11-27T14:39:32.000Z
+HP,SF Bay Area,2000.0,2025-02-28,,Hardware,https://www.sfchronicle.com/tech/article/hp-job-cuts-tariff-concerns-20193141.php,Post-IPO,,United States,2025-11-27T14:39:32.000Z
 Grubhub,SF Bay Area,500.0,2025-02-28,0.23,Food,https://www.reuters.com/technology/food-delivery-company-grubhub-lay-off-500-positions-2025-02-28/,Acquired,284.0,United States,2025-03-01T00:05:23.000Z
 Autodesk,SF Bay Area,1350.0,2025-02-27,0.09,Other,https://www.cnbc.com/2025/02/27/autodesk-says-it-will-cut-1350-employees.html,Post-IPO,,United States,2025-02-28T01:59:29.000Z
 Digimarc,Portland,90.0,2025-02-27,0.4,Other,https://www.oregonlive.com/silicon-forest/2025/02/digimarc-shares-plunge-as-oregon-company-lays-off-40-of-its-staff.html,Post-IPO,105.0,United States,2025-03-05T00:07:43.000Z

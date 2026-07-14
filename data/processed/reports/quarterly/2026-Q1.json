@@ -6,17 +6,17 @@
     "start": "2026-01-05",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
-    "total_laid_off": 53115,
-    "event_count": 92,
-    "headcount_event_count": 63,
-    "company_count": 89,
+    "total_laid_off": 53135,
+    "event_count": 93,
+    "headcount_event_count": 64,
+    "company_count": 90,
     "country_count": 16,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 843.1,
-    "median_layoffs_per_headcount_event": 200.0,
+    "average_layoffs_per_headcount_event": 830.23,
+    "median_layoffs_per_headcount_event": 193.5,
     "high_intensity_event_count": 20
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025-Q4",
       "total_laid_off": 29724,
       "event_count": 71,
-      "total_laid_off_delta": 23391,
-      "total_laid_off_pct_change": 0.7869,
-      "event_count_delta": 21,
-      "event_count_pct_change": 0.2958,
+      "total_laid_off_delta": 23411,
+      "total_laid_off_pct_change": 0.7876,
+      "event_count_delta": 22,
+      "event_count_pct_change": 0.3099,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q1",
       "total_laid_off": 27925,
       "event_count": 105,
-      "total_laid_off_delta": 25190,
-      "total_laid_off_pct_change": 0.9021,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.1238,
+      "total_laid_off_delta": 25210,
+      "total_laid_off_pct_change": 0.9028,
+      "event_count_delta": -12,
+      "event_count_pct_change": -0.1143,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 39577
+        "total_laid_off": 39597
       },
       {
         "country": "Australia",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 2156
+        "total_laid_off": 2176
       },
       {
         "stage": "Series F",
@@ -286,16 +286,6 @@
         "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
       },
       {
-        "date": "2026-03-11",
-        "company": "Atlassian",
-        "num_laid_off": 1600,
-        "percentage_laid_off": 0.1,
-        "industry": "Other",
-        "country": "Australia",
-        "stage": "Post-IPO",
-        "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
-      },
-      {
         "date": "2026-01-15",
         "company": "Ericsson",
         "num_laid_off": 1600,
@@ -304,6 +294,16 @@
         "country": "Sweden",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
+      },
+      {
+        "date": "2026-03-11",
+        "company": "Atlassian",
+        "num_laid_off": 1600,
+        "percentage_laid_off": 0.1,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Post-IPO",
+        "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
       },
       {
         "date": "2026-01-13",
@@ -316,16 +316,6 @@
         "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
       },
       {
-        "date": "2026-02-20",
-        "company": "Livspace",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.12,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Series F",
-        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
-      },
-      {
         "date": "2026-02-26",
         "company": "Ocado",
         "num_laid_off": 1000,
@@ -334,6 +324,16 @@
         "country": "United Kingdom",
         "stage": "Post-IPO",
         "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+      },
+      {
+        "date": "2026-02-20",
+        "company": "Livspace",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.12,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Series F",
+        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
       }
     ],
     "recent_events": [
@@ -346,16 +346,6 @@
         "country": "United Kingdom",
         "stage": "Series F",
         "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Yupp",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       },
       {
         "date": "2026-03-31",
@@ -376,6 +366,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Yupp",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       },
       {
         "date": "2026-03-27",
@@ -469,16 +469,6 @@
       },
       {
         "date": "2026-03-19",
-        "company": "Crypto.com",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.12,
-        "industry": "Crypto",
-        "country": "Singapore",
-        "stage": "Unknown",
-        "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-      },
-      {
-        "date": "2026-03-19",
         "company": "Snowflake",
         "num_laid_off": 70,
         "percentage_laid_off": null,
@@ -486,6 +476,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+      },
+      {
+        "date": "2026-03-19",
+        "company": "Crypto.com",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.12,
+        "industry": "Crypto",
+        "country": "Singapore",
+        "stage": "Unknown",
+        "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
       },
       {
         "date": "2026-03-18",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 92 public layoff events and 53,115 reported layoffs.",
+    "2026-Q1 includes 93 public layoff events and 53,135 reported layoffs.",
     "The largest company contributor is Amazon with 16,100 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "20 events report a layoff percentage of 25% or higher."

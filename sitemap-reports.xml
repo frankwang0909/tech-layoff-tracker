@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/reports/yearly/2026.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -122,7 +122,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/reports/monthly/2026-07.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -164,15 +164,9 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/reports/quarterly/2026-Q3.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tech.debugcanada.com/reports/weekly/2026-W17.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/reports/weekly/2026-W18.html</loc>
@@ -236,7 +230,13 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/reports/weekly/2026-W28.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tech.debugcanada.com/reports/weekly/2026-W29.html</loc>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

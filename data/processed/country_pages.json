@@ -10,10 +10,10 @@
       "end": "2026-07-06"
     },
     "kpis": {
-      "total_laid_off": 200833,
-      "event_count": 333,
-      "headcount_event_count": 220,
-      "company_count": 254,
+      "total_laid_off": 200853,
+      "event_count": 334,
+      "headcount_event_count": 221,
+      "company_count": 255,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -78,7 +78,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 13547
+          "total_laid_off": 13567
         },
         {
           "month": "2026-04",
@@ -294,7 +294,7 @@
         }
       ]
     },
-    "summary": "United States has 200,833 reported tech layoffs across 333 public events from 2025-01-02 to 2026-07-06."
+    "summary": "United States has 200,853 reported tech layoffs across 334 public events from 2025-01-02 to 2026-07-06."
   },
   {
     "type": "country",
@@ -593,13 +593,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-07-08"
+      "end": "2026-07-13"
     },
     "kpis": {
-      "total_laid_off": 7233,
-      "event_count": 62,
-      "headcount_event_count": 44,
-      "company_count": 53,
+      "total_laid_off": 7303,
+      "event_count": 64,
+      "headcount_event_count": 45,
+      "company_count": 55,
       "country_count": 1,
       "industry_count": 21,
       "high_intensity_event_count": 19
@@ -668,7 +668,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 560
+          "total_laid_off": 630
         }
       ],
       "company_top": [
@@ -716,6 +716,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-13",
+          "company": "Redis",
+          "num_laid_off": 70,
+          "percentage_laid_off": 0.05,
+          "industry": "Data",
+          "country": "Israel",
+          "stage": "Series G",
+          "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+        },
+        {
+          "date": "2026-07-12",
+          "company": "Alarum",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+        },
         {
           "date": "2026-07-08",
           "company": "MyHeritage",
@@ -845,30 +865,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
-        },
-        {
-          "date": "2026-05-25",
-          "company": "Wix",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
-        },
-        {
-          "date": "2026-05-18",
-          "company": "AI21 Labs",
-          "num_laid_off": 110,
-          "percentage_laid_off": 0.61,
-          "industry": "AI",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
         }
       ]
     },
-    "summary": "Israel has 7,233 reported tech layoffs across 62 public events from 2025-01-06 to 2026-07-08."
+    "summary": "Israel has 7,303 reported tech layoffs across 64 public events from 2025-01-06 to 2026-07-13."
   },
   {
     "type": "country",
@@ -2262,16 +2262,16 @@
     "canonical_url": "/countries/nigeria.html",
     "date_range": {
       "start": "2025-02-13",
-      "end": "2026-05-13"
+      "end": "2026-07-13"
     },
     "kpis": {
       "total_laid_off": 520,
-      "event_count": 6,
+      "event_count": 7,
       "headcount_event_count": 4,
-      "company_count": 6,
+      "company_count": 7,
       "country_count": 1,
       "industry_count": 4,
-      "high_intensity_event_count": 3
+      "high_intensity_event_count": 4
     },
     "charts": {
       "monthly_trend": [
@@ -2309,6 +2309,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-13",
+          "company": "Gigbanc",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Seed",
+          "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+        },
         {
           "date": "2026-05-13",
           "company": "Jumia",
@@ -2371,7 +2381,7 @@
         }
       ]
     },
-    "summary": "Nigeria has 520 reported tech layoffs across 6 public events from 2025-02-13 to 2026-05-13."
+    "summary": "Nigeria has 520 reported tech layoffs across 7 public events from 2025-02-13 to 2026-07-13."
   },
   {
     "type": "country",
@@ -2522,6 +2532,83 @@
       ]
     },
     "summary": "Norway has 400 reported tech layoffs across 3 public events from 2026-04-20 to 2026-05-14."
+  },
+  {
+    "type": "country",
+    "name": "Estonia",
+    "slug": "estonia",
+    "title": "Tech Layoffs by Country: Estonia",
+    "canonical_url": "/countries/estonia.html",
+    "date_range": {
+      "start": "2025-04-24",
+      "end": "2026-04-21"
+    },
+    "kpis": {
+      "total_laid_off": 355,
+      "event_count": 3,
+      "headcount_event_count": 2,
+      "company_count": 3,
+      "country_count": 1,
+      "industry_count": 3,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-04",
+          "total_laid_off": 75
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 280
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Yolo Group",
+          "total_laid_off": 280
+        },
+        {
+          "company": "Katana",
+          "total_laid_off": 75
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-04-21",
+          "company": "Zondacrypto",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Estonia",
+          "stage": "Unknown",
+          "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
+        },
+        {
+          "date": "2025-09-23",
+          "company": "Yolo Group",
+          "num_laid_off": 280,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Estonia",
+          "stage": "Unknown",
+          "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
+        },
+        {
+          "date": "2025-04-24",
+          "company": "Katana",
+          "num_laid_off": 75,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "Estonia",
+          "stage": "Series B",
+          "source": "https://majandus.postimees.ee/8236396/koondamised-ei-rauge-tootukassa-sai-seitse-koondamisteadet"
+        }
+      ]
+    },
+    "summary": "Estonia has 355 reported tech layoffs across 3 public events from 2025-04-24 to 2026-04-21."
   },
   {
     "type": "country",

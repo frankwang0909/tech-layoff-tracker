@@ -6,14 +6,14 @@
     "start": "2026-04-01",
     "end": "2026-06-30"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 60479,
-    "event_count": 134,
+    "event_count": 135,
     "headcount_event_count": 87,
-    "company_count": 132,
-    "country_count": 20,
+    "company_count": 133,
+    "country_count": 21,
     "industry_count": 26,
     "average_layoffs_per_headcount_event": 695.16,
     "median_layoffs_per_headcount_event": 117.0,
@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
-      "total_laid_off": 53115,
-      "event_count": 92,
-      "total_laid_off_delta": 7364,
-      "total_laid_off_pct_change": 0.1386,
+      "total_laid_off": 53135,
+      "event_count": 93,
+      "total_laid_off_delta": 7344,
+      "total_laid_off_pct_change": 0.1382,
       "event_count_delta": 42,
-      "event_count_pct_change": 0.4565,
+      "event_count_pct_change": 0.4516,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 71,
       "total_laid_off_delta": 23076,
       "total_laid_off_pct_change": 0.617,
-      "event_count_delta": 63,
-      "event_count_pct_change": 0.8873,
+      "event_count_delta": 64,
+      "event_count_pct_change": 0.9014,
       "note": null
     }
   },
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 134 public layoff events and 60,479 reported layoffs.",
+    "2026-Q2 includes 135 public layoff events and 60,479 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Consumer with 10,209 reported layoffs.",
     "22 events report a layoff percentage of 25% or higher."

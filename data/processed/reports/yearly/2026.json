@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-11"
+    "end": "2026-07-13"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 120846,
-    "event_count": 241,
-    "headcount_event_count": 160,
-    "company_count": 228,
-    "country_count": 26,
+    "total_laid_off": 120936,
+    "event_count": 246,
+    "headcount_event_count": 162,
+    "company_count": 233,
+    "country_count": 27,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 755.29,
+    "average_layoffs_per_headcount_event": 746.52,
     "median_layoffs_per_headcount_event": 150.0,
-    "high_intensity_event_count": 45
+    "high_intensity_event_count": 46
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": -1760,
-      "total_laid_off_pct_change": -0.0144,
-      "event_count_delta": -92,
-      "event_count_pct_change": -0.2763,
+      "total_laid_off_delta": -1670,
+      "total_laid_off_pct_change": -0.0136,
+      "event_count_delta": -87,
+      "event_count_pct_change": -0.2613,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": -1760,
-      "total_laid_off_pct_change": -0.0144,
-      "event_count_delta": -92,
-      "event_count_pct_change": -0.2763,
+      "total_laid_off_delta": -1670,
+      "total_laid_off_pct_change": -0.0136,
+      "event_count_delta": -87,
+      "event_count_pct_change": -0.2613,
       "note": null
     }
   },
@@ -68,11 +68,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -129,11 +129,11 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 98397
+        "total_laid_off": 98417
       },
       {
         "country": "Israel",
-        "total_laid_off": 4186
+        "total_laid_off": 4256
       },
       {
         "country": "Australia",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5282
+        "total_laid_off": 5302
       },
       {
         "stage": "Acquired",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 25
+        "event_count": 26
       },
       {
         "bucket": "10-24%",
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-13",
+        "company": "Redis",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.05,
+        "industry": "Data",
+        "country": "Israel",
+        "stage": "Series G",
+        "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+      },
+      {
+        "date": "2026-07-13",
+        "company": "Gigbanc",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Seed",
+        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+      },
+      {
+        "date": "2026-07-12",
+        "company": "Alarum",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+      },
+      {
         "date": "2026-07-11",
         "company": "GoKwik",
         "num_laid_off": 100,
@@ -346,16 +376,6 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
-      },
-      {
-        "date": "2026-07-08",
-        "company": "OpenText",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.02,
-        "industry": "Data",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
         "date": "2026-07-08",
@@ -368,6 +388,16 @@
         "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       },
       {
+        "date": "2026-07-08",
+        "company": "OpenText",
+        "num_laid_off": 400,
+        "percentage_laid_off": 0.02,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+      },
+      {
         "date": "2026-07-07",
         "company": "Mews",
         "num_laid_off": 200,
@@ -376,16 +406,6 @@
         "country": "Netherlands",
         "stage": "Series D",
         "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
-      },
-      {
-        "date": "2026-07-07",
-        "company": "PokerStars",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United Kingdom",
-        "stage": "Acquired",
-        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
       },
       {
         "date": "2026-07-07",
@@ -406,6 +426,26 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "PokerStars",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Microsoft",
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
       },
       {
         "date": "2026-07-06",
@@ -448,16 +488,6 @@
         "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
       },
       {
-        "date": "2026-07-06",
-        "company": "Microsoft",
-        "num_laid_off": 4800,
-        "percentage_laid_off": 0.02,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-      },
-      {
         "date": "2026-07-03",
         "company": "CorroHealth",
         "num_laid_off": 800,
@@ -469,16 +499,6 @@
       },
       {
         "date": "2026-07-01",
-        "company": "TikTok",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Ireland",
-        "stage": "Acquired",
-        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
-      },
-      {
-        "date": "2026-07-01",
         "company": "Tokopedia",
         "num_laid_off": null,
         "percentage_laid_off": 0.9,
@@ -486,6 +506,16 @@
         "country": "Indonesia",
         "stage": "Acquired",
         "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+      },
+      {
+        "date": "2026-07-01",
+        "company": "TikTok",
+        "num_laid_off": 300,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "Ireland",
+        "stage": "Acquired",
+        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
       },
       {
         "date": "2026-06-30",
@@ -506,39 +536,19 @@
         "country": "Israel",
         "stage": "Series B",
         "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
-      },
-      {
-        "date": "2026-06-29",
-        "company": "Equip Health",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.04,
-        "industry": "Healthcare",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "CompanyCam",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Recruiting",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "JiviAI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-07-13",
+        "company": "Gigbanc",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Seed",
+        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+      },
       {
         "date": "2026-07-07",
         "company": "Billion Hearts",
@@ -628,24 +638,14 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Yupp",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "AI",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
       }
     ]
   },
   "insights": [
-    "2026 includes 241 public layoff events and 120,846 reported layoffs.",
+    "2026 includes 246 public layoff events and 120,936 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,468 reported layoffs.",
-    "45 events report a layoff percentage of 25% or higher."
+    "46 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

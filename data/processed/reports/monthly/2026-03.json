@@ -6,17 +6,17 @@
     "start": "2026-03-02",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
-    "total_laid_off": 16663,
-    "event_count": 32,
-    "headcount_event_count": 20,
-    "company_count": 32,
+    "total_laid_off": 16683,
+    "event_count": 33,
+    "headcount_event_count": 21,
+    "company_count": 33,
     "country_count": 9,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 833.15,
-    "median_layoffs_per_headcount_event": 125.0,
+    "average_layoffs_per_headcount_event": 794.43,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 10
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-02",
       "total_laid_off": 11269,
       "event_count": 28,
-      "total_laid_off_delta": 5394,
-      "total_laid_off_pct_change": 0.4787,
-      "event_count_delta": 4,
-      "event_count_pct_change": 0.1429,
+      "total_laid_off_delta": 5414,
+      "total_laid_off_pct_change": 0.4804,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.1786,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 7749,
-      "total_laid_off_pct_change": 0.8693,
-      "event_count_delta": 10,
-      "event_count_pct_change": 0.4545,
+      "total_laid_off_delta": 7769,
+      "total_laid_off_pct_change": 0.8716,
+      "event_count_delta": 11,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 13547
+        "total_laid_off": 13567
       },
       {
         "country": "Australia",
@@ -167,7 +167,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1578
+        "total_laid_off": 1598
       },
       {
         "stage": "Acquired",
@@ -622,7 +622,7 @@
     ]
   },
   "insights": [
-    "2026-03 includes 32 public layoff events and 16,663 reported layoffs.",
+    "2026-03 includes 33 public layoff events and 16,683 reported layoffs.",
     "The largest company contributor is Dell with 11,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
     "10 events report a layoff percentage of 25% or higher."

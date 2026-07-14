@@ -6,17 +6,17 @@
     "start": "2026-03-10",
     "end": "2026-03-13"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/weekly/2026-W11.html",
   "kpis": {
-    "total_laid_off": 2186,
-    "event_count": 5,
-    "headcount_event_count": 4,
-    "company_count": 5,
+    "total_laid_off": 2206,
+    "event_count": 6,
+    "headcount_event_count": 5,
+    "company_count": 6,
     "country_count": 4,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 546.5,
-    "median_layoffs_per_headcount_event": 275.0,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 441.2,
+    "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W10",
       "total_laid_off": 1442,
       "event_count": 9,
-      "total_laid_off_delta": 744,
-      "total_laid_off_pct_change": 0.516,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.4444,
+      "total_laid_off_delta": 764,
+      "total_laid_off_pct_change": 0.5298,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W11",
       "total_laid_off": 44,
       "event_count": 3,
-      "total_laid_off_delta": 2142,
-      "total_laid_off_pct_change": 48.6818,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.6667,
+      "total_laid_off_delta": 2162,
+      "total_laid_off_pct_change": 49.1364,
+      "event_count_delta": 3,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -58,6 +58,10 @@
       {
         "company": "Loopio",
         "total_laid_off": 36
+      },
+      {
+        "company": "OP Labs",
+        "total_laid_off": 20
       }
     ],
     "industry_top": [
@@ -72,6 +76,10 @@
       {
         "industry": "Sales",
         "total_laid_off": 36
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 20
       }
     ],
     "country_top": [
@@ -85,7 +93,7 @@
       },
       {
         "country": "United States",
-        "total_laid_off": 150
+        "total_laid_off": 170
       },
       {
         "country": "Canada",
@@ -100,6 +108,10 @@
       {
         "stage": "Private Equity",
         "total_laid_off": 186
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 20
       }
     ],
     "layoff_pct_distribution": [
@@ -166,6 +178,16 @@
         "country": "Canada",
         "stage": "Private Equity",
         "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+      },
+      {
+        "date": "2026-03-12",
+        "company": "OP Labs",
+        "num_laid_off": 20,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.cryptotimes.io/2026/03/12/op-labs-lays-off-employees/"
       }
     ],
     "recent_events": [
@@ -200,6 +222,16 @@
         "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
       },
       {
+        "date": "2026-03-12",
+        "company": "OP Labs",
+        "num_laid_off": 20,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.cryptotimes.io/2026/03/12/op-labs-lays-off-employees/"
+      },
+      {
         "date": "2026-03-11",
         "company": "Atlassian",
         "num_laid_off": 1600,
@@ -223,7 +255,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W11 includes 5 public layoff events and 2,186 reported layoffs.",
+    "2026-W11 includes 6 public layoff events and 2,206 reported layoffs.",
     "The largest company contributor is Atlassian with 1,600 reported layoffs.",
     "The leading named industry is Finance with 550 reported layoffs."
   ],

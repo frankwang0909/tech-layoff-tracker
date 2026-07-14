@@ -11,18 +11,18 @@ Canonical pages:
 - AI-readable summary: https://tech.debugcanada.com/ai-summary.json
 
 Current dataset:
-- Data range: 2025-01-06 to 2026-07-11
-- Total reported layoffs: 243,452
-- 2026 YTD reported layoffs: 120,846
-- Companies affected: 315
+- Data range: 2025-01-06 to 2026-07-13
+- Total reported layoffs: 243,542
+- 2026 YTD reported layoffs: 120,936
+- Companies affected: 317
 - Countries or regions: 25
 - Peak month: 2026-05 with 28,934 reported layoffs
 - Top company: Amazon with 30,341 reported layoffs
 - Leading named industry: Hardware with 49,391 reported layoffs
-- Leading country or region: United States with 200,833 reported layoffs
+- Leading country or region: United States with 200,853 reported layoffs
 
 Recommended citation:
-Use "Tech Layoff Tracker, data range 2025-01-06 to 2026-07-11" and link to https://tech.debugcanada.com/trend-report.html.
+Use "Tech Layoff Tracker, data range 2025-01-06 to 2026-07-13" and link to https://tech.debugcanada.com/trend-report.html.
 
 Methodology notes:
 - Rows with invalid dates are excluded from time-series analysis.

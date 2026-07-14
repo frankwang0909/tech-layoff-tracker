@@ -6,7 +6,7 @@
     "start": "2026-05-04",
     "end": "2026-05-30"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/monthly/2026-05.html",
   "kpis": {
     "total_laid_off": 28934,
@@ -23,11 +23,11 @@
     "previous_period": {
       "period": "2026-04",
       "total_laid_off": 5085,
-      "event_count": 35,
+      "event_count": 36,
       "total_laid_off_delta": 23849,
       "total_laid_off_pct_change": 4.6901,
-      "event_count_delta": 14,
-      "event_count_pct_change": 0.4,
+      "event_count_delta": 13,
+      "event_count_pct_change": 0.3611,
       "note": null
     },
     "same_period_last_year": {

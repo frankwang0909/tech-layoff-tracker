@@ -846,16 +846,16 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-11"
+      "end": "2026-07-13"
     },
     "kpis": {
       "total_laid_off": 18662,
-      "event_count": 58,
+      "event_count": 59,
       "headcount_event_count": 37,
-      "company_count": 51,
+      "company_count": 52,
       "country_count": 9,
       "industry_count": 1,
-      "high_intensity_event_count": 16
+      "high_intensity_event_count": 17
     },
     "charts": {
       "monthly_trend": [
@@ -973,6 +973,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-13",
+          "company": "Gigbanc",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Seed",
+          "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+        },
         {
           "date": "2026-07-11",
           "company": "GoKwik",
@@ -1112,20 +1122,10 @@
           "country": "United Kingdom",
           "stage": "Series G",
           "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
-        },
-        {
-          "date": "2026-04-12",
-          "company": "Esh Group",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
         }
       ]
     },
-    "summary": "Finance has 18,662 reported tech layoffs across 58 public events from 2025-01-02 to 2026-07-11."
+    "summary": "Finance has 18,662 reported tech layoffs across 59 public events from 2025-01-02 to 2026-07-13."
   },
   {
     "type": "industry",
@@ -1910,13 +1910,13 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-06-30"
+      "end": "2026-07-12"
     },
     "kpis": {
       "total_laid_off": 4307,
-      "event_count": 31,
+      "event_count": 32,
       "headcount_event_count": 24,
-      "company_count": 27,
+      "company_count": 28,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -2025,6 +2025,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-12",
+          "company": "Alarum",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+        },
         {
           "date": "2026-06-30",
           "company": "PlaxidityX",
@@ -2164,20 +2174,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/hy707511ube"
-        },
-        {
-          "date": "2026-02-15",
-          "company": "Axonius",
-          "num_laid_off": 40,
-          "percentage_laid_off": 0.04,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/s1xchi1oze"
         }
       ]
     },
-    "summary": "Security has 4,307 reported tech layoffs across 31 public events from 2025-01-07 to 2026-06-30."
+    "summary": "Security has 4,307 reported tech layoffs across 32 public events from 2025-01-07 to 2026-07-12."
   },
   {
     "type": "industry",
@@ -2260,13 +2260,13 @@
     "canonical_url": "/industries/data.html",
     "date_range": {
       "start": "2025-01-29",
-      "end": "2026-07-08"
+      "end": "2026-07-13"
     },
     "kpis": {
-      "total_laid_off": 3834,
-      "event_count": 20,
-      "headcount_event_count": 14,
-      "company_count": 17,
+      "total_laid_off": 3904,
+      "event_count": 21,
+      "headcount_event_count": 15,
+      "company_count": 18,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -2319,7 +2319,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 400
+          "total_laid_off": 470
         }
       ],
       "company_top": [
@@ -2356,17 +2356,27 @@
           "total_laid_off": 70
         },
         {
-          "company": "LSports",
-          "total_laid_off": 40
+          "company": "Redis",
+          "total_laid_off": 70
         },
         {
-          "company": "Informatica",
-          "total_laid_off": 35
+          "company": "LSports",
+          "total_laid_off": 40
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-13",
+          "company": "Redis",
+          "num_laid_off": 70,
+          "percentage_laid_off": 0.05,
+          "industry": "Data",
+          "country": "Israel",
+          "stage": "Series G",
+          "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+        },
         {
           "date": "2026-07-08",
           "company": "OpenText",
@@ -2506,20 +2516,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
-        },
-        {
-          "date": "2025-04-30",
-          "company": "NetApp",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.06,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blocksandfiles.com/2025/04/30/netapp-making-layoffs/"
         }
       ]
     },
-    "summary": "Data has 3,834 reported tech layoffs across 20 public events from 2025-01-29 to 2026-07-08."
+    "summary": "Data has 3,904 reported tech layoffs across 21 public events from 2025-01-29 to 2026-07-13."
   },
   {
     "type": "industry",
@@ -4246,11 +4246,11 @@
       "end": "2026-07-06"
     },
     "kpis": {
-      "total_laid_off": 1402,
-      "event_count": 19,
-      "headcount_event_count": 10,
-      "company_count": 18,
-      "country_count": 8,
+      "total_laid_off": 1422,
+      "event_count": 21,
+      "headcount_event_count": 11,
+      "company_count": 20,
+      "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 6
     },
@@ -4267,6 +4267,10 @@
         {
           "month": "2026-01",
           "total_laid_off": 60
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 20
         },
         {
           "month": "2026-04",
@@ -4411,6 +4415,16 @@
           "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
         },
         {
+          "date": "2026-04-21",
+          "company": "Zondacrypto",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Estonia",
+          "stage": "Unknown",
+          "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
+        },
+        {
           "date": "2026-04-15",
           "company": "Swyftx",
           "num_laid_off": 37,
@@ -4469,20 +4483,10 @@
           "country": "Singapore",
           "stage": "Unknown",
           "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
-        },
-        {
-          "date": "2026-01-25",
-          "company": "Entropy",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Seed",
-          "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
         }
       ]
     },
-    "summary": "Crypto has 1,402 reported tech layoffs across 19 public events from 2025-02-05 to 2026-07-06."
+    "summary": "Crypto has 1,422 reported tech layoffs across 21 public events from 2025-02-05 to 2026-07-06."
   },
   {
     "type": "industry",

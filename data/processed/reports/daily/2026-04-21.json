@@ -6,15 +6,15 @@
     "start": "2026-04-21",
     "end": "2026-04-21"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/daily/2026-04-21.html",
   "kpis": {
     "total_laid_off": 218,
-    "event_count": 2,
+    "event_count": 3,
     "headcount_event_count": 2,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
     "average_layoffs_per_headcount_event": 109.0,
     "median_layoffs_per_headcount_event": 109.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 2,
       "total_laid_off_delta": -42,
       "total_laid_off_pct_change": -0.1615,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -144,6 +144,16 @@
         "country": "United States",
         "stage": "Private Equity",
         "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
+      },
+      {
+        "date": "2026-04-21",
+        "company": "Zondacrypto",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
       }
     ],
     "high_intensity_events": [
@@ -160,7 +170,7 @@
     ]
   },
   "insights": [
-    "2026-04-21 includes 2 public layoff events and 218 reported layoffs.",
+    "2026-04-21 includes 3 public layoff events and 218 reported layoffs.",
     "The largest company contributor is Epidemic Sound with 150 reported layoffs.",
     "The leading named industry is Media with 150 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

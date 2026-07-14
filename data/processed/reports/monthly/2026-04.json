@@ -6,14 +6,14 @@
     "start": "2026-04-01",
     "end": "2026-04-27"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/monthly/2026-04.html",
   "kpis": {
     "total_laid_off": 5085,
-    "event_count": 35,
+    "event_count": 36,
     "headcount_event_count": 22,
-    "company_count": 35,
-    "country_count": 9,
+    "company_count": 36,
+    "country_count": 10,
     "industry_count": 15,
     "average_layoffs_per_headcount_event": 231.14,
     "median_layoffs_per_headcount_event": 95.0,
@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-03",
-      "total_laid_off": 16663,
-      "event_count": 32,
-      "total_laid_off_delta": -11578,
-      "total_laid_off_pct_change": -0.6948,
+      "total_laid_off": 16683,
+      "event_count": 33,
+      "total_laid_off_delta": -11598,
+      "total_laid_off_pct_change": -0.6952,
       "event_count_delta": 3,
-      "event_count_pct_change": 0.0938,
+      "event_count_pct_change": 0.0909,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 28,
       "total_laid_off_delta": -20135,
       "total_laid_off_pct_change": -0.7984,
-      "event_count_delta": 7,
-      "event_count_pct_change": 0.25,
+      "event_count_delta": 8,
+      "event_count_pct_change": 0.2857,
       "note": null
     }
   },
@@ -386,6 +386,16 @@
         "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
       },
       {
+        "date": "2026-04-21",
+        "company": "Zondacrypto",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
+      },
+      {
         "date": "2026-04-20",
         "company": "Qt Company",
         "num_laid_off": 200,
@@ -514,16 +524,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
-      },
-      {
-        "date": "2026-04-13",
-        "company": "StarkWare",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
       }
     ],
     "high_intensity_events": [
@@ -600,7 +600,7 @@
     ]
   },
   "insights": [
-    "2026-04 includes 35 public layoff events and 5,085 reported layoffs.",
+    "2026-04 includes 36 public layoff events and 5,085 reported layoffs.",
     "The largest company contributor is Sama with 1,108 reported layoffs.",
     "The leading named industry is Consumer with 1,422 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

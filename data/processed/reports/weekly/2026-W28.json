@@ -1,20 +1,20 @@
 {
   "report_type": "weekly",
   "period": "2026-W28",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-07-06",
-    "end": "2026-07-11"
+    "end": "2026-07-12"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/weekly/2026-W28.html",
   "kpis": {
     "total_laid_off": 6152,
-    "event_count": 12,
+    "event_count": 13,
     "headcount_event_count": 8,
-    "company_count": 12,
+    "company_count": 13,
     "country_count": 7,
-    "industry_count": 10,
+    "industry_count": 11,
     "average_layoffs_per_headcount_event": 769.0,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 2
@@ -26,8 +26,8 @@
       "event_count": 6,
       "total_laid_off_delta": 4872,
       "total_laid_off_pct_change": 3.8062,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.0,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.1667,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 7,
       "total_laid_off_delta": -307,
       "total_laid_off_pct_change": -0.0475,
-      "event_count_delta": 5,
-      "event_count_pct_change": 0.7143,
+      "event_count_delta": 6,
+      "event_count_pct_change": 0.8571,
       "note": null
     }
   },
@@ -262,6 +262,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-12",
+        "company": "Alarum",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+      },
+      {
         "date": "2026-07-11",
         "company": "GoKwik",
         "num_laid_off": 100,
@@ -406,7 +416,7 @@
     ]
   },
   "insights": [
-    "2026-W28 includes 12 public layoff events and 6,152 reported layoffs.",
+    "2026-W28 includes 13 public layoff events and 6,152 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Consumer with 500 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

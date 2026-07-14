@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-13",
+    "company": "Redis",
+    "num_laid_off": 70,
+    "percentage_laid_off": 0.05,
+    "industry": "Data",
+    "country": "Israel",
+    "stage": "Series G",
+    "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+  },
+  {
+    "date": "2026-07-13",
+    "company": "Gigbanc",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Finance",
+    "country": "Nigeria",
+    "stage": "Seed",
+    "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+  },
+  {
+    "date": "2026-07-12",
+    "company": "Alarum",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Security",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+  },
+  {
     "date": "2026-07-11",
     "company": "GoKwik",
     "num_laid_off": 100,
@@ -8,16 +38,6 @@
     "country": "India",
     "stage": "Unknown",
     "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
-  },
-  {
-    "date": "2026-07-08",
-    "company": "OpenText",
-    "num_laid_off": 400,
-    "percentage_laid_off": 0.02,
-    "industry": "Data",
-    "country": "Canada",
-    "stage": "Post-IPO",
-    "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
   },
   {
     "date": "2026-07-08",
@@ -30,6 +50,16 @@
     "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
   },
   {
+    "date": "2026-07-08",
+    "company": "OpenText",
+    "num_laid_off": 400,
+    "percentage_laid_off": 0.02,
+    "industry": "Data",
+    "country": "Canada",
+    "stage": "Post-IPO",
+    "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+  },
+  {
     "date": "2026-07-07",
     "company": "Mews",
     "num_laid_off": 200,
@@ -38,6 +68,16 @@
     "country": "Netherlands",
     "stage": "Series D",
     "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+  },
+  {
+    "date": "2026-07-07",
+    "company": "Darrow",
+    "num_laid_off": 60,
+    "percentage_laid_off": 0.33,
+    "industry": "Legal",
+    "country": "Israel",
+    "stage": "Series B",
+    "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
   },
   {
     "date": "2026-07-07",
@@ -60,44 +100,14 @@
     "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
   },
   {
-    "date": "2026-07-07",
-    "company": "Darrow",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.33,
-    "industry": "Legal",
-    "country": "Israel",
-    "stage": "Series B",
-    "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
-  },
-  {
     "date": "2026-07-06",
-    "company": "Yield Guild Games",
-    "num_laid_off": 35,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
+    "company": "Microsoft",
+    "num_laid_off": 4800,
+    "percentage_laid_off": 0.02,
+    "industry": "Other",
     "country": "United States",
-    "stage": "Unknown",
-    "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Coursera",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Education",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Hotmart",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.1,
-    "industry": "Marketing",
-    "country": "Brazil",
-    "stage": "Series C",
-    "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
   },
   {
     "date": "2026-07-06",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Microsoft",
-    "num_laid_off": 4800,
-    "percentage_laid_off": 0.02,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
   }
 ]

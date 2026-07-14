@@ -6,15 +6,15 @@
     "start": "2026-04-20",
     "end": "2026-04-24"
   },
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-13",
   "canonical_url": "/reports/weekly/2026-W17.html",
   "kpis": {
     "total_laid_off": 807,
-    "event_count": 7,
+    "event_count": 8,
     "headcount_event_count": 7,
-    "company_count": 7,
-    "country_count": 4,
-    "industry_count": 6,
+    "company_count": 8,
+    "country_count": 5,
+    "industry_count": 7,
     "average_layoffs_per_headcount_event": 115.29,
     "median_layoffs_per_headcount_event": 69.0,
     "high_intensity_event_count": 2
@@ -26,8 +26,8 @@
       "event_count": 12,
       "total_laid_off_delta": -2590,
       "total_laid_off_pct_change": -0.7624,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.4167,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": -21645,
       "total_laid_off_pct_change": -0.9641,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.4,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.6,
       "note": null
     }
   },
@@ -282,6 +282,16 @@
         "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
       },
       {
+        "date": "2026-04-21",
+        "company": "Zondacrypto",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Estonia",
+        "stage": "Unknown",
+        "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
+      },
+      {
         "date": "2026-04-20",
         "company": "Qt Company",
         "num_laid_off": 200,
@@ -326,7 +336,7 @@
     ]
   },
   "insights": [
-    "2026-W17 includes 7 public layoff events and 807 reported layoffs.",
+    "2026-W17 includes 8 public layoff events and 807 reported layoffs.",
     "The largest company contributor is Qt Company with 200 reported layoffs.",
     "The leading named industry is Hardware with 200 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

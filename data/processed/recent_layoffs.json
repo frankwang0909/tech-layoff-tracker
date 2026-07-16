@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-07-13",
-    "company": "Redis",
-    "num_laid_off": 70,
-    "percentage_laid_off": 0.05,
-    "industry": "Data",
-    "country": "Israel",
-    "stage": "Series G",
-    "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+    "date": "2026-07-15",
+    "company": "Sprout Social",
+    "num_laid_off": 260,
+    "percentage_laid_off": 0.2,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
   },
   {
     "date": "2026-07-13",
@@ -18,6 +18,16 @@
     "country": "Nigeria",
     "stage": "Seed",
     "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+  },
+  {
+    "date": "2026-07-13",
+    "company": "Redis",
+    "num_laid_off": 70,
+    "percentage_laid_off": 0.05,
+    "industry": "Data",
+    "country": "Israel",
+    "stage": "Series G",
+    "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
   },
   {
     "date": "2026-07-12",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Amazon",
-    "num_laid_off": 57,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
   }
 ]

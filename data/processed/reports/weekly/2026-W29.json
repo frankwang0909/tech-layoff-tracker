@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-13",
-    "end": "2026-07-13"
+    "end": "2026-07-15"
   },
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-07-15",
   "canonical_url": "/reports/weekly/2026-W29.html",
   "kpis": {
-    "total_laid_off": 70,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 70.0,
-    "median_layoffs_per_headcount_event": 70.0,
+    "total_laid_off": 330,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 165.0,
+    "median_layoffs_per_headcount_event": 165.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,25 +24,29 @@
       "period": "2026-W28",
       "total_laid_off": 6152,
       "event_count": 13,
-      "total_laid_off_delta": -6082,
-      "total_laid_off_pct_change": -0.9886,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.8462,
+      "total_laid_off_delta": -5822,
+      "total_laid_off_pct_change": -0.9464,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.7692,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W29",
       "total_laid_off": 701,
       "event_count": 9,
-      "total_laid_off_delta": -631,
-      "total_laid_off_pct_change": -0.9001,
-      "event_count_delta": -7,
-      "event_count_pct_change": -0.7778,
+      "total_laid_off_delta": -371,
+      "total_laid_off_pct_change": -0.5292,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.6667,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Sprout Social",
+        "total_laid_off": 260
+      },
       {
         "company": "Redis",
         "total_laid_off": 70
@@ -50,17 +54,29 @@
     ],
     "industry_top": [
       {
+        "industry": "Marketing",
+        "total_laid_off": 260
+      },
+      {
         "industry": "Data",
         "total_laid_off": 70
       }
     ],
     "country_top": [
       {
+        "country": "United States",
+        "total_laid_off": 260
+      },
+      {
         "country": "Israel",
         "total_laid_off": 70
       }
     ],
     "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 260
+      },
       {
         "stage": "Series G",
         "total_laid_off": 70
@@ -73,7 +89,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -92,6 +108,16 @@
   "tables": {
     "largest_events": [
       {
+        "date": "2026-07-15",
+        "company": "Sprout Social",
+        "num_laid_off": 260,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
+      },
+      {
         "date": "2026-07-13",
         "company": "Redis",
         "num_laid_off": 70,
@@ -103,6 +129,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-15",
+        "company": "Sprout Social",
+        "num_laid_off": 260,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
+      },
       {
         "date": "2026-07-13",
         "company": "Redis",
@@ -138,9 +174,9 @@
     ]
   },
   "insights": [
-    "2026-W29 includes 2 public layoff events and 70 reported layoffs.",
-    "The largest company contributor is Redis with 70 reported layoffs.",
-    "The leading named industry is Data with 70 reported layoffs.",
+    "2026-W29 includes 3 public layoff events and 330 reported layoffs.",
+    "The largest company contributor is Sprout Social with 260 reported layoffs.",
+    "The leading named industry is Marketing with 260 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

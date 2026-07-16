@@ -1,11 +1,11 @@
 {
-  "total_laid_off": 243542,
+  "total_laid_off": 243802,
   "total_2025": 122606,
-  "total_2026": 120936,
-  "num_companies": 317,
+  "total_2026": 121196,
+  "num_companies": 318,
   "num_countries": 25,
   "date_range": {
     "start": "2025-01-06",
-    "end": "2026-07-13"
+    "end": "2026-07-15"
   }
 }

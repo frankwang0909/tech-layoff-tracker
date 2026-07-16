@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-06"
+      "end": "2026-07-15"
     },
     "kpis": {
-      "total_laid_off": 200853,
-      "event_count": 334,
-      "headcount_event_count": 221,
-      "company_count": 255,
+      "total_laid_off": 201113,
+      "event_count": 335,
+      "headcount_event_count": 222,
+      "company_count": 256,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 4892
+          "total_laid_off": 5152
         }
       ],
       "company_top": [
@@ -143,24 +143,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-07-06",
-          "company": "Microsoft",
-          "num_laid_off": 4800,
-          "percentage_laid_off": 0.02,
-          "industry": "Other",
+          "date": "2026-07-15",
+          "company": "Sprout Social",
+          "num_laid_off": 260,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Coursera",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+          "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
         },
         {
           "date": "2026-07-06",
@@ -181,6 +171,26 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Coursera",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Microsoft",
+          "num_laid_off": 4800,
+          "percentage_laid_off": 0.02,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
         },
         {
           "date": "2026-06-29",
@@ -224,26 +234,6 @@
         },
         {
           "date": "2026-06-25",
-          "company": "Bungie",
-          "num_laid_off": 292,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
-        },
-        {
-          "date": "2026-06-25",
           "company": "Amperity",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -263,14 +253,24 @@
           "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
         },
         {
-          "date": "2026-06-24",
-          "company": "Snyk",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Security",
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
           "country": "United States",
-          "stage": "Series F",
-          "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Bungie",
+          "num_laid_off": 292,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
         },
         {
           "date": "2026-06-24",
@@ -283,18 +283,18 @@
           "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
         },
         {
-          "date": "2026-06-23",
-          "company": "Oracle",
-          "num_laid_off": 21000,
-          "percentage_laid_off": 0.13,
-          "industry": "Other",
+          "date": "2026-06-24",
+          "company": "Snyk",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Security",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"
+          "stage": "Series F",
+          "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
         }
       ]
     },
-    "summary": "United States has 200,853 reported tech layoffs across 334 public events from 2025-01-02 to 2026-07-06."
+    "summary": "United States has 201,113 reported tech layoffs across 335 public events from 2025-01-02 to 2026-07-15."
   },
   {
     "type": "country",

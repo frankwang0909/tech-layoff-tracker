@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-13"
+    "end": "2026-07-15"
   },
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-07-15",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 7322,
-    "event_count": 18,
-    "headcount_event_count": 11,
-    "company_count": 18,
+    "total_laid_off": 7582,
+    "event_count": 19,
+    "headcount_event_count": 12,
+    "company_count": 19,
     "country_count": 10,
     "industry_count": 12,
-    "average_layoffs_per_headcount_event": 665.64,
-    "median_layoffs_per_headcount_event": 200.0,
+    "average_layoffs_per_headcount_event": 631.83,
+    "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 4
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60479,
       "event_count": 135,
-      "total_laid_off_delta": -53157,
-      "total_laid_off_pct_change": -0.8789,
-      "event_count_delta": -117,
-      "event_count_pct_change": -0.8667,
+      "total_laid_off_delta": -52897,
+      "total_laid_off_pct_change": -0.8746,
+      "event_count_delta": -116,
+      "event_count_pct_change": -0.8593,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -20232,
-      "total_laid_off_pct_change": -0.7343,
-      "event_count_delta": -68,
-      "event_count_pct_change": -0.7907,
+      "total_laid_off_delta": -19972,
+      "total_laid_off_pct_change": -0.7248,
+      "event_count_delta": -67,
+      "event_count_pct_change": -0.7791,
       "note": null
     }
   },
@@ -64,6 +64,10 @@
         "total_laid_off": 300
       },
       {
+        "company": "Sprout Social",
+        "total_laid_off": 260
+      },
+      {
         "company": "Mews",
         "total_laid_off": 200
       },
@@ -78,10 +82,6 @@
       {
         "company": "Darrow",
         "total_laid_off": 60
-      },
-      {
-        "company": "Amazon",
-        "total_laid_off": 57
       }
     ],
     "industry_top": [
@@ -100,6 +100,10 @@
       {
         "industry": "Data",
         "total_laid_off": 470
+      },
+      {
+        "industry": "Marketing",
+        "total_laid_off": 260
       },
       {
         "industry": "Travel",
@@ -125,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 4892
+        "total_laid_off": 5152
       },
       {
         "country": "India",
@@ -151,7 +155,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 5257
+        "total_laid_off": 5517
       },
       {
         "stage": "Acquired",
@@ -185,7 +189,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -254,6 +258,16 @@
         "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
       },
       {
+        "date": "2026-07-15",
+        "company": "Sprout Social",
+        "num_laid_off": 260,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
+      },
+      {
         "date": "2026-07-07",
         "company": "Mews",
         "num_laid_off": 200,
@@ -292,19 +306,19 @@
         "country": "Israel",
         "stage": "Series B",
         "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
-      },
-      {
-        "date": "2026-07-06",
-        "company": "Amazon",
-        "num_laid_off": 57,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-15",
+        "company": "Sprout Social",
+        "num_laid_off": 260,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
+      },
       {
         "date": "2026-07-13",
         "company": "Redis",
@@ -367,16 +381,6 @@
       },
       {
         "date": "2026-07-07",
-        "company": "Billion Hearts",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
-      },
-      {
-        "date": "2026-07-07",
         "company": "PokerStars",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -384,6 +388,16 @@
         "country": "United Kingdom",
         "stage": "Acquired",
         "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Billion Hearts",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
       },
       {
         "date": "2026-07-07",
@@ -530,7 +544,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 18 public layoff events and 7,322 reported layoffs.",
+    "2026-Q3 includes 19 public layoff events and 7,582 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Consumer with 800 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

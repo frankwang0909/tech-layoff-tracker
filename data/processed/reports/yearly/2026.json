@@ -9,13 +9,13 @@
   "updated_at": "2026-07-15",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 121196,
+    "total_laid_off": 121326,
     "event_count": 247,
     "headcount_event_count": 163,
     "company_count": 234,
     "country_count": 27,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 743.53,
+    "average_layoffs_per_headcount_event": 744.33,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 46
   },
@@ -24,8 +24,8 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": -1410,
-      "total_laid_off_pct_change": -0.0115,
+      "total_laid_off_delta": -1280,
+      "total_laid_off_pct_change": -0.0104,
       "event_count_delta": -86,
       "event_count_pct_change": -0.2583,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": -1410,
-      "total_laid_off_pct_change": -0.0115,
+      "total_laid_off_delta": -1280,
+      "total_laid_off_pct_change": -0.0104,
       "event_count_delta": -86,
       "event_count_pct_change": -0.2583,
       "note": null
@@ -129,11 +129,11 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 98677
+        "total_laid_off": 98877
       },
       {
         "country": "Israel",
-        "total_laid_off": 4256
+        "total_laid_off": 4186
       },
       {
         "country": "Australia",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 26
+        "event_count": 25
       },
       {
         "bucket": "10-24%",
@@ -360,12 +360,12 @@
       {
         "date": "2026-07-13",
         "company": "Redis",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.05,
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
         "industry": "Data",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Series G",
-        "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+        "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
       },
       {
         "date": "2026-07-12",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 247 public layoff events and 121,196 reported layoffs.",
+    "2026 includes 247 public layoff events and 121,326 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,468 reported layoffs.",
     "46 events report a layoff percentage of 25% or higher."

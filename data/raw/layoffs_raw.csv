@@ -1,6 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
 Sprout Social,Chicago,260.0,2026-07-15,0.2,Marketing,https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17,Post-IPO,111.0,United States,2026-07-15T15:43:45.000Z
-Redis,"Tel Aviv, Non-U.S.",70.0,2026-07-13,0.05,Data,https://www.calcalistech.com/ctechnews/article/cyzy6sb6u,Series G,357.0,Israel,2026-07-13T23:38:37.000Z
+Redis,SF Bay Area,200.0,2026-07-13,,Data,https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/,Series G,357.0,United States,2026-07-13T23:38:37.000Z
 Gigbanc,"Lagos, Non-U.S.",,2026-07-13,1.0,Finance,https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/,Seed,1.0,Nigeria,2026-07-14T00:01:23.000Z
 Alarum,"Tel Aviv, Non-U.S.",,2026-07-12,,Security,https://www.calcalistech.com/ctechnews/article/4gnx3zo23,Post-IPO,34.0,Israel,2026-07-13T23:40:19.000Z
 GoKwik,"New Delhi, Non-U.S.",100.0,2026-07-11,,Finance,https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/,Unknown,68.0,India,2026-07-12T01:08:26.000Z

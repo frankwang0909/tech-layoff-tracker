@@ -9,14 +9,14 @@
   "updated_at": "2026-07-15",
   "canonical_url": "/reports/weekly/2026-W29.html",
   "kpis": {
-    "total_laid_off": 330,
+    "total_laid_off": 460,
     "event_count": 3,
     "headcount_event_count": 2,
     "company_count": 3,
-    "country_count": 3,
+    "country_count": 2,
     "industry_count": 3,
-    "average_layoffs_per_headcount_event": 165.0,
-    "median_layoffs_per_headcount_event": 165.0,
+    "average_layoffs_per_headcount_event": 230.0,
+    "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-W28",
       "total_laid_off": 6152,
       "event_count": 13,
-      "total_laid_off_delta": -5822,
-      "total_laid_off_pct_change": -0.9464,
+      "total_laid_off_delta": -5692,
+      "total_laid_off_pct_change": -0.9252,
       "event_count_delta": -10,
       "event_count_pct_change": -0.7692,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-W29",
       "total_laid_off": 701,
       "event_count": 9,
-      "total_laid_off_delta": -371,
-      "total_laid_off_pct_change": -0.5292,
+      "total_laid_off_delta": -241,
+      "total_laid_off_pct_change": -0.3438,
       "event_count_delta": -6,
       "event_count_pct_change": -0.6667,
       "note": null
@@ -49,7 +49,7 @@
       },
       {
         "company": "Redis",
-        "total_laid_off": 70
+        "total_laid_off": 200
       }
     ],
     "industry_top": [
@@ -59,17 +59,13 @@
       },
       {
         "industry": "Data",
-        "total_laid_off": 70
+        "total_laid_off": 200
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 260
-      },
-      {
-        "country": "Israel",
-        "total_laid_off": 70
+        "total_laid_off": 460
       }
     ],
     "stage_top": [
@@ -79,13 +75,13 @@
       },
       {
         "stage": "Series G",
-        "total_laid_off": 70
+        "total_laid_off": 200
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 0
       },
       {
         "bucket": "10-24%",
@@ -120,12 +116,12 @@
       {
         "date": "2026-07-13",
         "company": "Redis",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.05,
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
         "industry": "Data",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Series G",
-        "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+        "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
       }
     ],
     "recent_events": [
@@ -142,12 +138,12 @@
       {
         "date": "2026-07-13",
         "company": "Redis",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.05,
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
         "industry": "Data",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Series G",
-        "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+        "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
       },
       {
         "date": "2026-07-13",
@@ -174,7 +170,7 @@
     ]
   },
   "insights": [
-    "2026-W29 includes 3 public layoff events and 330 reported layoffs.",
+    "2026-W29 includes 3 public layoff events and 460 reported layoffs.",
     "The largest company contributor is Sprout Social with 260 reported layoffs.",
     "The leading named industry is Marketing with 260 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

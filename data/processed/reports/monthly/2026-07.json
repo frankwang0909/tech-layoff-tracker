@@ -9,13 +9,13 @@
   "updated_at": "2026-07-15",
   "canonical_url": "/reports/monthly/2026-07.html",
   "kpis": {
-    "total_laid_off": 7582,
+    "total_laid_off": 7712,
     "event_count": 19,
     "headcount_event_count": 12,
     "company_count": 19,
     "country_count": 10,
     "industry_count": 12,
-    "average_layoffs_per_headcount_event": 631.83,
+    "average_layoffs_per_headcount_event": 642.67,
     "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 4
   },
@@ -24,8 +24,8 @@
       "period": "2026-06",
       "total_laid_off": 26460,
       "event_count": 50,
-      "total_laid_off_delta": -18878,
-      "total_laid_off_pct_change": -0.7135,
+      "total_laid_off_delta": -18748,
+      "total_laid_off_pct_change": -0.7085,
       "event_count_delta": -31,
       "event_count_pct_change": -0.62,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-07",
       "total_laid_off": 16648,
       "event_count": 31,
-      "total_laid_off_delta": -9066,
-      "total_laid_off_pct_change": -0.5446,
+      "total_laid_off_delta": -8936,
+      "total_laid_off_pct_change": -0.5368,
       "event_count_delta": -12,
       "event_count_pct_change": -0.3871,
       "note": null
@@ -68,16 +68,16 @@
         "total_laid_off": 260
       },
       {
+        "company": "Redis",
+        "total_laid_off": 200
+      },
+      {
         "company": "Mews",
         "total_laid_off": 200
       },
       {
         "company": "GoKwik",
         "total_laid_off": 100
-      },
-      {
-        "company": "Redis",
-        "total_laid_off": 70
       },
       {
         "company": "Darrow",
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Data",
-        "total_laid_off": 470
+        "total_laid_off": 600
       },
       {
         "industry": "Marketing",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 5152
+        "total_laid_off": 5352
       },
       {
         "country": "India",
@@ -137,7 +137,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 630
+        "total_laid_off": 560
       },
       {
         "country": "Canada",
@@ -170,12 +170,12 @@
         "total_laid_off": 200
       },
       {
-        "stage": "Unknown",
-        "total_laid_off": 135
+        "stage": "Series G",
+        "total_laid_off": 200
       },
       {
-        "stage": "Series G",
-        "total_laid_off": 70
+        "stage": "Unknown",
+        "total_laid_off": 135
       },
       {
         "stage": "Series B",
@@ -185,7 +185,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 3
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -278,6 +278,16 @@
         "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
       },
       {
+        "date": "2026-07-13",
+        "company": "Redis",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series G",
+        "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+      },
+      {
         "date": "2026-07-11",
         "company": "GoKwik",
         "num_laid_off": 100,
@@ -286,16 +296,6 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
-      },
-      {
-        "date": "2026-07-13",
-        "company": "Redis",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.05,
-        "industry": "Data",
-        "country": "Israel",
-        "stage": "Series G",
-        "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
       },
       {
         "date": "2026-07-07",
@@ -322,12 +322,12 @@
       {
         "date": "2026-07-13",
         "company": "Redis",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.05,
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
         "industry": "Data",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Series G",
-        "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+        "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
       },
       {
         "date": "2026-07-13",
@@ -544,7 +544,7 @@
     ]
   },
   "insights": [
-    "2026-07 includes 19 public layoff events and 7,582 reported layoffs.",
+    "2026-07 includes 19 public layoff events and 7,712 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Consumer with 800 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

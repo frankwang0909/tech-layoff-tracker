@@ -2263,7 +2263,7 @@
       "end": "2026-07-13"
     },
     "kpis": {
-      "total_laid_off": 3904,
+      "total_laid_off": 4034,
       "event_count": 21,
       "headcount_event_count": 15,
       "company_count": 18,
@@ -2319,7 +2319,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 470
+          "total_laid_off": 600
         }
       ],
       "company_top": [
@@ -2334,6 +2334,10 @@
         {
           "company": "SAS",
           "total_laid_off": 300
+        },
+        {
+          "company": "Redis",
+          "total_laid_off": 200
         },
         {
           "company": "Scale AI",
@@ -2356,10 +2360,6 @@
           "total_laid_off": 70
         },
         {
-          "company": "Redis",
-          "total_laid_off": 70
-        },
-        {
           "company": "LSports",
           "total_laid_off": 40
         }
@@ -2370,12 +2370,12 @@
         {
           "date": "2026-07-13",
           "company": "Redis",
-          "num_laid_off": 70,
-          "percentage_laid_off": 0.05,
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
           "industry": "Data",
-          "country": "Israel",
+          "country": "United States",
           "stage": "Series G",
-          "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+          "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
         },
         {
           "date": "2026-07-08",
@@ -2519,7 +2519,7 @@
         }
       ]
     },
-    "summary": "Data has 3,904 reported tech layoffs across 21 public events from 2025-01-29 to 2026-07-13."
+    "summary": "Data has 4,034 reported tech layoffs across 21 public events from 2025-01-29 to 2026-07-13."
   },
   {
     "type": "industry",

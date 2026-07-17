@@ -10,10 +10,10 @@
       "end": "2026-07-15"
     },
     "kpis": {
-      "total_laid_off": 201113,
-      "event_count": 335,
-      "headcount_event_count": 222,
-      "company_count": 256,
+      "total_laid_off": 201313,
+      "event_count": 336,
+      "headcount_event_count": 223,
+      "company_count": 257,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 5152
+          "total_laid_off": 5352
         }
       ],
       "company_top": [
@@ -153,6 +153,36 @@
           "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
         },
         {
+          "date": "2026-07-13",
+          "company": "Redis",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Series G",
+          "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Microsoft",
+          "num_laid_off": 4800,
+          "percentage_laid_off": 0.02,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Coursera",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+        },
+        {
           "date": "2026-07-06",
           "company": "Amazon",
           "num_laid_off": 57,
@@ -171,26 +201,6 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Coursera",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Education",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Microsoft",
-          "num_laid_off": 4800,
-          "percentage_laid_off": 0.02,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
         },
         {
           "date": "2026-06-29",
@@ -234,6 +244,16 @@
         },
         {
           "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
+        {
+          "date": "2026-06-25",
           "company": "Amperity",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -254,16 +274,6 @@
         },
         {
           "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
-        },
-        {
-          "date": "2026-06-25",
           "company": "Bungie",
           "num_laid_off": 292,
           "percentage_laid_off": null,
@@ -281,20 +291,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
-        },
-        {
-          "date": "2026-06-24",
-          "company": "Snyk",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
         }
       ]
     },
-    "summary": "United States has 201,113 reported tech layoffs across 335 public events from 2025-01-02 to 2026-07-15."
+    "summary": "United States has 201,313 reported tech layoffs across 336 public events from 2025-01-02 to 2026-07-15."
   },
   {
     "type": "country",
@@ -593,13 +593,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-07-13"
+      "end": "2026-07-12"
     },
     "kpis": {
-      "total_laid_off": 7303,
-      "event_count": 64,
-      "headcount_event_count": 45,
-      "company_count": 55,
+      "total_laid_off": 7233,
+      "event_count": 63,
+      "headcount_event_count": 44,
+      "company_count": 54,
       "country_count": 1,
       "industry_count": 21,
       "high_intensity_event_count": 19
@@ -668,7 +668,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 630
+          "total_laid_off": 560
         }
       ],
       "company_top": [
@@ -716,16 +716,6 @@
     },
     "tables": {
       "recent_events": [
-        {
-          "date": "2026-07-13",
-          "company": "Redis",
-          "num_laid_off": 70,
-          "percentage_laid_off": 0.05,
-          "industry": "Data",
-          "country": "Israel",
-          "stage": "Series G",
-          "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
-        },
         {
           "date": "2026-07-12",
           "company": "Alarum",
@@ -865,10 +855,20 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
+        },
+        {
+          "date": "2026-05-25",
+          "company": "Wix",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
         }
       ]
     },
-    "summary": "Israel has 7,303 reported tech layoffs across 64 public events from 2025-01-06 to 2026-07-13."
+    "summary": "Israel has 7,233 reported tech layoffs across 63 public events from 2025-01-06 to 2026-07-12."
   },
   {
     "type": "country",

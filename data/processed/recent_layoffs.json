@@ -22,12 +22,12 @@
   {
     "date": "2026-07-13",
     "company": "Redis",
-    "num_laid_off": 70,
-    "percentage_laid_off": 0.05,
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
     "industry": "Data",
-    "country": "Israel",
+    "country": "United States",
     "stage": "Series G",
-    "source": "https://www.calcalistech.com/ctechnews/article/cyzy6sb6u"
+    "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
   },
   {
     "date": "2026-07-12",

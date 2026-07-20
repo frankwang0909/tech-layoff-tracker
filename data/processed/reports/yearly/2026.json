@@ -4,13 +4,13 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-15"
+    "end": "2026-07-16"
   },
-  "updated_at": "2026-07-15",
+  "updated_at": "2026-07-16",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 121326,
-    "event_count": 247,
+    "event_count": 248,
     "headcount_event_count": 163,
     "company_count": 234,
     "country_count": 27,
@@ -26,8 +26,8 @@
       "event_count": 333,
       "total_laid_off_delta": -1280,
       "total_laid_off_pct_change": -0.0104,
-      "event_count_delta": -86,
-      "event_count_pct_change": -0.2583,
+      "event_count_delta": -85,
+      "event_count_pct_change": -0.2553,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 333,
       "total_laid_off_delta": -1280,
       "total_laid_off_pct_change": -0.0104,
-      "event_count_delta": -86,
-      "event_count_pct_change": -0.2583,
+      "event_count_delta": -85,
+      "event_count_pct_change": -0.2553,
       "note": null
     }
   },
@@ -338,6 +338,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-16",
+        "company": "Polygon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Cayman Islands",
+        "stage": "Unknown",
+        "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+      },
+      {
         "date": "2026-07-15",
         "company": "Sprout Social",
         "num_laid_off": 260,
@@ -349,16 +359,6 @@
       },
       {
         "date": "2026-07-13",
-        "company": "Gigbanc",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "Nigeria",
-        "stage": "Seed",
-        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
-      },
-      {
-        "date": "2026-07-13",
         "company": "Redis",
         "num_laid_off": 200,
         "percentage_laid_off": null,
@@ -366,6 +366,16 @@
         "country": "United States",
         "stage": "Series G",
         "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+      },
+      {
+        "date": "2026-07-13",
+        "company": "Gigbanc",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Seed",
+        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
       },
       {
         "date": "2026-07-12",
@@ -449,16 +459,6 @@
       },
       {
         "date": "2026-07-06",
-        "company": "Yield Guild Games",
-        "num_laid_off": 35,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-      },
-      {
-        "date": "2026-07-06",
         "company": "Hotmart",
         "num_laid_off": null,
         "percentage_laid_off": 0.1,
@@ -466,6 +466,16 @@
         "country": "Brazil",
         "stage": "Series C",
         "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Coursera",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
       },
       {
         "date": "2026-07-06",
@@ -489,13 +499,13 @@
       },
       {
         "date": "2026-07-06",
-        "company": "Coursera",
-        "num_laid_off": null,
+        "company": "Yield Guild Games",
+        "num_laid_off": 35,
         "percentage_laid_off": null,
-        "industry": "Education",
+        "industry": "Crypto",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+        "stage": "Unknown",
+        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
       },
       {
         "date": "2026-07-03",
@@ -526,16 +536,6 @@
         "country": "Indonesia",
         "stage": "Acquired",
         "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
-      },
-      {
-        "date": "2026-06-30",
-        "company": "PlaxidityX",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 247 public layoff events and 121,326 reported layoffs.",
+    "2026 includes 248 public layoff events and 121,326 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,468 reported layoffs.",
     "46 events report a layoff percentage of 25% or higher."

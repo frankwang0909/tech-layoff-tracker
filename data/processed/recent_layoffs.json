@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-16",
+    "company": "Polygon",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Crypto",
+    "country": "Cayman Islands",
+    "stage": "Unknown",
+    "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+  },
+  {
     "date": "2026-07-15",
     "company": "Sprout Social",
     "num_laid_off": 260,
@@ -11,16 +21,6 @@
   },
   {
     "date": "2026-07-13",
-    "company": "Gigbanc",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Finance",
-    "country": "Nigeria",
-    "stage": "Seed",
-    "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
-  },
-  {
-    "date": "2026-07-13",
     "company": "Redis",
     "num_laid_off": 200,
     "percentage_laid_off": null,
@@ -28,6 +28,16 @@
     "country": "United States",
     "stage": "Series G",
     "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+  },
+  {
+    "date": "2026-07-13",
+    "company": "Gigbanc",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Finance",
+    "country": "Nigeria",
+    "stage": "Seed",
+    "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
   },
   {
     "date": "2026-07-12",
@@ -108,15 +118,5 @@
     "country": "United Kingdom",
     "stage": "Acquired",
     "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
-  },
-  {
-    "date": "2026-07-06",
-    "company": "Microsoft",
-    "num_laid_off": 4800,
-    "percentage_laid_off": 0.02,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
   }
 ]

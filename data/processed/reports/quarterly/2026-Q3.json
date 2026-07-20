@@ -4,16 +4,16 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-15"
+    "end": "2026-07-16"
   },
-  "updated_at": "2026-07-15",
+  "updated_at": "2026-07-16",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
     "total_laid_off": 7712,
-    "event_count": 19,
+    "event_count": 20,
     "headcount_event_count": 12,
-    "company_count": 19,
-    "country_count": 10,
+    "company_count": 20,
+    "country_count": 11,
     "industry_count": 12,
     "average_layoffs_per_headcount_event": 642.67,
     "median_layoffs_per_headcount_event": 230.0,
@@ -26,8 +26,8 @@
       "event_count": 135,
       "total_laid_off_delta": -52767,
       "total_laid_off_pct_change": -0.8725,
-      "event_count_delta": -116,
-      "event_count_pct_change": -0.8593,
+      "event_count_delta": -115,
+      "event_count_pct_change": -0.8519,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 86,
       "total_laid_off_delta": -19842,
       "total_laid_off_pct_change": -0.7201,
-      "event_count_delta": -67,
-      "event_count_pct_change": -0.7791,
+      "event_count_delta": -66,
+      "event_count_pct_change": -0.7674,
       "note": null
     }
   },
@@ -310,6 +310,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-16",
+        "company": "Polygon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Cayman Islands",
+        "stage": "Unknown",
+        "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+      },
+      {
         "date": "2026-07-15",
         "company": "Sprout Social",
         "num_laid_off": 260,
@@ -544,7 +554,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 19 public layoff events and 7,712 reported layoffs.",
+    "2026-Q3 includes 20 public layoff events and 7,712 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Consumer with 800 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

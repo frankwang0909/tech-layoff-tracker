@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-13",
-    "end": "2026-07-15"
+    "end": "2026-07-16"
   },
-  "updated_at": "2026-07-15",
+  "updated_at": "2026-07-16",
   "canonical_url": "/reports/weekly/2026-W29.html",
   "kpis": {
     "total_laid_off": 460,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 2,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 230.0,
     "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 13,
       "total_laid_off_delta": -5692,
       "total_laid_off_pct_change": -0.9252,
-      "event_count_delta": -10,
-      "event_count_pct_change": -0.7692,
+      "event_count_delta": -9,
+      "event_count_pct_change": -0.6923,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 9,
       "total_laid_off_delta": -241,
       "total_laid_off_pct_change": -0.3438,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.6667,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.5556,
       "note": null
     }
   },
@@ -126,6 +126,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-16",
+        "company": "Polygon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Cayman Islands",
+        "stage": "Unknown",
+        "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+      },
+      {
         "date": "2026-07-15",
         "company": "Sprout Social",
         "num_laid_off": 260,
@@ -170,7 +180,7 @@
     ]
   },
   "insights": [
-    "2026-W29 includes 3 public layoff events and 460 reported layoffs.",
+    "2026-W29 includes 4 public layoff events and 460 reported layoffs.",
     "The largest company contributor is Sprout Social with 260 reported layoffs.",
     "The leading named industry is Marketing with 260 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

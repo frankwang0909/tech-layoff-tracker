@@ -4247,11 +4247,11 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-06"
+      "end": "2026-07-16"
     },
     "kpis": {
       "total_laid_off": 1422,
-      "event_count": 21,
+      "event_count": 22,
       "headcount_event_count": 11,
       "company_count": 20,
       "country_count": 9,
@@ -4338,6 +4338,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-16",
+          "company": "Polygon",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Cayman Islands",
+          "stage": "Unknown",
+          "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+        },
         {
           "date": "2026-07-06",
           "company": "Yield Guild Games",
@@ -4477,20 +4487,10 @@
           "country": "Singapore",
           "stage": "Unknown",
           "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
-        },
-        {
-          "date": "2026-03-18",
-          "company": "Algorand Foundation",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "Singapore",
-          "stage": "Unknown",
-          "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
         }
       ]
     },
-    "summary": "Crypto has 1,422 reported tech layoffs across 21 public events from 2025-02-05 to 2026-07-06."
+    "summary": "Crypto has 1,422 reported tech layoffs across 22 public events from 2025-02-05 to 2026-07-16."
   },
   {
     "type": "industry",

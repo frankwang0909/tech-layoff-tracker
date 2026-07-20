@@ -1,13 +1,13 @@
 {
   "report_type": "daily",
-  "period": "2026-05-09",
+  "period": "2026-07-16",
   "status": "final",
   "date_range": {
-    "start": "2026-05-09",
-    "end": "2026-05-09"
+    "start": "2026-07-16",
+    "end": "2026-07-16"
   },
   "updated_at": "2026-07-16",
-  "canonical_url": "/reports/daily/2026-05-09.html",
+  "canonical_url": "/reports/daily/2026-07-16.html",
   "kpis": {
     "total_laid_off": 0,
     "event_count": 1,
@@ -17,28 +17,28 @@
     "industry_count": 1,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-05-08",
-      "total_laid_off": 176,
+      "period": "2026-07-15",
+      "total_laid_off": 260,
       "event_count": 1,
-      "total_laid_off_delta": -176,
+      "total_laid_off_delta": -260,
       "total_laid_off_pct_change": -1.0,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
-      "period": "2025-05-09",
-      "total_laid_off": null,
-      "event_count": null,
-      "total_laid_off_delta": null,
-      "total_laid_off_pct_change": null,
-      "event_count_delta": null,
-      "event_count_pct_change": null,
-      "note": "No comparison data is available for this period."
+      "period": "2025-07-16",
+      "total_laid_off": 300,
+      "event_count": 2,
+      "total_laid_off_delta": -300,
+      "total_laid_off_pct_change": -1.0,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.5,
+      "note": null
     }
   },
   "charts": {
@@ -73,32 +73,20 @@
     "largest_events": [],
     "recent_events": [
       {
-        "date": "2026-05-09",
-        "company": "Parker",
+        "date": "2026-07-16",
+        "company": "Polygon",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "Cayman Islands",
+        "stage": "Unknown",
+        "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
       }
     ],
-    "high_intensity_events": [
-      {
-        "date": "2026-05-09",
-        "company": "Parker",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
-      }
-    ]
+    "high_intensity_events": []
   },
   "insights": [
-    "2026-05-09 includes 1 public layoff events and 0 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2026-07-16 includes 1 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

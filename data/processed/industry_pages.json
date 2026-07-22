@@ -7,13 +7,13 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-06-22"
+      "end": "2026-07-20"
     },
     "kpis": {
-      "total_laid_off": 49391,
-      "event_count": 20,
-      "headcount_event_count": 16,
-      "company_count": 14,
+      "total_laid_off": 50230,
+      "event_count": 23,
+      "headcount_event_count": 18,
+      "company_count": 15,
       "country_count": 6,
       "industry_count": 1,
       "high_intensity_event_count": 1
@@ -67,6 +67,10 @@
         {
           "month": "2026-04",
           "total_laid_off": 304
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 839
         }
       ],
       "company_top": [
@@ -91,6 +95,10 @@
           "total_laid_off": 1700
         },
         {
+          "company": "Samsung",
+          "total_laid_off": 839
+        },
+        {
           "company": "Micron",
           "total_laid_off": 300
         },
@@ -105,15 +113,41 @@
         {
           "company": "Qualcomm",
           "total_laid_off": 104
-        },
-        {
-          "company": "Lenovo",
-          "total_laid_off": 100
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-20",
+          "company": "Intel",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
+        },
+        {
+          "date": "2026-07-19",
+          "company": "Samsung",
+          "num_laid_off": 739,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+        },
+        {
+          "date": "2026-07-19",
+          "company": "Samsung",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+        },
         {
           "date": "2026-06-22",
           "company": "Tractive",
@@ -233,40 +267,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.newsobserver.com/news/business/article310699130.html"
-        },
-        {
-          "date": "2025-07-11",
-          "company": "Intel",
-          "num_laid_off": 5000,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.manufacturingdive.com/news/intel-layoffs-surpass-5000-across-California-Oregon-Arizona-Texas/752756/"
-        },
-        {
-          "date": "2025-06-24",
-          "company": "Intel",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.oregonlive.com/silicon-forest/2025/06/intel-will-shut-down-its-automotive-business-lay-off-most-of-the-departments-employees.html"
-        },
-        {
-          "date": "2025-06-17",
-          "company": "Intel",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/pgg42xgob"
         }
       ]
     },
-    "summary": "Hardware has 49,391 reported tech layoffs across 20 public events from 2025-02-04 to 2026-06-22."
+    "summary": "Hardware has 50,230 reported tech layoffs across 23 public events from 2025-02-04 to 2026-07-20."
   },
   {
     "type": "industry",

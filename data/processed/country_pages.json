@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-15"
+      "end": "2026-07-20"
     },
     "kpis": {
-      "total_laid_off": 201313,
-      "event_count": 336,
-      "headcount_event_count": 223,
-      "company_count": 257,
+      "total_laid_off": 202152,
+      "event_count": 339,
+      "headcount_event_count": 225,
+      "company_count": 258,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 5352
+          "total_laid_off": 6191
         }
       ],
       "company_top": [
@@ -142,6 +142,36 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-20",
+          "company": "Intel",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
+        },
+        {
+          "date": "2026-07-19",
+          "company": "Samsung",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+        },
+        {
+          "date": "2026-07-19",
+          "company": "Samsung",
+          "num_laid_off": 739,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+        },
         {
           "date": "2026-07-15",
           "company": "Sprout Social",
@@ -261,40 +291,10 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "Sonos",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.03,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "Bungie",
-          "num_laid_off": 292,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
-        },
-        {
-          "date": "2026-06-24",
-          "company": "Elastic",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.07,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
         }
       ]
     },
-    "summary": "United States has 201,313 reported tech layoffs across 336 public events from 2025-01-02 to 2026-07-15."
+    "summary": "United States has 202,152 reported tech layoffs across 339 public events from 2025-01-02 to 2026-07-20."
   },
   {
     "type": "country",

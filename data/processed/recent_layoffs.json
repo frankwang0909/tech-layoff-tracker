@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-20",
+    "company": "Intel",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Hardware",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
+  },
+  {
+    "date": "2026-07-19",
+    "company": "Samsung",
+    "num_laid_off": 100,
+    "percentage_laid_off": null,
+    "industry": "Hardware",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+  },
+  {
+    "date": "2026-07-19",
+    "company": "Samsung",
+    "num_laid_off": 739,
+    "percentage_laid_off": null,
+    "industry": "Hardware",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+  },
+  {
     "date": "2026-07-16",
     "company": "Polygon",
     "num_laid_off": null,
@@ -88,35 +118,5 @@
     "country": "Netherlands",
     "stage": "Series D",
     "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
-  },
-  {
-    "date": "2026-07-07",
-    "company": "Darrow",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.33,
-    "industry": "Legal",
-    "country": "Israel",
-    "stage": "Series B",
-    "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
-  },
-  {
-    "date": "2026-07-07",
-    "company": "Billion Hearts",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Consumer",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
-  },
-  {
-    "date": "2026-07-07",
-    "company": "PokerStars",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United Kingdom",
-    "stage": "Acquired",
-    "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
   }
 ]

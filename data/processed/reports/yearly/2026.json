@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-16"
+    "end": "2026-07-20"
   },
-  "updated_at": "2026-07-16",
+  "updated_at": "2026-07-20",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 121326,
-    "event_count": 248,
-    "headcount_event_count": 163,
-    "company_count": 234,
+    "total_laid_off": 122165,
+    "event_count": 251,
+    "headcount_event_count": 165,
+    "company_count": 236,
     "country_count": 27,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 744.33,
+    "average_layoffs_per_headcount_event": 740.39,
     "median_layoffs_per_headcount_event": 150.0,
     "high_intensity_event_count": 46
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": -1280,
-      "total_laid_off_pct_change": -0.0104,
-      "event_count_delta": -85,
-      "event_count_pct_change": -0.2553,
+      "total_laid_off_delta": -441,
+      "total_laid_off_pct_change": -0.0036,
+      "event_count_delta": -82,
+      "event_count_pct_change": -0.2462,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": -1280,
-      "total_laid_off_pct_change": -0.0104,
-      "event_count_delta": -85,
-      "event_count_pct_change": -0.2553,
+      "total_laid_off_delta": -441,
+      "total_laid_off_pct_change": -0.0036,
+      "event_count_delta": -82,
+      "event_count_pct_change": -0.2462,
       "note": null
     }
   },
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Hardware",
-        "total_laid_off": 13054
+        "total_laid_off": 13893
       },
       {
         "industry": "Infrastructure",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 98877
+        "total_laid_off": 99716
       },
       {
         "country": "Israel",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 103636
+        "total_laid_off": 104475
       },
       {
         "stage": "Unknown",
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-20",
+        "company": "Intel",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
+      },
+      {
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 739,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+      },
+      {
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+      },
+      {
         "date": "2026-07-16",
         "company": "Polygon",
         "num_laid_off": null,
@@ -459,16 +489,6 @@
       },
       {
         "date": "2026-07-06",
-        "company": "Hotmart",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.1,
-        "industry": "Marketing",
-        "country": "Brazil",
-        "stage": "Series C",
-        "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
-      },
-      {
-        "date": "2026-07-06",
         "company": "Coursera",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -476,6 +496,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+      },
+      {
+        "date": "2026-07-06",
+        "company": "Hotmart",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.1,
+        "industry": "Marketing",
+        "country": "Brazil",
+        "stage": "Series C",
+        "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
       },
       {
         "date": "2026-07-06",
@@ -489,16 +519,6 @@
       },
       {
         "date": "2026-07-06",
-        "company": "Microsoft",
-        "num_laid_off": 4800,
-        "percentage_laid_off": 0.02,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-      },
-      {
-        "date": "2026-07-06",
         "company": "Yield Guild Games",
         "num_laid_off": 35,
         "percentage_laid_off": null,
@@ -508,34 +528,14 @@
         "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
       },
       {
-        "date": "2026-07-03",
-        "company": "CorroHealth",
-        "num_laid_off": 800,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "India",
-        "stage": "Private Equity",
-        "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
-      },
-      {
-        "date": "2026-07-01",
-        "company": "TikTok",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Ireland",
-        "stage": "Acquired",
-        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
-      },
-      {
-        "date": "2026-07-01",
-        "company": "Tokopedia",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.9,
-        "industry": "Retail",
-        "country": "Indonesia",
-        "stage": "Acquired",
-        "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+        "date": "2026-07-06",
+        "company": "Microsoft",
+        "num_laid_off": 4800,
+        "percentage_laid_off": 0.02,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 248 public layoff events and 121,326 reported layoffs.",
+    "2026 includes 251 public layoff events and 122,165 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 18,468 reported layoffs.",
     "46 events report a layoff percentage of 25% or higher."

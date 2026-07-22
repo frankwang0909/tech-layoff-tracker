@@ -1,4 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Intel,Sacramento,,2026-07-20,,Hardware,https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html,Post-IPO,12.0,United States,2026-07-22T02:54:48.000Z
+Samsung,New York City,739.0,2026-07-19,,Hardware,https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html,Post-IPO,,United States,2026-07-22T02:53:52.000Z
+Samsung,Dallas,100.0,2026-07-19,,Hardware,https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html,Post-IPO,,United States,2026-07-22T02:54:03.000Z
 Polygon,"Cayman Islands, Non-U.S.",,2026-07-16,,Crypto,https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot,Unknown,451.0,Cayman Islands,2026-07-20T01:50:24.000Z
 Sprout Social,Chicago,260.0,2026-07-15,0.2,Marketing,https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17,Post-IPO,111.0,United States,2026-07-15T15:43:45.000Z
 Redis,SF Bay Area,200.0,2026-07-13,,Data,https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/,Series G,357.0,United States,2026-07-13T23:38:37.000Z

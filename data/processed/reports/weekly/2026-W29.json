@@ -1,21 +1,21 @@
 {
   "report_type": "weekly",
   "period": "2026-W29",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-07-13",
-    "end": "2026-07-16"
+    "end": "2026-07-19"
   },
-  "updated_at": "2026-07-16",
+  "updated_at": "2026-07-20",
   "canonical_url": "/reports/weekly/2026-W29.html",
   "kpis": {
-    "total_laid_off": 460,
-    "event_count": 4,
-    "headcount_event_count": 2,
-    "company_count": 4,
+    "total_laid_off": 1299,
+    "event_count": 6,
+    "headcount_event_count": 4,
+    "company_count": 5,
     "country_count": 3,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 230.0,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 324.75,
     "median_layoffs_per_headcount_event": 230.0,
     "high_intensity_event_count": 1
   },
@@ -24,25 +24,29 @@
       "period": "2026-W28",
       "total_laid_off": 6152,
       "event_count": 13,
-      "total_laid_off_delta": -5692,
-      "total_laid_off_pct_change": -0.9252,
-      "event_count_delta": -9,
-      "event_count_pct_change": -0.6923,
+      "total_laid_off_delta": -4853,
+      "total_laid_off_pct_change": -0.7888,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.5385,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W29",
       "total_laid_off": 701,
       "event_count": 9,
-      "total_laid_off_delta": -241,
-      "total_laid_off_pct_change": -0.3438,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.5556,
+      "total_laid_off_delta": 598,
+      "total_laid_off_pct_change": 0.8531,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.3333,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Samsung",
+        "total_laid_off": 839
+      },
       {
         "company": "Sprout Social",
         "total_laid_off": 260
@@ -53,6 +57,10 @@
       }
     ],
     "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 839
+      },
       {
         "industry": "Marketing",
         "total_laid_off": 260
@@ -65,13 +73,13 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 460
+        "total_laid_off": 1299
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 260
+        "total_laid_off": 1099
       },
       {
         "stage": "Series G",
@@ -104,6 +112,16 @@
   "tables": {
     "largest_events": [
       {
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 739,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+      },
+      {
         "date": "2026-07-15",
         "company": "Sprout Social",
         "num_laid_off": 260,
@@ -122,9 +140,39 @@
         "country": "United States",
         "stage": "Series G",
         "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+      },
+      {
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 739,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+      },
+      {
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 100,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+      },
       {
         "date": "2026-07-16",
         "company": "Polygon",
@@ -180,9 +228,9 @@
     ]
   },
   "insights": [
-    "2026-W29 includes 4 public layoff events and 460 reported layoffs.",
-    "The largest company contributor is Sprout Social with 260 reported layoffs.",
-    "The leading named industry is Marketing with 260 reported layoffs.",
+    "2026-W29 includes 6 public layoff events and 1,299 reported layoffs.",
+    "The largest company contributor is Samsung with 839 reported layoffs.",
+    "The leading named industry is Hardware with 839 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

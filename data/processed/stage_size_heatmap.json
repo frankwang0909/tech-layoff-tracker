@@ -24,12 +24,12 @@
     {
       "stage": "Post-IPO",
       "size_bucket": "100-499",
-      "event_count": 71
+      "event_count": 72
     },
     {
       "stage": "Post-IPO",
       "size_bucket": "500-999",
-      "event_count": 17
+      "event_count": 18
     },
     {
       "stage": "Post-IPO",

@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-22",
+    "company": "Monday.com",
+    "num_laid_off": 630,
+    "percentage_laid_off": 0.2,
+    "industry": "Product",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+  },
+  {
     "date": "2026-07-20",
     "company": "Intel",
     "num_laid_off": null,
@@ -12,7 +22,7 @@
   {
     "date": "2026-07-19",
     "company": "Samsung",
-    "num_laid_off": 100,
+    "num_laid_off": 739,
     "percentage_laid_off": null,
     "industry": "Hardware",
     "country": "United States",
@@ -22,7 +32,7 @@
   {
     "date": "2026-07-19",
     "company": "Samsung",
-    "num_laid_off": 739,
+    "num_laid_off": 100,
     "percentage_laid_off": null,
     "industry": "Hardware",
     "country": "United States",
@@ -108,15 +118,5 @@
     "country": "Canada",
     "stage": "Post-IPO",
     "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
-  },
-  {
-    "date": "2026-07-07",
-    "company": "Mews",
-    "num_laid_off": 200,
-    "percentage_laid_off": 0.15,
-    "industry": "Travel",
-    "country": "Netherlands",
-    "stage": "Series D",
-    "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
   }
 ]

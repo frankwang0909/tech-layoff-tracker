@@ -593,15 +593,15 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-07-12"
+      "end": "2026-07-22"
     },
     "kpis": {
-      "total_laid_off": 7233,
-      "event_count": 63,
-      "headcount_event_count": 44,
-      "company_count": 54,
+      "total_laid_off": 7863,
+      "event_count": 64,
+      "headcount_event_count": 45,
+      "company_count": 55,
       "country_count": 1,
-      "industry_count": 21,
+      "industry_count": 22,
       "high_intensity_event_count": 19
     },
     "charts": {
@@ -668,7 +668,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 560
+          "total_laid_off": 1190
         }
       ],
       "company_top": [
@@ -689,6 +689,10 @@
           "total_laid_off": 700
         },
         {
+          "company": "Monday.com",
+          "total_laid_off": 630
+        },
+        {
           "company": "MyHeritage",
           "total_laid_off": 500
         },
@@ -701,21 +705,27 @@
           "total_laid_off": 250
         },
         {
-          "company": "Artlist",
-          "total_laid_off": 200
-        },
-        {
           "company": "Mobileye",
           "total_laid_off": 200
         },
         {
-          "company": "Lightricks",
-          "total_laid_off": 160
+          "company": "Artlist",
+          "total_laid_off": 200
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-22",
+          "company": "Monday.com",
+          "num_laid_off": 630,
+          "percentage_laid_off": 0.2,
+          "industry": "Product",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+        },
         {
           "date": "2026-07-12",
           "company": "Alarum",
@@ -855,20 +865,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
-        },
-        {
-          "date": "2026-05-25",
-          "company": "Wix",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
         }
       ]
     },
-    "summary": "Israel has 7,233 reported tech layoffs across 63 public events from 2025-01-06 to 2026-07-12."
+    "summary": "Israel has 7,863 reported tech layoffs across 64 public events from 2025-01-06 to 2026-07-22."
   },
   {
     "type": "country",

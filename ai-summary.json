@@ -4,9 +4,9 @@
   "generated_from": "data/processed/*.json",
   "data_range": {
     "start": "2025-01-06",
-    "end": "2026-07-19"
+    "end": "2026-07-22"
   },
-  "summary": "Tech Layoff Tracker reports 244,771 public tech layoffs from 2025-01-06 to 2026-07-19. The dataset covers 319 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 245,401 public tech layoffs from 2025-01-06 to 2026-07-22. The dataset covers 320 companies across 25 countries or regions. The largest month is 2026-05 with 28,934 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -14,19 +14,19 @@
     },
     {
       "name": "Data range",
-      "value": "2025-01-06 to 2026-07-19"
+      "value": "2025-01-06 to 2026-07-22"
     },
     {
       "name": "Total reported layoffs",
-      "value": "244,771"
+      "value": "245,401"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "122,165"
+      "value": "122,795"
     },
     {
       "name": "Companies affected",
-      "value": "319"
+      "value": "320"
     },
     {
       "name": "Countries or regions",
@@ -58,7 +58,7 @@
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-07-19. The month with the highest reported layoff total is 2026-05."
+      "answer": "The current data covers 2025-01-06 to 2026-07-22. The month with the highest reported layoff total is 2026-05."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
@@ -171,8 +171,8 @@
       {
         "name": "Israel",
         "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
-        "total_laid_off": 7233,
-        "event_count": 63
+        "total_laid_off": 7863,
+        "event_count": 64
       },
       {
         "name": "Sweden",

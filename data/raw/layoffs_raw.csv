@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Monday.com,"Tel Aviv, Non-U.S.",630.0,2026-07-22,0.2,Product,https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/,Post-IPO,384.0,Israel,2026-07-23T04:23:40.000Z
 Intel,Sacramento,,2026-07-20,,Hardware,https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html,Post-IPO,12.0,United States,2026-07-22T02:54:48.000Z
 Samsung,New York City,739.0,2026-07-19,,Hardware,https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html,Post-IPO,,United States,2026-07-22T02:53:52.000Z
 Samsung,Dallas,100.0,2026-07-19,,Hardware,https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html,Post-IPO,,United States,2026-07-22T02:54:03.000Z

@@ -4498,6 +4498,153 @@
   },
   {
     "type": "industry",
+    "name": "Product",
+    "slug": "product",
+    "title": "Tech Layoffs by Industry: Product",
+    "canonical_url": "/industries/product.html",
+    "date_range": {
+      "start": "2025-01-21",
+      "end": "2026-07-22"
+    },
+    "kpis": {
+      "total_laid_off": 1273,
+      "event_count": 8,
+      "headcount_event_count": 5,
+      "company_count": 8,
+      "country_count": 5,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2026-01",
+          "total_laid_off": 3
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 290
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 350
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 630
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Monday.com",
+          "total_laid_off": 630
+        },
+        {
+          "company": "GitLab",
+          "total_laid_off": 350
+        },
+        {
+          "company": "Qt Company",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Pendo",
+          "total_laid_off": 90
+        },
+        {
+          "company": "Tailwind Labs",
+          "total_laid_off": 3
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-22",
+          "company": "Monday.com",
+          "num_laid_off": 630,
+          "percentage_laid_off": 0.2,
+          "industry": "Product",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+        },
+        {
+          "date": "2026-06-02",
+          "company": "GitLab",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.14,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+        },
+        {
+          "date": "2026-04-20",
+          "company": "Qt Company",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "Norway",
+          "stage": "Series B",
+          "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Productboard",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.3,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+        },
+        {
+          "date": "2026-04-07",
+          "company": "Pendo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.1,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        },
+        {
+          "date": "2026-01-08",
+          "company": "Tailwind Labs",
+          "num_laid_off": 3,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
+        },
+        {
+          "date": "2025-07-17",
+          "company": "CodeParrot",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Product",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
+        },
+        {
+          "date": "2025-01-21",
+          "company": "Turso",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United Kingdom",
+          "stage": "Seed",
+          "source": "https://turso.tech/blog/upcoming-changes-to-the-turso-platform-and-roadmap"
+        }
+      ]
+    },
+    "summary": "Product has 1,273 reported tech layoffs across 8 public events from 2025-01-21 to 2026-07-22."
+  },
+  {
+    "type": "industry",
     "name": "Media",
     "slug": "media",
     "title": "Tech Layoffs by Industry: Media",
@@ -5429,135 +5576,6 @@
       ]
     },
     "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
-  },
-  {
-    "type": "industry",
-    "name": "Product",
-    "slug": "product",
-    "title": "Tech Layoffs by Industry: Product",
-    "canonical_url": "/industries/product.html",
-    "date_range": {
-      "start": "2025-01-21",
-      "end": "2026-06-02"
-    },
-    "kpis": {
-      "total_laid_off": 643,
-      "event_count": 7,
-      "headcount_event_count": 4,
-      "company_count": 7,
-      "country_count": 4,
-      "industry_count": 1,
-      "high_intensity_event_count": 2
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2026-01",
-          "total_laid_off": 3
-        },
-        {
-          "month": "2026-04",
-          "total_laid_off": 290
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 350
-        }
-      ],
-      "company_top": [
-        {
-          "company": "GitLab",
-          "total_laid_off": 350
-        },
-        {
-          "company": "Qt Company",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Pendo",
-          "total_laid_off": 90
-        },
-        {
-          "company": "Tailwind Labs",
-          "total_laid_off": 3
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-06-02",
-          "company": "GitLab",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.14,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
-        },
-        {
-          "date": "2026-04-20",
-          "company": "Qt Company",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Product",
-          "country": "Norway",
-          "stage": "Series B",
-          "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Productboard",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
-        },
-        {
-          "date": "2026-04-07",
-          "company": "Pendo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.1,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
-        },
-        {
-          "date": "2026-01-08",
-          "company": "Tailwind Labs",
-          "num_laid_off": 3,
-          "percentage_laid_off": null,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
-        },
-        {
-          "date": "2025-07-17",
-          "company": "CodeParrot",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Product",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/another-startup-bites-the-dust-y-combinator-backed-codeparrot-shuts-down/"
-        },
-        {
-          "date": "2025-01-21",
-          "company": "Turso",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Product",
-          "country": "United Kingdom",
-          "stage": "Seed",
-          "source": "https://turso.tech/blog/upcoming-changes-to-the-turso-platform-and-roadmap"
-        }
-      ]
-    },
-    "summary": "Product has 643 reported tech layoffs across 7 public events from 2025-01-21 to 2026-06-02."
   },
   {
     "type": "industry",

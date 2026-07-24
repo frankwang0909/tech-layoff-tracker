@@ -6,38 +6,38 @@
     "start": "2026-05-25",
     "end": "2026-05-30"
   },
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-23",
   "canonical_url": "/reports/weekly/2026-W22.html",
   "kpis": {
-    "total_laid_off": 1874,
-    "event_count": 11,
-    "headcount_event_count": 6,
-    "company_count": 11,
-    "country_count": 2,
-    "industry_count": 8,
-    "average_layoffs_per_headcount_event": 312.33,
-    "median_layoffs_per_headcount_event": 173.5,
-    "high_intensity_event_count": 2
+    "total_laid_off": 1942,
+    "event_count": 12,
+    "headcount_event_count": 7,
+    "company_count": 12,
+    "country_count": 3,
+    "industry_count": 9,
+    "average_layoffs_per_headcount_event": 277.43,
+    "median_layoffs_per_headcount_event": 117.0,
+    "high_intensity_event_count": 3
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W21",
       "total_laid_off": 11110,
       "event_count": 4,
-      "total_laid_off_delta": -9236,
-      "total_laid_off_pct_change": -0.8313,
-      "event_count_delta": 7,
-      "event_count_pct_change": 1.75,
+      "total_laid_off_delta": -9168,
+      "total_laid_off_pct_change": -0.8252,
+      "event_count_delta": 8,
+      "event_count_pct_change": 2.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W22",
       "total_laid_off": 388,
       "event_count": 5,
-      "total_laid_off_delta": 1486,
-      "total_laid_off_pct_change": 3.8299,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.2,
+      "total_laid_off_delta": 1554,
+      "total_laid_off_pct_change": 4.0052,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.4,
       "note": null
     }
   },
@@ -62,6 +62,10 @@
       {
         "company": "NetApp",
         "total_laid_off": 77
+      },
+      {
+        "company": "BenchSci",
+        "total_laid_off": 68
       },
       {
         "company": "Interview Kickstart",
@@ -90,6 +94,10 @@
         "total_laid_off": 77
       },
       {
+        "industry": "Healthcare",
+        "total_laid_off": 68
+      },
+      {
         "industry": "Education",
         "total_laid_off": 50
       }
@@ -102,6 +110,10 @@
       {
         "country": "United States",
         "total_laid_off": 874
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 68
       }
     ],
     "stage_top": [
@@ -112,6 +124,10 @@
       {
         "stage": "Acquired",
         "total_laid_off": 117
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 68
       },
       {
         "stage": "Unknown",
@@ -129,7 +145,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "50-99%",
@@ -194,6 +210,16 @@
         "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
       },
       {
+        "date": "2026-05-28",
+        "company": "BenchSci",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+      },
+      {
         "date": "2026-05-29",
         "company": "Interview Kickstart",
         "num_laid_off": 50,
@@ -234,6 +260,16 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+      },
+      {
+        "date": "2026-05-28",
+        "company": "BenchSci",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
       },
       {
         "date": "2026-05-28",
@@ -328,6 +364,16 @@
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
+        "date": "2026-05-28",
+        "company": "BenchSci",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+      },
+      {
         "date": "2026-05-26",
         "company": "Groupon",
         "num_laid_off": 400,
@@ -340,10 +386,10 @@
     ]
   },
   "insights": [
-    "2026-W22 includes 11 public layoff events and 1,874 reported layoffs.",
+    "2026-W22 includes 12 public layoff events and 1,942 reported layoffs.",
     "The largest company contributor is Wix with 1,000 reported layoffs.",
     "The leading named industry is Marketing with 1,000 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

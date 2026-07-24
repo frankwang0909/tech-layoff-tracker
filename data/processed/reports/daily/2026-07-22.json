@@ -6,17 +6,17 @@
     "start": "2026-07-22",
     "end": "2026-07-22"
   },
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-23",
   "canonical_url": "/reports/daily/2026-07-22.html",
   "kpis": {
-    "total_laid_off": 630,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 630.0,
-    "median_layoffs_per_headcount_event": 630.0,
+    "total_laid_off": 1740,
+    "event_count": 4,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 870.0,
+    "median_layoffs_per_headcount_event": 870.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -34,15 +34,19 @@
       "period": "2025-07-22",
       "total_laid_off": 47,
       "event_count": 1,
-      "total_laid_off_delta": 583,
-      "total_laid_off_pct_change": 12.4043,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 1693,
+      "total_laid_off_pct_change": 36.0213,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Amazon",
+        "total_laid_off": 1110
+      },
       {
         "company": "Monday.com",
         "total_laid_off": 630
@@ -50,11 +54,19 @@
     ],
     "industry_top": [
       {
+        "industry": "Retail",
+        "total_laid_off": 1110
+      },
+      {
         "industry": "Product",
         "total_laid_off": 630
       }
     ],
     "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 1110
+      },
       {
         "country": "Israel",
         "total_laid_off": 630
@@ -63,7 +75,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 630
+        "total_laid_off": 1740
       }
     ],
     "layoff_pct_distribution": [
@@ -93,6 +105,16 @@
     "largest_events": [
       {
         "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": 1110,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
+      },
+      {
+        "date": "2026-07-22",
         "company": "Monday.com",
         "num_laid_off": 630,
         "percentage_laid_off": 0.2,
@@ -105,6 +127,16 @@
     "recent_events": [
       {
         "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": 1110,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
+      },
+      {
+        "date": "2026-07-22",
         "company": "Monday.com",
         "num_laid_off": 630,
         "percentage_laid_off": 0.2,
@@ -112,14 +144,34 @@
         "country": "Israel",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-07-22 includes 1 public layoff events and 630 reported layoffs.",
-    "The largest company contributor is Monday.com with 630 reported layoffs.",
-    "The leading named industry is Product with 630 reported layoffs."
+    "2026-07-22 includes 4 public layoff events and 1,740 reported layoffs.",
+    "The largest company contributor is Amazon with 1,110 reported layoffs.",
+    "The leading named industry is Retail with 1,110 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

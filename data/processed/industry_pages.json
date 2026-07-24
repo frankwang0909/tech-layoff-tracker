@@ -280,12 +280,12 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-07-06"
+      "end": "2026-07-22"
     },
     "kpis": {
-      "total_laid_off": 34784,
-      "event_count": 41,
-      "headcount_event_count": 25,
+      "total_laid_off": 35894,
+      "event_count": 43,
+      "headcount_event_count": 26,
       "company_count": 28,
       "country_count": 11,
       "industry_count": 1,
@@ -347,13 +347,13 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 57
+          "total_laid_off": 1167
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 30341
+          "total_laid_off": 31451
         },
         {
           "company": "Wayfair",
@@ -395,6 +395,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-22",
+          "company": "Amazon",
+          "num_laid_off": 1110,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Amazon",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+        },
         {
           "date": "2026-07-06",
           "company": "Amazon",
@@ -524,30 +544,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
-        },
-        {
-          "date": "2026-01-22",
-          "company": "Shopify",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
-        },
-        {
-          "date": "2026-01-13",
-          "company": "Alle",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
         }
       ]
     },
-    "summary": "Retail has 34,784 reported tech layoffs across 41 public events from 2025-01-10 to 2026-07-06."
+    "summary": "Retail has 35,894 reported tech layoffs across 43 public events from 2025-01-10 to 2026-07-22."
   },
   {
     "type": "industry",
@@ -1396,11 +1396,11 @@
     "canonical_url": "/industries/transportation.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-06-22"
+      "end": "2026-07-22"
     },
     "kpis": {
       "total_laid_off": 5984,
-      "event_count": 29,
+      "event_count": 30,
       "headcount_event_count": 18,
       "company_count": 24,
       "country_count": 6,
@@ -1507,6 +1507,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-22",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+        },
         {
           "date": "2026-06-22",
           "company": "Lucid Motors",
@@ -1646,20 +1656,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
-        },
-        {
-          "date": "2025-09-05",
-          "company": "Rivian",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.01,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.latimes.com/business/story/2025-09-08/rivian-lays-off-employees-new-suv-tax-credits"
         }
       ]
     },
-    "summary": "Transportation has 5,984 reported tech layoffs across 29 public events from 2025-01-27 to 2026-06-22."
+    "summary": "Transportation has 5,984 reported tech layoffs across 30 public events from 2025-01-27 to 2026-07-22."
   },
   {
     "type": "industry",
@@ -3822,13 +3822,13 @@
       "end": "2026-07-03"
     },
     "kpis": {
-      "total_laid_off": 1701,
-      "event_count": 15,
-      "headcount_event_count": 9,
+      "total_laid_off": 1769,
+      "event_count": 16,
+      "headcount_event_count": 10,
       "company_count": 14,
       "country_count": 3,
       "industry_count": 1,
-      "high_intensity_event_count": 3
+      "high_intensity_event_count": 4
     },
     "charts": {
       "monthly_trend": [
@@ -3850,7 +3850,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 340
+          "total_laid_off": 408
         },
         {
           "month": "2026-06",
@@ -3875,12 +3875,12 @@
           "total_laid_off": 160
         },
         {
-          "company": "GroundGame Health",
-          "total_laid_off": 97
+          "company": "BenchSci",
+          "total_laid_off": 151
         },
         {
-          "company": "BenchSci",
-          "total_laid_off": 83
+          "company": "GroundGame Health",
+          "total_laid_off": 97
         },
         {
           "company": "Hims & Hers",
@@ -3951,6 +3951,16 @@
           "country": "United States",
           "stage": "Series D",
           "source": "Internal memo"
+        },
+        {
+          "date": "2026-05-28",
+          "company": "BenchSci",
+          "num_laid_off": 68,
+          "percentage_laid_off": 0.3,
+          "industry": "Healthcare",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
         },
         {
           "date": "2026-05-14",
@@ -4041,20 +4051,10 @@
           "country": "United States",
           "stage": "Series A",
           "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
-        },
-        {
-          "date": "2025-02-24",
-          "company": "HerMD",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.bizjournals.com/cincinnati/inno/stories/news/2025/02/24/hermd-womens-health-startup-closing-venture.html"
         }
       ]
     },
-    "summary": "Healthcare has 1,701 reported tech layoffs across 15 public events from 2025-02-24 to 2026-07-03."
+    "summary": "Healthcare has 1,769 reported tech layoffs across 16 public events from 2025-02-24 to 2026-07-03."
   },
   {
     "type": "industry",
@@ -4651,13 +4651,13 @@
     "canonical_url": "/industries/media.html",
     "date_range": {
       "start": "2025-01-14",
-      "end": "2026-06-29"
+      "end": "2026-07-23"
     },
     "kpis": {
-      "total_laid_off": 1160,
-      "event_count": 12,
-      "headcount_event_count": 9,
-      "company_count": 11,
+      "total_laid_off": 1253,
+      "event_count": 13,
+      "headcount_event_count": 10,
+      "company_count": 12,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 3
@@ -4691,6 +4691,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 300
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 93
         }
       ],
       "company_top": [
@@ -4711,12 +4715,16 @@
           "total_laid_off": 150
         },
         {
+          "company": "Elementor",
+          "total_laid_off": 100
+        },
+        {
           "company": "Wondery",
           "total_laid_off": 100
         },
         {
-          "company": "Elementor",
-          "total_laid_off": 100
+          "company": "Patreon",
+          "total_laid_off": 93
         },
         {
           "company": "Kaltura",
@@ -4730,6 +4738,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-23",
+          "company": "Patreon",
+          "num_laid_off": 93,
+          "percentage_laid_off": 0.2,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+        },
         {
           "date": "2026-06-29",
           "company": "Elementor",
@@ -4852,7 +4870,7 @@
         }
       ]
     },
-    "summary": "Media has 1,160 reported tech layoffs across 12 public events from 2025-01-14 to 2026-06-29."
+    "summary": "Media has 1,253 reported tech layoffs across 13 public events from 2025-01-14 to 2026-07-23."
   },
   {
     "type": "industry",

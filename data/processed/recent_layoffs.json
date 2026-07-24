@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-07-23",
+    "company": "Patreon",
+    "num_laid_off": 93,
+    "percentage_laid_off": 0.2,
+    "industry": "Media",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+  },
+  {
+    "date": "2026-07-22",
+    "company": "Amazon",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+  },
+  {
+    "date": "2026-07-22",
+    "company": "Uber",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+  },
+  {
+    "date": "2026-07-22",
+    "company": "Amazon",
+    "num_laid_off": 1110,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
+  },
+  {
     "date": "2026-07-22",
     "company": "Monday.com",
     "num_laid_off": 630,
@@ -78,45 +118,5 @@
     "country": "Nigeria",
     "stage": "Seed",
     "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
-  },
-  {
-    "date": "2026-07-12",
-    "company": "Alarum",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Security",
-    "country": "Israel",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
-  },
-  {
-    "date": "2026-07-11",
-    "company": "GoKwik",
-    "num_laid_off": 100,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "India",
-    "stage": "Unknown",
-    "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
-  },
-  {
-    "date": "2026-07-08",
-    "company": "MyHeritage",
-    "num_laid_off": 500,
-    "percentage_laid_off": 0.15,
-    "industry": "Consumer",
-    "country": "Israel",
-    "stage": "Acquired",
-    "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
-  },
-  {
-    "date": "2026-07-08",
-    "company": "OpenText",
-    "num_laid_off": 400,
-    "percentage_laid_off": 0.02,
-    "industry": "Data",
-    "country": "Canada",
-    "stage": "Post-IPO",
-    "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
   }
 ]

@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-22"
+    "end": "2026-07-23"
   },
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-23",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 9181,
-    "event_count": 24,
-    "headcount_event_count": 15,
-    "company_count": 23,
+    "total_laid_off": 10384,
+    "event_count": 28,
+    "headcount_event_count": 17,
+    "company_count": 25,
     "country_count": 11,
-    "industry_count": 14,
-    "average_layoffs_per_headcount_event": 612.07,
+    "industry_count": 16,
+    "average_layoffs_per_headcount_event": 610.82,
     "median_layoffs_per_headcount_event": 260.0,
     "high_intensity_event_count": 4
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
-      "total_laid_off": 60479,
-      "event_count": 135,
-      "total_laid_off_delta": -51298,
-      "total_laid_off_pct_change": -0.8482,
-      "event_count_delta": -111,
-      "event_count_pct_change": -0.8222,
+      "total_laid_off": 60547,
+      "event_count": 136,
+      "total_laid_off_delta": -50163,
+      "total_laid_off_pct_change": -0.8285,
+      "event_count_delta": -108,
+      "event_count_pct_change": -0.7941,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -18373,
-      "total_laid_off_pct_change": -0.6668,
-      "event_count_delta": -62,
-      "event_count_pct_change": -0.7209,
+      "total_laid_off_delta": -17170,
+      "total_laid_off_pct_change": -0.6231,
+      "event_count_delta": -58,
+      "event_count_pct_change": -0.6744,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Microsoft",
         "total_laid_off": 4800
+      },
+      {
+        "company": "Amazon",
+        "total_laid_off": 1167
       },
       {
         "company": "Samsung",
@@ -76,10 +80,6 @@
         "total_laid_off": 260
       },
       {
-        "company": "Redis",
-        "total_laid_off": 200
-      },
-      {
         "company": "Mews",
         "total_laid_off": 200
       }
@@ -88,6 +88,10 @@
       {
         "industry": "Other",
         "total_laid_off": 4800
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 1167
       },
       {
         "industry": "Hardware",
@@ -120,16 +124,12 @@
       {
         "industry": "Finance",
         "total_laid_off": 100
-      },
-      {
-        "industry": "Legal",
-        "total_laid_off": 60
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 6191
+        "total_laid_off": 7394
       },
       {
         "country": "Israel",
@@ -155,7 +155,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 6986
+        "total_laid_off": 8096
       },
       {
         "stage": "Acquired",
@@ -178,6 +178,10 @@
         "total_laid_off": 135
       },
       {
+        "stage": "Series F",
+        "total_laid_off": 93
+      },
+      {
         "stage": "Series B",
         "total_laid_off": 60
       }
@@ -189,7 +193,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 4
+        "event_count": 5
       },
       {
         "bucket": "25-49%",
@@ -216,6 +220,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": 1110,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
       },
       {
         "date": "2026-07-03",
@@ -288,16 +302,6 @@
         "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
       },
       {
-        "date": "2026-07-07",
-        "company": "Mews",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.15,
-        "industry": "Travel",
-        "country": "Netherlands",
-        "stage": "Series D",
-        "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
-      },
-      {
         "date": "2026-07-13",
         "company": "Redis",
         "num_laid_off": 200,
@@ -310,6 +314,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-23",
+        "company": "Patreon",
+        "num_laid_off": 93,
+        "percentage_laid_off": 0.2,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+      },
+      {
         "date": "2026-07-22",
         "company": "Monday.com",
         "num_laid_off": 630,
@@ -318,6 +332,36 @@
         "country": "Israel",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": 1110,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
       },
       {
         "date": "2026-07-20",
@@ -411,16 +455,6 @@
       },
       {
         "date": "2026-07-08",
-        "company": "MyHeritage",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.15,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
-      },
-      {
-        "date": "2026-07-08",
         "company": "OpenText",
         "num_laid_off": 400,
         "percentage_laid_off": 0.02,
@@ -430,24 +464,14 @@
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
-        "date": "2026-07-07",
-        "company": "Billion Hearts",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.15,
         "industry": "Consumer",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
-      },
-      {
-        "date": "2026-07-07",
-        "company": "PokerStars",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United Kingdom",
+        "country": "Israel",
         "stage": "Acquired",
-        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       },
       {
         "date": "2026-07-07",
@@ -470,44 +494,24 @@
         "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
       },
       {
-        "date": "2026-07-06",
-        "company": "Microsoft",
-        "num_laid_off": 4800,
-        "percentage_laid_off": 0.02,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+        "date": "2026-07-07",
+        "company": "Billion Hearts",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
       },
       {
-        "date": "2026-07-06",
-        "company": "Amazon",
-        "num_laid_off": 57,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
-      },
-      {
-        "date": "2026-07-06",
-        "company": "Yield Guild Games",
-        "num_laid_off": 35,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-      },
-      {
-        "date": "2026-07-06",
-        "company": "Coursera",
+        "date": "2026-07-07",
+        "company": "PokerStars",
         "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "United States",
+        "industry": "Consumer",
+        "country": "United Kingdom",
         "stage": "Acquired",
-        "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+        "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
       }
     ],
     "high_intensity_events": [
@@ -554,9 +558,9 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 24 public layoff events and 9,181 reported layoffs.",
+    "2026-Q3 includes 28 public layoff events and 10,384 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Hardware with 839 reported layoffs.",
+    "The leading named industry is Retail with 1,167 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

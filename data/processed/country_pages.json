@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-20"
+      "end": "2026-07-23"
     },
     "kpis": {
-      "total_laid_off": 202152,
-      "event_count": 339,
-      "headcount_event_count": 225,
-      "company_count": 258,
+      "total_laid_off": 203355,
+      "event_count": 343,
+      "headcount_event_count": 227,
+      "company_count": 259,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 51
@@ -94,13 +94,13 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 6191
+          "total_laid_off": 7394
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 30341
+          "total_laid_off": 31451
         },
         {
           "company": "Intel",
@@ -143,6 +143,46 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-07-23",
+          "company": "Patreon",
+          "num_laid_off": 93,
+          "percentage_laid_off": 0.2,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Amazon",
+          "num_laid_off": 1110,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Amazon",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+        },
+        {
           "date": "2026-07-20",
           "company": "Intel",
           "num_laid_off": null,
@@ -155,7 +195,7 @@
         {
           "date": "2026-07-19",
           "company": "Samsung",
-          "num_laid_off": 100,
+          "num_laid_off": 739,
           "percentage_laid_off": null,
           "industry": "Hardware",
           "country": "United States",
@@ -165,7 +205,7 @@
         {
           "date": "2026-07-19",
           "company": "Samsung",
-          "num_laid_off": 739,
+          "num_laid_off": 100,
           "percentage_laid_off": null,
           "industry": "Hardware",
           "country": "United States",
@@ -194,13 +234,13 @@
         },
         {
           "date": "2026-07-06",
-          "company": "Microsoft",
-          "num_laid_off": 4800,
-          "percentage_laid_off": 0.02,
-          "industry": "Other",
+          "company": "Amazon",
+          "num_laid_off": 57,
+          "percentage_laid_off": null,
+          "industry": "Retail",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+          "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
         },
         {
           "date": "2026-07-06",
@@ -214,13 +254,13 @@
         },
         {
           "date": "2026-07-06",
-          "company": "Amazon",
-          "num_laid_off": 57,
-          "percentage_laid_off": null,
-          "industry": "Retail",
+          "company": "Microsoft",
+          "num_laid_off": 4800,
+          "percentage_laid_off": 0.02,
+          "industry": "Other",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
         },
         {
           "date": "2026-07-06",
@@ -251,50 +291,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.newsobserver.com/news/business/article316281262.html"
-        },
-        {
-          "date": "2026-06-26",
-          "company": "ADP",
-          "num_laid_off": 76,
-          "percentage_laid_off": null,
-          "industry": "HR",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
-        },
-        {
-          "date": "2026-06-26",
-          "company": "CompanyCam",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "Amperity",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
         }
       ]
     },
-    "summary": "United States has 202,152 reported tech layoffs across 339 public events from 2025-01-02 to 2026-07-20."
+    "summary": "United States has 203,355 reported tech layoffs across 343 public events from 2025-01-02 to 2026-07-23."
   },
   {
     "type": "country",
@@ -1394,13 +1394,13 @@
       "end": "2026-07-08"
     },
     "kpis": {
-      "total_laid_off": 2957,
-      "event_count": 18,
-      "headcount_event_count": 11,
+      "total_laid_off": 3025,
+      "event_count": 19,
+      "headcount_event_count": 12,
       "company_count": 13,
       "country_count": 1,
       "industry_count": 10,
-      "high_intensity_event_count": 3
+      "high_intensity_event_count": 4
     },
     "charts": {
       "monthly_trend": [
@@ -1430,7 +1430,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 30
+          "total_laid_off": 98
         },
         {
           "month": "2026-07",
@@ -1447,6 +1447,10 @@
           "total_laid_off": 215
         },
         {
+          "company": "BenchSci",
+          "total_laid_off": 151
+        },
+        {
           "company": "ZoomInfo",
           "total_laid_off": 150
         },
@@ -1461,10 +1465,6 @@
         {
           "company": "Klue",
           "total_laid_off": 85
-        },
-        {
-          "company": "BenchSci",
-          "total_laid_off": 83
         },
         {
           "company": "Tenstorrent",
@@ -1491,6 +1491,16 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+        },
+        {
+          "date": "2026-05-28",
+          "company": "BenchSci",
+          "num_laid_off": 68,
+          "percentage_laid_off": 0.3,
+          "industry": "Healthcare",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
         },
         {
           "date": "2026-05-04",
@@ -1621,20 +1631,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://betakit.com/leddartech-cuts-95-percent-of-staff-in-bid-to-rescue-its-business/"
-        },
-        {
-          "date": "2025-05-06",
-          "company": "OpenText",
-          "num_laid_off": 1600,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
         }
       ]
     },
-    "summary": "Canada has 2,957 reported tech layoffs across 18 public events from 2025-02-05 to 2026-07-08."
+    "summary": "Canada has 3,025 reported tech layoffs across 19 public events from 2025-02-05 to 2026-07-08."
   },
   {
     "type": "country",

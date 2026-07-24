@@ -6,46 +6,66 @@
     "start": "2026-05-28",
     "end": "2026-05-28"
   },
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-23",
   "canonical_url": "/reports/daily/2026-05-28.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 2,
-    "headcount_event_count": 0,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
-    "high_intensity_event_count": 0
+    "total_laid_off": 68,
+    "event_count": 3,
+    "headcount_event_count": 1,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 68.0,
+    "median_layoffs_per_headcount_event": 68.0,
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-05-27",
       "total_laid_off": 77,
       "event_count": 2,
-      "total_laid_off_delta": -77,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -9,
+      "total_laid_off_pct_change": -0.1169,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-05-28",
       "total_laid_off": 200,
       "event_count": 1,
-      "total_laid_off_delta": -200,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": -132,
+      "total_laid_off_pct_change": -0.66,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "BenchSci",
+        "total_laid_off": 68
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Healthcare",
+        "total_laid_off": 68
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Canada",
+        "total_laid_off": 68
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series D",
+        "total_laid_off": 68
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -57,7 +77,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "50-99%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-05-28",
+        "company": "BenchSci",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-05-28",
+        "company": "BenchSci",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+      },
       {
         "date": "2026-05-28",
         "company": "Amdocs",
@@ -93,10 +134,24 @@
         "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-05-28",
+        "company": "BenchSci",
+        "num_laid_off": 68,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+      }
+    ]
   },
   "insights": [
-    "2026-05-28 includes 2 public layoff events and 0 reported layoffs."
+    "2026-05-28 includes 3 public layoff events and 68 reported layoffs.",
+    "The largest company contributor is BenchSci with 68 reported layoffs.",
+    "The leading named industry is Healthcare with 68 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

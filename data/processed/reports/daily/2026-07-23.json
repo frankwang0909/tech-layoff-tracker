@@ -6,18 +6,18 @@
     "start": "2026-07-23",
     "end": "2026-07-23"
   },
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-26",
   "canonical_url": "/reports/daily/2026-07-23.html",
   "kpis": {
     "total_laid_off": 93,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 93.0,
     "median_layoffs_per_headcount_event": 93.0,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 4,
       "total_laid_off_delta": -1647,
       "total_laid_off_pct_change": -0.9466,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.75,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 2,
       "total_laid_off_delta": 28,
       "total_laid_off_pct_change": 0.4308,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -112,14 +112,36 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-23",
+        "company": "BitMEX",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Seychelles",
+        "stage": "Seed",
+        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-07-23",
+        "company": "BitMEX",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Seychelles",
+        "stage": "Seed",
+        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+      }
+    ]
   },
   "insights": [
-    "2026-07-23 includes 1 public layoff events and 93 reported layoffs.",
+    "2026-07-23 includes 2 public layoff events and 93 reported layoffs.",
     "The largest company contributor is Patreon with 93 reported layoffs.",
-    "The leading named industry is Media with 93 reported layoffs."
+    "The leading named industry is Media with 93 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

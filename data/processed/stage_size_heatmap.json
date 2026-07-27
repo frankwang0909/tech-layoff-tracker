@@ -19,7 +19,7 @@
     {
       "stage": "Post-IPO",
       "size_bucket": "<100",
-      "event_count": 41
+      "event_count": 42
     },
     {
       "stage": "Post-IPO",
@@ -44,12 +44,12 @@
     {
       "stage": "Series D+",
       "size_bucket": "<100",
-      "event_count": 31
+      "event_count": 32
     },
     {
       "stage": "Series D+",
       "size_bucket": "100-499",
-      "event_count": 33
+      "event_count": 34
     },
     {
       "stage": "Series D+",
@@ -144,7 +144,7 @@
     {
       "stage": "Unknown",
       "size_bucket": "<100",
-      "event_count": 25
+      "event_count": 26
     },
     {
       "stage": "Unknown",

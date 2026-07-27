@@ -6,17 +6,17 @@
     "start": "2026-07-13",
     "end": "2026-07-19"
   },
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-26",
   "canonical_url": "/reports/weekly/2026-W29.html",
   "kpis": {
-    "total_laid_off": 1299,
-    "event_count": 6,
-    "headcount_event_count": 4,
-    "company_count": 5,
+    "total_laid_off": 1320,
+    "event_count": 7,
+    "headcount_event_count": 5,
+    "company_count": 6,
     "country_count": 3,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 324.75,
-    "median_layoffs_per_headcount_event": 230.0,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 264.0,
+    "median_layoffs_per_headcount_event": 200.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W28",
       "total_laid_off": 6152,
       "event_count": 13,
-      "total_laid_off_delta": -4853,
-      "total_laid_off_pct_change": -0.7888,
-      "event_count_delta": -7,
-      "event_count_pct_change": -0.5385,
+      "total_laid_off_delta": -4832,
+      "total_laid_off_pct_change": -0.7854,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.4615,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W29",
       "total_laid_off": 701,
       "event_count": 9,
-      "total_laid_off_delta": 598,
-      "total_laid_off_pct_change": 0.8531,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.3333,
+      "total_laid_off_delta": 619,
+      "total_laid_off_pct_change": 0.883,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.2222,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "Redis",
         "total_laid_off": 200
+      },
+      {
+        "company": "Rapid7",
+        "total_laid_off": 21
       }
     ],
     "industry_top": [
@@ -68,18 +72,22 @@
       {
         "industry": "Data",
         "total_laid_off": 200
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 21
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1299
+        "total_laid_off": 1320
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1099
+        "total_laid_off": 1120
       },
       {
         "stage": "Series G",
@@ -89,7 +97,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -150,6 +158,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+      },
+      {
+        "date": "2026-07-14",
+        "company": "Rapid7",
+        "num_laid_off": 21,
+        "percentage_laid_off": 0.01,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
       }
     ],
     "recent_events": [
@@ -194,6 +212,16 @@
         "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
       },
       {
+        "date": "2026-07-14",
+        "company": "Rapid7",
+        "num_laid_off": 21,
+        "percentage_laid_off": 0.01,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
+      },
+      {
         "date": "2026-07-13",
         "company": "Redis",
         "num_laid_off": 200,
@@ -228,7 +256,7 @@
     ]
   },
   "insights": [
-    "2026-W29 includes 6 public layoff events and 1,299 reported layoffs.",
+    "2026-W29 includes 7 public layoff events and 1,320 reported layoffs.",
     "The largest company contributor is Samsung with 839 reported layoffs.",
     "The leading named industry is Hardware with 839 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-20",
-    "end": "2026-07-23"
+    "end": "2026-07-26"
   },
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-26",
   "canonical_url": "/reports/weekly/2026-W30.html",
   "kpis": {
-    "total_laid_off": 1833,
-    "event_count": 6,
-    "headcount_event_count": 3,
-    "company_count": 5,
-    "country_count": 2,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 611.0,
-    "median_layoffs_per_headcount_event": 630.0,
-    "high_intensity_event_count": 0
+    "total_laid_off": 2126,
+    "event_count": 12,
+    "headcount_event_count": 6,
+    "company_count": 11,
+    "country_count": 3,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 354.33,
+    "median_layoffs_per_headcount_event": 143.0,
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W29",
-      "total_laid_off": 1299,
-      "event_count": 6,
-      "total_laid_off_delta": 534,
-      "total_laid_off_pct_change": 0.4111,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off": 1320,
+      "event_count": 7,
+      "total_laid_off_delta": 806,
+      "total_laid_off_pct_change": 0.6106,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.7143,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W30",
       "total_laid_off": 112,
       "event_count": 6,
-      "total_laid_off_delta": 1721,
-      "total_laid_off_pct_change": 15.3661,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 2014,
+      "total_laid_off_pct_change": 17.9821,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -52,8 +52,20 @@
         "total_laid_off": 630
       },
       {
+        "company": "Magic Leap",
+        "total_laid_off": 193
+      },
+      {
         "company": "Patreon",
         "total_laid_off": 93
+      },
+      {
+        "company": "WSC",
+        "total_laid_off": 70
+      },
+      {
+        "company": "Papaya Gaming",
+        "total_laid_off": 30
       }
     ],
     "industry_top": [
@@ -66,18 +78,22 @@
         "total_laid_off": 630
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 223
+      },
+      {
         "industry": "Media",
-        "total_laid_off": 93
+        "total_laid_off": 163
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1203
+        "total_laid_off": 1396
       },
       {
         "country": "Israel",
-        "total_laid_off": 630
+        "total_laid_off": 730
       }
     ],
     "stage_top": [
@@ -86,18 +102,30 @@
         "total_laid_off": 1740
       },
       {
+        "stage": "Series E",
+        "total_laid_off": 193
+      },
+      {
         "stage": "Series F",
         "total_laid_off": 93
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 70
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 30
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -136,17 +164,15 @@
         "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
       },
       {
-        "date": "2026-07-23",
-        "company": "Patreon",
-        "num_laid_off": 93,
-        "percentage_laid_off": 0.2,
-        "industry": "Media",
+        "date": "2026-07-20",
+        "company": "Magic Leap",
+        "num_laid_off": 193,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
-      }
-    ],
-    "recent_events": [
+        "stage": "Series E",
+        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+      },
       {
         "date": "2026-07-23",
         "company": "Patreon",
@@ -156,6 +182,68 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-21",
+        "company": "WSC",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
+      },
+      {
+        "date": "2026-07-26",
+        "company": "Papaya Gaming",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.07,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-07-26",
+        "company": "Papaya Gaming",
+        "num_laid_off": 30,
+        "percentage_laid_off": 0.07,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Unknown",
+        "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
+      },
+      {
+        "date": "2026-07-26",
+        "company": "Dutch",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
+      },
+      {
+        "date": "2026-07-23",
+        "company": "Patreon",
+        "num_laid_off": 93,
+        "percentage_laid_off": 0.2,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-23",
+        "company": "BitMEX",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Seychelles",
+        "stage": "Seed",
+        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
       },
       {
         "date": "2026-07-22",
@@ -198,6 +286,36 @@
         "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
       },
       {
+        "date": "2026-07-21",
+        "company": "WSC",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
+      },
+      {
+        "date": "2026-07-21",
+        "company": "Movement Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+      },
+      {
+        "date": "2026-07-20",
+        "company": "Magic Leap",
+        "num_laid_off": 193,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+      },
+      {
         "date": "2026-07-20",
         "company": "Intel",
         "num_laid_off": null,
@@ -208,12 +326,34 @@
         "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-07-23",
+        "company": "BitMEX",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Seychelles",
+        "stage": "Seed",
+        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+      },
+      {
+        "date": "2026-07-21",
+        "company": "Movement Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+      }
+    ]
   },
   "insights": [
-    "2026-W30 includes 6 public layoff events and 1,833 reported layoffs.",
+    "2026-W30 includes 12 public layoff events and 2,126 reported layoffs.",
     "The largest company contributor is Amazon with 1,110 reported layoffs.",
-    "The leading named industry is Retail with 1,110 reported layoffs."
+    "The leading named industry is Retail with 1,110 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

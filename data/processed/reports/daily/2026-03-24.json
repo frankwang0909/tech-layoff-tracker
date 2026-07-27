@@ -6,18 +6,18 @@
     "start": "2026-03-24",
     "end": "2026-03-24"
   },
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-26",
   "canonical_url": "/reports/daily/2026-03-24.html",
   "kpis": {
     "total_laid_off": 1100,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 2,
-    "company_count": 3,
+    "company_count": 4,
     "country_count": 2,
-    "industry_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 550.0,
     "median_layoffs_per_headcount_event": 550.0,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 1,
       "total_laid_off_delta": 1085,
       "total_laid_off_pct_change": 72.3333,
-      "event_count_delta": 2,
-      "event_count_pct_change": 2.0,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
       "note": null
     },
     "same_period_last_year": {
@@ -147,6 +147,16 @@
       },
       {
         "date": "2026-03-24",
+        "company": "Flex AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Fitness",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-24",
         "company": "OpenText",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -156,12 +166,24 @@
         "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-03-24",
+        "company": "Flex AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Fitness",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
+      }
+    ]
   },
   "insights": [
-    "2026-03-24 includes 3 public layoff events and 1,100 reported layoffs.",
+    "2026-03-24 includes 4 public layoff events and 1,100 reported layoffs.",
     "The largest company contributor is Epic Games with 1,000 reported layoffs.",
-    "The leading named industry is Consumer with 1,000 reported layoffs."
+    "The leading named industry is Consumer with 1,000 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

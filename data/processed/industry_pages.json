@@ -557,13 +557,13 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-07-08"
+      "end": "2026-07-26"
     },
     "kpis": {
-      "total_laid_off": 27053,
-      "event_count": 80,
-      "headcount_event_count": 53,
-      "company_count": 53,
+      "total_laid_off": 27276,
+      "event_count": 82,
+      "headcount_event_count": 55,
+      "company_count": 55,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 10
@@ -640,7 +640,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 800
+          "total_laid_off": 1023
         }
       ],
       "company_top": [
@@ -657,11 +657,11 @@
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Snap",
           "total_laid_off": 1000
         },
         {
-          "company": "Snap",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
@@ -677,17 +677,37 @@
           "total_laid_off": 580
         },
         {
-          "company": "Head Digital Works",
+          "company": "MyHeritage",
           "total_laid_off": 500
         },
         {
-          "company": "MyHeritage",
+          "company": "Head Digital Works",
           "total_laid_off": 500
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-26",
+          "company": "Papaya Gaming",
+          "num_laid_off": 30,
+          "percentage_laid_off": 0.07,
+          "industry": "Consumer",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
+        },
+        {
+          "date": "2026-07-20",
+          "company": "Magic Leap",
+          "num_laid_off": 193,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+        },
         {
           "date": "2026-07-08",
           "company": "MyHeritage",
@@ -700,16 +720,6 @@
         },
         {
           "date": "2026-07-07",
-          "company": "PokerStars",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United Kingdom",
-          "stage": "Acquired",
-          "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
-        },
-        {
-          "date": "2026-07-07",
           "company": "Billion Hearts",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -717,6 +727,16 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+        },
+        {
+          "date": "2026-07-07",
+          "company": "PokerStars",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
         },
         {
           "date": "2026-07-01",
@@ -790,16 +810,6 @@
         },
         {
           "date": "2026-05-07",
-          "company": "Truecaller",
-          "num_laid_off": 70,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "Sweden",
-          "stage": "Post-IPO",
-          "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-        },
-        {
-          "date": "2026-05-07",
           "company": "Ticketmaster",
           "num_laid_off": 350,
           "percentage_laid_off": 0.08,
@@ -807,6 +817,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+        },
+        {
+          "date": "2026-05-07",
+          "company": "Truecaller",
+          "num_laid_off": 70,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "Sweden",
+          "stage": "Post-IPO",
+          "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
         },
         {
           "date": "2026-04-16",
@@ -817,30 +837,10 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Snap",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.16,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
-        },
-        {
-          "date": "2026-04-13",
-          "company": "Eventbrite",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
         }
       ]
     },
-    "summary": "Consumer has 27,053 reported tech layoffs across 80 public events from 2025-01-27 to 2026-07-08."
+    "summary": "Consumer has 27,276 reported tech layoffs across 82 public events from 2025-01-27 to 2026-07-26."
   },
   {
     "type": "industry",
@@ -1914,13 +1914,13 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-07-12"
+      "end": "2026-07-14"
     },
     "kpis": {
-      "total_laid_off": 4307,
-      "event_count": 32,
-      "headcount_event_count": 24,
-      "company_count": 28,
+      "total_laid_off": 4328,
+      "event_count": 33,
+      "headcount_event_count": 25,
+      "company_count": 29,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -1982,6 +1982,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 80
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 21
         }
       ],
       "company_top": [
@@ -2029,6 +2033,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-14",
+          "company": "Rapid7",
+          "num_laid_off": 21,
+          "percentage_laid_off": 0.01,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
+        },
         {
           "date": "2026-07-12",
           "company": "Alarum",
@@ -2168,20 +2182,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.calcalistech.com/ctechnews/article/rjpmvvqf11l"
-        },
-        {
-          "date": "2026-02-17",
-          "company": "Cyberark",
-          "num_laid_off": 500,
-          "percentage_laid_off": 0.12,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/hy707511ube"
         }
       ]
     },
-    "summary": "Security has 4,307 reported tech layoffs across 32 public events from 2025-01-07 to 2026-07-12."
+    "summary": "Security has 4,328 reported tech layoffs across 33 public events from 2025-01-07 to 2026-07-14."
   },
   {
     "type": "industry",
@@ -4251,16 +4255,16 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-16"
+      "end": "2026-07-23"
     },
     "kpis": {
       "total_laid_off": 1422,
-      "event_count": 22,
+      "event_count": 24,
       "headcount_event_count": 11,
-      "company_count": 20,
-      "country_count": 9,
+      "company_count": 22,
+      "country_count": 10,
       "industry_count": 1,
-      "high_intensity_event_count": 6
+      "high_intensity_event_count": 8
     },
     "charts": {
       "monthly_trend": [
@@ -4342,6 +4346,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-23",
+          "company": "BitMEX",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "Seychelles",
+          "stage": "Seed",
+          "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+        },
+        {
+          "date": "2026-07-21",
+          "company": "Movement Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+        },
         {
           "date": "2026-07-16",
           "company": "Polygon",
@@ -4471,30 +4495,253 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
-        },
-        {
-          "date": "2026-03-20",
-          "company": "Gemini",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.3,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
-        },
-        {
-          "date": "2026-03-19",
-          "company": "Crypto.com",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.12,
-          "industry": "Crypto",
-          "country": "Singapore",
-          "stage": "Unknown",
-          "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
         }
       ]
     },
-    "summary": "Crypto has 1,422 reported tech layoffs across 22 public events from 2025-02-05 to 2026-07-16."
+    "summary": "Crypto has 1,422 reported tech layoffs across 24 public events from 2025-02-05 to 2026-07-23."
+  },
+  {
+    "type": "industry",
+    "name": "Media",
+    "slug": "media",
+    "title": "Tech Layoffs by Industry: Media",
+    "canonical_url": "/industries/media.html",
+    "date_range": {
+      "start": "2025-01-14",
+      "end": "2026-07-23"
+    },
+    "kpis": {
+      "total_laid_off": 1323,
+      "event_count": 14,
+      "headcount_event_count": 11,
+      "company_count": 13,
+      "country_count": 5,
+      "industry_count": 1,
+      "high_intensity_event_count": 3
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 75
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 350
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 170
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 15
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 150
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 300
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 163
+        }
+      ],
+      "company_top": [
+        {
+          "company": "VerSe Innovation",
+          "total_laid_off": 350
+        },
+        {
+          "company": "Artlist",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Pocket FM",
+          "total_laid_off": 175
+        },
+        {
+          "company": "Epidemic Sound",
+          "total_laid_off": 150
+        },
+        {
+          "company": "Elementor",
+          "total_laid_off": 100
+        },
+        {
+          "company": "Wondery",
+          "total_laid_off": 100
+        },
+        {
+          "company": "Patreon",
+          "total_laid_off": 93
+        },
+        {
+          "company": "Kaltura",
+          "total_laid_off": 70
+        },
+        {
+          "company": "WSC",
+          "total_laid_off": 70
+        },
+        {
+          "company": "Spotify",
+          "total_laid_off": 15
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-23",
+          "company": "Patreon",
+          "num_laid_off": 93,
+          "percentage_laid_off": 0.2,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+        },
+        {
+          "date": "2026-07-21",
+          "company": "WSC",
+          "num_laid_off": 70,
+          "percentage_laid_off": 0.1,
+          "industry": "Media",
+          "country": "Israel",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
+        },
+        {
+          "date": "2026-06-29",
+          "company": "Elementor",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.3,
+          "industry": "Media",
+          "country": "Israel",
+          "stage": "Series B",
+          "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Artlist",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.4,
+          "industry": "Media",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+        },
+        {
+          "date": "2026-05-06",
+          "company": "Pocket FM",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.1,
+          "industry": "Media",
+          "country": "India",
+          "stage": "Series D",
+          "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+        },
+        {
+          "date": "2026-04-21",
+          "company": "Epidemic Sound",
+          "num_laid_off": 150,
+          "percentage_laid_off": 0.33,
+          "industry": "Media",
+          "country": "Sweden",
+          "stage": "Private Equity",
+          "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+        },
+        {
+          "date": "2026-03-23",
+          "company": "Spotify",
+          "num_laid_off": 15,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "Sweden",
+          "stage": "Post-IPO",
+          "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+        },
+        {
+          "date": "2025-08-12",
+          "company": "Crunchyroll",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "Japan",
+          "stage": "Acquired",
+          "source": "https://www.thewrap.com/crunchyroll-restructuring-layoffs/"
+        },
+        {
+          "date": "2025-08-07",
+          "company": "Kaltura",
+          "num_laid_off": 70,
+          "percentage_laid_off": 0.1,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/6a8duhohw"
+        },
+        {
+          "date": "2025-08-04",
+          "company": "Wondery",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://variety.com/2025/biz/news/amazon-reorganizes-audio-wondery-audible-jen-sargent-exit-1236477796/"
+        },
+        {
+          "date": "2025-05-29",
+          "company": "Business Insider",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.adweek.com/media/business-insider-layoffs-traffic-sensitivity/"
+        },
+        {
+          "date": "2025-05-18",
+          "company": "VerSe Innovation",
+          "num_laid_off": 350,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "India",
+          "stage": "Series J",
+          "source": "https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/"
+        },
+        {
+          "date": "2025-01-16",
+          "company": "Pocket FM",
+          "num_laid_off": 75,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "India",
+          "stage": "Series D",
+          "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
+        },
+        {
+          "date": "2025-01-14",
+          "company": "TechCrunch",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.businessinsider.com/techcrunch-cuts-staff-amid-evolving-needs-2025-1"
+        }
+      ]
+    },
+    "summary": "Media has 1,323 reported tech layoffs across 14 public events from 2025-01-14 to 2026-07-23."
   },
   {
     "type": "industry",
@@ -4642,235 +4889,6 @@
       ]
     },
     "summary": "Product has 1,273 reported tech layoffs across 8 public events from 2025-01-21 to 2026-07-22."
-  },
-  {
-    "type": "industry",
-    "name": "Media",
-    "slug": "media",
-    "title": "Tech Layoffs by Industry: Media",
-    "canonical_url": "/industries/media.html",
-    "date_range": {
-      "start": "2025-01-14",
-      "end": "2026-07-23"
-    },
-    "kpis": {
-      "total_laid_off": 1253,
-      "event_count": 13,
-      "headcount_event_count": 10,
-      "company_count": 12,
-      "country_count": 5,
-      "industry_count": 1,
-      "high_intensity_event_count": 3
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 75
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 350
-        },
-        {
-          "month": "2025-08",
-          "total_laid_off": 170
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 15
-        },
-        {
-          "month": "2026-04",
-          "total_laid_off": 150
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 300
-        },
-        {
-          "month": "2026-07",
-          "total_laid_off": 93
-        }
-      ],
-      "company_top": [
-        {
-          "company": "VerSe Innovation",
-          "total_laid_off": 350
-        },
-        {
-          "company": "Artlist",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Pocket FM",
-          "total_laid_off": 175
-        },
-        {
-          "company": "Epidemic Sound",
-          "total_laid_off": 150
-        },
-        {
-          "company": "Elementor",
-          "total_laid_off": 100
-        },
-        {
-          "company": "Wondery",
-          "total_laid_off": 100
-        },
-        {
-          "company": "Patreon",
-          "total_laid_off": 93
-        },
-        {
-          "company": "Kaltura",
-          "total_laid_off": 70
-        },
-        {
-          "company": "Spotify",
-          "total_laid_off": 15
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-07-23",
-          "company": "Patreon",
-          "num_laid_off": 93,
-          "percentage_laid_off": 0.2,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
-        },
-        {
-          "date": "2026-06-29",
-          "company": "Elementor",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.3,
-          "industry": "Media",
-          "country": "Israel",
-          "stage": "Series B",
-          "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Artlist",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.4,
-          "industry": "Media",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "Pocket FM",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.1,
-          "industry": "Media",
-          "country": "India",
-          "stage": "Series D",
-          "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
-        },
-        {
-          "date": "2026-04-21",
-          "company": "Epidemic Sound",
-          "num_laid_off": 150,
-          "percentage_laid_off": 0.33,
-          "industry": "Media",
-          "country": "Sweden",
-          "stage": "Private Equity",
-          "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
-        },
-        {
-          "date": "2026-03-23",
-          "company": "Spotify",
-          "num_laid_off": 15,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "Sweden",
-          "stage": "Post-IPO",
-          "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
-        },
-        {
-          "date": "2025-08-12",
-          "company": "Crunchyroll",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "Japan",
-          "stage": "Acquired",
-          "source": "https://www.thewrap.com/crunchyroll-restructuring-layoffs/"
-        },
-        {
-          "date": "2025-08-07",
-          "company": "Kaltura",
-          "num_laid_off": 70,
-          "percentage_laid_off": 0.1,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/6a8duhohw"
-        },
-        {
-          "date": "2025-08-04",
-          "company": "Wondery",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://variety.com/2025/biz/news/amazon-reorganizes-audio-wondery-audible-jen-sargent-exit-1236477796/"
-        },
-        {
-          "date": "2025-05-29",
-          "company": "Business Insider",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.adweek.com/media/business-insider-layoffs-traffic-sensitivity/"
-        },
-        {
-          "date": "2025-05-18",
-          "company": "VerSe Innovation",
-          "num_laid_off": 350,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "India",
-          "stage": "Series J",
-          "source": "https://inc42.com/buzz/josh-dailyhunt-parent-verse-innovation-lays-off-350-employees/"
-        },
-        {
-          "date": "2025-01-16",
-          "company": "Pocket FM",
-          "num_laid_off": 75,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "India",
-          "stage": "Series D",
-          "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
-        },
-        {
-          "date": "2025-01-14",
-          "company": "TechCrunch",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.businessinsider.com/techcrunch-cuts-staff-amid-evolving-needs-2025-1"
-        }
-      ]
-    },
-    "summary": "Media has 1,253 reported tech layoffs across 13 public events from 2025-01-14 to 2026-07-23."
   },
   {
     "type": "industry",
@@ -5607,12 +5625,12 @@
     },
     "kpis": {
       "total_laid_off": 305,
-      "event_count": 4,
+      "event_count": 5,
       "headcount_event_count": 2,
-      "company_count": 2,
-      "country_count": 2,
+      "company_count": 3,
+      "country_count": 3,
       "industry_count": 1,
-      "high_intensity_event_count": 1
+      "high_intensity_event_count": 2
     },
     "charts": {
       "monthly_trend": [
@@ -5643,6 +5661,16 @@
           "country": "Cyprus",
           "stage": "Unknown",
           "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
+        },
+        {
+          "date": "2026-03-24",
+          "company": "Flex AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Fitness",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
         },
         {
           "date": "2026-01-30",
@@ -5676,6 +5704,6 @@
         }
       ]
     },
-    "summary": "Fitness has 305 reported tech layoffs across 4 public events from 2025-03-07 to 2026-04-03."
+    "summary": "Fitness has 305 reported tech layoffs across 5 public events from 2025-03-07 to 2026-04-03."
   }
 ]

@@ -6,17 +6,17 @@
     "start": "2026-07-20",
     "end": "2026-07-20"
   },
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-26",
   "canonical_url": "/reports/daily/2026-07-20.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
+    "total_laid_off": 193,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 193.0,
+    "median_layoffs_per_headcount_event": 193.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-07-19",
       "total_laid_off": 839,
       "event_count": 2,
-      "total_laid_off_delta": -839,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -646,
+      "total_laid_off_pct_change": -0.77,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -42,10 +42,30 @@
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Magic Leap",
+        "total_laid_off": 193
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 193
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 193
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series E",
+        "total_laid_off": 193
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-07-20",
+        "company": "Magic Leap",
+        "num_laid_off": 193,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-07-20",
+        "company": "Magic Leap",
+        "num_laid_off": 193,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+      },
       {
         "date": "2026-07-20",
         "company": "Intel",
@@ -86,7 +127,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-07-20 includes 1 public layoff events and 0 reported layoffs."
+    "2026-07-20 includes 2 public layoff events and 193 reported layoffs.",
+    "The largest company contributor is Magic Leap with 193 reported layoffs.",
+    "The leading named industry is Consumer with 193 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-26",
+    "company": "Papaya Gaming",
+    "num_laid_off": 30,
+    "percentage_laid_off": 0.07,
+    "industry": "Consumer",
+    "country": "Israel",
+    "stage": "Unknown",
+    "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
+  },
+  {
+    "date": "2026-07-26",
+    "company": "Dutch",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Series B",
+    "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
+  },
+  {
     "date": "2026-07-23",
     "company": "Patreon",
     "num_laid_off": 93,
@@ -10,24 +30,14 @@
     "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
   },
   {
-    "date": "2026-07-22",
-    "company": "Amazon",
+    "date": "2026-07-23",
+    "company": "BitMEX",
     "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
-  },
-  {
-    "date": "2026-07-22",
-    "company": "Uber",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Transportation",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+    "percentage_laid_off": 1.0,
+    "industry": "Crypto",
+    "country": "Seychelles",
+    "stage": "Seed",
+    "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
   },
   {
     "date": "2026-07-22",
@@ -50,6 +60,56 @@
     "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
   },
   {
+    "date": "2026-07-22",
+    "company": "Amazon",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+  },
+  {
+    "date": "2026-07-22",
+    "company": "Uber",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+  },
+  {
+    "date": "2026-07-21",
+    "company": "WSC",
+    "num_laid_off": 70,
+    "percentage_laid_off": 0.1,
+    "industry": "Media",
+    "country": "Israel",
+    "stage": "Series D",
+    "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
+  },
+  {
+    "date": "2026-07-21",
+    "company": "Movement Labs",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Series B",
+    "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+  },
+  {
+    "date": "2026-07-20",
+    "company": "Magic Leap",
+    "num_laid_off": 193,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+  },
+  {
     "date": "2026-07-20",
     "company": "Intel",
     "num_laid_off": null,
@@ -58,65 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
-  },
-  {
-    "date": "2026-07-19",
-    "company": "Samsung",
-    "num_laid_off": 739,
-    "percentage_laid_off": null,
-    "industry": "Hardware",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
-  },
-  {
-    "date": "2026-07-19",
-    "company": "Samsung",
-    "num_laid_off": 100,
-    "percentage_laid_off": null,
-    "industry": "Hardware",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
-  },
-  {
-    "date": "2026-07-16",
-    "company": "Polygon",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
-    "country": "Cayman Islands",
-    "stage": "Unknown",
-    "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
-  },
-  {
-    "date": "2026-07-15",
-    "company": "Sprout Social",
-    "num_laid_off": 260,
-    "percentage_laid_off": 0.2,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
-  },
-  {
-    "date": "2026-07-13",
-    "company": "Redis",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Data",
-    "country": "United States",
-    "stage": "Series G",
-    "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
-  },
-  {
-    "date": "2026-07-13",
-    "company": "Gigbanc",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Finance",
-    "country": "Nigeria",
-    "stage": "Seed",
-    "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
   }
 ]

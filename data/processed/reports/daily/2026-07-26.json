@@ -6,17 +6,17 @@
     "start": "2026-07-26",
     "end": "2026-07-26"
   },
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-07-28",
   "canonical_url": "/reports/daily/2026-07-26.html",
   "kpis": {
-    "total_laid_off": 30,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 30.0,
-    "median_layoffs_per_headcount_event": 30.0,
+    "total_laid_off": 130,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 65.0,
+    "median_layoffs_per_headcount_event": 65.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -44,11 +44,19 @@
   "charts": {
     "company_top": [
       {
+        "company": "Nothing",
+        "total_laid_off": 100
+      },
+      {
         "company": "Papaya Gaming",
         "total_laid_off": 30
       }
     ],
     "industry_top": [
+      {
+        "industry": "Hardware",
+        "total_laid_off": 100
+      },
       {
         "industry": "Consumer",
         "total_laid_off": 30
@@ -56,11 +64,19 @@
     ],
     "country_top": [
       {
+        "country": "United Kingdom",
+        "total_laid_off": 100
+      },
+      {
         "country": "Israel",
         "total_laid_off": 30
       }
     ],
     "stage_top": [
+      {
+        "stage": "Series C",
+        "total_laid_off": 100
+      },
       {
         "stage": "Unknown",
         "total_laid_off": 30
@@ -73,7 +89,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -93,6 +109,16 @@
     "largest_events": [
       {
         "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+      },
+      {
+        "date": "2026-07-26",
         "company": "Papaya Gaming",
         "num_laid_off": 30,
         "percentage_laid_off": 0.07,
@@ -103,6 +129,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+      },
       {
         "date": "2026-07-26",
         "company": "Papaya Gaming",
@@ -127,9 +163,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-07-26 includes 2 public layoff events and 30 reported layoffs.",
-    "The largest company contributor is Papaya Gaming with 30 reported layoffs.",
-    "The leading named industry is Consumer with 30 reported layoffs."
+    "2026-07-26 includes 3 public layoff events and 130 reported layoffs.",
+    "The largest company contributor is Nothing with 100 reported layoffs.",
+    "The leading named industry is Hardware with 100 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

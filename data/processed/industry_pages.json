@@ -7,14 +7,14 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-07-20"
+      "end": "2026-07-26"
     },
     "kpis": {
-      "total_laid_off": 50230,
-      "event_count": 23,
-      "headcount_event_count": 18,
-      "company_count": 15,
-      "country_count": 6,
+      "total_laid_off": 50330,
+      "event_count": 24,
+      "headcount_event_count": 19,
+      "company_count": 16,
+      "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 1
     },
@@ -70,7 +70,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 839
+          "total_laid_off": 939
         }
       ],
       "company_top": [
@@ -118,6 +118,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-26",
+          "company": "Nothing",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.12,
+          "industry": "Hardware",
+          "country": "United Kingdom",
+          "stage": "Series C",
+          "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+        },
         {
           "date": "2026-07-20",
           "company": "Intel",
@@ -257,20 +267,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.scmp.com/tech/big-tech/article/3321613/micron-starts-lay-offs-china-us-memory-chipmaker-retreats-mobile-nand-market"
-        },
-        {
-          "date": "2025-07-16",
-          "company": "Lenovo",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.03,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.newsobserver.com/news/business/article310699130.html"
         }
       ]
     },
-    "summary": "Hardware has 50,230 reported tech layoffs across 23 public events from 2025-02-04 to 2026-07-20."
+    "summary": "Hardware has 50,330 reported tech layoffs across 24 public events from 2025-02-04 to 2026-07-26."
   },
   {
     "type": "industry",
@@ -560,7 +560,7 @@
       "end": "2026-07-26"
     },
     "kpis": {
-      "total_laid_off": 27276,
+      "total_laid_off": 26851,
       "event_count": 82,
       "headcount_event_count": 55,
       "company_count": 55,
@@ -640,7 +640,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 1023
+          "total_laid_off": 598
         }
       ],
       "company_top": [
@@ -677,12 +677,12 @@
           "total_laid_off": 580
         },
         {
-          "company": "MyHeritage",
+          "company": "Head Digital Works",
           "total_laid_off": 500
         },
         {
-          "company": "Head Digital Works",
-          "total_laid_off": 500
+          "company": "GamesKraft",
+          "total_laid_off": 400
         }
       ]
     },
@@ -711,7 +711,7 @@
         {
           "date": "2026-07-08",
           "company": "MyHeritage",
-          "num_laid_off": 500,
+          "num_laid_off": 75,
           "percentage_laid_off": 0.15,
           "industry": "Consumer",
           "country": "Israel",
@@ -840,7 +840,7 @@
         }
       ]
     },
-    "summary": "Consumer has 27,276 reported tech layoffs across 82 public events from 2025-01-27 to 2026-07-26."
+    "summary": "Consumer has 26,851 reported tech layoffs across 82 public events from 2025-01-27 to 2026-07-26."
   },
   {
     "type": "industry",
@@ -3230,16 +3230,16 @@
     "canonical_url": "/industries/ai.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-06-10"
+      "end": "2026-07-28"
     },
     "kpis": {
-      "total_laid_off": 2823,
-      "event_count": 21,
-      "headcount_event_count": 17,
+      "total_laid_off": 2843,
+      "event_count": 22,
+      "headcount_event_count": 18,
       "company_count": 20,
       "country_count": 6,
       "industry_count": 1,
-      "high_intensity_event_count": 8
+      "high_intensity_event_count": 9
     },
     "charts": {
       "monthly_trend": [
@@ -3294,6 +3294,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 111
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 20
         }
       ],
       "company_top": [
@@ -3315,7 +3319,7 @@
         },
         {
           "company": "Krutrim",
-          "total_laid_off": 150
+          "total_laid_off": 170
         },
         {
           "company": "Veritone",
@@ -3341,6 +3345,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-28",
+          "company": "Krutrim",
+          "num_laid_off": 20,
+          "percentage_laid_off": 0.5,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+        },
         {
           "date": "2026-06-10",
           "company": "Veritone",
@@ -3480,20 +3494,10 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
-        },
-        {
-          "date": "2025-05-20",
-          "company": "Builder.ai",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "United Kingdom",
-          "stage": "Series D",
-          "source": "https://techcrunch.com/2025/05/20/once-worth-over-1b-microsoft-backed-builder-ai-is-running-out-of-money/"
         }
       ]
     },
-    "summary": "AI has 2,823 reported tech layoffs across 21 public events from 2025-02-05 to 2026-06-10."
+    "summary": "AI has 2,843 reported tech layoffs across 22 public events from 2025-02-05 to 2026-07-28."
   },
   {
     "type": "industry",
@@ -4062,462 +4066,22 @@
   },
   {
     "type": "industry",
-    "name": "Support",
-    "slug": "support",
-    "title": "Tech Layoffs by Industry: Support",
-    "canonical_url": "/industries/support.html",
-    "date_range": {
-      "start": "2025-01-20",
-      "end": "2026-06-11"
-    },
-    "kpis": {
-      "total_laid_off": 1494,
-      "event_count": 10,
-      "headcount_event_count": 8,
-      "company_count": 8,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 2
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 66
-        },
-        {
-          "month": "2025-02",
-          "total_laid_off": 551
-        },
-        {
-          "month": "2025-04",
-          "total_laid_off": 123
-        },
-        {
-          "month": "2025-12",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 500
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 54
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Freshworks",
-          "total_laid_off": 500
-        },
-        {
-          "company": "Sprinklr",
-          "total_laid_off": 500
-        },
-        {
-          "company": "Zendesk",
-          "total_laid_off": 151
-        },
-        {
-          "company": "Five9",
-          "total_laid_off": 123
-        },
-        {
-          "company": "Yellow.ai",
-          "total_laid_off": 100
-        },
-        {
-          "company": "Unbabel",
-          "total_laid_off": 66
-        },
-        {
-          "company": "ServiceNow",
-          "total_laid_off": 54
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-06-11",
-          "company": "ServiceNow",
-          "num_laid_off": 54,
-          "percentage_laid_off": null,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
-        },
-        {
-          "date": "2026-05-28",
-          "company": "Amdocs",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.07,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "Freshworks",
-          "num_laid_off": 500,
-          "percentage_laid_off": 0.11,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
-        },
-        {
-          "date": "2026-03-24",
-          "company": "Zendesk",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "Internal memo"
-        },
-        {
-          "date": "2025-12-23",
-          "company": "Yellow.ai",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.3,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://inc42.com/buzz/exclusive-yellow-ai-lays-off-over-100-employees-amid-automation-push/"
-        },
-        {
-          "date": "2025-08-12",
-          "company": "Amdocs",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/legpd5dv7"
-        },
-        {
-          "date": "2025-04-03",
-          "company": "Five9",
-          "num_laid_off": 123,
-          "percentage_laid_off": 0.04,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/five9-to-cut-4-of-workforce-cd4da325"
-        },
-        {
-          "date": "2025-02-21",
-          "company": "Zendesk",
-          "num_laid_off": 51,
-          "percentage_laid_off": null,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.kron4.com/news/bay-area/zendesk-lays-off-dozens-of-employees-at-sf-headquarters/"
-        },
-        {
-          "date": "2025-02-06",
-          "company": "Sprinklr",
-          "num_laid_off": 500,
-          "percentage_laid_off": 0.15,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/"
-        },
-        {
-          "date": "2025-01-20",
-          "company": "Unbabel",
-          "num_laid_off": 66,
-          "percentage_laid_off": 0.25,
-          "industry": "Support",
-          "country": "Portugal",
-          "stage": "Series C",
-          "source": "https://observador.pt/2025/01/20/unbabel-reduz-equipa-tecnologica-portuguesa-fala-processo-de-reestruturacao-em-curso/"
-        }
-      ]
-    },
-    "summary": "Support has 1,494 reported tech layoffs across 10 public events from 2025-01-20 to 2026-06-11."
-  },
-  {
-    "type": "industry",
-    "name": "Crypto",
-    "slug": "crypto",
-    "title": "Tech Layoffs by Industry: Crypto",
-    "canonical_url": "/industries/crypto.html",
-    "date_range": {
-      "start": "2025-02-05",
-      "end": "2026-07-23"
-    },
-    "kpis": {
-      "total_laid_off": 1422,
-      "event_count": 24,
-      "headcount_event_count": 11,
-      "company_count": 22,
-      "country_count": 10,
-      "industry_count": 1,
-      "high_intensity_event_count": 8
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 76
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 60
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 20
-        },
-        {
-          "month": "2026-04",
-          "total_laid_off": 37
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 850
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 144
-        },
-        {
-          "month": "2026-07",
-          "total_laid_off": 35
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Coinbase",
-          "total_laid_off": 700
-        },
-        {
-          "company": "Gemini",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Kraken",
-          "total_laid_off": 150
-        },
-        {
-          "company": "BitGo",
-          "total_laid_off": 90
-        },
-        {
-          "company": "Polygon",
-          "total_laid_off": 60
-        },
-        {
-          "company": "Ethereum Foundation",
-          "total_laid_off": 54
-        },
-        {
-          "company": "ConsenSys",
-          "total_laid_off": 47
-        },
-        {
-          "company": "Swyftx",
-          "total_laid_off": 37
-        },
-        {
-          "company": "Yield Guild Games",
-          "total_laid_off": 35
-        },
-        {
-          "company": "Eigen Labs",
-          "total_laid_off": 29
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-07-23",
-          "company": "BitMEX",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "Seychelles",
-          "stage": "Seed",
-          "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
-        },
-        {
-          "date": "2026-07-21",
-          "company": "Movement Labs",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
-        },
-        {
-          "date": "2026-07-16",
-          "company": "Polygon",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Cayman Islands",
-          "stage": "Unknown",
-          "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Yield Guild Games",
-          "num_laid_off": 35,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
-        },
-        {
-          "date": "2026-06-23",
-          "company": "Ethereum Foundation",
-          "num_laid_off": 54,
-          "percentage_laid_off": 0.2,
-          "industry": "Crypto",
-          "country": "Switzerland",
-          "stage": "Unknown",
-          "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Matter Labs",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Germany",
-          "stage": "Unknown",
-          "source": "https://x.com/gluk64/status/2066964567884747146"
-        },
-        {
-          "date": "2026-05-15",
-          "company": "Kraken",
-          "num_laid_off": 150,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
-        },
-        {
-          "date": "2026-05-14",
-          "company": "Dune",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "Norway",
-          "stage": "Series B",
-          "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "Coinbase",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "0G",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
-        },
-        {
-          "date": "2026-04-21",
-          "company": "Zondacrypto",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Estonia",
-          "stage": "Unknown",
-          "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Swyftx",
-          "num_laid_off": 37,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "Australia",
-          "stage": "Unknown",
-          "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
-        },
-        {
-          "date": "2026-04-13",
-          "company": "StarkWare",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
-        },
-        {
-          "date": "2026-04-02",
-          "company": "MARA",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
-        }
-      ]
-    },
-    "summary": "Crypto has 1,422 reported tech layoffs across 24 public events from 2025-02-05 to 2026-07-23."
-  },
-  {
-    "type": "industry",
     "name": "Media",
     "slug": "media",
     "title": "Tech Layoffs by Industry: Media",
     "canonical_url": "/industries/media.html",
     "date_range": {
       "start": "2025-01-14",
-      "end": "2026-07-23"
+      "end": "2026-07-27"
     },
     "kpis": {
-      "total_laid_off": 1323,
-      "event_count": 14,
-      "headcount_event_count": 11,
-      "company_count": 13,
+      "total_laid_off": 1503,
+      "event_count": 15,
+      "headcount_event_count": 12,
+      "company_count": 14,
       "country_count": 5,
       "industry_count": 1,
-      "high_intensity_event_count": 3
+      "high_intensity_event_count": 4
     },
     "charts": {
       "monthly_trend": [
@@ -4551,7 +4115,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 163
+          "total_laid_off": 343
         }
       ],
       "company_top": [
@@ -4562,6 +4126,10 @@
         {
           "company": "Artlist",
           "total_laid_off": 200
+        },
+        {
+          "company": "BuzzFeed",
+          "total_laid_off": 180
         },
         {
           "company": "Pocket FM",
@@ -4590,15 +4158,21 @@
         {
           "company": "WSC",
           "total_laid_off": 70
-        },
-        {
-          "company": "Spotify",
-          "total_laid_off": 15
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-27",
+          "company": "BuzzFeed",
+          "num_laid_off": 180,
+          "percentage_laid_off": 0.35,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+        },
         {
           "date": "2026-07-23",
           "company": "Patreon",
@@ -4741,7 +4315,457 @@
         }
       ]
     },
-    "summary": "Media has 1,323 reported tech layoffs across 14 public events from 2025-01-14 to 2026-07-23."
+    "summary": "Media has 1,503 reported tech layoffs across 15 public events from 2025-01-14 to 2026-07-27."
+  },
+  {
+    "type": "industry",
+    "name": "Support",
+    "slug": "support",
+    "title": "Tech Layoffs by Industry: Support",
+    "canonical_url": "/industries/support.html",
+    "date_range": {
+      "start": "2025-01-20",
+      "end": "2026-07-28"
+    },
+    "kpis": {
+      "total_laid_off": 1494,
+      "event_count": 11,
+      "headcount_event_count": 8,
+      "company_count": 8,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 66
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 551
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 123
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 500
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 54
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Freshworks",
+          "total_laid_off": 500
+        },
+        {
+          "company": "Sprinklr",
+          "total_laid_off": 500
+        },
+        {
+          "company": "Zendesk",
+          "total_laid_off": 151
+        },
+        {
+          "company": "Five9",
+          "total_laid_off": 123
+        },
+        {
+          "company": "Yellow.ai",
+          "total_laid_off": 100
+        },
+        {
+          "company": "Unbabel",
+          "total_laid_off": 66
+        },
+        {
+          "company": "ServiceNow",
+          "total_laid_off": 54
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-28",
+          "company": "ServiceNow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+        },
+        {
+          "date": "2026-06-11",
+          "company": "ServiceNow",
+          "num_laid_off": 54,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+        },
+        {
+          "date": "2026-05-28",
+          "company": "Amdocs",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.07,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "Freshworks",
+          "num_laid_off": 500,
+          "percentage_laid_off": 0.11,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+        },
+        {
+          "date": "2026-03-24",
+          "company": "Zendesk",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "Internal memo"
+        },
+        {
+          "date": "2025-12-23",
+          "company": "Yellow.ai",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.3,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://inc42.com/buzz/exclusive-yellow-ai-lays-off-over-100-employees-amid-automation-push/"
+        },
+        {
+          "date": "2025-08-12",
+          "company": "Amdocs",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/legpd5dv7"
+        },
+        {
+          "date": "2025-04-03",
+          "company": "Five9",
+          "num_laid_off": 123,
+          "percentage_laid_off": 0.04,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.marketwatch.com/story/five9-to-cut-4-of-workforce-cd4da325"
+        },
+        {
+          "date": "2025-02-21",
+          "company": "Zendesk",
+          "num_laid_off": 51,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.kron4.com/news/bay-area/zendesk-lays-off-dozens-of-employees-at-sf-headquarters/"
+        },
+        {
+          "date": "2025-02-06",
+          "company": "Sprinklr",
+          "num_laid_off": 500,
+          "percentage_laid_off": 0.15,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2025/02/06/sprinklr-cuts-500-employees-citing-underwhelming-business-performance/"
+        },
+        {
+          "date": "2025-01-20",
+          "company": "Unbabel",
+          "num_laid_off": 66,
+          "percentage_laid_off": 0.25,
+          "industry": "Support",
+          "country": "Portugal",
+          "stage": "Series C",
+          "source": "https://observador.pt/2025/01/20/unbabel-reduz-equipa-tecnologica-portuguesa-fala-processo-de-reestruturacao-em-curso/"
+        }
+      ]
+    },
+    "summary": "Support has 1,494 reported tech layoffs across 11 public events from 2025-01-20 to 2026-07-28."
+  },
+  {
+    "type": "industry",
+    "name": "Crypto",
+    "slug": "crypto",
+    "title": "Tech Layoffs by Industry: Crypto",
+    "canonical_url": "/industries/crypto.html",
+    "date_range": {
+      "start": "2025-02-05",
+      "end": "2026-07-28"
+    },
+    "kpis": {
+      "total_laid_off": 1422,
+      "event_count": 26,
+      "headcount_event_count": 11,
+      "company_count": 24,
+      "country_count": 11,
+      "industry_count": 1,
+      "high_intensity_event_count": 9
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 76
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 20
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 37
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 850
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 144
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 35
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Coinbase",
+          "total_laid_off": 700
+        },
+        {
+          "company": "Gemini",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Kraken",
+          "total_laid_off": 150
+        },
+        {
+          "company": "BitGo",
+          "total_laid_off": 90
+        },
+        {
+          "company": "Polygon",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Ethereum Foundation",
+          "total_laid_off": 54
+        },
+        {
+          "company": "ConsenSys",
+          "total_laid_off": 47
+        },
+        {
+          "company": "Swyftx",
+          "total_laid_off": 37
+        },
+        {
+          "company": "Yield Guild Games",
+          "total_laid_off": 35
+        },
+        {
+          "company": "Eigen Labs",
+          "total_laid_off": 29
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-07-28",
+          "company": "Luno",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+        },
+        {
+          "date": "2026-07-27",
+          "company": "BitMart",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+        },
+        {
+          "date": "2026-07-23",
+          "company": "BitMEX",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "Seychelles",
+          "stage": "Seed",
+          "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+        },
+        {
+          "date": "2026-07-21",
+          "company": "Movement Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+        },
+        {
+          "date": "2026-07-16",
+          "company": "Polygon",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Cayman Islands",
+          "stage": "Unknown",
+          "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Yield Guild Games",
+          "num_laid_off": 35,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
+        {
+          "date": "2026-06-23",
+          "company": "Ethereum Foundation",
+          "num_laid_off": 54,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "Switzerland",
+          "stage": "Unknown",
+          "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Matter Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://x.com/gluk64/status/2066964567884747146"
+        },
+        {
+          "date": "2026-05-15",
+          "company": "Kraken",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+        },
+        {
+          "date": "2026-05-14",
+          "company": "Dune",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "Norway",
+          "stage": "Series B",
+          "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "Coinbase",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.14,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "0G",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
+        },
+        {
+          "date": "2026-04-21",
+          "company": "Zondacrypto",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Estonia",
+          "stage": "Unknown",
+          "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Swyftx",
+          "num_laid_off": 37,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+        }
+      ]
+    },
+    "summary": "Crypto has 1,422 reported tech layoffs across 26 public events from 2025-02-05 to 2026-07-28."
   },
   {
     "type": "industry",

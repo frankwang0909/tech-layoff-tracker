@@ -6,17 +6,17 @@
     "start": "2026-07-08",
     "end": "2026-07-08"
   },
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-07-28",
   "canonical_url": "/reports/daily/2026-07-08.html",
   "kpis": {
-    "total_laid_off": 900,
+    "total_laid_off": 475,
     "event_count": 2,
     "headcount_event_count": 2,
     "company_count": 2,
     "country_count": 2,
     "industry_count": 2,
-    "average_layoffs_per_headcount_event": 450.0,
-    "median_layoffs_per_headcount_event": 450.0,
+    "average_layoffs_per_headcount_event": 237.5,
+    "median_layoffs_per_headcount_event": 237.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-07-07",
       "total_laid_off": 260,
       "event_count": 4,
-      "total_laid_off_delta": 640,
-      "total_laid_off_pct_change": 2.4615,
+      "total_laid_off_delta": 215,
+      "total_laid_off_pct_change": 0.8269,
       "event_count_delta": -2,
       "event_count_pct_change": -0.5,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-07-08",
       "total_laid_off": 29,
       "event_count": 1,
-      "total_laid_off_delta": 871,
-      "total_laid_off_pct_change": 30.0345,
+      "total_laid_off_delta": 446,
+      "total_laid_off_pct_change": 15.3793,
       "event_count_delta": 1,
       "event_count_pct_change": 1.0,
       "note": null
@@ -44,42 +44,42 @@
   "charts": {
     "company_top": [
       {
-        "company": "MyHeritage",
-        "total_laid_off": 500
-      },
-      {
         "company": "OpenText",
         "total_laid_off": 400
+      },
+      {
+        "company": "MyHeritage",
+        "total_laid_off": 75
       }
     ],
     "industry_top": [
       {
-        "industry": "Consumer",
-        "total_laid_off": 500
-      },
-      {
         "industry": "Data",
         "total_laid_off": 400
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 75
       }
     ],
     "country_top": [
       {
-        "country": "Israel",
-        "total_laid_off": 500
-      },
-      {
         "country": "Canada",
         "total_laid_off": 400
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 75
       }
     ],
     "stage_top": [
       {
-        "stage": "Acquired",
-        "total_laid_off": 500
-      },
-      {
         "stage": "Post-IPO",
         "total_laid_off": 400
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 75
       }
     ],
     "layoff_pct_distribution": [
@@ -109,16 +109,6 @@
     "largest_events": [
       {
         "date": "2026-07-08",
-        "company": "MyHeritage",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.15,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
-      },
-      {
-        "date": "2026-07-08",
         "company": "OpenText",
         "num_laid_off": 400,
         "percentage_laid_off": 0.02,
@@ -126,21 +116,21 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       }
     ],
     "recent_events": [
       {
         "date": "2026-07-08",
-        "company": "MyHeritage",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.15,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
-      },
-      {
-        "date": "2026-07-08",
         "company": "OpenText",
         "num_laid_off": 400,
         "percentage_laid_off": 0.02,
@@ -148,14 +138,24 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-07-08 includes 2 public layoff events and 900 reported layoffs.",
-    "The largest company contributor is MyHeritage with 500 reported layoffs.",
-    "The leading named industry is Consumer with 500 reported layoffs."
+    "2026-07-08 includes 2 public layoff events and 475 reported layoffs.",
+    "The largest company contributor is OpenText with 400 reported layoffs.",
+    "The leading named industry is Data with 400 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

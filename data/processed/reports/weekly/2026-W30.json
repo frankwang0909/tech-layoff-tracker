@@ -1,22 +1,22 @@
 {
   "report_type": "weekly",
   "period": "2026-W30",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-07-26"
   },
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-07-28",
   "canonical_url": "/reports/weekly/2026-W30.html",
   "kpis": {
-    "total_laid_off": 2126,
-    "event_count": 12,
-    "headcount_event_count": 6,
-    "company_count": 11,
-    "country_count": 3,
+    "total_laid_off": 2226,
+    "event_count": 13,
+    "headcount_event_count": 7,
+    "company_count": 12,
+    "country_count": 4,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 354.33,
-    "median_layoffs_per_headcount_event": 143.0,
+    "average_layoffs_per_headcount_event": 318.0,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W29",
       "total_laid_off": 1320,
       "event_count": 7,
-      "total_laid_off_delta": 806,
-      "total_laid_off_pct_change": 0.6106,
-      "event_count_delta": 5,
-      "event_count_pct_change": 0.7143,
+      "total_laid_off_delta": 906,
+      "total_laid_off_pct_change": 0.6864,
+      "event_count_delta": 6,
+      "event_count_pct_change": 0.8571,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W30",
       "total_laid_off": 112,
       "event_count": 6,
-      "total_laid_off_delta": 2014,
-      "total_laid_off_pct_change": 17.9821,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": 2114,
+      "total_laid_off_pct_change": 18.875,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.1667,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "Magic Leap",
         "total_laid_off": 193
+      },
+      {
+        "company": "Nothing",
+        "total_laid_off": 100
       },
       {
         "company": "Patreon",
@@ -84,6 +88,10 @@
       {
         "industry": "Media",
         "total_laid_off": 163
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 100
       }
     ],
     "country_top": [
@@ -94,6 +102,10 @@
       {
         "country": "Israel",
         "total_laid_off": 730
+      },
+      {
+        "country": "United Kingdom",
+        "total_laid_off": 100
       }
     ],
     "stage_top": [
@@ -104,6 +116,10 @@
       {
         "stage": "Series E",
         "total_laid_off": 193
+      },
+      {
+        "stage": "Series C",
+        "total_laid_off": 100
       },
       {
         "stage": "Series F",
@@ -125,7 +141,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 3
+        "event_count": 4
       },
       {
         "bucket": "25-49%",
@@ -174,6 +190,16 @@
         "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
       },
       {
+        "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+      },
+      {
         "date": "2026-07-23",
         "company": "Patreon",
         "num_laid_off": 93,
@@ -205,6 +231,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+      },
       {
         "date": "2026-07-26",
         "company": "Papaya Gaming",
@@ -350,7 +386,7 @@
     ]
   },
   "insights": [
-    "2026-W30 includes 12 public layoff events and 2,126 reported layoffs.",
+    "2026-W30 includes 13 public layoff events and 2,226 reported layoffs.",
     "The largest company contributor is Amazon with 1,110 reported layoffs.",
     "The leading named industry is Retail with 1,110 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

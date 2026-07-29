@@ -6,17 +6,17 @@
     "start": "2026-07-06",
     "end": "2026-07-12"
   },
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-07-28",
   "canonical_url": "/reports/weekly/2026-W28.html",
   "kpis": {
-    "total_laid_off": 6152,
+    "total_laid_off": 5727,
     "event_count": 13,
     "headcount_event_count": 8,
     "company_count": 13,
     "country_count": 7,
     "industry_count": 11,
-    "average_layoffs_per_headcount_event": 769.0,
-    "median_layoffs_per_headcount_event": 150.0,
+    "average_layoffs_per_headcount_event": 715.88,
+    "median_layoffs_per_headcount_event": 87.5,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-W27",
       "total_laid_off": 1280,
       "event_count": 6,
-      "total_laid_off_delta": 4872,
-      "total_laid_off_pct_change": 3.8062,
+      "total_laid_off_delta": 4447,
+      "total_laid_off_pct_change": 3.4742,
       "event_count_delta": 7,
       "event_count_pct_change": 1.1667,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-W28",
       "total_laid_off": 6459,
       "event_count": 7,
-      "total_laid_off_delta": -307,
-      "total_laid_off_pct_change": -0.0475,
+      "total_laid_off_delta": -732,
+      "total_laid_off_pct_change": -0.1133,
       "event_count_delta": 6,
       "event_count_pct_change": 0.8571,
       "note": null
@@ -48,10 +48,6 @@
         "total_laid_off": 4800
       },
       {
-        "company": "MyHeritage",
-        "total_laid_off": 500
-      },
-      {
         "company": "OpenText",
         "total_laid_off": 400
       },
@@ -62,6 +58,10 @@
       {
         "company": "GoKwik",
         "total_laid_off": 100
+      },
+      {
+        "company": "MyHeritage",
+        "total_laid_off": 75
       },
       {
         "company": "Darrow",
@@ -82,10 +82,6 @@
         "total_laid_off": 4800
       },
       {
-        "industry": "Consumer",
-        "total_laid_off": 500
-      },
-      {
         "industry": "Data",
         "total_laid_off": 400
       },
@@ -96,6 +92,10 @@
       {
         "industry": "Finance",
         "total_laid_off": 100
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 75
       },
       {
         "industry": "Legal",
@@ -116,16 +116,16 @@
         "total_laid_off": 4892
       },
       {
-        "country": "Israel",
-        "total_laid_off": 560
-      },
-      {
         "country": "Canada",
         "total_laid_off": 400
       },
       {
         "country": "Netherlands",
         "total_laid_off": 200
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 135
       },
       {
         "country": "India",
@@ -138,16 +138,16 @@
         "total_laid_off": 5257
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 500
-      },
-      {
         "stage": "Series D",
         "total_laid_off": 200
       },
       {
         "stage": "Unknown",
         "total_laid_off": 135
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 75
       },
       {
         "stage": "Series B",
@@ -191,16 +191,6 @@
       },
       {
         "date": "2026-07-08",
-        "company": "MyHeritage",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.15,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
-      },
-      {
-        "date": "2026-07-08",
         "company": "OpenText",
         "num_laid_off": 400,
         "percentage_laid_off": 0.02,
@@ -228,6 +218,16 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       },
       {
         "date": "2026-07-07",
@@ -283,16 +283,6 @@
       },
       {
         "date": "2026-07-08",
-        "company": "MyHeritage",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.15,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
-      },
-      {
-        "date": "2026-07-08",
         "company": "OpenText",
         "num_laid_off": 400,
         "percentage_laid_off": 0.02,
@@ -300,6 +290,16 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-08",
+        "company": "MyHeritage",
+        "num_laid_off": 75,
+        "percentage_laid_off": 0.15,
+        "industry": "Consumer",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
       },
       {
         "date": "2026-07-07",
@@ -416,9 +416,9 @@
     ]
   },
   "insights": [
-    "2026-W28 includes 13 public layoff events and 6,152 reported layoffs.",
+    "2026-W28 includes 13 public layoff events and 5,727 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Consumer with 500 reported layoffs.",
+    "The leading named industry is Data with 400 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

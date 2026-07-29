@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-26"
+      "end": "2026-07-28"
     },
     "kpis": {
-      "total_laid_off": 203569,
-      "event_count": 347,
-      "headcount_event_count": 229,
-      "company_count": 263,
+      "total_laid_off": 203749,
+      "event_count": 350,
+      "headcount_event_count": 230,
+      "company_count": 265,
       "country_count": 1,
       "industry_count": 29,
-      "high_intensity_event_count": 52
+      "high_intensity_event_count": 54
     },
     "charts": {
       "monthly_trend": [
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 7608
+          "total_laid_off": 7788
         }
       ],
       "company_top": [
@@ -142,6 +142,36 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-28",
+          "company": "ServiceNow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Support",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+        },
+        {
+          "date": "2026-07-27",
+          "company": "BitMart",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+        },
+        {
+          "date": "2026-07-27",
+          "company": "BuzzFeed",
+          "num_laid_off": 180,
+          "percentage_laid_off": 0.35,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+        },
         {
           "date": "2026-07-26",
           "company": "Dutch",
@@ -261,40 +291,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
-        },
-        {
-          "date": "2026-07-13",
-          "company": "Redis",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Series G",
-          "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Microsoft",
-          "num_laid_off": 4800,
-          "percentage_laid_off": 0.02,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Yield Guild Games",
-          "num_laid_off": 35,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
         }
       ]
     },
-    "summary": "United States has 203,569 reported tech layoffs across 347 public events from 2025-01-02 to 2026-07-26."
+    "summary": "United States has 203,749 reported tech layoffs across 350 public events from 2025-01-02 to 2026-07-28."
   },
   {
     "type": "country",
@@ -304,16 +304,16 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-07-11"
+      "end": "2026-07-28"
     },
     "kpis": {
-      "total_laid_off": 10660,
-      "event_count": 59,
-      "headcount_event_count": 45,
+      "total_laid_off": 10680,
+      "event_count": 60,
+      "headcount_event_count": 46,
       "company_count": 50,
       "country_count": 1,
       "industry_count": 16,
-      "high_intensity_event_count": 21
+      "high_intensity_event_count": 22
     },
     "charts": {
       "monthly_trend": [
@@ -383,7 +383,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 900
+          "total_laid_off": 920
         }
       ],
       "company_top": [
@@ -431,6 +431,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-28",
+          "company": "Krutrim",
+          "num_laid_off": 20,
+          "percentage_laid_off": 0.5,
+          "industry": "AI",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+        },
         {
           "date": "2026-07-11",
           "company": "GoKwik",
@@ -570,20 +580,10 @@
           "country": "India",
           "stage": "Seed",
           "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
-        },
-        {
-          "date": "2026-03-06",
-          "company": "Flipkart",
-          "num_laid_off": 500,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Acquired",
-          "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
         }
       ]
     },
-    "summary": "India has 10,660 reported tech layoffs across 59 public events from 2025-01-15 to 2026-07-11."
+    "summary": "India has 10,680 reported tech layoffs across 60 public events from 2025-01-15 to 2026-07-28."
   },
   {
     "type": "country",
@@ -596,7 +596,7 @@
       "end": "2026-07-26"
     },
     "kpis": {
-      "total_laid_off": 7963,
+      "total_laid_off": 7538,
       "event_count": 66,
       "headcount_event_count": 47,
       "company_count": 57,
@@ -668,7 +668,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 1290
+          "total_laid_off": 865
         }
       ],
       "company_top": [
@@ -693,10 +693,6 @@
           "total_laid_off": 630
         },
         {
-          "company": "MyHeritage",
-          "total_laid_off": 500
-        },
-        {
           "company": "SolarEdge",
           "total_laid_off": 400
         },
@@ -705,12 +701,16 @@
           "total_laid_off": 250
         },
         {
+          "company": "Artlist",
+          "total_laid_off": 200
+        },
+        {
           "company": "Mobileye",
           "total_laid_off": 200
         },
         {
-          "company": "Artlist",
-          "total_laid_off": 200
+          "company": "Lightricks",
+          "total_laid_off": 160
         }
       ]
     },
@@ -759,7 +759,7 @@
         {
           "date": "2026-07-08",
           "company": "MyHeritage",
-          "num_laid_off": 500,
+          "num_laid_off": 75,
           "percentage_laid_off": 0.15,
           "industry": "Consumer",
           "country": "Israel",
@@ -868,7 +868,7 @@
         }
       ]
     },
-    "summary": "Israel has 7,963 reported tech layoffs across 66 public events from 2025-01-06 to 2026-07-26."
+    "summary": "Israel has 7,538 reported tech layoffs across 66 public events from 2025-01-06 to 2026-07-26."
   },
   {
     "type": "country",
@@ -1893,15 +1893,15 @@
     "canonical_url": "/countries/united-kingdom.html",
     "date_range": {
       "start": "2025-01-21",
-      "end": "2026-07-07"
+      "end": "2026-07-28"
     },
     "kpis": {
-      "total_laid_off": 1822,
-      "event_count": 18,
-      "headcount_event_count": 8,
-      "company_count": 17,
+      "total_laid_off": 1922,
+      "event_count": 20,
+      "headcount_event_count": 9,
+      "company_count": 19,
       "country_count": 1,
-      "industry_count": 11,
+      "industry_count": 13,
       "high_intensity_event_count": 4
     },
     "charts": {
@@ -1929,6 +1929,10 @@
         {
           "month": "2026-04",
           "total_laid_off": 90
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 100
         }
       ],
       "company_top": [
@@ -1947,6 +1951,10 @@
         {
           "company": "Deliveroo",
           "total_laid_off": 187
+        },
+        {
+          "company": "Nothing",
+          "total_laid_off": 100
         },
         {
           "company": "GoCardless",
@@ -1968,6 +1976,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-28",
+          "company": "Luno",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+        },
+        {
+          "date": "2026-07-26",
+          "company": "Nothing",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.12,
+          "industry": "Hardware",
+          "country": "United Kingdom",
+          "stage": "Series C",
+          "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+        },
         {
           "date": "2026-07-07",
           "company": "PokerStars",
@@ -2097,30 +2125,10 @@
           "country": "United Kingdom",
           "stage": "Unknown",
           "source": "https://sifted.eu/articles/ai-proptech-startup-tract-blog"
-        },
-        {
-          "date": "2025-03-10",
-          "company": "Arrival",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Transportation",
-          "country": "United Kingdom",
-          "stage": "Post-IPO",
-          "source": "https://sifted.eu/articles/arrival-sales-collapse-news"
-        },
-        {
-          "date": "2025-02-17",
-          "company": "Logically",
-          "num_laid_off": 40,
-          "percentage_laid_off": 0.2,
-          "industry": "AI",
-          "country": "United Kingdom",
-          "stage": "Series A",
-          "source": "https://sifted.eu/articles/anti-misinformation-startup-logically-lays-off-dozens-in-global-cost-cutting-drive"
         }
       ]
     },
-    "summary": "United Kingdom has 1,822 reported tech layoffs across 18 public events from 2025-01-21 to 2026-07-07."
+    "summary": "United Kingdom has 1,922 reported tech layoffs across 20 public events from 2025-01-21 to 2026-07-28."
   },
   {
     "type": "country",

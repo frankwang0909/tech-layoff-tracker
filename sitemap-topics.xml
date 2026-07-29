@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tech.debugcanada.com/industries/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/hardware.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/ai.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -115,20 +115,20 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://tech.debugcanada.com/industries/media.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://tech.debugcanada.com/industries/support.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/industries/crypto.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://tech.debugcanada.com/industries/media.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -176,13 +176,13 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/united-states.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/india.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
@@ -224,7 +224,7 @@
   </url>
   <url>
     <loc>https://tech.debugcanada.com/countries/united-kingdom.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>

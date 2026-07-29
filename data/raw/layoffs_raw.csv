@@ -1,4 +1,10 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Krutrim,"Bengaluru, Non-U.S.",20.0,2026-07-28,0.5,AI,https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce,Unknown,304.0,India,2026-07-29T01:40:22.000Z
+Luno,"London, Non-U.S.",,2026-07-28,0.2,Crypto,https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff,Acquired,13.0,United Kingdom,2026-07-29T01:41:18.000Z
+ServiceNow,SF Bay Area,,2026-07-28,,Support,https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7,Post-IPO,84.0,United States,2026-07-29T01:48:32.000Z
+BuzzFeed,New York City,180.0,2026-07-27,0.35,Media,https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/,Post-IPO,696.0,United States,2026-07-28T21:32:11.000Z
+BitMart,New York City,,2026-07-27,1.0,Crypto,https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down,Series B,10.0,United States,2026-07-29T01:43:48.000Z
+Nothing,"London, Non-U.S.",100.0,2026-07-26,0.12,Hardware,https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say,Series C,454.0,United Kingdom,2026-07-29T01:42:18.000Z
 Papaya Gaming,"Tel Aviv, Non-U.S.",30.0,2026-07-26,0.07,Consumer,https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg,Unknown,,Israel,2026-07-27T04:13:24.000Z
 Dutch,SF Bay Area,,2026-07-26,,Other,https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/,Series B,43.0,United States,2026-07-27T04:15:53.000Z
 Patreon,SF Bay Area,93.0,2026-07-23,0.2,Media,https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/,Series F,413.0,United States,2026-07-24T03:26:33.000Z
@@ -20,8 +26,8 @@ Redis,SF Bay Area,200.0,2026-07-13,,Data,https://redis.io/blog/ceo-rowan-trollop
 Gigbanc,"Lagos, Non-U.S.",,2026-07-13,1.0,Finance,https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/,Seed,1.0,Nigeria,2026-07-14T00:01:23.000Z
 Alarum,"Tel Aviv, Non-U.S.",,2026-07-12,,Security,https://www.calcalistech.com/ctechnews/article/4gnx3zo23,Post-IPO,34.0,Israel,2026-07-13T23:40:19.000Z
 GoKwik,"New Delhi, Non-U.S.",100.0,2026-07-11,,Finance,https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/,Unknown,68.0,India,2026-07-12T01:08:26.000Z
-MyHeritage,"Tel Aviv, Non-U.S.",500.0,2026-07-08,0.15,Consumer,https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761,Acquired,49.0,Israel,2026-07-09T17:00:20.000Z
 OpenText,"Waterloo, Non-U.S.",400.0,2026-07-08,0.02,Data,https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/,Post-IPO,1100.0,Canada,2026-07-10T15:33:00.000Z
+MyHeritage,"Tel Aviv, Non-U.S.",75.0,2026-07-08,0.15,Consumer,https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761,Acquired,49.0,Israel,2026-07-09T17:00:20.000Z
 Mews,"Amsterdam, Non-U.S.",200.0,2026-07-07,0.15,Travel,https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/,Series D,817.0,Netherlands,2026-07-08T15:01:22.000Z
 Darrow,"Tel Aviv, Non-U.S.",60.0,2026-07-07,0.33,Legal,https://www.calcalistech.com/ctechnews/article/hy7svt97ge,Series B,63.0,Israel,2026-07-08T14:59:54.000Z
 Billion Hearts,"Bengaluru, Non-U.S.",,2026-07-07,1.0,Consumer,https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/,Seed,5.0,India,2026-07-08T14:56:18.000Z

@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-26"
+    "end": "2026-07-28"
   },
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-07-28",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 124380,
-    "event_count": 265,
-    "headcount_event_count": 173,
-    "company_count": 247,
+    "total_laid_off": 124255,
+    "event_count": 271,
+    "headcount_event_count": 176,
+    "company_count": 252,
     "country_count": 28,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 718.96,
-    "median_layoffs_per_headcount_event": 150.0,
-    "high_intensity_event_count": 50
+    "average_layoffs_per_headcount_event": 705.99,
+    "median_layoffs_per_headcount_event": 147.5,
+    "high_intensity_event_count": 53
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 1774,
-      "total_laid_off_pct_change": 0.0145,
-      "event_count_delta": -68,
-      "event_count_pct_change": -0.2042,
+      "total_laid_off_delta": 1649,
+      "total_laid_off_pct_change": 0.0134,
+      "event_count_delta": -62,
+      "event_count_pct_change": -0.1862,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 1774,
-      "total_laid_off_pct_change": 0.0145,
-      "event_count_delta": -68,
-      "event_count_pct_change": -0.2042,
+      "total_laid_off_delta": 1649,
+      "total_laid_off_pct_change": 0.0134,
+      "event_count_delta": -62,
+      "event_count_pct_change": -0.1862,
       "note": null
     }
   },
@@ -68,11 +68,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 17512
+        "total_laid_off": 17087
       },
       {
         "industry": "Finance",
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Hardware",
-        "total_laid_off": 13893
+        "total_laid_off": 13993
       },
       {
         "industry": "Infrastructure",
@@ -123,17 +123,17 @@
       },
       {
         "industry": "AI",
-        "total_laid_off": 1909
+        "total_laid_off": 1929
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 101133
+        "total_laid_off": 101313
       },
       {
         "country": "Israel",
-        "total_laid_off": 4916
+        "total_laid_off": 4491
       },
       {
         "country": "Australia",
@@ -141,7 +141,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 3805
+        "total_laid_off": 3825
       },
       {
         "country": "Netherlands",
@@ -153,7 +153,7 @@
       },
       {
         "country": "United Kingdom",
-        "total_laid_off": 1382
+        "total_laid_off": 1482
       },
       {
         "country": "Kenya",
@@ -171,15 +171,15 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 106236
+        "total_laid_off": 106416
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5332
+        "total_laid_off": 5352
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 4126
+        "total_laid_off": 3701
       },
       {
         "stage": "Series B",
@@ -202,12 +202,12 @@
         "total_laid_off": 878
       },
       {
-        "stage": "Subsidiary",
-        "total_laid_off": 458
+        "stage": "Series C",
+        "total_laid_off": 516
       },
       {
-        "stage": "Series C",
-        "total_laid_off": 416
+        "stage": "Subsidiary",
+        "total_laid_off": 458
       }
     ],
     "layoff_pct_distribution": [
@@ -217,15 +217,15 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 47
+        "event_count": 48
       },
       {
         "bucket": "25-49%",
-        "event_count": 18
+        "event_count": 19
       },
       {
         "bucket": "50-99%",
-        "event_count": 4
+        "event_count": 5
       },
       {
         "bucket": "100%+",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -337,6 +337,66 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "Luno",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Crypto",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "ServiceNow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+      },
+      {
+        "date": "2026-07-27",
+        "company": "BuzzFeed",
+        "num_laid_off": 180,
+        "percentage_laid_off": 0.35,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+      },
+      {
+        "date": "2026-07-27",
+        "company": "BitMart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+      },
+      {
+        "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+      },
       {
         "date": "2026-07-26",
         "company": "Papaya Gaming",
@@ -439,16 +499,6 @@
       },
       {
         "date": "2026-07-20",
-        "company": "Magic Leap",
-        "num_laid_off": 193,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
-      },
-      {
-        "date": "2026-07-20",
         "company": "Intel",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -458,14 +508,14 @@
         "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
       },
       {
-        "date": "2026-07-19",
-        "company": "Samsung",
-        "num_laid_off": 739,
+        "date": "2026-07-20",
+        "company": "Magic Leap",
+        "num_laid_off": 193,
         "percentage_laid_off": null,
-        "industry": "Hardware",
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+        "stage": "Series E",
+        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
       },
       {
         "date": "2026-07-19",
@@ -478,76 +528,26 @@
         "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
       },
       {
-        "date": "2026-07-16",
-        "company": "Polygon",
-        "num_laid_off": null,
+        "date": "2026-07-19",
+        "company": "Samsung",
+        "num_laid_off": 739,
         "percentage_laid_off": null,
-        "industry": "Crypto",
-        "country": "Cayman Islands",
-        "stage": "Unknown",
-        "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
-      },
-      {
-        "date": "2026-07-15",
-        "company": "Sprout Social",
-        "num_laid_off": 260,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
+        "industry": "Hardware",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
-      },
-      {
-        "date": "2026-07-14",
-        "company": "Rapid7",
-        "num_laid_off": 21,
-        "percentage_laid_off": 0.01,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
-      },
-      {
-        "date": "2026-07-13",
-        "company": "Gigbanc",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "Nigeria",
-        "stage": "Seed",
-        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
-      },
-      {
-        "date": "2026-07-13",
-        "company": "Redis",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Series G",
-        "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
-      },
-      {
-        "date": "2026-07-12",
-        "company": "Alarum",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
       }
     ],
     "high_intensity_events": [
       {
-        "date": "2026-07-23",
-        "company": "BitMEX",
+        "date": "2026-07-27",
+        "company": "BitMart",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Crypto",
-        "country": "Seychelles",
-        "stage": "Seed",
-        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
       },
       {
         "date": "2026-07-21",
@@ -560,14 +560,14 @@
         "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
       },
       {
-        "date": "2026-07-13",
-        "company": "Gigbanc",
+        "date": "2026-07-23",
+        "company": "BitMEX",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "Nigeria",
+        "industry": "Crypto",
+        "country": "Seychelles",
         "stage": "Seed",
-        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
       },
       {
         "date": "2026-07-07",
@@ -578,6 +578,16 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+      },
+      {
+        "date": "2026-07-13",
+        "company": "Gigbanc",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Seed",
+        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
       },
       {
         "date": "2026-06-26",
@@ -600,6 +610,26 @@
         "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
+        "date": "2026-03-31",
+        "company": "Yupp",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Rec Room",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+      },
+      {
         "date": "2026-03-26",
         "company": "Quandoo",
         "num_laid_off": null,
@@ -608,44 +638,14 @@
         "country": "Germany",
         "stage": "Acquired",
         "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
-      },
-      {
-        "date": "2026-03-17",
-        "company": "FranShares",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
-      },
-      {
-        "date": "2026-01-13",
-        "company": "Alle",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
-      },
-      {
-        "date": "2026-01-25",
-        "company": "Entropy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
       }
     ]
   },
   "insights": [
-    "2026 includes 265 public layoff events and 124,380 reported layoffs.",
+    "2026 includes 271 public layoff events and 124,255 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,578 reported layoffs.",
-    "50 events report a layoff percentage of 25% or higher."
+    "53 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

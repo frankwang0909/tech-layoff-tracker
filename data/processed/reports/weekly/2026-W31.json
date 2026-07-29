@@ -1,0 +1,227 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W31",
+  "status": "rolling",
+  "date_range": {
+    "start": "2026-07-27",
+    "end": "2026-07-28"
+  },
+  "updated_at": "2026-07-28",
+  "canonical_url": "/reports/weekly/2026-W31.html",
+  "kpis": {
+    "total_laid_off": 200,
+    "event_count": 5,
+    "headcount_event_count": 2,
+    "company_count": 5,
+    "country_count": 3,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 100.0,
+    "median_layoffs_per_headcount_event": 100.0,
+    "high_intensity_event_count": 3
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W30",
+      "total_laid_off": 2226,
+      "event_count": 13,
+      "total_laid_off_delta": -2026,
+      "total_laid_off_pct_change": -0.9102,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.6154,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W31",
+      "total_laid_off": 501,
+      "event_count": 5,
+      "total_laid_off_delta": -301,
+      "total_laid_off_pct_change": -0.6008,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "BuzzFeed",
+        "total_laid_off": 180
+      },
+      {
+        "company": "Krutrim",
+        "total_laid_off": 20
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Media",
+        "total_laid_off": 180
+      },
+      {
+        "industry": "AI",
+        "total_laid_off": 20
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 180
+      },
+      {
+        "country": "India",
+        "total_laid_off": 20
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 180
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 20
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 1
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 1
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-07-27",
+        "company": "BuzzFeed",
+        "num_laid_off": 180,
+        "percentage_laid_off": 0.35,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "Luno",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.2,
+        "industry": "Crypto",
+        "country": "United Kingdom",
+        "stage": "Acquired",
+        "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "ServiceNow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+      },
+      {
+        "date": "2026-07-27",
+        "company": "BuzzFeed",
+        "num_laid_off": 180,
+        "percentage_laid_off": 0.35,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+      },
+      {
+        "date": "2026-07-27",
+        "company": "BitMart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-07-27",
+        "company": "BitMart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+      },
+      {
+        "date": "2026-07-27",
+        "company": "BuzzFeed",
+        "num_laid_off": 180,
+        "percentage_laid_off": 0.35,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-W31 includes 5 public layoff events and 200 reported layoffs.",
+    "The largest company contributor is BuzzFeed with 180 reported layoffs.",
+    "The leading named industry is Media with 180 reported layoffs.",
+    "3 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

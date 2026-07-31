@@ -4,9 +4,9 @@
   "generated_from": "data/processed/*.json",
   "data_range": {
     "start": "2025-01-06",
-    "end": "2026-07-28"
+    "end": "2026-07-30"
   },
-  "summary": "Tech Layoff Tracker reports 246,861 public tech layoffs from 2025-01-06 to 2026-07-28. The dataset covers 327 companies across 25 countries or regions. The largest month is 2026-05 with 29,002 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 246,894 public tech layoffs from 2025-01-06 to 2026-07-30. The dataset covers 328 companies across 25 countries or regions. The largest month is 2026-05 with 29,002 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -14,19 +14,19 @@
     },
     {
       "name": "Data range",
-      "value": "2025-01-06 to 2026-07-28"
+      "value": "2025-01-06 to 2026-07-30"
     },
     {
       "name": "Total reported layoffs",
-      "value": "246,861"
+      "value": "246,894"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "124,255"
+      "value": "124,288"
     },
     {
       "name": "Companies affected",
-      "value": "327"
+      "value": "328"
     },
     {
       "name": "Countries or regions",
@@ -58,7 +58,7 @@
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-07-28. The month with the highest reported layoff total is 2026-05."
+      "answer": "The current data covers 2025-01-06 to 2026-07-30. The month with the highest reported layoff total is 2026-05."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
@@ -103,8 +103,8 @@
       {
         "name": "Retail",
         "canonical_url": "https://tech.debugcanada.com/industries/retail.html",
-        "total_laid_off": 35894,
-        "event_count": 43
+        "total_laid_off": 35927,
+        "event_count": 44
       },
       {
         "name": "Consumer",

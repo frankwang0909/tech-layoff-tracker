@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-28"
+    "end": "2026-07-30"
   },
-  "updated_at": "2026-07-28",
+  "updated_at": "2026-07-30",
   "canonical_url": "/reports/monthly/2026-07.html",
   "kpis": {
-    "total_laid_off": 10573,
-    "event_count": 41,
-    "headcount_event_count": 24,
-    "company_count": 38,
+    "total_laid_off": 10606,
+    "event_count": 42,
+    "headcount_event_count": 25,
+    "company_count": 39,
     "country_count": 12,
     "industry_count": 18,
-    "average_layoffs_per_headcount_event": 440.54,
-    "median_layoffs_per_headcount_event": 140.0,
-    "high_intensity_event_count": 9
+    "average_layoffs_per_headcount_event": 424.24,
+    "median_layoffs_per_headcount_event": 100.0,
+    "high_intensity_event_count": 10
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-06",
       "total_laid_off": 26460,
       "event_count": 50,
-      "total_laid_off_delta": -15887,
-      "total_laid_off_pct_change": -0.6004,
-      "event_count_delta": -9,
-      "event_count_pct_change": -0.18,
+      "total_laid_off_delta": -15854,
+      "total_laid_off_pct_change": -0.5992,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.16,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-07",
       "total_laid_off": 16648,
       "event_count": 31,
-      "total_laid_off_delta": -6075,
-      "total_laid_off_pct_change": -0.3649,
-      "event_count_delta": 10,
-      "event_count_pct_change": 0.3226,
+      "total_laid_off_delta": -6042,
+      "total_laid_off_pct_change": -0.3629,
+      "event_count_delta": 11,
+      "event_count_pct_change": 0.3548,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Retail",
-        "total_laid_off": 1167
+        "total_laid_off": 1200
       },
       {
         "industry": "Hardware",
@@ -154,6 +154,10 @@
       {
         "country": "United Kingdom",
         "total_laid_off": 100
+      },
+      {
+        "country": "Nigeria",
+        "total_laid_off": 33
       }
     ],
     "stage_top": [
@@ -174,16 +178,16 @@
         "total_laid_off": 270
       },
       {
+        "stage": "Unknown",
+        "total_laid_off": 218
+      },
+      {
         "stage": "Series G",
         "total_laid_off": 200
       },
       {
         "stage": "Series E",
         "total_laid_off": 193
-      },
-      {
-        "stage": "Unknown",
-        "total_laid_off": 185
       },
       {
         "stage": "Series C",
@@ -217,7 +221,7 @@
       },
       {
         "bucket": "100%+",
-        "event_count": 0
+        "event_count": 1
       }
     ]
   },
@@ -326,6 +330,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
+      {
         "date": "2026-07-28",
         "company": "Krutrim",
         "num_laid_off": 20,
@@ -337,16 +351,6 @@
       },
       {
         "date": "2026-07-28",
-        "company": "ServiceNow",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
-      },
-      {
-        "date": "2026-07-28",
         "company": "Luno",
         "num_laid_off": null,
         "percentage_laid_off": 0.2,
@@ -354,6 +358,16 @@
         "country": "United Kingdom",
         "stage": "Acquired",
         "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "ServiceNow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
       },
       {
         "date": "2026-07-27",
@@ -407,16 +421,6 @@
       },
       {
         "date": "2026-07-23",
-        "company": "Patreon",
-        "num_laid_off": 93,
-        "percentage_laid_off": 0.2,
-        "industry": "Media",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
-      },
-      {
-        "date": "2026-07-23",
         "company": "BitMEX",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -426,24 +430,14 @@
         "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
       },
       {
-        "date": "2026-07-22",
-        "company": "Amazon",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Retail",
+        "date": "2026-07-23",
+        "company": "Patreon",
+        "num_laid_off": 93,
+        "percentage_laid_off": 0.2,
+        "industry": "Media",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
-      },
-      {
-        "date": "2026-07-22",
-        "company": "Uber",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
       },
       {
         "date": "2026-07-22",
@@ -464,6 +458,26 @@
         "country": "Israel",
         "stage": "Post-IPO",
         "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+      },
+      {
+        "date": "2026-07-22",
+        "company": "Uber",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
       },
       {
         "date": "2026-07-21",
@@ -514,19 +528,19 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
-      },
-      {
-        "date": "2026-07-19",
-        "company": "Samsung",
-        "num_laid_off": 100,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
       {
         "date": "2026-07-27",
         "company": "BitMart",
@@ -620,10 +634,10 @@
     ]
   },
   "insights": [
-    "2026-07 includes 41 public layoff events and 10,573 reported layoffs.",
+    "2026-07 includes 42 public layoff events and 10,606 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Retail with 1,167 reported layoffs.",
-    "9 events report a layoff percentage of 25% or higher."
+    "The leading named industry is Retail with 1,200 reported layoffs.",
+    "10 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

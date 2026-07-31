@@ -280,16 +280,16 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-07-22"
+      "end": "2026-07-30"
     },
     "kpis": {
-      "total_laid_off": 35894,
-      "event_count": 43,
-      "headcount_event_count": 26,
-      "company_count": 28,
+      "total_laid_off": 35927,
+      "event_count": 44,
+      "headcount_event_count": 27,
+      "company_count": 29,
       "country_count": 11,
       "industry_count": 1,
-      "high_intensity_event_count": 9
+      "high_intensity_event_count": 10
     },
     "charts": {
       "monthly_trend": [
@@ -347,7 +347,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 1167
+          "total_laid_off": 1200
         }
       ],
       "company_top": [
@@ -395,6 +395,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-30",
+          "company": "GoLemon",
+          "num_laid_off": 33,
+          "percentage_laid_off": 1.0,
+          "industry": "Retail",
+          "country": "Nigeria",
+          "stage": "Unknown",
+          "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+        },
         {
           "date": "2026-07-22",
           "company": "Amazon",
@@ -534,20 +544,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/"
-        },
-        {
-          "date": "2026-01-28",
-          "company": "Amazon",
-          "num_laid_off": 16000,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
         }
       ]
     },
-    "summary": "Retail has 35,894 reported tech layoffs across 43 public events from 2025-01-10 to 2026-07-22."
+    "summary": "Retail has 35,927 reported tech layoffs across 44 public events from 2025-01-10 to 2026-07-30."
   },
   {
     "type": "industry",

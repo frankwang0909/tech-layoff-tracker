@@ -2270,16 +2270,16 @@
     "canonical_url": "/countries/nigeria.html",
     "date_range": {
       "start": "2025-02-13",
-      "end": "2026-07-13"
+      "end": "2026-07-30"
     },
     "kpis": {
-      "total_laid_off": 520,
-      "event_count": 7,
-      "headcount_event_count": 4,
-      "company_count": 7,
+      "total_laid_off": 553,
+      "event_count": 8,
+      "headcount_event_count": 5,
+      "company_count": 8,
       "country_count": 1,
       "industry_count": 4,
-      "high_intensity_event_count": 4
+      "high_intensity_event_count": 5
     },
     "charts": {
       "monthly_trend": [
@@ -2294,6 +2294,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 200
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 33
         }
       ],
       "company_top": [
@@ -2312,11 +2316,25 @@
         {
           "company": "Sabi",
           "total_laid_off": 50
+        },
+        {
+          "company": "GoLemon",
+          "total_laid_off": 33
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-30",
+          "company": "GoLemon",
+          "num_laid_off": 33,
+          "percentage_laid_off": 1.0,
+          "industry": "Retail",
+          "country": "Nigeria",
+          "stage": "Unknown",
+          "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+        },
         {
           "date": "2026-07-13",
           "company": "Gigbanc",
@@ -2389,7 +2407,7 @@
         }
       ]
     },
-    "summary": "Nigeria has 520 reported tech layoffs across 7 public events from 2025-02-13 to 2026-07-13."
+    "summary": "Nigeria has 553 reported tech layoffs across 8 public events from 2025-02-13 to 2026-07-30."
   },
   {
     "type": "country",

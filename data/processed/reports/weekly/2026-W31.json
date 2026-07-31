@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-27",
-    "end": "2026-07-28"
+    "end": "2026-07-30"
   },
-  "updated_at": "2026-07-28",
+  "updated_at": "2026-07-30",
   "canonical_url": "/reports/weekly/2026-W31.html",
   "kpis": {
-    "total_laid_off": 200,
-    "event_count": 5,
-    "headcount_event_count": 2,
-    "company_count": 5,
-    "country_count": 3,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 100.0,
-    "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 3
+    "total_laid_off": 233,
+    "event_count": 6,
+    "headcount_event_count": 3,
+    "company_count": 6,
+    "country_count": 4,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 77.67,
+    "median_layoffs_per_headcount_event": 33.0,
+    "high_intensity_event_count": 4
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W30",
       "total_laid_off": 2226,
       "event_count": 13,
-      "total_laid_off_delta": -2026,
-      "total_laid_off_pct_change": -0.9102,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.6154,
+      "total_laid_off_delta": -1993,
+      "total_laid_off_pct_change": -0.8953,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.5385,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W31",
       "total_laid_off": 501,
       "event_count": 5,
-      "total_laid_off_delta": -301,
-      "total_laid_off_pct_change": -0.6008,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -268,
+      "total_laid_off_pct_change": -0.5349,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.2,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "BuzzFeed",
         "total_laid_off": 180
+      },
+      {
+        "company": "GoLemon",
+        "total_laid_off": 33
       },
       {
         "company": "Krutrim",
@@ -58,6 +62,10 @@
         "total_laid_off": 180
       },
       {
+        "industry": "Retail",
+        "total_laid_off": 33
+      },
+      {
         "industry": "AI",
         "total_laid_off": 20
       }
@@ -66,6 +74,10 @@
       {
         "country": "United States",
         "total_laid_off": 180
+      },
+      {
+        "country": "Nigeria",
+        "total_laid_off": 33
       },
       {
         "country": "India",
@@ -79,7 +91,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 20
+        "total_laid_off": 53
       }
     ],
     "layoff_pct_distribution": [
@@ -101,7 +113,7 @@
       },
       {
         "bucket": "100%+",
-        "event_count": 0
+        "event_count": 1
       }
     ]
   },
@@ -118,6 +130,16 @@
         "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
       },
       {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
+      {
         "date": "2026-07-28",
         "company": "Krutrim",
         "num_laid_off": 20,
@@ -129,6 +151,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
       {
         "date": "2026-07-28",
         "company": "Krutrim",
@@ -182,6 +214,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
+      {
         "date": "2026-07-27",
         "company": "BitMart",
         "num_laid_off": null,
@@ -214,10 +256,10 @@
     ]
   },
   "insights": [
-    "2026-W31 includes 5 public layoff events and 200 reported layoffs.",
+    "2026-W31 includes 6 public layoff events and 233 reported layoffs.",
     "The largest company contributor is BuzzFeed with 180 reported layoffs.",
     "The leading named industry is Media with 180 reported layoffs.",
-    "3 events report a layoff percentage of 25% or higher."
+    "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

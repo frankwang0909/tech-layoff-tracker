@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-07-28"
+    "end": "2026-07-30"
   },
-  "updated_at": "2026-07-28",
+  "updated_at": "2026-07-30",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 124255,
-    "event_count": 271,
-    "headcount_event_count": 176,
-    "company_count": 252,
+    "total_laid_off": 124288,
+    "event_count": 272,
+    "headcount_event_count": 177,
+    "company_count": 253,
     "country_count": 28,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 705.99,
-    "median_layoffs_per_headcount_event": 147.5,
-    "high_intensity_event_count": 53
+    "average_layoffs_per_headcount_event": 702.19,
+    "median_layoffs_per_headcount_event": 145.0,
+    "high_intensity_event_count": 54
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 1649,
-      "total_laid_off_pct_change": 0.0134,
-      "event_count_delta": -62,
-      "event_count_pct_change": -0.1862,
+      "total_laid_off_delta": 1682,
+      "total_laid_off_pct_change": 0.0137,
+      "event_count_delta": -61,
+      "event_count_pct_change": -0.1832,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 1649,
-      "total_laid_off_pct_change": 0.0134,
-      "event_count_delta": -62,
-      "event_count_pct_change": -0.1862,
+      "total_laid_off_delta": 1682,
+      "total_laid_off_pct_change": 0.0137,
+      "event_count_delta": -61,
+      "event_count_pct_change": -0.1832,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Retail",
-        "total_laid_off": 19578
+        "total_laid_off": 19611
       },
       {
         "industry": "Consumer",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5352
+        "total_laid_off": 5385
       },
       {
         "stage": "Acquired",
@@ -229,7 +229,7 @@
       },
       {
         "bucket": "100%+",
-        "event_count": 0
+        "event_count": 1
       }
     ]
   },
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-02-26",
-        "company": "Block",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
-      },
-      {
         "date": "2026-05-13",
         "company": "Cisco",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
       },
       {
         "date": "2026-05-20",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "ServiceNow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+      },
+      {
         "date": "2026-07-28",
         "company": "Krutrim",
         "num_laid_off": 20,
@@ -358,14 +378,14 @@
         "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
       },
       {
-        "date": "2026-07-28",
-        "company": "ServiceNow",
+        "date": "2026-07-27",
+        "company": "BitMart",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Support",
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+        "stage": "Series B",
+        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
       },
       {
         "date": "2026-07-27",
@@ -376,16 +396,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
-      },
-      {
-        "date": "2026-07-27",
-        "company": "BitMart",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
       },
       {
         "date": "2026-07-26",
@@ -479,16 +489,6 @@
       },
       {
         "date": "2026-07-21",
-        "company": "WSC",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.1,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
-      },
-      {
-        "date": "2026-07-21",
         "company": "Movement Labs",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -496,6 +496,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+      },
+      {
+        "date": "2026-07-21",
+        "company": "WSC",
+        "num_laid_off": 70,
+        "percentage_laid_off": 0.1,
+        "industry": "Media",
+        "country": "Israel",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
       },
       {
         "date": "2026-07-20",
@@ -520,16 +530,6 @@
       {
         "date": "2026-07-19",
         "company": "Samsung",
-        "num_laid_off": 100,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
-      },
-      {
-        "date": "2026-07-19",
-        "company": "Samsung",
         "num_laid_off": 739,
         "percentage_laid_off": null,
         "industry": "Hardware",
@@ -539,6 +539,16 @@
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-07-30",
+        "company": "GoLemon",
+        "num_laid_off": 33,
+        "percentage_laid_off": 1.0,
+        "industry": "Retail",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+      },
       {
         "date": "2026-07-27",
         "company": "BitMart",
@@ -628,24 +638,14 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
-      },
-      {
-        "date": "2026-03-26",
-        "company": "Quandoo",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "Germany",
-        "stage": "Acquired",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
       }
     ]
   },
   "insights": [
-    "2026 includes 271 public layoff events and 124,255 reported layoffs.",
+    "2026 includes 272 public layoff events and 124,288 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
-    "The leading named industry is Retail with 19,578 reported layoffs.",
-    "53 events report a layoff percentage of 25% or higher."
+    "The leading named industry is Retail with 19,611 reported layoffs.",
+    "54 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

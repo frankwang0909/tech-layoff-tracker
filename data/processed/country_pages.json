@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-28"
+      "end": "2026-07-31"
     },
     "kpis": {
-      "total_laid_off": 203749,
-      "event_count": 350,
-      "headcount_event_count": 230,
-      "company_count": 265,
+      "total_laid_off": 203899,
+      "event_count": 351,
+      "headcount_event_count": 231,
+      "company_count": 266,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 54
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 7788
+          "total_laid_off": 7938
         }
       ],
       "company_top": [
@@ -143,6 +143,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-07-31",
+          "company": "Chime",
+          "num_laid_off": 150,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Series G",
+          "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+        },
+        {
           "date": "2026-07-28",
           "company": "ServiceNow",
           "num_laid_off": null,
@@ -154,16 +164,6 @@
         },
         {
           "date": "2026-07-27",
-          "company": "BitMart",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
-        },
-        {
-          "date": "2026-07-27",
           "company": "BuzzFeed",
           "num_laid_off": 180,
           "percentage_laid_off": 0.35,
@@ -171,6 +171,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+        },
+        {
+          "date": "2026-07-27",
+          "company": "BitMart",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
         },
         {
           "date": "2026-07-26",
@@ -204,16 +214,6 @@
         },
         {
           "date": "2026-07-22",
-          "company": "Uber",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
-        },
-        {
-          "date": "2026-07-22",
           "company": "Amazon",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -221,6 +221,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
         },
         {
           "date": "2026-07-21",
@@ -255,7 +265,7 @@
         {
           "date": "2026-07-19",
           "company": "Samsung",
-          "num_laid_off": 739,
+          "num_laid_off": 100,
           "percentage_laid_off": null,
           "industry": "Hardware",
           "country": "United States",
@@ -265,7 +275,7 @@
         {
           "date": "2026-07-19",
           "company": "Samsung",
-          "num_laid_off": 100,
+          "num_laid_off": 739,
           "percentage_laid_off": null,
           "industry": "Hardware",
           "country": "United States",
@@ -281,20 +291,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
-        },
-        {
-          "date": "2026-07-14",
-          "company": "Rapid7",
-          "num_laid_off": 21,
-          "percentage_laid_off": 0.01,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
         }
       ]
     },
-    "summary": "United States has 203,749 reported tech layoffs across 350 public events from 2025-01-02 to 2026-07-28."
+    "summary": "United States has 203,899 reported tech layoffs across 351 public events from 2025-01-02 to 2026-07-31."
   },
   {
     "type": "country",
@@ -1391,13 +1391,13 @@
     "canonical_url": "/countries/canada.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-08"
+      "end": "2026-07-31"
     },
     "kpis": {
-      "total_laid_off": 3025,
-      "event_count": 20,
-      "headcount_event_count": 12,
-      "company_count": 14,
+      "total_laid_off": 3125,
+      "event_count": 21,
+      "headcount_event_count": 13,
+      "company_count": 15,
       "country_count": 1,
       "industry_count": 11,
       "high_intensity_event_count": 5
@@ -1434,7 +1434,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 400
+          "total_laid_off": 500
         }
       ],
       "company_top": [
@@ -1463,6 +1463,10 @@
           "total_laid_off": 138
         },
         {
+          "company": "Lightspeed Commerce",
+          "total_laid_off": 100
+        },
+        {
           "company": "Klue",
           "total_laid_off": 85
         },
@@ -1473,15 +1477,21 @@
         {
           "company": "Loopio",
           "total_laid_off": 36
-        },
-        {
-          "company": "Shopify",
-          "total_laid_off": 30
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-31",
+          "company": "Lightspeed Commerce",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.03,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+        },
         {
           "date": "2026-07-08",
           "company": "OpenText",
@@ -1621,20 +1631,10 @@
           "country": "Canada",
           "stage": "Series B",
           "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
-        },
-        {
-          "date": "2025-06-09",
-          "company": "ZoomInfo",
-          "num_laid_off": 150,
-          "percentage_laid_off": 0.04,
-          "industry": "Sales",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://www.oregonlive.com/silicon-forest/2025/06/zoominfo-one-of-portland-areas-most-valuable-companies-will-cut-200-jobs.html"
         }
       ]
     },
-    "summary": "Canada has 3,025 reported tech layoffs across 20 public events from 2025-02-05 to 2026-07-08."
+    "summary": "Canada has 3,125 reported tech layoffs across 21 public events from 2025-02-05 to 2026-07-31."
   },
   {
     "type": "country",

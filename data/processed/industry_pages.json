@@ -280,13 +280,13 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-07-30"
+      "end": "2026-07-31"
     },
     "kpis": {
-      "total_laid_off": 35927,
-      "event_count": 44,
-      "headcount_event_count": 27,
-      "company_count": 29,
+      "total_laid_off": 36027,
+      "event_count": 45,
+      "headcount_event_count": 28,
+      "company_count": 30,
       "country_count": 11,
       "industry_count": 1,
       "high_intensity_event_count": 10
@@ -347,7 +347,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 1200
+          "total_laid_off": 1300
         }
       ],
       "company_top": [
@@ -395,6 +395,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-31",
+          "company": "Lightspeed Commerce",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.03,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+        },
         {
           "date": "2026-07-30",
           "company": "GoLemon",
@@ -534,20 +544,10 @@
           "country": "Israel",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
-        },
-        {
-          "date": "2026-02-11",
-          "company": "Glossier",
-          "num_laid_off": 50,
-          "percentage_laid_off": 0.33,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/"
         }
       ]
     },
-    "summary": "Retail has 35,927 reported tech layoffs across 44 public events from 2025-01-10 to 2026-07-30."
+    "summary": "Retail has 36,027 reported tech layoffs across 45 public events from 2025-01-10 to 2026-07-31."
   },
   {
     "type": "industry",
@@ -850,13 +850,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-13"
+      "end": "2026-07-31"
     },
     "kpis": {
-      "total_laid_off": 18662,
-      "event_count": 59,
-      "headcount_event_count": 37,
-      "company_count": 52,
+      "total_laid_off": 18812,
+      "event_count": 60,
+      "headcount_event_count": 38,
+      "company_count": 53,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 17
@@ -929,7 +929,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 100
+          "total_laid_off": 250
         }
       ],
       "company_top": [
@@ -954,19 +954,19 @@
           "total_laid_off": 700
         },
         {
-          "company": "Stone",
-          "total_laid_off": 400
-        },
-        {
           "company": "Paytm",
           "total_laid_off": 400
         },
         {
-          "company": "Wise",
-          "total_laid_off": 300
+          "company": "Stone",
+          "total_laid_off": 400
         },
         {
           "company": "Stripe",
+          "total_laid_off": 300
+        },
+        {
+          "company": "Wise",
           "total_laid_off": 300
         },
         {
@@ -977,6 +977,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-31",
+          "company": "Chime",
+          "num_laid_off": 150,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Series G",
+          "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+        },
         {
           "date": "2026-07-13",
           "company": "Gigbanc",
@@ -1116,20 +1126,10 @@
           "country": "Israel",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
-        },
-        {
-          "date": "2026-04-14",
-          "company": "GoCardless",
-          "num_laid_off": 90,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United Kingdom",
-          "stage": "Series G",
-          "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
         }
       ]
     },
-    "summary": "Finance has 18,662 reported tech layoffs across 59 public events from 2025-01-02 to 2026-07-13."
+    "summary": "Finance has 18,812 reported tech layoffs across 60 public events from 2025-01-02 to 2026-07-31."
   },
   {
     "type": "industry",

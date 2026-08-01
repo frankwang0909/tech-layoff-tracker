@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Chime,SF Bay Area,150.0,2026-07-31,0.1,Finance,https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/,Series G,2300.0,United States,2026-07-31T18:10:58.000Z
+Lightspeed Commerce,"Montreal, Non-U.S.",100.0,2026-07-31,0.03,Retail,https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/,Post-IPO,1200.0,Canada,2026-07-31T18:15:07.000Z
 GoLemon,"Lagos, Non-U.S.",33.0,2026-07-30,1.0,Retail,https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/,Unknown,,Nigeria,2026-07-30T23:32:16.000Z
 Krutrim,"Bengaluru, Non-U.S.",20.0,2026-07-28,0.5,AI,https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce,Unknown,304.0,India,2026-07-29T01:40:22.000Z
 Luno,"London, Non-U.S.",,2026-07-28,0.2,Crypto,https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff,Acquired,13.0,United Kingdom,2026-07-29T01:41:18.000Z

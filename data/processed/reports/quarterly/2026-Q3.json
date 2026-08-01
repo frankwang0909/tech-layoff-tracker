@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-07-30"
+    "end": "2026-07-31"
   },
-  "updated_at": "2026-07-30",
+  "updated_at": "2026-07-31",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 10606,
-    "event_count": 42,
-    "headcount_event_count": 25,
-    "company_count": 39,
+    "total_laid_off": 10856,
+    "event_count": 44,
+    "headcount_event_count": 27,
+    "company_count": 41,
     "country_count": 12,
     "industry_count": 18,
-    "average_layoffs_per_headcount_event": 424.24,
+    "average_layoffs_per_headcount_event": 402.07,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 10
   },
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -49941,
-      "total_laid_off_pct_change": -0.8248,
-      "event_count_delta": -94,
-      "event_count_pct_change": -0.6912,
+      "total_laid_off_delta": -49691,
+      "total_laid_off_pct_change": -0.8207,
+      "event_count_delta": -92,
+      "event_count_pct_change": -0.6765,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -16948,
-      "total_laid_off_pct_change": -0.6151,
-      "event_count_delta": -44,
-      "event_count_pct_change": -0.5116,
+      "total_laid_off_delta": -16698,
+      "total_laid_off_pct_change": -0.606,
+      "event_count_delta": -42,
+      "event_count_pct_change": -0.4884,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Retail",
-        "total_laid_off": 1200
+        "total_laid_off": 1300
       },
       {
         "industry": "Hardware",
@@ -122,14 +122,14 @@
         "total_laid_off": 260
       },
       {
-        "industry": "Travel",
-        "total_laid_off": 200
+        "industry": "Finance",
+        "total_laid_off": 250
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 7788
+        "total_laid_off": 7938
       },
       {
         "country": "India",
@@ -141,7 +141,7 @@
       },
       {
         "country": "Canada",
-        "total_laid_off": 400
+        "total_laid_off": 500
       },
       {
         "country": "Ireland",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 8297
+        "total_laid_off": 8397
       },
       {
         "stage": "Private Equity",
@@ -174,16 +174,16 @@
         "total_laid_off": 375
       },
       {
+        "stage": "Series G",
+        "total_laid_off": 350
+      },
+      {
         "stage": "Series D",
         "total_laid_off": 270
       },
       {
         "stage": "Unknown",
         "total_laid_off": 218
-      },
-      {
-        "stage": "Series G",
-        "total_laid_off": 200
       },
       {
         "stage": "Series E",
@@ -205,11 +205,11 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 4
+        "event_count": 5
       },
       {
         "bucket": "10-24%",
-        "event_count": 7
+        "event_count": 8
       },
       {
         "bucket": "25-49%",
@@ -330,6 +330,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-07-31",
+        "company": "Chime",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series G",
+        "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+      },
+      {
+        "date": "2026-07-31",
+        "company": "Lightspeed Commerce",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.03,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+      },
+      {
         "date": "2026-07-30",
         "company": "GoLemon",
         "num_laid_off": 33,
@@ -391,16 +411,6 @@
       },
       {
         "date": "2026-07-26",
-        "company": "Nothing",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.12,
-        "industry": "Hardware",
-        "country": "United Kingdom",
-        "stage": "Series C",
-        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
-      },
-      {
-        "date": "2026-07-26",
         "company": "Papaya Gaming",
         "num_laid_off": 30,
         "percentage_laid_off": 0.07,
@@ -420,14 +430,14 @@
         "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
       },
       {
-        "date": "2026-07-23",
-        "company": "BitMEX",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "Seychelles",
-        "stage": "Seed",
-        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+        "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
       },
       {
         "date": "2026-07-23",
@@ -438,6 +448,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+      },
+      {
+        "date": "2026-07-23",
+        "company": "BitMEX",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Seychelles",
+        "stage": "Seed",
+        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
       },
       {
         "date": "2026-07-22",
@@ -508,26 +528,6 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
-      },
-      {
-        "date": "2026-07-20",
-        "company": "Intel",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
-      },
-      {
-        "date": "2026-07-19",
-        "company": "Samsung",
-        "num_laid_off": 739,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
       }
     ],
     "high_intensity_events": [
@@ -634,9 +634,9 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 42 public layoff events and 10,606 reported layoffs.",
+    "2026-Q3 includes 44 public layoff events and 10,856 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Retail with 1,200 reported layoffs.",
+    "The leading named industry is Retail with 1,300 reported layoffs.",
     "10 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

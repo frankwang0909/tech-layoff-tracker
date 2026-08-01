@@ -1,37 +1,37 @@
 {
   "report_type": "daily",
-  "period": "2025-07-16",
+  "period": "2026-07-31",
   "status": "final",
   "date_range": {
-    "start": "2025-07-16",
-    "end": "2025-07-16"
+    "start": "2026-07-31",
+    "end": "2026-07-31"
   },
   "updated_at": "2026-07-31",
-  "canonical_url": "/reports/daily/2025-07-16.html",
+  "canonical_url": "/reports/daily/2026-07-31.html",
   "kpis": {
-    "total_laid_off": 300,
+    "total_laid_off": 250,
     "event_count": 2,
     "headcount_event_count": 2,
     "company_count": 2,
-    "country_count": 1,
+    "country_count": 2,
     "industry_count": 2,
-    "average_layoffs_per_headcount_event": 150.0,
-    "median_layoffs_per_headcount_event": 150.0,
+    "average_layoffs_per_headcount_event": 125.0,
+    "median_layoffs_per_headcount_event": 125.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-07-15",
-      "total_laid_off": 166,
+      "period": "2026-07-30",
+      "total_laid_off": 33,
       "event_count": 1,
-      "total_laid_off_delta": 134,
-      "total_laid_off_pct_change": 0.8072,
+      "total_laid_off_delta": 217,
+      "total_laid_off_pct_change": 6.5758,
       "event_count_delta": 1,
       "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
-      "period": "2024-07-16",
+      "period": "2025-07-31",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -44,34 +44,38 @@
   "charts": {
     "company_top": [
       {
-        "company": "Scale AI",
-        "total_laid_off": 200
+        "company": "Chime",
+        "total_laid_off": 150
       },
       {
-        "company": "Lenovo",
+        "company": "Lightspeed Commerce",
         "total_laid_off": 100
       }
     ],
     "industry_top": [
       {
-        "industry": "Data",
-        "total_laid_off": 200
+        "industry": "Finance",
+        "total_laid_off": 150
       },
       {
-        "industry": "Hardware",
+        "industry": "Retail",
         "total_laid_off": 100
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 300
+        "total_laid_off": 150
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 100
       }
     ],
     "stage_top": [
       {
-        "stage": "Series E",
-        "total_laid_off": 200
+        "stage": "Series G",
+        "total_laid_off": 150
       },
       {
         "stage": "Post-IPO",
@@ -104,54 +108,54 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2025-07-16",
-        "company": "Scale AI",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.14,
-        "industry": "Data",
+        "date": "2026-07-31",
+        "company": "Chime",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
         "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
+        "stage": "Series G",
+        "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
       },
       {
-        "date": "2025-07-16",
-        "company": "Lenovo",
+        "date": "2026-07-31",
+        "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
-        "industry": "Hardware",
-        "country": "United States",
+        "industry": "Retail",
+        "country": "Canada",
         "stage": "Post-IPO",
-        "source": "https://www.newsobserver.com/news/business/article310699130.html"
+        "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
       }
     ],
     "recent_events": [
       {
-        "date": "2025-07-16",
-        "company": "Scale AI",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.14,
-        "industry": "Data",
+        "date": "2026-07-31",
+        "company": "Chime",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
         "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
+        "stage": "Series G",
+        "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
       },
       {
-        "date": "2025-07-16",
-        "company": "Lenovo",
+        "date": "2026-07-31",
+        "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
-        "industry": "Hardware",
-        "country": "United States",
+        "industry": "Retail",
+        "country": "Canada",
         "stage": "Post-IPO",
-        "source": "https://www.newsobserver.com/news/business/article310699130.html"
+        "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-07-16 includes 2 public layoff events and 300 reported layoffs.",
-    "The largest company contributor is Scale AI with 200 reported layoffs.",
-    "The leading named industry is Data with 200 reported layoffs."
+    "2026-07-31 includes 2 public layoff events and 250 reported layoffs.",
+    "The largest company contributor is Chime with 150 reported layoffs.",
+    "The leading named industry is Finance with 150 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

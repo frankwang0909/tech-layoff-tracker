@@ -2965,16 +2965,16 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-07-15"
+      "end": "2026-07-31"
     },
     "kpis": {
       "total_laid_off": 2846,
-      "event_count": 23,
+      "event_count": 24,
       "headcount_event_count": 14,
-      "company_count": 22,
-      "country_count": 6,
+      "company_count": 23,
+      "country_count": 7,
       "industry_count": 1,
-      "high_intensity_event_count": 4
+      "high_intensity_event_count": 5
     },
     "charts": {
       "monthly_trend": [
@@ -3068,6 +3068,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-31",
+          "company": "Reforged Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Marketing",
+          "country": "Singapore",
+          "stage": "Seed",
+          "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+        },
         {
           "date": "2026-07-15",
           "company": "Sprout Social",
@@ -3207,20 +3217,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
-        },
-        {
-          "date": "2025-07-11",
-          "company": "TripleLift",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.adexchanger.com/publishers/triplelift-quietly-lays-off-a-double-digit-percentage-of-its-workforce/"
         }
       ]
     },
-    "summary": "Marketing has 2,846 reported tech layoffs across 23 public events from 2025-01-15 to 2026-07-15."
+    "summary": "Marketing has 2,846 reported tech layoffs across 24 public events from 2025-01-15 to 2026-07-31."
   },
   {
     "type": "industry",

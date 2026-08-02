@@ -10,14 +10,14 @@
   "canonical_url": "/reports/monthly/2026-07.html",
   "kpis": {
     "total_laid_off": 10856,
-    "event_count": 44,
+    "event_count": 45,
     "headcount_event_count": 27,
-    "company_count": 41,
-    "country_count": 12,
+    "company_count": 42,
+    "country_count": 13,
     "industry_count": 18,
     "average_layoffs_per_headcount_event": 402.07,
     "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 10
+    "high_intensity_event_count": 11
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 50,
       "total_laid_off_delta": -15604,
       "total_laid_off_pct_change": -0.5897,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.12,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.1,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 31,
       "total_laid_off_delta": -5792,
       "total_laid_off_pct_change": -0.3479,
-      "event_count_delta": 13,
-      "event_count_pct_change": 0.4194,
+      "event_count_delta": 14,
+      "event_count_pct_change": 0.4516,
       "note": null
     }
   },
@@ -341,6 +341,16 @@
       },
       {
         "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+      },
+      {
+        "date": "2026-07-31",
         "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
@@ -361,16 +371,6 @@
       },
       {
         "date": "2026-07-28",
-        "company": "Krutrim",
-        "num_laid_off": 20,
-        "percentage_laid_off": 0.5,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
-      },
-      {
-        "date": "2026-07-28",
         "company": "Luno",
         "num_laid_off": null,
         "percentage_laid_off": 0.2,
@@ -388,6 +388,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+      },
+      {
+        "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
       },
       {
         "date": "2026-07-27",
@@ -518,19 +528,19 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
-      },
-      {
-        "date": "2026-07-20",
-        "company": "Magic Leap",
-        "num_laid_off": 193,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+      },
       {
         "date": "2026-07-30",
         "company": "GoLemon",
@@ -620,24 +630,14 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
-      },
-      {
-        "date": "2026-07-07",
-        "company": "Darrow",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.33,
-        "industry": "Legal",
-        "country": "Israel",
-        "stage": "Series B",
-        "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
       }
     ]
   },
   "insights": [
-    "2026-07 includes 44 public layoff events and 10,856 reported layoffs.",
+    "2026-07 includes 45 public layoff events and 10,856 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,300 reported layoffs.",
-    "10 events report a layoff percentage of 25% or higher."
+    "11 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

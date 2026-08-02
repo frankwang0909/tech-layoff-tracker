@@ -10,14 +10,14 @@
   "canonical_url": "/reports/daily/2026-07-31.html",
   "kpis": {
     "total_laid_off": 250,
-    "event_count": 2,
+    "event_count": 3,
     "headcount_event_count": 2,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
     "average_layoffs_per_headcount_event": 125.0,
     "median_layoffs_per_headcount_event": 125.0,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 1,
       "total_laid_off_delta": 217,
       "total_laid_off_pct_change": 6.5758,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
       "note": null
     },
     "same_period_last_year": {
@@ -148,14 +148,36 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+      },
+      {
+        "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+      }
+    ]
   },
   "insights": [
-    "2026-07-31 includes 2 public layoff events and 250 reported layoffs.",
+    "2026-07-31 includes 3 public layoff events and 250 reported layoffs.",
     "The largest company contributor is Chime with 150 reported layoffs.",
-    "The leading named industry is Finance with 150 reported layoffs."
+    "The leading named industry is Finance with 150 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

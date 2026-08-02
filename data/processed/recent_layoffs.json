@@ -11,6 +11,16 @@
   },
   {
     "date": "2026-07-31",
+    "company": "Reforged Labs",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Marketing",
+    "country": "Singapore",
+    "stage": "Seed",
+    "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+  },
+  {
+    "date": "2026-07-31",
     "company": "Lightspeed Commerce",
     "num_laid_off": 100,
     "percentage_laid_off": 0.03,
@@ -61,16 +71,6 @@
   },
   {
     "date": "2026-07-27",
-    "company": "BuzzFeed",
-    "num_laid_off": 180,
-    "percentage_laid_off": 0.35,
-    "industry": "Media",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
-  },
-  {
-    "date": "2026-07-27",
     "company": "BitMart",
     "num_laid_off": null,
     "percentage_laid_off": 1.0,
@@ -78,6 +78,16 @@
     "country": "United States",
     "stage": "Series B",
     "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+  },
+  {
+    "date": "2026-07-27",
+    "company": "BuzzFeed",
+    "num_laid_off": 180,
+    "percentage_laid_off": 0.35,
+    "industry": "Media",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
   },
   {
     "date": "2026-07-26",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Series B",
     "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
-  },
-  {
-    "date": "2026-07-23",
-    "company": "Patreon",
-    "num_laid_off": 93,
-    "percentage_laid_off": 0.2,
-    "industry": "Media",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
   }
 ]

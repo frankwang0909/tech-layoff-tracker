@@ -10,14 +10,14 @@
   "canonical_url": "/reports/weekly/2026-W31.html",
   "kpis": {
     "total_laid_off": 483,
-    "event_count": 8,
+    "event_count": 9,
     "headcount_event_count": 5,
-    "company_count": 8,
-    "country_count": 5,
-    "industry_count": 6,
+    "company_count": 9,
+    "country_count": 6,
+    "industry_count": 7,
     "average_layoffs_per_headcount_event": 96.6,
     "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 4
+    "high_intensity_event_count": 5
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 13,
       "total_laid_off_delta": -1743,
       "total_laid_off_pct_change": -0.783,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.3846,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.3077,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": -18,
       "total_laid_off_pct_change": -0.0359,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.6,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.8,
       "note": null
     }
   },
@@ -212,6 +212,16 @@
         "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
       },
       {
+        "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+      },
+      {
         "date": "2026-07-30",
         "company": "GoLemon",
         "num_laid_off": 33,
@@ -274,6 +284,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+      },
+      {
         "date": "2026-07-30",
         "company": "GoLemon",
         "num_laid_off": 33,
@@ -316,10 +336,10 @@
     ]
   },
   "insights": [
-    "2026-W31 includes 8 public layoff events and 483 reported layoffs.",
+    "2026-W31 includes 9 public layoff events and 483 reported layoffs.",
     "The largest company contributor is BuzzFeed with 180 reported layoffs.",
     "The leading named industry is Media with 180 reported layoffs.",
-    "4 events report a layoff percentage of 25% or higher."
+    "5 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

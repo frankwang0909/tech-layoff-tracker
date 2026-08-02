@@ -2644,16 +2644,16 @@
     "canonical_url": "/countries/singapore.html",
     "date_range": {
       "start": "2026-03-18",
-      "end": "2026-06-23"
+      "end": "2026-07-31"
     },
     "kpis": {
       "total_laid_off": 0,
-      "event_count": 4,
+      "event_count": 5,
       "headcount_event_count": 0,
-      "company_count": 4,
+      "company_count": 5,
       "country_count": 1,
-      "industry_count": 3,
-      "high_intensity_event_count": 1
+      "industry_count": 4,
+      "high_intensity_event_count": 2
     },
     "charts": {
       "monthly_trend": [],
@@ -2661,6 +2661,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-31",
+          "company": "Reforged Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Marketing",
+          "country": "Singapore",
+          "stage": "Seed",
+          "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+        },
         {
           "date": "2026-06-23",
           "company": "Lazada Group",
@@ -2703,6 +2713,6 @@
         }
       ]
     },
-    "summary": "Singapore has 0 reported tech layoffs across 4 public events from 2026-03-18 to 2026-06-23."
+    "summary": "Singapore has 0 reported tech layoffs across 5 public events from 2026-03-18 to 2026-07-31."
   }
 ]

@@ -21,6 +21,16 @@
   },
   {
     "date": "2026-07-31",
+    "company": "ChargePoint",
+    "num_laid_off": 144,
+    "percentage_laid_off": 0.1,
+    "industry": "Manufacturing",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+  },
+  {
+    "date": "2026-07-31",
     "company": "Lightspeed Commerce",
     "num_laid_off": 100,
     "percentage_laid_off": 0.03,
@@ -38,16 +48,6 @@
     "country": "Nigeria",
     "stage": "Unknown",
     "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
-  },
-  {
-    "date": "2026-07-28",
-    "company": "ServiceNow",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Support",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
   },
   {
     "date": "2026-07-28",
@@ -70,14 +70,14 @@
     "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
   },
   {
-    "date": "2026-07-27",
-    "company": "BitMart",
+    "date": "2026-07-28",
+    "company": "ServiceNow",
     "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Crypto",
+    "percentage_laid_off": null,
+    "industry": "Support",
     "country": "United States",
-    "stage": "Series B",
-    "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+    "stage": "Post-IPO",
+    "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
   },
   {
     "date": "2026-07-27",
@@ -88,6 +88,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+  },
+  {
+    "date": "2026-07-27",
+    "company": "BitMart",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Series B",
+    "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
   },
   {
     "date": "2026-07-26",
@@ -108,15 +118,5 @@
     "country": "Israel",
     "stage": "Unknown",
     "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
-  },
-  {
-    "date": "2026-07-26",
-    "company": "Dutch",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Series B",
-    "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
   }
 ]

@@ -9,14 +9,14 @@
   "updated_at": "2026-07-31",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 124538,
-    "event_count": 275,
-    "headcount_event_count": 179,
-    "company_count": 256,
+    "total_laid_off": 124682,
+    "event_count": 276,
+    "headcount_event_count": 180,
+    "company_count": 257,
     "country_count": 28,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 695.74,
-    "median_layoffs_per_headcount_event": 145.0,
+    "average_layoffs_per_headcount_event": 692.68,
+    "median_layoffs_per_headcount_event": 144.5,
     "high_intensity_event_count": 55
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 1932,
-      "total_laid_off_pct_change": 0.0158,
-      "event_count_delta": -58,
-      "event_count_pct_change": -0.1742,
+      "total_laid_off_delta": 2076,
+      "total_laid_off_pct_change": 0.0169,
+      "event_count_delta": -57,
+      "event_count_pct_change": -0.1712,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 1932,
-      "total_laid_off_pct_change": 0.0158,
-      "event_count_delta": -58,
-      "event_count_pct_change": -0.1742,
+      "total_laid_off_delta": 2076,
+      "total_laid_off_pct_change": 0.0169,
+      "event_count_delta": -57,
+      "event_count_pct_change": -0.1712,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 101463
+        "total_laid_off": 101607
       },
       {
         "country": "Israel",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5385
+        "total_laid_off": 5529
       },
       {
         "stage": "Acquired",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 49
+        "event_count": 50
       },
       {
         "bucket": "25-49%",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -359,6 +359,16 @@
       },
       {
         "date": "2026-07-31",
+        "company": "ChargePoint",
+        "num_laid_off": 144,
+        "percentage_laid_off": 0.1,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+      },
+      {
+        "date": "2026-07-31",
         "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
@@ -379,6 +389,16 @@
       },
       {
         "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+      },
+      {
+        "date": "2026-07-28",
         "company": "Luno",
         "num_laid_off": null,
         "percentage_laid_off": 0.2,
@@ -396,16 +416,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
-      },
-      {
-        "date": "2026-07-28",
-        "company": "Krutrim",
-        "num_laid_off": 20,
-        "percentage_laid_off": 0.5,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
       },
       {
         "date": "2026-07-27",
@@ -429,6 +439,16 @@
       },
       {
         "date": "2026-07-26",
+        "company": "Nothing",
+        "num_laid_off": 100,
+        "percentage_laid_off": 0.12,
+        "industry": "Hardware",
+        "country": "United Kingdom",
+        "stage": "Series C",
+        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+      },
+      {
+        "date": "2026-07-26",
         "company": "Papaya Gaming",
         "num_laid_off": 30,
         "percentage_laid_off": 0.07,
@@ -446,16 +466,6 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
-      },
-      {
-        "date": "2026-07-26",
-        "company": "Nothing",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.12,
-        "industry": "Hardware",
-        "country": "United Kingdom",
-        "stage": "Series C",
-        "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
       },
       {
         "date": "2026-07-23",
@@ -516,16 +526,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
-      },
-      {
-        "date": "2026-07-21",
-        "company": "WSC",
-        "num_laid_off": 70,
-        "percentage_laid_off": 0.1,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
       },
       {
         "date": "2026-07-21",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 275 public layoff events and 124,538 reported layoffs.",
+    "2026 includes 276 public layoff events and 124,682 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,711 reported layoffs.",
     "55 events report a layoff percentage of 25% or higher."

@@ -1,5 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
 Chime,SF Bay Area,150.0,2026-07-31,0.1,Finance,https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/,Series G,2300.0,United States,2026-07-31T18:10:58.000Z
+ChargePoint,SF Bay Area,144.0,2026-07-31,0.1,Manufacturing,https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1,Unknown,1400.0,United States,2026-08-02T21:15:35.000Z
 Lightspeed Commerce,"Montreal, Non-U.S.",100.0,2026-07-31,0.03,Retail,https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/,Post-IPO,1200.0,Canada,2026-07-31T18:15:07.000Z
 Reforged Labs,"Singapore, Non-U.S.",,2026-07-31,1.0,Marketing,https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years,Seed,4.0,Singapore,2026-08-02T04:03:41.000Z
 GoLemon,"Lagos, Non-U.S.",33.0,2026-07-30,1.0,Retail,https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/,Unknown,,Nigeria,2026-07-30T23:32:16.000Z

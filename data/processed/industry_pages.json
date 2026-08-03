@@ -3658,13 +3658,13 @@
     "canonical_url": "/industries/manufacturing.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-06-08"
+      "end": "2026-07-31"
     },
     "kpis": {
-      "total_laid_off": 2040,
-      "event_count": 9,
-      "headcount_event_count": 7,
-      "company_count": 8,
+      "total_laid_off": 2184,
+      "event_count": 10,
+      "headcount_event_count": 8,
+      "company_count": 9,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -3694,6 +3694,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 110
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 144
         }
       ],
       "company_top": [
@@ -3704,6 +3708,10 @@
         {
           "company": "FormFactor",
           "total_laid_off": 220
+        },
+        {
+          "company": "ChargePoint",
+          "total_laid_off": 144
         },
         {
           "company": "SRTX",
@@ -3725,6 +3733,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-07-31",
+          "company": "ChargePoint",
+          "num_laid_off": 144,
+          "percentage_laid_off": 0.1,
+          "industry": "Manufacturing",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+        },
         {
           "date": "2026-06-08",
           "company": "Hailo",
@@ -3817,7 +3835,7 @@
         }
       ]
     },
-    "summary": "Manufacturing has 2,040 reported tech layoffs across 9 public events from 2025-02-05 to 2026-06-08."
+    "summary": "Manufacturing has 2,184 reported tech layoffs across 10 public events from 2025-02-05 to 2026-07-31."
   },
   {
     "type": "industry",

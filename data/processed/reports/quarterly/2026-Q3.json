@@ -9,14 +9,14 @@
   "updated_at": "2026-07-31",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 10856,
-    "event_count": 45,
-    "headcount_event_count": 27,
-    "company_count": 42,
+    "total_laid_off": 11000,
+    "event_count": 46,
+    "headcount_event_count": 28,
+    "company_count": 43,
     "country_count": 13,
-    "industry_count": 18,
-    "average_layoffs_per_headcount_event": 402.07,
-    "median_layoffs_per_headcount_event": 100.0,
+    "industry_count": 19,
+    "average_layoffs_per_headcount_event": 392.86,
+    "median_layoffs_per_headcount_event": 122.0,
     "high_intensity_event_count": 11
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -49691,
-      "total_laid_off_pct_change": -0.8207,
-      "event_count_delta": -91,
-      "event_count_pct_change": -0.6691,
+      "total_laid_off_delta": -49547,
+      "total_laid_off_pct_change": -0.8183,
+      "event_count_delta": -90,
+      "event_count_pct_change": -0.6618,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -16698,
-      "total_laid_off_pct_change": -0.606,
-      "event_count_delta": -41,
-      "event_count_pct_change": -0.4767,
+      "total_laid_off_delta": -16554,
+      "total_laid_off_pct_change": -0.6008,
+      "event_count_delta": -40,
+      "event_count_pct_change": -0.4651,
       "note": null
     }
   },
@@ -76,11 +76,11 @@
         "total_laid_off": 260
       },
       {
-        "company": "Redis",
+        "company": "Mews",
         "total_laid_off": 200
       },
       {
-        "company": "Mews",
+        "company": "Redis",
         "total_laid_off": 200
       }
     ],
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 7938
+        "total_laid_off": 8082
       },
       {
         "country": "India",
@@ -174,16 +174,16 @@
         "total_laid_off": 375
       },
       {
+        "stage": "Unknown",
+        "total_laid_off": 362
+      },
+      {
         "stage": "Series G",
         "total_laid_off": 350
       },
       {
         "stage": "Series D",
         "total_laid_off": 270
-      },
-      {
-        "stage": "Unknown",
-        "total_laid_off": 218
       },
       {
         "stage": "Series E",
@@ -209,7 +209,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 8
+        "event_count": 9
       },
       {
         "bucket": "25-49%",
@@ -308,16 +308,6 @@
         "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
       },
       {
-        "date": "2026-07-07",
-        "company": "Mews",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.15,
-        "industry": "Travel",
-        "country": "Netherlands",
-        "stage": "Series D",
-        "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
-      },
-      {
         "date": "2026-07-13",
         "company": "Redis",
         "num_laid_off": 200,
@@ -326,6 +316,16 @@
         "country": "United States",
         "stage": "Series G",
         "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+      },
+      {
+        "date": "2026-07-07",
+        "company": "Mews",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.15,
+        "industry": "Travel",
+        "country": "Netherlands",
+        "stage": "Series D",
+        "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
       }
     ],
     "recent_events": [
@@ -351,6 +351,16 @@
       },
       {
         "date": "2026-07-31",
+        "company": "ChargePoint",
+        "num_laid_off": 144,
+        "percentage_laid_off": 0.1,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+      },
+      {
+        "date": "2026-07-31",
         "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
@@ -371,6 +381,16 @@
       },
       {
         "date": "2026-07-28",
+        "company": "Krutrim",
+        "num_laid_off": 20,
+        "percentage_laid_off": 0.5,
+        "industry": "AI",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+      },
+      {
+        "date": "2026-07-28",
         "company": "Luno",
         "num_laid_off": null,
         "percentage_laid_off": 0.2,
@@ -388,16 +408,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
-      },
-      {
-        "date": "2026-07-28",
-        "company": "Krutrim",
-        "num_laid_off": 20,
-        "percentage_laid_off": 0.5,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
       },
       {
         "date": "2026-07-27",
@@ -451,16 +461,6 @@
       },
       {
         "date": "2026-07-23",
-        "company": "Patreon",
-        "num_laid_off": 93,
-        "percentage_laid_off": 0.2,
-        "industry": "Media",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
-      },
-      {
-        "date": "2026-07-23",
         "company": "BitMEX",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -468,6 +468,16 @@
         "country": "Seychelles",
         "stage": "Seed",
         "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+      },
+      {
+        "date": "2026-07-23",
+        "company": "Patreon",
+        "num_laid_off": 93,
+        "percentage_laid_off": 0.2,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
       },
       {
         "date": "2026-07-22",
@@ -518,16 +528,6 @@
         "country": "Israel",
         "stage": "Series D",
         "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
-      },
-      {
-        "date": "2026-07-21",
-        "company": "Movement Labs",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
       }
     ],
     "high_intensity_events": [
@@ -634,7 +634,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 45 public layoff events and 10,856 reported layoffs.",
+    "2026-Q3 includes 46 public layoff events and 11,000 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,300 reported layoffs.",
     "11 events report a layoff percentage of 25% or higher."

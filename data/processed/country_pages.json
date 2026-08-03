@@ -10,10 +10,10 @@
       "end": "2026-07-31"
     },
     "kpis": {
-      "total_laid_off": 203899,
-      "event_count": 351,
-      "headcount_event_count": 231,
-      "company_count": 266,
+      "total_laid_off": 204043,
+      "event_count": 352,
+      "headcount_event_count": 232,
+      "company_count": 267,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 54
@@ -94,7 +94,7 @@
         },
         {
           "month": "2026-07",
-          "total_laid_off": 7938
+          "total_laid_off": 8082
         }
       ],
       "company_top": [
@@ -153,6 +153,16 @@
           "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
         },
         {
+          "date": "2026-07-31",
+          "company": "ChargePoint",
+          "num_laid_off": 144,
+          "percentage_laid_off": 0.1,
+          "industry": "Manufacturing",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+        },
+        {
           "date": "2026-07-28",
           "company": "ServiceNow",
           "num_laid_off": null,
@@ -164,16 +174,6 @@
         },
         {
           "date": "2026-07-27",
-          "company": "BuzzFeed",
-          "num_laid_off": 180,
-          "percentage_laid_off": 0.35,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
-        },
-        {
-          "date": "2026-07-27",
           "company": "BitMart",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -181,6 +181,16 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+        },
+        {
+          "date": "2026-07-27",
+          "company": "BuzzFeed",
+          "num_laid_off": 180,
+          "percentage_laid_off": 0.35,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
         },
         {
           "date": "2026-07-26",
@@ -281,20 +291,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
-        },
-        {
-          "date": "2026-07-15",
-          "company": "Sprout Social",
-          "num_laid_off": 260,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
         }
       ]
     },
-    "summary": "United States has 203,899 reported tech layoffs across 351 public events from 2025-01-02 to 2026-07-31."
+    "summary": "United States has 204,043 reported tech layoffs across 352 public events from 2025-01-02 to 2026-07-31."
   },
   {
     "type": "country",

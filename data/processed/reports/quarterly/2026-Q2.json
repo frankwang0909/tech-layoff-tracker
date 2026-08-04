@@ -6,7 +6,7 @@
     "start": "2026-04-01",
     "end": "2026-06-30"
   },
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-03",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
     "total_laid_off": 60547,
@@ -22,12 +22,12 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-Q1",
-      "total_laid_off": 53135,
-      "event_count": 94,
-      "total_laid_off_delta": 7412,
-      "total_laid_off_pct_change": 0.1395,
-      "event_count_delta": 42,
-      "event_count_pct_change": 0.4468,
+      "total_laid_off": 53150,
+      "event_count": 95,
+      "total_laid_off_delta": 7397,
+      "total_laid_off_pct_change": 0.1392,
+      "event_count_delta": 41,
+      "event_count_pct_change": 0.4316,
       "note": null
     },
     "same_period_last_year": {

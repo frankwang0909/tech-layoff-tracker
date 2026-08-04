@@ -57,7 +57,7 @@
   },
   {
     "month": "2026-03",
-    "total_laid_off": 16683
+    "total_laid_off": 16698
   },
   {
     "month": "2026-04",
@@ -74,5 +74,9 @@
   {
     "month": "2026-07",
     "total_laid_off": 11000
+  },
+  {
+    "month": "2026-08",
+    "total_laid_off": 40
   }
 ]

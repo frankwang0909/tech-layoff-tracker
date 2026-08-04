@@ -1917,10 +1917,10 @@
       "end": "2026-07-14"
     },
     "kpis": {
-      "total_laid_off": 4328,
-      "event_count": 33,
-      "headcount_event_count": 25,
-      "company_count": 29,
+      "total_laid_off": 4343,
+      "event_count": 34,
+      "headcount_event_count": 26,
+      "company_count": 30,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -1969,7 +1969,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 25
+          "total_laid_off": 40
         },
         {
           "month": "2026-04",
@@ -2164,6 +2164,16 @@
           "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
         },
         {
+          "date": "2026-03-31",
+          "company": "SoundThinking",
+          "num_laid_off": 15,
+          "percentage_laid_off": null,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
+        },
+        {
           "date": "2026-03-04",
           "company": "At-Bay",
           "num_laid_off": 25,
@@ -2172,20 +2182,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/bye11uubkwe"
-        },
-        {
-          "date": "2026-03-02",
-          "company": "Verint Systems",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.calcalistech.com/ctechnews/article/rjpmvvqf11l"
         }
       ]
     },
-    "summary": "Security has 4,328 reported tech layoffs across 33 public events from 2025-01-07 to 2026-07-14."
+    "summary": "Security has 4,343 reported tech layoffs across 34 public events from 2025-01-07 to 2026-07-14."
   },
   {
     "type": "industry",
@@ -4540,13 +4540,13 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-28"
+      "end": "2026-08-03"
     },
     "kpis": {
-      "total_laid_off": 1422,
-      "event_count": 26,
-      "headcount_event_count": 11,
-      "company_count": 24,
+      "total_laid_off": 1462,
+      "event_count": 28,
+      "headcount_event_count": 12,
+      "company_count": 26,
       "country_count": 11,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -4584,6 +4584,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 35
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 40
         }
       ],
       "company_top": [
@@ -4616,21 +4620,41 @@
           "total_laid_off": 47
         },
         {
+          "company": "Pump.fun",
+          "total_laid_off": 40
+        },
+        {
           "company": "Swyftx",
           "total_laid_off": 37
         },
         {
           "company": "Yield Guild Games",
           "total_laid_off": 35
-        },
-        {
-          "company": "Eigen Labs",
-          "total_laid_off": 29
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-03",
+          "company": "FalconX",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
+        },
+        {
+          "date": "2026-08-01",
+          "company": "Pump.fun",
+          "num_laid_off": 40,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+        },
         {
           "date": "2026-07-28",
           "company": "Luno",
@@ -4743,16 +4767,6 @@
         },
         {
           "date": "2026-05-05",
-          "company": "Coinbase",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
-        },
-        {
-          "date": "2026-05-05",
           "company": "0G",
           "num_laid_off": null,
           "percentage_laid_off": 0.25,
@@ -4762,28 +4776,18 @@
           "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
         },
         {
-          "date": "2026-04-21",
-          "company": "Zondacrypto",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
+          "date": "2026-05-05",
+          "company": "Coinbase",
+          "num_laid_off": 700,
+          "percentage_laid_off": 0.14,
           "industry": "Crypto",
-          "country": "Estonia",
-          "stage": "Unknown",
-          "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Swyftx",
-          "num_laid_off": 37,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "Australia",
-          "stage": "Unknown",
-          "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
         }
       ]
     },
-    "summary": "Crypto has 1,422 reported tech layoffs across 26 public events from 2025-02-05 to 2026-07-28."
+    "summary": "Crypto has 1,462 reported tech layoffs across 28 public events from 2025-02-05 to 2026-08-03."
   },
   {
     "type": "industry",

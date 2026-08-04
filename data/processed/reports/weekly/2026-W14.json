@@ -6,17 +6,17 @@
     "start": "2026-03-31",
     "end": "2026-04-05"
   },
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-03",
   "canonical_url": "/reports/weekly/2026-W14.html",
   "kpis": {
-    "total_laid_off": 475,
-    "event_count": 11,
-    "headcount_event_count": 3,
-    "company_count": 11,
+    "total_laid_off": 490,
+    "event_count": 12,
+    "headcount_event_count": 4,
+    "company_count": 12,
     "country_count": 4,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 158.33,
-    "median_layoffs_per_headcount_event": 200.0,
+    "industry_count": 7,
+    "average_layoffs_per_headcount_event": 122.5,
+    "median_layoffs_per_headcount_event": 125.0,
     "high_intensity_event_count": 6
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W13",
       "total_laid_off": 1915,
       "event_count": 9,
-      "total_laid_off_delta": -1440,
-      "total_laid_off_pct_change": -0.752,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.2222,
+      "total_laid_off_delta": -1425,
+      "total_laid_off_pct_change": -0.7441,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W14",
       "total_laid_off": 3814,
       "event_count": 9,
-      "total_laid_off_delta": -3339,
-      "total_laid_off_pct_change": -0.8755,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.2222,
+      "total_laid_off_delta": -3324,
+      "total_laid_off_pct_change": -0.8715,
+      "event_count_delta": 3,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "Monzo",
         "total_laid_off": 50
+      },
+      {
+        "company": "SoundThinking",
+        "total_laid_off": 15
       }
     ],
     "industry_top": [
@@ -68,6 +72,10 @@
       {
         "industry": "Finance",
         "total_laid_off": 50
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 15
       }
     ],
     "country_top": [
@@ -77,7 +85,7 @@
       },
       {
         "country": "United States",
-        "total_laid_off": 200
+        "total_laid_off": 215
       },
       {
         "country": "United Kingdom",
@@ -87,7 +95,7 @@
     "stage_top": [
       {
         "stage": "Unknown",
-        "total_laid_off": 225
+        "total_laid_off": 240
       },
       {
         "stage": "Post-IPO",
@@ -152,6 +160,16 @@
         "country": "United Kingdom",
         "stage": "Series F",
         "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "SoundThinking",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
       }
     ],
     "recent_events": [
@@ -234,6 +252,16 @@
         "country": "United Kingdom",
         "stage": "Series F",
         "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "SoundThinking",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
       },
       {
         "date": "2026-03-31",
@@ -330,7 +358,7 @@
     ]
   },
   "insights": [
-    "2026-W14 includes 11 public layoff events and 475 reported layoffs.",
+    "2026-W14 includes 12 public layoff events and 490 reported layoffs.",
     "The largest company contributor is Welltech with 225 reported layoffs.",
     "The leading named industry is Fitness with 225 reported layoffs.",
     "6 events report a layoff percentage of 25% or higher."

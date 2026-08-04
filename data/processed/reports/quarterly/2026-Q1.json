@@ -6,17 +6,17 @@
     "start": "2026-01-05",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-03",
   "canonical_url": "/reports/quarterly/2026-Q1.html",
   "kpis": {
-    "total_laid_off": 53135,
-    "event_count": 94,
-    "headcount_event_count": 64,
-    "company_count": 91,
+    "total_laid_off": 53150,
+    "event_count": 95,
+    "headcount_event_count": 65,
+    "company_count": 92,
     "country_count": 16,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 830.23,
-    "median_layoffs_per_headcount_event": 193.5,
+    "average_layoffs_per_headcount_event": 817.69,
+    "median_layoffs_per_headcount_event": 187.0,
     "high_intensity_event_count": 21
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025-Q4",
       "total_laid_off": 29724,
       "event_count": 71,
-      "total_laid_off_delta": 23411,
-      "total_laid_off_pct_change": 0.7876,
-      "event_count_delta": 23,
-      "event_count_pct_change": 0.3239,
+      "total_laid_off_delta": 23426,
+      "total_laid_off_pct_change": 0.7881,
+      "event_count_delta": 24,
+      "event_count_pct_change": 0.338,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q1",
       "total_laid_off": 27925,
       "event_count": 105,
-      "total_laid_off_delta": 25210,
-      "total_laid_off_pct_change": 0.9028,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.1048,
+      "total_laid_off_delta": 25225,
+      "total_laid_off_pct_change": 0.9033,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.0952,
       "note": null
     }
   },
@@ -76,11 +76,11 @@
         "total_laid_off": 1600
       },
       {
-        "company": "Epic Games",
+        "company": "Livspace",
         "total_laid_off": 1000
       },
       {
-        "company": "Livspace",
+        "company": "Epic Games",
         "total_laid_off": 1000
       }
     ],
@@ -115,7 +115,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 815
+        "total_laid_off": 830
       },
       {
         "industry": "Transportation",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 39597
+        "total_laid_off": 39612
       },
       {
         "country": "Australia",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 2176
+        "total_laid_off": 2191
       },
       {
         "stage": "Series F",
@@ -286,16 +286,6 @@
         "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
       },
       {
-        "date": "2026-01-15",
-        "company": "Ericsson",
-        "num_laid_off": 1600,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "Sweden",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
-      },
-      {
         "date": "2026-03-11",
         "company": "Atlassian",
         "num_laid_off": 1600,
@@ -304,6 +294,16 @@
         "country": "Australia",
         "stage": "Post-IPO",
         "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+      },
+      {
+        "date": "2026-01-15",
+        "company": "Ericsson",
+        "num_laid_off": 1600,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "Sweden",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
       },
       {
         "date": "2026-01-13",
@@ -326,14 +326,14 @@
         "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
       },
       {
-        "date": "2026-02-20",
-        "company": "Livspace",
+        "date": "2026-03-24",
+        "company": "Epic Games",
         "num_laid_off": 1000,
-        "percentage_laid_off": 0.12,
+        "percentage_laid_off": null,
         "industry": "Consumer",
-        "country": "India",
-        "stage": "Series F",
-        "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
       }
     ],
     "recent_events": [
@@ -346,6 +346,26 @@
         "country": "United Kingdom",
         "stage": "Series F",
         "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "SoundThinking",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Covrzy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
         "date": "2026-03-31",
@@ -366,16 +386,6 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Covrzy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
         "date": "2026-03-27",
@@ -419,16 +429,6 @@
       },
       {
         "date": "2026-03-24",
-        "company": "Flex AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Fitness",
-        "country": "Canada",
-        "stage": "Unknown",
-        "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
-      },
-      {
-        "date": "2026-03-24",
         "company": "OpenText",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -436,6 +436,16 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Flex AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Fitness",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
       },
       {
         "date": "2026-03-24",
@@ -526,16 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
-      },
-      {
-        "date": "2026-03-13",
-        "company": "Stone",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.03,
-        "industry": "Finance",
-        "country": "Brazil",
-        "stage": "Post-IPO",
-        "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q1 includes 94 public layoff events and 53,135 reported layoffs.",
+    "2026-Q1 includes 95 public layoff events and 53,150 reported layoffs.",
     "The largest company contributor is Amazon with 16,100 reported layoffs.",
     "The leading named industry is Retail with 17,781 reported layoffs.",
     "21 events report a layoff percentage of 25% or higher."

@@ -1,12 +1,12 @@
 {
   "report_type": "monthly",
   "period": "2026-07",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-07-01",
     "end": "2026-07-31"
   },
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-03",
   "canonical_url": "/reports/monthly/2026-07.html",
   "kpis": {
     "total_laid_off": 11000,

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-31"
+      "end": "2026-08-03"
     },
     "kpis": {
-      "total_laid_off": 204043,
-      "event_count": 352,
-      "headcount_event_count": 232,
-      "company_count": 267,
+      "total_laid_off": 204098,
+      "event_count": 355,
+      "headcount_event_count": 234,
+      "company_count": 270,
       "country_count": 1,
       "industry_count": 29,
       "high_intensity_event_count": 54
@@ -78,7 +78,7 @@
         },
         {
           "month": "2026-03",
-          "total_laid_off": 13567
+          "total_laid_off": 13582
         },
         {
           "month": "2026-04",
@@ -95,6 +95,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 8082
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 40
         }
       ],
       "company_top": [
@@ -142,6 +146,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-03",
+          "company": "FalconX",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
+        },
+        {
+          "date": "2026-08-01",
+          "company": "Pump.fun",
+          "num_laid_off": 40,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+        },
         {
           "date": "2026-07-31",
           "company": "Chime",
@@ -215,16 +239,6 @@
         {
           "date": "2026-07-22",
           "company": "Amazon",
-          "num_laid_off": 1110,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
-        },
-        {
-          "date": "2026-07-22",
-          "company": "Amazon",
           "num_laid_off": null,
           "percentage_laid_off": null,
           "industry": "Retail",
@@ -241,6 +255,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Amazon",
+          "num_laid_off": 1110,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
         },
         {
           "date": "2026-07-21",
@@ -271,30 +295,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
-        },
-        {
-          "date": "2026-07-19",
-          "company": "Samsung",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
-        },
-        {
-          "date": "2026-07-19",
-          "company": "Samsung",
-          "num_laid_off": 739,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
         }
       ]
     },
-    "summary": "United States has 204,043 reported tech layoffs across 352 public events from 2025-01-02 to 2026-07-31."
+    "summary": "United States has 204,098 reported tech layoffs across 355 public events from 2025-01-02 to 2026-08-03."
   },
   {
     "type": "country",

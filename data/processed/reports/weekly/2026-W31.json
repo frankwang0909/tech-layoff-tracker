@@ -1,22 +1,22 @@
 {
   "report_type": "weekly",
   "period": "2026-W31",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-07-27",
-    "end": "2026-07-31"
+    "end": "2026-08-01"
   },
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-03",
   "canonical_url": "/reports/weekly/2026-W31.html",
   "kpis": {
-    "total_laid_off": 627,
-    "event_count": 10,
-    "headcount_event_count": 6,
-    "company_count": 10,
+    "total_laid_off": 667,
+    "event_count": 11,
+    "headcount_event_count": 7,
+    "company_count": 11,
     "country_count": 6,
     "industry_count": 8,
-    "average_layoffs_per_headcount_event": 104.5,
-    "median_layoffs_per_headcount_event": 122.0,
+    "average_layoffs_per_headcount_event": 95.29,
+    "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 5
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W30",
       "total_laid_off": 2226,
       "event_count": 13,
-      "total_laid_off_delta": -1599,
-      "total_laid_off_pct_change": -0.7183,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.2308,
+      "total_laid_off_delta": -1559,
+      "total_laid_off_pct_change": -0.7004,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.1538,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W31",
       "total_laid_off": 501,
       "event_count": 5,
-      "total_laid_off_delta": 126,
-      "total_laid_off_pct_change": 0.2515,
-      "event_count_delta": 5,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": 166,
+      "total_laid_off_pct_change": 0.3313,
+      "event_count_delta": 6,
+      "event_count_pct_change": 1.2,
       "note": null
     }
   },
@@ -58,6 +58,10 @@
       {
         "company": "Lightspeed Commerce",
         "total_laid_off": 100
+      },
+      {
+        "company": "Pump.fun",
+        "total_laid_off": 40
       },
       {
         "company": "GoLemon",
@@ -86,6 +90,10 @@
         "total_laid_off": 133
       },
       {
+        "industry": "Crypto",
+        "total_laid_off": 40
+      },
+      {
         "industry": "AI",
         "total_laid_off": 20
       }
@@ -93,7 +101,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 474
+        "total_laid_off": 514
       },
       {
         "country": "Canada",
@@ -115,7 +123,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 197
+        "total_laid_off": 237
       },
       {
         "stage": "Series G",
@@ -188,6 +196,16 @@
         "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
       },
       {
+        "date": "2026-08-01",
+        "company": "Pump.fun",
+        "num_laid_off": 40,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+      },
+      {
         "date": "2026-07-30",
         "company": "GoLemon",
         "num_laid_off": 33,
@@ -209,6 +227,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-01",
+        "company": "Pump.fun",
+        "num_laid_off": 40,
+        "percentage_laid_off": null,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+      },
       {
         "date": "2026-07-31",
         "company": "Chime",
@@ -364,7 +392,7 @@
     ]
   },
   "insights": [
-    "2026-W31 includes 10 public layoff events and 627 reported layoffs.",
+    "2026-W31 includes 11 public layoff events and 667 reported layoffs.",
     "The largest company contributor is BuzzFeed with 180 reported layoffs.",
     "The leading named industry is Media with 180 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."

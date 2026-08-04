@@ -6,16 +6,16 @@
     "start": "2026-03-02",
     "end": "2026-03-31"
   },
-  "updated_at": "2026-07-31",
+  "updated_at": "2026-08-03",
   "canonical_url": "/reports/monthly/2026-03.html",
   "kpis": {
-    "total_laid_off": 16683,
-    "event_count": 34,
-    "headcount_event_count": 21,
-    "company_count": 34,
+    "total_laid_off": 16698,
+    "event_count": 35,
+    "headcount_event_count": 22,
+    "company_count": 35,
     "country_count": 9,
     "industry_count": 17,
-    "average_layoffs_per_headcount_event": 794.43,
+    "average_layoffs_per_headcount_event": 759.0,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 11
   },
@@ -24,20 +24,20 @@
       "period": "2026-02",
       "total_laid_off": 11269,
       "event_count": 28,
-      "total_laid_off_delta": 5414,
-      "total_laid_off_pct_change": 0.4804,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.2143,
+      "total_laid_off_delta": 5429,
+      "total_laid_off_pct_change": 0.4818,
+      "event_count_delta": 7,
+      "event_count_pct_change": 0.25,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-03",
       "total_laid_off": 8914,
       "event_count": 22,
-      "total_laid_off_delta": 7769,
-      "total_laid_off_pct_change": 0.8716,
-      "event_count_delta": 12,
-      "event_count_pct_change": 0.5455,
+      "total_laid_off_delta": 7784,
+      "total_laid_off_pct_change": 0.8732,
+      "event_count_delta": 13,
+      "event_count_pct_change": 0.5909,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 13567
+        "total_laid_off": 13582
       },
       {
         "country": "Australia",
@@ -167,7 +167,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 1598
+        "total_laid_off": 1613
       },
       {
         "stage": "Acquired",
@@ -329,6 +329,26 @@
       },
       {
         "date": "2026-03-31",
+        "company": "SoundThinking",
+        "num_laid_off": 15,
+        "percentage_laid_off": null,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "company": "Covrzy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+      },
+      {
+        "date": "2026-03-31",
         "company": "Rec Room",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -346,16 +366,6 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
-      },
-      {
-        "date": "2026-03-31",
-        "company": "Covrzy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
       },
       {
         "date": "2026-03-27",
@@ -399,26 +409,6 @@
       },
       {
         "date": "2026-03-24",
-        "company": "Flex AI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Fitness",
-        "country": "Canada",
-        "stage": "Unknown",
-        "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
-      },
-      {
-        "date": "2026-03-24",
-        "company": "OpenText",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Data",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
-      },
-      {
-        "date": "2026-03-24",
         "company": "Epic Games",
         "num_laid_off": 1000,
         "percentage_laid_off": null,
@@ -436,6 +426,26 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "Internal memo"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "Flex AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Fitness",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
+      },
+      {
+        "date": "2026-03-24",
+        "company": "OpenText",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
       },
       {
         "date": "2026-03-23",
@@ -506,16 +516,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
-      },
-      {
-        "date": "2026-03-13",
-        "company": "Stone",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.03,
-        "industry": "Finance",
-        "country": "Brazil",
-        "stage": "Post-IPO",
-        "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
       }
     ],
     "high_intensity_events": [
@@ -622,7 +622,7 @@
     ]
   },
   "insights": [
-    "2026-03 includes 34 public layoff events and 16,683 reported layoffs.",
+    "2026-03 includes 35 public layoff events and 16,698 reported layoffs.",
     "The largest company contributor is Dell with 11,000 reported layoffs.",
     "The leading named industry is Hardware with 11,000 reported layoffs.",
     "11 events report a layoff percentage of 25% or higher."

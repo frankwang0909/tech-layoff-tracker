@@ -1,4 +1,8 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Zillow,Seattle,500.0,2026-08-04,0.07,Real Estate,https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/,Post-IPO,97.0,United States,2026-08-04T22:20:20.000Z
+80 Acres Farms,Cincinnati,,2026-08-04,1.0,Food,https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations,Unknown,275.0,United States,2026-08-04T23:18:47.000Z
+jalebi.io,"Dubai, Non-U.S.",,2026-08-04,1.0,Food,https://jawlah.co/en/61711,Seed,,UAE,2026-08-04T23:18:02.000Z
+Nutanix,SF Bay Area,,2026-08-04,0.05,Infrastructure,https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why,Post-IPO,1100.0,United States,2026-08-04T23:16:45.000Z
 FalconX,SF Bay Area,,2026-08-03,0.1,Crypto,https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/,Series D,477.0,United States,2026-08-03T23:09:48.000Z
 Pump.fun,San Diego,40.0,2026-08-01,,Crypto,https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens,Unknown,,United States,2026-08-03T20:36:55.000Z
 Chime,SF Bay Area,150.0,2026-07-31,0.1,Finance,https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/,Series G,2300.0,United States,2026-07-31T18:10:58.000Z

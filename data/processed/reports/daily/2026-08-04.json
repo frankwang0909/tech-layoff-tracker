@@ -1,0 +1,181 @@
+{
+  "report_type": "daily",
+  "period": "2026-08-04",
+  "status": "final",
+  "date_range": {
+    "start": "2026-08-04",
+    "end": "2026-08-04"
+  },
+  "updated_at": "2026-08-04",
+  "canonical_url": "/reports/daily/2026-08-04.html",
+  "kpis": {
+    "total_laid_off": 500,
+    "event_count": 4,
+    "headcount_event_count": 1,
+    "company_count": 4,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 500.0,
+    "median_layoffs_per_headcount_event": 500.0,
+    "high_intensity_event_count": 2
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-08-03",
+      "total_laid_off": 0,
+      "event_count": 1,
+      "total_laid_off_delta": 500,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-08-04",
+      "total_laid_off": 100,
+      "event_count": 1,
+      "total_laid_off_delta": 400,
+      "total_laid_off_pct_change": 4.0,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Zillow",
+        "total_laid_off": 500
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Real Estate",
+        "total_laid_off": 500
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 500
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 500
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-08-04",
+        "company": "Zillow",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.07,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-08-04",
+        "company": "Zillow",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.07,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "80 Acres Farms",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "jalebi.io",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "UAE",
+        "stage": "Seed",
+        "source": "https://jawlah.co/en/61711"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "Nutanix",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-08-04",
+        "company": "80 Acres Farms",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "jalebi.io",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "UAE",
+        "stage": "Seed",
+        "source": "https://jawlah.co/en/61711"
+      }
+    ]
+  },
+  "insights": [
+    "2026-08-04 includes 4 public layoff events and 500 reported layoffs.",
+    "The largest company contributor is Zillow with 500 reported layoffs.",
+    "The leading named industry is Real Estate with 500 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

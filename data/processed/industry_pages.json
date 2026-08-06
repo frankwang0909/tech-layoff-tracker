@@ -280,13 +280,13 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-07-31"
+      "end": "2026-08-05"
     },
     "kpis": {
-      "total_laid_off": 36027,
-      "event_count": 45,
-      "headcount_event_count": 28,
-      "company_count": 30,
+      "total_laid_off": 36247,
+      "event_count": 46,
+      "headcount_event_count": 29,
+      "company_count": 31,
       "country_count": 11,
       "industry_count": 1,
       "high_intensity_event_count": 10
@@ -348,6 +348,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 1300
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 220
         }
       ],
       "company_top": [
@@ -376,6 +380,10 @@
           "total_laid_off": 300
         },
         {
+          "company": "Etsy",
+          "total_laid_off": 220
+        },
+        {
           "company": "SSense",
           "total_laid_off": 215
         },
@@ -386,15 +394,21 @@
         {
           "company": "BeepKart",
           "total_laid_off": 150
-        },
-        {
-          "company": "Digital River",
-          "total_laid_off": 122
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-05",
+          "company": "Etsy",
+          "num_laid_off": 220,
+          "percentage_laid_off": 0.12,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+        },
         {
           "date": "2026-07-31",
           "company": "Lightspeed Commerce",
@@ -534,20 +548,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html"
-        },
-        {
-          "date": "2026-02-26",
-          "company": "eBay",
-          "num_laid_off": 800,
-          "percentage_laid_off": 0.06,
-          "industry": "Retail",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
         }
       ]
     },
-    "summary": "Retail has 36,027 reported tech layoffs across 45 public events from 2025-01-10 to 2026-07-31."
+    "summary": "Retail has 36,247 reported tech layoffs across 46 public events from 2025-01-10 to 2026-08-05."
   },
   {
     "type": "industry",

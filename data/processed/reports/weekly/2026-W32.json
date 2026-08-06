@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-03",
-    "end": "2026-08-04"
+    "end": "2026-08-05"
   },
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-08-05",
   "canonical_url": "/reports/weekly/2026-W32.html",
   "kpis": {
-    "total_laid_off": 500,
-    "event_count": 5,
-    "headcount_event_count": 1,
-    "company_count": 5,
+    "total_laid_off": 720,
+    "event_count": 6,
+    "headcount_event_count": 2,
+    "company_count": 6,
     "country_count": 2,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 500.0,
-    "median_layoffs_per_headcount_event": 500.0,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 360.0,
+    "median_layoffs_per_headcount_event": 360.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W31",
       "total_laid_off": 667,
       "event_count": 11,
-      "total_laid_off_delta": -167,
-      "total_laid_off_pct_change": -0.2504,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.5455,
+      "total_laid_off_delta": 53,
+      "total_laid_off_pct_change": 0.0795,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.4545,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W32",
       "total_laid_off": 467,
       "event_count": 6,
-      "total_laid_off_delta": 33,
-      "total_laid_off_pct_change": 0.0707,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.1667,
+      "total_laid_off_delta": 253,
+      "total_laid_off_pct_change": 0.5418,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -46,24 +46,32 @@
       {
         "company": "Zillow",
         "total_laid_off": 500
+      },
+      {
+        "company": "Etsy",
+        "total_laid_off": 220
       }
     ],
     "industry_top": [
       {
         "industry": "Real Estate",
         "total_laid_off": 500
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 220
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 500
+        "total_laid_off": 720
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 500
+        "total_laid_off": 720
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +81,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -100,9 +108,29 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
       {
         "date": "2026-08-04",
         "company": "Zillow",
@@ -178,7 +206,7 @@
     ]
   },
   "insights": [
-    "2026-W32 includes 5 public layoff events and 500 reported layoffs.",
+    "2026-W32 includes 6 public layoff events and 720 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

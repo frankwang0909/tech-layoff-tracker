@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-04"
+    "end": "2026-08-05"
   },
-  "updated_at": "2026-08-04",
+  "updated_at": "2026-08-05",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 125237,
-    "event_count": 283,
-    "headcount_event_count": 183,
-    "company_count": 263,
+    "total_laid_off": 125457,
+    "event_count": 284,
+    "headcount_event_count": 184,
+    "company_count": 264,
     "country_count": 29,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 684.36,
-    "median_layoffs_per_headcount_event": 144.0,
+    "average_layoffs_per_headcount_event": 681.83,
+    "median_layoffs_per_headcount_event": 144.5,
     "high_intensity_event_count": 57
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 2631,
-      "total_laid_off_pct_change": 0.0215,
-      "event_count_delta": -50,
-      "event_count_pct_change": -0.1502,
+      "total_laid_off_delta": 2851,
+      "total_laid_off_pct_change": 0.0233,
+      "event_count_delta": -49,
+      "event_count_pct_change": -0.1471,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 2631,
-      "total_laid_off_pct_change": 0.0215,
-      "event_count_delta": -50,
-      "event_count_pct_change": -0.1502,
+      "total_laid_off_delta": 2851,
+      "total_laid_off_pct_change": 0.0233,
+      "event_count_delta": -49,
+      "event_count_pct_change": -0.1471,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Retail",
-        "total_laid_off": 19711
+        "total_laid_off": 19931
       },
       {
         "industry": "Consumer",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 102162
+        "total_laid_off": 102382
       },
       {
         "country": "Israel",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 107016
+        "total_laid_off": 107236
       },
       {
         "stage": "Unknown",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 50
+        "event_count": 51
       },
       {
         "bucket": "25-49%",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -338,14 +338,24 @@
     ],
     "recent_events": [
       {
-        "date": "2026-08-04",
-        "company": "Zillow",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.07,
-        "industry": "Real Estate",
+        "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "jalebi.io",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "UAE",
+        "stage": "Seed",
+        "source": "https://jawlah.co/en/61711"
       },
       {
         "date": "2026-08-04",
@@ -359,6 +369,16 @@
       },
       {
         "date": "2026-08-04",
+        "company": "Zillow",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.07,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+      },
+      {
+        "date": "2026-08-04",
         "company": "80 Acres Farms",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -366,16 +386,6 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "jalebi.io",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "UAE",
-        "stage": "Seed",
-        "source": "https://jawlah.co/en/61711"
       },
       {
         "date": "2026-08-03",
@@ -526,16 +536,6 @@
         "country": "United Kingdom",
         "stage": "Series C",
         "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
-      },
-      {
-        "date": "2026-07-23",
-        "company": "Patreon",
-        "num_laid_off": 93,
-        "percentage_laid_off": 0.2,
-        "industry": "Media",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
       }
     ],
     "high_intensity_events": [
@@ -642,9 +642,9 @@
     ]
   },
   "insights": [
-    "2026 includes 283 public layoff events and 125,237 reported layoffs.",
+    "2026 includes 284 public layoff events and 125,457 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
-    "The leading named industry is Retail with 19,711 reported layoffs.",
+    "The leading named industry is Retail with 19,931 reported layoffs.",
     "57 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

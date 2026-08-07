@@ -561,12 +561,12 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-07-26"
+      "end": "2026-08-06"
     },
     "kpis": {
-      "total_laid_off": 26851,
-      "event_count": 82,
-      "headcount_event_count": 55,
+      "total_laid_off": 27153,
+      "event_count": 84,
+      "headcount_event_count": 57,
       "company_count": 55,
       "country_count": 9,
       "industry_count": 1,
@@ -645,6 +645,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 598
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 302
         }
       ],
       "company_top": [
@@ -669,12 +673,12 @@
           "total_laid_off": 1000
         },
         {
-          "company": "Pinterest",
-          "total_laid_off": 700
+          "company": "TikTok",
+          "total_laid_off": 850
         },
         {
-          "company": "TikTok",
-          "total_laid_off": 600
+          "company": "Pinterest",
+          "total_laid_off": 700
         },
         {
           "company": "Games 24x7",
@@ -692,6 +696,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-06",
+          "company": "TikTok",
+          "num_laid_off": 250,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+        },
+        {
+          "date": "2026-08-05",
+          "company": "Google",
+          "num_laid_off": 52,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+        },
         {
           "date": "2026-07-26",
           "company": "Papaya Gaming",
@@ -821,30 +845,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Truecaller",
-          "num_laid_off": 70,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "Sweden",
-          "stage": "Post-IPO",
-          "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
-        },
-        {
-          "date": "2026-04-16",
-          "company": "Quora",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
         }
       ]
     },
-    "summary": "Consumer has 26,851 reported tech layoffs across 82 public events from 2025-01-27 to 2026-07-26."
+    "summary": "Consumer has 27,153 reported tech layoffs across 84 public events from 2025-01-27 to 2026-08-06."
   },
   {
     "type": "industry",

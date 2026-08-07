@@ -6,17 +6,17 @@
     "start": "2026-08-05",
     "end": "2026-08-05"
   },
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-06",
   "canonical_url": "/reports/daily/2026-08-05.html",
   "kpis": {
-    "total_laid_off": 220,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 272,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 220.0,
-    "median_layoffs_per_headcount_event": 220.0,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 136.0,
+    "median_layoffs_per_headcount_event": 136.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-08-04",
       "total_laid_off": 500,
       "event_count": 4,
-      "total_laid_off_delta": -280,
-      "total_laid_off_pct_change": -0.56,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.75,
+      "total_laid_off_delta": -228,
+      "total_laid_off_pct_change": -0.456,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08-05",
       "total_laid_off": 230,
       "event_count": 2,
-      "total_laid_off_delta": -10,
-      "total_laid_off_pct_change": -0.0435,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": 42,
+      "total_laid_off_pct_change": 0.1826,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -46,24 +46,32 @@
       {
         "company": "Etsy",
         "total_laid_off": 220
+      },
+      {
+        "company": "Google",
+        "total_laid_off": 52
       }
     ],
     "industry_top": [
       {
         "industry": "Retail",
         "total_laid_off": 220
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 52
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 220
+        "total_laid_off": 272
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 220
+        "total_laid_off": 272
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +108,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Google",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       }
     ],
     "recent_events": [
@@ -112,12 +130,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Google",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-08-05 includes 1 public layoff events and 220 reported layoffs.",
+    "2026-08-05 includes 2 public layoff events and 272 reported layoffs.",
     "The largest company contributor is Etsy with 220 reported layoffs.",
     "The leading named industry is Retail with 220 reported layoffs."
   ],

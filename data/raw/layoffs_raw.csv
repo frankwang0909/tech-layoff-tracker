@@ -1,5 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+TikTok,Nashville,250.0,2026-08-06,,Consumer,https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html,Acquired,,United States,2026-08-06T17:14:42.000Z
 Etsy,New York City,220.0,2026-08-05,0.12,Retail,https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html,Post-IPO,97.0,United States,2026-08-05T22:22:25.000Z
+Google,SF Bay Area,52.0,2026-08-05,,Consumer,https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/,Post-IPO,26.0,United States,2026-08-06T17:15:41.000Z
 Zillow,Seattle,500.0,2026-08-04,0.07,Real Estate,https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/,Post-IPO,97.0,United States,2026-08-04T22:20:20.000Z
 80 Acres Farms,Cincinnati,,2026-08-04,1.0,Food,https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations,Unknown,275.0,United States,2026-08-04T23:18:47.000Z
 jalebi.io,"Dubai, Non-U.S.",,2026-08-04,1.0,Food,https://jawlah.co/en/61711,Seed,,UAE,2026-08-04T23:18:02.000Z

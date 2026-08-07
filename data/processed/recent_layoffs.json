@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-08-06",
+    "company": "TikTok",
+    "num_laid_off": 250,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+  },
+  {
     "date": "2026-08-05",
     "company": "Etsy",
     "num_laid_off": 220,
@@ -10,24 +20,14 @@
     "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
   },
   {
-    "date": "2026-08-04",
-    "company": "jalebi.io",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
-    "country": "UAE",
-    "stage": "Seed",
-    "source": "https://jawlah.co/en/61711"
-  },
-  {
-    "date": "2026-08-04",
-    "company": "Nutanix",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.05,
-    "industry": "Infrastructure",
+    "date": "2026-08-05",
+    "company": "Google",
+    "num_laid_off": 52,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
     "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
+    "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
   },
   {
     "date": "2026-08-04",
@@ -48,6 +48,26 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+  },
+  {
+    "date": "2026-08-04",
+    "company": "jalebi.io",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Food",
+    "country": "UAE",
+    "stage": "Seed",
+    "source": "https://jawlah.co/en/61711"
+  },
+  {
+    "date": "2026-08-04",
+    "company": "Nutanix",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.05,
+    "industry": "Infrastructure",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
   },
   {
     "date": "2026-08-03",
@@ -98,25 +118,5 @@
     "country": "Canada",
     "stage": "Post-IPO",
     "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
-  },
-  {
-    "date": "2026-07-31",
-    "company": "Reforged Labs",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Marketing",
-    "country": "Singapore",
-    "stage": "Seed",
-    "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
-  },
-  {
-    "date": "2026-07-30",
-    "company": "GoLemon",
-    "num_laid_off": 33,
-    "percentage_laid_off": 1.0,
-    "industry": "Retail",
-    "country": "Nigeria",
-    "stage": "Unknown",
-    "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
   }
 ]

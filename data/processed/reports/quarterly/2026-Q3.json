@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-08-05"
+    "end": "2026-08-06"
   },
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-06",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 11760,
-    "event_count": 53,
-    "headcount_event_count": 31,
-    "company_count": 50,
+    "total_laid_off": 12062,
+    "event_count": 55,
+    "headcount_event_count": 33,
+    "company_count": 51,
     "country_count": 14,
     "industry_count": 22,
-    "average_layoffs_per_headcount_event": 379.35,
+    "average_layoffs_per_headcount_event": 365.52,
     "median_layoffs_per_headcount_event": 144.0,
     "high_intensity_event_count": 13
   },
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -48787,
-      "total_laid_off_pct_change": -0.8058,
-      "event_count_delta": -83,
-      "event_count_pct_change": -0.6103,
+      "total_laid_off_delta": -48485,
+      "total_laid_off_pct_change": -0.8008,
+      "event_count_delta": -81,
+      "event_count_pct_change": -0.5956,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -15794,
-      "total_laid_off_pct_change": -0.5732,
-      "event_count_delta": -33,
-      "event_count_pct_change": -0.3837,
+      "total_laid_off_delta": -15492,
+      "total_laid_off_pct_change": -0.5622,
+      "event_count_delta": -31,
+      "event_count_pct_change": -0.3605,
       "note": null
     }
   },
@@ -64,16 +64,16 @@
         "total_laid_off": 630
       },
       {
+        "company": "TikTok",
+        "total_laid_off": 550
+      },
+      {
         "company": "Zillow",
         "total_laid_off": 500
       },
       {
         "company": "OpenText",
         "total_laid_off": 400
-      },
-      {
-        "company": "TikTok",
-        "total_laid_off": 300
       },
       {
         "company": "Sprout Social",
@@ -98,6 +98,10 @@
         "total_laid_off": 939
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 900
+      },
+      {
         "industry": "Healthcare",
         "total_laid_off": 800
       },
@@ -108,10 +112,6 @@
       {
         "industry": "Data",
         "total_laid_off": 600
-      },
-      {
-        "industry": "Consumer",
-        "total_laid_off": 598
       },
       {
         "industry": "Real Estate",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 8842
+        "total_laid_off": 9144
       },
       {
         "country": "India",
@@ -163,19 +163,19 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9117
+        "total_laid_off": 9169
       },
       {
         "stage": "Private Equity",
         "total_laid_off": 800
       },
       {
-        "stage": "Unknown",
-        "total_laid_off": 402
+        "stage": "Acquired",
+        "total_laid_off": 625
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 375
+        "stage": "Unknown",
+        "total_laid_off": 402
       },
       {
         "stage": "Series G",
@@ -318,17 +318,37 @@
         "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
       },
       {
-        "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
+        "date": "2026-08-06",
+        "company": "TikTok",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+        "stage": "Acquired",
+        "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-06",
+        "company": "TikTok",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Google",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+      },
       {
         "date": "2026-08-05",
         "company": "Etsy",
@@ -338,6 +358,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "Zillow",
+        "num_laid_off": 500,
+        "percentage_laid_off": 0.07,
+        "industry": "Real Estate",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
       },
       {
         "date": "2026-08-04",
@@ -358,16 +388,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "Zillow",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.07,
-        "industry": "Real Estate",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
       },
       {
         "date": "2026-08-04",
@@ -401,26 +421,6 @@
       },
       {
         "date": "2026-07-31",
-        "company": "Chime",
-        "num_laid_off": 150,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series G",
-        "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
-      },
-      {
-        "date": "2026-07-31",
-        "company": "ChargePoint",
-        "num_laid_off": 144,
-        "percentage_laid_off": 0.1,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
-      },
-      {
-        "date": "2026-07-31",
         "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
@@ -440,6 +440,26 @@
         "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
       },
       {
+        "date": "2026-07-31",
+        "company": "ChargePoint",
+        "num_laid_off": 144,
+        "percentage_laid_off": 0.1,
+        "industry": "Manufacturing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+      },
+      {
+        "date": "2026-07-31",
+        "company": "Chime",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series G",
+        "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+      },
+      {
         "date": "2026-07-30",
         "company": "GoLemon",
         "num_laid_off": 33,
@@ -448,16 +468,6 @@
         "country": "Nigeria",
         "stage": "Unknown",
         "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
-      },
-      {
-        "date": "2026-07-28",
-        "company": "ServiceNow",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
       },
       {
         "date": "2026-07-28",
@@ -471,6 +481,16 @@
       },
       {
         "date": "2026-07-28",
+        "company": "ServiceNow",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Support",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+      },
+      {
+        "date": "2026-07-28",
         "company": "Krutrim",
         "num_laid_off": 20,
         "percentage_laid_off": 0.5,
@@ -478,16 +498,6 @@
         "country": "India",
         "stage": "Unknown",
         "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
-      },
-      {
-        "date": "2026-07-27",
-        "company": "BitMart",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
       },
       {
         "date": "2026-07-27",
@@ -500,6 +510,16 @@
         "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
       },
       {
+        "date": "2026-07-27",
+        "company": "BitMart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+      },
+      {
         "date": "2026-07-26",
         "company": "Nothing",
         "num_laid_off": 100,
@@ -508,26 +528,6 @@
         "country": "United Kingdom",
         "stage": "Series C",
         "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
-      },
-      {
-        "date": "2026-07-26",
-        "company": "Papaya Gaming",
-        "num_laid_off": 30,
-        "percentage_laid_off": 0.07,
-        "industry": "Consumer",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
-      },
-      {
-        "date": "2026-07-26",
-        "company": "Dutch",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
       }
     ],
     "high_intensity_events": [
@@ -634,7 +634,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 53 public layoff events and 11,760 reported layoffs.",
+    "2026-Q3 includes 55 public layoff events and 12,062 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
     "13 events report a layoff percentage of 25% or higher."

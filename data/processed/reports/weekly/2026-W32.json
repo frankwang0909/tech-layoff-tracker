@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-03",
-    "end": "2026-08-05"
+    "end": "2026-08-06"
   },
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-06",
   "canonical_url": "/reports/weekly/2026-W32.html",
   "kpis": {
-    "total_laid_off": 720,
-    "event_count": 6,
-    "headcount_event_count": 2,
-    "company_count": 6,
+    "total_laid_off": 1022,
+    "event_count": 8,
+    "headcount_event_count": 4,
+    "company_count": 8,
     "country_count": 2,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 360.0,
-    "median_layoffs_per_headcount_event": 360.0,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 255.5,
+    "median_layoffs_per_headcount_event": 235.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W31",
       "total_laid_off": 667,
       "event_count": 11,
-      "total_laid_off_delta": 53,
-      "total_laid_off_pct_change": 0.0795,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.4545,
+      "total_laid_off_delta": 355,
+      "total_laid_off_pct_change": 0.5322,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.2727,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W32",
       "total_laid_off": 467,
       "event_count": 6,
-      "total_laid_off_delta": 253,
-      "total_laid_off_pct_change": 0.5418,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 555,
+      "total_laid_off_pct_change": 1.1884,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
@@ -48,14 +48,26 @@
         "total_laid_off": 500
       },
       {
+        "company": "TikTok",
+        "total_laid_off": 250
+      },
+      {
         "company": "Etsy",
         "total_laid_off": 220
+      },
+      {
+        "company": "Google",
+        "total_laid_off": 52
       }
     ],
     "industry_top": [
       {
         "industry": "Real Estate",
         "total_laid_off": 500
+      },
+      {
+        "industry": "Consumer",
+        "total_laid_off": 302
       },
       {
         "industry": "Retail",
@@ -65,13 +77,17 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 720
+        "total_laid_off": 1022
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 720
+        "total_laid_off": 772
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 250
       }
     ],
     "layoff_pct_distribution": [
@@ -110,17 +126,15 @@
         "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
       },
       {
-        "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
+        "date": "2026-08-06",
+        "company": "TikTok",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-      }
-    ],
-    "recent_events": [
+        "stage": "Acquired",
+        "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+      },
       {
         "date": "2026-08-05",
         "company": "Etsy",
@@ -130,6 +144,48 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Google",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-08-06",
+        "company": "TikTok",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Google",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       },
       {
         "date": "2026-08-04",
@@ -206,7 +262,7 @@
     ]
   },
   "insights": [
-    "2026-W32 includes 6 public layoff events and 720 reported layoffs.",
+    "2026-W32 includes 8 public layoff events and 1,022 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

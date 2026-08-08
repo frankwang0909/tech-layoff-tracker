@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-08-07",
+    "company": "VideoAmp",
+    "num_laid_off": 50,
+    "percentage_laid_off": 0.2,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+  },
+  {
     "date": "2026-08-06",
     "company": "TikTok",
     "num_laid_off": 250,
@@ -28,6 +38,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+  },
+  {
+    "date": "2026-08-05",
+    "company": "LegalZoom",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.13,
+    "industry": "Legal",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
   },
   {
     "date": "2026-08-04",
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Series G",
     "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
-  },
-  {
-    "date": "2026-07-31",
-    "company": "ChargePoint",
-    "num_laid_off": 144,
-    "percentage_laid_off": 0.1,
-    "industry": "Manufacturing",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
-  },
-  {
-    "date": "2026-07-31",
-    "company": "Lightspeed Commerce",
-    "num_laid_off": 100,
-    "percentage_laid_off": 0.03,
-    "industry": "Retail",
-    "country": "Canada",
-    "stage": "Post-IPO",
-    "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
   }
 ]

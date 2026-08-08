@@ -7,15 +7,15 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-06"
+      "end": "2026-08-07"
     },
     "kpis": {
-      "total_laid_off": 205120,
-      "event_count": 361,
-      "headcount_event_count": 238,
-      "company_count": 274,
+      "total_laid_off": 205170,
+      "event_count": 363,
+      "headcount_event_count": 239,
+      "company_count": 276,
       "country_count": 1,
-      "industry_count": 29,
+      "industry_count": 30,
       "high_intensity_event_count": 55
     },
     "charts": {
@@ -98,7 +98,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 1062
+          "total_laid_off": 1112
         }
       ],
       "company_top": [
@@ -147,6 +147,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-08-07",
+          "company": "VideoAmp",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+        },
+        {
           "date": "2026-08-06",
           "company": "TikTok",
           "num_laid_off": 250,
@@ -155,6 +165,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+        },
+        {
+          "date": "2026-08-05",
+          "company": "Etsy",
+          "num_laid_off": 220,
+          "percentage_laid_off": 0.12,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
         },
         {
           "date": "2026-08-05",
@@ -168,13 +188,13 @@
         },
         {
           "date": "2026-08-05",
-          "company": "Etsy",
-          "num_laid_off": 220,
-          "percentage_laid_off": 0.12,
-          "industry": "Retail",
+          "company": "LegalZoom",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.13,
+          "industry": "Legal",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+          "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
         },
         {
           "date": "2026-08-04",
@@ -188,16 +208,6 @@
         },
         {
           "date": "2026-08-04",
-          "company": "Nutanix",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.05,
-          "industry": "Infrastructure",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
-        },
-        {
-          "date": "2026-08-04",
           "company": "80 Acres Farms",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -205,6 +215,16 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+        },
+        {
+          "date": "2026-08-04",
+          "company": "Nutanix",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.05,
+          "industry": "Infrastructure",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
         },
         {
           "date": "2026-08-03",
@@ -228,16 +248,6 @@
         },
         {
           "date": "2026-07-31",
-          "company": "Chime",
-          "num_laid_off": 150,
-          "percentage_laid_off": 0.1,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Series G",
-          "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
-        },
-        {
-          "date": "2026-07-31",
           "company": "ChargePoint",
           "num_laid_off": 144,
           "percentage_laid_off": 0.1,
@@ -245,6 +255,16 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+        },
+        {
+          "date": "2026-07-31",
+          "company": "Chime",
+          "num_laid_off": 150,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Series G",
+          "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
         },
         {
           "date": "2026-07-28",
@@ -275,30 +295,10 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
-        },
-        {
-          "date": "2026-07-26",
-          "company": "Dutch",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
-        },
-        {
-          "date": "2026-07-23",
-          "company": "Patreon",
-          "num_laid_off": 93,
-          "percentage_laid_off": 0.2,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
         }
       ]
     },
-    "summary": "United States has 205,120 reported tech layoffs across 361 public events from 2025-01-02 to 2026-08-06."
+    "summary": "United States has 205,170 reported tech layoffs across 363 public events from 2025-01-02 to 2026-08-07."
   },
   {
     "type": "country",

@@ -6,15 +6,15 @@
     "start": "2026-08-05",
     "end": "2026-08-05"
   },
-  "updated_at": "2026-08-06",
+  "updated_at": "2026-08-07",
   "canonical_url": "/reports/daily/2026-08-05.html",
   "kpis": {
     "total_laid_off": 272,
-    "event_count": 2,
+    "event_count": 3,
     "headcount_event_count": 2,
-    "company_count": 2,
+    "company_count": 3,
     "country_count": 1,
-    "industry_count": 2,
+    "industry_count": 3,
     "average_layoffs_per_headcount_event": 136.0,
     "median_layoffs_per_headcount_event": 136.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 4,
       "total_laid_off_delta": -228,
       "total_laid_off_pct_change": -0.456,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.25,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 2,
       "total_laid_off_delta": 42,
       "total_laid_off_pct_change": 0.1826,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
@@ -140,12 +140,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "LegalZoom",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.13,
+        "industry": "Legal",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-08-05 includes 2 public layoff events and 272 reported layoffs.",
+    "2026-08-05 includes 3 public layoff events and 272 reported layoffs.",
     "The largest company contributor is Etsy with 220 reported layoffs.",
     "The leading named industry is Retail with 220 reported layoffs."
   ],

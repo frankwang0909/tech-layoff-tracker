@@ -2983,13 +2983,13 @@
     "canonical_url": "/industries/marketing.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-07-31"
+      "end": "2026-08-07"
     },
     "kpis": {
-      "total_laid_off": 2846,
-      "event_count": 24,
-      "headcount_event_count": 14,
-      "company_count": 23,
+      "total_laid_off": 2896,
+      "event_count": 25,
+      "headcount_event_count": 15,
+      "company_count": 24,
       "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 5
@@ -3039,6 +3039,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 260
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 50
         }
       ],
       "company_top": [
@@ -3051,11 +3055,11 @@
           "total_laid_off": 260
         },
         {
-          "company": "Yotpo",
+          "company": "Outbrain",
           "total_laid_off": 200
         },
         {
-          "company": "Outbrain",
+          "company": "Yotpo",
           "total_laid_off": 200
         },
         {
@@ -3079,13 +3083,23 @@
           "total_laid_off": 130
         },
         {
-          "company": "Taboola",
+          "company": "Skai",
           "total_laid_off": 100
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-07",
+          "company": "VideoAmp",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+        },
         {
           "date": "2026-07-31",
           "company": "Reforged Labs",
@@ -3225,20 +3239,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.theinformation.com/briefings/klaviyo-restructures-r-d-teams-emphasizes-ai-technical-skills"
-        },
-        {
-          "date": "2025-08-05",
-          "company": "Yotpo",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.34,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/s1cc5uk00xx"
         }
       ]
     },
-    "summary": "Marketing has 2,846 reported tech layoffs across 24 public events from 2025-01-15 to 2026-07-31."
+    "summary": "Marketing has 2,896 reported tech layoffs across 25 public events from 2025-01-15 to 2026-08-07."
   },
   {
     "type": "industry",
@@ -5783,5 +5787,74 @@
       ]
     },
     "summary": "Fitness has 305 reported tech layoffs across 5 public events from 2025-03-07 to 2026-04-03."
+  },
+  {
+    "type": "industry",
+    "name": "Legal",
+    "slug": "legal",
+    "title": "Tech Layoffs by Industry: Legal",
+    "canonical_url": "/industries/legal.html",
+    "date_range": {
+      "start": "2025-10-24",
+      "end": "2026-08-05"
+    },
+    "kpis": {
+      "total_laid_off": 60,
+      "event_count": 3,
+      "headcount_event_count": 1,
+      "company_count": 3,
+      "country_count": 3,
+      "industry_count": 1,
+      "high_intensity_event_count": 2
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2026-07",
+          "total_laid_off": 60
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Darrow",
+          "total_laid_off": 60
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-08-05",
+          "company": "LegalZoom",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.13,
+          "industry": "Legal",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+        },
+        {
+          "date": "2026-07-07",
+          "company": "Darrow",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.33,
+          "industry": "Legal",
+          "country": "Israel",
+          "stage": "Series B",
+          "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
+        },
+        {
+          "date": "2025-10-24",
+          "company": "Robin AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.33,
+          "industry": "Legal",
+          "country": "United Kingdom",
+          "stage": "Series B",
+          "source": "https://sifted.eu/articles/robin-ai-cuts-a-third-of-staff"
+        }
+      ]
+    },
+    "summary": "Legal has 60 reported tech layoffs across 3 public events from 2025-10-24 to 2026-08-05."
   }
 ]

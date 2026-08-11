@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-10",
+    "company": "Rapid7",
+    "num_laid_off": 313,
+    "percentage_laid_off": 0.12,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+  },
+  {
+    "date": "2026-08-10",
+    "company": "Validient",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Other",
+    "country": "Australia",
+    "stage": "Unknown",
+    "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+  },
+  {
+    "date": "2026-08-08",
+    "company": "ClimateAI",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Series B",
+    "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+  },
+  {
     "date": "2026-08-07",
     "company": "VideoAmp",
     "num_laid_off": 50,
@@ -8,6 +38,16 @@
     "country": "United States",
     "stage": "Series F",
     "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+  },
+  {
+    "date": "2026-08-07",
+    "company": "Salesforce",
+    "num_laid_off": 133,
+    "percentage_laid_off": null,
+    "industry": "Sales",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
   },
   {
     "date": "2026-08-06",
@@ -71,16 +111,6 @@
   },
   {
     "date": "2026-08-04",
-    "company": "jalebi.io",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
-    "country": "UAE",
-    "stage": "Seed",
-    "source": "https://jawlah.co/en/61711"
-  },
-  {
-    "date": "2026-08-04",
     "company": "Nutanix",
     "num_laid_off": null,
     "percentage_laid_off": 0.05,
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
-  },
-  {
-    "date": "2026-08-03",
-    "company": "FalconX",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.1,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Series D",
-    "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
-  },
-  {
-    "date": "2026-08-01",
-    "company": "Pump.fun",
-    "num_laid_off": 40,
-    "percentage_laid_off": null,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
-  },
-  {
-    "date": "2026-07-31",
-    "company": "Chime",
-    "num_laid_off": 150,
-    "percentage_laid_off": 0.1,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Series G",
-    "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
   }
 ]

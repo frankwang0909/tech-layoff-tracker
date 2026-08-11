@@ -6,17 +6,17 @@
     "start": "2026-08-07",
     "end": "2026-08-07"
   },
-  "updated_at": "2026-08-07",
+  "updated_at": "2026-08-10",
   "canonical_url": "/reports/daily/2026-08-07.html",
   "kpis": {
-    "total_laid_off": 50,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 183,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 50.0,
-    "median_layoffs_per_headcount_event": 50.0,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 91.5,
+    "median_layoffs_per_headcount_event": 91.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,31 +24,39 @@
       "period": "2026-08-06",
       "total_laid_off": 250,
       "event_count": 1,
-      "total_laid_off_delta": -200,
-      "total_laid_off_pct_change": -0.8,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -67,
+      "total_laid_off_pct_change": -0.268,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08-07",
       "total_laid_off": 137,
       "event_count": 3,
-      "total_laid_off_delta": -87,
-      "total_laid_off_pct_change": -0.635,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": 46,
+      "total_laid_off_pct_change": 0.3358,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.3333,
       "note": null
     }
   },
   "charts": {
     "company_top": [
       {
+        "company": "Salesforce",
+        "total_laid_off": 133
+      },
+      {
         "company": "VideoAmp",
         "total_laid_off": 50
       }
     ],
     "industry_top": [
+      {
+        "industry": "Sales",
+        "total_laid_off": 133
+      },
       {
         "industry": "Marketing",
         "total_laid_off": 50
@@ -57,10 +65,14 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 50
+        "total_laid_off": 183
       }
     ],
     "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 133
+      },
       {
         "stage": "Series F",
         "total_laid_off": 50
@@ -93,6 +105,16 @@
     "largest_events": [
       {
         "date": "2026-08-07",
+        "company": "Salesforce",
+        "num_laid_off": 133,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
+      {
+        "date": "2026-08-07",
         "company": "VideoAmp",
         "num_laid_off": 50,
         "percentage_laid_off": 0.2,
@@ -103,6 +125,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-07",
+        "company": "Salesforce",
+        "num_laid_off": 133,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
       {
         "date": "2026-08-07",
         "company": "VideoAmp",
@@ -117,9 +149,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-08-07 includes 1 public layoff events and 50 reported layoffs.",
-    "The largest company contributor is VideoAmp with 50 reported layoffs.",
-    "The leading named industry is Marketing with 50 reported layoffs."
+    "2026-08-07 includes 2 public layoff events and 183 reported layoffs.",
+    "The largest company contributor is Salesforce with 133 reported layoffs.",
+    "The leading named industry is Sales with 133 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

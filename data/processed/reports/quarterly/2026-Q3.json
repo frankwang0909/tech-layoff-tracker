@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-08-07"
+    "end": "2026-08-10"
   },
-  "updated_at": "2026-08-07",
+  "updated_at": "2026-08-10",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 12112,
-    "event_count": 57,
-    "headcount_event_count": 34,
-    "company_count": 53,
-    "country_count": 14,
-    "industry_count": 22,
-    "average_layoffs_per_headcount_event": 356.24,
-    "median_layoffs_per_headcount_event": 122.0,
-    "high_intensity_event_count": 13
+    "total_laid_off": 12558,
+    "event_count": 61,
+    "headcount_event_count": 36,
+    "company_count": 56,
+    "country_count": 15,
+    "industry_count": 23,
+    "average_layoffs_per_headcount_event": 348.83,
+    "median_layoffs_per_headcount_event": 138.5,
+    "high_intensity_event_count": 15
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -48435,
-      "total_laid_off_pct_change": -0.8,
-      "event_count_delta": -79,
-      "event_count_pct_change": -0.5809,
+      "total_laid_off_delta": -47989,
+      "total_laid_off_pct_change": -0.7926,
+      "event_count_delta": -75,
+      "event_count_pct_change": -0.5515,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -15442,
-      "total_laid_off_pct_change": -0.5604,
-      "event_count_delta": -29,
-      "event_count_pct_change": -0.3372,
+      "total_laid_off_delta": -14996,
+      "total_laid_off_pct_change": -0.5442,
+      "event_count_delta": -25,
+      "event_count_pct_change": -0.2907,
       "note": null
     }
   },
@@ -76,12 +76,12 @@
         "total_laid_off": 400
       },
       {
-        "company": "Sprout Social",
-        "total_laid_off": 260
+        "company": "Rapid7",
+        "total_laid_off": 334
       },
       {
-        "company": "Etsy",
-        "total_laid_off": 220
+        "company": "Sprout Social",
+        "total_laid_off": 260
       }
     ],
     "industry_top": [
@@ -122,14 +122,14 @@
         "total_laid_off": 343
       },
       {
-        "industry": "Marketing",
-        "total_laid_off": 310
+        "industry": "Security",
+        "total_laid_off": 334
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 9194
+        "total_laid_off": 9640
       },
       {
         "country": "India",
@@ -163,7 +163,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 9169
+        "total_laid_off": 9615
       },
       {
         "stage": "Private Equity",
@@ -209,7 +209,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 11
+        "event_count": 12
       },
       {
         "bucket": "25-49%",
@@ -298,6 +298,16 @@
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
+        "date": "2026-08-10",
+        "company": "Rapid7",
+        "num_laid_off": 313,
+        "percentage_laid_off": 0.12,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
         "date": "2026-07-01",
         "company": "TikTok",
         "num_laid_off": 300,
@@ -316,19 +326,49 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
-      },
-      {
-        "date": "2026-08-06",
-        "company": "TikTok",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-10",
+        "company": "Rapid7",
+        "num_laid_off": 313,
+        "percentage_laid_off": 0.12,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "Validient",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+      },
+      {
+        "date": "2026-08-08",
+        "company": "ClimateAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+      },
+      {
+        "date": "2026-08-07",
+        "company": "Salesforce",
+        "num_laid_off": 133,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
       {
         "date": "2026-08-07",
         "company": "VideoAmp",
@@ -351,16 +391,6 @@
       },
       {
         "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-      },
-      {
-        "date": "2026-08-05",
         "company": "Google",
         "num_laid_off": 52,
         "percentage_laid_off": null,
@@ -378,6 +408,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
       },
       {
         "date": "2026-08-04",
@@ -441,16 +481,6 @@
       },
       {
         "date": "2026-07-31",
-        "company": "Reforged Labs",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Marketing",
-        "country": "Singapore",
-        "stage": "Seed",
-        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
-      },
-      {
-        "date": "2026-07-31",
         "company": "Lightspeed Commerce",
         "num_laid_off": 100,
         "percentage_laid_off": 0.03,
@@ -458,6 +488,16 @@
         "country": "Canada",
         "stage": "Post-IPO",
         "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+      },
+      {
+        "date": "2026-07-31",
+        "company": "Reforged Labs",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Marketing",
+        "country": "Singapore",
+        "stage": "Seed",
+        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
       },
       {
         "date": "2026-07-31",
@@ -488,49 +528,29 @@
         "country": "Nigeria",
         "stage": "Unknown",
         "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
-      },
-      {
-        "date": "2026-07-28",
-        "company": "Krutrim",
-        "num_laid_off": 20,
-        "percentage_laid_off": 0.5,
-        "industry": "AI",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
-      },
-      {
-        "date": "2026-07-28",
-        "company": "Luno",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.2,
-        "industry": "Crypto",
-        "country": "United Kingdom",
-        "stage": "Acquired",
-        "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
-      },
-      {
-        "date": "2026-07-28",
-        "company": "ServiceNow",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Support",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
-      },
-      {
-        "date": "2026-07-27",
-        "company": "BuzzFeed",
-        "num_laid_off": 180,
-        "percentage_laid_off": 0.35,
-        "industry": "Media",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-10",
+        "company": "Validient",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+      },
+      {
+        "date": "2026-08-08",
+        "company": "ClimateAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+      },
       {
         "date": "2026-08-04",
         "company": "80 Acres Farms",
@@ -610,34 +630,14 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
-      },
-      {
-        "date": "2026-07-13",
-        "company": "Gigbanc",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "Nigeria",
-        "stage": "Seed",
-        "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
-      },
-      {
-        "date": "2026-07-01",
-        "company": "Tokopedia",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.9,
-        "industry": "Retail",
-        "country": "Indonesia",
-        "stage": "Acquired",
-        "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 57 public layoff events and 12,112 reported layoffs.",
+    "2026-Q3 includes 61 public layoff events and 12,558 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
-    "13 events report a layoff percentage of 25% or higher."
+    "15 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

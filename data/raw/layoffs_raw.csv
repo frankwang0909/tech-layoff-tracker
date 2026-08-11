@@ -1,4 +1,8 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Rapid7,Boston,313.0,2026-08-10,0.12,Security,https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html,Post-IPO,89.0,United States,2026-08-11T03:42:34.000Z
+Validient,"Sydney, Non-U.S.",,2026-08-10,1.0,Other,https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE,Unknown,,Australia,2026-08-11T03:46:10.000Z
+ClimateAI,SF Bay Area,,2026-08-08,1.0,Other,https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations,Series B,38.0,United States,2026-08-11T03:47:40.000Z
+Salesforce,SF Bay Area,133.0,2026-08-07,,Sales,https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring,Post-IPO,65.0,United States,2026-08-11T03:48:20.000Z
 VideoAmp,Los Angeles,50.0,2026-08-07,0.2,Marketing,https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1,Series F,456.0,United States,2026-08-07T16:17:43.000Z
 TikTok,Nashville,250.0,2026-08-06,,Consumer,https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html,Acquired,,United States,2026-08-06T17:14:42.000Z
 Etsy,New York City,220.0,2026-08-05,0.12,Retail,https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html,Post-IPO,97.0,United States,2026-08-05T22:22:25.000Z

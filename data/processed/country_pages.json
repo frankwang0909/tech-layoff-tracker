@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-07"
+      "end": "2026-08-10"
     },
     "kpis": {
-      "total_laid_off": 205170,
-      "event_count": 363,
-      "headcount_event_count": 239,
-      "company_count": 276,
+      "total_laid_off": 205616,
+      "event_count": 366,
+      "headcount_event_count": 241,
+      "company_count": 277,
       "country_count": 1,
       "industry_count": 30,
-      "high_intensity_event_count": 55
+      "high_intensity_event_count": 56
     },
     "charts": {
       "monthly_trend": [
@@ -98,7 +98,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 1112
+          "total_laid_off": 1558
         }
       ],
       "company_top": [
@@ -132,7 +132,7 @@
         },
         {
           "company": "Salesforce",
-          "total_laid_off": 5471
+          "total_laid_off": 5604
         },
         {
           "company": "Block",
@@ -146,6 +146,36 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-10",
+          "company": "Rapid7",
+          "num_laid_off": 313,
+          "percentage_laid_off": 0.12,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+        },
+        {
+          "date": "2026-08-08",
+          "company": "ClimateAI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+        },
+        {
+          "date": "2026-08-07",
+          "company": "Salesforce",
+          "num_laid_off": 133,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+        },
         {
           "date": "2026-08-07",
           "company": "VideoAmp",
@@ -265,40 +295,10 @@
           "country": "United States",
           "stage": "Series G",
           "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
-        },
-        {
-          "date": "2026-07-28",
-          "company": "ServiceNow",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Support",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
-        },
-        {
-          "date": "2026-07-27",
-          "company": "BuzzFeed",
-          "num_laid_off": 180,
-          "percentage_laid_off": 0.35,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
-        },
-        {
-          "date": "2026-07-27",
-          "company": "BitMart",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
         }
       ]
     },
-    "summary": "United States has 205,170 reported tech layoffs across 363 public events from 2025-01-02 to 2026-08-07."
+    "summary": "United States has 205,616 reported tech layoffs across 366 public events from 2025-01-02 to 2026-08-10."
   },
   {
     "type": "country",
@@ -1031,16 +1031,16 @@
     "canonical_url": "/countries/australia.html",
     "date_range": {
       "start": "2025-04-02",
-      "end": "2026-06-26"
+      "end": "2026-08-10"
     },
     "kpis": {
       "total_laid_off": 4372,
-      "event_count": 12,
+      "event_count": 13,
       "headcount_event_count": 10,
-      "company_count": 8,
+      "company_count": 9,
       "country_count": 1,
       "industry_count": 8,
-      "high_intensity_event_count": 3
+      "high_intensity_event_count": 4
     },
     "charts": {
       "monthly_trend": [
@@ -1114,6 +1114,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-10",
+          "company": "Validient",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+        },
         {
           "date": "2026-06-26",
           "company": "Culture Amp",
@@ -1236,7 +1246,7 @@
         }
       ]
     },
-    "summary": "Australia has 4,372 reported tech layoffs across 12 public events from 2025-04-02 to 2026-06-26."
+    "summary": "Australia has 4,372 reported tech layoffs across 13 public events from 2025-04-02 to 2026-08-10."
   },
   {
     "type": "country",

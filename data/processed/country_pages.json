@@ -597,15 +597,15 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-07-26"
+      "end": "2026-08-11"
     },
     "kpis": {
-      "total_laid_off": 7538,
-      "event_count": 66,
-      "headcount_event_count": 47,
-      "company_count": 57,
+      "total_laid_off": 7588,
+      "event_count": 67,
+      "headcount_event_count": 48,
+      "company_count": 58,
       "country_count": 1,
-      "industry_count": 22,
+      "industry_count": 23,
       "high_intensity_event_count": 19
     },
     "charts": {
@@ -673,6 +673,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 865
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 50
         }
       ],
       "company_top": [
@@ -720,6 +724,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-11",
+          "company": "LinkedIn",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+        },
         {
           "date": "2026-07-26",
           "company": "Papaya Gaming",
@@ -859,20 +873,10 @@
           "country": "Israel",
           "stage": "Series E",
           "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
-        },
-        {
-          "date": "2026-06-02",
-          "company": "Aleph Farms",
-          "num_laid_off": 10,
-          "percentage_laid_off": null,
-          "industry": "Food",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
         }
       ]
     },
-    "summary": "Israel has 7,538 reported tech layoffs across 66 public events from 2025-01-06 to 2026-07-26."
+    "summary": "Israel has 7,588 reported tech layoffs across 67 public events from 2025-01-06 to 2026-08-11."
   },
   {
     "type": "country",

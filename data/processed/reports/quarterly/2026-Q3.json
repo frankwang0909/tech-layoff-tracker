@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-08-10"
+    "end": "2026-08-11"
   },
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 12558,
-    "event_count": 61,
-    "headcount_event_count": 36,
-    "company_count": 56,
+    "total_laid_off": 12608,
+    "event_count": 62,
+    "headcount_event_count": 37,
+    "company_count": 57,
     "country_count": 15,
-    "industry_count": 23,
-    "average_layoffs_per_headcount_event": 348.83,
-    "median_layoffs_per_headcount_event": 138.5,
+    "industry_count": 24,
+    "average_layoffs_per_headcount_event": 340.76,
+    "median_layoffs_per_headcount_event": 133.0,
     "high_intensity_event_count": 15
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -47989,
-      "total_laid_off_pct_change": -0.7926,
-      "event_count_delta": -75,
-      "event_count_pct_change": -0.5515,
+      "total_laid_off_delta": -47939,
+      "total_laid_off_pct_change": -0.7918,
+      "event_count_delta": -74,
+      "event_count_pct_change": -0.5441,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -14996,
-      "total_laid_off_pct_change": -0.5442,
-      "event_count_delta": -25,
-      "event_count_pct_change": -0.2907,
+      "total_laid_off_delta": -14946,
+      "total_laid_off_pct_change": -0.5424,
+      "event_count_delta": -24,
+      "event_count_pct_change": -0.2791,
       "note": null
     }
   },
@@ -137,7 +137,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 865
+        "total_laid_off": 915
       },
       {
         "country": "Canada",
@@ -171,7 +171,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 625
+        "total_laid_off": 675
       },
       {
         "stage": "Unknown",
@@ -330,14 +330,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
       },
       {
         "date": "2026-08-10",
@@ -348,6 +348,16 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "Rapid7",
+        "num_laid_off": 313,
+        "percentage_laid_off": 0.12,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
       },
       {
         "date": "2026-08-08",
@@ -501,16 +511,6 @@
       },
       {
         "date": "2026-07-31",
-        "company": "ChargePoint",
-        "num_laid_off": 144,
-        "percentage_laid_off": 0.1,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
-      },
-      {
-        "date": "2026-07-31",
         "company": "Chime",
         "num_laid_off": 150,
         "percentage_laid_off": 0.1,
@@ -520,14 +520,14 @@
         "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
       },
       {
-        "date": "2026-07-30",
-        "company": "GoLemon",
-        "num_laid_off": 33,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "Nigeria",
+        "date": "2026-07-31",
+        "company": "ChargePoint",
+        "num_laid_off": 144,
+        "percentage_laid_off": 0.1,
+        "industry": "Manufacturing",
+        "country": "United States",
         "stage": "Unknown",
-        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
       }
     ],
     "high_intensity_events": [
@@ -634,7 +634,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 61 public layoff events and 12,558 reported layoffs.",
+    "2026-Q3 includes 62 public layoff events and 12,608 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
     "15 events report a layoff percentage of 25% or higher."

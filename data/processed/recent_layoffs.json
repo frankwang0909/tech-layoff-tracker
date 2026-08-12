@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-08-10",
-    "company": "Rapid7",
-    "num_laid_off": 313,
-    "percentage_laid_off": 0.12,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+    "date": "2026-08-11",
+    "company": "LinkedIn",
+    "num_laid_off": 50,
+    "percentage_laid_off": null,
+    "industry": "Recruiting",
+    "country": "Israel",
+    "stage": "Acquired",
+    "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
   },
   {
     "date": "2026-08-10",
@@ -18,6 +18,16 @@
     "country": "Australia",
     "stage": "Unknown",
     "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+  },
+  {
+    "date": "2026-08-10",
+    "company": "Rapid7",
+    "num_laid_off": 313,
+    "percentage_laid_off": 0.12,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
   },
   {
     "date": "2026-08-08",
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
-  },
-  {
-    "date": "2026-08-04",
-    "company": "Nutanix",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.05,
-    "industry": "Infrastructure",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
   }
 ]

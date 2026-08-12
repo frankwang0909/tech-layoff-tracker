@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-01",
-    "end": "2026-08-10"
+    "end": "2026-08-11"
   },
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 1558,
-    "event_count": 15,
-    "headcount_event_count": 8,
-    "company_count": 15,
-    "country_count": 3,
-    "industry_count": 11,
-    "average_layoffs_per_headcount_event": 194.75,
-    "median_layoffs_per_headcount_event": 176.5,
+    "total_laid_off": 1608,
+    "event_count": 16,
+    "headcount_event_count": 9,
+    "company_count": 16,
+    "country_count": 4,
+    "industry_count": 12,
+    "average_layoffs_per_headcount_event": 178.67,
+    "median_layoffs_per_headcount_event": 133.0,
     "high_intensity_event_count": 4
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -9442,
-      "total_laid_off_pct_change": -0.8584,
-      "event_count_delta": -31,
-      "event_count_pct_change": -0.6739,
+      "total_laid_off_delta": -9392,
+      "total_laid_off_pct_change": -0.8538,
+      "event_count_delta": -30,
+      "event_count_pct_change": -0.6522,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -4894,
-      "total_laid_off_pct_change": -0.7585,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.4231,
+      "total_laid_off_delta": -4844,
+      "total_laid_off_pct_change": -0.7508,
+      "event_count_delta": -10,
+      "event_count_pct_change": -0.3846,
       "note": null
     }
   },
@@ -66,6 +66,10 @@
       {
         "company": "Google",
         "total_laid_off": 52
+      },
+      {
+        "company": "LinkedIn",
+        "total_laid_off": 50
       },
       {
         "company": "VideoAmp",
@@ -102,6 +106,10 @@
         "total_laid_off": 50
       },
       {
+        "industry": "Recruiting",
+        "total_laid_off": 50
+      },
+      {
         "industry": "Crypto",
         "total_laid_off": 40
       }
@@ -110,6 +118,10 @@
       {
         "country": "United States",
         "total_laid_off": 1558
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 50
       }
     ],
     "stage_top": [
@@ -119,7 +131,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 250
+        "total_laid_off": 300
       },
       {
         "stage": "Series F",
@@ -216,6 +228,16 @@
         "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       },
       {
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+      },
+      {
         "date": "2026-08-07",
         "company": "VideoAmp",
         "num_laid_off": 50,
@@ -237,6 +259,16 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+      },
       {
         "date": "2026-08-10",
         "company": "Rapid7",
@@ -432,7 +464,7 @@
     ]
   },
   "insights": [
-    "2026-08 includes 15 public layoff events and 1,558 reported layoffs.",
+    "2026-08 includes 16 public layoff events and 1,608 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

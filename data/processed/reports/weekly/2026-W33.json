@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-10",
-    "end": "2026-08-10"
+    "end": "2026-08-11"
   },
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "canonical_url": "/reports/weekly/2026-W33.html",
   "kpis": {
-    "total_laid_off": 313,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 2,
-    "industry_count": 2,
-    "average_layoffs_per_headcount_event": 313.0,
-    "median_layoffs_per_headcount_event": 313.0,
+    "total_laid_off": 363,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 181.5,
+    "median_layoffs_per_headcount_event": 181.5,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W32",
       "total_laid_off": 1205,
       "event_count": 12,
-      "total_laid_off_delta": -892,
-      "total_laid_off_pct_change": -0.7402,
-      "event_count_delta": -10,
-      "event_count_pct_change": -0.8333,
+      "total_laid_off_delta": -842,
+      "total_laid_off_pct_change": -0.6988,
+      "event_count_delta": -9,
+      "event_count_pct_change": -0.75,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W33",
       "total_laid_off": 1227,
       "event_count": 10,
-      "total_laid_off_delta": -914,
-      "total_laid_off_pct_change": -0.7449,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.8,
+      "total_laid_off_delta": -864,
+      "total_laid_off_pct_change": -0.7042,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.7,
       "note": null
     }
   },
@@ -46,24 +46,40 @@
       {
         "company": "Rapid7",
         "total_laid_off": 313
+      },
+      {
+        "company": "LinkedIn",
+        "total_laid_off": 50
       }
     ],
     "industry_top": [
       {
         "industry": "Security",
         "total_laid_off": 313
+      },
+      {
+        "industry": "Recruiting",
+        "total_laid_off": 50
       }
     ],
     "country_top": [
       {
         "country": "United States",
         "total_laid_off": 313
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 50
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 313
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 50
       }
     ],
     "layoff_pct_distribution": [
@@ -100,9 +116,29 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+      },
       {
         "date": "2026-08-10",
         "company": "Rapid7",
@@ -138,7 +174,7 @@
     ]
   },
   "insights": [
-    "2026-W33 includes 2 public layoff events and 313 reported layoffs.",
+    "2026-W33 includes 3 public layoff events and 363 reported layoffs.",
     "The largest company contributor is Rapid7 with 313 reported layoffs.",
     "The leading named industry is Security with 313 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

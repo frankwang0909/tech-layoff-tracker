@@ -4,9 +4,9 @@
   "generated_from": "data/processed/*.json",
   "data_range": {
     "start": "2025-01-06",
-    "end": "2026-08-10"
+    "end": "2026-08-11"
   },
-  "summary": "Tech Layoff Tracker reports 248,861 public tech layoffs from 2025-01-06 to 2026-08-10. The dataset covers 335 companies across 25 countries or regions. The largest month is 2026-05 with 29,002 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 248,911 public tech layoffs from 2025-01-06 to 2026-08-11. The dataset covers 335 companies across 25 countries or regions. The largest month is 2026-05 with 29,002 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -14,15 +14,15 @@
     },
     {
       "name": "Data range",
-      "value": "2025-01-06 to 2026-08-10"
+      "value": "2025-01-06 to 2026-08-11"
     },
     {
       "name": "Total reported layoffs",
-      "value": "248,861"
+      "value": "248,911"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "126,255"
+      "value": "126,305"
     },
     {
       "name": "Companies affected",
@@ -58,7 +58,7 @@
   "faq": [
     {
       "question": "What is the latest tech layoff trend?",
-      "answer": "The current data covers 2025-01-06 to 2026-08-10. The month with the highest reported layoff total is 2026-05."
+      "answer": "The current data covers 2025-01-06 to 2026-08-11. The month with the highest reported layoff total is 2026-05."
     },
     {
       "question": "Which tech company had the most layoffs in this dataset?",
@@ -171,8 +171,8 @@
       {
         "name": "Israel",
         "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
-        "total_laid_off": 7538,
-        "event_count": 66
+        "total_laid_off": 7588,
+        "event_count": 67
       },
       {
         "name": "Sweden",

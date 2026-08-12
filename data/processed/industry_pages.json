@@ -5145,14 +5145,14 @@
     "canonical_url": "/industries/recruiting.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-06-26"
+      "end": "2026-08-11"
     },
     "kpis": {
-      "total_laid_off": 1160,
-      "event_count": 6,
-      "headcount_event_count": 5,
+      "total_laid_off": 1210,
+      "event_count": 7,
+      "headcount_event_count": 6,
       "company_count": 6,
-      "country_count": 2,
+      "country_count": 3,
       "industry_count": 1,
       "high_intensity_event_count": 0
     },
@@ -5173,12 +5173,16 @@
         {
           "month": "2026-05",
           "total_laid_off": 875
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 50
         }
       ],
       "company_top": [
         {
           "company": "LinkedIn",
-          "total_laid_off": 875
+          "total_laid_off": 925
         },
         {
           "company": "Handshake",
@@ -5200,6 +5204,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-11",
+          "company": "LinkedIn",
+          "num_laid_off": 50,
+          "percentage_laid_off": null,
+          "industry": "Recruiting",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+        },
         {
           "date": "2026-06-26",
           "company": "CompanyCam",
@@ -5262,7 +5276,7 @@
         }
       ]
     },
-    "summary": "Recruiting has 1,160 reported tech layoffs across 6 public events from 2025-01-15 to 2026-06-26."
+    "summary": "Recruiting has 1,210 reported tech layoffs across 7 public events from 2025-01-15 to 2026-08-11."
   },
   {
     "type": "industry",

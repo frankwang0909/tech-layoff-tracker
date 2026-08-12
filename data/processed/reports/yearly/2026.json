@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-10"
+    "end": "2026-08-11"
   },
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 126255,
-    "event_count": 292,
-    "headcount_event_count": 189,
+    "total_laid_off": 126305,
+    "event_count": 293,
+    "headcount_event_count": 190,
     "company_count": 268,
     "country_count": 29,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 668.02,
-    "median_layoffs_per_headcount_event": 144.0,
+    "average_layoffs_per_headcount_event": 664.76,
+    "median_layoffs_per_headcount_event": 138.5,
     "high_intensity_event_count": 59
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3649,
-      "total_laid_off_pct_change": 0.0298,
-      "event_count_delta": -41,
-      "event_count_pct_change": -0.1231,
+      "total_laid_off_delta": 3699,
+      "total_laid_off_pct_change": 0.0302,
+      "event_count_delta": -40,
+      "event_count_pct_change": -0.1201,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3649,
-      "total_laid_off_pct_change": 0.0298,
-      "event_count_delta": -41,
-      "event_count_pct_change": -0.1231,
+      "total_laid_off_delta": 3699,
+      "total_laid_off_pct_change": 0.0302,
+      "event_count_delta": -40,
+      "event_count_pct_change": -0.1201,
       "note": null
     }
   },
@@ -133,7 +133,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 4491
+        "total_laid_off": 4541
       },
       {
         "country": "Australia",
@@ -179,7 +179,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 3951
+        "total_laid_off": 4001
       },
       {
         "stage": "Series B",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -338,14 +338,14 @@
     ],
     "recent_events": [
       {
-        "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
       },
       {
         "date": "2026-08-10",
@@ -356,6 +356,16 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "Rapid7",
+        "num_laid_off": 313,
+        "percentage_laid_off": 0.12,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
       },
       {
         "date": "2026-08-08",
@@ -399,6 +409,16 @@
       },
       {
         "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+      },
+      {
+        "date": "2026-08-05",
         "company": "Google",
         "num_laid_off": 52,
         "percentage_laid_off": null,
@@ -416,16 +436,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
       },
       {
         "date": "2026-08-04",
@@ -526,16 +536,6 @@
         "country": "Singapore",
         "stage": "Seed",
         "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
-      },
-      {
-        "date": "2026-07-30",
-        "company": "GoLemon",
-        "num_laid_off": 33,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "Nigeria",
-        "stage": "Unknown",
-        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 292 public layoff events and 126,255 reported layoffs.",
+    "2026 includes 293 public layoff events and 126,305 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
     "59 events report a layoff percentage of 25% or higher."

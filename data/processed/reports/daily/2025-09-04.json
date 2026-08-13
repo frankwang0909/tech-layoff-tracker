@@ -80,12 +80,12 @@
     ],
     "country_top": [
       {
-        "country": "India",
-        "total_laid_off": 650
+        "country": "United States",
+        "total_laid_off": 616
       },
       {
-        "country": "United States",
-        "total_laid_off": 516
+        "country": "India",
+        "total_laid_off": 550
       }
     ],
     "stage_top": [
@@ -167,7 +167,7 @@
         "num_laid_off": 100,
         "percentage_laid_off": null,
         "industry": "Other",
-        "country": "India",
+        "country": "United States",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
       },
@@ -219,7 +219,7 @@
         "num_laid_off": 100,
         "percentage_laid_off": null,
         "industry": "Other",
-        "country": "India",
+        "country": "United States",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
       },

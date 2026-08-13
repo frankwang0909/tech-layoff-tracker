@@ -129,11 +129,11 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 23595
+        "total_laid_off": 23695
       },
       {
         "country": "India",
-        "total_laid_off": 2191
+        "total_laid_off": 2091
       },
       {
         "country": "Netherlands",
@@ -505,7 +505,7 @@
         "num_laid_off": 100,
         "percentage_laid_off": null,
         "industry": "Other",
-        "country": "India",
+        "country": "United States",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/exclusive-gupshup-lays-off-100-employees-in-cost-cutting-exercise/"
       },

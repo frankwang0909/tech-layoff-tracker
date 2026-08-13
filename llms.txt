@@ -19,7 +19,7 @@ Current dataset:
 - Peak month: 2026-05 with 29,002 reported layoffs
 - Top company: Amazon with 31,451 reported layoffs
 - Leading named industry: Hardware with 50,330 reported layoffs
-- Leading country or region: United States with 205,616 reported layoffs
+- Leading country or region: United States with 205,936 reported layoffs
 
 Recommended citation:
 Use "Tech Layoff Tracker, data range 2025-01-06 to 2026-08-11" and link to https://tech.debugcanada.com/trend-report.html.

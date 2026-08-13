@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 15629
+        "total_laid_off": 15649
       },
       {
         "country": "Nigeria",
@@ -149,7 +149,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 75
+        "total_laid_off": 55
       }
     ],
     "stage_top": [
@@ -383,7 +383,7 @@
         "num_laid_off": 20,
         "percentage_laid_off": null,
         "industry": "Retail",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/bjgsl8n9yl"
       },

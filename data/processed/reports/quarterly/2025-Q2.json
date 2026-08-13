@@ -129,15 +129,15 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 32074
-      },
-      {
-        "country": "India",
-        "total_laid_off": 2065
+        "total_laid_off": 32274
       },
       {
         "country": "Canada",
         "total_laid_off": 1973
+      },
+      {
+        "country": "India",
+        "total_laid_off": 1865
       },
       {
         "country": "Israel",

@@ -46,13 +46,13 @@
     },
     {
       "name": "Leading country or region",
-      "value": "United States (205,616 layoffs)"
+      "value": "United States (205,936 layoffs)"
     }
   ],
   "insights": [
     "Amazon is the highest-ranked company by reported layoffs in the current company summary, with 31,451 layoffs.",
     "Hardware is the largest industry category, accounting for 50,330 reported layoffs.",
-    "United States is the leading country or region in the current dataset, with 205,616 reported layoffs.",
+    "United States is the leading country or region in the current dataset, with 205,936 reported layoffs.",
     "The peak month is 2026-05, with 29,002 reported layoffs."
   ],
   "faq": [
@@ -159,20 +159,20 @@
       {
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
-        "total_laid_off": 205616,
-        "event_count": 366
+        "total_laid_off": 205936,
+        "event_count": 369
       },
       {
         "name": "India",
         "canonical_url": "https://tech.debugcanada.com/countries/india.html",
-        "total_laid_off": 10680,
-        "event_count": 60
+        "total_laid_off": 10380,
+        "event_count": 58
       },
       {
         "name": "Israel",
         "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
-        "total_laid_off": 7588,
-        "event_count": 67
+        "total_laid_off": 7568,
+        "event_count": 66
       },
       {
         "name": "Sweden",

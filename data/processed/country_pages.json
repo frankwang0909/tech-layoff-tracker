@@ -10,10 +10,10 @@
       "end": "2026-08-10"
     },
     "kpis": {
-      "total_laid_off": 205616,
-      "event_count": 366,
-      "headcount_event_count": 241,
-      "company_count": 277,
+      "total_laid_off": 205936,
+      "event_count": 369,
+      "headcount_event_count": 244,
+      "company_count": 279,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 56
@@ -26,7 +26,7 @@
         },
         {
           "month": "2025-02",
-          "total_laid_off": 15629
+          "total_laid_off": 15649
         },
         {
           "month": "2025-03",
@@ -34,7 +34,7 @@
         },
         {
           "month": "2025-04",
-          "total_laid_off": 23835
+          "total_laid_off": 24035
         },
         {
           "month": "2025-05",
@@ -54,7 +54,7 @@
         },
         {
           "month": "2025-09",
-          "total_laid_off": 1584
+          "total_laid_off": 1684
         },
         {
           "month": "2025-10",
@@ -228,16 +228,6 @@
         },
         {
           "date": "2026-08-04",
-          "company": "Zillow",
-          "num_laid_off": 500,
-          "percentage_laid_off": 0.07,
-          "industry": "Real Estate",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-        },
-        {
-          "date": "2026-08-04",
           "company": "80 Acres Farms",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -255,6 +245,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
+        },
+        {
+          "date": "2026-08-04",
+          "company": "Zillow",
+          "num_laid_off": 500,
+          "percentage_laid_off": 0.07,
+          "industry": "Real Estate",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
         },
         {
           "date": "2026-08-03",
@@ -278,16 +278,6 @@
         },
         {
           "date": "2026-07-31",
-          "company": "ChargePoint",
-          "num_laid_off": 144,
-          "percentage_laid_off": 0.1,
-          "industry": "Manufacturing",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
-        },
-        {
-          "date": "2026-07-31",
           "company": "Chime",
           "num_laid_off": 150,
           "percentage_laid_off": 0.1,
@@ -295,10 +285,20 @@
           "country": "United States",
           "stage": "Series G",
           "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+        },
+        {
+          "date": "2026-07-31",
+          "company": "ChargePoint",
+          "num_laid_off": 144,
+          "percentage_laid_off": 0.1,
+          "industry": "Manufacturing",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
         }
       ]
     },
-    "summary": "United States has 205,616 reported tech layoffs across 366 public events from 2025-01-02 to 2026-08-10."
+    "summary": "United States has 205,936 reported tech layoffs across 369 public events from 2025-01-02 to 2026-08-10."
   },
   {
     "type": "country",
@@ -311,10 +311,10 @@
       "end": "2026-07-28"
     },
     "kpis": {
-      "total_laid_off": 10680,
-      "event_count": 60,
-      "headcount_event_count": 46,
-      "company_count": 50,
+      "total_laid_off": 10380,
+      "event_count": 58,
+      "headcount_event_count": 44,
+      "company_count": 49,
       "country_count": 1,
       "industry_count": 16,
       "high_intensity_event_count": 22
@@ -331,7 +331,7 @@
         },
         {
           "month": "2025-04",
-          "total_laid_off": 1100
+          "total_laid_off": 900
         },
         {
           "month": "2025-05",
@@ -347,7 +347,7 @@
         },
         {
           "month": "2025-09",
-          "total_laid_off": 1690
+          "total_laid_off": 1590
         },
         {
           "month": "2025-10",
@@ -392,11 +392,11 @@
       ],
       "company_top": [
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
@@ -420,11 +420,11 @@
           "total_laid_off": 500
         },
         {
-          "company": "Paytm",
+          "company": "GamesKraft",
           "total_laid_off": 400
         },
         {
-          "company": "GamesKraft",
+          "company": "Paytm",
           "total_laid_off": 400
         },
         {
@@ -587,7 +587,7 @@
         }
       ]
     },
-    "summary": "India has 10,680 reported tech layoffs across 60 public events from 2025-01-15 to 2026-07-28."
+    "summary": "India has 10,380 reported tech layoffs across 58 public events from 2025-01-15 to 2026-07-28."
   },
   {
     "type": "country",
@@ -600,9 +600,9 @@
       "end": "2026-08-11"
     },
     "kpis": {
-      "total_laid_off": 7588,
-      "event_count": 67,
-      "headcount_event_count": 48,
+      "total_laid_off": 7568,
+      "event_count": 66,
+      "headcount_event_count": 47,
       "company_count": 58,
       "country_count": 1,
       "industry_count": 23,
@@ -616,7 +616,7 @@
         },
         {
           "month": "2025-02",
-          "total_laid_off": 75
+          "total_laid_off": 55
         },
         {
           "month": "2025-03",
@@ -686,7 +686,7 @@
         },
         {
           "company": "eBay",
-          "total_laid_off": 1020
+          "total_laid_off": 1000
         },
         {
           "company": "Wix",
@@ -876,7 +876,7 @@
         }
       ]
     },
-    "summary": "Israel has 7,588 reported tech layoffs across 67 public events from 2025-01-06 to 2026-08-11."
+    "summary": "Israel has 7,568 reported tech layoffs across 66 public events from 2025-01-06 to 2026-08-11."
   },
   {
     "type": "country",

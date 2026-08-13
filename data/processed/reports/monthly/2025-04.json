@@ -129,11 +129,11 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 23835
+        "total_laid_off": 24035
       },
       {
         "country": "India",
-        "total_laid_off": 1100
+        "total_laid_off": 900
       },
       {
         "country": "Germany",
@@ -267,7 +267,7 @@
         "num_laid_off": 200,
         "percentage_laid_off": null,
         "industry": "Other",
-        "country": "India",
+        "country": "United States",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/exclusive-saas-unicorn-gupshup-fires-500-employees/"
       },
@@ -469,7 +469,7 @@
         "num_laid_off": 200,
         "percentage_laid_off": null,
         "industry": "Other",
-        "country": "India",
+        "country": "United States",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/exclusive-saas-unicorn-gupshup-fires-500-employees/"
       },

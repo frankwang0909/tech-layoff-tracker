@@ -13,7 +13,7 @@
     "event_count": 5,
     "headcount_event_count": 2,
     "company_count": 5,
-    "country_count": 4,
+    "country_count": 3,
     "industry_count": 4,
     "average_layoffs_per_headcount_event": 72.5,
     "median_layoffs_per_headcount_event": 72.5,
@@ -65,11 +65,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 125
-      },
-      {
-        "country": "Israel",
-        "total_laid_off": 20
+        "total_laid_off": 145
       }
     ],
     "stage_top": [
@@ -123,7 +119,7 @@
         "num_laid_off": 20,
         "percentage_laid_off": null,
         "industry": "Retail",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/bjgsl8n9yl"
       }
@@ -145,7 +141,7 @@
         "num_laid_off": 20,
         "percentage_laid_off": null,
         "industry": "Retail",
-        "country": "Israel",
+        "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/bjgsl8n9yl"
       },

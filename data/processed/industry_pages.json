@@ -565,12 +565,12 @@
     },
     "kpis": {
       "total_laid_off": 27153,
-      "event_count": 84,
+      "event_count": 85,
       "headcount_event_count": 57,
-      "company_count": 55,
+      "company_count": 56,
       "country_count": 9,
       "industry_count": 1,
-      "high_intensity_event_count": 10
+      "high_intensity_event_count": 11
     },
     "charts": {
       "monthly_trend": [
@@ -717,6 +717,16 @@
           "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
         },
         {
+          "date": "2026-08-05",
+          "company": "Proof of Play",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
+        },
+        {
           "date": "2026-07-26",
           "company": "Papaya Gaming",
           "num_laid_off": 30,
@@ -778,16 +788,6 @@
         },
         {
           "date": "2026-06-25",
-          "company": "Bungie",
-          "num_laid_off": 292,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
-        },
-        {
-          "date": "2026-06-25",
           "company": "Sonos",
           "num_laid_off": null,
           "percentage_laid_off": 0.03,
@@ -795,6 +795,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Bungie",
+          "num_laid_off": 292,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
         },
         {
           "date": "2026-06-05",
@@ -835,20 +845,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Ticketmaster",
-          "num_laid_off": 350,
-          "percentage_laid_off": 0.08,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
         }
       ]
     },
-    "summary": "Consumer has 27,153 reported tech layoffs across 84 public events from 2025-01-27 to 2026-08-06."
+    "summary": "Consumer has 27,153 reported tech layoffs across 85 public events from 2025-01-27 to 2026-08-06."
   },
   {
     "type": "industry",
@@ -4741,13 +4741,13 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-08-03"
+      "end": "2026-08-12"
     },
     "kpis": {
-      "total_laid_off": 1462,
-      "event_count": 28,
-      "headcount_event_count": 12,
-      "company_count": 26,
+      "total_laid_off": 1487,
+      "event_count": 29,
+      "headcount_event_count": 13,
+      "company_count": 27,
       "country_count": 11,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -4788,7 +4788,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 40
+          "total_laid_off": 65
         }
       ],
       "company_top": [
@@ -4836,6 +4836,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-12",
+          "company": "Bitwise",
+          "num_laid_off": 25,
+          "percentage_laid_off": 0.14,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+        },
         {
           "date": "2026-08-03",
           "company": "FalconX",
@@ -4975,20 +4985,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "Coinbase",
-          "num_laid_off": 700,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
         }
       ]
     },
-    "summary": "Crypto has 1,462 reported tech layoffs across 28 public events from 2025-02-05 to 2026-08-03."
+    "summary": "Crypto has 1,487 reported tech layoffs across 29 public events from 2025-02-05 to 2026-08-12."
   },
   {
     "type": "industry",

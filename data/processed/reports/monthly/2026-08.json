@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-01",
-    "end": "2026-08-11"
+    "end": "2026-08-12"
   },
-  "updated_at": "2026-08-11",
+  "updated_at": "2026-08-12",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 1608,
-    "event_count": 16,
-    "headcount_event_count": 9,
-    "company_count": 16,
-    "country_count": 4,
+    "total_laid_off": 1633,
+    "event_count": 19,
+    "headcount_event_count": 10,
+    "company_count": 19,
+    "country_count": 5,
     "industry_count": 12,
-    "average_layoffs_per_headcount_event": 178.67,
-    "median_layoffs_per_headcount_event": 133.0,
-    "high_intensity_event_count": 4
+    "average_layoffs_per_headcount_event": 163.3,
+    "median_layoffs_per_headcount_event": 92.5,
+    "high_intensity_event_count": 6
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -9392,
-      "total_laid_off_pct_change": -0.8538,
-      "event_count_delta": -30,
-      "event_count_pct_change": -0.6522,
+      "total_laid_off_delta": -9367,
+      "total_laid_off_pct_change": -0.8515,
+      "event_count_delta": -27,
+      "event_count_pct_change": -0.587,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -4844,
-      "total_laid_off_pct_change": -0.7508,
-      "event_count_delta": -10,
-      "event_count_pct_change": -0.3846,
+      "total_laid_off_delta": -4819,
+      "total_laid_off_pct_change": -0.7469,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.2692,
       "note": null
     }
   },
@@ -68,16 +68,20 @@
         "total_laid_off": 52
       },
       {
-        "company": "LinkedIn",
+        "company": "VideoAmp",
         "total_laid_off": 50
       },
       {
-        "company": "VideoAmp",
+        "company": "LinkedIn",
         "total_laid_off": 50
       },
       {
         "company": "Pump.fun",
         "total_laid_off": 40
+      },
+      {
+        "company": "Bitwise",
+        "total_laid_off": 25
       }
     ],
     "industry_top": [
@@ -102,22 +106,22 @@
         "total_laid_off": 133
       },
       {
+        "industry": "Crypto",
+        "total_laid_off": 65
+      },
+      {
         "industry": "Marketing",
         "total_laid_off": 50
       },
       {
         "industry": "Recruiting",
         "total_laid_off": 50
-      },
-      {
-        "industry": "Crypto",
-        "total_laid_off": 40
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1558
+        "total_laid_off": 1583
       },
       {
         "country": "Israel",
@@ -134,12 +138,12 @@
         "total_laid_off": 300
       },
       {
-        "stage": "Series F",
-        "total_laid_off": 50
+        "stage": "Unknown",
+        "total_laid_off": 65
       },
       {
-        "stage": "Unknown",
-        "total_laid_off": 40
+        "stage": "Series F",
+        "total_laid_off": 50
       }
     ],
     "layoff_pct_distribution": [
@@ -149,7 +153,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 3
+        "event_count": 4
       },
       {
         "bucket": "25-49%",
@@ -228,16 +232,6 @@
         "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       },
       {
-        "date": "2026-08-11",
-        "company": "LinkedIn",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Recruiting",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
-      },
-      {
         "date": "2026-08-07",
         "company": "VideoAmp",
         "num_laid_off": 50,
@@ -248,6 +242,16 @@
         "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
       },
       {
+        "date": "2026-08-11",
+        "company": "LinkedIn",
+        "num_laid_off": 50,
+        "percentage_laid_off": null,
+        "industry": "Recruiting",
+        "country": "Israel",
+        "stage": "Acquired",
+        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+      },
+      {
         "date": "2026-08-01",
         "company": "Pump.fun",
         "num_laid_off": 40,
@@ -256,9 +260,39 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+      },
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+      },
+      {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      },
       {
         "date": "2026-08-11",
         "company": "LinkedIn",
@@ -331,6 +365,26 @@
       },
       {
         "date": "2026-08-05",
+        "company": "LegalZoom",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.13,
+        "industry": "Legal",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Proof of Play",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
+      },
+      {
+        "date": "2026-08-05",
         "company": "Etsy",
         "num_laid_off": 220,
         "percentage_laid_off": 0.12,
@@ -348,16 +402,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "LegalZoom",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.13,
-        "industry": "Legal",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
       },
       {
         "date": "2026-08-04",
@@ -422,6 +466,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      },
+      {
         "date": "2026-08-10",
         "company": "Validient",
         "num_laid_off": null,
@@ -440,6 +494,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Proof of Play",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
       },
       {
         "date": "2026-08-04",
@@ -464,10 +528,10 @@
     ]
   },
   "insights": [
-    "2026-08 includes 16 public layoff events and 1,608 reported layoffs.",
+    "2026-08 includes 19 public layoff events and 1,633 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
-    "4 events report a layoff percentage of 25% or higher."
+    "6 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

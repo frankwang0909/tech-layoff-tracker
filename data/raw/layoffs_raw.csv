@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Bitwise,SF Bay Area,25.0,2026-08-12,0.14,Crypto,https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522,Unknown,154.0,United States,2026-08-13T23:53:01.000Z
+Convictional,"Waterloo, Non-U.S.",,2026-08-12,1.0,Other,https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/,Series B,49.0,Canada,2026-08-13T19:30:22.000Z
 LinkedIn,"Tel Aviv, Non-U.S.",50.0,2026-08-11,,Recruiting,https://www.calcalistech.com/ctechnews/article/rjrwxydizg,Acquired,154.0,Israel,2026-08-12T00:08:12.000Z
 Rapid7,Boston,313.0,2026-08-10,0.12,Security,https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html,Post-IPO,89.0,United States,2026-08-11T03:42:34.000Z
 Validient,"Sydney, Non-U.S.",,2026-08-10,1.0,Other,https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE,Unknown,,Australia,2026-08-11T03:46:10.000Z
@@ -9,6 +11,7 @@ TikTok,Nashville,250.0,2026-08-06,,Consumer,https://www.nytimes.com/2026/08/05/t
 Etsy,New York City,220.0,2026-08-05,0.12,Retail,https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html,Post-IPO,97.0,United States,2026-08-05T22:22:25.000Z
 Google,SF Bay Area,52.0,2026-08-05,,Consumer,https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/,Post-IPO,26.0,United States,2026-08-06T17:15:41.000Z
 LegalZoom,Austin,,2026-08-05,0.13,Legal,https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html,Post-IPO,952.0,United States,2026-08-07T16:16:36.000Z
+Proof of Play,New York City,,2026-08-05,1.0,Consumer,https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/,Seed,33.0,United States,2026-08-13T23:56:32.000Z
 Zillow,Seattle,500.0,2026-08-04,0.07,Real Estate,https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/,Post-IPO,97.0,United States,2026-08-04T22:20:20.000Z
 80 Acres Farms,Cincinnati,,2026-08-04,1.0,Food,https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations,Unknown,275.0,United States,2026-08-04T23:18:47.000Z
 jalebi.io,"Dubai, Non-U.S.",,2026-08-04,1.0,Food,https://jawlah.co/en/61711,Seed,,UAE,2026-08-04T23:18:02.000Z

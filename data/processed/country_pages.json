@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-10"
+      "end": "2026-08-12"
     },
     "kpis": {
-      "total_laid_off": 205936,
-      "event_count": 369,
-      "headcount_event_count": 244,
-      "company_count": 279,
+      "total_laid_off": 205961,
+      "event_count": 371,
+      "headcount_event_count": 245,
+      "company_count": 281,
       "country_count": 1,
       "industry_count": 30,
-      "high_intensity_event_count": 56
+      "high_intensity_event_count": 57
     },
     "charts": {
       "monthly_trend": [
@@ -98,7 +98,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 1558
+          "total_laid_off": 1583
         }
       ],
       "company_top": [
@@ -147,6 +147,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-08-12",
+          "company": "Bitwise",
+          "num_laid_off": 25,
+          "percentage_laid_off": 0.14,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+        },
+        {
           "date": "2026-08-10",
           "company": "Rapid7",
           "num_laid_off": 313,
@@ -168,16 +178,6 @@
         },
         {
           "date": "2026-08-07",
-          "company": "Salesforce",
-          "num_laid_off": 133,
-          "percentage_laid_off": null,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-        },
-        {
-          "date": "2026-08-07",
           "company": "VideoAmp",
           "num_laid_off": 50,
           "percentage_laid_off": 0.2,
@@ -185,6 +185,16 @@
           "country": "United States",
           "stage": "Series F",
           "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+        },
+        {
+          "date": "2026-08-07",
+          "company": "Salesforce",
+          "num_laid_off": 133,
+          "percentage_laid_off": null,
+          "industry": "Sales",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
         },
         {
           "date": "2026-08-06",
@@ -195,16 +205,6 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
-        },
-        {
-          "date": "2026-08-05",
-          "company": "Etsy",
-          "num_laid_off": 220,
-          "percentage_laid_off": 0.12,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
         },
         {
           "date": "2026-08-05",
@@ -225,6 +225,26 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+        },
+        {
+          "date": "2026-08-05",
+          "company": "Proof of Play",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
+        },
+        {
+          "date": "2026-08-05",
+          "company": "Etsy",
+          "num_laid_off": 220,
+          "percentage_laid_off": 0.12,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
         },
         {
           "date": "2026-08-04",
@@ -275,30 +295,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
-        },
-        {
-          "date": "2026-07-31",
-          "company": "Chime",
-          "num_laid_off": 150,
-          "percentage_laid_off": 0.1,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Series G",
-          "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
-        },
-        {
-          "date": "2026-07-31",
-          "company": "ChargePoint",
-          "num_laid_off": 144,
-          "percentage_laid_off": 0.1,
-          "industry": "Manufacturing",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
         }
       ]
     },
-    "summary": "United States has 205,936 reported tech layoffs across 369 public events from 2025-01-02 to 2026-08-10."
+    "summary": "United States has 205,961 reported tech layoffs across 371 public events from 2025-01-02 to 2026-08-12."
   },
   {
     "type": "country",
@@ -1409,16 +1409,16 @@
     "canonical_url": "/countries/canada.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-31"
+      "end": "2026-08-12"
     },
     "kpis": {
       "total_laid_off": 3125,
-      "event_count": 21,
+      "event_count": 22,
       "headcount_event_count": 13,
-      "company_count": 15,
+      "company_count": 16,
       "country_count": 1,
-      "industry_count": 11,
-      "high_intensity_event_count": 5
+      "industry_count": 12,
+      "high_intensity_event_count": 6
     },
     "charts": {
       "monthly_trend": [
@@ -1500,6 +1500,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-12",
+          "company": "Convictional",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "Canada",
+          "stage": "Series B",
+          "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+        },
         {
           "date": "2026-07-31",
           "company": "Lightspeed Commerce",
@@ -1639,20 +1649,10 @@
           "country": "Canada",
           "stage": "Series D",
           "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
-        },
-        {
-          "date": "2025-06-25",
-          "company": "Klue",
-          "num_laid_off": 85,
-          "percentage_laid_off": 0.4,
-          "industry": "Sales",
-          "country": "Canada",
-          "stage": "Series B",
-          "source": "https://betakit.com/klue-lays-off-40-percent-of-staff-as-startup-faces-internal-and-external-ai-pressure/"
         }
       ]
     },
-    "summary": "Canada has 3,125 reported tech layoffs across 21 public events from 2025-02-05 to 2026-07-31."
+    "summary": "Canada has 3,125 reported tech layoffs across 22 public events from 2025-02-05 to 2026-08-12."
   },
   {
     "type": "country",

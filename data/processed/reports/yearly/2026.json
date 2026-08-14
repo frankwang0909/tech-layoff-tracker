@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-11"
+    "end": "2026-08-12"
   },
-  "updated_at": "2026-08-11",
+  "updated_at": "2026-08-12",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 126305,
-    "event_count": 293,
-    "headcount_event_count": 190,
-    "company_count": 268,
+    "total_laid_off": 126330,
+    "event_count": 296,
+    "headcount_event_count": 191,
+    "company_count": 271,
     "country_count": 29,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 664.76,
-    "median_layoffs_per_headcount_event": 138.5,
-    "high_intensity_event_count": 59
+    "average_layoffs_per_headcount_event": 661.41,
+    "median_layoffs_per_headcount_event": 133.0,
+    "high_intensity_event_count": 61
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3699,
-      "total_laid_off_pct_change": 0.0302,
-      "event_count_delta": -40,
-      "event_count_pct_change": -0.1201,
+      "total_laid_off_delta": 3724,
+      "total_laid_off_pct_change": 0.0304,
+      "event_count_delta": -37,
+      "event_count_pct_change": -0.1111,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3699,
-      "total_laid_off_pct_change": 0.0302,
-      "event_count_delta": -40,
-      "event_count_pct_change": -0.1201,
+      "total_laid_off_delta": 3724,
+      "total_laid_off_pct_change": 0.0304,
+      "event_count_delta": -37,
+      "event_count_pct_change": -0.1111,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 103180
+        "total_laid_off": 103205
       },
       {
         "country": "Israel",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5584
+        "total_laid_off": 5609
       },
       {
         "stage": "Acquired",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 53
+        "event_count": 54
       },
       {
         "bucket": "25-49%",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-02-26",
-        "company": "Block",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
-      },
-      {
         "date": "2026-05-13",
         "company": "Cisco",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
       },
       {
         "date": "2026-05-20",
@@ -337,6 +337,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+      },
+      {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      },
       {
         "date": "2026-08-11",
         "company": "LinkedIn",
@@ -379,16 +399,6 @@
       },
       {
         "date": "2026-08-07",
-        "company": "VideoAmp",
-        "num_laid_off": 50,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-      },
-      {
-        "date": "2026-08-07",
         "company": "Salesforce",
         "num_laid_off": 133,
         "percentage_laid_off": null,
@@ -396,6 +406,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
+      {
+        "date": "2026-08-07",
+        "company": "VideoAmp",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
       },
       {
         "date": "2026-08-06",
@@ -436,6 +456,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Proof of Play",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
       },
       {
         "date": "2026-08-04",
@@ -506,39 +536,19 @@
         "country": "United States",
         "stage": "Series G",
         "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
-      },
-      {
-        "date": "2026-07-31",
-        "company": "ChargePoint",
-        "num_laid_off": 144,
-        "percentage_laid_off": 0.1,
-        "industry": "Manufacturing",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
-      },
-      {
-        "date": "2026-07-31",
-        "company": "Lightspeed Commerce",
-        "num_laid_off": 100,
-        "percentage_laid_off": 0.03,
-        "industry": "Retail",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
-      },
-      {
-        "date": "2026-07-31",
-        "company": "Reforged Labs",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Marketing",
-        "country": "Singapore",
-        "stage": "Seed",
-        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      },
       {
         "date": "2026-08-10",
         "company": "Validient",
@@ -558,6 +568,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Proof of Play",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
       },
       {
         "date": "2026-08-04",
@@ -618,34 +638,14 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
-      },
-      {
-        "date": "2026-07-23",
-        "company": "BitMEX",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "Seychelles",
-        "stage": "Seed",
-        "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
-      },
-      {
-        "date": "2026-07-07",
-        "company": "Billion Hearts",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
       }
     ]
   },
   "insights": [
-    "2026 includes 293 public layoff events and 126,305 reported layoffs.",
+    "2026 includes 296 public layoff events and 126,330 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
-    "59 events report a layoff percentage of 25% or higher."
+    "61 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

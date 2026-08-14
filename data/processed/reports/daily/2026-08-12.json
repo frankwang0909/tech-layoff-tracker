@@ -1,0 +1,151 @@
+{
+  "report_type": "daily",
+  "period": "2026-08-12",
+  "status": "final",
+  "date_range": {
+    "start": "2026-08-12",
+    "end": "2026-08-12"
+  },
+  "updated_at": "2026-08-12",
+  "canonical_url": "/reports/daily/2026-08-12.html",
+  "kpis": {
+    "total_laid_off": 25,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 25.0,
+    "median_layoffs_per_headcount_event": 25.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-08-11",
+      "total_laid_off": 50,
+      "event_count": 1,
+      "total_laid_off_delta": -25,
+      "total_laid_off_pct_change": -0.5,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-08-12",
+      "total_laid_off": 383,
+      "event_count": 4,
+      "total_laid_off_delta": -358,
+      "total_laid_off_pct_change": -0.9347,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.5,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Bitwise",
+        "total_laid_off": 25
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Crypto",
+        "total_laid_off": 25
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 25
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Unknown",
+        "total_laid_off": 25
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+      },
+      {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-08-12 includes 2 public layoff events and 25 reported layoffs.",
+    "The largest company contributor is Bitwise with 25 reported layoffs.",
+    "The leading named industry is Crypto with 25 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

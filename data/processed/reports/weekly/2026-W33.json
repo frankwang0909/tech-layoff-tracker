@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-10",
-    "end": "2026-08-11"
+    "end": "2026-08-12"
   },
-  "updated_at": "2026-08-11",
+  "updated_at": "2026-08-12",
   "canonical_url": "/reports/weekly/2026-W33.html",
   "kpis": {
-    "total_laid_off": 363,
-    "event_count": 3,
-    "headcount_event_count": 2,
-    "company_count": 3,
-    "country_count": 3,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 181.5,
-    "median_layoffs_per_headcount_event": 181.5,
-    "high_intensity_event_count": 1
+    "total_laid_off": 388,
+    "event_count": 5,
+    "headcount_event_count": 3,
+    "company_count": 5,
+    "country_count": 4,
+    "industry_count": 4,
+    "average_layoffs_per_headcount_event": 129.33,
+    "median_layoffs_per_headcount_event": 50.0,
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-W32",
       "total_laid_off": 1205,
-      "event_count": 12,
-      "total_laid_off_delta": -842,
-      "total_laid_off_pct_change": -0.6988,
-      "event_count_delta": -9,
-      "event_count_pct_change": -0.75,
+      "event_count": 13,
+      "total_laid_off_delta": -817,
+      "total_laid_off_pct_change": -0.678,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.6154,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W33",
       "total_laid_off": 1227,
       "event_count": 10,
-      "total_laid_off_delta": -864,
-      "total_laid_off_pct_change": -0.7042,
-      "event_count_delta": -7,
-      "event_count_pct_change": -0.7,
+      "total_laid_off_delta": -839,
+      "total_laid_off_pct_change": -0.6838,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.5,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "LinkedIn",
         "total_laid_off": 50
+      },
+      {
+        "company": "Bitwise",
+        "total_laid_off": 25
       }
     ],
     "industry_top": [
@@ -60,12 +64,16 @@
       {
         "industry": "Recruiting",
         "total_laid_off": 50
+      },
+      {
+        "industry": "Crypto",
+        "total_laid_off": 25
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 313
+        "total_laid_off": 338
       },
       {
         "country": "Israel",
@@ -80,6 +88,10 @@
       {
         "stage": "Acquired",
         "total_laid_off": 50
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 25
       }
     ],
     "layoff_pct_distribution": [
@@ -89,7 +101,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -126,9 +138,39 @@
         "country": "Israel",
         "stage": "Acquired",
         "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+      },
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-12",
+        "company": "Bitwise",
+        "num_laid_off": 25,
+        "percentage_laid_off": 0.14,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+      },
+      {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      },
       {
         "date": "2026-08-11",
         "company": "LinkedIn",
@@ -162,6 +204,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-08-12",
+        "company": "Convictional",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Series B",
+        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+      },
+      {
         "date": "2026-08-10",
         "company": "Validient",
         "num_laid_off": null,
@@ -174,10 +226,10 @@
     ]
   },
   "insights": [
-    "2026-W33 includes 3 public layoff events and 363 reported layoffs.",
+    "2026-W33 includes 5 public layoff events and 388 reported layoffs.",
     "The largest company contributor is Rapid7 with 313 reported layoffs.",
     "The leading named industry is Security with 313 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

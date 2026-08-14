@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-12",
+    "company": "Bitwise",
+    "num_laid_off": 25,
+    "percentage_laid_off": 0.14,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+  },
+  {
+    "date": "2026-08-12",
+    "company": "Convictional",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Other",
+    "country": "Canada",
+    "stage": "Series B",
+    "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+  },
+  {
     "date": "2026-08-11",
     "company": "LinkedIn",
     "num_laid_off": 50,
@@ -11,16 +31,6 @@
   },
   {
     "date": "2026-08-10",
-    "company": "Validient",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Other",
-    "country": "Australia",
-    "stage": "Unknown",
-    "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-  },
-  {
-    "date": "2026-08-10",
     "company": "Rapid7",
     "num_laid_off": 313,
     "percentage_laid_off": 0.12,
@@ -28,6 +38,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+  },
+  {
+    "date": "2026-08-10",
+    "company": "Validient",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Other",
+    "country": "Australia",
+    "stage": "Unknown",
+    "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
   },
   {
     "date": "2026-08-08",
@@ -41,16 +61,6 @@
   },
   {
     "date": "2026-08-07",
-    "company": "VideoAmp",
-    "num_laid_off": 50,
-    "percentage_laid_off": 0.2,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-  },
-  {
-    "date": "2026-08-07",
     "company": "Salesforce",
     "num_laid_off": 133,
     "percentage_laid_off": null,
@@ -58,6 +68,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+  },
+  {
+    "date": "2026-08-07",
+    "company": "VideoAmp",
+    "num_laid_off": 50,
+    "percentage_laid_off": 0.2,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
   },
   {
     "date": "2026-08-06",
@@ -71,13 +91,23 @@
   },
   {
     "date": "2026-08-05",
-    "company": "Etsy",
-    "num_laid_off": 220,
-    "percentage_laid_off": 0.12,
-    "industry": "Retail",
+    "company": "LegalZoom",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.13,
+    "industry": "Legal",
     "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+    "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+  },
+  {
+    "date": "2026-08-05",
+    "company": "Proof of Play",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Seed",
+    "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
   },
   {
     "date": "2026-08-05",
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
-  },
-  {
-    "date": "2026-08-05",
-    "company": "LegalZoom",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.13,
-    "industry": "Legal",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
-  },
-  {
-    "date": "2026-08-04",
-    "company": "Zillow",
-    "num_laid_off": 500,
-    "percentage_laid_off": 0.07,
-    "industry": "Real Estate",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-  },
-  {
-    "date": "2026-08-04",
-    "company": "80 Acres Farms",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
   }
 ]

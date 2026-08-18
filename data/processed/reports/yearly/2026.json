@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-12"
+    "end": "2026-08-17"
   },
-  "updated_at": "2026-08-12",
+  "updated_at": "2026-08-17",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 126330,
-    "event_count": 296,
-    "headcount_event_count": 191,
-    "company_count": 271,
+    "total_laid_off": 126488,
+    "event_count": 300,
+    "headcount_event_count": 193,
+    "company_count": 274,
     "country_count": 29,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 661.41,
-    "median_layoffs_per_headcount_event": 133.0,
-    "high_intensity_event_count": 61
+    "average_layoffs_per_headcount_event": 655.38,
+    "median_layoffs_per_headcount_event": 126.0,
+    "high_intensity_event_count": 62
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3724,
-      "total_laid_off_pct_change": 0.0304,
-      "event_count_delta": -37,
-      "event_count_pct_change": -0.1111,
+      "total_laid_off_delta": 3882,
+      "total_laid_off_pct_change": 0.0317,
+      "event_count_delta": -33,
+      "event_count_pct_change": -0.0991,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3724,
-      "total_laid_off_pct_change": 0.0304,
-      "event_count_delta": -37,
-      "event_count_pct_change": -0.1111,
+      "total_laid_off_delta": 3882,
+      "total_laid_off_pct_change": 0.0317,
+      "event_count_delta": -33,
+      "event_count_pct_change": -0.0991,
       "note": null
     }
   },
@@ -111,7 +111,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 3018
+        "total_laid_off": 3078
       },
       {
         "industry": "Transportation",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 103205
+        "total_laid_off": 103265
       },
       {
         "country": "Israel",
@@ -165,13 +165,13 @@
       },
       {
         "country": "Germany",
-        "total_laid_off": 617
+        "total_laid_off": 715
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 107734
+        "total_laid_off": 107832
       },
       {
         "stage": "Unknown",
@@ -199,7 +199,7 @@
       },
       {
         "stage": "Series D",
-        "total_laid_off": 878
+        "total_laid_off": 938
       },
       {
         "stage": "Series C",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 54
+        "event_count": 55
       },
       {
         "bucket": "25-49%",
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-08-17",
+        "company": "Pentera",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.14,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+      },
+      {
+        "date": "2026-08-17",
+        "company": "Relay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+      },
+      {
+        "date": "2026-08-13",
+        "company": "Netflix",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
+      },
+      {
         "date": "2026-08-12",
         "company": "Bitwise",
         "num_laid_off": 25,
@@ -369,16 +399,6 @@
       },
       {
         "date": "2026-08-10",
-        "company": "Validient",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Australia",
-        "stage": "Unknown",
-        "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-      },
-      {
-        "date": "2026-08-10",
         "company": "Rapid7",
         "num_laid_off": 313,
         "percentage_laid_off": 0.12,
@@ -386,6 +406,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "Validient",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "Australia",
+        "stage": "Unknown",
+        "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
       },
       {
         "date": "2026-08-08",
@@ -426,6 +456,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+      },
+      {
+        "date": "2026-08-06",
+        "company": "Infineon",
+        "num_laid_off": 98,
+        "percentage_laid_off": null,
+        "industry": "Manufacturing",
+        "country": "Germany",
+        "stage": "Post-IPO",
+        "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
       },
       {
         "date": "2026-08-05",
@@ -469,23 +509,13 @@
       },
       {
         "date": "2026-08-04",
-        "company": "Zillow",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.07,
-        "industry": "Real Estate",
+        "company": "Nutanix",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "80 Acres Farms",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
       },
       {
         "date": "2026-08-04",
@@ -499,46 +529,26 @@
       },
       {
         "date": "2026-08-04",
-        "company": "Nutanix",
+        "company": "80 Acres Farms",
         "num_laid_off": null,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
-      },
-      {
-        "date": "2026-08-03",
-        "company": "FalconX",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.1,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
-      },
-      {
-        "date": "2026-08-01",
-        "company": "Pump.fun",
-        "num_laid_off": 40,
-        "percentage_laid_off": null,
-        "industry": "Crypto",
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
         "country": "United States",
         "stage": "Unknown",
-        "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
-      },
-      {
-        "date": "2026-07-31",
-        "company": "Chime",
-        "num_laid_off": 150,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series G",
-        "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-17",
+        "company": "Relay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+      },
       {
         "date": "2026-08-12",
         "company": "Convictional",
@@ -628,24 +638,14 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
-      },
-      {
-        "date": "2026-07-21",
-        "company": "Movement Labs",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
       }
     ]
   },
   "insights": [
-    "2026 includes 296 public layoff events and 126,330 reported layoffs.",
+    "2026 includes 300 public layoff events and 126,488 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
-    "61 events report a layoff percentage of 25% or higher."
+    "62 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

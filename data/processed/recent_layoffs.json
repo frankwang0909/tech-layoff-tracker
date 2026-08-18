@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-17",
+    "company": "Pentera",
+    "num_laid_off": 60,
+    "percentage_laid_off": 0.14,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Series D",
+    "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+  },
+  {
+    "date": "2026-08-17",
+    "company": "Relay",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Seed",
+    "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+  },
+  {
+    "date": "2026-08-13",
+    "company": "Netflix",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Media",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
+  },
+  {
     "date": "2026-08-12",
     "company": "Bitwise",
     "num_laid_off": 25,
@@ -61,16 +91,6 @@
   },
   {
     "date": "2026-08-07",
-    "company": "Salesforce",
-    "num_laid_off": 133,
-    "percentage_laid_off": null,
-    "industry": "Sales",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-  },
-  {
-    "date": "2026-08-07",
     "company": "VideoAmp",
     "num_laid_off": 50,
     "percentage_laid_off": 0.2,
@@ -78,6 +98,16 @@
     "country": "United States",
     "stage": "Series F",
     "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+  },
+  {
+    "date": "2026-08-07",
+    "company": "Salesforce",
+    "num_laid_off": 133,
+    "percentage_laid_off": null,
+    "industry": "Sales",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
   },
   {
     "date": "2026-08-06",
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
-  },
-  {
-    "date": "2026-08-05",
-    "company": "LegalZoom",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.13,
-    "industry": "Legal",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
-  },
-  {
-    "date": "2026-08-05",
-    "company": "Proof of Play",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Seed",
-    "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
-  },
-  {
-    "date": "2026-08-05",
-    "company": "Google",
-    "num_laid_off": 52,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
   }
 ]

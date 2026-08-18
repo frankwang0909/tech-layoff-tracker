@@ -1926,12 +1926,12 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-08-10"
+      "end": "2026-08-17"
     },
     "kpis": {
-      "total_laid_off": 4656,
-      "event_count": 35,
-      "headcount_event_count": 27,
+      "total_laid_off": 4716,
+      "event_count": 36,
+      "headcount_event_count": 28,
       "company_count": 30,
       "country_count": 5,
       "industry_count": 1,
@@ -2001,7 +2001,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 313
+          "total_laid_off": 373
         }
       ],
       "company_top": [
@@ -2049,6 +2049,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-17",
+          "company": "Pentera",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.14,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+        },
         {
           "date": "2026-08-10",
           "company": "Rapid7",
@@ -2188,20 +2198,10 @@
           "country": "United States",
           "stage": "Private Equity",
           "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
-        },
-        {
-          "date": "2026-03-31",
-          "company": "SoundThinking",
-          "num_laid_off": 15,
-          "percentage_laid_off": null,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
         }
       ]
     },
-    "summary": "Security has 4,656 reported tech layoffs across 35 public events from 2025-01-07 to 2026-08-10."
+    "summary": "Security has 4,716 reported tech layoffs across 36 public events from 2025-01-07 to 2026-08-17."
   },
   {
     "type": "industry",
@@ -3688,14 +3688,14 @@
     "canonical_url": "/industries/manufacturing.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-31"
+      "end": "2026-08-06"
     },
     "kpis": {
-      "total_laid_off": 2184,
-      "event_count": 10,
-      "headcount_event_count": 8,
-      "company_count": 9,
-      "country_count": 4,
+      "total_laid_off": 2282,
+      "event_count": 11,
+      "headcount_event_count": 9,
+      "company_count": 10,
+      "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 2
     },
@@ -3728,6 +3728,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 144
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 98
         }
       ],
       "company_top": [
@@ -3744,12 +3748,16 @@
           "total_laid_off": 144
         },
         {
+          "company": "Hailo",
+          "total_laid_off": 140
+        },
+        {
           "company": "SRTX",
           "total_laid_off": 140
         },
         {
-          "company": "Hailo",
-          "total_laid_off": 140
+          "company": "Infineon",
+          "total_laid_off": 98
         },
         {
           "company": "Shutterfly",
@@ -3763,6 +3771,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-06",
+          "company": "Infineon",
+          "num_laid_off": 98,
+          "percentage_laid_off": null,
+          "industry": "Manufacturing",
+          "country": "Germany",
+          "stage": "Post-IPO",
+          "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
+        },
         {
           "date": "2026-07-31",
           "company": "ChargePoint",
@@ -3865,7 +3883,7 @@
         }
       ]
     },
-    "summary": "Manufacturing has 2,184 reported tech layoffs across 10 public events from 2025-02-05 to 2026-07-31."
+    "summary": "Manufacturing has 2,282 reported tech layoffs across 11 public events from 2025-02-05 to 2026-08-06."
   },
   {
     "type": "industry",
@@ -4291,13 +4309,13 @@
     "canonical_url": "/industries/media.html",
     "date_range": {
       "start": "2025-01-14",
-      "end": "2026-07-27"
+      "end": "2026-08-13"
     },
     "kpis": {
       "total_laid_off": 1503,
-      "event_count": 15,
+      "event_count": 16,
       "headcount_event_count": 12,
-      "company_count": 14,
+      "company_count": 15,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 4
@@ -4382,6 +4400,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-13",
+          "company": "Netflix",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
+        },
         {
           "date": "2026-07-27",
           "company": "BuzzFeed",
@@ -4521,20 +4549,10 @@
           "country": "India",
           "stage": "Series D",
           "source": "https://yourstory.com/2025/01/pocketfm-75-employees-pushes-toward-profitability"
-        },
-        {
-          "date": "2025-01-14",
-          "company": "TechCrunch",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Media",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.businessinsider.com/techcrunch-cuts-staff-amid-evolving-needs-2025-1"
         }
       ]
     },
-    "summary": "Media has 1,503 reported tech layoffs across 15 public events from 2025-01-14 to 2026-07-27."
+    "summary": "Media has 1,503 reported tech layoffs across 16 public events from 2025-01-14 to 2026-08-13."
   },
   {
     "type": "industry",

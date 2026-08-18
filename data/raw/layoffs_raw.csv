@@ -1,4 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Pentera,Boston,60.0,2026-08-17,0.14,Security,https://www.calcalistech.com/ctechnews/article/cri3dnoqo,Series D,249.0,United States,2026-08-18T00:03:10.000Z
+Relay,SF Bay Area,,2026-08-17,1.0,Other,https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/,Seed,8.0,United States,2026-08-18T00:07:50.000Z
+Netflix,SF Bay Area,,2026-08-13,,Media,https://www.polygon.com/netflix-shutting-down-game-studios/,Post-IPO,121900.0,United States,2026-08-18T00:03:59.000Z
 Bitwise,SF Bay Area,25.0,2026-08-12,0.14,Crypto,https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522,Unknown,154.0,United States,2026-08-13T23:53:01.000Z
 Convictional,"Waterloo, Non-U.S.",,2026-08-12,1.0,Other,https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/,Series B,49.0,Canada,2026-08-13T19:30:22.000Z
 LinkedIn,"Tel Aviv, Non-U.S.",50.0,2026-08-11,,Recruiting,https://www.calcalistech.com/ctechnews/article/rjrwxydizg,Acquired,154.0,Israel,2026-08-12T00:08:12.000Z
@@ -8,6 +11,7 @@ ClimateAI,SF Bay Area,,2026-08-08,1.0,Other,https://agfundernews.com/climate-res
 Salesforce,SF Bay Area,133.0,2026-08-07,,Sales,https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring,Post-IPO,65.0,United States,2026-08-11T03:48:20.000Z
 VideoAmp,Los Angeles,50.0,2026-08-07,0.2,Marketing,https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1,Series F,456.0,United States,2026-08-07T16:17:43.000Z
 TikTok,Nashville,250.0,2026-08-06,,Consumer,https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html,Acquired,,United States,2026-08-06T17:14:42.000Z
+Infineon,"Munich, Non-U.S.",98.0,2026-08-06,,Manufacturing,https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers,Post-IPO,1500.0,Germany,2026-08-18T00:04:47.000Z
 Etsy,New York City,220.0,2026-08-05,0.12,Retail,https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html,Post-IPO,97.0,United States,2026-08-05T22:22:25.000Z
 Google,SF Bay Area,52.0,2026-08-05,,Consumer,https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/,Post-IPO,26.0,United States,2026-08-06T17:15:41.000Z
 LegalZoom,Austin,,2026-08-05,0.13,Legal,https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html,Post-IPO,952.0,United States,2026-08-07T16:16:36.000Z

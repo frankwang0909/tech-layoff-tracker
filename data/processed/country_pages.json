@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-12"
+      "end": "2026-08-17"
     },
     "kpis": {
-      "total_laid_off": 205961,
-      "event_count": 371,
-      "headcount_event_count": 245,
-      "company_count": 281,
+      "total_laid_off": 206021,
+      "event_count": 374,
+      "headcount_event_count": 246,
+      "company_count": 283,
       "country_count": 1,
       "industry_count": 30,
-      "high_intensity_event_count": 57
+      "high_intensity_event_count": 58
     },
     "charts": {
       "monthly_trend": [
@@ -98,7 +98,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 1583
+          "total_laid_off": 1643
         }
       ],
       "company_top": [
@@ -147,6 +147,36 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-08-17",
+          "company": "Pentera",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.14,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+        },
+        {
+          "date": "2026-08-17",
+          "company": "Relay",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+        },
+        {
+          "date": "2026-08-13",
+          "company": "Netflix",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Media",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
+        },
+        {
           "date": "2026-08-12",
           "company": "Bitwise",
           "num_laid_off": 25,
@@ -178,16 +208,6 @@
         },
         {
           "date": "2026-08-07",
-          "company": "VideoAmp",
-          "num_laid_off": 50,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-        },
-        {
-          "date": "2026-08-07",
           "company": "Salesforce",
           "num_laid_off": 133,
           "percentage_laid_off": null,
@@ -195,6 +215,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+        },
+        {
+          "date": "2026-08-07",
+          "company": "VideoAmp",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
         },
         {
           "date": "2026-08-06",
@@ -205,6 +235,16 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+        },
+        {
+          "date": "2026-08-05",
+          "company": "Etsy",
+          "num_laid_off": 220,
+          "percentage_laid_off": 0.12,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
         },
         {
           "date": "2026-08-05",
@@ -237,26 +277,6 @@
           "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
         },
         {
-          "date": "2026-08-05",
-          "company": "Etsy",
-          "num_laid_off": 220,
-          "percentage_laid_off": 0.12,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-        },
-        {
-          "date": "2026-08-04",
-          "company": "80 Acres Farms",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Food",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
-        },
-        {
           "date": "2026-08-04",
           "company": "Nutanix",
           "num_laid_off": null,
@@ -275,30 +295,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-        },
-        {
-          "date": "2026-08-03",
-          "company": "FalconX",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.1,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
-        },
-        {
-          "date": "2026-08-01",
-          "company": "Pump.fun",
-          "num_laid_off": 40,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
         }
       ]
     },
-    "summary": "United States has 205,961 reported tech layoffs across 371 public events from 2025-01-02 to 2026-08-12."
+    "summary": "United States has 206,021 reported tech layoffs across 374 public events from 2025-01-02 to 2026-08-17."
   },
   {
     "type": "country",
@@ -1662,15 +1662,15 @@
     "canonical_url": "/countries/germany.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-06-16"
+      "end": "2026-08-06"
     },
     "kpis": {
-      "total_laid_off": 2252,
-      "event_count": 16,
-      "headcount_event_count": 11,
-      "company_count": 15,
+      "total_laid_off": 2350,
+      "event_count": 17,
+      "headcount_event_count": 12,
+      "company_count": 16,
       "country_count": 1,
-      "industry_count": 10,
+      "industry_count": 11,
       "high_intensity_event_count": 3
     },
     "charts": {
@@ -1702,6 +1702,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 467
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 98
         }
       ],
       "company_top": [
@@ -1734,21 +1738,31 @@
           "total_laid_off": 100
         },
         {
+          "company": "Infineon",
+          "total_laid_off": 98
+        },
+        {
           "company": "HeyJobs",
           "total_laid_off": 90
         },
         {
           "company": "Aleph Alpha",
           "total_laid_off": 50
-        },
-        {
-          "company": "One Identity",
-          "total_laid_off": 41
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-06",
+          "company": "Infineon",
+          "num_laid_off": 98,
+          "percentage_laid_off": null,
+          "industry": "Manufacturing",
+          "country": "Germany",
+          "stage": "Post-IPO",
+          "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
+        },
         {
           "date": "2026-06-16",
           "company": "Matter Labs",
@@ -1888,20 +1902,10 @@
           "country": "Germany",
           "stage": "Series C",
           "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
-        },
-        {
-          "date": "2025-01-15",
-          "company": "HeyJobs",
-          "num_laid_off": 90,
-          "percentage_laid_off": null,
-          "industry": "Recruiting",
-          "country": "Germany",
-          "stage": "Series B",
-          "source": "https://aimgroup.com/2025/01/15/heyjobs-axes-90-workers-shuts-two-locations-anonymous-sources/"
         }
       ]
     },
-    "summary": "Germany has 2,252 reported tech layoffs across 16 public events from 2025-01-10 to 2026-06-16."
+    "summary": "Germany has 2,350 reported tech layoffs across 17 public events from 2025-01-10 to 2026-08-06."
   },
   {
     "type": "country",

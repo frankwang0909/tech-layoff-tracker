@@ -10,9 +10,9 @@
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 126488,
-    "event_count": 300,
+    "event_count": 301,
     "headcount_event_count": 193,
-    "company_count": 274,
+    "company_count": 275,
     "country_count": 29,
     "industry_count": 28,
     "average_layoffs_per_headcount_event": 655.38,
@@ -26,8 +26,8 @@
       "event_count": 333,
       "total_laid_off_delta": 3882,
       "total_laid_off_pct_change": 0.0317,
-      "event_count_delta": -33,
-      "event_count_pct_change": -0.0991,
+      "event_count_delta": -32,
+      "event_count_pct_change": -0.0961,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 333,
       "total_laid_off_delta": 3882,
       "total_laid_off_pct_change": 0.0317,
-      "event_count_delta": -33,
-      "event_count_pct_change": -0.0991,
+      "event_count_delta": -32,
+      "event_count_pct_change": -0.0961,
       "note": null
     }
   },
@@ -359,6 +359,16 @@
       },
       {
         "date": "2026-08-13",
+        "company": "Anaconda",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+      },
+      {
+        "date": "2026-08-13",
         "company": "Netflix",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -509,16 +519,6 @@
       },
       {
         "date": "2026-08-04",
-        "company": "Nutanix",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
-      },
-      {
-        "date": "2026-08-04",
         "company": "jalebi.io",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -529,13 +529,13 @@
       },
       {
         "date": "2026-08-04",
-        "company": "80 Acres Farms",
+        "company": "Nutanix",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
         "country": "United States",
-        "stage": "Unknown",
-        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+        "stage": "Post-IPO",
+        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 300 public layoff events and 126,488 reported layoffs.",
+    "2026 includes 301 public layoff events and 126,488 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
     "62 events report a layoff percentage of 25% or higher."

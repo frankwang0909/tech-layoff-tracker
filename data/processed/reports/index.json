@@ -4297,7 +4297,7 @@
           "path": "reports/daily/2026-08-13.json",
           "canonical_url": "/reports/daily/2026-08-13.html",
           "total_laid_off": 0,
-          "event_count": 1
+          "event_count": 2
         },
         {
           "report_type": "daily",
@@ -5395,7 +5395,7 @@
           "path": "reports/weekly/2026-W33.json",
           "canonical_url": "/reports/weekly/2026-W33.html",
           "total_laid_off": 388,
-          "event_count": 6
+          "event_count": 7
         },
         {
           "report_type": "weekly",
@@ -5674,7 +5674,7 @@
           "path": "reports/monthly/2026-08.json",
           "canonical_url": "/reports/monthly/2026-08.html",
           "total_laid_off": 1791,
-          "event_count": 23
+          "event_count": 24
         }
       ]
     },
@@ -5771,7 +5771,7 @@
           "path": "reports/quarterly/2026-Q3.json",
           "canonical_url": "/reports/quarterly/2026-Q3.html",
           "total_laid_off": 12791,
-          "event_count": 69
+          "event_count": 70
         }
       ]
     },
@@ -5803,7 +5803,7 @@
           "path": "reports/yearly/2026.json",
           "canonical_url": "/reports/yearly/2026.html",
           "total_laid_off": 126488,
-          "event_count": 300
+          "event_count": 301
         }
       ]
     }

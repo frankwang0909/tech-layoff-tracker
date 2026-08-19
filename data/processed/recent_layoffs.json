@@ -21,6 +21,16 @@
   },
   {
     "date": "2026-08-13",
+    "company": "Anaconda",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.14,
+    "industry": "Data",
+    "country": "United States",
+    "stage": "Series C",
+    "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+  },
+  {
+    "date": "2026-08-13",
     "company": "Netflix",
     "num_laid_off": null,
     "percentage_laid_off": null,
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-  },
-  {
-    "date": "2026-08-06",
-    "company": "TikTok",
-    "num_laid_off": 250,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
   }
 ]

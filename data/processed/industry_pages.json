@@ -2294,13 +2294,13 @@
     "canonical_url": "/industries/data.html",
     "date_range": {
       "start": "2025-01-29",
-      "end": "2026-07-13"
+      "end": "2026-08-13"
     },
     "kpis": {
       "total_laid_off": 4034,
-      "event_count": 21,
+      "event_count": 22,
       "headcount_event_count": 15,
-      "company_count": 18,
+      "company_count": 19,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -2401,6 +2401,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-13",
+          "company": "Anaconda",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.14,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+        },
         {
           "date": "2026-07-13",
           "company": "Redis",
@@ -2540,20 +2550,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
-        },
-        {
-          "date": "2025-05-06",
-          "company": "OpenText",
-          "num_laid_off": 1600,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/opentext-makes-ai-number-one-priority-as-company-slashes-1600-jobs/"
         }
       ]
     },
-    "summary": "Data has 4,034 reported tech layoffs across 21 public events from 2025-01-29 to 2026-07-13."
+    "summary": "Data has 4,034 reported tech layoffs across 22 public events from 2025-01-29 to 2026-08-13."
   },
   {
     "type": "industry",

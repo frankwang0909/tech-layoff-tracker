@@ -11,9 +11,9 @@
     },
     "kpis": {
       "total_laid_off": 206021,
-      "event_count": 374,
+      "event_count": 375,
       "headcount_event_count": 246,
-      "company_count": 283,
+      "company_count": 284,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 58
@@ -168,6 +168,16 @@
         },
         {
           "date": "2026-08-13",
+          "company": "Anaconda",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.14,
+          "industry": "Data",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+        },
+        {
+          "date": "2026-08-13",
           "company": "Netflix",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -238,23 +248,13 @@
         },
         {
           "date": "2026-08-05",
-          "company": "Etsy",
-          "num_laid_off": 220,
-          "percentage_laid_off": 0.12,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-        },
-        {
-          "date": "2026-08-05",
-          "company": "Google",
-          "num_laid_off": 52,
-          "percentage_laid_off": null,
+          "company": "Proof of Play",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
           "industry": "Consumer",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+          "stage": "Seed",
+          "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
         },
         {
           "date": "2026-08-05",
@@ -268,23 +268,23 @@
         },
         {
           "date": "2026-08-05",
-          "company": "Proof of Play",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
+          "company": "Google",
+          "num_laid_off": 52,
+          "percentage_laid_off": null,
           "industry": "Consumer",
           "country": "United States",
-          "stage": "Seed",
-          "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
         },
         {
-          "date": "2026-08-04",
-          "company": "Nutanix",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.05,
-          "industry": "Infrastructure",
+          "date": "2026-08-05",
+          "company": "Etsy",
+          "num_laid_off": 220,
+          "percentage_laid_off": 0.12,
+          "industry": "Retail",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
+          "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
         },
         {
           "date": "2026-08-04",
@@ -298,7 +298,7 @@
         }
       ]
     },
-    "summary": "United States has 206,021 reported tech layoffs across 374 public events from 2025-01-02 to 2026-08-17."
+    "summary": "United States has 206,021 reported tech layoffs across 375 public events from 2025-01-02 to 2026-08-17."
   },
   {
     "type": "country",

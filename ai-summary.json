@@ -152,7 +152,7 @@
         "name": "Data",
         "canonical_url": "https://tech.debugcanada.com/industries/data.html",
         "total_laid_off": 4034,
-        "event_count": 21
+        "event_count": 22
       }
     ],
     "countries": [
@@ -160,7 +160,7 @@
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
         "total_laid_off": 206021,
-        "event_count": 374
+        "event_count": 375
       },
       {
         "name": "India",

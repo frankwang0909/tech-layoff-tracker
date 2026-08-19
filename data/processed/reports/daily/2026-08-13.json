@@ -10,11 +10,11 @@
   "canonical_url": "/reports/daily/2026-08-13.html",
   "kpis": {
     "total_laid_off": 0,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 0,
-    "company_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 2,
       "total_laid_off_delta": -25,
       "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 4,
       "total_laid_off_delta": -744,
       "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.75,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.5,
       "note": null
     }
   },
@@ -74,6 +74,16 @@
     "recent_events": [
       {
         "date": "2026-08-13",
+        "company": "Anaconda",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+      },
+      {
+        "date": "2026-08-13",
         "company": "Netflix",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -86,7 +96,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-08-13 includes 1 public layoff events and 0 reported layoffs."
+    "2026-08-13 includes 2 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

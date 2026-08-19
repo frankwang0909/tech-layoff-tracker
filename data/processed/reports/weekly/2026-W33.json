@@ -10,11 +10,11 @@
   "canonical_url": "/reports/weekly/2026-W33.html",
   "kpis": {
     "total_laid_off": 388,
-    "event_count": 6,
+    "event_count": 7,
     "headcount_event_count": 3,
-    "company_count": 6,
+    "company_count": 7,
     "country_count": 4,
-    "industry_count": 5,
+    "industry_count": 6,
     "average_layoffs_per_headcount_event": 129.33,
     "median_layoffs_per_headcount_event": 50.0,
     "high_intensity_event_count": 2
@@ -26,8 +26,8 @@
       "event_count": 14,
       "total_laid_off_delta": -915,
       "total_laid_off_pct_change": -0.7022,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.5714,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 10,
       "total_laid_off_delta": -839,
       "total_laid_off_pct_change": -0.6838,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.4,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.3,
       "note": null
     }
   },
@@ -153,6 +153,16 @@
     "recent_events": [
       {
         "date": "2026-08-13",
+        "company": "Anaconda",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+      },
+      {
+        "date": "2026-08-13",
         "company": "Netflix",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -236,7 +246,7 @@
     ]
   },
   "insights": [
-    "2026-W33 includes 6 public layoff events and 388 reported layoffs.",
+    "2026-W33 includes 7 public layoff events and 388 reported layoffs.",
     "The largest company contributor is Rapid7 with 313 reported layoffs.",
     "The leading named industry is Security with 313 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

@@ -10,9 +10,9 @@
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
     "total_laid_off": 12791,
-    "event_count": 69,
+    "event_count": 70,
     "headcount_event_count": 40,
-    "company_count": 64,
+    "company_count": 65,
     "country_count": 16,
     "industry_count": 24,
     "average_layoffs_per_headcount_event": 319.77,
@@ -26,8 +26,8 @@
       "event_count": 136,
       "total_laid_off_delta": -47756,
       "total_laid_off_pct_change": -0.7887,
-      "event_count_delta": -67,
-      "event_count_pct_change": -0.4926,
+      "event_count_delta": -66,
+      "event_count_pct_change": -0.4853,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 86,
       "total_laid_off_delta": -14763,
       "total_laid_off_pct_change": -0.5358,
-      "event_count_delta": -17,
-      "event_count_pct_change": -0.1977,
+      "event_count_delta": -16,
+      "event_count_pct_change": -0.186,
       "note": null
     }
   },
@@ -355,6 +355,16 @@
       },
       {
         "date": "2026-08-13",
+        "company": "Anaconda",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.14,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+      },
+      {
+        "date": "2026-08-13",
         "company": "Netflix",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -425,16 +435,6 @@
       },
       {
         "date": "2026-08-07",
-        "company": "VideoAmp",
-        "num_laid_off": 50,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-      },
-      {
-        "date": "2026-08-07",
         "company": "Salesforce",
         "num_laid_off": 133,
         "percentage_laid_off": null,
@@ -442,6 +442,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
+      {
+        "date": "2026-08-07",
+        "company": "VideoAmp",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
       },
       {
         "date": "2026-08-06",
@@ -465,26 +475,6 @@
       },
       {
         "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Google",
-        "num_laid_off": 52,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
-      },
-      {
-        "date": "2026-08-05",
         "company": "LegalZoom",
         "num_laid_off": null,
         "percentage_laid_off": 0.13,
@@ -504,24 +494,24 @@
         "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
       },
       {
-        "date": "2026-08-04",
-        "company": "jalebi.io",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "UAE",
-        "stage": "Seed",
-        "source": "https://jawlah.co/en/61711"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "Nutanix",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
+        "date": "2026-08-05",
+        "company": "Google",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
+        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+      },
+      {
+        "date": "2026-08-05",
+        "company": "Etsy",
+        "num_laid_off": 220,
+        "percentage_laid_off": 0.12,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
       },
       {
         "date": "2026-08-04",
@@ -532,6 +522,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+      },
+      {
+        "date": "2026-08-04",
+        "company": "80 Acres Farms",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
       }
     ],
     "high_intensity_events": [
@@ -638,7 +638,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 69 public layoff events and 12,791 reported layoffs.",
+    "2026-Q3 includes 70 public layoff events and 12,791 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

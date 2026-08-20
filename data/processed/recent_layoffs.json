@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-19",
+    "company": "Motive",
+    "num_laid_off": 251,
+    "percentage_laid_off": 0.05,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "Internal memo"
+  },
+  {
+    "date": "2026-08-19",
+    "company": "Qualtrics",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
+  },
+  {
+    "date": "2026-08-19",
+    "company": "Tiktok",
+    "num_laid_off": 75,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+  },
+  {
     "date": "2026-08-17",
     "company": "Pentera",
     "num_laid_off": 60,
@@ -88,35 +118,5 @@
     "country": "Australia",
     "stage": "Unknown",
     "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-  },
-  {
-    "date": "2026-08-08",
-    "company": "ClimateAI",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Series B",
-    "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
-  },
-  {
-    "date": "2026-08-07",
-    "company": "VideoAmp",
-    "num_laid_off": 50,
-    "percentage_laid_off": 0.2,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-  },
-  {
-    "date": "2026-08-07",
-    "company": "Salesforce",
-    "num_laid_off": 133,
-    "percentage_laid_off": null,
-    "industry": "Sales",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
   }
 ]

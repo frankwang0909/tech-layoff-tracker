@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-17"
+    "end": "2026-08-19"
   },
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-08-19",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 126488,
-    "event_count": 301,
-    "headcount_event_count": 193,
-    "company_count": 275,
+    "total_laid_off": 126814,
+    "event_count": 304,
+    "headcount_event_count": 195,
+    "company_count": 278,
     "country_count": 29,
     "industry_count": 28,
-    "average_layoffs_per_headcount_event": 655.38,
+    "average_layoffs_per_headcount_event": 650.33,
     "median_layoffs_per_headcount_event": 126.0,
     "high_intensity_event_count": 62
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3882,
-      "total_laid_off_pct_change": 0.0317,
-      "event_count_delta": -32,
-      "event_count_pct_change": -0.0961,
+      "total_laid_off_delta": 4208,
+      "total_laid_off_pct_change": 0.0343,
+      "event_count_delta": -29,
+      "event_count_pct_change": -0.0871,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 3882,
-      "total_laid_off_pct_change": 0.0317,
-      "event_count_delta": -32,
-      "event_count_pct_change": -0.0961,
+      "total_laid_off_delta": 4208,
+      "total_laid_off_pct_change": 0.0343,
+      "event_count_delta": -29,
+      "event_count_pct_change": -0.0871,
       "note": null
     }
   },
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 17389
+        "total_laid_off": 17464
       },
       {
         "industry": "Finance",
@@ -115,7 +115,7 @@
       },
       {
         "industry": "Transportation",
-        "total_laid_off": 2151
+        "total_laid_off": 2402
       },
       {
         "industry": "Logistics",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 103265
+        "total_laid_off": 103591
       },
       {
         "country": "Israel",
@@ -179,15 +179,15 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 4001
+        "total_laid_off": 4076
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 2004
       },
       {
         "stage": "Series B",
         "total_laid_off": 1953
-      },
-      {
-        "stage": "Series F",
-        "total_laid_off": 1753
       },
       {
         "stage": "Private Equity",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 29
+        "event_count": 30
       },
       {
         "bucket": "10-24%",
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
         "date": "2026-08-17",
         "company": "Pentera",
         "num_laid_off": 60,
@@ -439,16 +469,6 @@
       },
       {
         "date": "2026-08-07",
-        "company": "Salesforce",
-        "num_laid_off": 133,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-      },
-      {
-        "date": "2026-08-07",
         "company": "VideoAmp",
         "num_laid_off": 50,
         "percentage_laid_off": 0.2,
@@ -456,6 +476,16 @@
         "country": "United States",
         "stage": "Series F",
         "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+      },
+      {
+        "date": "2026-08-07",
+        "company": "Salesforce",
+        "num_laid_off": 133,
+        "percentage_laid_off": null,
+        "industry": "Sales",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
       },
       {
         "date": "2026-08-06",
@@ -506,36 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Proof of Play",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "jalebi.io",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "UAE",
-        "stage": "Seed",
-        "source": "https://jawlah.co/en/61711"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "Nutanix",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 301 public layoff events and 126,488 reported layoffs.",
+    "2026 includes 304 public layoff events and 126,814 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
     "62 events report a layoff percentage of 25% or higher."

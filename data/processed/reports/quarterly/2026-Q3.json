@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-08-17"
+    "end": "2026-08-19"
   },
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-08-19",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 12791,
-    "event_count": 70,
-    "headcount_event_count": 40,
-    "company_count": 65,
+    "total_laid_off": 13117,
+    "event_count": 73,
+    "headcount_event_count": 42,
+    "company_count": 68,
     "country_count": 16,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 319.77,
+    "average_layoffs_per_headcount_event": 312.31,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 18
   },
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -47756,
-      "total_laid_off_pct_change": -0.7887,
-      "event_count_delta": -66,
-      "event_count_pct_change": -0.4853,
+      "total_laid_off_delta": -47430,
+      "total_laid_off_pct_change": -0.7834,
+      "event_count_delta": -63,
+      "event_count_pct_change": -0.4632,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -14763,
-      "total_laid_off_pct_change": -0.5358,
-      "event_count_delta": -16,
-      "event_count_pct_change": -0.186,
+      "total_laid_off_delta": -14437,
+      "total_laid_off_pct_change": -0.524,
+      "event_count_delta": -13,
+      "event_count_pct_change": -0.1512,
       "note": null
     }
   },
@@ -94,12 +94,12 @@
         "total_laid_off": 1520
       },
       {
-        "industry": "Hardware",
-        "total_laid_off": 939
+        "industry": "Consumer",
+        "total_laid_off": 975
       },
       {
-        "industry": "Consumer",
-        "total_laid_off": 900
+        "industry": "Hardware",
+        "total_laid_off": 939
       },
       {
         "industry": "Healthcare",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 9725
+        "total_laid_off": 10051
       },
       {
         "country": "India",
@@ -175,11 +175,15 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 675
+        "total_laid_off": 750
       },
       {
         "stage": "Unknown",
         "total_laid_off": 427
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 394
       },
       {
         "stage": "Series G",
@@ -194,10 +198,6 @@
         "total_laid_off": 193
       },
       {
-        "stage": "Series F",
-        "total_laid_off": 143
-      },
-      {
         "stage": "Series C",
         "total_laid_off": 100
       },
@@ -209,7 +209,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 6
+        "event_count": 7
       },
       {
         "bucket": "10-24%",
@@ -333,6 +333,36 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
+      },
       {
         "date": "2026-08-17",
         "company": "Pentera",
@@ -495,16 +525,6 @@
       },
       {
         "date": "2026-08-05",
-        "company": "Google",
-        "num_laid_off": 52,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
-      },
-      {
-        "date": "2026-08-05",
         "company": "Etsy",
         "num_laid_off": 220,
         "percentage_laid_off": 0.12,
@@ -512,26 +532,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "Zillow",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.07,
-        "industry": "Real Estate",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "80 Acres Farms",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
       }
     ],
     "high_intensity_events": [
@@ -638,7 +638,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 70 public layoff events and 12,791 reported layoffs.",
+    "2026-Q3 includes 73 public layoff events and 13,117 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
     "18 events report a layoff percentage of 25% or higher."

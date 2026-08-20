@@ -1,4 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Motive,SF Bay Area,251.0,2026-08-19,0.05,Transportation,Internal memo,Series F,567.0,United States,2026-08-20T01:12:18.000Z
+Tiktok,Los Angeles,75.0,2026-08-19,,Consumer,https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/,Acquired,,United States,2026-08-20T01:09:59.000Z
+Qualtrics,Salt Lake City,,2026-08-19,,Other,https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/,Acquired,400.0,United States,2026-08-20T01:13:30.000Z
 Pentera,Boston,60.0,2026-08-17,0.14,Security,https://www.calcalistech.com/ctechnews/article/cri3dnoqo,Series D,249.0,United States,2026-08-18T00:03:10.000Z
 Relay,SF Bay Area,,2026-08-17,1.0,Other,https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/,Seed,8.0,United States,2026-08-18T00:07:50.000Z
 Anaconda,Austin,,2026-08-13,0.14,Data,https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners,Series C,233.0,United States,2026-08-18T22:31:15.000Z

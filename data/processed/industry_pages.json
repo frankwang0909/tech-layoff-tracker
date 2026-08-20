@@ -561,13 +561,13 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-08-06"
+      "end": "2026-08-19"
     },
     "kpis": {
-      "total_laid_off": 27153,
-      "event_count": 85,
-      "headcount_event_count": 57,
-      "company_count": 56,
+      "total_laid_off": 27228,
+      "event_count": 86,
+      "headcount_event_count": 58,
+      "company_count": 57,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 11
@@ -648,7 +648,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 302
+          "total_laid_off": 377
         }
       ],
       "company_top": [
@@ -661,15 +661,15 @@
           "total_laid_off": 1290
         },
         {
-          "company": "Epic Games",
-          "total_laid_off": 1000
-        },
-        {
           "company": "Snap",
           "total_laid_off": 1000
         },
         {
           "company": "Livspace",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Epic Games",
           "total_laid_off": 1000
         },
         {
@@ -696,6 +696,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-19",
+          "company": "Tiktok",
+          "num_laid_off": 75,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+        },
         {
           "date": "2026-08-06",
           "company": "TikTok",
@@ -835,20 +845,10 @@
           "country": "Israel",
           "stage": "Series D",
           "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
-        },
-        {
-          "date": "2026-05-20",
-          "company": "Meta",
-          "num_laid_off": 8000,
-          "percentage_laid_off": 0.1,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
         }
       ]
     },
-    "summary": "Consumer has 27,153 reported tech layoffs across 85 public events from 2025-01-27 to 2026-08-06."
+    "summary": "Consumer has 27,228 reported tech layoffs across 86 public events from 2025-01-27 to 2026-08-19."
   },
   {
     "type": "industry",
@@ -1408,13 +1408,13 @@
     "canonical_url": "/industries/transportation.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-07-22"
+      "end": "2026-08-19"
     },
     "kpis": {
-      "total_laid_off": 5984,
-      "event_count": 30,
-      "headcount_event_count": 18,
-      "company_count": 24,
+      "total_laid_off": 6235,
+      "event_count": 31,
+      "headcount_event_count": 19,
+      "company_count": 25,
       "country_count": 6,
       "industry_count": 1,
       "high_intensity_event_count": 9
@@ -1472,6 +1472,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 1600
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 251
         }
       ],
       "company_top": [
@@ -1480,11 +1484,11 @@
           "total_laid_off": 1500
         },
         {
-          "company": "Ola Electric",
+          "company": "Cruise",
           "total_laid_off": 1000
         },
         {
-          "company": "Cruise",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
@@ -1500,6 +1504,10 @@
           "total_laid_off": 296
         },
         {
+          "company": "Motive",
+          "total_laid_off": 251
+        },
+        {
           "company": "Mobileye",
           "total_laid_off": 200
         },
@@ -1510,15 +1518,21 @@
         {
           "company": "LeddarTech",
           "total_laid_off": 138
-        },
-        {
-          "company": "Zipcar",
-          "total_laid_off": 126
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-19",
+          "company": "Motive",
+          "num_laid_off": 251,
+          "percentage_laid_off": 0.05,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "Internal memo"
+        },
         {
           "date": "2026-07-22",
           "company": "Uber",
@@ -1658,20 +1672,10 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://www.bizjournals.com/austin/news/2025/11/13/layoffs-hit-at-austin-ai-startup.html"
-        },
-        {
-          "date": "2025-10-23",
-          "company": "Rivian",
-          "num_laid_off": 600,
-          "percentage_laid_off": 0.04,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/autos-transportation/rivian-lay-off-more-than-600-workers-amid-ev-pullback-wsj-reports-2025-10-23/"
         }
       ]
     },
-    "summary": "Transportation has 5,984 reported tech layoffs across 30 public events from 2025-01-27 to 2026-07-22."
+    "summary": "Transportation has 6,235 reported tech layoffs across 31 public events from 2025-01-27 to 2026-08-19."
   },
   {
     "type": "industry",

@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-01",
-    "end": "2026-08-17"
+    "end": "2026-08-19"
   },
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-08-19",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 1791,
-    "event_count": 24,
-    "headcount_event_count": 12,
-    "company_count": 24,
+    "total_laid_off": 2117,
+    "event_count": 27,
+    "headcount_event_count": 14,
+    "company_count": 27,
     "country_count": 6,
-    "industry_count": 15,
-    "average_layoffs_per_headcount_event": 149.25,
-    "median_layoffs_per_headcount_event": 79.0,
+    "industry_count": 16,
+    "average_layoffs_per_headcount_event": 151.21,
+    "median_layoffs_per_headcount_event": 86.5,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -9209,
-      "total_laid_off_pct_change": -0.8372,
-      "event_count_delta": -22,
-      "event_count_pct_change": -0.4783,
+      "total_laid_off_delta": -8883,
+      "total_laid_off_pct_change": -0.8075,
+      "event_count_delta": -19,
+      "event_count_pct_change": -0.413,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -4661,
-      "total_laid_off_pct_change": -0.7224,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.0769,
+      "total_laid_off_delta": -4335,
+      "total_laid_off_pct_change": -0.6719,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.0385,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Rapid7",
         "total_laid_off": 313
+      },
+      {
+        "company": "Motive",
+        "total_laid_off": 251
       },
       {
         "company": "TikTok",
@@ -68,20 +72,16 @@
         "total_laid_off": 98
       },
       {
+        "company": "Tiktok",
+        "total_laid_off": 75
+      },
+      {
         "company": "Pentera",
         "total_laid_off": 60
       },
       {
         "company": "Google",
         "total_laid_off": 52
-      },
-      {
-        "company": "VideoAmp",
-        "total_laid_off": 50
-      },
-      {
-        "company": "LinkedIn",
-        "total_laid_off": 50
       }
     ],
     "industry_top": [
@@ -90,12 +90,16 @@
         "total_laid_off": 500
       },
       {
+        "industry": "Consumer",
+        "total_laid_off": 377
+      },
+      {
         "industry": "Security",
         "total_laid_off": 373
       },
       {
-        "industry": "Consumer",
-        "total_laid_off": 302
+        "industry": "Transportation",
+        "total_laid_off": 251
       },
       {
         "industry": "Retail",
@@ -114,18 +118,18 @@
         "total_laid_off": 65
       },
       {
-        "industry": "Marketing",
+        "industry": "Recruiting",
         "total_laid_off": 50
       },
       {
-        "industry": "Recruiting",
+        "industry": "Marketing",
         "total_laid_off": 50
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1643
+        "total_laid_off": 1969
       },
       {
         "country": "Germany",
@@ -143,7 +147,11 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 300
+        "total_laid_off": 375
+      },
+      {
+        "stage": "Series F",
+        "total_laid_off": 301
       },
       {
         "stage": "Unknown",
@@ -152,16 +160,12 @@
       {
         "stage": "Series D",
         "total_laid_off": 60
-      },
-      {
-        "stage": "Series F",
-        "total_laid_off": 50
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -204,6 +208,16 @@
         "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
       },
       {
+        "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "Internal memo"
+      },
+      {
         "date": "2026-08-06",
         "company": "TikTok",
         "num_laid_off": 250,
@@ -244,6 +258,16 @@
         "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
       },
       {
+        "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
         "date": "2026-08-17",
         "company": "Pentera",
         "num_laid_off": 60,
@@ -262,29 +286,39 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
-      },
-      {
-        "date": "2026-08-07",
-        "company": "VideoAmp",
-        "num_laid_off": 50,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-      },
-      {
-        "date": "2026-08-11",
-        "company": "LinkedIn",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Recruiting",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
       {
         "date": "2026-08-17",
         "company": "Pentera",
@@ -387,16 +421,6 @@
       },
       {
         "date": "2026-08-07",
-        "company": "Salesforce",
-        "num_laid_off": 133,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-      },
-      {
-        "date": "2026-08-07",
         "company": "VideoAmp",
         "num_laid_off": 50,
         "percentage_laid_off": 0.2,
@@ -406,14 +430,14 @@
         "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
       },
       {
-        "date": "2026-08-06",
-        "company": "Infineon",
-        "num_laid_off": 98,
+        "date": "2026-08-07",
+        "company": "Salesforce",
+        "num_laid_off": 133,
         "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "Germany",
+        "industry": "Sales",
+        "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
+        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
       },
       {
         "date": "2026-08-06",
@@ -424,6 +448,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+      },
+      {
+        "date": "2026-08-06",
+        "company": "Infineon",
+        "num_laid_off": 98,
+        "percentage_laid_off": null,
+        "industry": "Manufacturing",
+        "country": "Germany",
+        "stage": "Post-IPO",
+        "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
       },
       {
         "date": "2026-08-05",
@@ -454,36 +488,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Proof of Play",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "Zillow",
-        "num_laid_off": 500,
-        "percentage_laid_off": 0.07,
-        "industry": "Real Estate",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "80 Acres Farms",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
       }
     ],
     "high_intensity_events": [
@@ -560,7 +564,7 @@
     ]
   },
   "insights": [
-    "2026-08 includes 24 public layoff events and 1,791 reported layoffs.",
+    "2026-08 includes 27 public layoff events and 2,117 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

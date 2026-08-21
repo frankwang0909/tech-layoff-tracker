@@ -10,14 +10,14 @@
   "canonical_url": "/reports/weekly/2026-W34.html",
   "kpis": {
     "total_laid_off": 386,
-    "event_count": 5,
+    "event_count": 6,
     "headcount_event_count": 3,
-    "company_count": 5,
+    "company_count": 6,
     "country_count": 1,
-    "industry_count": 4,
+    "industry_count": 5,
     "average_layoffs_per_headcount_event": 128.67,
     "median_layoffs_per_headcount_event": 75.0,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 7,
       "total_laid_off_delta": -2,
       "total_laid_off_pct_change": -0.0052,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.2857,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1429,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 4,
       "total_laid_off_delta": -86,
       "total_laid_off_pct_change": -0.1822,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.25,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.5,
       "note": null
     }
   },
@@ -169,6 +169,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Qualtrics",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -200,6 +210,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
+      {
         "date": "2026-08-17",
         "company": "Relay",
         "num_laid_off": null,
@@ -212,10 +232,10 @@
     ]
   },
   "insights": [
-    "2026-W34 includes 5 public layoff events and 386 reported layoffs.",
+    "2026-W34 includes 6 public layoff events and 386 reported layoffs.",
     "The largest company contributor is Motive with 251 reported layoffs.",
     "The leading named industry is Transportation with 251 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -10,14 +10,14 @@
   "canonical_url": "/reports/daily/2026-08-19.html",
   "kpis": {
     "total_laid_off": 326,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 2,
-    "company_count": 3,
+    "company_count": 4,
     "country_count": 1,
-    "industry_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 163.0,
     "median_layoffs_per_headcount_event": 163.0,
-    "high_intensity_event_count": 0
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
@@ -36,8 +36,8 @@
       "event_count": 2,
       "total_laid_off_delta": 4,
       "total_laid_off_pct_change": 0.0124,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.5,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -147,6 +147,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Qualtrics",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -156,12 +166,24 @@
         "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      }
+    ]
   },
   "insights": [
-    "2026-08-19 includes 3 public layoff events and 326 reported layoffs.",
+    "2026-08-19 includes 4 public layoff events and 326 reported layoffs.",
     "The largest company contributor is Motive with 251 reported layoffs.",
-    "The leading named industry is Transportation with 251 reported layoffs."
+    "The leading named industry is Transportation with 251 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

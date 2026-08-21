@@ -10,14 +10,14 @@
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
     "total_laid_off": 13117,
-    "event_count": 73,
+    "event_count": 74,
     "headcount_event_count": 42,
-    "company_count": 68,
+    "company_count": 69,
     "country_count": 16,
-    "industry_count": 24,
+    "industry_count": 25,
     "average_layoffs_per_headcount_event": 312.31,
     "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 18
+    "high_intensity_event_count": 19
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 136,
       "total_laid_off_delta": -47430,
       "total_laid_off_pct_change": -0.7834,
-      "event_count_delta": -63,
-      "event_count_pct_change": -0.4632,
+      "event_count_delta": -62,
+      "event_count_pct_change": -0.4559,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 86,
       "total_laid_off_delta": -14437,
       "total_laid_off_pct_change": -0.524,
-      "event_count_delta": -13,
-      "event_count_pct_change": -0.1512,
+      "event_count_delta": -12,
+      "event_count_pct_change": -0.1395,
       "note": null
     }
   },
@@ -355,6 +355,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Qualtrics",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -522,19 +532,19 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
       {
         "date": "2026-08-17",
         "company": "Relay",
@@ -624,24 +634,14 @@
         "country": "Nigeria",
         "stage": "Unknown",
         "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
-      },
-      {
-        "date": "2026-07-27",
-        "company": "BitMart",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 73 public layoff events and 13,117 reported layoffs.",
+    "2026-Q3 includes 74 public layoff events and 13,117 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
-    "18 events report a layoff percentage of 25% or higher."
+    "19 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

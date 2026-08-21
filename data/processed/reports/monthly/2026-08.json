@@ -10,14 +10,14 @@
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
     "total_laid_off": 2117,
-    "event_count": 27,
+    "event_count": 28,
     "headcount_event_count": 14,
-    "company_count": 27,
+    "company_count": 28,
     "country_count": 6,
-    "industry_count": 16,
+    "industry_count": 17,
     "average_layoffs_per_headcount_event": 151.21,
     "median_layoffs_per_headcount_event": 86.5,
-    "high_intensity_event_count": 7
+    "high_intensity_event_count": 8
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 46,
       "total_laid_off_delta": -8883,
       "total_laid_off_pct_change": -0.8075,
-      "event_count_delta": -19,
-      "event_count_pct_change": -0.413,
+      "event_count_delta": -18,
+      "event_count_pct_change": -0.3913,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 26,
       "total_laid_off_delta": -4335,
       "total_laid_off_pct_change": -0.6719,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.0385,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.0769,
       "note": null
     }
   },
@@ -301,6 +301,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Qualtrics",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -478,19 +488,19 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "LegalZoom",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.13,
-        "industry": "Legal",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
       {
         "date": "2026-08-17",
         "company": "Relay",
@@ -564,10 +574,10 @@
     ]
   },
   "insights": [
-    "2026-08 includes 27 public layoff events and 2,117 reported layoffs.",
+    "2026-08 includes 28 public layoff events and 2,117 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
-    "7 events report a layoff percentage of 25% or higher."
+    "8 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

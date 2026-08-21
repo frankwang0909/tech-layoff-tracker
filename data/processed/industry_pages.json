@@ -2828,16 +2828,16 @@
     "canonical_url": "/industries/energy.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-03-27"
+      "end": "2026-08-19"
     },
     "kpis": {
       "total_laid_off": 3464,
-      "event_count": 10,
+      "event_count": 11,
       "headcount_event_count": 5,
-      "company_count": 10,
+      "company_count": 11,
       "country_count": 6,
       "industry_count": 1,
-      "high_intensity_event_count": 4
+      "high_intensity_event_count": 5
     },
     "charts": {
       "monthly_trend": [
@@ -2883,6 +2883,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-19",
+          "company": "BlocPower",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+        },
         {
           "date": "2026-03-27",
           "company": "Enpal",
@@ -2985,7 +2995,7 @@
         }
       ]
     },
-    "summary": "Energy has 3,464 reported tech layoffs across 10 public events from 2025-01-06 to 2026-03-27."
+    "summary": "Energy has 3,464 reported tech layoffs across 11 public events from 2025-01-06 to 2026-08-19."
   },
   {
     "type": "industry",

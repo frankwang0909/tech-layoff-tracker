@@ -6,17 +6,17 @@
     "start": "2026-08-19",
     "end": "2026-08-19"
   },
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-08-21",
   "canonical_url": "/reports/daily/2026-08-19.html",
   "kpis": {
-    "total_laid_off": 326,
-    "event_count": 4,
-    "headcount_event_count": 2,
-    "company_count": 4,
+    "total_laid_off": 372,
+    "event_count": 5,
+    "headcount_event_count": 3,
+    "company_count": 5,
     "country_count": 1,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 163.0,
-    "median_layoffs_per_headcount_event": 163.0,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 124.0,
+    "median_layoffs_per_headcount_event": 75.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -34,10 +34,10 @@
       "period": "2025-08-19",
       "total_laid_off": 322,
       "event_count": 2,
-      "total_laid_off_delta": 4,
-      "total_laid_off_pct_change": 0.0124,
-      "event_count_delta": 2,
-      "event_count_pct_change": 1.0,
+      "total_laid_off_delta": 50,
+      "total_laid_off_pct_change": 0.1553,
+      "event_count_delta": 3,
+      "event_count_pct_change": 1.5,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Tiktok",
         "total_laid_off": 75
+      },
+      {
+        "company": "Vast",
+        "total_laid_off": 46
       }
     ],
     "industry_top": [
@@ -60,12 +64,16 @@
       {
         "industry": "Consumer",
         "total_laid_off": 75
+      },
+      {
+        "industry": "Aerospace",
+        "total_laid_off": 46
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 326
+        "total_laid_off": 372
       }
     ],
     "stage_top": [
@@ -76,12 +84,16 @@
       {
         "stage": "Acquired",
         "total_laid_off": 75
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 46
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "10-24%",
@@ -122,6 +134,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Vast",
+        "num_laid_off": 46,
+        "percentage_laid_off": 0.04,
+        "industry": "Aerospace",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
       }
     ],
     "recent_events": [
@@ -144,6 +166,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Vast",
+        "num_laid_off": 46,
+        "percentage_laid_off": 0.04,
+        "industry": "Aerospace",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
       },
       {
         "date": "2026-08-19",
@@ -180,7 +212,7 @@
     ]
   },
   "insights": [
-    "2026-08-19 includes 4 public layoff events and 326 reported layoffs.",
+    "2026-08-19 includes 5 public layoff events and 372 reported layoffs.",
     "The largest company contributor is Motive with 251 reported layoffs.",
     "The leading named industry is Transportation with 251 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

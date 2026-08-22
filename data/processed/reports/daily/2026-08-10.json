@@ -6,17 +6,17 @@
     "start": "2026-08-10",
     "end": "2026-08-10"
   },
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-08-21",
   "canonical_url": "/reports/daily/2026-08-10.html",
   "kpis": {
-    "total_laid_off": 313,
-    "event_count": 2,
-    "headcount_event_count": 1,
-    "company_count": 2,
-    "country_count": 2,
+    "total_laid_off": 433,
+    "event_count": 3,
+    "headcount_event_count": 2,
+    "company_count": 3,
+    "country_count": 3,
     "industry_count": 2,
-    "average_layoffs_per_headcount_event": 313.0,
-    "median_layoffs_per_headcount_event": 313.0,
+    "average_layoffs_per_headcount_event": 216.5,
+    "median_layoffs_per_headcount_event": 216.5,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -46,30 +46,42 @@
       {
         "company": "Rapid7",
         "total_laid_off": 313
+      },
+      {
+        "company": "N-able Technologies",
+        "total_laid_off": 120
       }
     ],
     "industry_top": [
       {
         "industry": "Security",
         "total_laid_off": 313
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 120
       }
     ],
     "country_top": [
       {
         "country": "United States",
         "total_laid_off": 313
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 120
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 313
+        "total_laid_off": 433
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -100,6 +112,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
       }
     ],
     "recent_events": [
@@ -112,6 +134,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
       },
       {
         "date": "2026-08-10",
@@ -138,7 +170,7 @@
     ]
   },
   "insights": [
-    "2026-08-10 includes 2 public layoff events and 313 reported layoffs.",
+    "2026-08-10 includes 3 public layoff events and 433 reported layoffs.",
     "The largest company contributor is Rapid7 with 313 reported layoffs.",
     "The leading named industry is Security with 313 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

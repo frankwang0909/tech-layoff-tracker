@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-19"
+      "end": "2026-08-21"
     },
     "kpis": {
-      "total_laid_off": 206347,
-      "event_count": 379,
-      "headcount_event_count": 248,
-      "company_count": 288,
+      "total_laid_off": 206593,
+      "event_count": 381,
+      "headcount_event_count": 250,
+      "company_count": 290,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 59
@@ -98,7 +98,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 1969
+          "total_laid_off": 2215
         }
       ],
       "company_top": [
@@ -147,6 +147,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-08-21",
+          "company": "Apple",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+        },
+        {
           "date": "2026-08-19",
           "company": "Motive",
           "num_laid_off": 251,
@@ -155,16 +165,6 @@
           "country": "United States",
           "stage": "Series F",
           "source": "Internal memo"
-        },
-        {
-          "date": "2026-08-19",
-          "company": "Qualtrics",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
         },
         {
           "date": "2026-08-19",
@@ -178,6 +178,16 @@
         },
         {
           "date": "2026-08-19",
+          "company": "Vast",
+          "num_laid_off": 46,
+          "percentage_laid_off": 0.04,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
+        },
+        {
+          "date": "2026-08-19",
           "company": "BlocPower",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
@@ -187,14 +197,14 @@
           "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
         },
         {
-          "date": "2026-08-17",
-          "company": "Relay",
+          "date": "2026-08-19",
+          "company": "Qualtrics",
           "num_laid_off": null,
-          "percentage_laid_off": 1.0,
+          "percentage_laid_off": null,
           "industry": "Other",
           "country": "United States",
-          "stage": "Seed",
-          "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
         },
         {
           "date": "2026-08-17",
@@ -205,6 +215,16 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+        },
+        {
+          "date": "2026-08-17",
+          "company": "Relay",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Seed",
+          "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
         },
         {
           "date": "2026-08-13",
@@ -275,30 +295,10 @@
           "country": "United States",
           "stage": "Series F",
           "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-        },
-        {
-          "date": "2026-08-06",
-          "company": "TikTok",
-          "num_laid_off": 250,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
-        },
-        {
-          "date": "2026-08-05",
-          "company": "LegalZoom",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.13,
-          "industry": "Legal",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
         }
       ]
     },
-    "summary": "United States has 206,347 reported tech layoffs across 379 public events from 2025-01-02 to 2026-08-19."
+    "summary": "United States has 206,593 reported tech layoffs across 381 public events from 2025-01-02 to 2026-08-21."
   },
   {
     "type": "country",
@@ -1254,6 +1254,263 @@
   },
   {
     "type": "country",
+    "name": "Canada",
+    "slug": "canada",
+    "title": "Tech Layoffs by Country: Canada",
+    "canonical_url": "/countries/canada.html",
+    "date_range": {
+      "start": "2025-02-05",
+      "end": "2026-08-12"
+    },
+    "kpis": {
+      "total_laid_off": 3245,
+      "event_count": 23,
+      "headcount_event_count": 14,
+      "company_count": 17,
+      "country_count": 1,
+      "industry_count": 12,
+      "high_intensity_event_count": 6
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 140
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 1738
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 235
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 83
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 80
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 251
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 98
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 500
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 120
+        }
+      ],
+      "company_top": [
+        {
+          "company": "OpenText",
+          "total_laid_off": 2000
+        },
+        {
+          "company": "SSense",
+          "total_laid_off": 215
+        },
+        {
+          "company": "BenchSci",
+          "total_laid_off": 151
+        },
+        {
+          "company": "ZoomInfo",
+          "total_laid_off": 150
+        },
+        {
+          "company": "SRTX",
+          "total_laid_off": 140
+        },
+        {
+          "company": "LeddarTech",
+          "total_laid_off": 138
+        },
+        {
+          "company": "N-able Technologies",
+          "total_laid_off": 120
+        },
+        {
+          "company": "Lightspeed Commerce",
+          "total_laid_off": 100
+        },
+        {
+          "company": "Klue",
+          "total_laid_off": 85
+        },
+        {
+          "company": "Tenstorrent",
+          "total_laid_off": 80
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-08-12",
+          "company": "Convictional",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Other",
+          "country": "Canada",
+          "stage": "Series B",
+          "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+        },
+        {
+          "date": "2026-08-10",
+          "company": "N-able Technologies",
+          "num_laid_off": 120,
+          "percentage_laid_off": 0.06,
+          "industry": "Other",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
+        },
+        {
+          "date": "2026-07-31",
+          "company": "Lightspeed Commerce",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.03,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+        },
+        {
+          "date": "2026-07-08",
+          "company": "OpenText",
+          "num_laid_off": 400,
+          "percentage_laid_off": 0.02,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+        },
+        {
+          "date": "2026-05-28",
+          "company": "BenchSci",
+          "num_laid_off": 68,
+          "percentage_laid_off": 0.3,
+          "industry": "Healthcare",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+        },
+        {
+          "date": "2026-05-04",
+          "company": "Shopify",
+          "num_laid_off": 30,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+        },
+        {
+          "date": "2026-03-24",
+          "company": "Flex AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Fitness",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
+        },
+        {
+          "date": "2026-03-24",
+          "company": "OpenText",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+        },
+        {
+          "date": "2026-03-13",
+          "company": "Loopio",
+          "num_laid_off": 36,
+          "percentage_laid_off": 0.12,
+          "industry": "Sales",
+          "country": "Canada",
+          "stage": "Private Equity",
+          "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+        },
+        {
+          "date": "2026-03-05",
+          "company": "SSense",
+          "num_laid_off": 215,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Series A",
+          "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+        },
+        {
+          "date": "2026-02-11",
+          "company": "Dayforce",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.05,
+          "industry": "HR",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "Internal memo"
+        },
+        {
+          "date": "2026-01-22",
+          "company": "Shopify",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+        },
+        {
+          "date": "2025-12-09",
+          "company": "Tenstorrent",
+          "num_laid_off": 80,
+          "percentage_laid_off": 0.07,
+          "industry": "Hardware",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
+        },
+        {
+          "date": "2025-11-26",
+          "company": "Shopify",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
+        },
+        {
+          "date": "2025-10-27",
+          "company": "Hootsuite",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Canada",
+          "stage": "Series C",
+          "source": "https://www.biv.com/news/technology/hootsuite-laying-off-hundreds-of-staff-20-of-workforce-11405954"
+        }
+      ]
+    },
+    "summary": "Canada has 3,245 reported tech layoffs across 23 public events from 2025-02-05 to 2026-08-12."
+  },
+  {
+    "type": "country",
     "name": "Netherlands",
     "slug": "netherlands",
     "title": "Tech Layoffs by Country: Netherlands",
@@ -1400,259 +1657,6 @@
       ]
     },
     "summary": "Netherlands has 3,170 reported tech layoffs across 7 public events from 2025-02-10 to 2026-07-07."
-  },
-  {
-    "type": "country",
-    "name": "Canada",
-    "slug": "canada",
-    "title": "Tech Layoffs by Country: Canada",
-    "canonical_url": "/countries/canada.html",
-    "date_range": {
-      "start": "2025-02-05",
-      "end": "2026-08-12"
-    },
-    "kpis": {
-      "total_laid_off": 3125,
-      "event_count": 22,
-      "headcount_event_count": 13,
-      "company_count": 16,
-      "country_count": 1,
-      "industry_count": 12,
-      "high_intensity_event_count": 6
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 140
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 1738
-        },
-        {
-          "month": "2025-06",
-          "total_laid_off": 235
-        },
-        {
-          "month": "2025-08",
-          "total_laid_off": 83
-        },
-        {
-          "month": "2025-12",
-          "total_laid_off": 80
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 251
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 98
-        },
-        {
-          "month": "2026-07",
-          "total_laid_off": 500
-        }
-      ],
-      "company_top": [
-        {
-          "company": "OpenText",
-          "total_laid_off": 2000
-        },
-        {
-          "company": "SSense",
-          "total_laid_off": 215
-        },
-        {
-          "company": "BenchSci",
-          "total_laid_off": 151
-        },
-        {
-          "company": "ZoomInfo",
-          "total_laid_off": 150
-        },
-        {
-          "company": "SRTX",
-          "total_laid_off": 140
-        },
-        {
-          "company": "LeddarTech",
-          "total_laid_off": 138
-        },
-        {
-          "company": "Lightspeed Commerce",
-          "total_laid_off": 100
-        },
-        {
-          "company": "Klue",
-          "total_laid_off": 85
-        },
-        {
-          "company": "Tenstorrent",
-          "total_laid_off": 80
-        },
-        {
-          "company": "Loopio",
-          "total_laid_off": 36
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-08-12",
-          "company": "Convictional",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Other",
-          "country": "Canada",
-          "stage": "Series B",
-          "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
-        },
-        {
-          "date": "2026-07-31",
-          "company": "Lightspeed Commerce",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.03,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
-        },
-        {
-          "date": "2026-07-08",
-          "company": "OpenText",
-          "num_laid_off": 400,
-          "percentage_laid_off": 0.02,
-          "industry": "Data",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
-        },
-        {
-          "date": "2026-05-28",
-          "company": "BenchSci",
-          "num_laid_off": 68,
-          "percentage_laid_off": 0.3,
-          "industry": "Healthcare",
-          "country": "Canada",
-          "stage": "Series D",
-          "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
-        },
-        {
-          "date": "2026-05-04",
-          "company": "Shopify",
-          "num_laid_off": 30,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
-        },
-        {
-          "date": "2026-03-24",
-          "company": "Flex AI",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Fitness",
-          "country": "Canada",
-          "stage": "Unknown",
-          "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
-        },
-        {
-          "date": "2026-03-24",
-          "company": "OpenText",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Data",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
-        },
-        {
-          "date": "2026-03-13",
-          "company": "Loopio",
-          "num_laid_off": 36,
-          "percentage_laid_off": 0.12,
-          "industry": "Sales",
-          "country": "Canada",
-          "stage": "Private Equity",
-          "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
-        },
-        {
-          "date": "2026-03-05",
-          "company": "SSense",
-          "num_laid_off": 215,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Series A",
-          "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
-        },
-        {
-          "date": "2026-02-11",
-          "company": "Dayforce",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.05,
-          "industry": "HR",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "Internal memo"
-        },
-        {
-          "date": "2026-01-22",
-          "company": "Shopify",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
-        },
-        {
-          "date": "2025-12-09",
-          "company": "Tenstorrent",
-          "num_laid_off": 80,
-          "percentage_laid_off": 0.07,
-          "industry": "Hardware",
-          "country": "Canada",
-          "stage": "Series D",
-          "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
-        },
-        {
-          "date": "2025-11-26",
-          "company": "Shopify",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
-        },
-        {
-          "date": "2025-10-27",
-          "company": "Hootsuite",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Canada",
-          "stage": "Series C",
-          "source": "https://www.biv.com/news/technology/hootsuite-laying-off-hundreds-of-staff-20-of-workforce-11405954"
-        },
-        {
-          "date": "2025-08-12",
-          "company": "BenchSci",
-          "num_laid_off": 83,
-          "percentage_laid_off": 0.23,
-          "industry": "Healthcare",
-          "country": "Canada",
-          "stage": "Series D",
-          "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
-        }
-      ]
-    },
-    "summary": "Canada has 3,125 reported tech layoffs across 22 public events from 2025-02-05 to 2026-08-12."
   },
   {
     "type": "country",

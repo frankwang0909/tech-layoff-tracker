@@ -6,17 +6,17 @@
     "start": "2026-08-10",
     "end": "2026-08-13"
   },
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-08-21",
   "canonical_url": "/reports/weekly/2026-W33.html",
   "kpis": {
-    "total_laid_off": 388,
-    "event_count": 7,
-    "headcount_event_count": 3,
-    "company_count": 7,
+    "total_laid_off": 508,
+    "event_count": 8,
+    "headcount_event_count": 4,
+    "company_count": 8,
     "country_count": 4,
     "industry_count": 6,
-    "average_layoffs_per_headcount_event": 129.33,
-    "median_layoffs_per_headcount_event": 50.0,
+    "average_layoffs_per_headcount_event": 127.0,
+    "median_layoffs_per_headcount_event": 85.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W32",
       "total_laid_off": 1303,
       "event_count": 14,
-      "total_laid_off_delta": -915,
-      "total_laid_off_pct_change": -0.7022,
-      "event_count_delta": -7,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -795,
+      "total_laid_off_pct_change": -0.6101,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.4286,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W33",
       "total_laid_off": 1227,
       "event_count": 10,
-      "total_laid_off_delta": -839,
-      "total_laid_off_pct_change": -0.6838,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.3,
+      "total_laid_off_delta": -719,
+      "total_laid_off_pct_change": -0.586,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.2,
       "note": null
     }
   },
@@ -46,6 +46,10 @@
       {
         "company": "Rapid7",
         "total_laid_off": 313
+      },
+      {
+        "company": "N-able Technologies",
+        "total_laid_off": 120
       },
       {
         "company": "LinkedIn",
@@ -62,6 +66,10 @@
         "total_laid_off": 313
       },
       {
+        "industry": "Other",
+        "total_laid_off": 120
+      },
+      {
         "industry": "Recruiting",
         "total_laid_off": 50
       },
@@ -76,6 +84,10 @@
         "total_laid_off": 338
       },
       {
+        "country": "Canada",
+        "total_laid_off": 120
+      },
+      {
         "country": "Israel",
         "total_laid_off": 50
       }
@@ -83,7 +95,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 313
+        "total_laid_off": 433
       },
       {
         "stage": "Acquired",
@@ -97,7 +109,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -128,6 +140,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
       },
       {
         "date": "2026-08-11",
@@ -213,6 +235,16 @@
       },
       {
         "date": "2026-08-10",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
+      },
+      {
+        "date": "2026-08-10",
         "company": "Validient",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -246,7 +278,7 @@
     ]
   },
   "insights": [
-    "2026-W33 includes 7 public layoff events and 388 reported layoffs.",
+    "2026-W33 includes 8 public layoff events and 508 reported layoffs.",
     "The largest company contributor is Rapid7 with 313 reported layoffs.",
     "The leading named industry is Security with 313 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

@@ -7,13 +7,13 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-07-26"
+      "end": "2026-08-21"
     },
     "kpis": {
-      "total_laid_off": 50330,
-      "event_count": 24,
-      "headcount_event_count": 19,
-      "company_count": 16,
+      "total_laid_off": 50530,
+      "event_count": 25,
+      "headcount_event_count": 20,
+      "company_count": 17,
       "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 1
@@ -71,6 +71,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 939
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 200
         }
       ],
       "company_top": [
@@ -107,17 +111,27 @@
           "total_laid_off": 247
         },
         {
-          "company": "Remarkable",
+          "company": "Apple",
           "total_laid_off": 200
         },
         {
-          "company": "Qualcomm",
-          "total_laid_off": 104
+          "company": "Remarkable",
+          "total_laid_off": 200
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-21",
+          "company": "Apple",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+        },
         {
           "date": "2026-07-26",
           "company": "Nothing",
@@ -257,20 +271,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/broadcom-layoffs-rifs-cuts-sales-staff-ai-expansion-2025-10"
-        },
-        {
-          "date": "2025-08-12",
-          "company": "Micron",
-          "num_laid_off": 300,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.scmp.com/tech/big-tech/article/3321613/micron-starts-lay-offs-china-us-memory-chipmaker-retreats-mobile-nand-market"
         }
       ]
     },
-    "summary": "Hardware has 50,330 reported tech layoffs across 24 public events from 2025-02-04 to 2026-07-26."
+    "summary": "Hardware has 50,530 reported tech layoffs across 25 public events from 2025-02-04 to 2026-08-21."
   },
   {
     "type": "industry",
@@ -5312,6 +5316,83 @@
   },
   {
     "type": "industry",
+    "name": "Aerospace",
+    "slug": "aerospace",
+    "title": "Tech Layoffs by Industry: Aerospace",
+    "canonical_url": "/industries/aerospace.html",
+    "date_range": {
+      "start": "2025-02-13",
+      "end": "2026-08-19"
+    },
+    "kpis": {
+      "total_laid_off": 1046,
+      "event_count": 3,
+      "headcount_event_count": 2,
+      "company_count": 3,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 1000
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 46
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Blue Origin",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Vast",
+          "total_laid_off": 46
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-08-19",
+          "company": "Vast",
+          "num_laid_off": 46,
+          "percentage_laid_off": 0.04,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
+        },
+        {
+          "date": "2025-02-14",
+          "company": "Eviation Aircraft",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Aerospace",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Blue Origin",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.1,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
+        }
+      ]
+    },
+    "summary": "Aerospace has 1,046 reported tech layoffs across 3 public events from 2025-02-13 to 2026-08-19."
+  },
+  {
+    "type": "industry",
     "name": "Travel",
     "slug": "travel",
     "title": "Tech Layoffs by Industry: Travel",
@@ -5689,65 +5770,6 @@
       ]
     },
     "summary": "Education has 1,020 reported tech layoffs across 11 public events from 2025-03-31 to 2026-07-06."
-  },
-  {
-    "type": "industry",
-    "name": "Aerospace",
-    "slug": "aerospace",
-    "title": "Tech Layoffs by Industry: Aerospace",
-    "canonical_url": "/industries/aerospace.html",
-    "date_range": {
-      "start": "2025-02-13",
-      "end": "2025-02-14"
-    },
-    "kpis": {
-      "total_laid_off": 1000,
-      "event_count": 2,
-      "headcount_event_count": 1,
-      "company_count": 2,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 0
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 1000
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Blue Origin",
-          "total_laid_off": 1000
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2025-02-14",
-          "company": "Eviation Aircraft",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Aerospace",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
-        },
-        {
-          "date": "2025-02-13",
-          "company": "Blue Origin",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.1,
-          "industry": "Aerospace",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
-        }
-      ]
-    },
-    "summary": "Aerospace has 1,000 reported tech layoffs across 2 public events from 2025-02-13 to 2025-02-14."
   },
   {
     "type": "industry",

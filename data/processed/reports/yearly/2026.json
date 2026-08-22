@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-19"
+    "end": "2026-08-21"
   },
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-08-21",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 126814,
-    "event_count": 305,
-    "headcount_event_count": 195,
-    "company_count": 279,
+    "total_laid_off": 127180,
+    "event_count": 308,
+    "headcount_event_count": 198,
+    "company_count": 282,
     "country_count": 29,
-    "industry_count": 28,
-    "average_layoffs_per_headcount_event": 650.33,
-    "median_layoffs_per_headcount_event": 126.0,
+    "industry_count": 29,
+    "average_layoffs_per_headcount_event": 642.32,
+    "median_layoffs_per_headcount_event": 123.0,
     "high_intensity_event_count": 63
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 4208,
-      "total_laid_off_pct_change": 0.0343,
-      "event_count_delta": -28,
-      "event_count_pct_change": -0.0841,
+      "total_laid_off_delta": 4574,
+      "total_laid_off_pct_change": 0.0373,
+      "event_count_delta": -25,
+      "event_count_pct_change": -0.0751,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 4208,
-      "total_laid_off_pct_change": 0.0343,
-      "event_count_delta": -28,
-      "event_count_pct_change": -0.0841,
+      "total_laid_off_delta": 4574,
+      "total_laid_off_pct_change": 0.0373,
+      "event_count_delta": -25,
+      "event_count_pct_change": -0.0751,
       "note": null
     }
   },
@@ -68,11 +68,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 30520
+        "total_laid_off": 30640
       },
       {
         "industry": "Retail",
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Hardware",
-        "total_laid_off": 13993
+        "total_laid_off": 14193
       },
       {
         "industry": "Infrastructure",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 103591
+        "total_laid_off": 103837
       },
       {
         "country": "Israel",
@@ -161,7 +161,7 @@
       },
       {
         "country": "Canada",
-        "total_laid_off": 849
+        "total_laid_off": 969
       },
       {
         "country": "Germany",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 107832
+        "total_laid_off": 108152
       },
       {
         "stage": "Unknown",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 30
+        "event_count": 32
       },
       {
         "bucket": "10-24%",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-05-13",
-        "company": "Cisco",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.05,
-        "industry": "Infrastructure",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://blogs.cisco.com/news/our-path-forward"
-      },
-      {
         "date": "2026-02-26",
         "company": "Block",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+      },
+      {
+        "date": "2026-05-13",
+        "company": "Cisco",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.05,
+        "industry": "Infrastructure",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://blogs.cisco.com/news/our-path-forward"
       },
       {
         "date": "2026-05-20",
@@ -338,14 +338,24 @@
     ],
     "recent_events": [
       {
-        "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
+        "date": "2026-08-21",
+        "company": "Apple",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
         "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
       },
       {
         "date": "2026-08-19",
@@ -359,6 +369,26 @@
       },
       {
         "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Vast",
+        "num_laid_off": 46,
+        "percentage_laid_off": 0.04,
+        "industry": "Aerospace",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Tiktok",
         "num_laid_off": 75,
         "percentage_laid_off": null,
@@ -366,26 +396,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "BlocPower",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-      },
-      {
-        "date": "2026-08-17",
-        "company": "Relay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-17",
@@ -396,6 +406,16 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+      },
+      {
+        "date": "2026-08-17",
+        "company": "Relay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-13",
@@ -459,6 +479,16 @@
       },
       {
         "date": "2026-08-10",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
+      },
+      {
+        "date": "2026-08-10",
         "company": "Validient",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -479,16 +509,6 @@
       },
       {
         "date": "2026-08-07",
-        "company": "Salesforce",
-        "num_laid_off": 133,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-      },
-      {
-        "date": "2026-08-07",
         "company": "VideoAmp",
         "num_laid_off": 50,
         "percentage_laid_off": 0.2,
@@ -498,14 +518,14 @@
         "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
       },
       {
-        "date": "2026-08-06",
-        "company": "TikTok",
-        "num_laid_off": 250,
+        "date": "2026-08-07",
+        "company": "Salesforce",
+        "num_laid_off": 133,
         "percentage_laid_off": null,
-        "industry": "Consumer",
+        "industry": "Sales",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+        "stage": "Post-IPO",
+        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
       },
       {
         "date": "2026-08-06",
@@ -516,26 +536,6 @@
         "country": "Germany",
         "stage": "Post-IPO",
         "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Google",
-        "num_laid_off": 52,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 305 public layoff events and 126,814 reported layoffs.",
+    "2026 includes 308 public layoff events and 127,180 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
     "63 events report a layoff percentage of 25% or higher."

@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-01",
-    "end": "2026-08-19"
+    "end": "2026-08-21"
   },
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-08-21",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 2117,
-    "event_count": 28,
-    "headcount_event_count": 14,
-    "company_count": 28,
+    "total_laid_off": 2483,
+    "event_count": 31,
+    "headcount_event_count": 17,
+    "company_count": 31,
     "country_count": 6,
-    "industry_count": 17,
-    "average_layoffs_per_headcount_event": 151.21,
-    "median_layoffs_per_headcount_event": 86.5,
+    "industry_count": 19,
+    "average_layoffs_per_headcount_event": 146.06,
+    "median_layoffs_per_headcount_event": 98.0,
     "high_intensity_event_count": 8
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -8883,
-      "total_laid_off_pct_change": -0.8075,
-      "event_count_delta": -18,
-      "event_count_pct_change": -0.3913,
+      "total_laid_off_delta": -8517,
+      "total_laid_off_pct_change": -0.7743,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.3261,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -4335,
-      "total_laid_off_pct_change": -0.6719,
-      "event_count_delta": 2,
-      "event_count_pct_change": 0.0769,
+      "total_laid_off_delta": -3969,
+      "total_laid_off_pct_change": -0.6152,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.1923,
       "note": null
     }
   },
@@ -64,8 +64,16 @@
         "total_laid_off": 220
       },
       {
+        "company": "Apple",
+        "total_laid_off": 200
+      },
+      {
         "company": "Salesforce",
         "total_laid_off": 133
+      },
+      {
+        "company": "N-able Technologies",
+        "total_laid_off": 120
       },
       {
         "company": "Infineon",
@@ -74,14 +82,6 @@
       {
         "company": "Tiktok",
         "total_laid_off": 75
-      },
-      {
-        "company": "Pentera",
-        "total_laid_off": 60
-      },
-      {
-        "company": "Google",
-        "total_laid_off": 52
       }
     ],
     "industry_top": [
@@ -106,8 +106,16 @@
         "total_laid_off": 220
       },
       {
+        "industry": "Hardware",
+        "total_laid_off": 200
+      },
+      {
         "industry": "Sales",
         "total_laid_off": 133
+      },
+      {
+        "industry": "Other",
+        "total_laid_off": 120
       },
       {
         "industry": "Manufacturing",
@@ -116,20 +124,16 @@
       {
         "industry": "Crypto",
         "total_laid_off": 65
-      },
-      {
-        "industry": "Recruiting",
-        "total_laid_off": 50
-      },
-      {
-        "industry": "Marketing",
-        "total_laid_off": 50
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 1969
+        "total_laid_off": 2215
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 120
       },
       {
         "country": "Germany",
@@ -143,7 +147,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1316
+        "total_laid_off": 1636
       },
       {
         "stage": "Acquired",
@@ -160,12 +164,16 @@
       {
         "stage": "Series D",
         "total_laid_off": 60
+      },
+      {
+        "stage": "Series A",
+        "total_laid_off": 46
       }
     ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 2
+        "event_count": 4
       },
       {
         "bucket": "10-24%",
@@ -238,6 +246,16 @@
         "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
       },
       {
+        "date": "2026-08-21",
+        "company": "Apple",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+      },
+      {
         "date": "2026-08-07",
         "company": "Salesforce",
         "num_laid_off": 133,
@@ -246,6 +264,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
       },
       {
         "date": "2026-08-06",
@@ -266,38 +294,38 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
-      },
-      {
-        "date": "2026-08-17",
-        "company": "Pentera",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.14,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Google",
-        "num_laid_off": 52,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       }
     ],
     "recent_events": [
       {
-        "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
+        "date": "2026-08-21",
+        "company": "Apple",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
         "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Vast",
+        "num_laid_off": 46,
+        "percentage_laid_off": 0.04,
+        "industry": "Aerospace",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
       },
       {
         "date": "2026-08-19",
@@ -321,13 +349,13 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Tiktok",
-        "num_laid_off": 75,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+        "stage": "Series F",
+        "source": "Internal memo"
       },
       {
         "date": "2026-08-17",
@@ -401,13 +429,13 @@
       },
       {
         "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
+        "company": "N-able Technologies",
+        "num_laid_off": 120,
+        "percentage_laid_off": 0.06,
+        "industry": "Other",
+        "country": "Canada",
         "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
       },
       {
         "date": "2026-08-10",
@@ -418,6 +446,16 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+      },
+      {
+        "date": "2026-08-10",
+        "company": "Rapid7",
+        "num_laid_off": 313,
+        "percentage_laid_off": 0.12,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
       },
       {
         "date": "2026-08-08",
@@ -431,16 +469,6 @@
       },
       {
         "date": "2026-08-07",
-        "company": "VideoAmp",
-        "num_laid_off": 50,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-      },
-      {
-        "date": "2026-08-07",
         "company": "Salesforce",
         "num_laid_off": 133,
         "percentage_laid_off": null,
@@ -448,6 +476,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+      },
+      {
+        "date": "2026-08-07",
+        "company": "VideoAmp",
+        "num_laid_off": 50,
+        "percentage_laid_off": 0.2,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
       },
       {
         "date": "2026-08-06",
@@ -458,36 +496,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
-      },
-      {
-        "date": "2026-08-06",
-        "company": "Infineon",
-        "num_laid_off": 98,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "Germany",
-        "stage": "Post-IPO",
-        "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Etsy",
-        "num_laid_off": 220,
-        "percentage_laid_off": 0.12,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Google",
-        "num_laid_off": 52,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
       }
     ],
     "high_intensity_events": [
@@ -574,7 +582,7 @@
     ]
   },
   "insights": [
-    "2026-08 includes 28 public layoff events and 2,117 reported layoffs.",
+    "2026-08 includes 31 public layoff events and 2,483 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "8 events report a layoff percentage of 25% or higher."

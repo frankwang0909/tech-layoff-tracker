@@ -7,13 +7,13 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-08-21"
+      "end": "2026-08-24"
     },
     "kpis": {
       "total_laid_off": 50530,
-      "event_count": 25,
+      "event_count": 26,
       "headcount_event_count": 20,
-      "company_count": 17,
+      "company_count": 18,
       "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 1
@@ -122,6 +122,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-24",
+          "company": "SanDisk",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+        },
         {
           "date": "2026-08-21",
           "company": "Apple",
@@ -261,20 +271,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.sfchronicle.com/tech/article/layoffs-hpe-hitachi-vantara-21140900.php"
-        },
-        {
-          "date": "2025-10-17",
-          "company": "Broadcom",
-          "num_laid_off": 247,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/broadcom-layoffs-rifs-cuts-sales-staff-ai-expansion-2025-10"
         }
       ]
     },
-    "summary": "Hardware has 50,530 reported tech layoffs across 25 public events from 2025-02-04 to 2026-08-21."
+    "summary": "Hardware has 50,530 reported tech layoffs across 26 public events from 2025-02-04 to 2026-08-24."
   },
   {
     "type": "industry",
@@ -1934,16 +1934,16 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-08-17"
+      "end": "2026-08-24"
     },
     "kpis": {
       "total_laid_off": 4716,
-      "event_count": 36,
+      "event_count": 37,
       "headcount_event_count": 28,
-      "company_count": 30,
+      "company_count": 31,
       "country_count": 5,
       "industry_count": 1,
-      "high_intensity_event_count": 5
+      "high_intensity_event_count": 6
     },
     "charts": {
       "monthly_trend": [
@@ -2057,6 +2057,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-24",
+          "company": "Minimus",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Seed",
+          "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+        },
         {
           "date": "2026-08-17",
           "company": "Pentera",
@@ -2196,20 +2206,10 @@
           "country": "United States",
           "stage": "Series D",
           "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
-        },
-        {
-          "date": "2026-04-21",
-          "company": "GeoComply",
-          "num_laid_off": 68,
-          "percentage_laid_off": 0.15,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Private Equity",
-          "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
         }
       ]
     },
-    "summary": "Security has 4,716 reported tech layoffs across 36 public events from 2025-01-07 to 2026-08-17."
+    "summary": "Security has 4,716 reported tech layoffs across 37 public events from 2025-01-07 to 2026-08-24."
   },
   {
     "type": "industry",
@@ -3706,16 +3706,16 @@
     "canonical_url": "/industries/manufacturing.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-08-06"
+      "end": "2026-08-23"
     },
     "kpis": {
       "total_laid_off": 2282,
-      "event_count": 11,
+      "event_count": 12,
       "headcount_event_count": 9,
-      "company_count": 10,
+      "company_count": 11,
       "country_count": 5,
       "industry_count": 1,
-      "high_intensity_event_count": 2
+      "high_intensity_event_count": 3
     },
     "charts": {
       "monthly_trend": [
@@ -3789,6 +3789,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-23",
+          "company": "Wi-Charge",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Manufacturing",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+        },
         {
           "date": "2026-08-06",
           "company": "Infineon",
@@ -3901,7 +3911,7 @@
         }
       ]
     },
-    "summary": "Manufacturing has 2,282 reported tech layoffs across 11 public events from 2025-02-05 to 2026-08-06."
+    "summary": "Manufacturing has 2,282 reported tech layoffs across 12 public events from 2025-02-05 to 2026-08-23."
   },
   {
     "type": "industry",

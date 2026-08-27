@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-24",
+    "company": "Minimus",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Security",
+    "country": "Israel",
+    "stage": "Seed",
+    "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+  },
+  {
+    "date": "2026-08-24",
+    "company": "SanDisk",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Hardware",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+  },
+  {
+    "date": "2026-08-23",
+    "company": "Wi-Charge",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Manufacturing",
+    "country": "Israel",
+    "stage": "Series C",
+    "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+  },
+  {
     "date": "2026-08-21",
     "company": "Apple",
     "num_laid_off": 200,
@@ -8,6 +38,36 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+  },
+  {
+    "date": "2026-08-19",
+    "company": "Motive",
+    "num_laid_off": 251,
+    "percentage_laid_off": 0.05,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Series F",
+    "source": "Internal memo"
+  },
+  {
+    "date": "2026-08-19",
+    "company": "Tiktok",
+    "num_laid_off": 75,
+    "percentage_laid_off": null,
+    "industry": "Consumer",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+  },
+  {
+    "date": "2026-08-19",
+    "company": "Vast",
+    "num_laid_off": 46,
+    "percentage_laid_off": 0.04,
+    "industry": "Aerospace",
+    "country": "United States",
+    "stage": "Series A",
+    "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
   },
   {
     "date": "2026-08-19",
@@ -28,36 +88,6 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "Motive",
-    "num_laid_off": 251,
-    "percentage_laid_off": 0.05,
-    "industry": "Transportation",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "Internal memo"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "Vast",
-    "num_laid_off": 46,
-    "percentage_laid_off": 0.04,
-    "industry": "Aerospace",
-    "country": "United States",
-    "stage": "Series A",
-    "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "Tiktok",
-    "num_laid_off": 75,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
   },
   {
     "date": "2026-08-17",
@@ -81,16 +111,6 @@
   },
   {
     "date": "2026-08-13",
-    "company": "Anaconda",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.14,
-    "industry": "Data",
-    "country": "United States",
-    "stage": "Series C",
-    "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
-  },
-  {
-    "date": "2026-08-13",
     "company": "Netflix",
     "num_laid_off": null,
     "percentage_laid_off": null,
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
-  },
-  {
-    "date": "2026-08-12",
-    "company": "Bitwise",
-    "num_laid_off": 25,
-    "percentage_laid_off": 0.14,
-    "industry": "Crypto",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
-  },
-  {
-    "date": "2026-08-12",
-    "company": "Convictional",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Other",
-    "country": "Canada",
-    "stage": "Series B",
-    "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
   }
 ]

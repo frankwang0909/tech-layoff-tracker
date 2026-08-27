@@ -1,23 +1,23 @@
 {
   "report_type": "weekly",
   "period": "2026-W34",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-08-17",
-    "end": "2026-08-21"
+    "end": "2026-08-23"
   },
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-24",
   "canonical_url": "/reports/weekly/2026-W34.html",
   "kpis": {
     "total_laid_off": 632,
-    "event_count": 8,
+    "event_count": 9,
     "headcount_event_count": 5,
-    "company_count": 8,
-    "country_count": 1,
-    "industry_count": 7,
+    "company_count": 9,
+    "country_count": 2,
+    "industry_count": 8,
     "average_layoffs_per_headcount_event": 126.4,
     "median_layoffs_per_headcount_event": 75.0,
-    "high_intensity_event_count": 2
+    "high_intensity_event_count": 3
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 8,
       "total_laid_off_delta": 124,
       "total_laid_off_pct_change": 0.2441,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.125,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 4,
       "total_laid_off_delta": 160,
       "total_laid_off_pct_change": 0.339,
-      "event_count_delta": 4,
-      "event_count_pct_change": 1.0,
+      "event_count_delta": 5,
+      "event_count_pct_change": 1.25,
       "note": null
     }
   },
@@ -192,6 +192,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-08-23",
+        "company": "Wi-Charge",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+      },
+      {
         "date": "2026-08-21",
         "company": "Apple",
         "num_laid_off": 200,
@@ -274,6 +284,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-08-23",
+        "company": "Wi-Charge",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+      },
+      {
         "date": "2026-08-19",
         "company": "BlocPower",
         "num_laid_off": null,
@@ -296,10 +316,10 @@
     ]
   },
   "insights": [
-    "2026-W34 includes 8 public layoff events and 632 reported layoffs.",
+    "2026-W34 includes 9 public layoff events and 632 reported layoffs.",
     "The largest company contributor is Motive with 251 reported layoffs.",
     "The leading named industry is Transportation with 251 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

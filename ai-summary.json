@@ -98,7 +98,7 @@
         "name": "Hardware",
         "canonical_url": "https://tech.debugcanada.com/industries/hardware.html",
         "total_laid_off": 50530,
-        "event_count": 25
+        "event_count": 26
       },
       {
         "name": "Retail",
@@ -140,7 +140,7 @@
         "name": "Security",
         "canonical_url": "https://tech.debugcanada.com/industries/security.html",
         "total_laid_off": 4716,
-        "event_count": 36
+        "event_count": 37
       },
       {
         "name": "Infrastructure",
@@ -172,7 +172,7 @@
         "name": "Israel",
         "canonical_url": "https://tech.debugcanada.com/countries/israel.html",
         "total_laid_off": 7568,
-        "event_count": 66
+        "event_count": 69
       },
       {
         "name": "Sweden",

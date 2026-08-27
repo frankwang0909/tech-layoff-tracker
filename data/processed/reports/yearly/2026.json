@@ -4,20 +4,20 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-21"
+    "end": "2026-08-24"
   },
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-24",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 127180,
-    "event_count": 308,
+    "event_count": 311,
     "headcount_event_count": 198,
-    "company_count": 282,
+    "company_count": 285,
     "country_count": 29,
     "industry_count": 29,
     "average_layoffs_per_headcount_event": 642.32,
     "median_layoffs_per_headcount_event": 123.0,
-    "high_intensity_event_count": 63
+    "high_intensity_event_count": 65
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 333,
       "total_laid_off_delta": 4574,
       "total_laid_off_pct_change": 0.0373,
-      "event_count_delta": -25,
-      "event_count_pct_change": -0.0751,
+      "event_count_delta": -22,
+      "event_count_pct_change": -0.0661,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 333,
       "total_laid_off_delta": 4574,
       "total_laid_off_pct_change": 0.0373,
-      "event_count_delta": -25,
-      "event_count_pct_change": -0.0751,
+      "event_count_delta": -22,
+      "event_count_pct_change": -0.0661,
       "note": null
     }
   },
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-08-24",
+        "company": "Minimus",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+      },
+      {
+        "date": "2026-08-24",
+        "company": "SanDisk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+      },
+      {
+        "date": "2026-08-23",
+        "company": "Wi-Charge",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+      },
+      {
         "date": "2026-08-21",
         "company": "Apple",
         "num_laid_off": 200,
@@ -346,6 +376,36 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "Internal memo"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Vast",
+        "num_laid_off": 46,
+        "percentage_laid_off": 0.04,
+        "industry": "Aerospace",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
       },
       {
         "date": "2026-08-19",
@@ -368,34 +428,14 @@
         "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
       },
       {
-        "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
+        "date": "2026-08-17",
+        "company": "Relay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
         "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Vast",
-        "num_laid_off": 46,
-        "percentage_laid_off": 0.04,
-        "industry": "Aerospace",
-        "country": "United States",
-        "stage": "Series A",
-        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Tiktok",
-        "num_laid_off": 75,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-17",
@@ -406,16 +446,6 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
-      },
-      {
-        "date": "2026-08-17",
-        "company": "Relay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-13",
@@ -506,39 +536,29 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
-      },
-      {
-        "date": "2026-08-07",
-        "company": "VideoAmp",
-        "num_laid_off": 50,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-      },
-      {
-        "date": "2026-08-07",
-        "company": "Salesforce",
-        "num_laid_off": 133,
-        "percentage_laid_off": null,
-        "industry": "Sales",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-      },
-      {
-        "date": "2026-08-06",
-        "company": "Infineon",
-        "num_laid_off": 98,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "Germany",
-        "stage": "Post-IPO",
-        "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-24",
+        "company": "Minimus",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+      },
+      {
+        "date": "2026-08-23",
+        "company": "Wi-Charge",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Manufacturing",
+        "country": "Israel",
+        "stage": "Series C",
+        "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+      },
       {
         "date": "2026-08-19",
         "company": "BlocPower",
@@ -618,34 +638,14 @@
         "country": "UAE",
         "stage": "Seed",
         "source": "https://jawlah.co/en/61711"
-      },
-      {
-        "date": "2026-07-31",
-        "company": "Reforged Labs",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Marketing",
-        "country": "Singapore",
-        "stage": "Seed",
-        "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
-      },
-      {
-        "date": "2026-07-30",
-        "company": "GoLemon",
-        "num_laid_off": 33,
-        "percentage_laid_off": 1.0,
-        "industry": "Retail",
-        "country": "Nigeria",
-        "stage": "Unknown",
-        "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
       }
     ]
   },
   "insights": [
-    "2026 includes 308 public layoff events and 127,180 reported layoffs.",
+    "2026 includes 311 public layoff events and 127,180 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
-    "63 events report a layoff percentage of 25% or higher."
+    "65 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -597,16 +597,16 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-08-11"
+      "end": "2026-08-24"
     },
     "kpis": {
       "total_laid_off": 7568,
-      "event_count": 66,
+      "event_count": 69,
       "headcount_event_count": 47,
-      "company_count": 58,
+      "company_count": 61,
       "country_count": 1,
       "industry_count": 23,
-      "high_intensity_event_count": 19
+      "high_intensity_event_count": 21
     },
     "charts": {
       "monthly_trend": [
@@ -724,6 +724,36 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-24",
+          "company": "Minimus",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Seed",
+          "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+        },
+        {
+          "date": "2026-08-24",
+          "company": "SanDisk",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+        },
+        {
+          "date": "2026-08-23",
+          "company": "Wi-Charge",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Manufacturing",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+        },
         {
           "date": "2026-08-11",
           "company": "LinkedIn",
@@ -843,40 +873,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
-        },
-        {
-          "date": "2026-06-08",
-          "company": "Hailo",
-          "num_laid_off": 110,
-          "percentage_laid_off": 0.5,
-          "industry": "Manufacturing",
-          "country": "Israel",
-          "stage": "Series C",
-          "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
-        },
-        {
-          "date": "2026-06-07",
-          "company": "Zencity",
-          "num_laid_off": 15,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
-        },
-        {
-          "date": "2026-06-03",
-          "company": "Skai",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Israel",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
         }
       ]
     },
-    "summary": "Israel has 7,568 reported tech layoffs across 66 public events from 2025-01-06 to 2026-08-11."
+    "summary": "Israel has 7,568 reported tech layoffs across 69 public events from 2025-01-06 to 2026-08-24."
   },
   {
     "type": "country",

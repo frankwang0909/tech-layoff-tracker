@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-08-24"
+    "end": "2026-08-27"
   },
-  "updated_at": "2026-08-24",
+  "updated_at": "2026-08-27",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 127180,
-    "event_count": 311,
-    "headcount_event_count": 198,
-    "company_count": 285,
+    "total_laid_off": 127530,
+    "event_count": 314,
+    "headcount_event_count": 199,
+    "company_count": 288,
     "country_count": 29,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 642.32,
-    "median_layoffs_per_headcount_event": 123.0,
-    "high_intensity_event_count": 65
+    "average_layoffs_per_headcount_event": 640.85,
+    "median_layoffs_per_headcount_event": 126.0,
+    "high_intensity_event_count": 67
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 4574,
-      "total_laid_off_pct_change": 0.0373,
-      "event_count_delta": -22,
-      "event_count_pct_change": -0.0661,
+      "total_laid_off_delta": 4924,
+      "total_laid_off_pct_change": 0.0402,
+      "event_count_delta": -19,
+      "event_count_pct_change": -0.0571,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 4574,
-      "total_laid_off_pct_change": 0.0373,
-      "event_count_delta": -22,
-      "event_count_pct_change": -0.0661,
+      "total_laid_off_delta": 4924,
+      "total_laid_off_pct_change": 0.0402,
+      "event_count_delta": -19,
+      "event_count_pct_change": -0.0571,
       "note": null
     }
   },
@@ -68,11 +68,11 @@
         "total_laid_off": 4760
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
@@ -136,12 +136,12 @@
         "total_laid_off": 4541
       },
       {
-        "country": "Australia",
-        "total_laid_off": 3952
+        "country": "India",
+        "total_laid_off": 4175
       },
       {
-        "country": "India",
-        "total_laid_off": 3825
+        "country": "Australia",
+        "total_laid_off": 3952
       },
       {
         "country": "Netherlands",
@@ -202,12 +202,12 @@
         "total_laid_off": 938
       },
       {
-        "stage": "Series C",
-        "total_laid_off": 516
+        "stage": "Series A",
+        "total_laid_off": 711
       },
       {
-        "stage": "Subsidiary",
-        "total_laid_off": 458
+        "stage": "Series C",
+        "total_laid_off": 516
       }
     ],
     "layoff_pct_distribution": [
@@ -221,7 +221,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 19
+        "event_count": 20
       },
       {
         "bucket": "50-99%",
@@ -296,16 +296,6 @@
         "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
       },
       {
-        "date": "2026-02-26",
-        "company": "Block",
-        "num_laid_off": 4000,
-        "percentage_laid_off": 0.4,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
-      },
-      {
         "date": "2026-05-13",
         "company": "Cisco",
         "num_laid_off": 4000,
@@ -314,6 +304,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://blogs.cisco.com/news/our-path-forward"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Block",
+        "num_laid_off": 4000,
+        "percentage_laid_off": 0.4,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
       },
       {
         "date": "2026-05-20",
@@ -337,6 +337,36 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-27",
+        "company": "Even Healthcare",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+      },
+      {
+        "date": "2026-08-26",
+        "company": "PagerDuty",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
+      },
+      {
+        "date": "2026-08-26",
+        "company": "MonieWorld",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+      },
       {
         "date": "2026-08-24",
         "company": "Minimus",
@@ -429,16 +459,6 @@
       },
       {
         "date": "2026-08-17",
-        "company": "Relay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
-      },
-      {
-        "date": "2026-08-17",
         "company": "Pentera",
         "num_laid_off": 60,
         "percentage_laid_off": 0.14,
@@ -446,6 +466,16 @@
         "country": "United States",
         "stage": "Series D",
         "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+      },
+      {
+        "date": "2026-08-17",
+        "company": "Relay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-13",
@@ -499,26 +529,6 @@
       },
       {
         "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
-      },
-      {
-        "date": "2026-08-10",
-        "company": "N-able Technologies",
-        "num_laid_off": 120,
-        "percentage_laid_off": 0.06,
-        "industry": "Other",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
-      },
-      {
-        "date": "2026-08-10",
         "company": "Validient",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -526,19 +536,19 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-      },
-      {
-        "date": "2026-08-08",
-        "company": "ClimateAI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-26",
+        "company": "MonieWorld",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+      },
       {
         "date": "2026-08-24",
         "company": "Minimus",
@@ -558,6 +568,16 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+      },
+      {
+        "date": "2026-06-26",
+        "company": "JiviAI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
       },
       {
         "date": "2026-08-19",
@@ -618,34 +638,14 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "80 Acres Farms",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "jalebi.io",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "UAE",
-        "stage": "Seed",
-        "source": "https://jawlah.co/en/61711"
       }
     ]
   },
   "insights": [
-    "2026 includes 311 public layoff events and 127,180 reported layoffs.",
+    "2026 includes 314 public layoff events and 127,530 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 19,931 reported layoffs.",
-    "65 events report a layoff percentage of 25% or higher."
+    "67 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

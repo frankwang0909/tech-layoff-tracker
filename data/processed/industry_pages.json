@@ -862,16 +862,16 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-07-31"
+      "end": "2026-08-26"
     },
     "kpis": {
       "total_laid_off": 18812,
-      "event_count": 60,
+      "event_count": 61,
       "headcount_event_count": 38,
-      "company_count": 53,
+      "company_count": 54,
       "country_count": 9,
       "industry_count": 1,
-      "high_intensity_event_count": 17
+      "high_intensity_event_count": 18
     },
     "charts": {
       "monthly_trend": [
@@ -989,6 +989,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-26",
+          "company": "MonieWorld",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "Nigeria",
+          "stage": "Unknown",
+          "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+        },
         {
           "date": "2026-07-31",
           "company": "Chime",
@@ -1128,20 +1138,10 @@
           "country": "India",
           "stage": "Unknown",
           "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Nayax",
-          "num_laid_off": 32,
-          "percentage_laid_off": 0.03,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
         }
       ]
     },
-    "summary": "Finance has 18,812 reported tech layoffs across 60 public events from 2025-01-02 to 2026-07-31."
+    "summary": "Finance has 18,812 reported tech layoffs across 61 public events from 2025-01-02 to 2026-08-26."
   },
   {
     "type": "industry",
@@ -3921,16 +3921,16 @@
     "canonical_url": "/industries/healthcare.html",
     "date_range": {
       "start": "2025-02-24",
-      "end": "2026-07-03"
+      "end": "2026-08-27"
     },
     "kpis": {
-      "total_laid_off": 1769,
-      "event_count": 16,
-      "headcount_event_count": 10,
-      "company_count": 14,
+      "total_laid_off": 2119,
+      "event_count": 17,
+      "headcount_event_count": 11,
+      "company_count": 15,
       "country_count": 3,
       "industry_count": 1,
-      "high_intensity_event_count": 4
+      "high_intensity_event_count": 5
     },
     "charts": {
       "monthly_trend": [
@@ -3961,12 +3961,20 @@
         {
           "month": "2026-07",
           "total_laid_off": 800
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 350
         }
       ],
       "company_top": [
         {
           "company": "CorroHealth",
           "total_laid_off": 800
+        },
+        {
+          "company": "Even Healthcare",
+          "total_laid_off": 350
         },
         {
           "company": "Innovaccer",
@@ -4004,6 +4012,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-27",
+          "company": "Even Healthcare",
+          "num_laid_off": 350,
+          "percentage_laid_off": 0.3,
+          "industry": "Healthcare",
+          "country": "India",
+          "stage": "Series A",
+          "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+        },
         {
           "date": "2026-07-03",
           "company": "CorroHealth",
@@ -4143,20 +4161,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
-        },
-        {
-          "date": "2025-05-15",
-          "company": "GroundGame Health",
-          "num_laid_off": 97,
-          "percentage_laid_off": null,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.bizjournals.com/tampabay/news/2025/05/15/groundgame-health-layoffs.html"
         }
       ]
     },
-    "summary": "Healthcare has 1,769 reported tech layoffs across 16 public events from 2025-02-24 to 2026-07-03."
+    "summary": "Healthcare has 2,119 reported tech layoffs across 17 public events from 2025-02-24 to 2026-08-27."
   },
   {
     "type": "industry",
@@ -5044,13 +5052,13 @@
     "canonical_url": "/industries/product.html",
     "date_range": {
       "start": "2025-01-21",
-      "end": "2026-07-22"
+      "end": "2026-08-26"
     },
     "kpis": {
       "total_laid_off": 1273,
-      "event_count": 8,
+      "event_count": 9,
       "headcount_event_count": 5,
-      "company_count": 8,
+      "company_count": 9,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -5099,6 +5107,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-26",
+          "company": "PagerDuty",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.15,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
+        },
         {
           "date": "2026-07-22",
           "company": "Monday.com",
@@ -5181,7 +5199,7 @@
         }
       ]
     },
-    "summary": "Product has 1,273 reported tech layoffs across 8 public events from 2025-01-21 to 2026-07-22."
+    "summary": "Product has 1,273 reported tech layoffs across 9 public events from 2025-01-21 to 2026-08-26."
   },
   {
     "type": "industry",

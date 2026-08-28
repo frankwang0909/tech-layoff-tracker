@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-08-24"
+    "end": "2026-08-27"
   },
-  "updated_at": "2026-08-24",
+  "updated_at": "2026-08-27",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 13483,
-    "event_count": 80,
-    "headcount_event_count": 45,
-    "company_count": 75,
+    "total_laid_off": 13833,
+    "event_count": 83,
+    "headcount_event_count": 46,
+    "company_count": 78,
     "country_count": 16,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 299.62,
-    "median_layoffs_per_headcount_event": 100.0,
-    "high_intensity_event_count": 21
+    "average_layoffs_per_headcount_event": 300.72,
+    "median_layoffs_per_headcount_event": 110.0,
+    "high_intensity_event_count": 23
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
       "total_laid_off": 60547,
       "event_count": 136,
-      "total_laid_off_delta": -47064,
-      "total_laid_off_pct_change": -0.7773,
-      "event_count_delta": -56,
-      "event_count_pct_change": -0.4118,
+      "total_laid_off_delta": -46714,
+      "total_laid_off_pct_change": -0.7715,
+      "event_count_delta": -53,
+      "event_count_pct_change": -0.3897,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -14071,
-      "total_laid_off_pct_change": -0.5107,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.0698,
+      "total_laid_off_delta": -13721,
+      "total_laid_off_pct_change": -0.498,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.0349,
       "note": null
     }
   },
@@ -76,12 +76,12 @@
         "total_laid_off": 400
       },
       {
-        "company": "Rapid7",
-        "total_laid_off": 334
+        "company": "Even Healthcare",
+        "total_laid_off": 350
       },
       {
-        "company": "Sprout Social",
-        "total_laid_off": 260
+        "company": "Rapid7",
+        "total_laid_off": 334
       }
     ],
     "industry_top": [
@@ -94,16 +94,16 @@
         "total_laid_off": 1520
       },
       {
+        "industry": "Healthcare",
+        "total_laid_off": 1150
+      },
+      {
         "industry": "Hardware",
         "total_laid_off": 1139
       },
       {
         "industry": "Consumer",
         "total_laid_off": 975
-      },
-      {
-        "industry": "Healthcare",
-        "total_laid_off": 800
       },
       {
         "industry": "Product",
@@ -133,7 +133,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 920
+        "total_laid_off": 1270
       },
       {
         "country": "Israel",
@@ -182,6 +182,10 @@
         "total_laid_off": 427
       },
       {
+        "stage": "Series A",
+        "total_laid_off": 396
+      },
+      {
         "stage": "Series F",
         "total_laid_off": 394
       },
@@ -200,10 +204,6 @@
       {
         "stage": "Series C",
         "total_laid_off": 100
-      },
-      {
-        "stage": "Series B",
-        "total_laid_off": 60
       }
     ],
     "layoff_pct_distribution": [
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "25-49%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "50-99%",
@@ -302,6 +302,16 @@
         "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       },
       {
+        "date": "2026-08-27",
+        "company": "Even Healthcare",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+      },
+      {
         "date": "2026-08-10",
         "company": "Rapid7",
         "num_laid_off": 313,
@@ -320,19 +330,39 @@
         "country": "Ireland",
         "stage": "Acquired",
         "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
-      },
-      {
-        "date": "2026-07-15",
-        "company": "Sprout Social",
-        "num_laid_off": 260,
-        "percentage_laid_off": 0.2,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-27",
+        "company": "Even Healthcare",
+        "num_laid_off": 350,
+        "percentage_laid_off": 0.3,
+        "industry": "Healthcare",
+        "country": "India",
+        "stage": "Series A",
+        "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+      },
+      {
+        "date": "2026-08-26",
+        "company": "PagerDuty",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.15,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
+      },
+      {
+        "date": "2026-08-26",
+        "company": "MonieWorld",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+      },
       {
         "date": "2026-08-24",
         "company": "Minimus",
@@ -375,26 +405,6 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Tiktok",
-        "num_laid_off": 75,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
-      },
-      {
-        "date": "2026-08-19",
         "company": "Vast",
         "num_laid_off": 46,
         "percentage_laid_off": 0.04,
@@ -402,6 +412,16 @@
         "country": "United States",
         "stage": "Series A",
         "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
       },
       {
         "date": "2026-08-19",
@@ -415,23 +435,23 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Qualtrics",
-        "num_laid_off": null,
+        "company": "Tiktok",
+        "num_laid_off": 75,
         "percentage_laid_off": null,
-        "industry": "Other",
+        "industry": "Consumer",
         "country": "United States",
         "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
       },
       {
-        "date": "2026-08-17",
-        "company": "Relay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
+        "date": "2026-08-19",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+        "stage": "Series F",
+        "source": "Internal memo"
       },
       {
         "date": "2026-08-17",
@@ -444,14 +464,14 @@
         "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
       },
       {
-        "date": "2026-08-13",
-        "company": "Netflix",
+        "date": "2026-08-17",
+        "company": "Relay",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Media",
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
         "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-13",
@@ -462,6 +482,16 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+      },
+      {
+        "date": "2026-08-13",
+        "company": "Netflix",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Media",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
       },
       {
         "date": "2026-08-12",
@@ -495,26 +525,6 @@
       },
       {
         "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
-      },
-      {
-        "date": "2026-08-10",
-        "company": "N-able Technologies",
-        "num_laid_off": 120,
-        "percentage_laid_off": 0.06,
-        "industry": "Other",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
-      },
-      {
-        "date": "2026-08-10",
         "company": "Validient",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -522,19 +532,19 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-      },
-      {
-        "date": "2026-08-08",
-        "company": "ClimateAI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-26",
+        "company": "MonieWorld",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+      },
       {
         "date": "2026-08-24",
         "company": "Minimus",
@@ -556,16 +566,6 @@
         "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
       },
       {
-        "date": "2026-08-19",
-        "company": "BlocPower",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-      },
-      {
         "date": "2026-08-17",
         "company": "Relay",
         "num_laid_off": null,
@@ -574,6 +574,16 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
       },
       {
         "date": "2026-08-12",
@@ -596,6 +606,16 @@
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
       },
       {
+        "date": "2026-07-07",
+        "company": "Billion Hearts",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Consumer",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+      },
+      {
         "date": "2026-08-08",
         "company": "ClimateAI",
         "num_laid_off": null,
@@ -614,34 +634,14 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "80 Acres Farms",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
-      },
-      {
-        "date": "2026-08-04",
-        "company": "jalebi.io",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "UAE",
-        "stage": "Seed",
-        "source": "https://jawlah.co/en/61711"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 80 public layoff events and 13,483 reported layoffs.",
+    "2026-Q3 includes 83 public layoff events and 13,833 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Retail with 1,520 reported layoffs.",
-    "21 events report a layoff percentage of 25% or higher."
+    "23 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

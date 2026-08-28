@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-27",
+    "company": "Even Healthcare",
+    "num_laid_off": 350,
+    "percentage_laid_off": 0.3,
+    "industry": "Healthcare",
+    "country": "India",
+    "stage": "Series A",
+    "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+  },
+  {
+    "date": "2026-08-26",
+    "company": "PagerDuty",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.15,
+    "industry": "Product",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
+  },
+  {
+    "date": "2026-08-26",
+    "company": "MonieWorld",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Finance",
+    "country": "Nigeria",
+    "stage": "Unknown",
+    "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+  },
+  {
     "date": "2026-08-24",
     "company": "Minimus",
     "num_laid_off": null,
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
-  },
-  {
-    "date": "2026-08-17",
-    "company": "Pentera",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.14,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Series D",
-    "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
-  },
-  {
-    "date": "2026-08-17",
-    "company": "Relay",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Seed",
-    "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
-  },
-  {
-    "date": "2026-08-13",
-    "company": "Netflix",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Media",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
   }
 ]

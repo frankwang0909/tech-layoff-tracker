@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-08-31",
+    "company": "Zomato",
+    "num_laid_off": 250,
+    "percentage_laid_off": null,
+    "industry": "Food",
+    "country": "India",
+    "stage": "Series J",
+    "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+  },
+  {
+    "date": "2026-08-31",
+    "company": "Satvacart",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Food",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+  },
+  {
+    "date": "2026-08-31",
+    "company": "PayPal",
+    "num_laid_off": 164,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Ireland",
+    "stage": "Post-IPO",
+    "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+  },
+  {
+    "date": "2026-08-31",
+    "company": "Amazon",
+    "num_laid_off": 121,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+  },
+  {
     "date": "2026-08-27",
     "company": "Even Healthcare",
     "num_laid_off": 350,
@@ -11,16 +51,6 @@
   },
   {
     "date": "2026-08-26",
-    "company": "PagerDuty",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.15,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
-  },
-  {
-    "date": "2026-08-26",
     "company": "MonieWorld",
     "num_laid_off": null,
     "percentage_laid_off": 1.0,
@@ -28,6 +58,16 @@
     "country": "Nigeria",
     "stage": "Unknown",
     "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+  },
+  {
+    "date": "2026-08-26",
+    "company": "PagerDuty",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.15,
+    "industry": "Product",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
   },
   {
     "date": "2026-08-24",
@@ -71,36 +111,6 @@
   },
   {
     "date": "2026-08-19",
-    "company": "Motive",
-    "num_laid_off": 251,
-    "percentage_laid_off": 0.05,
-    "industry": "Transportation",
-    "country": "United States",
-    "stage": "Series F",
-    "source": "Internal memo"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "Tiktok",
-    "num_laid_off": 75,
-    "percentage_laid_off": null,
-    "industry": "Consumer",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "Vast",
-    "num_laid_off": 46,
-    "percentage_laid_off": 0.04,
-    "industry": "Aerospace",
-    "country": "United States",
-    "stage": "Series A",
-    "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
-  },
-  {
-    "date": "2026-08-19",
     "company": "BlocPower",
     "num_laid_off": null,
     "percentage_laid_off": 1.0,
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Unknown",
     "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "Qualtrics",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
   }
 ]

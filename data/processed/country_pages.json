@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-26"
+      "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 206593,
+      "total_laid_off": 201954,
       "event_count": 382,
       "headcount_event_count": 250,
-      "company_count": 291,
+      "company_count": 290,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 59
@@ -86,7 +86,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 26559
+          "total_laid_off": 21799
         },
         {
           "month": "2026-06",
@@ -98,13 +98,13 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 2215
+          "total_laid_off": 2336
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 31451
+          "total_laid_off": 31572
         },
         {
           "company": "Intel",
@@ -139,13 +139,23 @@
           "total_laid_off": 4931
         },
         {
-          "company": "PayPal",
-          "total_laid_off": 4760
+          "company": "Cisco",
+          "total_laid_off": 4221
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-31",
+          "company": "Amazon",
+          "num_laid_off": 121,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+        },
         {
           "date": "2026-08-26",
           "company": "PagerDuty",
@@ -285,20 +295,10 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
-        },
-        {
-          "date": "2026-08-07",
-          "company": "Salesforce",
-          "num_laid_off": 133,
-          "percentage_laid_off": null,
-          "industry": "Sales",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
         }
       ]
     },
-    "summary": "United States has 206,593 reported tech layoffs across 382 public events from 2025-01-02 to 2026-08-26."
+    "summary": "United States has 201,954 reported tech layoffs across 382 public events from 2025-01-02 to 2026-08-31."
   },
   {
     "type": "country",
@@ -308,16 +308,16 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-08-27"
+      "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 10730,
-      "event_count": 59,
-      "headcount_event_count": 45,
-      "company_count": 50,
+      "total_laid_off": 10980,
+      "event_count": 61,
+      "headcount_event_count": 46,
+      "company_count": 51,
       "country_count": 1,
       "industry_count": 16,
-      "high_intensity_event_count": 23
+      "high_intensity_event_count": 24
     },
     "charts": {
       "monthly_trend": [
@@ -391,7 +391,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 350
+          "total_laid_off": 600
         }
       ],
       "company_top": [
@@ -404,12 +404,12 @@
           "total_laid_off": 1000
         },
         {
-          "company": "CorroHealth",
-          "total_laid_off": 800
+          "company": "Zomato",
+          "total_laid_off": 850
         },
         {
-          "company": "Zomato",
-          "total_laid_off": 600
+          "company": "CorroHealth",
+          "total_laid_off": 800
         },
         {
           "company": "Games 24x7",
@@ -439,6 +439,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-31",
+          "company": "Zomato",
+          "num_laid_off": 250,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Series J",
+          "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+        },
+        {
+          "date": "2026-08-31",
+          "company": "Satvacart",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+        },
         {
           "date": "2026-08-27",
           "company": "Even Healthcare",
@@ -568,30 +588,10 @@
           "country": "India",
           "stage": "Series C",
           "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
-        },
-        {
-          "date": "2026-04-20",
-          "company": "Acko",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.05,
-          "industry": "Finance",
-          "country": "India",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
-        },
-        {
-          "date": "2026-04-03",
-          "company": "NeuroPixel.AI",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Retail",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
         }
       ]
     },
-    "summary": "India has 10,730 reported tech layoffs across 59 public events from 2025-01-15 to 2026-08-27."
+    "summary": "India has 10,980 reported tech layoffs across 61 public events from 2025-01-15 to 2026-08-31."
   },
   {
     "type": "country",
@@ -2217,15 +2217,15 @@
     "canonical_url": "/countries/ireland.html",
     "date_range": {
       "start": "2025-03-06",
-      "end": "2026-07-01"
+      "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 600,
-      "event_count": 4,
-      "headcount_event_count": 2,
-      "company_count": 2,
+      "total_laid_off": 764,
+      "event_count": 5,
+      "headcount_event_count": 3,
+      "company_count": 3,
       "country_count": 1,
-      "industry_count": 2,
+      "industry_count": 3,
       "high_intensity_event_count": 0
     },
     "charts": {
@@ -2237,17 +2237,35 @@
         {
           "month": "2026-07",
           "total_laid_off": 300
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 164
         }
       ],
       "company_top": [
         {
           "company": "TikTok",
           "total_laid_off": 600
+        },
+        {
+          "company": "PayPal",
+          "total_laid_off": 164
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-31",
+          "company": "PayPal",
+          "num_laid_off": 164,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Ireland",
+          "stage": "Post-IPO",
+          "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+        },
         {
           "date": "2026-07-01",
           "company": "TikTok",
@@ -2290,7 +2308,7 @@
         }
       ]
     },
-    "summary": "Ireland has 600 reported tech layoffs across 4 public events from 2025-03-06 to 2026-07-01."
+    "summary": "Ireland has 764 reported tech layoffs across 5 public events from 2025-03-06 to 2026-08-31."
   },
   {
     "type": "country",

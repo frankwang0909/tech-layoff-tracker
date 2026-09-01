@@ -1,0 +1,219 @@
+{
+  "report_type": "daily",
+  "period": "2026-08-31",
+  "status": "final",
+  "date_range": {
+    "start": "2026-08-31",
+    "end": "2026-08-31"
+  },
+  "updated_at": "2026-08-31",
+  "canonical_url": "/reports/daily/2026-08-31.html",
+  "kpis": {
+    "total_laid_off": 535,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 178.33,
+    "median_layoffs_per_headcount_event": 164.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-08-30",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2025-08-31",
+      "total_laid_off": 4000,
+      "event_count": 1,
+      "total_laid_off_delta": -3465,
+      "total_laid_off_pct_change": -0.8662,
+      "event_count_delta": 3,
+      "event_count_pct_change": 3.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Zomato",
+        "total_laid_off": 250
+      },
+      {
+        "company": "PayPal",
+        "total_laid_off": 164
+      },
+      {
+        "company": "Amazon",
+        "total_laid_off": 121
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Food",
+        "total_laid_off": 250
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 164
+      },
+      {
+        "industry": "Retail",
+        "total_laid_off": 121
+      }
+    ],
+    "country_top": [
+      {
+        "country": "India",
+        "total_laid_off": 250
+      },
+      {
+        "country": "Ireland",
+        "total_laid_off": 164
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 121
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 285
+      },
+      {
+        "stage": "Series J",
+        "total_laid_off": 250
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "PayPal",
+        "num_laid_off": 164,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Amazon",
+        "num_laid_off": 121,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "PayPal",
+        "num_laid_off": 164,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Amazon",
+        "num_laid_off": 121,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Satvacart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-08-31",
+        "company": "Satvacart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-08-31 includes 4 public layoff events and 535 reported layoffs.",
+    "The largest company contributor is Zomato with 250 reported layoffs.",
+    "The leading named industry is Food with 250 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

@@ -1,4 +1,8 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Zomato,"Hyderabad, Non-U.S.",250.0,2026-08-31,,Food,https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms,Series J,914.0,India,2026-08-31T23:07:44.000Z
+PayPal,"Dublin, Non-U.S.",164.0,2026-08-31,,Finance,https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/,Post-IPO,216.0,Ireland,2026-08-31T23:14:33.000Z
+Amazon,Seattle,121.0,2026-08-31,,Retail,https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/,Post-IPO,8100.0,United States,2026-08-31T23:08:23.000Z
+Satvacart,"Gurugram, Non-U.S.",,2026-08-31,1.0,Food,https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/,Seed,2.0,India,2026-08-31T23:11:56.000Z
 Even Healthcare,"Bengaluru, Non-U.S.",350.0,2026-08-27,0.3,Healthcare,https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475,Series A,91.0,India,2026-08-28T02:33:59.000Z
 MonieWorld,"Lagos, Non-U.S.",,2026-08-26,1.0,Finance,https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/,Unknown,,Nigeria,2026-08-28T02:36:50.000Z
 PagerDuty,SF Bay Area,,2026-08-26,0.15,Product,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf,Post-IPO,173.0,United States,2026-08-28T02:32:55.000Z
@@ -176,7 +180,6 @@ Pocket FM,"Bengaluru, Non-U.S.",100.0,2026-05-06,0.1,Media,https://entrackr.com/
 LSports,"Tel Aviv, Non-U.S.",40.0,2026-05-06,0.2,Data,https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/,Unknown,,Israel,2026-05-11T01:53:56.000Z
 ApnaMart,"Bengaluru, Non-U.S.",35.0,2026-05-06,0.1,Food,https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807,Series B,40.0,India,2026-05-06T16:02:20.000Z
 reAlpha,Columbus,,2026-05-06,0.25,Real Estate,https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751,Post-IPO,229.0,United States,2026-05-10T13:56:31.000Z
-PayPal,SF Bay Area,4760.0,2026-05-05,0.2,Finance,https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9,Post-IPO,216.0,United States,2026-05-06T16:03:28.000Z
 Coinbase,SF Bay Area,700.0,2026-05-05,0.14,Crypto,https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/,Post-IPO,549.0,United States,2026-05-05T15:51:36.000Z
 Freshworks,SF Bay Area,500.0,2026-05-05,0.11,Support,https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/,Post-IPO,484.0,United States,2026-05-06T15:59:37.000Z
 0G,SF Bay Area,,2026-05-05,0.25,Crypto,https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5,Unknown,,United States,2026-05-07T21:09:20.000Z

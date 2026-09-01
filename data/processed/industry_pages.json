@@ -284,12 +284,12 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-08-05"
+      "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 36247,
-      "event_count": 46,
-      "headcount_event_count": 29,
+      "total_laid_off": 36368,
+      "event_count": 47,
+      "headcount_event_count": 30,
       "company_count": 31,
       "country_count": 11,
       "industry_count": 1,
@@ -355,13 +355,13 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 220
+          "total_laid_off": 341
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 31451
+          "total_laid_off": 31572
         },
         {
           "company": "Wayfair",
@@ -403,6 +403,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-31",
+          "company": "Amazon",
+          "num_laid_off": 121,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+        },
         {
           "date": "2026-08-05",
           "company": "Etsy",
@@ -542,20 +552,10 @@
           "country": "Canada",
           "stage": "Series A",
           "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
-        },
-        {
-          "date": "2026-03-04",
-          "company": "Amazon",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html"
         }
       ]
     },
-    "summary": "Retail has 36,247 reported tech layoffs across 46 public events from 2025-01-10 to 2026-08-05."
+    "summary": "Retail has 36,368 reported tech layoffs across 47 public events from 2025-01-10 to 2026-08-31."
   },
   {
     "type": "industry",
@@ -862,14 +862,14 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-26"
+      "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 18812,
+      "total_laid_off": 14216,
       "event_count": 61,
       "headcount_event_count": 38,
       "company_count": 54,
-      "country_count": 9,
+      "country_count": 10,
       "industry_count": 1,
       "high_intensity_event_count": 18
     },
@@ -933,7 +933,7 @@
         },
         {
           "month": "2026-05",
-          "total_laid_off": 8586
+          "total_laid_off": 3826
         },
         {
           "month": "2026-06",
@@ -942,16 +942,16 @@
         {
           "month": "2026-07",
           "total_laid_off": 250
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 164
         }
       ],
       "company_top": [
         {
           "company": "Block",
           "total_laid_off": 4931
-        },
-        {
-          "company": "PayPal",
-          "total_laid_off": 4760
         },
         {
           "company": "Intuit",
@@ -966,29 +966,43 @@
           "total_laid_off": 700
         },
         {
-          "company": "Paytm",
-          "total_laid_off": 400
-        },
-        {
           "company": "Stone",
           "total_laid_off": 400
         },
         {
-          "company": "Stripe",
-          "total_laid_off": 300
+          "company": "Paytm",
+          "total_laid_off": 400
         },
         {
           "company": "Wise",
           "total_laid_off": 300
         },
         {
+          "company": "Stripe",
+          "total_laid_off": 300
+        },
+        {
           "company": "Robinhood",
           "total_laid_off": 290
+        },
+        {
+          "company": "Yolo Group",
+          "total_laid_off": 280
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-31",
+          "company": "PayPal",
+          "num_laid_off": 164,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Ireland",
+          "stage": "Post-IPO",
+          "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+        },
         {
           "date": "2026-08-26",
           "company": "MonieWorld",
@@ -1120,16 +1134,6 @@
           "source": "https://www.bill.com/blog/a-message-to-bill-employees"
         },
         {
-          "date": "2026-05-05",
-          "company": "PayPal",
-          "num_laid_off": 4760,
-          "percentage_laid_off": 0.2,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-        },
-        {
           "date": "2026-04-20",
           "company": "Acko",
           "num_laid_off": 60,
@@ -1141,7 +1145,7 @@
         }
       ]
     },
-    "summary": "Finance has 18,812 reported tech layoffs across 61 public events from 2025-01-02 to 2026-08-26."
+    "summary": "Finance has 14,216 reported tech layoffs across 61 public events from 2025-01-02 to 2026-08-31."
   },
   {
     "type": "industry",
@@ -2571,16 +2575,16 @@
     "canonical_url": "/industries/food.html",
     "date_range": {
       "start": "2025-02-19",
-      "end": "2026-08-04"
+      "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 3710,
-      "event_count": 20,
-      "headcount_event_count": 14,
-      "company_count": 20,
+      "total_laid_off": 3960,
+      "event_count": 22,
+      "headcount_event_count": 15,
+      "company_count": 21,
       "country_count": 10,
       "industry_count": 1,
-      "high_intensity_event_count": 7
+      "high_intensity_event_count": 8
     },
     "charts": {
       "monthly_trend": [
@@ -2623,6 +2627,10 @@
         {
           "month": "2026-06",
           "total_laid_off": 10
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 250
         }
       ],
       "company_top": [
@@ -2632,7 +2640,7 @@
         },
         {
           "company": "Zomato",
-          "total_laid_off": 600
+          "total_laid_off": 850
         },
         {
           "company": "Grubhub",
@@ -2670,6 +2678,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-08-31",
+          "company": "Zomato",
+          "num_laid_off": 250,
+          "percentage_laid_off": null,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Series J",
+          "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+        },
+        {
+          "date": "2026-08-31",
+          "company": "Satvacart",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "India",
+          "stage": "Seed",
+          "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+        },
         {
           "date": "2026-08-04",
           "company": "80 Acres Farms",
@@ -2799,30 +2827,10 @@
           "country": "India",
           "stage": "Series A",
           "source": "https://inc42.com/buzz/agritech-startup-bharatagri-shuts-operations-due-to-funding-crunch/"
-        },
-        {
-          "date": "2025-09-25",
-          "company": "Just Eat",
-          "num_laid_off": 450,
-          "percentage_laid_off": 0.05,
-          "industry": "Food",
-          "country": "Netherlands",
-          "stage": "Acquired",
-          "source": "https://www.reuters.com/business/world-at-work/just-eat-lay-off-around-450-employees-partly-automating-operations-2025-09-25/"
-        },
-        {
-          "date": "2025-08-14",
-          "company": "Restaurant365",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.09,
-          "industry": "Food",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://www.restaurantbusinessonline.com/technology/tech-supplier-restaurant365-lays-9-staff"
         }
       ]
     },
-    "summary": "Food has 3,710 reported tech layoffs across 20 public events from 2025-02-19 to 2026-08-04."
+    "summary": "Food has 3,960 reported tech layoffs across 22 public events from 2025-02-19 to 2026-08-31."
   },
   {
     "type": "industry",

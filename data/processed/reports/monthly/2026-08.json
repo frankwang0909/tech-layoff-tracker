@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-08-01",
-    "end": "2026-08-27"
+    "end": "2026-08-31"
   },
-  "updated_at": "2026-08-27",
+  "updated_at": "2026-08-31",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 2833,
-    "event_count": 37,
-    "headcount_event_count": 18,
-    "company_count": 37,
-    "country_count": 8,
+    "total_laid_off": 3368,
+    "event_count": 41,
+    "headcount_event_count": 21,
+    "company_count": 41,
+    "country_count": 9,
     "industry_count": 22,
-    "average_layoffs_per_headcount_event": 157.39,
-    "median_layoffs_per_headcount_event": 109.0,
-    "high_intensity_event_count": 12
+    "average_layoffs_per_headcount_event": 160.38,
+    "median_layoffs_per_headcount_event": 121.0,
+    "high_intensity_event_count": 13
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -8167,
-      "total_laid_off_pct_change": -0.7425,
-      "event_count_delta": -9,
-      "event_count_pct_change": -0.1957,
+      "total_laid_off_delta": -7632,
+      "total_laid_off_pct_change": -0.6938,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.1087,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -3619,
-      "total_laid_off_pct_change": -0.5609,
-      "event_count_delta": 11,
-      "event_count_pct_change": 0.4231,
+      "total_laid_off_delta": -3084,
+      "total_laid_off_pct_change": -0.478,
+      "event_count_delta": 15,
+      "event_count_pct_change": 0.5769,
       "note": null
     }
   },
@@ -60,6 +60,10 @@
         "total_laid_off": 251
       },
       {
+        "company": "Zomato",
+        "total_laid_off": 250
+      },
+      {
         "company": "TikTok",
         "total_laid_off": 250
       },
@@ -72,16 +76,12 @@
         "total_laid_off": 200
       },
       {
+        "company": "PayPal",
+        "total_laid_off": 164
+      },
+      {
         "company": "Salesforce",
         "total_laid_off": 133
-      },
-      {
-        "company": "N-able Technologies",
-        "total_laid_off": 120
-      },
-      {
-        "company": "Infineon",
-        "total_laid_off": 98
       }
     ],
     "industry_top": [
@@ -102,38 +102,42 @@
         "total_laid_off": 350
       },
       {
+        "industry": "Retail",
+        "total_laid_off": 341
+      },
+      {
         "industry": "Transportation",
         "total_laid_off": 251
       },
       {
-        "industry": "Retail",
-        "total_laid_off": 220
+        "industry": "Food",
+        "total_laid_off": 250
       },
       {
         "industry": "Hardware",
         "total_laid_off": 200
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 164
+      },
+      {
         "industry": "Sales",
         "total_laid_off": 133
-      },
-      {
-        "industry": "Other",
-        "total_laid_off": 120
-      },
-      {
-        "industry": "Manufacturing",
-        "total_laid_off": 98
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2215
+        "total_laid_off": 2336
       },
       {
         "country": "India",
-        "total_laid_off": 350
+        "total_laid_off": 600
+      },
+      {
+        "country": "Ireland",
+        "total_laid_off": 164
       },
       {
         "country": "Canada",
@@ -151,7 +155,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 1636
+        "total_laid_off": 1921
       },
       {
         "stage": "Series A",
@@ -164,6 +168,10 @@
       {
         "stage": "Series F",
         "total_laid_off": 301
+      },
+      {
+        "stage": "Series J",
+        "total_laid_off": 250
       },
       {
         "stage": "Unknown",
@@ -240,6 +248,16 @@
         "source": "Internal memo"
       },
       {
+        "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+      },
+      {
         "date": "2026-08-06",
         "company": "TikTok",
         "num_laid_off": 250,
@@ -270,6 +288,16 @@
         "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
       },
       {
+        "date": "2026-08-31",
+        "company": "PayPal",
+        "num_laid_off": 164,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+      },
+      {
         "date": "2026-08-07",
         "company": "Salesforce",
         "num_laid_off": 133,
@@ -278,29 +306,49 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
-      },
-      {
-        "date": "2026-08-10",
-        "company": "N-able Technologies",
-        "num_laid_off": 120,
-        "percentage_laid_off": 0.06,
-        "industry": "Other",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
-      },
-      {
-        "date": "2026-08-06",
-        "company": "Infineon",
-        "num_laid_off": 98,
-        "percentage_laid_off": null,
-        "industry": "Manufacturing",
-        "country": "Germany",
-        "stage": "Post-IPO",
-        "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Satvacart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "PayPal",
+        "num_laid_off": 164,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Amazon",
+        "num_laid_off": 121,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+      },
       {
         "date": "2026-08-27",
         "company": "Even Healthcare",
@@ -373,23 +421,13 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Qualtrics",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "BlocPower",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+        "stage": "Series F",
+        "source": "Internal memo"
       },
       {
         "date": "2026-08-19",
@@ -403,6 +441,26 @@
       },
       {
         "date": "2026-08-19",
+        "company": "BlocPower",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+      },
+      {
+        "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Tiktok",
         "num_laid_off": 75,
         "percentage_laid_off": null,
@@ -410,16 +468,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
       },
       {
         "date": "2026-08-17",
@@ -460,49 +508,19 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
-      },
-      {
-        "date": "2026-08-12",
-        "company": "Bitwise",
-        "num_laid_off": 25,
-        "percentage_laid_off": 0.14,
-        "industry": "Crypto",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
-      },
-      {
-        "date": "2026-08-12",
-        "company": "Convictional",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Canada",
-        "stage": "Series B",
-        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
-      },
-      {
-        "date": "2026-08-11",
-        "company": "LinkedIn",
-        "num_laid_off": 50,
-        "percentage_laid_off": null,
-        "industry": "Recruiting",
-        "country": "Israel",
-        "stage": "Acquired",
-        "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
-      },
-      {
-        "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-08-31",
+        "company": "Satvacart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+      },
       {
         "date": "2026-08-26",
         "company": "MonieWorld",
@@ -592,24 +610,14 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
-      },
-      {
-        "date": "2026-08-05",
-        "company": "Proof of Play",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
       }
     ]
   },
   "insights": [
-    "2026-08 includes 37 public layoff events and 2,833 reported layoffs.",
+    "2026-08 includes 41 public layoff events and 3,368 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
-    "12 events report a layoff percentage of 25% or higher."
+    "13 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

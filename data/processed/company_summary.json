@@ -1,7 +1,7 @@
 [
   {
     "company": "Amazon",
-    "total_laid_off": 31451
+    "total_laid_off": 31572
   },
   {
     "company": "Intel",
@@ -36,10 +36,6 @@
     "total_laid_off": 4931
   },
   {
-    "company": "PayPal",
-    "total_laid_off": 4760
-  },
-  {
     "company": "Cisco",
     "total_laid_off": 4221
   },
@@ -58,5 +54,9 @@
   {
     "company": "Autodesk",
     "total_laid_off": 2350
+  },
+  {
+    "company": "Workday",
+    "total_laid_off": 2150
   }
 ]

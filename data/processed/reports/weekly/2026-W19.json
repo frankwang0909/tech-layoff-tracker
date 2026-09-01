@@ -6,17 +6,17 @@
     "start": "2026-05-04",
     "end": "2026-05-10"
   },
-  "updated_at": "2026-08-27",
+  "updated_at": "2026-08-31",
   "canonical_url": "/reports/weekly/2026-W19.html",
   "kpis": {
-    "total_laid_off": 10021,
-    "event_count": 21,
-    "headcount_event_count": 17,
-    "company_count": 21,
+    "total_laid_off": 5261,
+    "event_count": 20,
+    "headcount_event_count": 16,
+    "company_count": 20,
     "country_count": 7,
     "industry_count": 15,
-    "average_layoffs_per_headcount_event": 589.47,
-    "median_layoffs_per_headcount_event": 250.0,
+    "average_layoffs_per_headcount_event": 328.81,
+    "median_layoffs_per_headcount_event": 225.0,
     "high_intensity_event_count": 4
   },
   "comparisons": {
@@ -24,29 +24,25 @@
       "period": "2026-W18",
       "total_laid_off": 40,
       "event_count": 1,
-      "total_laid_off_delta": 9981,
-      "total_laid_off_pct_change": 249.525,
-      "event_count_delta": 20,
-      "event_count_pct_change": 20.0,
+      "total_laid_off_delta": 5221,
+      "total_laid_off_pct_change": 130.525,
+      "event_count_delta": 19,
+      "event_count_pct_change": 19.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W19",
       "total_laid_off": 2620,
       "event_count": 6,
-      "total_laid_off_delta": 7401,
-      "total_laid_off_pct_change": 2.8248,
-      "event_count_delta": 15,
-      "event_count_pct_change": 2.5,
+      "total_laid_off_delta": 2641,
+      "total_laid_off_pct_change": 1.008,
+      "event_count_delta": 14,
+      "event_count_pct_change": 2.3333,
       "note": null
     }
   },
   "charts": {
     "company_top": [
-      {
-        "company": "PayPal",
-        "total_laid_off": 4760
-      },
       {
         "company": "Cloudflare",
         "total_laid_off": 1100
@@ -82,16 +78,20 @@
       {
         "company": "Adda247",
         "total_laid_off": 200
+      },
+      {
+        "company": "Staffbase",
+        "total_laid_off": 176
       }
     ],
     "industry_top": [
       {
-        "industry": "Finance",
-        "total_laid_off": 5469
-      },
-      {
         "industry": "Security",
         "total_laid_off": 1350
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 709
       },
       {
         "industry": "Crypto",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 9120
+        "total_laid_off": 4360
       },
       {
         "country": "Germany",
@@ -155,7 +155,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 8620
+        "total_laid_off": 3860
       },
       {
         "stage": "Unknown",
@@ -185,7 +185,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 13
+        "event_count": 12
       },
       {
         "bucket": "25-49%",
@@ -203,16 +203,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2026-05-05",
-        "company": "PayPal",
-        "num_laid_off": 4760,
-        "percentage_laid_off": 0.2,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-      },
       {
         "date": "2026-05-07",
         "company": "Cloudflare",
@@ -274,16 +264,6 @@
         "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
       },
       {
-        "date": "2026-05-06",
-        "company": "Arctic Wolf",
-        "num_laid_off": 250,
-        "percentage_laid_off": 0.1,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
-      },
-      {
         "date": "2026-05-07",
         "company": "DeepL",
         "num_laid_off": 250,
@@ -294,6 +274,16 @@
         "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
       },
       {
+        "date": "2026-05-06",
+        "company": "Arctic Wolf",
+        "num_laid_off": 250,
+        "percentage_laid_off": 0.1,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+      },
+      {
         "date": "2026-05-10",
         "company": "Adda247",
         "num_laid_off": 200,
@@ -302,6 +292,16 @@
         "country": "India",
         "stage": "Series B",
         "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
+      },
+      {
+        "date": "2026-05-08",
+        "company": "Staffbase",
+        "num_laid_off": 176,
+        "percentage_laid_off": 0.22,
+        "industry": "Other",
+        "country": "Germany",
+        "stage": "Series E",
+        "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
       }
     ],
     "recent_events": [
@@ -457,16 +457,6 @@
       },
       {
         "date": "2026-05-05",
-        "company": "PayPal",
-        "num_laid_off": 4760,
-        "percentage_laid_off": 0.2,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9"
-      },
-      {
-        "date": "2026-05-05",
         "company": "Coinbase",
         "num_laid_off": 700,
         "percentage_laid_off": 0.14,
@@ -504,6 +494,16 @@
         "country": "United Arab Emirates",
         "stage": "Acquired",
         "source": "https://en.dailypakistan.com.pk/05-May-2026/careem-layoffs-intensify-after-exit-from-ride-hailing-services-in-pakistan"
+      },
+      {
+        "date": "2026-05-04",
+        "company": "Shopify",
+        "num_laid_off": 30,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
       }
     ],
     "high_intensity_events": [
@@ -550,9 +550,9 @@
     ]
   },
   "insights": [
-    "2026-W19 includes 21 public layoff events and 10,021 reported layoffs.",
-    "The largest company contributor is PayPal with 4,760 reported layoffs.",
-    "The leading named industry is Finance with 5,469 reported layoffs.",
+    "2026-W19 includes 20 public layoff events and 5,261 reported layoffs.",
+    "The largest company contributor is Cloudflare with 1,100 reported layoffs.",
+    "The leading named industry is Security with 1,350 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

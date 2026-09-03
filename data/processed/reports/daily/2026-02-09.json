@@ -6,17 +6,17 @@
     "start": "2026-02-09",
     "end": "2026-02-09"
   },
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "canonical_url": "/reports/daily/2026-02-09.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
+    "total_laid_off": 80,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 80.0,
+    "median_layoffs_per_headcount_event": 80.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -42,10 +42,30 @@
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Riot Games",
+        "total_laid_off": 80
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 80
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 80
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Acquired",
+        "total_laid_off": 80
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-02-09",
+        "company": "Riot Games",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-02-09",
+        "company": "Riot Games",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team"
+      },
       {
         "date": "2026-02-09",
         "company": "Salesforce",
@@ -86,7 +127,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-02-09 includes 1 public layoff events and 0 reported layoffs."
+    "2026-02-09 includes 2 public layoff events and 80 reported layoffs.",
+    "The largest company contributor is Riot Games with 80 reported layoffs.",
+    "The leading named industry is Consumer with 80 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -6,16 +6,16 @@
     "start": "2026-02-09",
     "end": "2026-02-15"
   },
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "canonical_url": "/reports/weekly/2026-W07.html",
   "kpis": {
-    "total_laid_off": 216,
-    "event_count": 8,
-    "headcount_event_count": 4,
-    "company_count": 8,
+    "total_laid_off": 296,
+    "event_count": 9,
+    "headcount_event_count": 5,
+    "company_count": 9,
     "country_count": 4,
-    "industry_count": 7,
-    "average_layoffs_per_headcount_event": 54.0,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 59.2,
     "median_layoffs_per_headcount_event": 50.0,
     "high_intensity_event_count": 2
   },
@@ -24,25 +24,29 @@
       "period": "2026-W06",
       "total_laid_off": 836,
       "event_count": 5,
-      "total_laid_off_delta": -620,
-      "total_laid_off_pct_change": -0.7416,
-      "event_count_delta": 3,
-      "event_count_pct_change": 0.6,
+      "total_laid_off_delta": -540,
+      "total_laid_off_pct_change": -0.6459,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.8,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W07",
       "total_laid_off": 6020,
       "event_count": 12,
-      "total_laid_off_delta": -5804,
-      "total_laid_off_pct_change": -0.9641,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.3333,
+      "total_laid_off_delta": -5724,
+      "total_laid_off_pct_change": -0.9508,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.25,
       "note": null
     }
   },
   "charts": {
     "company_top": [
+      {
+        "company": "Riot Games",
+        "total_laid_off": 80
+      },
       {
         "company": "Clari",
         "total_laid_off": 76
@@ -61,6 +65,10 @@
       }
     ],
     "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 80
+      },
       {
         "industry": "Sales",
         "total_laid_off": 76
@@ -81,7 +89,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 166
+        "total_laid_off": 246
       },
       {
         "country": "Israel",
@@ -90,12 +98,12 @@
     ],
     "stage_top": [
       {
-        "stage": "Series E",
-        "total_laid_off": 90
+        "stage": "Acquired",
+        "total_laid_off": 156
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 76
+        "stage": "Series E",
+        "total_laid_off": 90
       },
       {
         "stage": "Unknown",
@@ -127,6 +135,16 @@
   },
   "tables": {
     "largest_events": [
+      {
+        "date": "2026-02-09",
+        "company": "Riot Games",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team"
+      },
       {
         "date": "2026-02-12",
         "company": "Clari",
@@ -241,6 +259,16 @@
       },
       {
         "date": "2026-02-09",
+        "company": "Riot Games",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team"
+      },
+      {
+        "date": "2026-02-09",
         "company": "Salesforce",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -274,9 +302,9 @@
     ]
   },
   "insights": [
-    "2026-W07 includes 8 public layoff events and 216 reported layoffs.",
-    "The largest company contributor is Clari with 76 reported layoffs.",
-    "The leading named industry is Sales with 76 reported layoffs.",
+    "2026-W07 includes 9 public layoff events and 296 reported layoffs.",
+    "The largest company contributor is Riot Games with 80 reported layoffs.",
+    "The leading named industry is Consumer with 80 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

@@ -1,7 +1,7 @@
 [
   {
     "industry": "Other",
-    "total_laid_off": 53188
+    "total_laid_off": 53316
   },
   {
     "industry": "Hardware",
@@ -9,23 +9,23 @@
   },
   {
     "industry": "Retail",
-    "total_laid_off": 36368
+    "total_laid_off": 36516
   },
   {
     "industry": "Consumer",
-    "total_laid_off": 27228
+    "total_laid_off": 27308
   },
   {
     "industry": "Finance",
-    "total_laid_off": 14216
+    "total_laid_off": 15891
+  },
+  {
+    "industry": "Transportation",
+    "total_laid_off": 9535
   },
   {
     "industry": "Sales",
     "total_laid_off": 6854
-  },
-  {
-    "industry": "Transportation",
-    "total_laid_off": 6235
   },
   {
     "industry": "HR",

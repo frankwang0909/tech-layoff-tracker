@@ -6,17 +6,17 @@
     "start": "2026-02-01",
     "end": "2026-02-28"
   },
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "canonical_url": "/reports/monthly/2026-02.html",
   "kpis": {
-    "total_laid_off": 11269,
-    "event_count": 28,
-    "headcount_event_count": 19,
-    "company_count": 28,
+    "total_laid_off": 11349,
+    "event_count": 29,
+    "headcount_event_count": 20,
+    "company_count": 29,
     "country_count": 8,
     "industry_count": 16,
-    "average_layoffs_per_headcount_event": 593.11,
-    "median_layoffs_per_headcount_event": 200.0,
+    "average_layoffs_per_headcount_event": 567.45,
+    "median_layoffs_per_headcount_event": 193.5,
     "high_intensity_event_count": 7
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-01",
       "total_laid_off": 25183,
       "event_count": 32,
-      "total_laid_off_delta": -13914,
-      "total_laid_off_pct_change": -0.5525,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.125,
+      "total_laid_off_delta": -13834,
+      "total_laid_off_pct_change": -0.5493,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.0938,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-02",
       "total_laid_off": 16474,
       "event_count": 51,
-      "total_laid_off_delta": -5205,
-      "total_laid_off_pct_change": -0.316,
-      "event_count_delta": -23,
-      "event_count_pct_change": -0.451,
+      "total_laid_off_delta": -5125,
+      "total_laid_off_pct_change": -0.3111,
+      "event_count_delta": -22,
+      "event_count_pct_change": -0.4314,
       "note": null
     }
   },
@@ -52,11 +52,11 @@
         "total_laid_off": 2000
       },
       {
-        "company": "Livspace",
+        "company": "Ocado",
         "total_laid_off": 1000
       },
       {
-        "company": "Ocado",
+        "company": "Livspace",
         "total_laid_off": 1000
       },
       {
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 1000
+        "total_laid_off": 1080
       },
       {
         "industry": "Retail",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 5872
+        "total_laid_off": 5952
       },
       {
         "country": "Australia",
@@ -163,7 +163,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 812
+        "total_laid_off": 892
       },
       {
         "stage": "Series E",
@@ -220,16 +220,6 @@
         "source": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding"
       },
       {
-        "date": "2026-02-26",
-        "company": "Ocado",
-        "num_laid_off": 1000,
-        "percentage_laid_off": 0.05,
-        "industry": "Food",
-        "country": "United Kingdom",
-        "stage": "Post-IPO",
-        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
-      },
-      {
         "date": "2026-02-20",
         "company": "Livspace",
         "num_laid_off": 1000,
@@ -238,6 +228,16 @@
         "country": "India",
         "stage": "Series F",
         "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+      },
+      {
+        "date": "2026-02-26",
+        "company": "Ocado",
+        "num_laid_off": 1000,
+        "percentage_laid_off": 0.05,
+        "industry": "Food",
+        "country": "United Kingdom",
+        "stage": "Post-IPO",
+        "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
       },
       {
         "date": "2026-02-26",
@@ -576,7 +576,7 @@
     ]
   },
   "insights": [
-    "2026-02 includes 28 public layoff events and 11,269 reported layoffs.",
+    "2026-02 includes 29 public layoff events and 11,349 reported layoffs.",
     "The largest company contributor is Block with 4,000 reported layoffs.",
     "The leading named industry is Finance with 4,360 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

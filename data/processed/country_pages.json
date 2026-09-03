@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-31"
+      "end": "2026-09-02"
     },
     "kpis": {
-      "total_laid_off": 201954,
-      "event_count": 382,
-      "headcount_event_count": 250,
-      "company_count": 290,
+      "total_laid_off": 205610,
+      "event_count": 386,
+      "headcount_event_count": 254,
+      "company_count": 291,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 59
@@ -74,7 +74,7 @@
         },
         {
           "month": "2026-02",
-          "total_laid_off": 5872
+          "total_laid_off": 5952
         },
         {
           "month": "2026-03",
@@ -99,12 +99,16 @@
         {
           "month": "2026-08",
           "total_laid_off": 2336
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 3576
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 31572
+          "total_laid_off": 31720
         },
         {
           "company": "Intel",
@@ -146,6 +150,36 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-02",
+          "company": "Uber",
+          "num_laid_off": 3300,
+          "percentage_laid_off": 0.1,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+        },
+        {
+          "date": "2026-09-01",
+          "company": "Synopsys",
+          "num_laid_off": 128,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+        },
+        {
+          "date": "2026-09-01",
+          "company": "Amazon",
+          "num_laid_off": 148,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+        },
         {
           "date": "2026-08-31",
           "company": "Amazon",
@@ -248,16 +282,6 @@
         },
         {
           "date": "2026-08-13",
-          "company": "Anaconda",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.14,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
-        },
-        {
-          "date": "2026-08-13",
           "company": "Netflix",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -267,38 +291,18 @@
           "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
         },
         {
-          "date": "2026-08-12",
-          "company": "Bitwise",
-          "num_laid_off": 25,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
-        },
-        {
-          "date": "2026-08-10",
-          "company": "Rapid7",
-          "num_laid_off": 313,
-          "percentage_laid_off": 0.12,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
-        },
-        {
-          "date": "2026-08-08",
-          "company": "ClimateAI",
+          "date": "2026-08-13",
+          "company": "Anaconda",
           "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Other",
+          "percentage_laid_off": 0.14,
+          "industry": "Data",
           "country": "United States",
-          "stage": "Series B",
-          "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+          "stage": "Series C",
+          "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
         }
       ]
     },
-    "summary": "United States has 201,954 reported tech layoffs across 382 public events from 2025-01-02 to 2026-08-31."
+    "summary": "United States has 205,610 reported tech layoffs across 386 public events from 2025-01-02 to 2026-09-02."
   },
   {
     "type": "country",
@@ -308,13 +312,13 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-08-31"
+      "end": "2026-09-02"
     },
     "kpis": {
-      "total_laid_off": 10980,
-      "event_count": 61,
-      "headcount_event_count": 46,
-      "company_count": 51,
+      "total_laid_off": 12655,
+      "event_count": 62,
+      "headcount_event_count": 47,
+      "company_count": 52,
       "country_count": 1,
       "industry_count": 16,
       "high_intensity_event_count": 24
@@ -392,9 +396,17 @@
         {
           "month": "2026-08",
           "total_laid_off": 600
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 1675
         }
       ],
       "company_top": [
+        {
+          "company": "PayPal",
+          "total_laid_off": 1675
+        },
         {
           "company": "Livspace",
           "total_laid_off": 1000
@@ -430,15 +442,21 @@
         {
           "company": "GamesKraft",
           "total_laid_off": 400
-        },
-        {
-          "company": "Zupee",
-          "total_laid_off": 370
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-02",
+          "company": "PayPal",
+          "num_laid_off": 1675,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Post-IPO",
+          "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+        },
         {
           "date": "2026-08-31",
           "company": "Zomato",
@@ -578,20 +596,10 @@
           "country": "India",
           "stage": "Series B",
           "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
-        },
-        {
-          "date": "2026-04-24",
-          "company": "SuperOps",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.3,
-          "industry": "Other",
-          "country": "India",
-          "stage": "Series C",
-          "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
         }
       ]
     },
-    "summary": "India has 10,980 reported tech layoffs across 61 public events from 2025-01-15 to 2026-08-31."
+    "summary": "India has 12,655 reported tech layoffs across 62 public events from 2025-01-15 to 2026-09-02."
   },
   {
     "type": "country",

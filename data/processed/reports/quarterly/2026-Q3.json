@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-08-31"
+    "end": "2026-09-02"
   },
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 14368,
-    "event_count": 87,
-    "headcount_event_count": 49,
-    "company_count": 81,
+    "total_laid_off": 19619,
+    "event_count": 91,
+    "headcount_event_count": 53,
+    "company_count": 82,
     "country_count": 16,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 293.22,
-    "median_layoffs_per_headcount_event": 121.0,
+    "average_layoffs_per_headcount_event": 370.17,
+    "median_layoffs_per_headcount_event": 133.0,
     "high_intensity_event_count": 24
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 55787,
       "event_count": 135,
-      "total_laid_off_delta": -41419,
-      "total_laid_off_pct_change": -0.7424,
-      "event_count_delta": -48,
-      "event_count_pct_change": -0.3556,
+      "total_laid_off_delta": -36168,
+      "total_laid_off_pct_change": -0.6483,
+      "event_count_delta": -44,
+      "event_count_pct_change": -0.3259,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -13186,
-      "total_laid_off_pct_change": -0.4786,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.0116,
+      "total_laid_off_delta": -7935,
+      "total_laid_off_pct_change": -0.288,
+      "event_count_delta": 5,
+      "event_count_pct_change": 0.0581,
       "note": null
     }
   },
@@ -48,8 +48,16 @@
         "total_laid_off": 4800
       },
       {
+        "company": "Uber",
+        "total_laid_off": 3300
+      },
+      {
+        "company": "PayPal",
+        "total_laid_off": 1839
+      },
+      {
         "company": "Amazon",
-        "total_laid_off": 1288
+        "total_laid_off": 1436
       },
       {
         "company": "Samsung",
@@ -74,24 +82,24 @@
       {
         "company": "OpenText",
         "total_laid_off": 400
-      },
-      {
-        "company": "Even Healthcare",
-        "total_laid_off": 350
-      },
-      {
-        "company": "Rapid7",
-        "total_laid_off": 334
       }
     ],
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 4920
+        "total_laid_off": 5048
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 3551
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 2089
       },
       {
         "industry": "Retail",
-        "total_laid_off": 1641
+        "total_laid_off": 1789
       },
       {
         "industry": "Healthcare",
@@ -116,24 +124,16 @@
       {
         "industry": "Real Estate",
         "total_laid_off": 500
-      },
-      {
-        "industry": "Finance",
-        "total_laid_off": 414
-      },
-      {
-        "industry": "Security",
-        "total_laid_off": 394
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 10418
+        "total_laid_off": 13994
       },
       {
         "country": "India",
-        "total_laid_off": 1520
+        "total_laid_off": 3195
       },
       {
         "country": "Israel",
@@ -167,7 +167,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 10318
+        "total_laid_off": 15569
       },
       {
         "stage": "Private Equity",
@@ -213,7 +213,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 14
+        "event_count": 15
       },
       {
         "bucket": "25-49%",
@@ -240,6 +240,26 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "Uber",
+        "num_laid_off": 3300,
+        "percentage_laid_off": 0.1,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "PayPal",
+        "num_laid_off": 1675,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
       },
       {
         "date": "2026-07-22",
@@ -310,29 +330,49 @@
         "country": "India",
         "stage": "Series A",
         "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
-      },
-      {
-        "date": "2026-08-10",
-        "company": "Rapid7",
-        "num_laid_off": 313,
-        "percentage_laid_off": 0.12,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
-      },
-      {
-        "date": "2026-07-01",
-        "company": "TikTok",
-        "num_laid_off": 300,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "Ireland",
-        "stage": "Acquired",
-        "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-09-02",
+        "company": "Uber",
+        "num_laid_off": 3300,
+        "percentage_laid_off": 0.1,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "PayPal",
+        "num_laid_off": 1675,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+      },
+      {
+        "date": "2026-09-01",
+        "company": "Amazon",
+        "num_laid_off": 148,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+      },
+      {
+        "date": "2026-09-01",
+        "company": "Synopsys",
+        "num_laid_off": 128,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+      },
       {
         "date": "2026-08-31",
         "company": "Zomato",
@@ -405,16 +445,6 @@
       },
       {
         "date": "2026-08-24",
-        "company": "Minimus",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Security",
-        "country": "Israel",
-        "stage": "Seed",
-        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
-      },
-      {
-        "date": "2026-08-24",
         "company": "SanDisk",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -422,6 +452,16 @@
         "country": "Israel",
         "stage": "Post-IPO",
         "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+      },
+      {
+        "date": "2026-08-24",
+        "company": "Minimus",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
       },
       {
         "date": "2026-08-23",
@@ -492,46 +532,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
-      },
-      {
-        "date": "2026-08-17",
-        "company": "Pentera",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.14,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Series D",
-        "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
-      },
-      {
-        "date": "2026-08-17",
-        "company": "Relay",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Seed",
-        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
-      },
-      {
-        "date": "2026-08-13",
-        "company": "Anaconda",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.14,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Series C",
-        "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
-      },
-      {
-        "date": "2026-08-13",
-        "company": "Netflix",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Media",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
       }
     ],
     "high_intensity_events": [
@@ -638,9 +638,9 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 87 public layoff events and 14,368 reported layoffs.",
+    "2026-Q3 includes 91 public layoff events and 19,619 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
-    "The leading named industry is Retail with 1,641 reported layoffs.",
+    "The leading named industry is Transportation with 3,551 reported layoffs.",
     "24 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [

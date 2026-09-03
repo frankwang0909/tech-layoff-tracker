@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-02",
+    "company": "Uber",
+    "num_laid_off": 3300,
+    "percentage_laid_off": 0.1,
+    "industry": "Transportation",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+  },
+  {
+    "date": "2026-09-02",
+    "company": "PayPal",
+    "num_laid_off": 1675,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "India",
+    "stage": "Post-IPO",
+    "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+  },
+  {
+    "date": "2026-09-01",
+    "company": "Amazon",
+    "num_laid_off": 148,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+  },
+  {
+    "date": "2026-09-01",
+    "company": "Synopsys",
+    "num_laid_off": 128,
+    "percentage_laid_off": null,
+    "industry": "Other",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+  },
+  {
     "date": "2026-08-31",
     "company": "Zomato",
     "num_laid_off": 250,
@@ -8,16 +48,6 @@
     "country": "India",
     "stage": "Series J",
     "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
-  },
-  {
-    "date": "2026-08-31",
-    "company": "Satvacart",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
   },
   {
     "date": "2026-08-31",
@@ -38,6 +68,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+  },
+  {
+    "date": "2026-08-31",
+    "company": "Satvacart",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Food",
+    "country": "India",
+    "stage": "Seed",
+    "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
   },
   {
     "date": "2026-08-27",
@@ -71,16 +111,6 @@
   },
   {
     "date": "2026-08-24",
-    "company": "Minimus",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Security",
-    "country": "Israel",
-    "stage": "Seed",
-    "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
-  },
-  {
-    "date": "2026-08-24",
     "company": "SanDisk",
     "num_laid_off": null,
     "percentage_laid_off": null,
@@ -88,35 +118,5 @@
     "country": "Israel",
     "stage": "Post-IPO",
     "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
-  },
-  {
-    "date": "2026-08-23",
-    "company": "Wi-Charge",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Manufacturing",
-    "country": "Israel",
-    "stage": "Series C",
-    "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
-  },
-  {
-    "date": "2026-08-21",
-    "company": "Apple",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Hardware",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
-  },
-  {
-    "date": "2026-08-19",
-    "company": "BlocPower",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Energy",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
   }
 ]

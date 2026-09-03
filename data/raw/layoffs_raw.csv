@@ -1,4 +1,8 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Uber,SF Bay Area,3300.0,2026-09-02,0.1,Transportation,https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers,Post-IPO,25200.0,United States,2026-09-02T16:45:40.000Z
+PayPal,"Bengaluru, Non-U.S.",1675.0,2026-09-02,,Finance,https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece,Post-IPO,216.0,India,2026-09-02T16:51:52.000Z
+Amazon,SF Bay Area,148.0,2026-09-01,,Retail,https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php,Post-IPO,8100.0,United States,2026-09-02T16:53:22.000Z
+Synopsys,SF Bay Area,128.0,2026-09-01,,Other,https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php,Post-IPO,,United States,2026-09-02T16:53:57.000Z
 Zomato,"Hyderabad, Non-U.S.",250.0,2026-08-31,,Food,https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms,Series J,914.0,India,2026-08-31T23:07:44.000Z
 PayPal,"Dublin, Non-U.S.",164.0,2026-08-31,,Finance,https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/,Post-IPO,216.0,Ireland,2026-08-31T23:14:33.000Z
 Amazon,Seattle,121.0,2026-08-31,,Retail,https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/,Post-IPO,8100.0,United States,2026-08-31T23:08:23.000Z
@@ -277,6 +281,7 @@ Clari,SF Bay Area,76.0,2026-02-12,,Sales,https://www.bizjournals.com/sanjose/new
 Glossier,New York City,50.0,2026-02-11,0.33,Retail,https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/,Series E,266.0,United States,2026-02-13T03:25:10.000Z
 Dayforce,"Toronto, Non-U.S.",,2026-02-11,0.05,HR,Internal memo,Post-IPO,40.0,Canada,2026-02-18T03:34:29.000Z
 Fi.Money,"Bengaluru, Non-U.S.",,2026-02-10,0.4,Finance,https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded,Series C,,India,2026-03-17T23:14:34.000Z
+Riot Games,Los Angeles,80.0,2026-02-09,,Consumer,https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team,Acquired,21.0,United States,2026-09-02T16:49:12.000Z
 Salesforce,SF Bay Area,,2026-02-09,,Sales,https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2,Post-IPO,65.0,United States,2026-02-11T23:31:19.000Z
 Workday,SF Bay Area,400.0,2026-02-04,0.02,HR,https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support,Post-IPO,230.0,United States,2026-02-05T05:09:48.000Z
 Rewire,"Tel Aviv, Non-U.S.",110.0,2026-02-04,,Finance,https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g,Acquired,57.0,Israel,2026-02-18T03:39:03.000Z

@@ -284,12 +284,12 @@
     "canonical_url": "/industries/retail.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-08-31"
+      "end": "2026-09-01"
     },
     "kpis": {
-      "total_laid_off": 36368,
-      "event_count": 47,
-      "headcount_event_count": 30,
+      "total_laid_off": 36516,
+      "event_count": 48,
+      "headcount_event_count": 31,
       "company_count": 31,
       "country_count": 11,
       "industry_count": 1,
@@ -356,12 +356,16 @@
         {
           "month": "2026-08",
           "total_laid_off": 341
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 148
         }
       ],
       "company_top": [
         {
           "company": "Amazon",
-          "total_laid_off": 31572
+          "total_laid_off": 31720
         },
         {
           "company": "Wayfair",
@@ -403,6 +407,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-01",
+          "company": "Amazon",
+          "num_laid_off": 148,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+        },
         {
           "date": "2026-08-31",
           "company": "Amazon",
@@ -542,20 +556,10 @@
           "country": "India",
           "stage": "Acquired",
           "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
-        },
-        {
-          "date": "2026-03-05",
-          "company": "SSense",
-          "num_laid_off": 215,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Series A",
-          "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
         }
       ]
     },
-    "summary": "Retail has 36,368 reported tech layoffs across 47 public events from 2025-01-10 to 2026-08-31."
+    "summary": "Retail has 36,516 reported tech layoffs across 48 public events from 2025-01-10 to 2026-09-01."
   },
   {
     "type": "industry",
@@ -568,10 +572,10 @@
       "end": "2026-08-19"
     },
     "kpis": {
-      "total_laid_off": 27228,
-      "event_count": 86,
-      "headcount_event_count": 58,
-      "company_count": 57,
+      "total_laid_off": 27308,
+      "event_count": 87,
+      "headcount_event_count": 59,
+      "company_count": 58,
       "country_count": 9,
       "industry_count": 1,
       "high_intensity_event_count": 11
@@ -628,7 +632,7 @@
         },
         {
           "month": "2026-02",
-          "total_laid_off": 1000
+          "total_laid_off": 1080
         },
         {
           "month": "2026-03",
@@ -665,11 +669,11 @@
           "total_laid_off": 1290
         },
         {
-          "company": "Snap",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
-          "company": "Livspace",
+          "company": "Snap",
           "total_laid_off": 1000
         },
         {
@@ -852,7 +856,7 @@
         }
       ]
     },
-    "summary": "Consumer has 27,228 reported tech layoffs across 86 public events from 2025-01-27 to 2026-08-19."
+    "summary": "Consumer has 27,308 reported tech layoffs across 87 public events from 2025-01-27 to 2026-08-19."
   },
   {
     "type": "industry",
@@ -862,12 +866,12 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-08-31"
+      "end": "2026-09-02"
     },
     "kpis": {
-      "total_laid_off": 14216,
-      "event_count": 61,
-      "headcount_event_count": 38,
+      "total_laid_off": 15891,
+      "event_count": 62,
+      "headcount_event_count": 39,
       "company_count": 54,
       "country_count": 10,
       "industry_count": 1,
@@ -946,6 +950,10 @@
         {
           "month": "2026-08",
           "total_laid_off": 164
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 1675
         }
       ],
       "company_top": [
@@ -958,6 +966,10 @@
           "total_laid_off": 3000
         },
         {
+          "company": "PayPal",
+          "total_laid_off": 1839
+        },
+        {
           "company": "Bill.com",
           "total_laid_off": 709
         },
@@ -966,33 +978,39 @@
           "total_laid_off": 700
         },
         {
-          "company": "Stone",
-          "total_laid_off": 400
-        },
-        {
           "company": "Paytm",
           "total_laid_off": 400
         },
         {
-          "company": "Wise",
-          "total_laid_off": 300
+          "company": "Stone",
+          "total_laid_off": 400
         },
         {
           "company": "Stripe",
           "total_laid_off": 300
         },
         {
-          "company": "Robinhood",
-          "total_laid_off": 290
+          "company": "Wise",
+          "total_laid_off": 300
         },
         {
-          "company": "Yolo Group",
-          "total_laid_off": 280
+          "company": "Robinhood",
+          "total_laid_off": 290
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-02",
+          "company": "PayPal",
+          "num_laid_off": 1675,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Post-IPO",
+          "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+        },
         {
           "date": "2026-08-31",
           "company": "PayPal",
@@ -1132,20 +1150,291 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bill.com/blog/a-message-to-bill-employees"
-        },
-        {
-          "date": "2026-04-20",
-          "company": "Acko",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.05,
-          "industry": "Finance",
-          "country": "India",
-          "stage": "Unknown",
-          "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
         }
       ]
     },
-    "summary": "Finance has 14,216 reported tech layoffs across 61 public events from 2025-01-02 to 2026-08-31."
+    "summary": "Finance has 15,891 reported tech layoffs across 62 public events from 2025-01-02 to 2026-09-02."
+  },
+  {
+    "type": "industry",
+    "name": "Transportation",
+    "slug": "transportation",
+    "title": "Tech Layoffs by Industry: Transportation",
+    "canonical_url": "/industries/transportation.html",
+    "date_range": {
+      "start": "2025-01-27",
+      "end": "2026-09-02"
+    },
+    "kpis": {
+      "total_laid_off": 9535,
+      "event_count": 32,
+      "headcount_event_count": 20,
+      "company_count": 25,
+      "country_count": 6,
+      "industry_count": 1,
+      "high_intensity_event_count": 9
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 45
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 1040
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 1000
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 350
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 258
+        },
+        {
+          "month": "2025-06",
+          "total_laid_off": 140
+        },
+        {
+          "month": "2025-09",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-10",
+          "total_laid_off": 600
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 29
+        },
+        {
+          "month": "2026-02",
+          "total_laid_off": 226
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 296
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 1600
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 251
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 3300
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Uber",
+          "total_laid_off": 3300
+        },
+        {
+          "company": "Lucid Motors",
+          "total_laid_off": 1500
+        },
+        {
+          "company": "Ola Electric",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Cruise",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Rivian",
+          "total_laid_off": 940
+        },
+        {
+          "company": "Cars24",
+          "total_laid_off": 320
+        },
+        {
+          "company": "Supernal",
+          "total_laid_off": 296
+        },
+        {
+          "company": "Motive",
+          "total_laid_off": 251
+        },
+        {
+          "company": "Mobileye",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Turo",
+          "total_laid_off": 150
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-09-02",
+          "company": "Uber",
+          "num_laid_off": 3300,
+          "percentage_laid_off": 0.1,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+        },
+        {
+          "date": "2026-08-19",
+          "company": "Motive",
+          "num_laid_off": 251,
+          "percentage_laid_off": 0.05,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "Internal memo"
+        },
+        {
+          "date": "2026-07-22",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+        },
+        {
+          "date": "2026-06-22",
+          "company": "Lucid Motors",
+          "num_laid_off": 1500,
+          "percentage_laid_off": 0.18,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+        },
+        {
+          "date": "2026-06-22",
+          "company": "91Trucks",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.7,
+          "industry": "Transportation",
+          "country": "India",
+          "stage": "Series A",
+          "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Rivian",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.02,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+        },
+        {
+          "date": "2026-06-03",
+          "company": "Uber",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.01,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+        },
+        {
+          "date": "2026-05-05",
+          "company": "Careem",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "United Arab Emirates",
+          "stage": "Acquired",
+          "source": "https://en.dailypakistan.com.pk/05-May-2026/careem-layoffs-intensify-after-exit-from-ride-hailing-services-in-pakistan"
+        },
+        {
+          "date": "2026-04-09",
+          "company": "Cars.com",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.11,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
+        },
+        {
+          "date": "2026-03-04",
+          "company": "Supernal",
+          "num_laid_off": 296,
+          "percentage_laid_off": 0.8,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+        },
+        {
+          "date": "2026-02-24",
+          "company": "TrueCar",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.3,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/"
+        },
+        {
+          "date": "2026-02-20",
+          "company": "Lucid Motors",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.12,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/"
+        },
+        {
+          "date": "2026-02-02",
+          "company": "Zipcar",
+          "num_laid_off": 126,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.boston.com/news/business/2026/02/02/zipcar-to-close-seaport-headquarters-cut-more-than-100-jobs/"
+        },
+        {
+          "date": "2026-01-08",
+          "company": "Foretellix",
+          "num_laid_off": 29,
+          "percentage_laid_off": 0.18,
+          "industry": "Transportation",
+          "country": "Israel",
+          "stage": "Series C",
+          "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
+        },
+        {
+          "date": "2025-12-08",
+          "company": "Mobileye",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.04,
+          "industry": "Transportation",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/hjznnzvzzl"
+        }
+      ]
+    },
+    "summary": "Transportation has 9,535 reported tech layoffs across 32 public events from 2025-01-27 to 2026-09-02."
   },
   {
     "type": "industry",
@@ -1407,283 +1696,6 @@
       ]
     },
     "summary": "Sales has 6,854 reported tech layoffs across 18 public events from 2025-02-03 to 2026-08-07."
-  },
-  {
-    "type": "industry",
-    "name": "Transportation",
-    "slug": "transportation",
-    "title": "Tech Layoffs by Industry: Transportation",
-    "canonical_url": "/industries/transportation.html",
-    "date_range": {
-      "start": "2025-01-27",
-      "end": "2026-08-19"
-    },
-    "kpis": {
-      "total_laid_off": 6235,
-      "event_count": 31,
-      "headcount_event_count": 19,
-      "company_count": 25,
-      "country_count": 6,
-      "industry_count": 1,
-      "high_intensity_event_count": 9
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 45
-        },
-        {
-          "month": "2025-02",
-          "total_laid_off": 1040
-        },
-        {
-          "month": "2025-03",
-          "total_laid_off": 1000
-        },
-        {
-          "month": "2025-04",
-          "total_laid_off": 350
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 258
-        },
-        {
-          "month": "2025-06",
-          "total_laid_off": 140
-        },
-        {
-          "month": "2025-09",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-10",
-          "total_laid_off": 600
-        },
-        {
-          "month": "2025-12",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 29
-        },
-        {
-          "month": "2026-02",
-          "total_laid_off": 226
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 296
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 1600
-        },
-        {
-          "month": "2026-08",
-          "total_laid_off": 251
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Lucid Motors",
-          "total_laid_off": 1500
-        },
-        {
-          "company": "Cruise",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Ola Electric",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Rivian",
-          "total_laid_off": 940
-        },
-        {
-          "company": "Cars24",
-          "total_laid_off": 320
-        },
-        {
-          "company": "Supernal",
-          "total_laid_off": 296
-        },
-        {
-          "company": "Motive",
-          "total_laid_off": 251
-        },
-        {
-          "company": "Mobileye",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Turo",
-          "total_laid_off": 150
-        },
-        {
-          "company": "LeddarTech",
-          "total_laid_off": 138
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-08-19",
-          "company": "Motive",
-          "num_laid_off": 251,
-          "percentage_laid_off": 0.05,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "Internal memo"
-        },
-        {
-          "date": "2026-07-22",
-          "company": "Uber",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
-        },
-        {
-          "date": "2026-06-22",
-          "company": "Lucid Motors",
-          "num_laid_off": 1500,
-          "percentage_laid_off": 0.18,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
-        },
-        {
-          "date": "2026-06-22",
-          "company": "91Trucks",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.7,
-          "industry": "Transportation",
-          "country": "India",
-          "stage": "Series A",
-          "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Rivian",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.02,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
-        },
-        {
-          "date": "2026-06-03",
-          "company": "Uber",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.01,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "Careem",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Transportation",
-          "country": "United Arab Emirates",
-          "stage": "Acquired",
-          "source": "https://en.dailypakistan.com.pk/05-May-2026/careem-layoffs-intensify-after-exit-from-ride-hailing-services-in-pakistan"
-        },
-        {
-          "date": "2026-04-09",
-          "company": "Cars.com",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.11,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
-        },
-        {
-          "date": "2026-03-04",
-          "company": "Supernal",
-          "num_laid_off": 296,
-          "percentage_laid_off": 0.8,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
-        },
-        {
-          "date": "2026-02-24",
-          "company": "TrueCar",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.3,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/"
-        },
-        {
-          "date": "2026-02-20",
-          "company": "Lucid Motors",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.12,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/"
-        },
-        {
-          "date": "2026-02-02",
-          "company": "Zipcar",
-          "num_laid_off": 126,
-          "percentage_laid_off": null,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.boston.com/news/business/2026/02/02/zipcar-to-close-seaport-headquarters-cut-more-than-100-jobs/"
-        },
-        {
-          "date": "2026-01-08",
-          "company": "Foretellix",
-          "num_laid_off": 29,
-          "percentage_laid_off": 0.18,
-          "industry": "Transportation",
-          "country": "Israel",
-          "stage": "Series C",
-          "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
-        },
-        {
-          "date": "2025-12-08",
-          "company": "Mobileye",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.04,
-          "industry": "Transportation",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/hjznnzvzzl"
-        },
-        {
-          "date": "2025-11-13",
-          "company": "AI Fleet",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.bizjournals.com/austin/news/2025/11/13/layoffs-hit-at-austin-ai-startup.html"
-        }
-      ]
-    },
-    "summary": "Transportation has 6,235 reported tech layoffs across 31 public events from 2025-01-27 to 2026-08-19."
   },
   {
     "type": "industry",

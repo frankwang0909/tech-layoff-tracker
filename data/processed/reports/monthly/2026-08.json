@@ -6,17 +6,17 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 3368,
+    "total_laid_off": 3485,
     "event_count": 41,
-    "headcount_event_count": 21,
+    "headcount_event_count": 22,
     "company_count": 41,
     "country_count": 9,
     "industry_count": 22,
-    "average_layoffs_per_headcount_event": 160.38,
-    "median_layoffs_per_headcount_event": 121.0,
+    "average_layoffs_per_headcount_event": 158.41,
+    "median_layoffs_per_headcount_event": 120.5,
     "high_intensity_event_count": 13
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -7632,
-      "total_laid_off_pct_change": -0.6938,
+      "total_laid_off_delta": -7515,
+      "total_laid_off_pct_change": -0.6832,
       "event_count_delta": -5,
       "event_count_pct_change": -0.1087,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -3084,
-      "total_laid_off_pct_change": -0.478,
+      "total_laid_off_delta": -2967,
+      "total_laid_off_pct_change": -0.4599,
       "event_count_delta": 15,
       "event_count_pct_change": 0.5769,
       "note": null
@@ -114,22 +114,22 @@
         "total_laid_off": 250
       },
       {
+        "industry": "Other",
+        "total_laid_off": 237
+      },
+      {
         "industry": "Hardware",
         "total_laid_off": 200
       },
       {
         "industry": "Finance",
         "total_laid_off": 164
-      },
-      {
-        "industry": "Sales",
-        "total_laid_off": 133
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 2336
+        "total_laid_off": 2453
       },
       {
         "country": "India",
@@ -158,12 +158,12 @@
         "total_laid_off": 1921
       },
       {
-        "stage": "Series A",
-        "total_laid_off": 396
+        "stage": "Acquired",
+        "total_laid_off": 492
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 375
+        "stage": "Series A",
+        "total_laid_off": 396
       },
       {
         "stage": "Series F",
@@ -431,6 +431,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "Tiktok",
+        "num_laid_off": 75,
+        "percentage_laid_off": null,
+        "industry": "Consumer",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Vast",
         "num_laid_off": 46,
         "percentage_laid_off": 0.04,
@@ -452,22 +462,12 @@
       {
         "date": "2026-08-19",
         "company": "Qualtrics",
-        "num_laid_off": null,
+        "num_laid_off": 117,
         "percentage_laid_off": null,
         "industry": "Other",
         "country": "United States",
         "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Tiktok",
-        "num_laid_off": 75,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+        "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
       },
       {
         "date": "2026-08-17",
@@ -614,7 +614,7 @@
     ]
   },
   "insights": [
-    "2026-08 includes 41 public layoff events and 3,368 reported layoffs.",
+    "2026-08 includes 41 public layoff events and 3,485 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "13 events report a layoff percentage of 25% or higher."

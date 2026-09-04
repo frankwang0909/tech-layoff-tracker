@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-03",
+    "company": "Zscaler",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.03,
+    "industry": "Security",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
+  },
+  {
+    "date": "2026-09-02",
+    "company": "Bizzabo",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+  },
+  {
     "date": "2026-09-02",
     "company": "Uber",
     "num_laid_off": 3300,
@@ -21,16 +41,6 @@
   },
   {
     "date": "2026-09-01",
-    "company": "Amazon",
-    "num_laid_off": 148,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-  },
-  {
-    "date": "2026-09-01",
     "company": "Synopsys",
     "num_laid_off": 128,
     "percentage_laid_off": null,
@@ -40,24 +50,24 @@
     "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
   },
   {
-    "date": "2026-08-31",
-    "company": "Zomato",
-    "num_laid_off": 250,
-    "percentage_laid_off": null,
+    "date": "2026-09-01",
+    "company": "Wonder",
+    "num_laid_off": 150,
+    "percentage_laid_off": 0.07,
     "industry": "Food",
-    "country": "India",
-    "stage": "Series J",
-    "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+    "country": "United States",
+    "stage": "Series B",
+    "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
   },
   {
-    "date": "2026-08-31",
-    "company": "PayPal",
-    "num_laid_off": 164,
+    "date": "2026-09-01",
+    "company": "Amazon",
+    "num_laid_off": 148,
     "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "Ireland",
+    "industry": "Retail",
+    "country": "United States",
     "stage": "Post-IPO",
-    "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
   },
   {
     "date": "2026-08-31",
@@ -80,6 +90,26 @@
     "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
   },
   {
+    "date": "2026-08-31",
+    "company": "Zomato",
+    "num_laid_off": 250,
+    "percentage_laid_off": null,
+    "industry": "Food",
+    "country": "India",
+    "stage": "Series J",
+    "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+  },
+  {
+    "date": "2026-08-31",
+    "company": "PayPal",
+    "num_laid_off": 164,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Ireland",
+    "stage": "Post-IPO",
+    "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+  },
+  {
     "date": "2026-08-27",
     "company": "Even Healthcare",
     "num_laid_off": 350,
@@ -88,35 +118,5 @@
     "country": "India",
     "stage": "Series A",
     "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
-  },
-  {
-    "date": "2026-08-26",
-    "company": "MonieWorld",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Finance",
-    "country": "Nigeria",
-    "stage": "Unknown",
-    "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
-  },
-  {
-    "date": "2026-08-26",
-    "company": "PagerDuty",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.15,
-    "industry": "Product",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
-  },
-  {
-    "date": "2026-08-24",
-    "company": "SanDisk",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Hardware",
-    "country": "Israel",
-    "stage": "Post-IPO",
-    "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
   }
 ]

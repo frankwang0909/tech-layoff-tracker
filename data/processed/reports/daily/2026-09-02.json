@@ -6,15 +6,15 @@
     "start": "2026-09-02",
     "end": "2026-09-02"
   },
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "canonical_url": "/reports/daily/2026-09-02.html",
   "kpis": {
     "total_laid_off": 4975,
-    "event_count": 2,
+    "event_count": 3,
     "headcount_event_count": 2,
-    "company_count": 2,
+    "company_count": 3,
     "country_count": 2,
-    "industry_count": 2,
+    "industry_count": 3,
     "average_layoffs_per_headcount_event": 2487.5,
     "median_layoffs_per_headcount_event": 2487.5,
     "high_intensity_event_count": 0
@@ -22,10 +22,10 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-09-01",
-      "total_laid_off": 276,
-      "event_count": 2,
-      "total_laid_off_delta": 4699,
-      "total_laid_off_pct_change": 17.0254,
+      "total_laid_off": 426,
+      "event_count": 3,
+      "total_laid_off_delta": 4549,
+      "total_laid_off_pct_change": 10.6784,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
@@ -36,8 +36,8 @@
       "event_count": 1,
       "total_laid_off_delta": 4975,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 1,
-      "event_count_pct_change": 1.0,
+      "event_count_delta": 2,
+      "event_count_pct_change": 2.0,
       "note": null
     }
   },
@@ -144,12 +144,22 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "Bizzabo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-09-02 includes 2 public layoff events and 4,975 reported layoffs.",
+    "2026-09-02 includes 3 public layoff events and 4,975 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs."
   ],

@@ -1,6 +1,9 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Zscaler,SF Bay Area,,2026-09-03,0.03,Security,https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02,Post-IPO,148.0,United States,2026-09-04T00:30:52.000Z
 Uber,SF Bay Area,3300.0,2026-09-02,0.1,Transportation,https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers,Post-IPO,25200.0,United States,2026-09-02T16:45:40.000Z
 PayPal,"Bengaluru, Non-U.S.",1675.0,2026-09-02,,Finance,https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece,Post-IPO,216.0,India,2026-09-02T16:51:52.000Z
+Bizzabo,New York City,,2026-09-02,,Marketing,https://www.calcalistech.com/ctechnews/article/duz577shb,Series E,194.0,United States,2026-09-04T00:30:10.000Z
+Wonder,New York City,150.0,2026-09-01,0.07,Food,https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort,Series B,850.0,United States,2026-09-04T00:27:55.000Z
 Amazon,SF Bay Area,148.0,2026-09-01,,Retail,https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php,Post-IPO,8100.0,United States,2026-09-02T16:53:22.000Z
 Synopsys,SF Bay Area,128.0,2026-09-01,,Other,https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php,Post-IPO,,United States,2026-09-02T16:53:57.000Z
 Zomato,"Hyderabad, Non-U.S.",250.0,2026-08-31,,Food,https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms,Series J,914.0,India,2026-08-31T23:07:44.000Z
@@ -15,10 +18,10 @@ SanDisk,"Tel Aviv, Non-U.S.",,2026-08-24,,Hardware,https://www.calcalistech.com/
 Wi-Charge,"Tel Aviv, Non-U.S.",,2026-08-23,1.0,Manufacturing,https://www.calcalistech.com/ctechnews/article/ry3w7nodgg,Series C,87.0,Israel,2026-08-26T23:00:14.000Z
 Apple,SF Bay Area,200.0,2026-08-21,,Hardware,https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams,Post-IPO,1200.0,United States,2026-08-21T16:00:28.000Z
 Motive,SF Bay Area,251.0,2026-08-19,0.05,Transportation,Internal memo,Series F,567.0,United States,2026-08-20T01:12:18.000Z
+Qualtrics,Salt Lake City,117.0,2026-08-19,,Other,https://mynorthwest.com/local/qualtrics-seattle-employees/4272070,Acquired,400.0,United States,2026-08-20T01:13:30.000Z
 Tiktok,Los Angeles,75.0,2026-08-19,,Consumer,https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/,Acquired,,United States,2026-08-20T01:09:59.000Z
 Vast,Los Angeles,46.0,2026-08-19,0.04,Aerospace,https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8,Series A,650.0,United States,2026-08-21T23:03:14.000Z
 BlocPower,New York City,,2026-08-19,1.0,Energy,https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/,Unknown,268.0,United States,2026-08-20T20:25:31.000Z
-Qualtrics,Salt Lake City,,2026-08-19,,Other,https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/,Acquired,400.0,United States,2026-08-20T01:13:30.000Z
 Pentera,Boston,60.0,2026-08-17,0.14,Security,https://www.calcalistech.com/ctechnews/article/cri3dnoqo,Series D,249.0,United States,2026-08-18T00:03:10.000Z
 Relay,SF Bay Area,,2026-08-17,1.0,Other,https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/,Seed,8.0,United States,2026-08-18T00:07:50.000Z
 Anaconda,Austin,,2026-08-13,0.14,Data,https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners,Series C,233.0,United States,2026-08-18T22:31:15.000Z

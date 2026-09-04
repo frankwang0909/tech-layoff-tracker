@@ -6,17 +6,17 @@
     "start": "2026-08-19",
     "end": "2026-08-19"
   },
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "canonical_url": "/reports/daily/2026-08-19.html",
   "kpis": {
-    "total_laid_off": 372,
+    "total_laid_off": 489,
     "event_count": 5,
-    "headcount_event_count": 3,
+    "headcount_event_count": 4,
     "company_count": 5,
     "country_count": 1,
     "industry_count": 5,
-    "average_layoffs_per_headcount_event": 124.0,
-    "median_layoffs_per_headcount_event": 75.0,
+    "average_layoffs_per_headcount_event": 122.25,
+    "median_layoffs_per_headcount_event": 96.0,
     "high_intensity_event_count": 1
   },
   "comparisons": {
@@ -34,8 +34,8 @@
       "period": "2025-08-19",
       "total_laid_off": 322,
       "event_count": 2,
-      "total_laid_off_delta": 50,
-      "total_laid_off_pct_change": 0.1553,
+      "total_laid_off_delta": 167,
+      "total_laid_off_pct_change": 0.5186,
       "event_count_delta": 3,
       "event_count_pct_change": 1.5,
       "note": null
@@ -46,6 +46,10 @@
       {
         "company": "Motive",
         "total_laid_off": 251
+      },
+      {
+        "company": "Qualtrics",
+        "total_laid_off": 117
       },
       {
         "company": "Tiktok",
@@ -62,6 +66,10 @@
         "total_laid_off": 251
       },
       {
+        "industry": "Other",
+        "total_laid_off": 117
+      },
+      {
         "industry": "Consumer",
         "total_laid_off": 75
       },
@@ -73,7 +81,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 372
+        "total_laid_off": 489
       }
     ],
     "stage_top": [
@@ -83,7 +91,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 75
+        "total_laid_off": 192
       },
       {
         "stage": "Series A",
@@ -127,6 +135,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Tiktok",
         "num_laid_off": 75,
         "percentage_laid_off": null,
@@ -159,6 +177,16 @@
       },
       {
         "date": "2026-08-19",
+        "company": "Qualtrics",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
+      },
+      {
+        "date": "2026-08-19",
         "company": "Tiktok",
         "num_laid_off": 75,
         "percentage_laid_off": null,
@@ -186,16 +214,6 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Qualtrics",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
       }
     ],
     "high_intensity_events": [
@@ -212,7 +230,7 @@
     ]
   },
   "insights": [
-    "2026-08-19 includes 5 public layoff events and 372 reported layoffs.",
+    "2026-08-19 includes 5 public layoff events and 489 reported layoffs.",
     "The largest company contributor is Motive with 251 reported layoffs.",
     "The leading named industry is Transportation with 251 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

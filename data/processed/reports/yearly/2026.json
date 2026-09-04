@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-09-02"
+    "end": "2026-09-03"
   },
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 128636,
-    "event_count": 322,
-    "headcount_event_count": 206,
-    "company_count": 292,
+    "total_laid_off": 128903,
+    "event_count": 325,
+    "headcount_event_count": 208,
+    "company_count": 295,
     "country_count": 29,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 624.45,
+    "average_layoffs_per_headcount_event": 619.73,
     "median_layoffs_per_headcount_event": 130.5,
     "high_intensity_event_count": 68
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6030,
-      "total_laid_off_pct_change": 0.0492,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.033,
+      "total_laid_off_delta": 6297,
+      "total_laid_off_pct_change": 0.0514,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.024,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6030,
-      "total_laid_off_pct_change": 0.0492,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.033,
+      "total_laid_off_delta": 6297,
+      "total_laid_off_pct_change": 0.0514,
+      "event_count_delta": -8,
+      "event_count_pct_change": -0.024,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4800
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 30768
+        "total_laid_off": 30885
       },
       {
         "industry": "Retail",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 102854
+        "total_laid_off": 103121
       },
       {
         "country": "India",
@@ -179,15 +179,15 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 4156
+        "total_laid_off": 4273
+      },
+      {
+        "stage": "Series B",
+        "total_laid_off": 2103
       },
       {
         "stage": "Series F",
         "total_laid_off": 2004
-      },
-      {
-        "stage": "Series B",
-        "total_laid_off": 1953
       },
       {
         "stage": "Private Equity",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 32
+        "event_count": 33
       },
       {
         "bucket": "10-24%",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-03",
+        "company": "Zscaler",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.03,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "Bizzabo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+      },
+      {
         "date": "2026-09-02",
         "company": "Uber",
         "num_laid_off": 3300,
@@ -378,24 +398,14 @@
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
       },
       {
-        "date": "2026-08-31",
-        "company": "Zomato",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "date": "2026-09-01",
+        "company": "Wonder",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.07,
         "industry": "Food",
-        "country": "India",
-        "stage": "Series J",
-        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
-      },
-      {
-        "date": "2026-08-31",
-        "company": "PayPal",
-        "num_laid_off": 164,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "Ireland",
-        "stage": "Post-IPO",
-        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
       },
       {
         "date": "2026-08-31",
@@ -416,6 +426,26 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "PayPal",
+        "num_laid_off": 164,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
       },
       {
         "date": "2026-08-27",
@@ -449,16 +479,6 @@
       },
       {
         "date": "2026-08-24",
-        "company": "SanDisk",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
-      },
-      {
-        "date": "2026-08-24",
         "company": "Minimus",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -466,6 +486,16 @@
         "country": "Israel",
         "stage": "Seed",
         "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+      },
+      {
+        "date": "2026-08-24",
+        "company": "SanDisk",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
       },
       {
         "date": "2026-08-23",
@@ -489,26 +519,6 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Tiktok",
-        "num_laid_off": 75,
-        "percentage_laid_off": null,
-        "industry": "Consumer",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
-      },
-      {
-        "date": "2026-08-19",
         "company": "Vast",
         "num_laid_off": 46,
         "percentage_laid_off": 0.04,
@@ -526,16 +536,6 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Qualtrics",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://www.geekwire.com/2026/qualtrics-cuts-jobs-in-seattle-utah-and-overseas-as-it-absorbs-6-75b-acquisition/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 322 public layoff events and 128,636 reported layoffs.",
+    "2026 includes 325 public layoff events and 128,903 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
     "68 events report a layoff percentage of 25% or higher."

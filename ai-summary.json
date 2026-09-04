@@ -6,7 +6,7 @@
     "start": "2025-01-06",
     "end": "2026-09-02"
   },
-  "summary": "Tech Layoff Tracker reports 251,242 public tech layoffs from 2025-01-06 to 2026-09-02. The dataset covers 345 companies across 25 countries or regions. The largest month is 2026-06 with 26,460 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
+  "summary": "Tech Layoff Tracker reports 251,509 public tech layoffs from 2025-01-06 to 2026-09-02. The dataset covers 347 companies across 25 countries or regions. The largest month is 2026-06 with 26,460 reported layoffs. The top company is Amazon; the leading named industry is Hardware; and the leading country or region is United States.",
   "facts": [
     {
       "name": "Canonical analysis URL",
@@ -18,15 +18,15 @@
     },
     {
       "name": "Total reported layoffs",
-      "value": "251,242"
+      "value": "251,509"
     },
     {
       "name": "2026 YTD reported layoffs",
-      "value": "128,636"
+      "value": "128,903"
     },
     {
       "name": "Companies affected",
-      "value": "345"
+      "value": "347"
     },
     {
       "name": "Countries or regions",
@@ -46,13 +46,13 @@
     },
     {
       "name": "Leading country or region",
-      "value": "United States (205,610 layoffs)"
+      "value": "United States (205,877 layoffs)"
     }
   ],
   "insights": [
     "Amazon is the highest-ranked company by reported layoffs in the current company summary, with 31,720 layoffs.",
     "Hardware is the largest industry category, accounting for 50,530 reported layoffs.",
-    "United States is the leading country or region in the current dataset, with 205,610 reported layoffs.",
+    "United States is the leading country or region in the current dataset, with 205,877 reported layoffs.",
     "The peak month is 2026-06, with 26,460 reported layoffs."
   ],
   "faq": [
@@ -140,7 +140,7 @@
         "name": "Security",
         "canonical_url": "https://tech.debugcanada.com/industries/security.html",
         "total_laid_off": 4716,
-        "event_count": 37
+        "event_count": 38
       },
       {
         "name": "Infrastructure",
@@ -149,18 +149,18 @@
         "event_count": 4
       },
       {
-        "name": "Data",
-        "canonical_url": "https://tech.debugcanada.com/industries/data.html",
-        "total_laid_off": 4034,
-        "event_count": 22
+        "name": "Food",
+        "canonical_url": "https://tech.debugcanada.com/industries/food.html",
+        "total_laid_off": 4110,
+        "event_count": 23
       }
     ],
     "countries": [
       {
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
-        "total_laid_off": 205610,
-        "event_count": 386
+        "total_laid_off": 205877,
+        "event_count": 389
       },
       {
         "name": "India",

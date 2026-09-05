@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-09-03",
+    "company": "The Trade Desk",
+    "num_laid_off": 585,
+    "percentage_laid_off": 0.15,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+  },
+  {
+    "date": "2026-09-03",
     "company": "Zscaler",
     "num_laid_off": null,
     "percentage_laid_off": 0.03,
@@ -10,14 +20,14 @@
     "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
   },
   {
-    "date": "2026-09-02",
-    "company": "Bizzabo",
+    "date": "2026-09-03",
+    "company": "Hale",
     "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series E",
-    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+    "percentage_laid_off": 1.0,
+    "industry": "Healthcare",
+    "country": "Germany",
+    "stage": "Seed",
+    "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
   },
   {
     "date": "2026-09-02",
@@ -31,6 +41,16 @@
   },
   {
     "date": "2026-09-02",
+    "company": "Bizzabo",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+  },
+  {
+    "date": "2026-09-02",
     "company": "PayPal",
     "num_laid_off": 1675,
     "percentage_laid_off": null,
@@ -38,16 +58,6 @@
     "country": "India",
     "stage": "Post-IPO",
     "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
-  },
-  {
-    "date": "2026-09-01",
-    "company": "Synopsys",
-    "num_laid_off": 128,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
   },
   {
     "date": "2026-09-01",
@@ -65,6 +75,16 @@
     "num_laid_off": 148,
     "percentage_laid_off": null,
     "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+  },
+  {
+    "date": "2026-09-01",
+    "company": "Synopsys",
+    "num_laid_off": 128,
+    "percentage_laid_off": null,
+    "industry": "Other",
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
@@ -91,16 +111,6 @@
   },
   {
     "date": "2026-08-31",
-    "company": "Zomato",
-    "num_laid_off": 250,
-    "percentage_laid_off": null,
-    "industry": "Food",
-    "country": "India",
-    "stage": "Series J",
-    "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
-  },
-  {
-    "date": "2026-08-31",
     "company": "PayPal",
     "num_laid_off": 164,
     "percentage_laid_off": null,
@@ -108,15 +118,5 @@
     "country": "Ireland",
     "stage": "Post-IPO",
     "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
-  },
-  {
-    "date": "2026-08-27",
-    "company": "Even Healthcare",
-    "num_laid_off": 350,
-    "percentage_laid_off": 0.3,
-    "industry": "Healthcare",
-    "country": "India",
-    "stage": "Series A",
-    "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
   }
 ]

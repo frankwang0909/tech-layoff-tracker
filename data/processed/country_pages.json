@@ -10,9 +10,9 @@
       "end": "2026-09-03"
     },
     "kpis": {
-      "total_laid_off": 205877,
-      "event_count": 389,
-      "headcount_event_count": 256,
+      "total_laid_off": 206462,
+      "event_count": 390,
+      "headcount_event_count": 257,
       "company_count": 294,
       "country_count": 1,
       "industry_count": 30,
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 3726
+          "total_laid_off": 4311
         }
       ],
       "company_top": [
@@ -152,6 +152,16 @@
       "recent_events": [
         {
           "date": "2026-09-03",
+          "company": "The Trade Desk",
+          "num_laid_off": 585,
+          "percentage_laid_off": 0.15,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+        },
+        {
+          "date": "2026-09-03",
           "company": "Zscaler",
           "num_laid_off": null,
           "percentage_laid_off": 0.03,
@@ -162,16 +172,6 @@
         },
         {
           "date": "2026-09-02",
-          "company": "Bizzabo",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
-        },
-        {
-          "date": "2026-09-02",
           "company": "Uber",
           "num_laid_off": 3300,
           "percentage_laid_off": 0.1,
@@ -179,6 +179,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+        },
+        {
+          "date": "2026-09-02",
+          "company": "Bizzabo",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
         },
         {
           "date": "2026-09-01",
@@ -289,20 +299,10 @@
           "country": "United States",
           "stage": "Series F",
           "source": "Internal memo"
-        },
-        {
-          "date": "2026-08-17",
-          "company": "Pentera",
-          "num_laid_off": 60,
-          "percentage_laid_off": 0.14,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
         }
       ]
     },
-    "summary": "United States has 205,877 reported tech layoffs across 389 public events from 2025-01-02 to 2026-09-03."
+    "summary": "United States has 206,462 reported tech layoffs across 390 public events from 2025-01-02 to 2026-09-03."
   },
   {
     "type": "country",
@@ -738,7 +738,7 @@
       "recent_events": [
         {
           "date": "2026-08-24",
-          "company": "Minimus",
+          "company": "Laybuy",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
           "industry": "Security",
@@ -1678,16 +1678,16 @@
     "canonical_url": "/countries/germany.html",
     "date_range": {
       "start": "2025-01-10",
-      "end": "2026-08-06"
+      "end": "2026-09-03"
     },
     "kpis": {
       "total_laid_off": 2350,
-      "event_count": 17,
+      "event_count": 18,
       "headcount_event_count": 12,
-      "company_count": 16,
+      "company_count": 17,
       "country_count": 1,
-      "industry_count": 11,
-      "high_intensity_event_count": 3
+      "industry_count": 12,
+      "high_intensity_event_count": 4
     },
     "charts": {
       "monthly_trend": [
@@ -1769,6 +1769,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-03",
+          "company": "Hale",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "Germany",
+          "stage": "Seed",
+          "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+        },
         {
           "date": "2026-08-06",
           "company": "Infineon",
@@ -1908,20 +1918,10 @@
           "country": "Germany",
           "stage": "Series C",
           "source": "https://techcrunch.com/2025/02/26/commercetools-a-pioneer-in-headless-commerce-lays-off-dozens-of-staff/"
-        },
-        {
-          "date": "2025-01-16",
-          "company": "Chrono24",
-          "num_laid_off": 110,
-          "percentage_laid_off": 0.24,
-          "industry": "Retail",
-          "country": "Germany",
-          "stage": "Series C",
-          "source": "https://usa.watchpro.com/chrono24-reboot-begins-with-one-in-four-workers-cut/"
         }
       ]
     },
-    "summary": "Germany has 2,350 reported tech layoffs across 17 public events from 2025-01-10 to 2026-08-06."
+    "summary": "Germany has 2,350 reported tech layoffs across 18 public events from 2025-01-10 to 2026-09-03."
   },
   {
     "type": "country",

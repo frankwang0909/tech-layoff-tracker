@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+The Trade Desk,Los Angeles,585.0,2026-09-03,0.15,Marketing,https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/,Post-IPO,257.0,United States,2026-09-04T18:37:05.000Z
+Hale,"Berlin, Non-U.S.",,2026-09-03,1.0,Healthcare,https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/,Seed,1.0,Germany,2026-09-04T23:47:37.000Z
 Zscaler,SF Bay Area,,2026-09-03,0.03,Security,https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02,Post-IPO,148.0,United States,2026-09-04T00:30:52.000Z
 Uber,SF Bay Area,3300.0,2026-09-02,0.1,Transportation,https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers,Post-IPO,25200.0,United States,2026-09-02T16:45:40.000Z
 PayPal,"Bengaluru, Non-U.S.",1675.0,2026-09-02,,Finance,https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece,Post-IPO,216.0,India,2026-09-02T16:51:52.000Z
@@ -13,7 +15,7 @@ Satvacart,"Gurugram, Non-U.S.",,2026-08-31,1.0,Food,https://inc42.com/buzz/onlin
 Even Healthcare,"Bengaluru, Non-U.S.",350.0,2026-08-27,0.3,Healthcare,https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475,Series A,91.0,India,2026-08-28T02:33:59.000Z
 MonieWorld,"Lagos, Non-U.S.",,2026-08-26,1.0,Finance,https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/,Unknown,,Nigeria,2026-08-28T02:36:50.000Z
 PagerDuty,SF Bay Area,,2026-08-26,0.15,Product,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf,Post-IPO,173.0,United States,2026-08-28T02:32:55.000Z
-Minimus,"Tel Aviv, Non-U.S.",,2026-08-24,1.0,Security,https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx,Seed,51.0,Israel,2026-08-26T22:57:31.000Z
+Laybuy,"Tel Aviv, Non-U.S.",,2026-08-24,1.0,Security,https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx,Seed,51.0,Israel,2026-08-26T22:57:31.000Z
 SanDisk,"Tel Aviv, Non-U.S.",,2026-08-24,,Hardware,https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl,Post-IPO,713.0,Israel,2026-08-26T22:55:26.000Z
 Wi-Charge,"Tel Aviv, Non-U.S.",,2026-08-23,1.0,Manufacturing,https://www.calcalistech.com/ctechnews/article/ry3w7nodgg,Series C,87.0,Israel,2026-08-26T23:00:14.000Z
 Apple,SF Bay Area,200.0,2026-08-21,,Hardware,https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams,Post-IPO,1200.0,United States,2026-08-21T16:00:28.000Z

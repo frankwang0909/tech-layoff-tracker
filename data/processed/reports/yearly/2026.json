@@ -9,35 +9,35 @@
   "updated_at": "2026-09-03",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 128903,
-    "event_count": 325,
-    "headcount_event_count": 208,
-    "company_count": 295,
+    "total_laid_off": 129488,
+    "event_count": 327,
+    "headcount_event_count": 209,
+    "company_count": 297,
     "country_count": 29,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 619.73,
-    "median_layoffs_per_headcount_event": 130.5,
-    "high_intensity_event_count": 68
+    "average_layoffs_per_headcount_event": 619.56,
+    "median_layoffs_per_headcount_event": 133.0,
+    "high_intensity_event_count": 69
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6297,
-      "total_laid_off_pct_change": 0.0514,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.024,
+      "total_laid_off_delta": 6882,
+      "total_laid_off_pct_change": 0.0561,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.018,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6297,
-      "total_laid_off_pct_change": 0.0514,
-      "event_count_delta": -8,
-      "event_count_pct_change": -0.024,
+      "total_laid_off_delta": 6882,
+      "total_laid_off_pct_change": 0.0561,
+      "event_count_delta": -6,
+      "event_count_pct_change": -0.018,
       "note": null
     }
   },
@@ -64,11 +64,11 @@
         "total_laid_off": 4800
       },
       {
-        "company": "Block",
+        "company": "Cisco",
         "total_laid_off": 4000
       },
       {
-        "company": "Cisco",
+        "company": "Block",
         "total_laid_off": 4000
       },
       {
@@ -118,18 +118,18 @@
         "total_laid_off": 3078
       },
       {
-        "industry": "Logistics",
-        "total_laid_off": 2000
+        "industry": "Marketing",
+        "total_laid_off": 2295
       },
       {
-        "industry": "AI",
-        "total_laid_off": 1929
+        "industry": "Logistics",
+        "total_laid_off": 2000
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 103121
+        "total_laid_off": 103706
       },
       {
         "country": "India",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 108928
+        "total_laid_off": 109513
       },
       {
         "stage": "Unknown",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 55
+        "event_count": 56
       },
       {
         "bucket": "25-49%",
@@ -339,6 +339,16 @@
     "recent_events": [
       {
         "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
         "company": "Zscaler",
         "num_laid_off": null,
         "percentage_laid_off": 0.03,
@@ -348,14 +358,14 @@
         "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       },
       {
-        "date": "2026-09-02",
-        "company": "Bizzabo",
+        "date": "2026-09-03",
+        "company": "Hale",
         "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
         "date": "2026-09-02",
@@ -369,6 +379,16 @@
       },
       {
         "date": "2026-09-02",
+        "company": "Bizzabo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+      },
+      {
+        "date": "2026-09-02",
         "company": "PayPal",
         "num_laid_off": 1675,
         "percentage_laid_off": null,
@@ -376,6 +396,16 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+      },
+      {
+        "date": "2026-09-01",
+        "company": "Wonder",
+        "num_laid_off": 150,
+        "percentage_laid_off": 0.07,
+        "industry": "Food",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
       },
       {
         "date": "2026-09-01",
@@ -396,16 +426,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-      },
-      {
-        "date": "2026-09-01",
-        "company": "Wonder",
-        "num_laid_off": 150,
-        "percentage_laid_off": 0.07,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
       },
       {
         "date": "2026-08-31",
@@ -479,7 +499,7 @@
       },
       {
         "date": "2026-08-24",
-        "company": "Minimus",
+        "company": "Laybuy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Security",
@@ -516,29 +536,19 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "Vast",
-        "num_laid_off": 46,
-        "percentage_laid_off": 0.04,
-        "industry": "Aerospace",
-        "country": "United States",
-        "stage": "Series A",
-        "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "BlocPower",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-09-03",
+        "company": "Hale",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      },
       {
         "date": "2026-08-31",
         "company": "Satvacart",
@@ -561,7 +571,7 @@
       },
       {
         "date": "2026-08-24",
-        "company": "Minimus",
+        "company": "Laybuy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Security",
@@ -628,24 +638,14 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-      },
-      {
-        "date": "2026-08-08",
-        "company": "ClimateAI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
       }
     ]
   },
   "insights": [
-    "2026 includes 325 public layoff events and 128,903 reported layoffs.",
+    "2026 includes 327 public layoff events and 129,488 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
-    "68 events report a layoff percentage of 25% or higher."
+    "69 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

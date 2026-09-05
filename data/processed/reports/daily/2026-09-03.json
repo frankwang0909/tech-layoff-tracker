@@ -9,43 +9,63 @@
   "updated_at": "2026-09-03",
   "canonical_url": "/reports/daily/2026-09-03.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
-    "high_intensity_event_count": 0
+    "total_laid_off": 585,
+    "event_count": 3,
+    "headcount_event_count": 1,
+    "company_count": 3,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 585.0,
+    "median_layoffs_per_headcount_event": 585.0,
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-09-02",
       "total_laid_off": 4975,
       "event_count": 3,
-      "total_laid_off_delta": -4975,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "total_laid_off_delta": -4390,
+      "total_laid_off_pct_change": -0.8824,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-09-03",
       "total_laid_off": 224,
       "event_count": 6,
-      "total_laid_off_delta": -224,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.8333,
+      "total_laid_off_delta": 361,
+      "total_laid_off_pct_change": 1.6116,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.5,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "The Trade Desk",
+        "total_laid_off": 585
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Marketing",
+        "total_laid_off": 585
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 585
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 585
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -53,7 +73,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -70,8 +90,39 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Hale",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      },
       {
         "date": "2026-09-03",
         "company": "Zscaler",
@@ -83,10 +134,24 @@
         "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-09-03",
+        "company": "Hale",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      }
+    ]
   },
   "insights": [
-    "2026-09-03 includes 1 public layoff events and 0 reported layoffs."
+    "2026-09-03 includes 3 public layoff events and 585 reported layoffs.",
+    "The largest company contributor is The Trade Desk with 585 reported layoffs.",
+    "The leading named industry is Marketing with 585 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

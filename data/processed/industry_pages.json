@@ -2085,7 +2085,7 @@
         },
         {
           "date": "2026-08-24",
-          "company": "Minimus",
+          "company": "Laybuy",
           "num_laid_off": null,
           "percentage_laid_off": 1.0,
           "industry": "Security",
@@ -2850,6 +2850,279 @@
   },
   {
     "type": "industry",
+    "name": "Marketing",
+    "slug": "marketing",
+    "title": "Tech Layoffs by Industry: Marketing",
+    "canonical_url": "/industries/marketing.html",
+    "date_range": {
+      "start": "2025-01-15",
+      "end": "2026-09-03"
+    },
+    "kpis": {
+      "total_laid_off": 3481,
+      "event_count": 27,
+      "headcount_event_count": 16,
+      "company_count": 25,
+      "country_count": 7,
+      "industry_count": 1,
+      "high_intensity_event_count": 5
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 116
+        },
+        {
+          "month": "2025-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 393
+        },
+        {
+          "month": "2025-04",
+          "total_laid_off": 97
+        },
+        {
+          "month": "2025-08",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-12",
+          "total_laid_off": 180
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 1000
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 260
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 50
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 585
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Wix",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "The Trade Desk",
+          "total_laid_off": 585
+        },
+        {
+          "company": "Sprout Social",
+          "total_laid_off": 260
+        },
+        {
+          "company": "Yotpo",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Envato",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Outbrain",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Brightcove",
+          "total_laid_off": 198
+        },
+        {
+          "company": "AppLovin",
+          "total_laid_off": 186
+        },
+        {
+          "company": "Teads",
+          "total_laid_off": 180
+        },
+        {
+          "company": "Acxiom",
+          "total_laid_off": 130
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-09-03",
+          "company": "The Trade Desk",
+          "num_laid_off": 585,
+          "percentage_laid_off": 0.15,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+        },
+        {
+          "date": "2026-09-02",
+          "company": "Bizzabo",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+        },
+        {
+          "date": "2026-08-07",
+          "company": "VideoAmp",
+          "num_laid_off": 50,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+        },
+        {
+          "date": "2026-07-31",
+          "company": "Reforged Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Marketing",
+          "country": "Singapore",
+          "stage": "Seed",
+          "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+        },
+        {
+          "date": "2026-07-15",
+          "company": "Sprout Social",
+          "num_laid_off": 260,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Hotmart",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Marketing",
+          "country": "Brazil",
+          "stage": "Series C",
+          "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "Amperity",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+        },
+        {
+          "date": "2026-06-17",
+          "company": "Optimove",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Series A",
+          "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+        },
+        {
+          "date": "2026-06-03",
+          "company": "Skai",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+        },
+        {
+          "date": "2026-05-27",
+          "company": "Webflow",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+        },
+        {
+          "date": "2026-05-25",
+          "company": "Wix",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.2,
+          "industry": "Marketing",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+        },
+        {
+          "date": "2026-04-15",
+          "company": "Taboola",
+          "num_laid_off": 100,
+          "percentage_laid_off": 0.05,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+        },
+        {
+          "date": "2026-03-04",
+          "company": "Envato",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.3,
+          "industry": "Marketing",
+          "country": "Australia",
+          "stage": "Unknown",
+          "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+        },
+        {
+          "date": "2025-12-17",
+          "company": "The Trade Desk",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.adexchanger.com/platforms/the-trade-desk-lays-off-staff-one-year-after-its-last-major-reorg/"
+        },
+        {
+          "date": "2025-12-04",
+          "company": "Teads",
+          "num_laid_off": 180,
+          "percentage_laid_off": 0.1,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/skb9q0lgwl"
+        }
+      ]
+    },
+    "summary": "Marketing has 3,481 reported tech layoffs across 27 public events from 2025-01-15 to 2026-09-03."
+  },
+  {
+    "type": "industry",
     "name": "Energy",
     "slug": "energy",
     "title": "Tech Layoffs by Industry: Energy",
@@ -3024,275 +3297,6 @@
       ]
     },
     "summary": "Energy has 3,464 reported tech layoffs across 11 public events from 2025-01-06 to 2026-08-19."
-  },
-  {
-    "type": "industry",
-    "name": "Marketing",
-    "slug": "marketing",
-    "title": "Tech Layoffs by Industry: Marketing",
-    "canonical_url": "/industries/marketing.html",
-    "date_range": {
-      "start": "2025-01-15",
-      "end": "2026-09-02"
-    },
-    "kpis": {
-      "total_laid_off": 2896,
-      "event_count": 26,
-      "headcount_event_count": 15,
-      "company_count": 25,
-      "country_count": 7,
-      "industry_count": 1,
-      "high_intensity_event_count": 5
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 116
-        },
-        {
-          "month": "2025-02",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-03",
-          "total_laid_off": 393
-        },
-        {
-          "month": "2025-04",
-          "total_laid_off": 97
-        },
-        {
-          "month": "2025-08",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-12",
-          "total_laid_off": 180
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2026-04",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 1000
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 100
-        },
-        {
-          "month": "2026-07",
-          "total_laid_off": 260
-        },
-        {
-          "month": "2026-08",
-          "total_laid_off": 50
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Wix",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Sprout Social",
-          "total_laid_off": 260
-        },
-        {
-          "company": "Outbrain",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Yotpo",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Envato",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Brightcove",
-          "total_laid_off": 198
-        },
-        {
-          "company": "AppLovin",
-          "total_laid_off": 186
-        },
-        {
-          "company": "Teads",
-          "total_laid_off": 180
-        },
-        {
-          "company": "Acxiom",
-          "total_laid_off": 130
-        },
-        {
-          "company": "Skai",
-          "total_laid_off": 100
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-09-02",
-          "company": "Bizzabo",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
-        },
-        {
-          "date": "2026-08-07",
-          "company": "VideoAmp",
-          "num_laid_off": 50,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
-        },
-        {
-          "date": "2026-07-31",
-          "company": "Reforged Labs",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Marketing",
-          "country": "Singapore",
-          "stage": "Seed",
-          "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
-        },
-        {
-          "date": "2026-07-15",
-          "company": "Sprout Social",
-          "num_laid_off": 260,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Hotmart",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.1,
-          "industry": "Marketing",
-          "country": "Brazil",
-          "stage": "Series C",
-          "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "Amperity",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
-        },
-        {
-          "date": "2026-06-17",
-          "company": "Optimove",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.1,
-          "industry": "Marketing",
-          "country": "Israel",
-          "stage": "Series A",
-          "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
-        },
-        {
-          "date": "2026-06-03",
-          "company": "Skai",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Israel",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
-        },
-        {
-          "date": "2026-05-27",
-          "company": "Webflow",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Series C",
-          "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
-        },
-        {
-          "date": "2026-05-25",
-          "company": "Wix",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
-        },
-        {
-          "date": "2026-04-15",
-          "company": "Taboola",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.05,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
-        },
-        {
-          "date": "2026-03-04",
-          "company": "Envato",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.3,
-          "industry": "Marketing",
-          "country": "Australia",
-          "stage": "Unknown",
-          "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
-        },
-        {
-          "date": "2025-12-17",
-          "company": "The Trade Desk",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.adexchanger.com/platforms/the-trade-desk-lays-off-staff-one-year-after-its-last-major-reorg/"
-        },
-        {
-          "date": "2025-12-04",
-          "company": "Teads",
-          "num_laid_off": 180,
-          "percentage_laid_off": 0.1,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/skb9q0lgwl"
-        },
-        {
-          "date": "2025-10-27",
-          "company": "Hootsuite",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Canada",
-          "stage": "Series C",
-          "source": "https://www.biv.com/news/technology/hootsuite-laying-off-hundreds-of-staff-20-of-workforce-11405954"
-        }
-      ]
-    },
-    "summary": "Marketing has 2,896 reported tech layoffs across 26 public events from 2025-01-15 to 2026-09-02."
   },
   {
     "type": "industry",
@@ -3945,16 +3949,16 @@
     "canonical_url": "/industries/healthcare.html",
     "date_range": {
       "start": "2025-02-24",
-      "end": "2026-08-27"
+      "end": "2026-09-03"
     },
     "kpis": {
       "total_laid_off": 2119,
-      "event_count": 17,
+      "event_count": 18,
       "headcount_event_count": 11,
-      "company_count": 15,
-      "country_count": 3,
+      "company_count": 16,
+      "country_count": 4,
       "industry_count": 1,
-      "high_intensity_event_count": 5
+      "high_intensity_event_count": 6
     },
     "charts": {
       "monthly_trend": [
@@ -4036,6 +4040,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-03",
+          "company": "Hale",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Healthcare",
+          "country": "Germany",
+          "stage": "Seed",
+          "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+        },
         {
           "date": "2026-08-27",
           "company": "Even Healthcare",
@@ -4175,20 +4189,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
-        },
-        {
-          "date": "2025-05-30",
-          "company": "Hims & Hers",
-          "num_laid_off": 68,
-          "percentage_laid_off": 0.04,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-cut-4-workforce-amid-ban-weight-loss-drug-copies-2025-05-30/"
         }
       ]
     },
-    "summary": "Healthcare has 2,119 reported tech layoffs across 17 public events from 2025-02-24 to 2026-08-27."
+    "summary": "Healthcare has 2,119 reported tech layoffs across 18 public events from 2025-02-24 to 2026-09-03."
   },
   {
     "type": "industry",

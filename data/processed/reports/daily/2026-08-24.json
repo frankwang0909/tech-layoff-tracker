@@ -74,7 +74,7 @@
     "recent_events": [
       {
         "date": "2026-08-24",
-        "company": "Minimus",
+        "company": "Laybuy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Security",
@@ -96,7 +96,7 @@
     "high_intensity_events": [
       {
         "date": "2026-08-24",
-        "company": "Minimus",
+        "company": "Laybuy",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
         "industry": "Security",

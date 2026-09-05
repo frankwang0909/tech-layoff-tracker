@@ -9,35 +9,35 @@
   "updated_at": "2026-09-03",
   "canonical_url": "/reports/monthly/2026-09.html",
   "kpis": {
-    "total_laid_off": 5401,
-    "event_count": 7,
-    "headcount_event_count": 5,
-    "company_count": 7,
-    "country_count": 2,
-    "industry_count": 7,
-    "average_layoffs_per_headcount_event": 1080.2,
-    "median_layoffs_per_headcount_event": 150.0,
-    "high_intensity_event_count": 0
+    "total_laid_off": 5986,
+    "event_count": 9,
+    "headcount_event_count": 6,
+    "company_count": 9,
+    "country_count": 3,
+    "industry_count": 8,
+    "average_layoffs_per_headcount_event": 997.67,
+    "median_layoffs_per_headcount_event": 367.5,
+    "high_intensity_event_count": 1
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-08",
       "total_laid_off": 3485,
       "event_count": 41,
-      "total_laid_off_delta": 1916,
-      "total_laid_off_pct_change": 0.5498,
-      "event_count_delta": -34,
-      "event_count_pct_change": -0.8293,
+      "total_laid_off_delta": 2501,
+      "total_laid_off_pct_change": 0.7176,
+      "event_count_delta": -32,
+      "event_count_pct_change": -0.7805,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-09",
       "total_laid_off": 4454,
       "event_count": 29,
-      "total_laid_off_delta": 947,
-      "total_laid_off_pct_change": 0.2126,
-      "event_count_delta": -22,
-      "event_count_pct_change": -0.7586,
+      "total_laid_off_delta": 1532,
+      "total_laid_off_pct_change": 0.344,
+      "event_count_delta": -20,
+      "event_count_pct_change": -0.6897,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "PayPal",
         "total_laid_off": 1675
+      },
+      {
+        "company": "The Trade Desk",
+        "total_laid_off": 585
       },
       {
         "company": "Wonder",
@@ -74,6 +78,10 @@
         "total_laid_off": 1675
       },
       {
+        "industry": "Marketing",
+        "total_laid_off": 585
+      },
+      {
         "industry": "Food",
         "total_laid_off": 150
       },
@@ -89,7 +97,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 3726
+        "total_laid_off": 4311
       },
       {
         "country": "India",
@@ -99,7 +107,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 5251
+        "total_laid_off": 5836
       },
       {
         "stage": "Series B",
@@ -113,7 +121,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 1
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -152,6 +160,16 @@
         "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
       },
       {
+        "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
         "date": "2026-09-01",
         "company": "Wonder",
         "num_laid_off": 150,
@@ -183,6 +201,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Hale",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      },
       {
         "date": "2026-09-03",
         "company": "Zscaler",
@@ -254,12 +292,24 @@
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-09-03",
+        "company": "Hale",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      }
+    ]
   },
   "insights": [
-    "2026-09 includes 7 public layoff events and 5,401 reported layoffs.",
+    "2026-09 includes 9 public layoff events and 5,986 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
-    "The leading named industry is Transportation with 3,300 reported layoffs."
+    "The leading named industry is Transportation with 3,300 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

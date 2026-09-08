@@ -10,14 +10,14 @@
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 129488,
-    "event_count": 327,
+    "event_count": 328,
     "headcount_event_count": 209,
-    "company_count": 297,
-    "country_count": 29,
+    "company_count": 298,
+    "country_count": 30,
     "industry_count": 29,
     "average_layoffs_per_headcount_event": 619.56,
     "median_layoffs_per_headcount_event": 133.0,
-    "high_intensity_event_count": 69
+    "high_intensity_event_count": 70
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 333,
       "total_laid_off_delta": 6882,
       "total_laid_off_pct_change": 0.0561,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.018,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.015,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 333,
       "total_laid_off_delta": 6882,
       "total_laid_off_pct_change": 0.0561,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.018,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.015,
       "note": null
     }
   },
@@ -368,14 +368,14 @@
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
-        "date": "2026-09-02",
-        "company": "Uber",
-        "num_laid_off": 3300,
-        "percentage_laid_off": 0.1,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+        "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
       },
       {
         "date": "2026-09-02",
@@ -386,6 +386,16 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "Uber",
+        "num_laid_off": 3300,
+        "percentage_laid_off": 0.1,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
       },
       {
         "date": "2026-09-02",
@@ -429,6 +439,26 @@
       },
       {
         "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "PayPal",
+        "num_laid_off": 164,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Ireland",
+        "stage": "Post-IPO",
+        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+      },
+      {
+        "date": "2026-08-31",
         "company": "Amazon",
         "num_laid_off": 121,
         "percentage_laid_off": null,
@@ -446,26 +476,6 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
-      },
-      {
-        "date": "2026-08-31",
-        "company": "PayPal",
-        "num_laid_off": 164,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "Ireland",
-        "stage": "Post-IPO",
-        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
-      },
-      {
-        "date": "2026-08-31",
-        "company": "Zomato",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series J",
-        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
       },
       {
         "date": "2026-08-27",
@@ -526,16 +536,6 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
-      },
-      {
-        "date": "2026-08-21",
-        "company": "Apple",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "Germany",
         "stage": "Seed",
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
       },
       {
         "date": "2026-08-31",
@@ -628,24 +638,14 @@
         "country": "Canada",
         "stage": "Series B",
         "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
-      },
-      {
-        "date": "2026-08-10",
-        "company": "Validient",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Australia",
-        "stage": "Unknown",
-        "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
       }
     ]
   },
   "insights": [
-    "2026 includes 327 public layoff events and 129,488 reported layoffs.",
+    "2026 includes 328 public layoff events and 129,488 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
-    "69 events report a layoff percentage of 25% or higher."
+    "70 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -11,6 +11,16 @@
   },
   {
     "date": "2026-09-03",
+    "company": "Orionx",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Crypto",
+    "country": "Chile",
+    "stage": "Series A",
+    "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+  },
+  {
+    "date": "2026-09-03",
     "company": "Zscaler",
     "num_laid_off": null,
     "percentage_laid_off": 0.03,
@@ -41,16 +51,6 @@
   },
   {
     "date": "2026-09-02",
-    "company": "Bizzabo",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series E",
-    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
-  },
-  {
-    "date": "2026-09-02",
     "company": "PayPal",
     "num_laid_off": 1675,
     "percentage_laid_off": null,
@@ -58,6 +58,16 @@
     "country": "India",
     "stage": "Post-IPO",
     "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+  },
+  {
+    "date": "2026-09-02",
+    "company": "Bizzabo",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
   },
   {
     "date": "2026-09-01",
@@ -108,15 +118,5 @@
     "country": "India",
     "stage": "Seed",
     "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
-  },
-  {
-    "date": "2026-08-31",
-    "company": "PayPal",
-    "num_laid_off": 164,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "Ireland",
-    "stage": "Post-IPO",
-    "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
   }
 ]

@@ -10,14 +10,14 @@
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
     "total_laid_off": 20471,
-    "event_count": 96,
+    "event_count": 97,
     "headcount_event_count": 56,
-    "company_count": 87,
-    "country_count": 16,
+    "company_count": 88,
+    "country_count": 17,
     "industry_count": 26,
     "average_layoffs_per_headcount_event": 365.55,
     "median_layoffs_per_headcount_event": 138.5,
-    "high_intensity_event_count": 25
+    "high_intensity_event_count": 26
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 135,
       "total_laid_off_delta": -35316,
       "total_laid_off_pct_change": -0.6331,
-      "event_count_delta": -39,
-      "event_count_pct_change": -0.2889,
+      "event_count_delta": -38,
+      "event_count_pct_change": -0.2815,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 86,
       "total_laid_off_delta": -7083,
       "total_laid_off_pct_change": -0.2571,
-      "event_count_delta": 10,
-      "event_count_pct_change": 0.1163,
+      "event_count_delta": 11,
+      "event_count_pct_change": 0.1279,
       "note": null
     }
   },
@@ -364,6 +364,16 @@
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
+        "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
         "date": "2026-09-02",
         "company": "Uber",
         "num_laid_off": 3300,
@@ -522,16 +532,6 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
-      },
-      {
-        "date": "2026-08-21",
-        "company": "Apple",
-        "num_laid_off": 200,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
       }
     ],
     "high_intensity_events": [
@@ -544,6 +544,16 @@
         "country": "Germany",
         "stage": "Seed",
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
       },
       {
         "date": "2026-08-31",
@@ -624,24 +634,14 @@
         "country": "Australia",
         "stage": "Unknown",
         "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
-      },
-      {
-        "date": "2026-07-07",
-        "company": "Billion Hearts",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Consumer",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 96 public layoff events and 20,471 reported layoffs.",
+    "2026-Q3 includes 97 public layoff events and 20,471 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Transportation with 3,551 reported layoffs.",
-    "25 events report a layoff percentage of 25% or higher."
+    "26 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

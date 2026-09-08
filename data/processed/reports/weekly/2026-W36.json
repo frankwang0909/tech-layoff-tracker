@@ -10,14 +10,14 @@
   "canonical_url": "/reports/weekly/2026-W36.html",
   "kpis": {
     "total_laid_off": 6521,
-    "event_count": 13,
+    "event_count": 14,
     "headcount_event_count": 9,
-    "company_count": 11,
-    "country_count": 4,
-    "industry_count": 8,
+    "company_count": 12,
+    "country_count": 5,
+    "industry_count": 9,
     "average_layoffs_per_headcount_event": 724.56,
     "median_layoffs_per_headcount_event": 164.0,
-    "high_intensity_event_count": 2
+    "high_intensity_event_count": 3
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 5,
       "total_laid_off_delta": 6171,
       "total_laid_off_pct_change": 17.6314,
-      "event_count_delta": 8,
-      "event_count_pct_change": 1.6,
+      "event_count_delta": 9,
+      "event_count_pct_change": 1.8,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 17,
       "total_laid_off_delta": 4181,
       "total_laid_off_pct_change": 1.7868,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.2353,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.1765,
       "note": null
     }
   },
@@ -265,6 +265,16 @@
       },
       {
         "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
+        "date": "2026-09-03",
         "company": "Zscaler",
         "num_laid_off": null,
         "percentage_laid_off": 0.03,
@@ -386,6 +396,16 @@
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
+        "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
         "date": "2026-08-31",
         "company": "Satvacart",
         "num_laid_off": null,
@@ -398,10 +418,10 @@
     ]
   },
   "insights": [
-    "2026-W36 includes 13 public layoff events and 6,521 reported layoffs.",
+    "2026-W36 includes 14 public layoff events and 6,521 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
-    "2 events report a layoff percentage of 25% or higher."
+    "3 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -4823,16 +4823,16 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-08-12"
+      "end": "2026-09-03"
     },
     "kpis": {
       "total_laid_off": 1487,
-      "event_count": 29,
+      "event_count": 30,
       "headcount_event_count": 13,
-      "company_count": 27,
-      "country_count": 11,
+      "company_count": 28,
+      "country_count": 12,
       "industry_count": 1,
-      "high_intensity_event_count": 9
+      "high_intensity_event_count": 10
     },
     "charts": {
       "monthly_trend": [
@@ -4918,6 +4918,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-03",
+          "company": "Orionx",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "Chile",
+          "stage": "Series A",
+          "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+        },
         {
           "date": "2026-08-12",
           "company": "Bitwise",
@@ -5057,20 +5067,10 @@
           "country": "Norway",
           "stage": "Series B",
           "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-        },
-        {
-          "date": "2026-05-05",
-          "company": "0G",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
         }
       ]
     },
-    "summary": "Crypto has 1,487 reported tech layoffs across 29 public events from 2025-02-05 to 2026-08-12."
+    "summary": "Crypto has 1,487 reported tech layoffs across 30 public events from 2025-02-05 to 2026-09-03."
   },
   {
     "type": "industry",

@@ -10,14 +10,14 @@
   "canonical_url": "/reports/daily/2026-09-03.html",
   "kpis": {
     "total_laid_off": 585,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 1,
-    "company_count": 3,
-    "country_count": 2,
-    "industry_count": 3,
+    "company_count": 4,
+    "country_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 585.0,
     "median_layoffs_per_headcount_event": 585.0,
-    "high_intensity_event_count": 1
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 3,
       "total_laid_off_delta": -4390,
       "total_laid_off_pct_change": -0.8824,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.3333,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 6,
       "total_laid_off_delta": 361,
       "total_laid_off_pct_change": 1.6116,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.5,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.3333,
       "note": null
     }
   },
@@ -125,6 +125,16 @@
       },
       {
         "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
+        "date": "2026-09-03",
         "company": "Zscaler",
         "num_laid_off": null,
         "percentage_laid_off": 0.03,
@@ -144,14 +154,24 @@
         "country": "Germany",
         "stage": "Seed",
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
       }
     ]
   },
   "insights": [
-    "2026-09-03 includes 3 public layoff events and 585 reported layoffs.",
+    "2026-09-03 includes 4 public layoff events and 585 reported layoffs.",
     "The largest company contributor is The Trade Desk with 585 reported layoffs.",
     "The leading named industry is Marketing with 585 reported layoffs.",
-    "1 events report a layoff percentage of 25% or higher."
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

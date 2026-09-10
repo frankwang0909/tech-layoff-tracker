@@ -7,14 +7,14 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-08-24"
+      "end": "2026-09-08"
     },
     "kpis": {
-      "total_laid_off": 50530,
-      "event_count": 26,
-      "headcount_event_count": 20,
+      "total_laid_off": 50610,
+      "event_count": 27,
+      "headcount_event_count": 21,
       "company_count": 18,
-      "country_count": 7,
+      "country_count": 8,
       "industry_count": 1,
       "high_intensity_event_count": 1
     },
@@ -75,6 +75,10 @@
         {
           "month": "2026-08",
           "total_laid_off": 200
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 80
         }
       ],
       "company_top": [
@@ -100,7 +104,7 @@
         },
         {
           "company": "Samsung",
-          "total_laid_off": 839
+          "total_laid_off": 919
         },
         {
           "company": "Micron",
@@ -122,6 +126,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-08",
+          "company": "Samsung",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "India",
+          "stage": "Post-IPO",
+          "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+        },
         {
           "date": "2026-08-24",
           "company": "SanDisk",
@@ -261,20 +275,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
-        },
-        {
-          "date": "2025-11-05",
-          "company": "Hewlett Packard Enterprise",
-          "num_laid_off": 52,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/layoffs-hpe-hitachi-vantara-21140900.php"
         }
       ]
     },
-    "summary": "Hardware has 50,530 reported tech layoffs across 26 public events from 2025-02-04 to 2026-08-24."
+    "summary": "Hardware has 50,610 reported tech layoffs across 27 public events from 2025-02-04 to 2026-09-08."
   },
   {
     "type": "industry",
@@ -866,14 +870,14 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-02"
+      "end": "2026-09-08"
     },
     "kpis": {
-      "total_laid_off": 15891,
-      "event_count": 62,
-      "headcount_event_count": 39,
-      "company_count": 54,
-      "country_count": 10,
+      "total_laid_off": 14859,
+      "event_count": 65,
+      "headcount_event_count": 42,
+      "company_count": 55,
+      "country_count": 11,
       "industry_count": 1,
       "high_intensity_event_count": 18
     },
@@ -953,7 +957,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 1675
+          "total_laid_off": 643
         }
       ],
       "company_top": [
@@ -966,31 +970,31 @@
           "total_laid_off": 3000
         },
         {
-          "company": "PayPal",
-          "total_laid_off": 1839
-        },
-        {
           "company": "Bill.com",
           "total_laid_off": 709
+        },
+        {
+          "company": "PayPal",
+          "total_laid_off": 705
         },
         {
           "company": "Sapiens",
           "total_laid_off": 700
         },
         {
-          "company": "Paytm",
-          "total_laid_off": 400
-        },
-        {
           "company": "Stone",
           "total_laid_off": 400
         },
         {
-          "company": "Stripe",
-          "total_laid_off": 300
+          "company": "Paytm",
+          "total_laid_off": 400
         },
         {
           "company": "Wise",
+          "total_laid_off": 300
+        },
+        {
+          "company": "Stripe",
           "total_laid_off": 300
         },
         {
@@ -1002,14 +1006,44 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-09-08",
+          "company": "Neo Financial",
+          "num_laid_off": 102,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+        },
+        {
+          "date": "2026-09-06",
+          "company": "PayPal",
+          "num_laid_off": 70,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
+        },
+        {
+          "date": "2026-09-03",
+          "company": "PayPal",
+          "num_laid_off": 251,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+        },
+        {
           "date": "2026-09-02",
           "company": "PayPal",
-          "num_laid_off": 1675,
+          "num_laid_off": 220,
           "percentage_laid_off": null,
           "industry": "Finance",
           "country": "India",
           "stage": "Post-IPO",
-          "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+          "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
         },
         {
           "date": "2026-08-31",
@@ -1120,40 +1154,10 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
-        },
-        {
-          "date": "2026-05-20",
-          "company": "Intuit",
-          "num_laid_off": 3000,
-          "percentage_laid_off": 0.17,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
-        },
-        {
-          "date": "2026-05-09",
-          "company": "Parker",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
-        },
-        {
-          "date": "2026-05-07",
-          "company": "Bill.com",
-          "num_laid_off": 709,
-          "percentage_laid_off": 0.3,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bill.com/blog/a-message-to-bill-employees"
         }
       ]
     },
-    "summary": "Finance has 15,891 reported tech layoffs across 62 public events from 2025-01-02 to 2026-09-02."
+    "summary": "Finance has 14,859 reported tech layoffs across 65 public events from 2025-01-02 to 2026-09-08."
   },
   {
     "type": "industry",
@@ -3949,14 +3953,14 @@
     "canonical_url": "/industries/healthcare.html",
     "date_range": {
       "start": "2025-02-24",
-      "end": "2026-09-03"
+      "end": "2026-09-07"
     },
     "kpis": {
       "total_laid_off": 2119,
-      "event_count": 18,
+      "event_count": 19,
       "headcount_event_count": 11,
-      "company_count": 16,
-      "country_count": 4,
+      "company_count": 17,
+      "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 6
     },
@@ -4040,6 +4044,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-07",
+          "company": "Harrison.ai",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "Australia",
+          "stage": "Series C",
+          "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
+        },
         {
           "date": "2026-09-03",
           "company": "Hale",
@@ -4179,20 +4193,10 @@
           "country": "Canada",
           "stage": "Series D",
           "source": "https://www.theglobeandmail.com/business/article-benchsci-job-cuts-replace-humans-with-ai/?intcmp=gift_share"
-        },
-        {
-          "date": "2025-07-17",
-          "company": "TytoCare",
-          "num_laid_off": 35,
-          "percentage_laid_off": 0.22,
-          "industry": "Healthcare",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/sjv1k6i8xx"
         }
       ]
     },
-    "summary": "Healthcare has 2,119 reported tech layoffs across 18 public events from 2025-02-24 to 2026-09-03."
+    "summary": "Healthcare has 2,119 reported tech layoffs across 19 public events from 2025-02-24 to 2026-09-07."
   },
   {
     "type": "industry",

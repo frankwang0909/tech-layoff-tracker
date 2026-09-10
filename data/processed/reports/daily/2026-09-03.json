@@ -6,38 +6,38 @@
     "start": "2026-09-03",
     "end": "2026-09-03"
   },
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-08",
   "canonical_url": "/reports/daily/2026-09-03.html",
   "kpis": {
-    "total_laid_off": 585,
-    "event_count": 4,
-    "headcount_event_count": 1,
-    "company_count": 4,
+    "total_laid_off": 836,
+    "event_count": 5,
+    "headcount_event_count": 2,
+    "company_count": 5,
     "country_count": 3,
-    "industry_count": 4,
-    "average_layoffs_per_headcount_event": 585.0,
-    "median_layoffs_per_headcount_event": 585.0,
+    "industry_count": 5,
+    "average_layoffs_per_headcount_event": 418.0,
+    "median_layoffs_per_headcount_event": 418.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-09-02",
-      "total_laid_off": 4975,
+      "total_laid_off": 3520,
       "event_count": 3,
-      "total_laid_off_delta": -4390,
-      "total_laid_off_pct_change": -0.8824,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.3333,
+      "total_laid_off_delta": -2684,
+      "total_laid_off_pct_change": -0.7625,
+      "event_count_delta": 2,
+      "event_count_pct_change": 0.6667,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-09-03",
       "total_laid_off": 224,
       "event_count": 6,
-      "total_laid_off_delta": 361,
-      "total_laid_off_pct_change": 1.6116,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.3333,
+      "total_laid_off_delta": 612,
+      "total_laid_off_pct_change": 2.7321,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.1667,
       "note": null
     }
   },
@@ -46,24 +46,32 @@
       {
         "company": "The Trade Desk",
         "total_laid_off": 585
+      },
+      {
+        "company": "PayPal",
+        "total_laid_off": 251
       }
     ],
     "industry_top": [
       {
         "industry": "Marketing",
         "total_laid_off": 585
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 251
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 585
+        "total_laid_off": 836
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 585
+        "total_laid_off": 836
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +108,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "PayPal",
+        "num_laid_off": 251,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
       }
     ],
     "recent_events": [
@@ -112,6 +130,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "PayPal",
+        "num_laid_off": 251,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
       },
       {
         "date": "2026-09-03",
@@ -168,7 +196,7 @@
     ]
   },
   "insights": [
-    "2026-09-03 includes 4 public layoff events and 585 reported layoffs.",
+    "2026-09-03 includes 5 public layoff events and 836 reported layoffs.",
     "The largest company contributor is The Trade Desk with 585 reported layoffs.",
     "The leading named industry is Marketing with 585 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

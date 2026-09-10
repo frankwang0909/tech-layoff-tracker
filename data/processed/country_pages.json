@@ -10,10 +10,10 @@
       "end": "2026-09-03"
     },
     "kpis": {
-      "total_laid_off": 206462,
-      "event_count": 390,
-      "headcount_event_count": 257,
-      "company_count": 294,
+      "total_laid_off": 206713,
+      "event_count": 391,
+      "headcount_event_count": 258,
+      "company_count": 295,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 59
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 4311
+          "total_laid_off": 4562
         }
       ],
       "company_top": [
@@ -169,6 +169,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
+        },
+        {
+          "date": "2026-09-03",
+          "company": "PayPal",
+          "num_laid_off": 251,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
         },
         {
           "date": "2026-09-02",
@@ -252,13 +262,13 @@
         },
         {
           "date": "2026-08-19",
-          "company": "Tiktok",
-          "num_laid_off": 75,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
+          "company": "BlocPower",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Energy",
           "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+          "stage": "Unknown",
+          "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
         },
         {
           "date": "2026-08-19",
@@ -272,13 +282,13 @@
         },
         {
           "date": "2026-08-19",
-          "company": "BlocPower",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Energy",
+          "company": "Tiktok",
+          "num_laid_off": 75,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
           "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
         },
         {
           "date": "2026-08-19",
@@ -289,20 +299,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
-        },
-        {
-          "date": "2026-08-19",
-          "company": "Motive",
-          "num_laid_off": 251,
-          "percentage_laid_off": 0.05,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "Internal memo"
         }
       ]
     },
-    "summary": "United States has 206,462 reported tech layoffs across 390 public events from 2025-01-02 to 2026-09-03."
+    "summary": "United States has 206,713 reported tech layoffs across 391 public events from 2025-01-02 to 2026-09-03."
   },
   {
     "type": "country",
@@ -312,15 +312,15 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-09-02"
+      "end": "2026-09-08"
     },
     "kpis": {
-      "total_laid_off": 12655,
-      "event_count": 62,
-      "headcount_event_count": 47,
-      "company_count": 52,
+      "total_laid_off": 11280,
+      "event_count": 63,
+      "headcount_event_count": 48,
+      "company_count": 53,
       "country_count": 1,
-      "industry_count": 16,
+      "industry_count": 17,
       "high_intensity_event_count": 24
     },
     "charts": {
@@ -399,14 +399,10 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 1675
+          "total_laid_off": 300
         }
       ],
       "company_top": [
-        {
-          "company": "PayPal",
-          "total_laid_off": 1675
-        },
         {
           "company": "Livspace",
           "total_laid_off": 1000
@@ -442,20 +438,34 @@
         {
           "company": "GamesKraft",
           "total_laid_off": 400
+        },
+        {
+          "company": "Zupee",
+          "total_laid_off": 370
         }
       ]
     },
     "tables": {
       "recent_events": [
         {
+          "date": "2026-09-08",
+          "company": "Samsung",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "India",
+          "stage": "Post-IPO",
+          "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+        },
+        {
           "date": "2026-09-02",
           "company": "PayPal",
-          "num_laid_off": 1675,
+          "num_laid_off": 220,
           "percentage_laid_off": null,
           "industry": "Finance",
           "country": "India",
           "stage": "Post-IPO",
-          "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+          "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
         },
         {
           "date": "2026-08-31",
@@ -579,16 +589,6 @@
         },
         {
           "date": "2026-05-06",
-          "company": "Pocket FM",
-          "num_laid_off": 100,
-          "percentage_laid_off": 0.1,
-          "industry": "Media",
-          "country": "India",
-          "stage": "Series D",
-          "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
-        },
-        {
-          "date": "2026-05-06",
           "company": "ApnaMart",
           "num_laid_off": 35,
           "percentage_laid_off": 0.1,
@@ -599,7 +599,7 @@
         }
       ]
     },
-    "summary": "India has 12,655 reported tech layoffs across 62 public events from 2025-01-15 to 2026-09-02."
+    "summary": "India has 11,280 reported tech layoffs across 63 public events from 2025-01-15 to 2026-09-08."
   },
   {
     "type": "country",
@@ -609,13 +609,13 @@
     "canonical_url": "/countries/israel.html",
     "date_range": {
       "start": "2025-01-06",
-      "end": "2026-08-24"
+      "end": "2026-09-06"
     },
     "kpis": {
-      "total_laid_off": 7568,
-      "event_count": 69,
-      "headcount_event_count": 47,
-      "company_count": 61,
+      "total_laid_off": 7638,
+      "event_count": 70,
+      "headcount_event_count": 48,
+      "company_count": 62,
       "country_count": 1,
       "industry_count": 23,
       "high_intensity_event_count": 21
@@ -689,6 +689,10 @@
         {
           "month": "2026-08",
           "total_laid_off": 50
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 70
         }
       ],
       "company_top": [
@@ -721,11 +725,11 @@
           "total_laid_off": 250
         },
         {
-          "company": "Artlist",
+          "company": "Mobileye",
           "total_laid_off": 200
         },
         {
-          "company": "Mobileye",
+          "company": "Artlist",
           "total_laid_off": 200
         },
         {
@@ -737,14 +741,14 @@
     "tables": {
       "recent_events": [
         {
-          "date": "2026-08-24",
-          "company": "Laybuy",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Security",
+          "date": "2026-09-06",
+          "company": "PayPal",
+          "num_laid_off": 70,
+          "percentage_laid_off": null,
+          "industry": "Finance",
           "country": "Israel",
-          "stage": "Seed",
-          "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+          "stage": "Post-IPO",
+          "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
         },
         {
           "date": "2026-08-24",
@@ -755,6 +759,16 @@
           "country": "Israel",
           "stage": "Post-IPO",
           "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+        },
+        {
+          "date": "2026-08-24",
+          "company": "Laybuy",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Security",
+          "country": "Israel",
+          "stage": "Seed",
+          "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
         },
         {
           "date": "2026-08-23",
@@ -875,20 +889,10 @@
           "country": "Israel",
           "stage": "Series A",
           "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Artlist",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.4,
-          "industry": "Media",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
         }
       ]
     },
-    "summary": "Israel has 7,568 reported tech layoffs across 69 public events from 2025-01-06 to 2026-08-24."
+    "summary": "Israel has 7,638 reported tech layoffs across 70 public events from 2025-01-06 to 2026-09-06."
   },
   {
     "type": "country",
@@ -1047,15 +1051,15 @@
     "canonical_url": "/countries/australia.html",
     "date_range": {
       "start": "2025-04-02",
-      "end": "2026-08-10"
+      "end": "2026-09-07"
     },
     "kpis": {
       "total_laid_off": 4372,
-      "event_count": 13,
+      "event_count": 14,
       "headcount_event_count": 10,
-      "company_count": 9,
+      "company_count": 10,
       "country_count": 1,
-      "industry_count": 8,
+      "industry_count": 9,
       "high_intensity_event_count": 4
     },
     "charts": {
@@ -1130,6 +1134,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-07",
+          "company": "Harrison.ai",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Healthcare",
+          "country": "Australia",
+          "stage": "Series C",
+          "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
+        },
         {
           "date": "2026-08-10",
           "company": "Validient",
@@ -1262,7 +1276,7 @@
         }
       ]
     },
-    "summary": "Australia has 4,372 reported tech layoffs across 13 public events from 2025-04-02 to 2026-08-10."
+    "summary": "Australia has 4,372 reported tech layoffs across 14 public events from 2025-04-02 to 2026-09-07."
   },
   {
     "type": "country",
@@ -1272,15 +1286,15 @@
     "canonical_url": "/countries/canada.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-08-12"
+      "end": "2026-09-08"
     },
     "kpis": {
-      "total_laid_off": 3245,
-      "event_count": 23,
-      "headcount_event_count": 14,
-      "company_count": 17,
+      "total_laid_off": 3347,
+      "event_count": 24,
+      "headcount_event_count": 15,
+      "company_count": 18,
       "country_count": 1,
-      "industry_count": 12,
+      "industry_count": 13,
       "high_intensity_event_count": 6
     },
     "charts": {
@@ -1320,6 +1334,10 @@
         {
           "month": "2026-08",
           "total_laid_off": 120
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 102
         }
       ],
       "company_top": [
@@ -1352,21 +1370,31 @@
           "total_laid_off": 120
         },
         {
+          "company": "Neo Financial",
+          "total_laid_off": 102
+        },
+        {
           "company": "Lightspeed Commerce",
           "total_laid_off": 100
         },
         {
           "company": "Klue",
           "total_laid_off": 85
-        },
-        {
-          "company": "Tenstorrent",
-          "total_laid_off": 80
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-08",
+          "company": "Neo Financial",
+          "num_laid_off": 102,
+          "percentage_laid_off": 0.1,
+          "industry": "Finance",
+          "country": "Canada",
+          "stage": "Series D",
+          "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+        },
         {
           "date": "2026-08-12",
           "company": "Convictional",
@@ -1506,20 +1534,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
-        },
-        {
-          "date": "2025-10-27",
-          "company": "Hootsuite",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Marketing",
-          "country": "Canada",
-          "stage": "Series C",
-          "source": "https://www.biv.com/news/technology/hootsuite-laying-off-hundreds-of-staff-20-of-workforce-11405954"
         }
       ]
     },
-    "summary": "Canada has 3,245 reported tech layoffs across 23 public events from 2025-02-05 to 2026-08-12."
+    "summary": "Canada has 3,347 reported tech layoffs across 24 public events from 2025-02-05 to 2026-09-08."
   },
   {
     "type": "country",

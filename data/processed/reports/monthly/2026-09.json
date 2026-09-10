@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-09-01",
-    "end": "2026-09-03"
+    "end": "2026-09-08"
   },
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-08",
   "canonical_url": "/reports/monthly/2026-09.html",
   "kpis": {
-    "total_laid_off": 5986,
-    "event_count": 10,
-    "headcount_event_count": 6,
-    "company_count": 10,
-    "country_count": 4,
-    "industry_count": 9,
-    "average_layoffs_per_headcount_event": 997.67,
-    "median_layoffs_per_headcount_event": 367.5,
+    "total_laid_off": 5034,
+    "event_count": 15,
+    "headcount_event_count": 10,
+    "company_count": 13,
+    "country_count": 7,
+    "industry_count": 10,
+    "average_layoffs_per_headcount_event": 503.4,
+    "median_layoffs_per_headcount_event": 149.0,
     "high_intensity_event_count": 2
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-08",
       "total_laid_off": 3485,
       "event_count": 41,
-      "total_laid_off_delta": 2501,
-      "total_laid_off_pct_change": 0.7176,
-      "event_count_delta": -31,
-      "event_count_pct_change": -0.7561,
+      "total_laid_off_delta": 1549,
+      "total_laid_off_pct_change": 0.4445,
+      "event_count_delta": -26,
+      "event_count_pct_change": -0.6341,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-09",
       "total_laid_off": 4454,
       "event_count": 29,
-      "total_laid_off_delta": 1532,
-      "total_laid_off_pct_change": 0.344,
-      "event_count_delta": -19,
-      "event_count_pct_change": -0.6552,
+      "total_laid_off_delta": 580,
+      "total_laid_off_pct_change": 0.1302,
+      "event_count_delta": -14,
+      "event_count_pct_change": -0.4828,
       "note": null
     }
   },
@@ -48,12 +48,12 @@
         "total_laid_off": 3300
       },
       {
-        "company": "PayPal",
-        "total_laid_off": 1675
-      },
-      {
         "company": "The Trade Desk",
         "total_laid_off": 585
+      },
+      {
+        "company": "PayPal",
+        "total_laid_off": 541
       },
       {
         "company": "Wonder",
@@ -66,6 +66,14 @@
       {
         "company": "Synopsys",
         "total_laid_off": 128
+      },
+      {
+        "company": "Neo Financial",
+        "total_laid_off": 102
+      },
+      {
+        "company": "Samsung",
+        "total_laid_off": 80
       }
     ],
     "industry_top": [
@@ -75,7 +83,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 1675
+        "total_laid_off": 643
       },
       {
         "industry": "Marketing",
@@ -92,26 +100,42 @@
       {
         "industry": "Other",
         "total_laid_off": 128
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 80
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 4311
+        "total_laid_off": 4562
       },
       {
         "country": "India",
-        "total_laid_off": 1675
+        "total_laid_off": 300
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 102
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 70
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 5836
+        "total_laid_off": 4782
       },
       {
         "stage": "Series B",
         "total_laid_off": 150
+      },
+      {
+        "stage": "Series D",
+        "total_laid_off": 102
       }
     ],
     "layoff_pct_distribution": [
@@ -121,7 +145,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 2
+        "event_count": 3
       },
       {
         "bucket": "25-49%",
@@ -150,16 +174,6 @@
         "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
       },
       {
-        "date": "2026-09-02",
-        "company": "PayPal",
-        "num_laid_off": 1675,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
-      },
-      {
         "date": "2026-09-03",
         "company": "The Trade Desk",
         "num_laid_off": 585,
@@ -168,6 +182,26 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "PayPal",
+        "num_laid_off": 251,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "PayPal",
+        "num_laid_off": 220,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
       },
       {
         "date": "2026-09-01",
@@ -198,9 +232,79 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+      },
+      {
+        "date": "2026-09-08",
+        "company": "Neo Financial",
+        "num_laid_off": 102,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+      },
+      {
+        "date": "2026-09-08",
+        "company": "Samsung",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+      },
+      {
+        "date": "2026-09-06",
+        "company": "PayPal",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-09-08",
+        "company": "Neo Financial",
+        "num_laid_off": 102,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+      },
+      {
+        "date": "2026-09-08",
+        "company": "Samsung",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+      },
+      {
+        "date": "2026-09-07",
+        "company": "Harrison.ai",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Healthcare",
+        "country": "Australia",
+        "stage": "Series C",
+        "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
+      },
+      {
+        "date": "2026-09-06",
+        "company": "PayPal",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Post-IPO",
+        "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
+      },
       {
         "date": "2026-09-03",
         "company": "The Trade Desk",
@@ -210,6 +314,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "PayPal",
+        "num_laid_off": 251,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
       },
       {
         "date": "2026-09-03",
@@ -254,12 +368,12 @@
       {
         "date": "2026-09-02",
         "company": "PayPal",
-        "num_laid_off": 1675,
+        "num_laid_off": 220,
         "percentage_laid_off": null,
         "industry": "Finance",
         "country": "India",
         "stage": "Post-IPO",
-        "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
+        "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
       },
       {
         "date": "2026-09-02",
@@ -326,7 +440,7 @@
     ]
   },
   "insights": [
-    "2026-09 includes 10 public layoff events and 5,986 reported layoffs.",
+    "2026-09 includes 15 public layoff events and 5,034 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
     "2 events report a layoff percentage of 25% or higher."

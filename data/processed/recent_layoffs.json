@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-08",
+    "company": "Neo Financial",
+    "num_laid_off": 102,
+    "percentage_laid_off": 0.1,
+    "industry": "Finance",
+    "country": "Canada",
+    "stage": "Series D",
+    "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+  },
+  {
+    "date": "2026-09-08",
+    "company": "Samsung",
+    "num_laid_off": 80,
+    "percentage_laid_off": null,
+    "industry": "Hardware",
+    "country": "India",
+    "stage": "Post-IPO",
+    "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+  },
+  {
+    "date": "2026-09-07",
+    "company": "Harrison.ai",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Healthcare",
+    "country": "Australia",
+    "stage": "Series C",
+    "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
+  },
+  {
+    "date": "2026-09-06",
+    "company": "PayPal",
+    "num_laid_off": 70,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Israel",
+    "stage": "Post-IPO",
+    "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
+  },
+  {
     "date": "2026-09-03",
     "company": "The Trade Desk",
     "num_laid_off": 585,
@@ -8,6 +48,26 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+  },
+  {
+    "date": "2026-09-03",
+    "company": "PayPal",
+    "num_laid_off": 251,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+  },
+  {
+    "date": "2026-09-03",
+    "company": "Hale",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Healthcare",
+    "country": "Germany",
+    "stage": "Seed",
+    "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
   },
   {
     "date": "2026-09-03",
@@ -30,14 +90,14 @@
     "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
   },
   {
-    "date": "2026-09-03",
-    "company": "Hale",
+    "date": "2026-09-02",
+    "company": "Bizzabo",
     "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Healthcare",
-    "country": "Germany",
-    "stage": "Seed",
-    "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
   },
   {
     "date": "2026-09-02",
@@ -52,71 +112,11 @@
   {
     "date": "2026-09-02",
     "company": "PayPal",
-    "num_laid_off": 1675,
+    "num_laid_off": 220,
     "percentage_laid_off": null,
     "industry": "Finance",
     "country": "India",
     "stage": "Post-IPO",
-    "source": "https://www.thehindubusinessline.com/incoming/paypal-to-lay-off-nearly-a-quarter-of-india-workforce-amid-global-restructuring/article71419574.ece"
-  },
-  {
-    "date": "2026-09-02",
-    "company": "Bizzabo",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series E",
-    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
-  },
-  {
-    "date": "2026-09-01",
-    "company": "Wonder",
-    "num_laid_off": 150,
-    "percentage_laid_off": 0.07,
-    "industry": "Food",
-    "country": "United States",
-    "stage": "Series B",
-    "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
-  },
-  {
-    "date": "2026-09-01",
-    "company": "Amazon",
-    "num_laid_off": 148,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-  },
-  {
-    "date": "2026-09-01",
-    "company": "Synopsys",
-    "num_laid_off": 128,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-  },
-  {
-    "date": "2026-08-31",
-    "company": "Amazon",
-    "num_laid_off": 121,
-    "percentage_laid_off": null,
-    "industry": "Retail",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
-  },
-  {
-    "date": "2026-08-31",
-    "company": "Satvacart",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Food",
-    "country": "India",
-    "stage": "Seed",
-    "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+    "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
   }
 ]

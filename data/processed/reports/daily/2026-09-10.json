@@ -1,0 +1,165 @@
+{
+  "report_type": "daily",
+  "period": "2026-09-10",
+  "status": "final",
+  "date_range": {
+    "start": "2026-09-10",
+    "end": "2026-09-10"
+  },
+  "updated_at": "2026-09-11",
+  "canonical_url": "/reports/daily/2026-09-10.html",
+  "kpis": {
+    "total_laid_off": 207,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 103.5,
+    "median_layoffs_per_headcount_event": 103.5,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-09-09",
+      "total_laid_off": null,
+      "event_count": null,
+      "total_laid_off_delta": null,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": null,
+      "event_count_pct_change": null,
+      "note": "No comparison data is available for this period."
+    },
+    "same_period_last_year": {
+      "period": "2025-09-10",
+      "total_laid_off": 222,
+      "event_count": 2,
+      "total_laid_off_delta": -15,
+      "total_laid_off_pct_change": -0.0676,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Booksy",
+        "total_laid_off": 200
+      },
+      {
+        "company": "PhonePe",
+        "total_laid_off": 7
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Consumer",
+        "total_laid_off": 200
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 7
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Poland",
+        "total_laid_off": 200
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 7
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series B",
+        "total_laid_off": 200
+      },
+      {
+        "stage": "Acquired",
+        "total_laid_off": 7
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 1
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-09-10",
+        "company": "Booksy",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Consumer",
+        "country": "Poland",
+        "stage": "Series B",
+        "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+      },
+      {
+        "date": "2026-09-10",
+        "company": "PhonePe",
+        "num_laid_off": 7,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-09-10",
+        "company": "Booksy",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Consumer",
+        "country": "Poland",
+        "stage": "Series B",
+        "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+      },
+      {
+        "date": "2026-09-10",
+        "company": "PhonePe",
+        "num_laid_off": 7,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-09-10 includes 2 public layoff events and 207 reported layoffs.",
+    "The largest company contributor is Booksy with 200 reported layoffs.",
+    "The leading named industry is Consumer with 200 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

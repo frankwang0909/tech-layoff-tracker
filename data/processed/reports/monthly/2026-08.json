@@ -6,17 +6,17 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-09-11",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
-    "total_laid_off": 3485,
-    "event_count": 41,
-    "headcount_event_count": 22,
-    "company_count": 41,
+    "total_laid_off": 3555,
+    "event_count": 42,
+    "headcount_event_count": 23,
+    "company_count": 42,
     "country_count": 9,
     "industry_count": 22,
-    "average_layoffs_per_headcount_event": 158.41,
-    "median_layoffs_per_headcount_event": 120.5,
+    "average_layoffs_per_headcount_event": 154.57,
+    "median_layoffs_per_headcount_event": 120.0,
     "high_intensity_event_count": 13
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-07",
       "total_laid_off": 11000,
       "event_count": 46,
-      "total_laid_off_delta": -7515,
-      "total_laid_off_pct_change": -0.6832,
-      "event_count_delta": -5,
-      "event_count_pct_change": -0.1087,
+      "total_laid_off_delta": -7445,
+      "total_laid_off_pct_change": -0.6768,
+      "event_count_delta": -4,
+      "event_count_pct_change": -0.087,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-08",
       "total_laid_off": 6452,
       "event_count": 26,
-      "total_laid_off_delta": -2967,
-      "total_laid_off_pct_change": -0.4599,
-      "event_count_delta": 15,
-      "event_count_pct_change": 0.5769,
+      "total_laid_off_delta": -2897,
+      "total_laid_off_pct_change": -0.449,
+      "event_count_delta": 16,
+      "event_count_pct_change": 0.6154,
       "note": null
     }
   },
@@ -107,7 +107,7 @@
       },
       {
         "industry": "Transportation",
-        "total_laid_off": 251
+        "total_laid_off": 321
       },
       {
         "industry": "Food",
@@ -137,7 +137,7 @@
       },
       {
         "country": "Ireland",
-        "total_laid_off": 164
+        "total_laid_off": 234
       },
       {
         "country": "Canada",
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 65
+        "total_laid_off": 135
       },
       {
         "stage": "Series D",
@@ -248,16 +248,6 @@
         "source": "Internal memo"
       },
       {
-        "date": "2026-08-31",
-        "company": "Zomato",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Series J",
-        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
-      },
-      {
         "date": "2026-08-06",
         "company": "TikTok",
         "num_laid_off": 250,
@@ -266,6 +256,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+      },
+      {
+        "date": "2026-08-31",
+        "company": "Zomato",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Food",
+        "country": "India",
+        "stage": "Series J",
+        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
       },
       {
         "date": "2026-08-05",
@@ -350,6 +350,16 @@
         "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
       },
       {
+        "date": "2026-08-28",
+        "company": "Cubic3",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "Ireland",
+        "stage": "Unknown",
+        "source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/"
+      },
+      {
         "date": "2026-08-27",
         "company": "Even Healthcare",
         "num_laid_off": 350,
@@ -421,13 +431,13 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Motive",
-        "num_laid_off": 251,
-        "percentage_laid_off": 0.05,
-        "industry": "Transportation",
+        "company": "Qualtrics",
+        "num_laid_off": 117,
+        "percentage_laid_off": null,
+        "industry": "Other",
         "country": "United States",
-        "stage": "Series F",
-        "source": "Internal memo"
+        "stage": "Acquired",
+        "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
       },
       {
         "date": "2026-08-19",
@@ -461,13 +471,13 @@
       },
       {
         "date": "2026-08-19",
-        "company": "Qualtrics",
-        "num_laid_off": 117,
-        "percentage_laid_off": null,
-        "industry": "Other",
+        "company": "Motive",
+        "num_laid_off": 251,
+        "percentage_laid_off": 0.05,
+        "industry": "Transportation",
         "country": "United States",
-        "stage": "Acquired",
-        "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
+        "stage": "Series F",
+        "source": "Internal memo"
       },
       {
         "date": "2026-08-17",
@@ -498,16 +508,6 @@
         "country": "United States",
         "stage": "Series C",
         "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
-      },
-      {
-        "date": "2026-08-13",
-        "company": "Netflix",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Media",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
       }
     ],
     "high_intensity_events": [
@@ -614,7 +614,7 @@
     ]
   },
   "insights": [
-    "2026-08 includes 41 public layoff events and 3,485 reported layoffs.",
+    "2026-08 includes 42 public layoff events and 3,555 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "13 events report a layoff percentage of 25% or higher."

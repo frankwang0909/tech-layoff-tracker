@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-09-08"
+    "end": "2026-09-11"
   },
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-09-11",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 128536,
-    "event_count": 333,
-    "headcount_event_count": 213,
-    "company_count": 300,
-    "country_count": 30,
+    "total_laid_off": 128873,
+    "event_count": 337,
+    "headcount_event_count": 217,
+    "company_count": 304,
+    "country_count": 31,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 603.46,
-    "median_layoffs_per_headcount_event": 128.0,
-    "high_intensity_event_count": 70
+    "average_layoffs_per_headcount_event": 593.88,
+    "median_layoffs_per_headcount_event": 126.0,
+    "high_intensity_event_count": 71
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 5930,
-      "total_laid_off_pct_change": 0.0484,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 6267,
+      "total_laid_off_pct_change": 0.0511,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.012,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 5930,
-      "total_laid_off_pct_change": 0.0484,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": 6267,
+      "total_laid_off_pct_change": 0.0511,
+      "event_count_delta": 4,
+      "event_count_pct_change": 0.012,
       "note": null
     }
   },
@@ -95,7 +95,7 @@
       },
       {
         "industry": "Consumer",
-        "total_laid_off": 17544
+        "total_laid_off": 17744
       },
       {
         "industry": "Hardware",
@@ -103,11 +103,11 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 10970
+        "total_laid_off": 10977
       },
       {
         "industry": "Transportation",
-        "total_laid_off": 5702
+        "total_laid_off": 5772
       },
       {
         "industry": "Infrastructure",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 103957
+        "total_laid_off": 103964
       },
       {
         "country": "India",
@@ -175,15 +175,15 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5609
+        "total_laid_off": 5679
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 4273
+        "total_laid_off": 4280
       },
       {
         "stage": "Series B",
-        "total_laid_off": 2103
+        "total_laid_off": 2303
       },
       {
         "stage": "Series F",
@@ -203,7 +203,7 @@
       },
       {
         "stage": "Series A",
-        "total_laid_off": 711
+        "total_laid_off": 771
       },
       {
         "stage": "Series C",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 57
+        "event_count": 58
       },
       {
         "bucket": "25-49%",
@@ -225,7 +225,7 @@
       },
       {
         "bucket": "50-99%",
-        "event_count": 5
+        "event_count": 6
       },
       {
         "bucket": "100%+",
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-11",
+        "company": "Bitcoin Suisse",
+        "num_laid_off": 60,
+        "percentage_laid_off": 0.5,
+        "industry": "Crypto",
+        "country": "Switzerland",
+        "stage": "Series A",
+        "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
+      },
+      {
+        "date": "2026-09-10",
+        "company": "Booksy",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Consumer",
+        "country": "Poland",
+        "stage": "Series B",
+        "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+      },
+      {
+        "date": "2026-09-10",
+        "company": "PhonePe",
+        "num_laid_off": 7,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+      },
+      {
         "date": "2026-09-08",
         "company": "Neo Financial",
         "num_laid_off": 102,
@@ -379,33 +409,13 @@
       },
       {
         "date": "2026-09-03",
-        "company": "The Trade Desk",
-        "num_laid_off": 585,
-        "percentage_laid_off": 0.15,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "PayPal",
-        "num_laid_off": 251,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Hale",
+        "company": "Zscaler",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "Germany",
-        "stage": "Seed",
-        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+        "percentage_laid_off": 0.03,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       },
       {
         "date": "2026-09-03",
@@ -419,23 +429,33 @@
       },
       {
         "date": "2026-09-03",
-        "company": "Zscaler",
+        "company": "Hale",
         "num_laid_off": null,
-        "percentage_laid_off": 0.03,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
-        "date": "2026-09-02",
-        "company": "Bizzabo",
-        "num_laid_off": null,
+        "date": "2026-09-03",
+        "company": "PayPal",
+        "num_laid_off": 251,
         "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
         "industry": "Marketing",
         "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
       },
       {
         "date": "2026-09-02",
@@ -456,6 +476,16 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "Bizzabo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
       },
       {
         "date": "2026-09-01",
@@ -489,23 +519,13 @@
       },
       {
         "date": "2026-08-31",
-        "company": "Zomato",
-        "num_laid_off": 250,
-        "percentage_laid_off": null,
+        "company": "Satvacart",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
         "industry": "Food",
         "country": "India",
-        "stage": "Series J",
-        "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
-      },
-      {
-        "date": "2026-08-31",
-        "company": "PayPal",
-        "num_laid_off": 164,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "Ireland",
-        "stage": "Post-IPO",
-        "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+        "stage": "Seed",
+        "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
       },
       {
         "date": "2026-08-31",
@@ -516,26 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
-      },
-      {
-        "date": "2026-08-31",
-        "company": "Satvacart",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
-      },
-      {
-        "date": "2026-08-27",
-        "company": "Even Healthcare",
-        "num_laid_off": 350,
-        "percentage_laid_off": 0.3,
-        "industry": "Healthcare",
-        "country": "India",
-        "stage": "Series A",
-        "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
       }
     ],
     "high_intensity_events": [
@@ -570,6 +570,16 @@
         "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
       },
       {
+        "date": "2026-08-24",
+        "company": "Laybuy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+      },
+      {
         "date": "2026-08-26",
         "company": "MonieWorld",
         "num_laid_off": null,
@@ -580,14 +590,14 @@
         "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
       },
       {
-        "date": "2026-08-24",
-        "company": "Laybuy",
+        "date": "2026-08-19",
+        "company": "BlocPower",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Security",
-        "country": "Israel",
-        "stage": "Seed",
-        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+        "industry": "Energy",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
       },
       {
         "date": "2026-08-23",
@@ -610,14 +620,14 @@
         "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
       },
       {
-        "date": "2026-08-19",
-        "company": "BlocPower",
+        "date": "2026-05-26",
+        "company": "Picnic",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Energy",
+        "industry": "Food",
         "country": "United States",
         "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       },
       {
         "date": "2026-08-17",
@@ -628,24 +638,14 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
-      },
-      {
-        "date": "2026-08-12",
-        "company": "Convictional",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Canada",
-        "stage": "Series B",
-        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
       }
     ]
   },
   "insights": [
-    "2026 includes 333 public layoff events and 128,536 reported layoffs.",
+    "2026 includes 337 public layoff events and 128,873 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
-    "70 events report a layoff percentage of 25% or higher."
+    "71 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

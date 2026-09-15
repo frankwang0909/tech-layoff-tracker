@@ -4,19 +4,19 @@
   "status": "final",
   "date_range": {
     "start": "2026-08-24",
-    "end": "2026-08-27"
+    "end": "2026-08-28"
   },
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-09-11",
   "canonical_url": "/reports/weekly/2026-W35.html",
   "kpis": {
-    "total_laid_off": 350,
-    "event_count": 5,
-    "headcount_event_count": 1,
-    "company_count": 5,
-    "country_count": 4,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 350.0,
-    "median_layoffs_per_headcount_event": 350.0,
+    "total_laid_off": 420,
+    "event_count": 6,
+    "headcount_event_count": 2,
+    "company_count": 6,
+    "country_count": 5,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 210.0,
+    "median_layoffs_per_headcount_event": 210.0,
     "high_intensity_event_count": 3
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-W34",
       "total_laid_off": 749,
       "event_count": 9,
-      "total_laid_off_delta": -399,
-      "total_laid_off_pct_change": -0.5327,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.4444,
+      "total_laid_off_delta": -329,
+      "total_laid_off_pct_change": -0.4393,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.3333,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W35",
       "total_laid_off": 4141,
       "event_count": 5,
-      "total_laid_off_delta": -3791,
-      "total_laid_off_pct_change": -0.9155,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "total_laid_off_delta": -3721,
+      "total_laid_off_pct_change": -0.8986,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.2,
       "note": null
     }
   },
@@ -46,24 +46,40 @@
       {
         "company": "Even Healthcare",
         "total_laid_off": 350
+      },
+      {
+        "company": "Cubic3",
+        "total_laid_off": 70
       }
     ],
     "industry_top": [
       {
         "industry": "Healthcare",
         "total_laid_off": 350
+      },
+      {
+        "industry": "Transportation",
+        "total_laid_off": 70
       }
     ],
     "country_top": [
       {
         "country": "India",
         "total_laid_off": 350
+      },
+      {
+        "country": "Ireland",
+        "total_laid_off": 70
       }
     ],
     "stage_top": [
       {
         "stage": "Series A",
         "total_laid_off": 350
+      },
+      {
+        "stage": "Unknown",
+        "total_laid_off": 70
       }
     ],
     "layoff_pct_distribution": [
@@ -100,9 +116,29 @@
         "country": "India",
         "stage": "Series A",
         "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+      },
+      {
+        "date": "2026-08-28",
+        "company": "Cubic3",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "Ireland",
+        "stage": "Unknown",
+        "source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-08-28",
+        "company": "Cubic3",
+        "num_laid_off": 70,
+        "percentage_laid_off": null,
+        "industry": "Transportation",
+        "country": "Ireland",
+        "stage": "Unknown",
+        "source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/"
+      },
       {
         "date": "2026-08-27",
         "company": "Even Healthcare",
@@ -188,7 +224,7 @@
     ]
   },
   "insights": [
-    "2026-W35 includes 5 public layoff events and 350 reported layoffs.",
+    "2026-W35 includes 6 public layoff events and 420 reported layoffs.",
     "The largest company contributor is Even Healthcare with 350 reported layoffs.",
     "The leading named industry is Healthcare with 350 reported layoffs.",
     "3 events report a layoff percentage of 25% or higher."

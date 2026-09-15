@@ -1,4 +1,7 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Bitcoin Suisse,"Zurich, Non-U.S.",60.0,2026-09-11,0.5,Crypto,https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/,Series A,,Switzerland,2026-09-14T16:53:23.000Z
+Booksy,"Warsaw, Non-U.S.",200.0,2026-09-10,0.2,Consumer,https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/,Series B,204.0,Poland,2026-09-14T16:51:07.000Z
+PhonePe,SF Bay Area,7.0,2026-09-10,,Finance,https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms,Acquired,3200.0,United States,2026-09-14T16:54:44.000Z
 Neo Financial,"Calgary, Non-U.S.",102.0,2026-09-08,0.1,Finance,https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc,Series D,544.0,Canada,2026-09-09T23:42:16.000Z
 Samsung,"Gurugram, Non-U.S.",80.0,2026-09-08,,Hardware,https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms,Post-IPO,,India,2026-09-09T23:41:12.000Z
 Harrison.ai,"Melbourne, Non-U.S.",,2026-09-07,,Healthcare,https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480,Series C,253.0,Australia,2026-09-09T23:40:08.000Z
@@ -18,6 +21,7 @@ Zomato,"Hyderabad, Non-U.S.",250.0,2026-08-31,,Food,https://timesofindia.indiati
 PayPal,"Dublin, Non-U.S.",164.0,2026-08-31,,Finance,https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/,Post-IPO,216.0,Ireland,2026-08-31T23:14:33.000Z
 Amazon,Seattle,121.0,2026-08-31,,Retail,https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/,Post-IPO,8100.0,United States,2026-08-31T23:08:23.000Z
 Satvacart,"Gurugram, Non-U.S.",,2026-08-31,1.0,Food,https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/,Seed,2.0,India,2026-08-31T23:11:56.000Z
+Cubic3,"Dublin, Non-U.S.",70.0,2026-08-28,,Transportation,https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/,Unknown,,Ireland,2026-09-14T16:46:46.000Z
 Even Healthcare,"Bengaluru, Non-U.S.",350.0,2026-08-27,0.3,Healthcare,https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475,Series A,91.0,India,2026-08-28T02:33:59.000Z
 MonieWorld,"Lagos, Non-U.S.",,2026-08-26,1.0,Finance,https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/,Unknown,,Nigeria,2026-08-28T02:36:50.000Z
 PagerDuty,SF Bay Area,,2026-08-26,0.15,Product,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf,Post-IPO,173.0,United States,2026-08-28T02:32:55.000Z

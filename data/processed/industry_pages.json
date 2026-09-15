@@ -573,14 +573,14 @@
     "canonical_url": "/industries/consumer.html",
     "date_range": {
       "start": "2025-01-27",
-      "end": "2026-08-19"
+      "end": "2026-09-10"
     },
     "kpis": {
-      "total_laid_off": 27308,
-      "event_count": 87,
-      "headcount_event_count": 59,
-      "company_count": 58,
-      "country_count": 9,
+      "total_laid_off": 27508,
+      "event_count": 88,
+      "headcount_event_count": 60,
+      "company_count": 59,
+      "country_count": 10,
       "industry_count": 1,
       "high_intensity_event_count": 11
     },
@@ -661,6 +661,10 @@
         {
           "month": "2026-08",
           "total_laid_off": 377
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 200
         }
       ],
       "company_top": [
@@ -673,15 +677,15 @@
           "total_laid_off": 1290
         },
         {
+          "company": "Epic Games",
+          "total_laid_off": 1000
+        },
+        {
           "company": "Livspace",
           "total_laid_off": 1000
         },
         {
           "company": "Snap",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Epic Games",
           "total_laid_off": 1000
         },
         {
@@ -708,6 +712,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-10",
+          "company": "Booksy",
+          "num_laid_off": 200,
+          "percentage_laid_off": 0.2,
+          "industry": "Consumer",
+          "country": "Poland",
+          "stage": "Series B",
+          "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+        },
         {
           "date": "2026-08-19",
           "company": "Tiktok",
@@ -847,20 +861,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
-        },
-        {
-          "date": "2026-06-01",
-          "company": "Lightricks",
-          "num_laid_off": 75,
-          "percentage_laid_off": 0.17,
-          "industry": "Consumer",
-          "country": "Israel",
-          "stage": "Series D",
-          "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
         }
       ]
     },
-    "summary": "Consumer has 27,308 reported tech layoffs across 87 public events from 2025-01-27 to 2026-08-19."
+    "summary": "Consumer has 27,508 reported tech layoffs across 88 public events from 2025-01-27 to 2026-09-10."
   },
   {
     "type": "industry",
@@ -870,13 +874,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-08"
+      "end": "2026-09-10"
     },
     "kpis": {
-      "total_laid_off": 14859,
-      "event_count": 65,
-      "headcount_event_count": 42,
-      "company_count": 55,
+      "total_laid_off": 14866,
+      "event_count": 66,
+      "headcount_event_count": 43,
+      "company_count": 56,
       "country_count": 11,
       "industry_count": 1,
       "high_intensity_event_count": 18
@@ -957,7 +961,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 643
+          "total_laid_off": 650
         }
       ],
       "company_top": [
@@ -982,19 +986,19 @@
           "total_laid_off": 700
         },
         {
-          "company": "Stone",
-          "total_laid_off": 400
-        },
-        {
           "company": "Paytm",
           "total_laid_off": 400
         },
         {
-          "company": "Wise",
-          "total_laid_off": 300
+          "company": "Stone",
+          "total_laid_off": 400
         },
         {
           "company": "Stripe",
+          "total_laid_off": 300
+        },
+        {
+          "company": "Wise",
           "total_laid_off": 300
         },
         {
@@ -1005,6 +1009,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-10",
+          "company": "PhonePe",
+          "num_laid_off": 7,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+        },
         {
           "date": "2026-09-08",
           "company": "Neo Financial",
@@ -1144,20 +1158,10 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
-        },
-        {
-          "date": "2026-05-28",
-          "company": "Rapyd",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
         }
       ]
     },
-    "summary": "Finance has 14,859 reported tech layoffs across 65 public events from 2025-01-02 to 2026-09-08."
+    "summary": "Finance has 14,866 reported tech layoffs across 66 public events from 2025-01-02 to 2026-09-10."
   },
   {
     "type": "industry",
@@ -1170,11 +1174,11 @@
       "end": "2026-09-02"
     },
     "kpis": {
-      "total_laid_off": 9535,
-      "event_count": 32,
-      "headcount_event_count": 20,
-      "company_count": 25,
-      "country_count": 6,
+      "total_laid_off": 9605,
+      "event_count": 33,
+      "headcount_event_count": 21,
+      "company_count": 26,
+      "country_count": 7,
       "industry_count": 1,
       "high_intensity_event_count": 9
     },
@@ -1234,7 +1238,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 251
+          "total_laid_off": 321
         },
         {
           "month": "2026-09",
@@ -1295,6 +1299,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+        },
+        {
+          "date": "2026-08-28",
+          "company": "Cubic3",
+          "num_laid_off": 70,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "Ireland",
+          "stage": "Unknown",
+          "source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/"
         },
         {
           "date": "2026-08-19",
@@ -1425,20 +1439,10 @@
           "country": "Israel",
           "stage": "Series C",
           "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
-        },
-        {
-          "date": "2025-12-08",
-          "company": "Mobileye",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.04,
-          "industry": "Transportation",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.calcalistech.com/ctechnews/article/hjznnzvzzl"
         }
       ]
     },
-    "summary": "Transportation has 9,535 reported tech layoffs across 32 public events from 2025-01-27 to 2026-09-02."
+    "summary": "Transportation has 9,605 reported tech layoffs across 33 public events from 2025-01-27 to 2026-09-02."
   },
   {
     "type": "industry",
@@ -4371,6 +4375,267 @@
   },
   {
     "type": "industry",
+    "name": "Crypto",
+    "slug": "crypto",
+    "title": "Tech Layoffs by Industry: Crypto",
+    "canonical_url": "/industries/crypto.html",
+    "date_range": {
+      "start": "2025-02-05",
+      "end": "2026-09-11"
+    },
+    "kpis": {
+      "total_laid_off": 1547,
+      "event_count": 31,
+      "headcount_event_count": 14,
+      "company_count": 29,
+      "country_count": 12,
+      "industry_count": 1,
+      "high_intensity_event_count": 11
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 200
+        },
+        {
+          "month": "2025-07",
+          "total_laid_off": 76
+        },
+        {
+          "month": "2026-01",
+          "total_laid_off": 60
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 20
+        },
+        {
+          "month": "2026-04",
+          "total_laid_off": 37
+        },
+        {
+          "month": "2026-05",
+          "total_laid_off": 850
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 144
+        },
+        {
+          "month": "2026-07",
+          "total_laid_off": 35
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 65
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 60
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Coinbase",
+          "total_laid_off": 700
+        },
+        {
+          "company": "Gemini",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Kraken",
+          "total_laid_off": 150
+        },
+        {
+          "company": "BitGo",
+          "total_laid_off": 90
+        },
+        {
+          "company": "Bitcoin Suisse",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Polygon",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Ethereum Foundation",
+          "total_laid_off": 54
+        },
+        {
+          "company": "ConsenSys",
+          "total_laid_off": 47
+        },
+        {
+          "company": "Pump.fun",
+          "total_laid_off": 40
+        },
+        {
+          "company": "Swyftx",
+          "total_laid_off": 37
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-09-11",
+          "company": "Bitcoin Suisse",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.5,
+          "industry": "Crypto",
+          "country": "Switzerland",
+          "stage": "Series A",
+          "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
+        },
+        {
+          "date": "2026-09-03",
+          "company": "Orionx",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "Chile",
+          "stage": "Series A",
+          "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+        },
+        {
+          "date": "2026-08-12",
+          "company": "Bitwise",
+          "num_laid_off": 25,
+          "percentage_laid_off": 0.14,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+        },
+        {
+          "date": "2026-08-03",
+          "company": "FalconX",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.1,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
+        },
+        {
+          "date": "2026-08-01",
+          "company": "Pump.fun",
+          "num_laid_off": 40,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+        },
+        {
+          "date": "2026-07-28",
+          "company": "Luno",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "United Kingdom",
+          "stage": "Acquired",
+          "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+        },
+        {
+          "date": "2026-07-27",
+          "company": "BitMart",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+        },
+        {
+          "date": "2026-07-23",
+          "company": "BitMEX",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "Seychelles",
+          "stage": "Seed",
+          "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+        },
+        {
+          "date": "2026-07-21",
+          "company": "Movement Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+        },
+        {
+          "date": "2026-07-16",
+          "company": "Polygon",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Cayman Islands",
+          "stage": "Unknown",
+          "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+        },
+        {
+          "date": "2026-07-06",
+          "company": "Yield Guild Games",
+          "num_laid_off": 35,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+        },
+        {
+          "date": "2026-06-25",
+          "company": "BitGo",
+          "num_laid_off": 90,
+          "percentage_laid_off": 0.15,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://x.com/mikebelshe/status/2070240967479996463"
+        },
+        {
+          "date": "2026-06-23",
+          "company": "Ethereum Foundation",
+          "num_laid_off": 54,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "Switzerland",
+          "stage": "Unknown",
+          "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+        },
+        {
+          "date": "2026-06-16",
+          "company": "Matter Labs",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "Germany",
+          "stage": "Unknown",
+          "source": "https://x.com/gluk64/status/2066964567884747146"
+        },
+        {
+          "date": "2026-05-15",
+          "company": "Kraken",
+          "num_laid_off": 150,
+          "percentage_laid_off": null,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+        }
+      ]
+    },
+    "summary": "Crypto has 1,547 reported tech layoffs across 31 public events from 2025-02-05 to 2026-09-11."
+  },
+  {
+    "type": "industry",
     "name": "Media",
     "slug": "media",
     "title": "Tech Layoffs by Industry: Media",
@@ -4818,263 +5083,6 @@
       ]
     },
     "summary": "Support has 1,494 reported tech layoffs across 11 public events from 2025-01-20 to 2026-07-28."
-  },
-  {
-    "type": "industry",
-    "name": "Crypto",
-    "slug": "crypto",
-    "title": "Tech Layoffs by Industry: Crypto",
-    "canonical_url": "/industries/crypto.html",
-    "date_range": {
-      "start": "2025-02-05",
-      "end": "2026-09-03"
-    },
-    "kpis": {
-      "total_laid_off": 1487,
-      "event_count": 30,
-      "headcount_event_count": 13,
-      "company_count": 28,
-      "country_count": 12,
-      "industry_count": 1,
-      "high_intensity_event_count": 10
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 200
-        },
-        {
-          "month": "2025-07",
-          "total_laid_off": 76
-        },
-        {
-          "month": "2026-01",
-          "total_laid_off": 60
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 20
-        },
-        {
-          "month": "2026-04",
-          "total_laid_off": 37
-        },
-        {
-          "month": "2026-05",
-          "total_laid_off": 850
-        },
-        {
-          "month": "2026-06",
-          "total_laid_off": 144
-        },
-        {
-          "month": "2026-07",
-          "total_laid_off": 35
-        },
-        {
-          "month": "2026-08",
-          "total_laid_off": 65
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Coinbase",
-          "total_laid_off": 700
-        },
-        {
-          "company": "Gemini",
-          "total_laid_off": 200
-        },
-        {
-          "company": "Kraken",
-          "total_laid_off": 150
-        },
-        {
-          "company": "BitGo",
-          "total_laid_off": 90
-        },
-        {
-          "company": "Polygon",
-          "total_laid_off": 60
-        },
-        {
-          "company": "Ethereum Foundation",
-          "total_laid_off": 54
-        },
-        {
-          "company": "ConsenSys",
-          "total_laid_off": 47
-        },
-        {
-          "company": "Pump.fun",
-          "total_laid_off": 40
-        },
-        {
-          "company": "Swyftx",
-          "total_laid_off": 37
-        },
-        {
-          "company": "Yield Guild Games",
-          "total_laid_off": 35
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-09-03",
-          "company": "Orionx",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "Chile",
-          "stage": "Series A",
-          "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
-        },
-        {
-          "date": "2026-08-12",
-          "company": "Bitwise",
-          "num_laid_off": 25,
-          "percentage_laid_off": 0.14,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
-        },
-        {
-          "date": "2026-08-03",
-          "company": "FalconX",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.1,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
-        },
-        {
-          "date": "2026-08-01",
-          "company": "Pump.fun",
-          "num_laid_off": 40,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
-        },
-        {
-          "date": "2026-07-28",
-          "company": "Luno",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.2,
-          "industry": "Crypto",
-          "country": "United Kingdom",
-          "stage": "Acquired",
-          "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
-        },
-        {
-          "date": "2026-07-27",
-          "company": "BitMart",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
-        },
-        {
-          "date": "2026-07-23",
-          "company": "BitMEX",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "Seychelles",
-          "stage": "Seed",
-          "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
-        },
-        {
-          "date": "2026-07-21",
-          "company": "Movement Labs",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
-        },
-        {
-          "date": "2026-07-16",
-          "company": "Polygon",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Cayman Islands",
-          "stage": "Unknown",
-          "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
-        },
-        {
-          "date": "2026-07-06",
-          "company": "Yield Guild Games",
-          "num_laid_off": 35,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
-        },
-        {
-          "date": "2026-06-25",
-          "company": "BitGo",
-          "num_laid_off": 90,
-          "percentage_laid_off": 0.15,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://x.com/mikebelshe/status/2070240967479996463"
-        },
-        {
-          "date": "2026-06-23",
-          "company": "Ethereum Foundation",
-          "num_laid_off": 54,
-          "percentage_laid_off": 0.2,
-          "industry": "Crypto",
-          "country": "Switzerland",
-          "stage": "Unknown",
-          "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Matter Labs",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "Germany",
-          "stage": "Unknown",
-          "source": "https://x.com/gluk64/status/2066964567884747146"
-        },
-        {
-          "date": "2026-05-15",
-          "company": "Kraken",
-          "num_laid_off": 150,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
-        },
-        {
-          "date": "2026-05-14",
-          "company": "Dune",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Crypto",
-          "country": "Norway",
-          "stage": "Series B",
-          "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
-        }
-      ]
-    },
-    "summary": "Crypto has 1,487 reported tech layoffs across 30 public events from 2025-02-05 to 2026-09-03."
   },
   {
     "type": "industry",

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-03"
+      "end": "2026-09-10"
     },
     "kpis": {
-      "total_laid_off": 206713,
-      "event_count": 391,
-      "headcount_event_count": 258,
-      "company_count": 295,
+      "total_laid_off": 206720,
+      "event_count": 392,
+      "headcount_event_count": 259,
+      "company_count": 296,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 59
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 4562
+          "total_laid_off": 4569
         }
       ],
       "company_top": [
@@ -151,6 +151,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-09-10",
+          "company": "PhonePe",
+          "num_laid_off": 7,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+        },
+        {
           "date": "2026-09-03",
           "company": "The Trade Desk",
           "num_laid_off": 585,
@@ -162,16 +172,6 @@
         },
         {
           "date": "2026-09-03",
-          "company": "Zscaler",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.03,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
-        },
-        {
-          "date": "2026-09-03",
           "company": "PayPal",
           "num_laid_off": 251,
           "percentage_laid_off": null,
@@ -179,6 +179,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+        },
+        {
+          "date": "2026-09-03",
+          "company": "Zscaler",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.03,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
         },
         {
           "date": "2026-09-02",
@@ -262,33 +272,13 @@
         },
         {
           "date": "2026-08-19",
-          "company": "BlocPower",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Energy",
+          "company": "Motive",
+          "num_laid_off": 251,
+          "percentage_laid_off": 0.05,
+          "industry": "Transportation",
           "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-        },
-        {
-          "date": "2026-08-19",
-          "company": "Vast",
-          "num_laid_off": 46,
-          "percentage_laid_off": 0.04,
-          "industry": "Aerospace",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
-        },
-        {
-          "date": "2026-08-19",
-          "company": "Tiktok",
-          "num_laid_off": 75,
-          "percentage_laid_off": null,
-          "industry": "Consumer",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+          "stage": "Series F",
+          "source": "Internal memo"
         },
         {
           "date": "2026-08-19",
@@ -299,10 +289,20 @@
           "country": "United States",
           "stage": "Acquired",
           "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
+        },
+        {
+          "date": "2026-08-19",
+          "company": "Tiktok",
+          "num_laid_off": 75,
+          "percentage_laid_off": null,
+          "industry": "Consumer",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
         }
       ]
     },
-    "summary": "United States has 206,713 reported tech layoffs across 391 public events from 2025-01-02 to 2026-09-03."
+    "summary": "United States has 206,720 reported tech layoffs across 392 public events from 2025-01-02 to 2026-09-10."
   },
   {
     "type": "country",
@@ -2246,12 +2246,12 @@
       "end": "2026-08-31"
     },
     "kpis": {
-      "total_laid_off": 764,
-      "event_count": 5,
-      "headcount_event_count": 3,
-      "company_count": 3,
+      "total_laid_off": 834,
+      "event_count": 6,
+      "headcount_event_count": 4,
+      "company_count": 4,
       "country_count": 1,
-      "industry_count": 3,
+      "industry_count": 4,
       "high_intensity_event_count": 0
     },
     "charts": {
@@ -2266,7 +2266,7 @@
         },
         {
           "month": "2026-08",
-          "total_laid_off": 164
+          "total_laid_off": 234
         }
       ],
       "company_top": [
@@ -2277,6 +2277,10 @@
         {
           "company": "PayPal",
           "total_laid_off": 164
+        },
+        {
+          "company": "Cubic3",
+          "total_laid_off": 70
         }
       ]
     },
@@ -2291,6 +2295,16 @@
           "country": "Ireland",
           "stage": "Post-IPO",
           "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+        },
+        {
+          "date": "2026-08-28",
+          "company": "Cubic3",
+          "num_laid_off": 70,
+          "percentage_laid_off": null,
+          "industry": "Transportation",
+          "country": "Ireland",
+          "stage": "Unknown",
+          "source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/"
         },
         {
           "date": "2026-07-01",
@@ -2334,7 +2348,7 @@
         }
       ]
     },
-    "summary": "Ireland has 764 reported tech layoffs across 5 public events from 2025-03-06 to 2026-08-31."
+    "summary": "Ireland has 834 reported tech layoffs across 6 public events from 2025-03-06 to 2026-08-31."
   },
   {
     "type": "country",
@@ -2719,6 +2733,91 @@
       ]
     },
     "summary": "Estonia has 355 reported tech layoffs across 3 public events from 2025-04-24 to 2026-04-21."
+  },
+  {
+    "type": "country",
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "title": "Tech Layoffs by Country: Switzerland",
+    "canonical_url": "/countries/switzerland.html",
+    "date_range": {
+      "start": "2025-05-21",
+      "end": "2026-09-11"
+    },
+    "kpis": {
+      "total_laid_off": 220,
+      "event_count": 3,
+      "headcount_event_count": 3,
+      "company_count": 3,
+      "country_count": 1,
+      "industry_count": 2,
+      "high_intensity_event_count": 1
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-05",
+          "total_laid_off": 106
+        },
+        {
+          "month": "2026-06",
+          "total_laid_off": 54
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 60
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Climeworks",
+          "total_laid_off": 106
+        },
+        {
+          "company": "Bitcoin Suisse",
+          "total_laid_off": 60
+        },
+        {
+          "company": "Ethereum Foundation",
+          "total_laid_off": 54
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-09-11",
+          "company": "Bitcoin Suisse",
+          "num_laid_off": 60,
+          "percentage_laid_off": 0.5,
+          "industry": "Crypto",
+          "country": "Switzerland",
+          "stage": "Series A",
+          "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
+        },
+        {
+          "date": "2026-06-23",
+          "company": "Ethereum Foundation",
+          "num_laid_off": 54,
+          "percentage_laid_off": 0.2,
+          "industry": "Crypto",
+          "country": "Switzerland",
+          "stage": "Unknown",
+          "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+        },
+        {
+          "date": "2025-05-21",
+          "company": "Climeworks",
+          "num_laid_off": 106,
+          "percentage_laid_off": 0.22,
+          "industry": "Energy",
+          "country": "Switzerland",
+          "stage": "Private Equity",
+          "source": "https://www.bloomberg.com/news/articles/2025-05-21/carbon-removal-startup-climeworks-is-cutting-22-of-staff"
+        }
+      ]
+    },
+    "summary": "Switzerland has 220 reported tech layoffs across 3 public events from 2025-05-21 to 2026-09-11."
   },
   {
     "type": "country",

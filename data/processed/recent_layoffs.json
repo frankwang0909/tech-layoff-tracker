@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-11",
+    "company": "Bitcoin Suisse",
+    "num_laid_off": 60,
+    "percentage_laid_off": 0.5,
+    "industry": "Crypto",
+    "country": "Switzerland",
+    "stage": "Series A",
+    "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
+  },
+  {
+    "date": "2026-09-10",
+    "company": "PhonePe",
+    "num_laid_off": 7,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+  },
+  {
+    "date": "2026-09-10",
+    "company": "Booksy",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.2,
+    "industry": "Consumer",
+    "country": "Poland",
+    "stage": "Series B",
+    "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+  },
+  {
     "date": "2026-09-08",
     "company": "Neo Financial",
     "num_laid_off": 102,
@@ -88,35 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
-  },
-  {
-    "date": "2026-09-02",
-    "company": "Bizzabo",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Series E",
-    "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
-  },
-  {
-    "date": "2026-09-02",
-    "company": "Uber",
-    "num_laid_off": 3300,
-    "percentage_laid_off": 0.1,
-    "industry": "Transportation",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
-  },
-  {
-    "date": "2026-09-02",
-    "company": "PayPal",
-    "num_laid_off": 220,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "India",
-    "stage": "Post-IPO",
-    "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
   }
 ]

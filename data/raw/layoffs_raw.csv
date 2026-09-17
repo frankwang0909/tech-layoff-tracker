@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Pulley,SF Bay Area,,2026-09-15,1.0,Finance,https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9,Series B,50.0,United States,2026-09-16T21:06:36.000Z
+Oracle,SF Bay Area,,2026-09-14,,Other,https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9,Post-IPO,,United States,2026-09-16T21:16:50.000Z
 Bitcoin Suisse,"Zurich, Non-U.S.",60.0,2026-09-11,0.5,Crypto,https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/,Series A,,Switzerland,2026-09-14T16:53:23.000Z
 Booksy,"Warsaw, Non-U.S.",200.0,2026-09-10,0.2,Consumer,https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/,Series B,204.0,Poland,2026-09-14T16:51:07.000Z
 PhonePe,SF Bay Area,7.0,2026-09-10,,Finance,https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms,Acquired,3200.0,United States,2026-09-14T16:54:44.000Z

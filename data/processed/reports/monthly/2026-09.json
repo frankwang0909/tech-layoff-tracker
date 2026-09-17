@@ -4,20 +4,20 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-09-01",
-    "end": "2026-09-11"
+    "end": "2026-09-15"
   },
-  "updated_at": "2026-09-11",
+  "updated_at": "2026-09-15",
   "canonical_url": "/reports/monthly/2026-09.html",
   "kpis": {
     "total_laid_off": 5301,
-    "event_count": 18,
+    "event_count": 20,
     "headcount_event_count": 13,
-    "company_count": 16,
+    "company_count": 18,
     "country_count": 9,
     "industry_count": 11,
     "average_layoffs_per_headcount_event": 407.77,
     "median_layoffs_per_headcount_event": 148.0,
-    "high_intensity_event_count": 3
+    "high_intensity_event_count": 4
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 42,
       "total_laid_off_delta": 1746,
       "total_laid_off_pct_change": 0.4911,
-      "event_count_delta": -24,
-      "event_count_pct_change": -0.5714,
+      "event_count_delta": -22,
+      "event_count_pct_change": -0.5238,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 29,
       "total_laid_off_delta": 847,
       "total_laid_off_pct_change": 0.1902,
-      "event_count_delta": -11,
-      "event_count_pct_change": -0.3793,
+      "event_count_delta": -9,
+      "event_count_pct_change": -0.3103,
       "note": null
     }
   },
@@ -298,6 +298,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-15",
+        "company": "Pulley",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+      },
+      {
+        "date": "2026-09-14",
+        "company": "Oracle",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
+      },
+      {
         "date": "2026-09-11",
         "company": "Bitcoin Suisse",
         "num_laid_off": 60,
@@ -369,16 +389,6 @@
       },
       {
         "date": "2026-09-03",
-        "company": "Zscaler",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.03,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
-      },
-      {
-        "date": "2026-09-03",
         "company": "Orionx",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -389,13 +399,13 @@
       },
       {
         "date": "2026-09-03",
-        "company": "Hale",
+        "company": "Zscaler",
         "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "Germany",
-        "stage": "Seed",
-        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+        "percentage_laid_off": 0.03,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       },
       {
         "date": "2026-09-03",
@@ -406,6 +416,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Hale",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Healthcare",
+        "country": "Germany",
+        "stage": "Seed",
+        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
         "date": "2026-09-03",
@@ -480,6 +500,16 @@
     ],
     "high_intensity_events": [
       {
+        "date": "2026-09-15",
+        "company": "Pulley",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series B",
+        "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+      },
+      {
         "date": "2026-09-03",
         "company": "Hale",
         "num_laid_off": null,
@@ -512,10 +542,10 @@
     ]
   },
   "insights": [
-    "2026-09 includes 18 public layoff events and 5,301 reported layoffs.",
+    "2026-09 includes 20 public layoff events and 5,301 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
-    "3 events report a layoff percentage of 25% or higher."
+    "4 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

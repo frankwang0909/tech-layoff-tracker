@@ -874,16 +874,16 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-10"
+      "end": "2026-09-15"
     },
     "kpis": {
       "total_laid_off": 14866,
-      "event_count": 66,
+      "event_count": 67,
       "headcount_event_count": 43,
-      "company_count": 56,
+      "company_count": 57,
       "country_count": 11,
       "industry_count": 1,
-      "high_intensity_event_count": 18
+      "high_intensity_event_count": 19
     },
     "charts": {
       "monthly_trend": [
@@ -1009,6 +1009,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-15",
+          "company": "Pulley",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+        },
         {
           "date": "2026-09-10",
           "company": "PhonePe",
@@ -1148,20 +1158,10 @@
           "country": "India",
           "stage": "Subsidiary",
           "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
-        },
-        {
-          "date": "2026-05-30",
-          "company": "Credit Karma",
-          "num_laid_off": 117,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
         }
       ]
     },
-    "summary": "Finance has 14,866 reported tech layoffs across 66 public events from 2025-01-02 to 2026-09-10."
+    "summary": "Finance has 14,866 reported tech layoffs across 67 public events from 2025-01-02 to 2026-09-15."
   },
   {
     "type": "industry",

@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-09-15"
+    "end": "2026-09-17"
   },
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-17",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 128873,
-    "event_count": 339,
-    "headcount_event_count": 217,
-    "company_count": 305,
+    "total_laid_off": 129153,
+    "event_count": 341,
+    "headcount_event_count": 219,
+    "company_count": 307,
     "country_count": 31,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 593.88,
+    "average_layoffs_per_headcount_event": 589.74,
     "median_layoffs_per_headcount_event": 126.0,
     "high_intensity_event_count": 72
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6267,
-      "total_laid_off_pct_change": 0.0511,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.018,
+      "total_laid_off_delta": 6547,
+      "total_laid_off_pct_change": 0.0534,
+      "event_count_delta": 8,
+      "event_count_pct_change": 0.024,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6267,
-      "total_laid_off_pct_change": 0.0511,
-      "event_count_delta": 6,
-      "event_count_pct_change": 0.018,
+      "total_laid_off_delta": 6547,
+      "total_laid_off_pct_change": 0.0534,
+      "event_count_delta": 8,
+      "event_count_pct_change": 0.024,
       "note": null
     }
   },
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 10977
+        "total_laid_off": 11257
       },
       {
         "industry": "Transportation",
@@ -133,7 +133,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 4725
+        "total_laid_off": 4805
       },
       {
         "country": "Israel",
@@ -149,7 +149,7 @@
       },
       {
         "country": "Sweden",
-        "total_laid_off": 1835
+        "total_laid_off": 2035
       },
       {
         "country": "United Kingdom",
@@ -175,11 +175,11 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 5679
+        "total_laid_off": 5759
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 4280
+        "total_laid_off": 4480
       },
       {
         "stage": "Series B",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-17",
+        "company": "Trustly",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
+        "date": "2026-09-17",
+        "company": "Bluevine",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+      },
+      {
         "date": "2026-09-15",
         "company": "Pulley",
         "num_laid_off": null,
@@ -429,23 +449,13 @@
       },
       {
         "date": "2026-09-03",
-        "company": "Zscaler",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.03,
-        "industry": "Security",
+        "company": "PayPal",
+        "num_laid_off": 251,
+        "percentage_laid_off": null,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Orionx",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "Chile",
-        "stage": "Series A",
-        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
       },
       {
         "date": "2026-09-03",
@@ -459,13 +469,23 @@
       },
       {
         "date": "2026-09-03",
-        "company": "PayPal",
-        "num_laid_off": 251,
-        "percentage_laid_off": null,
-        "industry": "Finance",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Zscaler",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.03,
+        "industry": "Security",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       },
       {
         "date": "2026-09-03",
@@ -509,30 +529,10 @@
       },
       {
         "date": "2026-09-01",
-        "company": "Wonder",
-        "num_laid_off": 150,
-        "percentage_laid_off": 0.07,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
-      },
-      {
-        "date": "2026-09-01",
         "company": "Amazon",
         "num_laid_off": 148,
         "percentage_laid_off": null,
         "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-      },
-      {
-        "date": "2026-09-01",
-        "company": "Synopsys",
-        "num_laid_off": 128,
-        "percentage_laid_off": null,
-        "industry": "Other",
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 339 public layoff events and 128,873 reported layoffs.",
+    "2026 includes 341 public layoff events and 129,153 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

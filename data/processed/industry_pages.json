@@ -874,14 +874,14 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-15"
+      "end": "2026-09-17"
     },
     "kpis": {
-      "total_laid_off": 14866,
-      "event_count": 67,
-      "headcount_event_count": 43,
-      "company_count": 57,
-      "country_count": 11,
+      "total_laid_off": 15146,
+      "event_count": 69,
+      "headcount_event_count": 45,
+      "company_count": 59,
+      "country_count": 12,
       "industry_count": 1,
       "high_intensity_event_count": 19
     },
@@ -961,7 +961,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 650
+          "total_laid_off": 930
         }
       ],
       "company_top": [
@@ -1009,6 +1009,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-17",
+          "company": "Trustly",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Sweden",
+          "stage": "Acquired",
+          "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+        },
+        {
+          "date": "2026-09-17",
+          "company": "Bluevine",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+        },
         {
           "date": "2026-09-15",
           "company": "Pulley",
@@ -1138,30 +1158,10 @@
           "country": "United Kingdom",
           "stage": "Private Equity",
           "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
-        },
-        {
-          "date": "2026-06-12",
-          "company": "Pleo",
-          "num_laid_off": 50,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "Denmark",
-          "stage": "Series C",
-          "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
-        },
-        {
-          "date": "2026-06-09",
-          "company": "Paytm",
-          "num_laid_off": 400,
-          "percentage_laid_off": 0.01,
-          "industry": "Finance",
-          "country": "India",
-          "stage": "Subsidiary",
-          "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
         }
       ]
     },
-    "summary": "Finance has 14,866 reported tech layoffs across 67 public events from 2025-01-02 to 2026-09-15."
+    "summary": "Finance has 15,146 reported tech layoffs across 69 public events from 2025-01-02 to 2026-09-17."
   },
   {
     "type": "industry",

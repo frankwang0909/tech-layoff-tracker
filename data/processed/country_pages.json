@@ -312,13 +312,13 @@
     "canonical_url": "/countries/india.html",
     "date_range": {
       "start": "2025-01-15",
-      "end": "2026-09-08"
+      "end": "2026-09-17"
     },
     "kpis": {
-      "total_laid_off": 11280,
-      "event_count": 63,
-      "headcount_event_count": 48,
-      "company_count": 53,
+      "total_laid_off": 11360,
+      "event_count": 64,
+      "headcount_event_count": 49,
+      "company_count": 54,
       "country_count": 1,
       "industry_count": 17,
       "high_intensity_event_count": 24
@@ -399,16 +399,16 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 300
+          "total_laid_off": 380
         }
       ],
       "company_top": [
         {
-          "company": "Livspace",
+          "company": "Ola Electric",
           "total_laid_off": 1000
         },
         {
-          "company": "Ola Electric",
+          "company": "Livspace",
           "total_laid_off": 1000
         },
         {
@@ -432,11 +432,11 @@
           "total_laid_off": 500
         },
         {
-          "company": "Paytm",
+          "company": "GamesKraft",
           "total_laid_off": 400
         },
         {
-          "company": "GamesKraft",
+          "company": "Paytm",
           "total_laid_off": 400
         },
         {
@@ -447,6 +447,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-17",
+          "company": "Bluevine",
+          "num_laid_off": 80,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "India",
+          "stage": "Unknown",
+          "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+        },
         {
           "date": "2026-09-08",
           "company": "Samsung",
@@ -586,20 +596,10 @@
           "country": "India",
           "stage": "Series B",
           "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "ApnaMart",
-          "num_laid_off": 35,
-          "percentage_laid_off": 0.1,
-          "industry": "Food",
-          "country": "India",
-          "stage": "Series B",
-          "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
         }
       ]
     },
-    "summary": "India has 11,280 reported tech layoffs across 63 public events from 2025-01-15 to 2026-09-08."
+    "summary": "India has 11,360 reported tech layoffs across 64 public events from 2025-01-15 to 2026-09-17."
   },
   {
     "type": "country",
@@ -902,15 +902,15 @@
     "canonical_url": "/countries/sweden.html",
     "date_range": {
       "start": "2025-01-13",
-      "end": "2026-05-07"
+      "end": "2026-09-17"
     },
     "kpis": {
-      "total_laid_off": 4835,
-      "event_count": 7,
-      "headcount_event_count": 6,
-      "company_count": 7,
+      "total_laid_off": 5035,
+      "event_count": 8,
+      "headcount_event_count": 7,
+      "company_count": 8,
       "country_count": 1,
-      "industry_count": 5,
+      "industry_count": 6,
       "high_intensity_event_count": 2
     },
     "charts": {
@@ -938,6 +938,10 @@
         {
           "month": "2026-05",
           "total_laid_off": 70
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 200
         }
       ],
       "company_top": [
@@ -951,6 +955,10 @@
         },
         {
           "company": "King.com",
+          "total_laid_off": 200
+        },
+        {
+          "company": "Trustly",
           "total_laid_off": 200
         },
         {
@@ -969,6 +977,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-17",
+          "company": "Trustly",
+          "num_laid_off": 200,
+          "percentage_laid_off": null,
+          "industry": "Finance",
+          "country": "Sweden",
+          "stage": "Acquired",
+          "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+        },
         {
           "date": "2026-05-07",
           "company": "Truecaller",
@@ -1041,7 +1059,7 @@
         }
       ]
     },
-    "summary": "Sweden has 4,835 reported tech layoffs across 7 public events from 2025-01-13 to 2026-05-07."
+    "summary": "Sweden has 5,035 reported tech layoffs across 8 public events from 2025-01-13 to 2026-09-17."
   },
   {
     "type": "country",

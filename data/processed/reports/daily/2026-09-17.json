@@ -1,27 +1,27 @@
 {
   "report_type": "daily",
-  "period": "2025-09-23",
+  "period": "2026-09-17",
   "status": "final",
   "date_range": {
-    "start": "2025-09-23",
-    "end": "2025-09-23"
+    "start": "2026-09-17",
+    "end": "2026-09-17"
   },
   "updated_at": "2026-09-17",
-  "canonical_url": "/reports/daily/2025-09-23.html",
+  "canonical_url": "/reports/daily/2026-09-17.html",
   "kpis": {
     "total_laid_off": 280,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
     "industry_count": 1,
-    "average_layoffs_per_headcount_event": 280.0,
-    "median_layoffs_per_headcount_event": 280.0,
+    "average_layoffs_per_headcount_event": 140.0,
+    "median_layoffs_per_headcount_event": 140.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2025-09-22",
+      "period": "2026-09-16",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -31,7 +31,7 @@
       "note": "No comparison data is available for this period."
     },
     "same_period_last_year": {
-      "period": "2024-09-23",
+      "period": "2025-09-17",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -44,8 +44,12 @@
   "charts": {
     "company_top": [
       {
-        "company": "Yolo Group",
-        "total_laid_off": 280
+        "company": "Trustly",
+        "total_laid_off": 200
+      },
+      {
+        "company": "Bluevine",
+        "total_laid_off": 80
       }
     ],
     "industry_top": [
@@ -56,14 +60,22 @@
     ],
     "country_top": [
       {
-        "country": "Estonia",
-        "total_laid_off": 280
+        "country": "Sweden",
+        "total_laid_off": 200
+      },
+      {
+        "country": "India",
+        "total_laid_off": 80
       }
     ],
     "stage_top": [
       {
+        "stage": "Acquired",
+        "total_laid_off": 200
+      },
+      {
         "stage": "Unknown",
-        "total_laid_off": 280
+        "total_laid_off": 80
       }
     ],
     "layoff_pct_distribution": [
@@ -92,33 +104,53 @@
   "tables": {
     "largest_events": [
       {
-        "date": "2025-09-23",
-        "company": "Yolo Group",
-        "num_laid_off": 280,
+        "date": "2026-09-17",
+        "company": "Trustly",
+        "num_laid_off": 200,
         "percentage_laid_off": null,
         "industry": "Finance",
-        "country": "Estonia",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
+        "date": "2026-09-17",
+        "company": "Bluevine",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
         "stage": "Unknown",
-        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
+        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
       }
     ],
     "recent_events": [
       {
-        "date": "2025-09-23",
-        "company": "Yolo Group",
-        "num_laid_off": 280,
+        "date": "2026-09-17",
+        "company": "Trustly",
+        "num_laid_off": 200,
         "percentage_laid_off": null,
         "industry": "Finance",
-        "country": "Estonia",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
+        "date": "2026-09-17",
+        "company": "Bluevine",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
         "stage": "Unknown",
-        "source": "https://news.err.ee/1609809363/yolo-group-to-lay-off-280-staff-in-estonia"
+        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2025-09-23 includes 1 public layoff events and 280 reported layoffs.",
-    "The largest company contributor is Yolo Group with 280 reported layoffs.",
+    "2026-09-17 includes 2 public layoff events and 280 reported layoffs.",
+    "The largest company contributor is Trustly with 200 reported layoffs.",
     "The leading named industry is Finance with 280 reported layoffs."
   ],
   "methodology_notes": [

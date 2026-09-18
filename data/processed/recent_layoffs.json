@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-17",
+    "company": "Trustly",
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Sweden",
+    "stage": "Acquired",
+    "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+  },
+  {
+    "date": "2026-09-17",
+    "company": "Bluevine",
+    "num_laid_off": 80,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "India",
+    "stage": "Unknown",
+    "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+  },
+  {
     "date": "2026-09-15",
     "company": "Pulley",
     "num_laid_off": null,
@@ -31,16 +51,6 @@
   },
   {
     "date": "2026-09-10",
-    "company": "PhonePe",
-    "num_laid_off": 7,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
-  },
-  {
-    "date": "2026-09-10",
     "company": "Booksy",
     "num_laid_off": 200,
     "percentage_laid_off": 0.2,
@@ -48,6 +58,16 @@
     "country": "Poland",
     "stage": "Series B",
     "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+  },
+  {
+    "date": "2026-09-10",
+    "company": "PhonePe",
+    "num_laid_off": 7,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
   },
   {
     "date": "2026-09-08",
@@ -88,26 +108,6 @@
     "country": "Israel",
     "stage": "Post-IPO",
     "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
-  },
-  {
-    "date": "2026-09-03",
-    "company": "Hale",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
-    "industry": "Healthcare",
-    "country": "Germany",
-    "stage": "Seed",
-    "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
-  },
-  {
-    "date": "2026-09-03",
-    "company": "Zscaler",
-    "num_laid_off": null,
-    "percentage_laid_off": 0.03,
-    "industry": "Security",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
   },
   {
     "date": "2026-09-03",

@@ -124,7 +124,7 @@
     {
       "stage": "Acquired / PE",
       "size_bucket": "100-499",
-      "event_count": 23
+      "event_count": 24
     },
     {
       "stage": "Acquired / PE",
@@ -144,7 +144,7 @@
     {
       "stage": "Unknown",
       "size_bucket": "<100",
-      "event_count": 32
+      "event_count": 33
     },
     {
       "stage": "Unknown",

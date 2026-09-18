@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-09-15"
+    "end": "2026-09-17"
   },
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-17",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 19856,
-    "event_count": 108,
-    "headcount_event_count": 64,
-    "company_count": 96,
-    "country_count": 19,
+    "total_laid_off": 20136,
+    "event_count": 110,
+    "headcount_event_count": 66,
+    "company_count": 98,
+    "country_count": 20,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 310.25,
+    "average_layoffs_per_headcount_event": 305.09,
     "median_layoffs_per_headcount_event": 124.5,
     "high_intensity_event_count": 28
   },
@@ -24,20 +24,20 @@
       "period": "2026-Q2",
       "total_laid_off": 55787,
       "event_count": 135,
-      "total_laid_off_delta": -35931,
-      "total_laid_off_pct_change": -0.6441,
-      "event_count_delta": -27,
-      "event_count_pct_change": -0.2,
+      "total_laid_off_delta": -35651,
+      "total_laid_off_pct_change": -0.6391,
+      "event_count_delta": -25,
+      "event_count_pct_change": -0.1852,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -7698,
-      "total_laid_off_pct_change": -0.2794,
-      "event_count_delta": 22,
-      "event_count_pct_change": 0.2558,
+      "total_laid_off_delta": -7418,
+      "total_laid_off_pct_change": -0.2692,
+      "event_count_delta": 24,
+      "event_count_pct_change": 0.2791,
       "note": null
     }
   },
@@ -98,6 +98,10 @@
         "total_laid_off": 1789
       },
       {
+        "industry": "Finance",
+        "total_laid_off": 1344
+      },
+      {
         "industry": "Hardware",
         "total_laid_off": 1219
       },
@@ -108,10 +112,6 @@
       {
         "industry": "Healthcare",
         "total_laid_off": 1150
-      },
-      {
-        "industry": "Finance",
-        "total_laid_off": 1064
       },
       {
         "industry": "Marketing",
@@ -133,7 +133,7 @@
       },
       {
         "country": "India",
-        "total_laid_off": 1820
+        "total_laid_off": 1900
       },
       {
         "country": "Israel",
@@ -146,6 +146,10 @@
       {
         "country": "Ireland",
         "total_laid_off": 534
+      },
+      {
+        "country": "Sweden",
+        "total_laid_off": 200
       },
       {
         "country": "Poland",
@@ -162,10 +166,6 @@
       {
         "country": "Germany",
         "total_laid_off": 98
-      },
-      {
-        "country": "Switzerland",
-        "total_laid_off": 60
       }
     ],
     "stage_top": [
@@ -175,7 +175,7 @@
       },
       {
         "stage": "Acquired",
-        "total_laid_off": 874
+        "total_laid_off": 1074
       },
       {
         "stage": "Private Equity",
@@ -183,7 +183,7 @@
       },
       {
         "stage": "Unknown",
-        "total_laid_off": 497
+        "total_laid_off": 577
       },
       {
         "stage": "Series A",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-17",
+        "company": "Trustly",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
+        "date": "2026-09-17",
+        "company": "Bluevine",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+      },
+      {
         "date": "2026-09-15",
         "company": "Pulley",
         "num_laid_off": null,
@@ -369,16 +389,6 @@
       },
       {
         "date": "2026-09-10",
-        "company": "PhonePe",
-        "num_laid_off": 7,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
-      },
-      {
-        "date": "2026-09-10",
         "company": "Booksy",
         "num_laid_off": 200,
         "percentage_laid_off": 0.2,
@@ -386,6 +396,16 @@
         "country": "Poland",
         "stage": "Series B",
         "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+      },
+      {
+        "date": "2026-09-10",
+        "company": "PhonePe",
+        "num_laid_off": 7,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
       },
       {
         "date": "2026-09-08",
@@ -479,6 +499,16 @@
       },
       {
         "date": "2026-09-02",
+        "company": "Uber",
+        "num_laid_off": 3300,
+        "percentage_laid_off": 0.1,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+      },
+      {
+        "date": "2026-09-02",
         "company": "PayPal",
         "num_laid_off": 220,
         "percentage_laid_off": null,
@@ -498,16 +528,6 @@
         "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
       },
       {
-        "date": "2026-09-02",
-        "company": "Uber",
-        "num_laid_off": 3300,
-        "percentage_laid_off": 0.1,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
-      },
-      {
         "date": "2026-09-01",
         "company": "Wonder",
         "num_laid_off": 150,
@@ -516,26 +536,6 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
-      },
-      {
-        "date": "2026-09-01",
-        "company": "Amazon",
-        "num_laid_off": 148,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-      },
-      {
-        "date": "2026-09-01",
-        "company": "Synopsys",
-        "num_laid_off": 128,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q3 includes 108 public layoff events and 19,856 reported layoffs.",
+    "2026-Q3 includes 110 public layoff events and 20,136 reported layoffs.",
     "The largest company contributor is Microsoft with 4,800 reported layoffs.",
     "The leading named industry is Transportation with 3,621 reported layoffs.",
     "28 events report a layoff percentage of 25% or higher."

@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-09-01",
-    "end": "2026-09-15"
+    "end": "2026-09-17"
   },
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-17",
   "canonical_url": "/reports/monthly/2026-09.html",
   "kpis": {
-    "total_laid_off": 5301,
-    "event_count": 20,
-    "headcount_event_count": 13,
-    "company_count": 18,
-    "country_count": 9,
+    "total_laid_off": 5581,
+    "event_count": 22,
+    "headcount_event_count": 15,
+    "company_count": 20,
+    "country_count": 10,
     "industry_count": 11,
-    "average_layoffs_per_headcount_event": 407.77,
+    "average_layoffs_per_headcount_event": 372.07,
     "median_layoffs_per_headcount_event": 148.0,
     "high_intensity_event_count": 4
   },
@@ -24,20 +24,20 @@
       "period": "2026-08",
       "total_laid_off": 3555,
       "event_count": 42,
-      "total_laid_off_delta": 1746,
-      "total_laid_off_pct_change": 0.4911,
-      "event_count_delta": -22,
-      "event_count_pct_change": -0.5238,
+      "total_laid_off_delta": 2026,
+      "total_laid_off_pct_change": 0.5699,
+      "event_count_delta": -20,
+      "event_count_pct_change": -0.4762,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-09",
       "total_laid_off": 4454,
       "event_count": 29,
-      "total_laid_off_delta": 847,
-      "total_laid_off_pct_change": 0.1902,
-      "event_count_delta": -9,
-      "event_count_pct_change": -0.3103,
+      "total_laid_off_delta": 1127,
+      "total_laid_off_pct_change": 0.253,
+      "event_count_delta": -7,
+      "event_count_pct_change": -0.2414,
       "note": null
     }
   },
@@ -54,6 +54,10 @@
       {
         "company": "PayPal",
         "total_laid_off": 541
+      },
+      {
+        "company": "Trustly",
+        "total_laid_off": 200
       },
       {
         "company": "Booksy",
@@ -78,10 +82,6 @@
       {
         "company": "Samsung",
         "total_laid_off": 80
-      },
-      {
-        "company": "Bitcoin Suisse",
-        "total_laid_off": 60
       }
     ],
     "industry_top": [
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 650
+        "total_laid_off": 930
       },
       {
         "industry": "Marketing",
@@ -129,10 +129,14 @@
       },
       {
         "country": "India",
-        "total_laid_off": 300
+        "total_laid_off": 380
       },
       {
         "country": "Poland",
+        "total_laid_off": 200
+      },
+      {
+        "country": "Sweden",
         "total_laid_off": 200
       },
       {
@@ -158,16 +162,20 @@
         "total_laid_off": 350
       },
       {
+        "stage": "Acquired",
+        "total_laid_off": 207
+      },
+      {
         "stage": "Series D",
         "total_laid_off": 102
       },
       {
-        "stage": "Series A",
-        "total_laid_off": 60
+        "stage": "Unknown",
+        "total_laid_off": 80
       },
       {
-        "stage": "Acquired",
-        "total_laid_off": 7
+        "stage": "Series A",
+        "total_laid_off": 60
       }
     ],
     "layoff_pct_distribution": [
@@ -236,6 +244,16 @@
         "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
       },
       {
+        "date": "2026-09-17",
+        "company": "Trustly",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
         "date": "2026-09-10",
         "company": "Booksy",
         "num_laid_off": 200,
@@ -284,19 +302,29 @@
         "country": "Canada",
         "stage": "Series D",
         "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
-      },
-      {
-        "date": "2026-09-08",
-        "company": "Samsung",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-09-17",
+        "company": "Trustly",
+        "num_laid_off": 200,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "Sweden",
+        "stage": "Acquired",
+        "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
+        "date": "2026-09-17",
+        "company": "Bluevine",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+      },
       {
         "date": "2026-09-15",
         "company": "Pulley",
@@ -409,13 +437,13 @@
       },
       {
         "date": "2026-09-03",
-        "company": "PayPal",
-        "num_laid_off": 251,
-        "percentage_laid_off": null,
-        "industry": "Finance",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
       },
       {
         "date": "2026-09-03",
@@ -429,13 +457,13 @@
       },
       {
         "date": "2026-09-03",
-        "company": "The Trade Desk",
-        "num_laid_off": 585,
-        "percentage_laid_off": 0.15,
-        "industry": "Marketing",
+        "company": "PayPal",
+        "num_laid_off": 251,
+        "percentage_laid_off": null,
+        "industry": "Finance",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
       },
       {
         "date": "2026-09-02",
@@ -476,26 +504,6 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
-      },
-      {
-        "date": "2026-09-01",
-        "company": "Amazon",
-        "num_laid_off": 148,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-      },
-      {
-        "date": "2026-09-01",
-        "company": "Synopsys",
-        "num_laid_off": 128,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
       }
     ],
     "high_intensity_events": [
@@ -542,7 +550,7 @@
     ]
   },
   "insights": [
-    "2026-09 includes 20 public layoff events and 5,301 reported layoffs.",
+    "2026-09 includes 22 public layoff events and 5,581 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

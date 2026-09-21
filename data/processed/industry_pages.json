@@ -2858,6 +2858,201 @@
   },
   {
     "type": "industry",
+    "name": "Energy",
+    "slug": "energy",
+    "title": "Tech Layoffs by Industry: Energy",
+    "canonical_url": "/industries/energy.html",
+    "date_range": {
+      "start": "2025-01-06",
+      "end": "2026-09-20"
+    },
+    "kpis": {
+      "total_laid_off": 3599,
+      "event_count": 12,
+      "headcount_event_count": 6,
+      "company_count": 12,
+      "country_count": 6,
+      "industry_count": 1,
+      "high_intensity_event_count": 5
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-01",
+          "total_laid_off": 458
+        },
+        {
+          "month": "2025-03",
+          "total_laid_off": 2800
+        },
+        {
+          "month": "2025-05",
+          "total_laid_off": 106
+        },
+        {
+          "month": "2026-03",
+          "total_laid_off": 100
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 135
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Northvolt",
+          "total_laid_off": 2800
+        },
+        {
+          "company": "SolarEdge",
+          "total_laid_off": 400
+        },
+        {
+          "company": "Redwood Materials",
+          "total_laid_off": 135
+        },
+        {
+          "company": "Climeworks",
+          "total_laid_off": 106
+        },
+        {
+          "company": "Enpal",
+          "total_laid_off": 100
+        },
+        {
+          "company": "Aurora Solar",
+          "total_laid_off": 58
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-09-20",
+          "company": "Redwood Materials",
+          "num_laid_off": 135,
+          "percentage_laid_off": 0.1,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/"
+        },
+        {
+          "date": "2026-08-19",
+          "company": "BlocPower",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+        },
+        {
+          "date": "2026-03-27",
+          "company": "Enpal",
+          "num_laid_off": 100,
+          "percentage_laid_off": null,
+          "industry": "Energy",
+          "country": "Germany",
+          "stage": "Series E",
+          "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+        },
+        {
+          "date": "2025-12-03",
+          "company": "Modern Hydrogen",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://fuelcellsworks.com/2025/12/03/green-investment/bill-gates-backed-modern-hydrogen-lays-off-most-of-its-employees-after-decade-long-pursuit-of-clean-energy"
+        },
+        {
+          "date": "2025-09-05",
+          "company": "Scope3",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Series B",
+          "source": "https://www.adweek.com/media/scope3-lays-off-sales-staff-ai-agentic-advertising-restructuring/"
+        },
+        {
+          "date": "2025-05-21",
+          "company": "Climeworks",
+          "num_laid_off": 106,
+          "percentage_laid_off": 0.22,
+          "industry": "Energy",
+          "country": "Switzerland",
+          "stage": "Private Equity",
+          "source": "https://www.bloomberg.com/news/articles/2025-05-21/carbon-removal-startup-climeworks-is-cutting-22-of-staff"
+        },
+        {
+          "date": "2025-05-05",
+          "company": "General Fusion",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.25,
+          "industry": "Energy",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://techcrunch.com/2025/05/05/layoffs-hit-general-fusion-as-the-fusion-power-startup-runs-short-on-cash/"
+        },
+        {
+          "date": "2025-04-29",
+          "company": "Stem",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.27,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://seekingalpha.com/news/4437501-stem-announces-27-percent-workforce-reduction-with-30m-savings-target-for-2025"
+        },
+        {
+          "date": "2025-03-31",
+          "company": "Northvolt",
+          "num_laid_off": 2800,
+          "percentage_laid_off": 0.62,
+          "industry": "Energy",
+          "country": "Sweden",
+          "stage": "Unknown",
+          "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
+        },
+        {
+          "date": "2025-02-21",
+          "company": "Electriq Global",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Energy",
+          "country": "Israel",
+          "stage": "Unknown",
+          "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
+        },
+        {
+          "date": "2025-01-16",
+          "company": "Aurora Solar",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://www.sfexaminer.com/news/technology/sf-green-tech-startup-aurora-solar-laying-off-dozens-again/article_a5fc0dbc-d450-11ef-95d2-03eab04fe214.html"
+        },
+        {
+          "date": "2025-01-06",
+          "company": "SolarEdge",
+          "num_laid_off": 400,
+          "percentage_laid_off": null,
+          "industry": "Energy",
+          "country": "Israel",
+          "stage": "Post-IPO",
+          "source": "https://www.reuters.com/business/energy/solaredge-technologies-lay-off-400-employees-globally-2025-01-06/"
+        }
+      ]
+    },
+    "summary": "Energy has 3,599 reported tech layoffs across 12 public events from 2025-01-06 to 2026-09-20."
+  },
+  {
+    "type": "industry",
     "name": "Marketing",
     "slug": "marketing",
     "title": "Tech Layoffs by Industry: Marketing",
@@ -3128,183 +3323,6 @@
       ]
     },
     "summary": "Marketing has 3,481 reported tech layoffs across 27 public events from 2025-01-15 to 2026-09-03."
-  },
-  {
-    "type": "industry",
-    "name": "Energy",
-    "slug": "energy",
-    "title": "Tech Layoffs by Industry: Energy",
-    "canonical_url": "/industries/energy.html",
-    "date_range": {
-      "start": "2025-01-06",
-      "end": "2026-08-19"
-    },
-    "kpis": {
-      "total_laid_off": 3464,
-      "event_count": 11,
-      "headcount_event_count": 5,
-      "company_count": 11,
-      "country_count": 6,
-      "industry_count": 1,
-      "high_intensity_event_count": 5
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-01",
-          "total_laid_off": 458
-        },
-        {
-          "month": "2025-03",
-          "total_laid_off": 2800
-        },
-        {
-          "month": "2025-05",
-          "total_laid_off": 106
-        },
-        {
-          "month": "2026-03",
-          "total_laid_off": 100
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Northvolt",
-          "total_laid_off": 2800
-        },
-        {
-          "company": "SolarEdge",
-          "total_laid_off": 400
-        },
-        {
-          "company": "Climeworks",
-          "total_laid_off": 106
-        },
-        {
-          "company": "Enpal",
-          "total_laid_off": 100
-        },
-        {
-          "company": "Aurora Solar",
-          "total_laid_off": 58
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-08-19",
-          "company": "BlocPower",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Energy",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-        },
-        {
-          "date": "2026-03-27",
-          "company": "Enpal",
-          "num_laid_off": 100,
-          "percentage_laid_off": null,
-          "industry": "Energy",
-          "country": "Germany",
-          "stage": "Series E",
-          "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
-        },
-        {
-          "date": "2025-12-03",
-          "company": "Modern Hydrogen",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Energy",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://fuelcellsworks.com/2025/12/03/green-investment/bill-gates-backed-modern-hydrogen-lays-off-most-of-its-employees-after-decade-long-pursuit-of-clean-energy"
-        },
-        {
-          "date": "2025-09-05",
-          "company": "Scope3",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Energy",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.adweek.com/media/scope3-lays-off-sales-staff-ai-agentic-advertising-restructuring/"
-        },
-        {
-          "date": "2025-05-21",
-          "company": "Climeworks",
-          "num_laid_off": 106,
-          "percentage_laid_off": 0.22,
-          "industry": "Energy",
-          "country": "Switzerland",
-          "stage": "Private Equity",
-          "source": "https://www.bloomberg.com/news/articles/2025-05-21/carbon-removal-startup-climeworks-is-cutting-22-of-staff"
-        },
-        {
-          "date": "2025-05-05",
-          "company": "General Fusion",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.25,
-          "industry": "Energy",
-          "country": "Canada",
-          "stage": "Unknown",
-          "source": "https://techcrunch.com/2025/05/05/layoffs-hit-general-fusion-as-the-fusion-power-startup-runs-short-on-cash/"
-        },
-        {
-          "date": "2025-04-29",
-          "company": "Stem",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.27,
-          "industry": "Energy",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://seekingalpha.com/news/4437501-stem-announces-27-percent-workforce-reduction-with-30m-savings-target-for-2025"
-        },
-        {
-          "date": "2025-03-31",
-          "company": "Northvolt",
-          "num_laid_off": 2800,
-          "percentage_laid_off": 0.62,
-          "industry": "Energy",
-          "country": "Sweden",
-          "stage": "Unknown",
-          "source": "https://sifted.eu/articles/northvolt-lays-off-half-of-staff-as-bankrupt-battery-maker-seeks-buyer"
-        },
-        {
-          "date": "2025-02-21",
-          "company": "Electriq Global",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "Energy",
-          "country": "Israel",
-          "stage": "Unknown",
-          "source": "https://www.calcalistech.com/ctechnews/article/syqy71l91e"
-        },
-        {
-          "date": "2025-01-16",
-          "company": "Aurora Solar",
-          "num_laid_off": 58,
-          "percentage_laid_off": null,
-          "industry": "Energy",
-          "country": "United States",
-          "stage": "Series D",
-          "source": "https://www.sfexaminer.com/news/technology/sf-green-tech-startup-aurora-solar-laying-off-dozens-again/article_a5fc0dbc-d450-11ef-95d2-03eab04fe214.html"
-        },
-        {
-          "date": "2025-01-06",
-          "company": "SolarEdge",
-          "num_laid_off": 400,
-          "percentage_laid_off": null,
-          "industry": "Energy",
-          "country": "Israel",
-          "stage": "Post-IPO",
-          "source": "https://www.reuters.com/business/energy/solaredge-technologies-lay-off-400-employees-globally-2025-01-06/"
-        }
-      ]
-    },
-    "summary": "Energy has 3,464 reported tech layoffs across 11 public events from 2025-01-06 to 2026-08-19."
   },
   {
     "type": "industry",

@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Redwood Materials,Carson City,135.0,2026-09-20,0.1,Energy,https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/,Series E,4200.0,United States,2026-09-20T22:26:17.000Z
 Trustly,"Stockholm, Non-U.S.",200.0,2026-09-17,,Finance,https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/,Acquired,28.0,Sweden,2026-09-17T17:48:26.000Z
 Bluevine,"Bengaluru, Non-U.S.",80.0,2026-09-17,,Finance,https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279,Unknown,769.0,India,2026-09-17T17:47:40.000Z
 Pulley,SF Bay Area,,2026-09-15,1.0,Finance,https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9,Series B,50.0,United States,2026-09-16T21:06:36.000Z

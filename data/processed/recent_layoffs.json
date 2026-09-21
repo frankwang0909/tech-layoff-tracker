@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-09-17",
-    "company": "Trustly",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "Sweden",
-    "stage": "Acquired",
-    "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+    "date": "2026-09-20",
+    "company": "Redwood Materials",
+    "num_laid_off": 135,
+    "percentage_laid_off": 0.1,
+    "industry": "Energy",
+    "country": "United States",
+    "stage": "Series E",
+    "source": "https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/"
   },
   {
     "date": "2026-09-17",
@@ -18,6 +18,16 @@
     "country": "India",
     "stage": "Unknown",
     "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
+  },
+  {
+    "date": "2026-09-17",
+    "company": "Trustly",
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "Sweden",
+    "stage": "Acquired",
+    "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
   },
   {
     "date": "2026-09-15",
@@ -51,16 +61,6 @@
   },
   {
     "date": "2026-09-10",
-    "company": "Booksy",
-    "num_laid_off": 200,
-    "percentage_laid_off": 0.2,
-    "industry": "Consumer",
-    "country": "Poland",
-    "stage": "Series B",
-    "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
-  },
-  {
-    "date": "2026-09-10",
     "company": "PhonePe",
     "num_laid_off": 7,
     "percentage_laid_off": null,
@@ -68,6 +68,16 @@
     "country": "United States",
     "stage": "Acquired",
     "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+  },
+  {
+    "date": "2026-09-10",
+    "company": "Booksy",
+    "num_laid_off": 200,
+    "percentage_laid_off": 0.2,
+    "industry": "Consumer",
+    "country": "Poland",
+    "stage": "Series B",
+    "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
   },
   {
     "date": "2026-09-08",
@@ -108,15 +118,5 @@
     "country": "Israel",
     "stage": "Post-IPO",
     "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
-  },
-  {
-    "date": "2026-09-03",
-    "company": "PayPal",
-    "num_laid_off": 251,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
   }
 ]

@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-15"
+      "end": "2026-09-20"
     },
     "kpis": {
-      "total_laid_off": 206720,
-      "event_count": 394,
-      "headcount_event_count": 259,
-      "company_count": 297,
+      "total_laid_off": 206855,
+      "event_count": 395,
+      "headcount_event_count": 260,
+      "company_count": 298,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 60
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 4569
+          "total_laid_off": 4704
         }
       ],
       "company_top": [
@@ -150,6 +150,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-20",
+          "company": "Redwood Materials",
+          "num_laid_off": 135,
+          "percentage_laid_off": 0.1,
+          "industry": "Energy",
+          "country": "United States",
+          "stage": "Series E",
+          "source": "https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/"
+        },
         {
           "date": "2026-09-15",
           "company": "Pulley",
@@ -289,20 +299,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
-        },
-        {
-          "date": "2026-08-19",
-          "company": "Motive",
-          "num_laid_off": 251,
-          "percentage_laid_off": 0.05,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "Internal memo"
         }
       ]
     },
-    "summary": "United States has 206,720 reported tech layoffs across 394 public events from 2025-01-02 to 2026-09-15."
+    "summary": "United States has 206,855 reported tech layoffs across 395 public events from 2025-01-02 to 2026-09-20."
   },
   {
     "type": "country",

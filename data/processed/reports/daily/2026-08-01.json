@@ -6,15 +6,15 @@
     "start": "2026-08-01",
     "end": "2026-08-01"
   },
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "canonical_url": "/reports/daily/2026-08-01.html",
   "kpis": {
     "total_laid_off": 40,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 40.0,
     "median_layoffs_per_headcount_event": 40.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 4,
       "total_laid_off_delta": -354,
       "total_laid_off_pct_change": -0.8985,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.75,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 1,
       "total_laid_off_delta": -105,
       "total_laid_off_pct_change": -0.7241,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
@@ -112,12 +112,22 @@
         "country": "United States",
         "stage": "Unknown",
         "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+      },
+      {
+        "date": "2026-08-01",
+        "company": "Sparkgeo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://www.linkedin.com/posts/willcadell_geospatial-data-infrastructure-activity-7490899357085425664-YHkO"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-08-01 includes 1 public layoff events and 40 reported layoffs.",
+    "2026-08-01 includes 2 public layoff events and 40 reported layoffs.",
     "The largest company contributor is Pump.fun with 40 reported layoffs.",
     "The leading named industry is Crypto with 40 reported layoffs."
   ],

@@ -7,11 +7,11 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-20"
+      "end": "2026-09-21"
     },
     "kpis": {
       "total_laid_off": 206855,
-      "event_count": 395,
+      "event_count": 396,
       "headcount_event_count": 260,
       "company_count": 298,
       "country_count": 1,
@@ -151,6 +151,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-09-21",
+          "company": "Apple",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0"
+        },
+        {
           "date": "2026-09-20",
           "company": "Redwood Materials",
           "num_laid_off": 135,
@@ -289,20 +299,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
-        },
-        {
-          "date": "2026-08-21",
-          "company": "Apple",
-          "num_laid_off": 200,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
         }
       ]
     },
-    "summary": "United States has 206,855 reported tech layoffs across 395 public events from 2025-01-02 to 2026-09-20."
+    "summary": "United States has 206,855 reported tech layoffs across 396 public events from 2025-01-02 to 2026-09-21."
   },
   {
     "type": "country",
@@ -1308,9 +1308,9 @@
     },
     "kpis": {
       "total_laid_off": 3347,
-      "event_count": 24,
+      "event_count": 25,
       "headcount_event_count": 15,
-      "company_count": 18,
+      "company_count": 19,
       "country_count": 1,
       "industry_count": 13,
       "high_intensity_event_count": 6
@@ -1434,6 +1434,16 @@
           "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
         },
         {
+          "date": "2026-08-01",
+          "company": "Sparkgeo",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://www.linkedin.com/posts/willcadell_geospatial-data-infrastructure-activity-7490899357085425664-YHkO"
+        },
+        {
           "date": "2026-07-31",
           "company": "Lightspeed Commerce",
           "num_laid_off": 100,
@@ -1542,20 +1552,10 @@
           "country": "Canada",
           "stage": "Series D",
           "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
-        },
-        {
-          "date": "2025-11-26",
-          "company": "Shopify",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "https://www.thecanadianpressnews.ca/business/shopify-lays-off-staff-to-keep-team-fast-sharp-and-focused/article_2b3b4e8c-4531-5e36-a0ad-b02a9f8e6b6a.html"
         }
       ]
     },
-    "summary": "Canada has 3,347 reported tech layoffs across 24 public events from 2025-02-05 to 2026-09-08."
+    "summary": "Canada has 3,347 reported tech layoffs across 25 public events from 2025-02-05 to 2026-09-08."
   },
   {
     "type": "country",

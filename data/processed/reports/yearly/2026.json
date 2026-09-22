@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-09-20"
+    "end": "2026-09-21"
   },
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 129288,
-    "event_count": 342,
+    "event_count": 344,
     "headcount_event_count": 220,
-    "company_count": 308,
+    "company_count": 309,
     "country_count": 31,
     "industry_count": 29,
     "average_layoffs_per_headcount_event": 587.67,
@@ -26,8 +26,8 @@
       "event_count": 333,
       "total_laid_off_delta": 6682,
       "total_laid_off_pct_change": 0.0545,
-      "event_count_delta": 9,
-      "event_count_pct_change": 0.027,
+      "event_count_delta": 11,
+      "event_count_pct_change": 0.033,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 333,
       "total_laid_off_delta": 6682,
       "total_laid_off_pct_change": 0.0545,
-      "event_count_delta": 9,
-      "event_count_pct_change": 0.027,
+      "event_count_delta": 11,
+      "event_count_pct_change": 0.033,
       "note": null
     }
   },
@@ -338,6 +338,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-21",
+        "company": "Apple",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0"
+      },
+      {
         "date": "2026-09-20",
         "company": "Redwood Materials",
         "num_laid_off": 135,
@@ -349,16 +359,6 @@
       },
       {
         "date": "2026-09-17",
-        "company": "Bluevine",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
-      },
-      {
-        "date": "2026-09-17",
         "company": "Trustly",
         "num_laid_off": 200,
         "percentage_laid_off": null,
@@ -366,6 +366,16 @@
         "country": "Sweden",
         "stage": "Acquired",
         "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+      },
+      {
+        "date": "2026-09-17",
+        "company": "Bluevine",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Finance",
+        "country": "India",
+        "stage": "Unknown",
+        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
       },
       {
         "date": "2026-09-15",
@@ -459,6 +469,16 @@
       },
       {
         "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+      },
+      {
+        "date": "2026-09-03",
         "company": "PayPal",
         "num_laid_off": 251,
         "percentage_laid_off": null,
@@ -498,16 +518,6 @@
         "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       },
       {
-        "date": "2026-09-03",
-        "company": "The Trade Desk",
-        "num_laid_off": 585,
-        "percentage_laid_off": 0.15,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
-      },
-      {
         "date": "2026-09-02",
         "company": "Uber",
         "num_laid_off": 3300,
@@ -526,16 +536,6 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
-      },
-      {
-        "date": "2026-09-02",
-        "company": "Bizzabo",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 342 public layoff events and 129,288 reported layoffs.",
+    "2026 includes 344 public layoff events and 129,288 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

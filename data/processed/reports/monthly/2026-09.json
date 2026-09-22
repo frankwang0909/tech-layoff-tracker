@@ -4,15 +4,15 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-09-01",
-    "end": "2026-09-20"
+    "end": "2026-09-21"
   },
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "canonical_url": "/reports/monthly/2026-09.html",
   "kpis": {
     "total_laid_off": 5716,
-    "event_count": 23,
+    "event_count": 24,
     "headcount_event_count": 16,
-    "company_count": 21,
+    "company_count": 22,
     "country_count": 10,
     "industry_count": 12,
     "average_layoffs_per_headcount_event": 357.25,
@@ -23,11 +23,11 @@
     "previous_period": {
       "period": "2026-08",
       "total_laid_off": 3555,
-      "event_count": 42,
+      "event_count": 43,
       "total_laid_off_delta": 2161,
       "total_laid_off_pct_change": 0.6079,
       "event_count_delta": -19,
-      "event_count_pct_change": -0.4524,
+      "event_count_pct_change": -0.4419,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 29,
       "total_laid_off_delta": 1262,
       "total_laid_off_pct_change": 0.2833,
-      "event_count_delta": -6,
-      "event_count_pct_change": -0.2069,
+      "event_count_delta": -5,
+      "event_count_pct_change": -0.1724,
       "note": null
     }
   },
@@ -314,6 +314,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-21",
+        "company": "Apple",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0"
+      },
+      {
         "date": "2026-09-20",
         "company": "Redwood Materials",
         "num_laid_off": 135,
@@ -502,16 +512,6 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
-      },
-      {
-        "date": "2026-09-02",
-        "company": "Bizzabo",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Series E",
-        "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
       }
     ],
     "high_intensity_events": [
@@ -558,7 +558,7 @@
     ]
   },
   "insights": [
-    "2026-09 includes 23 public layoff events and 5,716 reported layoffs.",
+    "2026-09 includes 24 public layoff events and 5,716 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

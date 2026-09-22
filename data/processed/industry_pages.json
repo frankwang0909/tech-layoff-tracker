@@ -7,11 +7,11 @@
     "canonical_url": "/industries/hardware.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-09-08"
+      "end": "2026-09-21"
     },
     "kpis": {
       "total_laid_off": 50610,
-      "event_count": 27,
+      "event_count": 28,
       "headcount_event_count": 21,
       "company_count": 18,
       "country_count": 8,
@@ -126,6 +126,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-21",
+          "company": "Apple",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0"
+        },
         {
           "date": "2026-09-08",
           "company": "Samsung",
@@ -265,20 +275,10 @@
           "country": "Canada",
           "stage": "Series D",
           "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
-        },
-        {
-          "date": "2025-11-25",
-          "company": "HP",
-          "num_laid_off": 4000,
-          "percentage_laid_off": null,
-          "industry": "Hardware",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/tech/hp-to-cut-up-to-10-of-workforce-as-part-of-ai-push-a2c198da?mod=hp_lead_pos4"
         }
       ]
     },
-    "summary": "Hardware has 50,610 reported tech layoffs across 27 public events from 2025-02-04 to 2026-09-08."
+    "summary": "Hardware has 50,610 reported tech layoffs across 28 public events from 2025-02-04 to 2026-09-21."
   },
   {
     "type": "industry",
@@ -2599,9 +2599,9 @@
     },
     "kpis": {
       "total_laid_off": 4034,
-      "event_count": 22,
+      "event_count": 23,
       "headcount_event_count": 15,
-      "company_count": 19,
+      "company_count": 20,
       "country_count": 4,
       "industry_count": 1,
       "high_intensity_event_count": 2
@@ -2711,6 +2711,16 @@
           "country": "United States",
           "stage": "Series C",
           "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+        },
+        {
+          "date": "2026-08-01",
+          "company": "Sparkgeo",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Data",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://www.linkedin.com/posts/willcadell_geospatial-data-infrastructure-activity-7490899357085425664-YHkO"
         },
         {
           "date": "2026-07-13",
@@ -2841,20 +2851,10 @@
           "country": "United States",
           "stage": "Series E",
           "source": "https://www.calcalistech.com/ctechnews/article/r19t0xjixg"
-        },
-        {
-          "date": "2025-07-16",
-          "company": "Scale AI",
-          "num_laid_off": 200,
-          "percentage_laid_off": 0.14,
-          "industry": "Data",
-          "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.bloomberg.com/news/articles/2025-07-16/scale-ai-to-cut-14-of-staff-following-meta-investment"
         }
       ]
     },
-    "summary": "Data has 4,034 reported tech layoffs across 22 public events from 2025-01-29 to 2026-08-13."
+    "summary": "Data has 4,034 reported tech layoffs across 23 public events from 2025-01-29 to 2026-08-13."
   },
   {
     "type": "industry",

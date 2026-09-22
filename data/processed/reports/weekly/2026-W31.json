@@ -6,15 +6,15 @@
     "start": "2026-07-27",
     "end": "2026-08-01"
   },
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "canonical_url": "/reports/weekly/2026-W31.html",
   "kpis": {
     "total_laid_off": 667,
-    "event_count": 11,
+    "event_count": 12,
     "headcount_event_count": 7,
-    "company_count": 11,
+    "company_count": 12,
     "country_count": 6,
-    "industry_count": 8,
+    "industry_count": 9,
     "average_layoffs_per_headcount_event": 95.29,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 5
@@ -26,8 +26,8 @@
       "event_count": 13,
       "total_laid_off_delta": -1559,
       "total_laid_off_pct_change": -0.7004,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.1538,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0769,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": 166,
       "total_laid_off_pct_change": 0.3313,
-      "event_count_delta": 6,
-      "event_count_pct_change": 1.2,
+      "event_count_delta": 7,
+      "event_count_pct_change": 1.4,
       "note": null
     }
   },
@@ -238,6 +238,16 @@
         "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
       },
       {
+        "date": "2026-08-01",
+        "company": "Sparkgeo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Data",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://www.linkedin.com/posts/willcadell_geospatial-data-infrastructure-activity-7490899357085425664-YHkO"
+      },
+      {
         "date": "2026-07-31",
         "company": "Chime",
         "num_laid_off": 150,
@@ -392,7 +402,7 @@
     ]
   },
   "insights": [
-    "2026-W31 includes 11 public layoff events and 667 reported layoffs.",
+    "2026-W31 includes 12 public layoff events and 667 reported layoffs.",
     "The largest company contributor is BuzzFeed with 180 reported layoffs.",
     "The leading named industry is Media with 180 reported layoffs.",
     "5 events report a layoff percentage of 25% or higher."

@@ -6,13 +6,13 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "canonical_url": "/reports/monthly/2026-08.html",
   "kpis": {
     "total_laid_off": 3555,
-    "event_count": 42,
+    "event_count": 43,
     "headcount_event_count": 23,
-    "company_count": 42,
+    "company_count": 43,
     "country_count": 9,
     "industry_count": 22,
     "average_layoffs_per_headcount_event": 154.57,
@@ -26,8 +26,8 @@
       "event_count": 46,
       "total_laid_off_delta": -7445,
       "total_laid_off_pct_change": -0.6768,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.087,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.0652,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 26,
       "total_laid_off_delta": -2897,
       "total_laid_off_pct_change": -0.449,
-      "event_count_delta": 16,
-      "event_count_pct_change": 0.6154,
+      "event_count_delta": 17,
+      "event_count_pct_change": 0.6538,
       "note": null
     }
   },
@@ -614,7 +614,7 @@
     ]
   },
   "insights": [
-    "2026-08 includes 42 public layoff events and 3,555 reported layoffs.",
+    "2026-08 includes 43 public layoff events and 3,555 reported layoffs.",
     "The largest company contributor is Zillow with 500 reported layoffs.",
     "The leading named industry is Real Estate with 500 reported layoffs.",
     "13 events report a layoff percentage of 25% or higher."

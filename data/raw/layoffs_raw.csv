@@ -1,4 +1,5 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Apple,SF Bay Area,,2026-09-21,,Hardware,https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0,Post-IPO,1200.0,United States,2026-09-22T04:05:30.000Z
 Redwood Materials,Carson City,135.0,2026-09-20,0.1,Energy,https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/,Series E,4200.0,United States,2026-09-20T22:26:17.000Z
 Trustly,"Stockholm, Non-U.S.",200.0,2026-09-17,,Finance,https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/,Acquired,28.0,Sweden,2026-09-17T17:48:26.000Z
 Bluevine,"Bengaluru, Non-U.S.",80.0,2026-09-17,,Finance,https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279,Unknown,769.0,India,2026-09-17T17:47:40.000Z
@@ -64,6 +65,7 @@ jalebi.io,"Dubai, Non-U.S.",,2026-08-04,1.0,Food,https://jawlah.co/en/61711,Seed
 Nutanix,SF Bay Area,,2026-08-04,0.05,Infrastructure,https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why,Post-IPO,1100.0,United States,2026-08-04T23:16:45.000Z
 FalconX,SF Bay Area,,2026-08-03,0.1,Crypto,https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/,Series D,477.0,United States,2026-08-03T23:09:48.000Z
 Pump.fun,San Diego,40.0,2026-08-01,,Crypto,https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens,Unknown,,United States,2026-08-03T20:36:55.000Z
+Sparkgeo,"Vancouver, Non-U.S.",,2026-08-01,,Data,https://www.linkedin.com/posts/willcadell_geospatial-data-infrastructure-activity-7490899357085425664-YHkO,Unknown,,Canada,2026-09-22T04:03:57.000Z
 Chime,SF Bay Area,150.0,2026-07-31,0.1,Finance,https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/,Series G,2300.0,United States,2026-07-31T18:10:58.000Z
 ChargePoint,SF Bay Area,144.0,2026-07-31,0.1,Manufacturing,https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1,Unknown,1400.0,United States,2026-08-02T21:15:35.000Z
 Lightspeed Commerce,"Montreal, Non-U.S.",100.0,2026-07-31,0.03,Retail,https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/,Post-IPO,1200.0,Canada,2026-07-31T18:15:07.000Z

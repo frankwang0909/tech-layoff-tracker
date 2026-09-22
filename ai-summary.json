@@ -98,7 +98,7 @@
         "name": "Hardware",
         "canonical_url": "https://tech.debugcanada.com/industries/hardware.html",
         "total_laid_off": 50610,
-        "event_count": 27
+        "event_count": 28
       },
       {
         "name": "Retail",
@@ -160,7 +160,7 @@
         "name": "United States",
         "canonical_url": "https://tech.debugcanada.com/countries/united-states.html",
         "total_laid_off": 206855,
-        "event_count": 395
+        "event_count": 396
       },
       {
         "name": "India",
@@ -190,7 +190,7 @@
         "name": "Canada",
         "canonical_url": "https://tech.debugcanada.com/countries/canada.html",
         "total_laid_off": 3347,
-        "event_count": 24
+        "event_count": 25
       },
       {
         "name": "Netherlands",

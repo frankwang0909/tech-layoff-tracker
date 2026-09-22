@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-09-21",
+    "company": "Apple",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Hardware",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0"
+  },
+  {
     "date": "2026-09-20",
     "company": "Redwood Materials",
     "num_laid_off": 135,
@@ -11,16 +21,6 @@
   },
   {
     "date": "2026-09-17",
-    "company": "Bluevine",
-    "num_laid_off": 80,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "India",
-    "stage": "Unknown",
-    "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
-  },
-  {
-    "date": "2026-09-17",
     "company": "Trustly",
     "num_laid_off": 200,
     "percentage_laid_off": null,
@@ -28,6 +28,16 @@
     "country": "Sweden",
     "stage": "Acquired",
     "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
+  },
+  {
+    "date": "2026-09-17",
+    "company": "Bluevine",
+    "num_laid_off": 80,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "India",
+    "stage": "Unknown",
+    "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
   },
   {
     "date": "2026-09-15",
@@ -61,16 +71,6 @@
   },
   {
     "date": "2026-09-10",
-    "company": "PhonePe",
-    "num_laid_off": 7,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
-  },
-  {
-    "date": "2026-09-10",
     "company": "Booksy",
     "num_laid_off": 200,
     "percentage_laid_off": 0.2,
@@ -78,6 +78,16 @@
     "country": "Poland",
     "stage": "Series B",
     "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+  },
+  {
+    "date": "2026-09-10",
+    "company": "PhonePe",
+    "num_laid_off": 7,
+    "percentage_laid_off": null,
+    "industry": "Finance",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
   },
   {
     "date": "2026-09-08",
@@ -108,15 +118,5 @@
     "country": "Australia",
     "stage": "Series C",
     "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
-  },
-  {
-    "date": "2026-09-06",
-    "company": "PayPal",
-    "num_laid_off": 70,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "Israel",
-    "stage": "Post-IPO",
-    "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
   }
 ]

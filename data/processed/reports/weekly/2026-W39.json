@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-09-21",
-    "end": "2026-09-21"
+    "end": "2026-09-23"
   },
-  "updated_at": "2026-09-21",
+  "updated_at": "2026-09-23",
   "canonical_url": "/reports/weekly/2026-W39.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "total_laid_off": 648,
+    "event_count": 4,
+    "headcount_event_count": 3,
+    "company_count": 4,
+    "country_count": 2,
+    "industry_count": 3,
+    "average_layoffs_per_headcount_event": 216.0,
+    "median_layoffs_per_headcount_event": 96.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,28 +24,68 @@
       "period": "2026-W38",
       "total_laid_off": 415,
       "event_count": 5,
-      "total_laid_off_delta": -415,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -4,
-      "event_count_pct_change": -0.8,
+      "total_laid_off_delta": 233,
+      "total_laid_off_pct_change": 0.5614,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.2,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-W39",
       "total_laid_off": 730,
       "event_count": 2,
-      "total_laid_off_delta": -730,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.5,
+      "total_laid_off_delta": -82,
+      "total_laid_off_pct_change": -0.1123,
+      "event_count_delta": 2,
+      "event_count_pct_change": 1.0,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Microsoft",
+        "total_laid_off": 500
+      },
+      {
+        "company": "Thinkific",
+        "total_laid_off": 96
+      },
+      {
+        "company": "Intel",
+        "total_laid_off": 52
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Other",
+        "total_laid_off": 500
+      },
+      {
+        "industry": "Education",
+        "total_laid_off": 96
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 52
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 552
+      },
+      {
+        "country": "Canada",
+        "total_laid_off": 96
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 648
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -70,8 +110,69 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-09-22",
+        "company": "Microsoft",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Thinkific",
+        "num_laid_off": 96,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Intel",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-09-23",
+        "company": "Thinkific",
+        "num_laid_off": 96,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Intel",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+      },
+      {
+        "date": "2026-09-22",
+        "company": "Microsoft",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+      },
       {
         "date": "2026-09-21",
         "company": "Apple",
@@ -86,7 +187,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W39 includes 1 public layoff events and 0 reported layoffs."
+    "2026-W39 includes 4 public layoff events and 648 reported layoffs.",
+    "The largest company contributor is Microsoft with 500 reported layoffs.",
+    "The leading named industry is Education with 96 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

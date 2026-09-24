@@ -7,12 +7,12 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-21"
+      "end": "2026-09-23"
     },
     "kpis": {
-      "total_laid_off": 206855,
-      "event_count": 396,
-      "headcount_event_count": 260,
+      "total_laid_off": 207407,
+      "event_count": 398,
+      "headcount_event_count": 262,
       "company_count": 298,
       "country_count": 1,
       "industry_count": 30,
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 4704
+          "total_laid_off": 5256
         }
       ],
       "company_top": [
@@ -112,7 +112,7 @@
         },
         {
           "company": "Intel",
-          "total_laid_off": 27058
+          "total_laid_off": 27110
         },
         {
           "company": "Oracle",
@@ -120,7 +120,7 @@
         },
         {
           "company": "Microsoft",
-          "total_laid_off": 20147
+          "total_laid_off": 20647
         },
         {
           "company": "Meta",
@@ -150,6 +150,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-23",
+          "company": "Intel",
+          "num_laid_off": 52,
+          "percentage_laid_off": null,
+          "industry": "Hardware",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+        },
+        {
+          "date": "2026-09-22",
+          "company": "Microsoft",
+          "num_laid_off": 500,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+        },
         {
           "date": "2026-09-21",
           "company": "Apple",
@@ -252,13 +272,13 @@
         },
         {
           "date": "2026-09-01",
-          "company": "Wonder",
-          "num_laid_off": 150,
-          "percentage_laid_off": 0.07,
-          "industry": "Food",
+          "company": "Synopsys",
+          "num_laid_off": 128,
+          "percentage_laid_off": null,
+          "industry": "Other",
           "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
         },
         {
           "date": "2026-09-01",
@@ -272,37 +292,17 @@
         },
         {
           "date": "2026-09-01",
-          "company": "Synopsys",
-          "num_laid_off": 128,
-          "percentage_laid_off": null,
-          "industry": "Other",
+          "company": "Wonder",
+          "num_laid_off": 150,
+          "percentage_laid_off": 0.07,
+          "industry": "Food",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-        },
-        {
-          "date": "2026-08-31",
-          "company": "Amazon",
-          "num_laid_off": 121,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
-        },
-        {
-          "date": "2026-08-26",
-          "company": "PagerDuty",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.15,
-          "industry": "Product",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
+          "stage": "Series B",
+          "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
         }
       ]
     },
-    "summary": "United States has 206,855 reported tech layoffs across 396 public events from 2025-01-02 to 2026-09-21."
+    "summary": "United States has 207,407 reported tech layoffs across 398 public events from 2025-01-02 to 2026-09-23."
   },
   {
     "type": "country",
@@ -1304,15 +1304,15 @@
     "canonical_url": "/countries/canada.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-09-08"
+      "end": "2026-09-23"
     },
     "kpis": {
-      "total_laid_off": 3347,
-      "event_count": 25,
-      "headcount_event_count": 15,
-      "company_count": 19,
+      "total_laid_off": 3443,
+      "event_count": 26,
+      "headcount_event_count": 16,
+      "company_count": 20,
       "country_count": 1,
-      "industry_count": 13,
+      "industry_count": 14,
       "high_intensity_event_count": 6
     },
     "charts": {
@@ -1355,7 +1355,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 102
+          "total_laid_off": 198
         }
       ],
       "company_top": [
@@ -1396,13 +1396,23 @@
           "total_laid_off": 100
         },
         {
-          "company": "Klue",
-          "total_laid_off": 85
+          "company": "Thinkific",
+          "total_laid_off": 96
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-23",
+          "company": "Thinkific",
+          "num_laid_off": 96,
+          "percentage_laid_off": null,
+          "industry": "Education",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+        },
         {
           "date": "2026-09-08",
           "company": "Neo Financial",
@@ -1542,20 +1552,10 @@
           "country": "Canada",
           "stage": "Post-IPO",
           "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
-        },
-        {
-          "date": "2025-12-09",
-          "company": "Tenstorrent",
-          "num_laid_off": 80,
-          "percentage_laid_off": 0.07,
-          "industry": "Hardware",
-          "country": "Canada",
-          "stage": "Series D",
-          "source": "https://www.eetimes.com/layoffs-at-tenstorrent-as-startup-pivots-towards-developer-sales/"
         }
       ]
     },
-    "summary": "Canada has 3,347 reported tech layoffs across 25 public events from 2025-02-05 to 2026-09-08."
+    "summary": "Canada has 3,443 reported tech layoffs across 26 public events from 2025-02-05 to 2026-09-23."
   },
   {
     "type": "country",

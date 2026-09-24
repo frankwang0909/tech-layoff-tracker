@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-09-21"
+    "end": "2026-09-23"
   },
-  "updated_at": "2026-09-21",
+  "updated_at": "2026-09-23",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 129288,
-    "event_count": 344,
-    "headcount_event_count": 220,
-    "company_count": 309,
+    "total_laid_off": 129936,
+    "event_count": 347,
+    "headcount_event_count": 223,
+    "company_count": 310,
     "country_count": 31,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 587.67,
-    "median_layoffs_per_headcount_event": 127.0,
+    "average_layoffs_per_headcount_event": 582.67,
+    "median_layoffs_per_headcount_event": 126.0,
     "high_intensity_event_count": 72
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6682,
-      "total_laid_off_pct_change": 0.0545,
-      "event_count_delta": 11,
-      "event_count_pct_change": 0.033,
+      "total_laid_off_delta": 7330,
+      "total_laid_off_pct_change": 0.0598,
+      "event_count_delta": 14,
+      "event_count_pct_change": 0.042,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 6682,
-      "total_laid_off_pct_change": 0.0545,
-      "event_count_delta": 11,
-      "event_count_pct_change": 0.033,
+      "total_laid_off_delta": 7330,
+      "total_laid_off_pct_change": 0.0598,
+      "event_count_delta": 14,
+      "event_count_pct_change": 0.042,
       "note": null
     }
   },
@@ -61,7 +61,7 @@
       },
       {
         "company": "Microsoft",
-        "total_laid_off": 4800
+        "total_laid_off": 5300
       },
       {
         "company": "Block",
@@ -87,7 +87,7 @@
     "industry_top": [
       {
         "industry": "Other",
-        "total_laid_off": 30885
+        "total_laid_off": 31385
       },
       {
         "industry": "Retail",
@@ -99,7 +99,7 @@
       },
       {
         "industry": "Hardware",
-        "total_laid_off": 14273
+        "total_laid_off": 14325
       },
       {
         "industry": "Finance",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 104099
+        "total_laid_off": 104651
       },
       {
         "country": "India",
@@ -156,12 +156,12 @@
         "total_laid_off": 1482
       },
       {
-        "country": "Kenya",
-        "total_laid_off": 1108
+        "country": "Canada",
+        "total_laid_off": 1167
       },
       {
-        "country": "Canada",
-        "total_laid_off": 1071
+        "country": "Kenya",
+        "total_laid_off": 1108
       },
       {
         "country": "Germany",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 108459
+        "total_laid_off": 109107
       },
       {
         "stage": "Unknown",
@@ -338,6 +338,36 @@
     ],
     "recent_events": [
       {
+        "date": "2026-09-23",
+        "company": "Thinkific",
+        "num_laid_off": 96,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Intel",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+      },
+      {
+        "date": "2026-09-22",
+        "company": "Microsoft",
+        "num_laid_off": 500,
+        "percentage_laid_off": null,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+      },
+      {
         "date": "2026-09-21",
         "company": "Apple",
         "num_laid_off": null,
@@ -429,16 +459,6 @@
       },
       {
         "date": "2026-09-08",
-        "company": "Neo Financial",
-        "num_laid_off": 102,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "Canada",
-        "stage": "Series D",
-        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
-      },
-      {
-        "date": "2026-09-08",
         "company": "Samsung",
         "num_laid_off": 80,
         "percentage_laid_off": null,
@@ -446,6 +466,16 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+      },
+      {
+        "date": "2026-09-08",
+        "company": "Neo Financial",
+        "num_laid_off": 102,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
       },
       {
         "date": "2026-09-07",
@@ -506,36 +536,6 @@
         "country": "Chile",
         "stage": "Series A",
         "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Zscaler",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.03,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
-      },
-      {
-        "date": "2026-09-02",
-        "company": "Uber",
-        "num_laid_off": 3300,
-        "percentage_laid_off": 0.1,
-        "industry": "Transportation",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
-      },
-      {
-        "date": "2026-09-02",
-        "company": "PayPal",
-        "num_laid_off": 220,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 344 public layoff events and 129,288 reported layoffs.",
+    "2026 includes 347 public layoff events and 129,936 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

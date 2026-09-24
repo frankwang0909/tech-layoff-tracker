@@ -1,0 +1,161 @@
+{
+  "report_type": "daily",
+  "period": "2026-09-23",
+  "status": "final",
+  "date_range": {
+    "start": "2026-09-23",
+    "end": "2026-09-23"
+  },
+  "updated_at": "2026-09-23",
+  "canonical_url": "/reports/daily/2026-09-23.html",
+  "kpis": {
+    "total_laid_off": 148,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 74.0,
+    "median_layoffs_per_headcount_event": 74.0,
+    "high_intensity_event_count": 0
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-09-22",
+      "total_laid_off": 500,
+      "event_count": 1,
+      "total_laid_off_delta": -352,
+      "total_laid_off_pct_change": -0.704,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-09-23",
+      "total_laid_off": 280,
+      "event_count": 1,
+      "total_laid_off_delta": -132,
+      "total_laid_off_pct_change": -0.4714,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Thinkific",
+        "total_laid_off": 96
+      },
+      {
+        "company": "Intel",
+        "total_laid_off": 52
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Education",
+        "total_laid_off": 96
+      },
+      {
+        "industry": "Hardware",
+        "total_laid_off": 52
+      }
+    ],
+    "country_top": [
+      {
+        "country": "Canada",
+        "total_laid_off": 96
+      },
+      {
+        "country": "United States",
+        "total_laid_off": 52
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 148
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 0
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-09-23",
+        "company": "Thinkific",
+        "num_laid_off": 96,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Intel",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-09-23",
+        "company": "Thinkific",
+        "num_laid_off": 96,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Intel",
+        "num_laid_off": 52,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+      }
+    ],
+    "high_intensity_events": []
+  },
+  "insights": [
+    "2026-09-23 includes 2 public layoff events and 148 reported layoffs.",
+    "The largest company contributor is Thinkific with 96 reported layoffs.",
+    "The leading named industry is Education with 96 reported layoffs."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

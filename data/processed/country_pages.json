@@ -10,9 +10,9 @@
       "end": "2026-09-23"
     },
     "kpis": {
-      "total_laid_off": 207407,
-      "event_count": 398,
-      "headcount_event_count": 262,
+      "total_laid_off": 207465,
+      "event_count": 399,
+      "headcount_event_count": 263,
       "company_count": 298,
       "country_count": 1,
       "industry_count": 30,
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 5256
+          "total_laid_off": 5314
         }
       ],
       "company_top": [
@@ -159,6 +159,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+        },
+        {
+          "date": "2026-09-22",
+          "company": "Expedia",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Travel",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
         },
         {
           "date": "2026-09-22",
@@ -252,16 +262,6 @@
         },
         {
           "date": "2026-09-02",
-          "company": "Uber",
-          "num_laid_off": 3300,
-          "percentage_laid_off": 0.1,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
-        },
-        {
-          "date": "2026-09-02",
           "company": "Bizzabo",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -271,24 +271,14 @@
           "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
         },
         {
-          "date": "2026-09-01",
-          "company": "Synopsys",
-          "num_laid_off": 128,
-          "percentage_laid_off": null,
-          "industry": "Other",
+          "date": "2026-09-02",
+          "company": "Uber",
+          "num_laid_off": 3300,
+          "percentage_laid_off": 0.1,
+          "industry": "Transportation",
           "country": "United States",
           "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
-        },
-        {
-          "date": "2026-09-01",
-          "company": "Amazon",
-          "num_laid_off": 148,
-          "percentage_laid_off": null,
-          "industry": "Retail",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+          "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
         },
         {
           "date": "2026-09-01",
@@ -299,10 +289,20 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
+        },
+        {
+          "date": "2026-09-01",
+          "company": "Synopsys",
+          "num_laid_off": 128,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
         }
       ]
     },
-    "summary": "United States has 207,407 reported tech layoffs across 398 public events from 2025-01-02 to 2026-09-23."
+    "summary": "United States has 207,465 reported tech layoffs across 399 public events from 2025-01-02 to 2026-09-23."
   },
   {
     "type": "country",

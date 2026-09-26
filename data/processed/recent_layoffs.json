@@ -30,6 +30,16 @@
     "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
   },
   {
+    "date": "2026-09-22",
+    "company": "Expedia",
+    "num_laid_off": 58,
+    "percentage_laid_off": null,
+    "industry": "Travel",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
+  },
+  {
     "date": "2026-09-21",
     "company": "Apple",
     "num_laid_off": null,
@@ -108,15 +118,5 @@
     "country": "Poland",
     "stage": "Series B",
     "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
-  },
-  {
-    "date": "2026-09-10",
-    "company": "PhonePe",
-    "num_laid_off": 7,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "United States",
-    "stage": "Acquired",
-    "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
   }
 ]

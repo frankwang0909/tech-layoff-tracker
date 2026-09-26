@@ -9,14 +9,14 @@
   "updated_at": "2026-09-23",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 129936,
-    "event_count": 347,
-    "headcount_event_count": 223,
+    "total_laid_off": 129994,
+    "event_count": 348,
+    "headcount_event_count": 224,
     "company_count": 310,
     "country_count": 31,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 582.67,
-    "median_layoffs_per_headcount_event": 126.0,
+    "average_layoffs_per_headcount_event": 580.33,
+    "median_layoffs_per_headcount_event": 123.5,
     "high_intensity_event_count": 72
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 7330,
-      "total_laid_off_pct_change": 0.0598,
-      "event_count_delta": 14,
-      "event_count_pct_change": 0.042,
+      "total_laid_off_delta": 7388,
+      "total_laid_off_pct_change": 0.0603,
+      "event_count_delta": 15,
+      "event_count_pct_change": 0.045,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 7330,
-      "total_laid_off_pct_change": 0.0598,
-      "event_count_delta": 14,
-      "event_count_pct_change": 0.042,
+      "total_laid_off_delta": 7388,
+      "total_laid_off_pct_change": 0.0603,
+      "event_count_delta": 15,
+      "event_count_pct_change": 0.045,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 104651
+        "total_laid_off": 104709
       },
       {
         "country": "India",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 109107
+        "total_laid_off": 109165
       },
       {
         "stage": "Unknown",
@@ -368,6 +368,16 @@
         "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
       },
       {
+        "date": "2026-09-22",
+        "company": "Expedia",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
+      },
+      {
         "date": "2026-09-21",
         "company": "Apple",
         "num_laid_off": null,
@@ -459,16 +469,6 @@
       },
       {
         "date": "2026-09-08",
-        "company": "Samsung",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
-      },
-      {
-        "date": "2026-09-08",
         "company": "Neo Financial",
         "num_laid_off": 102,
         "percentage_laid_off": 0.1,
@@ -476,6 +476,16 @@
         "country": "Canada",
         "stage": "Series D",
         "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+      },
+      {
+        "date": "2026-09-08",
+        "company": "Samsung",
+        "num_laid_off": 80,
+        "percentage_laid_off": null,
+        "industry": "Hardware",
+        "country": "India",
+        "stage": "Post-IPO",
+        "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
       },
       {
         "date": "2026-09-07",
@@ -499,26 +509,6 @@
       },
       {
         "date": "2026-09-03",
-        "company": "The Trade Desk",
-        "num_laid_off": 585,
-        "percentage_laid_off": 0.15,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "PayPal",
-        "num_laid_off": 251,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
-      },
-      {
-        "date": "2026-09-03",
         "company": "Hale",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -536,6 +526,16 @@
         "country": "Chile",
         "stage": "Series A",
         "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
+        "date": "2026-09-03",
+        "company": "Zscaler",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.03,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 347 public layoff events and 129,936 reported layoffs.",
+    "2026 includes 348 public layoff events and 129,994 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
     "72 events report a layoff percentage of 25% or higher."

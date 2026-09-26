@@ -9,14 +9,14 @@
   "updated_at": "2026-09-23",
   "canonical_url": "/reports/monthly/2026-09.html",
   "kpis": {
-    "total_laid_off": 6364,
-    "event_count": 27,
-    "headcount_event_count": 19,
-    "company_count": 25,
+    "total_laid_off": 6422,
+    "event_count": 28,
+    "headcount_event_count": 20,
+    "company_count": 26,
     "country_count": 10,
-    "industry_count": 13,
-    "average_layoffs_per_headcount_event": 334.95,
-    "median_layoffs_per_headcount_event": 135.0,
+    "industry_count": 14,
+    "average_layoffs_per_headcount_event": 321.1,
+    "median_layoffs_per_headcount_event": 131.5,
     "high_intensity_event_count": 4
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-08",
       "total_laid_off": 3555,
       "event_count": 43,
-      "total_laid_off_delta": 2809,
-      "total_laid_off_pct_change": 0.7902,
-      "event_count_delta": -16,
-      "event_count_pct_change": -0.3721,
+      "total_laid_off_delta": 2867,
+      "total_laid_off_pct_change": 0.8065,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.3488,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-09",
       "total_laid_off": 4454,
       "event_count": 29,
-      "total_laid_off_delta": 1910,
-      "total_laid_off_pct_change": 0.4288,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.069,
+      "total_laid_off_delta": 1968,
+      "total_laid_off_pct_change": 0.4419,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.0345,
       "note": null
     }
   },
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 5256
+        "total_laid_off": 5314
       },
       {
         "country": "India",
@@ -159,7 +159,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 5430
+        "total_laid_off": 5488
       },
       {
         "stage": "Series B",
@@ -344,6 +344,16 @@
         "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
       },
       {
+        "date": "2026-09-22",
+        "company": "Expedia",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
+      },
+      {
         "date": "2026-09-21",
         "company": "Apple",
         "num_laid_off": null,
@@ -502,16 +512,6 @@
         "country": "Germany",
         "stage": "Seed",
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Orionx",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "Chile",
-        "stage": "Series A",
-        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
       }
     ],
     "high_intensity_events": [
@@ -558,7 +558,7 @@
     ]
   },
   "insights": [
-    "2026-09 includes 27 public layoff events and 6,364 reported layoffs.",
+    "2026-09 includes 28 public layoff events and 6,422 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
     "4 events report a layoff percentage of 25% or higher."

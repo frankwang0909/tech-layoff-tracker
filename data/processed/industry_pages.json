@@ -5601,95 +5601,18 @@
   },
   {
     "type": "industry",
-    "name": "Aerospace",
-    "slug": "aerospace",
-    "title": "Tech Layoffs by Industry: Aerospace",
-    "canonical_url": "/industries/aerospace.html",
-    "date_range": {
-      "start": "2025-02-13",
-      "end": "2026-08-19"
-    },
-    "kpis": {
-      "total_laid_off": 1046,
-      "event_count": 3,
-      "headcount_event_count": 2,
-      "company_count": 3,
-      "country_count": 2,
-      "industry_count": 1,
-      "high_intensity_event_count": 0
-    },
-    "charts": {
-      "monthly_trend": [
-        {
-          "month": "2025-02",
-          "total_laid_off": 1000
-        },
-        {
-          "month": "2026-08",
-          "total_laid_off": 46
-        }
-      ],
-      "company_top": [
-        {
-          "company": "Blue Origin",
-          "total_laid_off": 1000
-        },
-        {
-          "company": "Vast",
-          "total_laid_off": 46
-        }
-      ]
-    },
-    "tables": {
-      "recent_events": [
-        {
-          "date": "2026-08-19",
-          "company": "Vast",
-          "num_laid_off": 46,
-          "percentage_laid_off": 0.04,
-          "industry": "Aerospace",
-          "country": "United States",
-          "stage": "Series A",
-          "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
-        },
-        {
-          "date": "2025-02-14",
-          "company": "Eviation Aircraft",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Aerospace",
-          "country": "Israel",
-          "stage": "Acquired",
-          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
-        },
-        {
-          "date": "2025-02-13",
-          "company": "Blue Origin",
-          "num_laid_off": 1000,
-          "percentage_laid_off": 0.1,
-          "industry": "Aerospace",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
-        }
-      ]
-    },
-    "summary": "Aerospace has 1,046 reported tech layoffs across 3 public events from 2025-02-13 to 2026-08-19."
-  },
-  {
-    "type": "industry",
     "name": "Travel",
     "slug": "travel",
     "title": "Tech Layoffs by Industry: Travel",
     "canonical_url": "/industries/travel.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-07-07"
+      "end": "2026-09-22"
     },
     "kpis": {
-      "total_laid_off": 1045,
-      "event_count": 12,
-      "headcount_event_count": 6,
+      "total_laid_off": 1103,
+      "event_count": 13,
+      "headcount_event_count": 7,
       "company_count": 7,
       "country_count": 4,
       "industry_count": 1,
@@ -5720,6 +5643,10 @@
         {
           "month": "2026-07",
           "total_laid_off": 200
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 58
         }
       ],
       "company_top": [
@@ -5737,7 +5664,7 @@
         },
         {
           "company": "Expedia",
-          "total_laid_off": 100
+          "total_laid_off": 158
         },
         {
           "company": "TripAdvisor",
@@ -5751,6 +5678,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-22",
+          "company": "Expedia",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Travel",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
+        },
         {
           "date": "2026-07-07",
           "company": "Mews",
@@ -5873,7 +5810,84 @@
         }
       ]
     },
-    "summary": "Travel has 1,045 reported tech layoffs across 12 public events from 2025-02-04 to 2026-07-07."
+    "summary": "Travel has 1,103 reported tech layoffs across 13 public events from 2025-02-04 to 2026-09-22."
+  },
+  {
+    "type": "industry",
+    "name": "Aerospace",
+    "slug": "aerospace",
+    "title": "Tech Layoffs by Industry: Aerospace",
+    "canonical_url": "/industries/aerospace.html",
+    "date_range": {
+      "start": "2025-02-13",
+      "end": "2026-08-19"
+    },
+    "kpis": {
+      "total_laid_off": 1046,
+      "event_count": 3,
+      "headcount_event_count": 2,
+      "company_count": 3,
+      "country_count": 2,
+      "industry_count": 1,
+      "high_intensity_event_count": 0
+    },
+    "charts": {
+      "monthly_trend": [
+        {
+          "month": "2025-02",
+          "total_laid_off": 1000
+        },
+        {
+          "month": "2026-08",
+          "total_laid_off": 46
+        }
+      ],
+      "company_top": [
+        {
+          "company": "Blue Origin",
+          "total_laid_off": 1000
+        },
+        {
+          "company": "Vast",
+          "total_laid_off": 46
+        }
+      ]
+    },
+    "tables": {
+      "recent_events": [
+        {
+          "date": "2026-08-19",
+          "company": "Vast",
+          "num_laid_off": 46,
+          "percentage_laid_off": 0.04,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
+        },
+        {
+          "date": "2025-02-14",
+          "company": "Eviation Aircraft",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Aerospace",
+          "country": "Israel",
+          "stage": "Acquired",
+          "source": "https://www.aerotime.aero/articles/electric-startup-eviation-lays-off-staff-as-it-seeks-funding-media-reports"
+        },
+        {
+          "date": "2025-02-13",
+          "company": "Blue Origin",
+          "num_laid_off": 1000,
+          "percentage_laid_off": 0.1,
+          "industry": "Aerospace",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.cnn.com/2025/02/13/science/blue-origin-employee-layoffs/index.html"
+        }
+      ]
+    },
+    "summary": "Aerospace has 1,046 reported tech layoffs across 3 public events from 2025-02-13 to 2026-08-19."
   },
   {
     "type": "industry",

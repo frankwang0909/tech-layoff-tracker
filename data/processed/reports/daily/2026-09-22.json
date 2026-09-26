@@ -9,14 +9,14 @@
   "updated_at": "2026-09-23",
   "canonical_url": "/reports/daily/2026-09-22.html",
   "kpis": {
-    "total_laid_off": 500,
-    "event_count": 1,
-    "headcount_event_count": 1,
-    "company_count": 1,
+    "total_laid_off": 558,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": 500.0,
-    "median_layoffs_per_headcount_event": 500.0,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 279.0,
+    "median_layoffs_per_headcount_event": 279.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,10 +24,10 @@
       "period": "2026-09-21",
       "total_laid_off": 0,
       "event_count": 1,
-      "total_laid_off_delta": 500,
+      "total_laid_off_delta": 558,
       "total_laid_off_pct_change": null,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -46,24 +46,32 @@
       {
         "company": "Microsoft",
         "total_laid_off": 500
+      },
+      {
+        "company": "Expedia",
+        "total_laid_off": 58
       }
     ],
     "industry_top": [
       {
         "industry": "Other",
         "total_laid_off": 500
+      },
+      {
+        "industry": "Travel",
+        "total_laid_off": 58
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 500
+        "total_laid_off": 558
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 500
+        "total_laid_off": 558
       }
     ],
     "layoff_pct_distribution": [
@@ -100,6 +108,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+      },
+      {
+        "date": "2026-09-22",
+        "company": "Expedia",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
       }
     ],
     "recent_events": [
@@ -112,14 +130,24 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+      },
+      {
+        "date": "2026-09-22",
+        "company": "Expedia",
+        "num_laid_off": 58,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-09-22 includes 1 public layoff events and 500 reported layoffs.",
+    "2026-09-22 includes 2 public layoff events and 558 reported layoffs.",
     "The largest company contributor is Microsoft with 500 reported layoffs.",
-    "The leading named industry is Other with 500 reported layoffs."
+    "The leading named industry is Travel with 58 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

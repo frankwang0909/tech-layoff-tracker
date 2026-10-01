@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-23"
+      "end": "2026-09-30"
     },
     "kpis": {
-      "total_laid_off": 207465,
-      "event_count": 399,
-      "headcount_event_count": 263,
-      "company_count": 298,
+      "total_laid_off": 207990,
+      "event_count": 402,
+      "headcount_event_count": 264,
+      "company_count": 300,
       "country_count": 1,
       "industry_count": 30,
-      "high_intensity_event_count": 60
+      "high_intensity_event_count": 61
     },
     "charts": {
       "monthly_trend": [
@@ -102,7 +102,7 @@
         },
         {
           "month": "2026-09",
-          "total_laid_off": 5314
+          "total_laid_off": 5839
         }
       ],
       "company_top": [
@@ -150,6 +150,26 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-30",
+          "company": "Blaize",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.26,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+        },
+        {
+          "date": "2026-09-29",
+          "company": "Workday",
+          "num_laid_off": 525,
+          "percentage_laid_off": 0.025,
+          "industry": "HR",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+        },
         {
           "date": "2026-09-23",
           "company": "Intel",
@@ -232,16 +252,6 @@
         },
         {
           "date": "2026-09-03",
-          "company": "The Trade Desk",
-          "num_laid_off": 585,
-          "percentage_laid_off": 0.15,
-          "industry": "Marketing",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
-        },
-        {
-          "date": "2026-09-03",
           "company": "PayPal",
           "num_laid_off": 251,
           "percentage_laid_off": null,
@@ -261,14 +271,14 @@
           "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
         },
         {
-          "date": "2026-09-02",
-          "company": "Bizzabo",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
+          "date": "2026-09-03",
+          "company": "The Trade Desk",
+          "num_laid_off": 585,
+          "percentage_laid_off": 0.15,
           "industry": "Marketing",
           "country": "United States",
-          "stage": "Series E",
-          "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+          "stage": "Post-IPO",
+          "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
         },
         {
           "date": "2026-09-02",
@@ -281,28 +291,18 @@
           "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
         },
         {
-          "date": "2026-09-01",
-          "company": "Wonder",
-          "num_laid_off": 150,
-          "percentage_laid_off": 0.07,
-          "industry": "Food",
-          "country": "United States",
-          "stage": "Series B",
-          "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
-        },
-        {
-          "date": "2026-09-01",
-          "company": "Synopsys",
-          "num_laid_off": 128,
+          "date": "2026-09-02",
+          "company": "Bizzabo",
+          "num_laid_off": null,
           "percentage_laid_off": null,
-          "industry": "Other",
+          "industry": "Marketing",
           "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
         }
       ]
     },
-    "summary": "United States has 207,465 reported tech layoffs across 399 public events from 2025-01-02 to 2026-09-23."
+    "summary": "United States has 207,990 reported tech layoffs across 402 public events from 2025-01-02 to 2026-09-30."
   },
   {
     "type": "country",

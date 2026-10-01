@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-07-01",
-    "end": "2026-09-23"
+    "end": "2026-09-30"
   },
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-30",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
-    "total_laid_off": 20977,
-    "event_count": 117,
-    "headcount_event_count": 71,
-    "company_count": 102,
+    "total_laid_off": 21502,
+    "event_count": 120,
+    "headcount_event_count": 72,
+    "company_count": 105,
     "country_count": 20,
-    "industry_count": 26,
-    "average_layoffs_per_headcount_event": 295.45,
-    "median_layoffs_per_headcount_event": 121.0,
-    "high_intensity_event_count": 28
+    "industry_count": 27,
+    "average_layoffs_per_headcount_event": 298.64,
+    "median_layoffs_per_headcount_event": 124.5,
+    "high_intensity_event_count": 29
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
       "total_laid_off": 55787,
       "event_count": 135,
-      "total_laid_off_delta": -34810,
-      "total_laid_off_pct_change": -0.624,
-      "event_count_delta": -18,
-      "event_count_pct_change": -0.1333,
+      "total_laid_off_delta": -34285,
+      "total_laid_off_pct_change": -0.6146,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.1111,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-Q3",
       "total_laid_off": 27554,
       "event_count": 86,
-      "total_laid_off_delta": -6577,
-      "total_laid_off_pct_change": -0.2387,
-      "event_count_delta": 31,
-      "event_count_pct_change": 0.3605,
+      "total_laid_off_delta": -6052,
+      "total_laid_off_pct_change": -0.2196,
+      "event_count_delta": 34,
+      "event_count_pct_change": 0.3953,
       "note": null
     }
   },
@@ -80,8 +80,8 @@
         "total_laid_off": 550
       },
       {
-        "company": "Zillow",
-        "total_laid_off": 500
+        "company": "Workday",
+        "total_laid_off": 525
       }
     ],
     "industry_top": [
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 15849
+        "total_laid_off": 16374
       },
       {
         "country": "India",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 15806
+        "total_laid_off": 16331
       },
       {
         "stage": "Acquired",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 10
+        "event_count": 11
       },
       {
         "bucket": "10-24%",
@@ -306,6 +306,16 @@
         "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
       },
       {
+        "date": "2026-09-29",
+        "company": "Workday",
+        "num_laid_off": 525,
+        "percentage_laid_off": 0.025,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      },
+      {
         "date": "2026-09-22",
         "company": "Microsoft",
         "num_laid_off": 500,
@@ -324,19 +334,29 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
-      },
-      {
-        "date": "2026-07-08",
-        "company": "OpenText",
-        "num_laid_off": 400,
-        "percentage_laid_off": 0.02,
-        "industry": "Data",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-09-30",
+        "company": "Blaize",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+      },
+      {
+        "date": "2026-09-29",
+        "company": "Workday",
+        "num_laid_off": 525,
+        "percentage_laid_off": 0.025,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      },
       {
         "date": "2026-09-23",
         "company": "Thinkific",
@@ -449,16 +469,6 @@
       },
       {
         "date": "2026-09-10",
-        "company": "Booksy",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.2,
-        "industry": "Consumer",
-        "country": "Poland",
-        "stage": "Series B",
-        "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
-      },
-      {
-        "date": "2026-09-10",
         "company": "PhonePe",
         "num_laid_off": 7,
         "percentage_laid_off": null,
@@ -466,6 +476,16 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+      },
+      {
+        "date": "2026-09-10",
+        "company": "Booksy",
+        "num_laid_off": 200,
+        "percentage_laid_off": 0.2,
+        "industry": "Consumer",
+        "country": "Poland",
+        "stage": "Series B",
+        "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
       },
       {
         "date": "2026-09-08",
@@ -516,26 +536,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "PayPal",
-        "num_laid_off": 251,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Hale",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "Germany",
-        "stage": "Seed",
-        "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       }
     ],
     "high_intensity_events": [
@@ -551,6 +551,16 @@
       },
       {
         "date": "2026-09-03",
+        "company": "Orionx",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Crypto",
+        "country": "Chile",
+        "stage": "Series A",
+        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+      },
+      {
+        "date": "2026-09-03",
         "company": "Hale",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
@@ -560,14 +570,14 @@
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
       },
       {
-        "date": "2026-09-03",
-        "company": "Orionx",
+        "date": "2026-08-26",
+        "company": "MonieWorld",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "Chile",
-        "stage": "Series A",
-        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+        "industry": "Finance",
+        "country": "Nigeria",
+        "stage": "Unknown",
+        "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
       },
       {
         "date": "2026-08-31",
@@ -590,14 +600,14 @@
         "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
-        "date": "2026-08-26",
-        "company": "MonieWorld",
+        "date": "2026-08-19",
+        "company": "BlocPower",
         "num_laid_off": null,
         "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "Nigeria",
+        "industry": "Energy",
+        "country": "United States",
         "stage": "Unknown",
-        "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
       },
       {
         "date": "2026-08-24",
@@ -628,24 +638,14 @@
         "country": "Canada",
         "stage": "Series B",
         "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "BlocPower",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 117 public layoff events and 20,977 reported layoffs.",
+    "2026-Q3 includes 120 public layoff events and 21,502 reported layoffs.",
     "The largest company contributor is Microsoft with 5,300 reported layoffs.",
     "The leading named industry is Transportation with 3,621 reported layoffs.",
-    "28 events report a layoff percentage of 25% or higher."
+    "29 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

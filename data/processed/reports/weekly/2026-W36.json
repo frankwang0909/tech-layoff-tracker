@@ -6,13 +6,13 @@
     "start": "2026-08-31",
     "end": "2026-09-06"
   },
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-30",
   "canonical_url": "/reports/weekly/2026-W36.html",
   "kpis": {
     "total_laid_off": 5387,
-    "event_count": 16,
+    "event_count": 17,
     "headcount_event_count": 11,
-    "company_count": 12,
+    "company_count": 13,
     "country_count": 6,
     "industry_count": 9,
     "average_layoffs_per_headcount_event": 489.73,
@@ -26,8 +26,8 @@
       "event_count": 6,
       "total_laid_off_delta": 4967,
       "total_laid_off_pct_change": 11.8262,
-      "event_count_delta": 10,
-      "event_count_pct_change": 1.6667,
+      "event_count_delta": 11,
+      "event_count_pct_change": 1.8333,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 17,
       "total_laid_off_delta": 3047,
       "total_laid_off_pct_change": 1.3021,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.0588,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     }
   },
@@ -269,16 +269,6 @@
       },
       {
         "date": "2026-09-03",
-        "company": "The Trade Desk",
-        "num_laid_off": 585,
-        "percentage_laid_off": 0.15,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
-      },
-      {
-        "date": "2026-09-03",
         "company": "PayPal",
         "num_laid_off": 251,
         "percentage_laid_off": null,
@@ -318,14 +308,14 @@
         "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       },
       {
-        "date": "2026-09-02",
-        "company": "Uber",
-        "num_laid_off": 3300,
-        "percentage_laid_off": 0.1,
-        "industry": "Transportation",
+        "date": "2026-09-03",
+        "company": "The Trade Desk",
+        "num_laid_off": 585,
+        "percentage_laid_off": 0.15,
+        "industry": "Marketing",
         "country": "United States",
         "stage": "Post-IPO",
-        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
       },
       {
         "date": "2026-09-02",
@@ -346,6 +336,16 @@
         "country": "United States",
         "stage": "Series E",
         "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+      },
+      {
+        "date": "2026-09-02",
+        "company": "Uber",
+        "num_laid_off": 3300,
+        "percentage_laid_off": 0.1,
+        "industry": "Transportation",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
       },
       {
         "date": "2026-09-01",
@@ -376,6 +376,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+      },
+      {
+        "date": "2026-09-01",
+        "company": "Ascent Funding",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.sandiegoville.com/2026/09/san-diego-best-place-to-work-ascent.html"
       },
       {
         "date": "2026-08-31",
@@ -452,7 +462,7 @@
     ]
   },
   "insights": [
-    "2026-W36 includes 16 public layoff events and 5,387 reported layoffs.",
+    "2026-W36 includes 17 public layoff events and 5,387 reported layoffs.",
     "The largest company contributor is Uber with 3,300 reported layoffs.",
     "The leading named industry is Transportation with 3,300 reported layoffs.",
     "3 events report a layoff percentage of 25% or higher."

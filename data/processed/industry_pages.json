@@ -878,9 +878,9 @@
     },
     "kpis": {
       "total_laid_off": 15146,
-      "event_count": 69,
+      "event_count": 70,
       "headcount_event_count": 45,
-      "company_count": 59,
+      "company_count": 60,
       "country_count": 12,
       "industry_count": 1,
       "high_intensity_event_count": 19
@@ -1090,6 +1090,16 @@
           "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
         },
         {
+          "date": "2026-09-01",
+          "company": "Ascent Funding",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.17,
+          "industry": "Finance",
+          "country": "United States",
+          "stage": "Series C",
+          "source": "https://www.sandiegoville.com/2026/09/san-diego-best-place-to-work-ascent.html"
+        },
+        {
           "date": "2026-08-31",
           "company": "PayPal",
           "num_laid_off": 164,
@@ -1148,20 +1158,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "FNZ",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United Kingdom",
-          "stage": "Private Equity",
-          "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
         }
       ]
     },
-    "summary": "Finance has 15,146 reported tech layoffs across 69 public events from 2025-01-02 to 2026-09-17."
+    "summary": "Finance has 15,146 reported tech layoffs across 70 public events from 2025-01-02 to 2026-09-17."
   },
   {
     "type": "industry",
@@ -1713,12 +1713,12 @@
     "canonical_url": "/industries/hr.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-06-26"
+      "end": "2026-09-29"
     },
     "kpis": {
-      "total_laid_off": 5791,
-      "event_count": 15,
-      "headcount_event_count": 12,
+      "total_laid_off": 6316,
+      "event_count": 16,
+      "headcount_event_count": 13,
       "company_count": 11,
       "country_count": 6,
       "industry_count": 1,
@@ -1753,12 +1753,16 @@
         {
           "month": "2026-06",
           "total_laid_off": 146
+        },
+        {
+          "month": "2026-09",
+          "total_laid_off": 525
         }
       ],
       "company_top": [
         {
           "company": "Workday",
-          "total_laid_off": 2150
+          "total_laid_off": 2675
         },
         {
           "company": "Indeed + Glassdoor",
@@ -1796,6 +1800,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-29",
+          "company": "Workday",
+          "num_laid_off": 525,
+          "percentage_laid_off": 0.025,
+          "industry": "HR",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+        },
         {
           "date": "2026-06-26",
           "company": "ADP",
@@ -1935,20 +1949,10 @@
           "country": "United States",
           "stage": "Unknown",
           "source": "https://www.justworks.com/press/company-news/a-note-from-justworks-ceo-mike-seckler"
-        },
-        {
-          "date": "2025-02-05",
-          "company": "Workday",
-          "num_laid_off": 1750,
-          "percentage_laid_off": 0.08,
-          "industry": "HR",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.cnbc.com/2025/02/05/workday-to-cut-1750-jobs-in-ai-push.html"
         }
       ]
     },
-    "summary": "HR has 5,791 reported tech layoffs across 15 public events from 2025-02-05 to 2026-06-26."
+    "summary": "HR has 6,316 reported tech layoffs across 16 public events from 2025-02-05 to 2026-09-29."
   },
   {
     "type": "industry",
@@ -3332,16 +3336,16 @@
     "canonical_url": "/industries/ai.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-07-28"
+      "end": "2026-09-30"
     },
     "kpis": {
       "total_laid_off": 2843,
-      "event_count": 22,
+      "event_count": 23,
       "headcount_event_count": 18,
-      "company_count": 20,
+      "company_count": 21,
       "country_count": 6,
       "industry_count": 1,
-      "high_intensity_event_count": 9
+      "high_intensity_event_count": 10
     },
     "charts": {
       "monthly_trend": [
@@ -3447,6 +3451,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-09-30",
+          "company": "Blaize",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.26,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+        },
         {
           "date": "2026-07-28",
           "company": "Krutrim",
@@ -3586,20 +3600,10 @@
           "country": "India",
           "stage": "Unknown",
           "source": "https://inc42.com/buzz/krutrim-lays-off-over-100-staff-in-fresh-job-cuts-report/"
-        },
-        {
-          "date": "2025-07-03",
-          "company": "Subtl AI",
-          "num_laid_off": null,
-          "percentage_laid_off": 1.0,
-          "industry": "AI",
-          "country": "India",
-          "stage": "Seed",
-          "source": "https://inc42.com/buzz/genai-startup-subtl-ai-shuts-shop-after-failing-to-raise-funds/"
         }
       ]
     },
-    "summary": "AI has 2,843 reported tech layoffs across 22 public events from 2025-02-05 to 2026-07-28."
+    "summary": "AI has 2,843 reported tech layoffs across 23 public events from 2025-02-05 to 2026-09-30."
   },
   {
     "type": "industry",

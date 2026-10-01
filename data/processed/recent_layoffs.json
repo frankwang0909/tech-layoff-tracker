@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-30",
+    "company": "Blaize",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.26,
+    "industry": "AI",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+  },
+  {
+    "date": "2026-09-29",
+    "company": "Workday",
+    "num_laid_off": 525,
+    "percentage_laid_off": 0.025,
+    "industry": "HR",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+  },
+  {
     "date": "2026-09-23",
     "company": "Thinkific",
     "num_laid_off": 96,
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
-  },
-  {
-    "date": "2026-09-11",
-    "company": "Bitcoin Suisse",
-    "num_laid_off": 60,
-    "percentage_laid_off": 0.5,
-    "industry": "Crypto",
-    "country": "Switzerland",
-    "stage": "Series A",
-    "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
-  },
-  {
-    "date": "2026-09-10",
-    "company": "Booksy",
-    "num_laid_off": 200,
-    "percentage_laid_off": 0.2,
-    "industry": "Consumer",
-    "country": "Poland",
-    "stage": "Series B",
-    "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
   }
 ]

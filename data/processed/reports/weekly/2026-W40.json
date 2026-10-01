@@ -1,0 +1,151 @@
+{
+  "report_type": "weekly",
+  "period": "2026-W40",
+  "status": "rolling",
+  "date_range": {
+    "start": "2026-09-29",
+    "end": "2026-09-30"
+  },
+  "updated_at": "2026-09-30",
+  "canonical_url": "/reports/weekly/2026-W40.html",
+  "kpis": {
+    "total_laid_off": 525,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
+    "country_count": 1,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 525.0,
+    "median_layoffs_per_headcount_event": 525.0,
+    "high_intensity_event_count": 1
+  },
+  "comparisons": {
+    "previous_period": {
+      "period": "2026-W39",
+      "total_laid_off": 706,
+      "event_count": 5,
+      "total_laid_off_delta": -181,
+      "total_laid_off_pct_change": -0.2564,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.6,
+      "note": null
+    },
+    "same_period_last_year": {
+      "period": "2025-W40",
+      "total_laid_off": 850,
+      "event_count": 5,
+      "total_laid_off_delta": -325,
+      "total_laid_off_pct_change": -0.3824,
+      "event_count_delta": -3,
+      "event_count_pct_change": -0.6,
+      "note": null
+    }
+  },
+  "charts": {
+    "company_top": [
+      {
+        "company": "Workday",
+        "total_laid_off": 525
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "HR",
+        "total_laid_off": 525
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 525
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 525
+      }
+    ],
+    "layoff_pct_distribution": [
+      {
+        "bucket": "<10%",
+        "event_count": 1
+      },
+      {
+        "bucket": "10-24%",
+        "event_count": 0
+      },
+      {
+        "bucket": "25-49%",
+        "event_count": 0
+      },
+      {
+        "bucket": "50-99%",
+        "event_count": 0
+      },
+      {
+        "bucket": "100%+",
+        "event_count": 0
+      }
+    ]
+  },
+  "tables": {
+    "largest_events": [
+      {
+        "date": "2026-09-29",
+        "company": "Workday",
+        "num_laid_off": 525,
+        "percentage_laid_off": 0.025,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      }
+    ],
+    "recent_events": [
+      {
+        "date": "2026-09-30",
+        "company": "Blaize",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+      },
+      {
+        "date": "2026-09-29",
+        "company": "Workday",
+        "num_laid_off": 525,
+        "percentage_laid_off": 0.025,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      }
+    ],
+    "high_intensity_events": [
+      {
+        "date": "2026-09-30",
+        "company": "Blaize",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+      }
+    ]
+  },
+  "insights": [
+    "2026-W40 includes 2 public layoff events and 525 reported layoffs.",
+    "The largest company contributor is Workday with 525 reported layoffs.",
+    "The leading named industry is HR with 525 reported layoffs.",
+    "1 events report a layoff percentage of 25% or higher."
+  ],
+  "methodology_notes": [
+    "Rows with invalid dates are excluded from period reports.",
+    "Rows without num_laid_off count as events but are excluded from headcount totals.",
+    "Layoff percentage, funding stage, and funds raised fields are incomplete in source data."
+  ]
+}

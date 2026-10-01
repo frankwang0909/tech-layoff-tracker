@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-09-23"
+    "end": "2026-09-30"
   },
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-30",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 129994,
-    "event_count": 348,
-    "headcount_event_count": 224,
-    "company_count": 310,
+    "total_laid_off": 130519,
+    "event_count": 351,
+    "headcount_event_count": 225,
+    "company_count": 312,
     "country_count": 31,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 580.33,
-    "median_layoffs_per_headcount_event": 123.5,
-    "high_intensity_event_count": 72
+    "average_layoffs_per_headcount_event": 580.08,
+    "median_layoffs_per_headcount_event": 126.0,
+    "high_intensity_event_count": 73
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 7388,
-      "total_laid_off_pct_change": 0.0603,
-      "event_count_delta": 15,
-      "event_count_pct_change": 0.045,
+      "total_laid_off_delta": 7913,
+      "total_laid_off_pct_change": 0.0645,
+      "event_count_delta": 18,
+      "event_count_pct_change": 0.0541,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 7388,
-      "total_laid_off_pct_change": 0.0603,
-      "event_count_delta": 15,
-      "event_count_pct_change": 0.045,
+      "total_laid_off_delta": 7913,
+      "total_laid_off_pct_change": 0.0645,
+      "event_count_delta": 18,
+      "event_count_pct_change": 0.0541,
       "note": null
     }
   },
@@ -122,14 +122,14 @@
         "total_laid_off": 2295
       },
       {
-        "industry": "Logistics",
-        "total_laid_off": 2000
+        "industry": "HR",
+        "total_laid_off": 2021
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 104709
+        "total_laid_off": 105234
       },
       {
         "country": "India",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 109165
+        "total_laid_off": 109690
       },
       {
         "stage": "Unknown",
@@ -213,7 +213,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 33
+        "event_count": 34
       },
       {
         "bucket": "10-24%",
@@ -337,6 +337,26 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-09-30",
+        "company": "Blaize",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.26,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/"
+      },
+      {
+        "date": "2026-09-29",
+        "company": "Workday",
+        "num_laid_off": 525,
+        "percentage_laid_off": 0.025,
+        "industry": "HR",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      },
       {
         "date": "2026-09-23",
         "company": "Thinkific",
@@ -516,26 +536,6 @@
         "country": "Germany",
         "stage": "Seed",
         "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Orionx",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Crypto",
-        "country": "Chile",
-        "stage": "Series A",
-        "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "Zscaler",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.03,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+      },
+      {
+        "date": "2026-08-24",
+        "company": "Laybuy",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Security",
+        "country": "Israel",
+        "stage": "Seed",
+        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
       },
       {
         "date": "2026-09-03",
@@ -580,16 +590,6 @@
         "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
       },
       {
-        "date": "2026-08-24",
-        "company": "Laybuy",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Security",
-        "country": "Israel",
-        "stage": "Seed",
-        "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
-      },
-      {
         "date": "2026-08-26",
         "company": "MonieWorld",
         "num_laid_off": null,
@@ -598,6 +598,16 @@
         "country": "Nigeria",
         "stage": "Unknown",
         "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+      },
+      {
+        "date": "2026-08-17",
+        "company": "Relay",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Other",
+        "country": "United States",
+        "stage": "Seed",
+        "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
       },
       {
         "date": "2026-08-19",
@@ -628,24 +638,14 @@
         "country": "India",
         "stage": "Seed",
         "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
-      },
-      {
-        "date": "2026-05-26",
-        "company": "Picnic",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
       }
     ]
   },
   "insights": [
-    "2026 includes 348 public layoff events and 129,994 reported layoffs.",
+    "2026 includes 351 public layoff events and 130,519 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
-    "72 events report a layoff percentage of 25% or higher."
+    "73 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

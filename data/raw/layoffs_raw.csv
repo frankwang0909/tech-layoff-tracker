@@ -1,4 +1,6 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Blaize,SF Bay Area,,2026-09-30,0.26,AI,https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/,Post-IPO,307.0,United States,2026-10-01T03:40:46.000Z
+Workday,SF Bay Area,525.0,2026-09-29,0.025,HR,https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team,Post-IPO,230.0,United States,2026-10-01T03:35:52.000Z
 Thinkific,"Vancouver, Non-U.S.",96.0,2026-09-23,,Education,https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow,Post-IPO,22.0,Canada,2026-09-24T02:30:21.000Z
 Intel,Sacramento,52.0,2026-09-23,,Hardware,https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/,Post-IPO,12.0,United States,2026-09-23T23:29:21.000Z
 Microsoft,Seattle,500.0,2026-09-22,,Other,https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9,Post-IPO,1.0,United States,2026-09-23T23:38:23.000Z
@@ -27,6 +29,7 @@ Bizzabo,New York City,,2026-09-02,,Marketing,https://www.calcalistech.com/ctechn
 Wonder,New York City,150.0,2026-09-01,0.07,Food,https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort,Series B,850.0,United States,2026-09-04T00:27:55.000Z
 Amazon,SF Bay Area,148.0,2026-09-01,,Retail,https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php,Post-IPO,8100.0,United States,2026-09-02T16:53:22.000Z
 Synopsys,SF Bay Area,128.0,2026-09-01,,Other,https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php,Post-IPO,,United States,2026-09-02T16:53:57.000Z
+Ascent Funding,San Diego,,2026-09-01,0.17,Finance,https://www.sandiegoville.com/2026/09/san-diego-best-place-to-work-ascent.html,Series C,86.0,United States,2026-10-01T03:41:59.000Z
 Zomato,"Hyderabad, Non-U.S.",250.0,2026-08-31,,Food,https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms,Series J,914.0,India,2026-08-31T23:07:44.000Z
 PayPal,"Dublin, Non-U.S.",164.0,2026-08-31,,Finance,https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/,Post-IPO,216.0,Ireland,2026-08-31T23:14:33.000Z
 Amazon,Seattle,121.0,2026-08-31,,Retail,https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/,Post-IPO,8100.0,United States,2026-08-31T23:08:23.000Z

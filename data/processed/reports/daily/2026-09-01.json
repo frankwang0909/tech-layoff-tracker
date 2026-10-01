@@ -6,15 +6,15 @@
     "start": "2026-09-01",
     "end": "2026-09-01"
   },
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-30",
   "canonical_url": "/reports/daily/2026-09-01.html",
   "kpis": {
     "total_laid_off": 426,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 3,
-    "company_count": 3,
+    "company_count": 4,
     "country_count": 1,
-    "industry_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 142.0,
     "median_layoffs_per_headcount_event": 148.0,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 4,
       "total_laid_off_delta": -109,
       "total_laid_off_pct_change": -0.2037,
-      "event_count_delta": -1,
-      "event_count_pct_change": -0.25,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 3,
       "total_laid_off_delta": -324,
       "total_laid_off_pct_change": -0.432,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 0.3333,
       "note": null
     }
   },
@@ -172,12 +172,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+      },
+      {
+        "date": "2026-09-01",
+        "company": "Ascent Funding",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.17,
+        "industry": "Finance",
+        "country": "United States",
+        "stage": "Series C",
+        "source": "https://www.sandiegoville.com/2026/09/san-diego-best-place-to-work-ascent.html"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-09-01 includes 3 public layoff events and 426 reported layoffs.",
+    "2026-09-01 includes 4 public layoff events and 426 reported layoffs.",
     "The largest company contributor is Wonder with 150 reported layoffs.",
     "The leading named industry is Food with 150 reported layoffs."
   ],

@@ -1,12 +1,12 @@
 {
   "report_type": "weekly",
   "period": "2026-W39",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-09-21",
     "end": "2026-09-23"
   },
-  "updated_at": "2026-09-23",
+  "updated_at": "2026-09-30",
   "canonical_url": "/reports/weekly/2026-W39.html",
   "kpis": {
     "total_laid_off": 706,

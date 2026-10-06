@@ -1,12 +1,12 @@
 {
   "report_type": "quarterly",
   "period": "2026-Q3",
-  "status": "rolling",
+  "status": "final",
   "date_range": {
     "start": "2026-07-01",
     "end": "2026-09-30"
   },
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-02",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
     "total_laid_off": 21502,
@@ -22,10 +22,10 @@
   "comparisons": {
     "previous_period": {
       "period": "2026-Q2",
-      "total_laid_off": 55787,
+      "total_laid_off": 55990,
       "event_count": 135,
-      "total_laid_off_delta": -34285,
-      "total_laid_off_pct_change": -0.6146,
+      "total_laid_off_delta": -34488,
+      "total_laid_off_pct_change": -0.616,
       "event_count_delta": -15,
       "event_count_pct_change": -0.1111,
       "note": null

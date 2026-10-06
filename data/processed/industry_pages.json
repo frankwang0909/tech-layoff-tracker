@@ -1965,9 +1965,9 @@
       "end": "2026-09-03"
     },
     "kpis": {
-      "total_laid_off": 4716,
+      "total_laid_off": 4919,
       "event_count": 38,
-      "headcount_event_count": 28,
+      "headcount_event_count": 29,
       "company_count": 32,
       "country_count": 5,
       "industry_count": 1,
@@ -2029,7 +2029,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 80
+          "total_laid_off": 283
         },
         {
           "month": "2026-07",
@@ -2074,12 +2074,12 @@
           "total_laid_off": 230
         },
         {
-          "company": "Okta",
-          "total_laid_off": 180
+          "company": "Snyk",
+          "total_laid_off": 203
         },
         {
-          "company": "PlaxidityX",
-          "total_laid_off": 145
+          "company": "Okta",
+          "total_laid_off": 180
         }
       ]
     },
@@ -2157,6 +2157,16 @@
         },
         {
           "date": "2026-06-24",
+          "company": "Snyk",
+          "num_laid_off": 203,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
+        },
+        {
+          "date": "2026-06-24",
           "company": "Cyberbit",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -2164,16 +2174,6 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
-        },
-        {
-          "date": "2026-06-24",
-          "company": "Snyk",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
         },
         {
           "date": "2026-05-29",
@@ -2237,7 +2237,7 @@
         }
       ]
     },
-    "summary": "Security has 4,716 reported tech layoffs across 38 public events from 2025-01-07 to 2026-09-03."
+    "summary": "Security has 4,919 reported tech layoffs across 38 public events from 2025-01-07 to 2026-09-03."
   },
   {
     "type": "industry",
@@ -4403,13 +4403,13 @@
     "canonical_url": "/industries/crypto.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-09-11"
+      "end": "2026-10-02"
     },
     "kpis": {
       "total_laid_off": 1547,
-      "event_count": 31,
+      "event_count": 32,
       "headcount_event_count": 14,
-      "company_count": 29,
+      "company_count": 30,
       "country_count": 12,
       "industry_count": 1,
       "high_intensity_event_count": 11
@@ -4502,6 +4502,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-10-02",
+          "company": "Anchorage Digital",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.17,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/"
+        },
         {
           "date": "2026-09-11",
           "company": "Bitcoin Suisse",
@@ -4641,20 +4651,10 @@
           "country": "Germany",
           "stage": "Unknown",
           "source": "https://x.com/gluk64/status/2066964567884747146"
-        },
-        {
-          "date": "2026-05-15",
-          "company": "Kraken",
-          "num_laid_off": 150,
-          "percentage_laid_off": null,
-          "industry": "Crypto",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
         }
       ]
     },
-    "summary": "Crypto has 1,547 reported tech layoffs across 31 public events from 2025-02-05 to 2026-09-11."
+    "summary": "Crypto has 1,547 reported tech layoffs across 32 public events from 2025-02-05 to 2026-10-02."
   },
   {
     "type": "industry",

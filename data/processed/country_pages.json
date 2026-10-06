@@ -7,13 +7,13 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-30"
+      "end": "2026-10-02"
     },
     "kpis": {
-      "total_laid_off": 207990,
-      "event_count": 402,
-      "headcount_event_count": 264,
-      "company_count": 300,
+      "total_laid_off": 208193,
+      "event_count": 403,
+      "headcount_event_count": 265,
+      "company_count": 301,
       "country_count": 1,
       "industry_count": 30,
       "high_intensity_event_count": 61
@@ -90,7 +90,7 @@
         },
         {
           "month": "2026-06",
-          "total_laid_off": 24446
+          "total_laid_off": 24649
         },
         {
           "month": "2026-07",
@@ -151,6 +151,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-10-02",
+          "company": "Anchorage Digital",
+          "num_laid_off": null,
+          "percentage_laid_off": 0.17,
+          "industry": "Crypto",
+          "country": "United States",
+          "stage": "Series D",
+          "source": "https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/"
+        },
+        {
           "date": "2026-09-30",
           "company": "Blaize",
           "num_laid_off": null,
@@ -182,16 +192,6 @@
         },
         {
           "date": "2026-09-22",
-          "company": "Expedia",
-          "num_laid_off": 58,
-          "percentage_laid_off": null,
-          "industry": "Travel",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
-        },
-        {
-          "date": "2026-09-22",
           "company": "Microsoft",
           "num_laid_off": 500,
           "percentage_laid_off": null,
@@ -199,6 +199,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+        },
+        {
+          "date": "2026-09-22",
+          "company": "Expedia",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Travel",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
         },
         {
           "date": "2026-09-21",
@@ -282,16 +292,6 @@
         },
         {
           "date": "2026-09-02",
-          "company": "Uber",
-          "num_laid_off": 3300,
-          "percentage_laid_off": 0.1,
-          "industry": "Transportation",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
-        },
-        {
-          "date": "2026-09-02",
           "company": "Bizzabo",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -302,7 +302,7 @@
         }
       ]
     },
-    "summary": "United States has 207,990 reported tech layoffs across 402 public events from 2025-01-02 to 2026-09-30."
+    "summary": "United States has 208,193 reported tech layoffs across 403 public events from 2025-01-02 to 2026-10-02."
   },
   {
     "type": "country",

@@ -6,17 +6,17 @@
     "start": "2026-04-01",
     "end": "2026-06-30"
   },
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-02",
   "canonical_url": "/reports/quarterly/2026-Q2.html",
   "kpis": {
-    "total_laid_off": 55787,
+    "total_laid_off": 55990,
     "event_count": 135,
-    "headcount_event_count": 87,
+    "headcount_event_count": 88,
     "company_count": 133,
     "country_count": 21,
     "industry_count": 26,
-    "average_layoffs_per_headcount_event": 641.23,
-    "median_layoffs_per_headcount_event": 111.0,
+    "average_layoffs_per_headcount_event": 636.25,
+    "median_layoffs_per_headcount_event": 114.0,
     "high_intensity_event_count": 23
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-Q1",
       "total_laid_off": 53230,
       "event_count": 96,
-      "total_laid_off_delta": 2557,
-      "total_laid_off_pct_change": 0.048,
+      "total_laid_off_delta": 2760,
+      "total_laid_off_pct_change": 0.0519,
       "event_count_delta": 39,
       "event_count_pct_change": 0.4062,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-Q2",
       "total_laid_off": 37403,
       "event_count": 71,
-      "total_laid_off_delta": 18384,
-      "total_laid_off_pct_change": 0.4915,
+      "total_laid_off_delta": 18587,
+      "total_laid_off_pct_change": 0.4969,
       "event_count_delta": 64,
       "event_count_pct_change": 0.9014,
       "note": null
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 1854
+        "total_laid_off": 2057
       },
       {
         "industry": "Transportation",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 49168
+        "total_laid_off": 49371
       },
       {
         "country": "Israel",
@@ -198,16 +198,16 @@
         "total_laid_off": 458
       },
       {
+        "stage": "Series F",
+        "total_laid_off": 383
+      },
+      {
         "stage": "Series C",
         "total_laid_off": 357
       },
       {
         "stage": "Private Equity",
         "total_laid_off": 218
-      },
-      {
-        "stage": "Series F",
-        "total_laid_off": 180
       }
     ],
     "layoff_pct_distribution": [
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 28
+        "event_count": 29
       },
       {
         "bucket": "25-49%",
@@ -459,6 +459,16 @@
       },
       {
         "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": 203,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
+      },
+      {
+        "date": "2026-06-24",
         "company": "Cyberbit",
         "num_laid_off": null,
         "percentage_laid_off": null,
@@ -476,16 +486,6 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
-      },
-      {
-        "date": "2026-06-24",
-        "company": "Snyk",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
       },
       {
         "date": "2026-06-23",
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026-Q2 includes 135 public layoff events and 55,787 reported layoffs.",
+    "2026-Q2 includes 135 public layoff events and 55,990 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Consumer with 10,209 reported layoffs.",
     "23 events report a layoff percentage of 25% or higher."

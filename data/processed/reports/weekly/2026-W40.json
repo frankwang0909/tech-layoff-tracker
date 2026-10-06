@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-09-29",
-    "end": "2026-09-30"
+    "end": "2026-10-02"
   },
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-02",
   "canonical_url": "/reports/weekly/2026-W40.html",
   "kpis": {
     "total_laid_off": 525,
-    "event_count": 2,
+    "event_count": 3,
     "headcount_event_count": 1,
-    "company_count": 2,
+    "company_count": 3,
     "country_count": 1,
-    "industry_count": 2,
+    "industry_count": 3,
     "average_layoffs_per_headcount_event": 525.0,
     "median_layoffs_per_headcount_event": 525.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 5,
       "total_laid_off_delta": -181,
       "total_laid_off_pct_change": -0.2564,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.6,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.4,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": -325,
       "total_laid_off_pct_change": -0.3824,
-      "event_count_delta": -3,
-      "event_count_pct_change": -0.6,
+      "event_count_delta": -2,
+      "event_count_pct_change": -0.4,
       "note": null
     }
   },
@@ -104,6 +104,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-10-02",
+        "company": "Anchorage Digital",
+        "num_laid_off": null,
+        "percentage_laid_off": 0.17,
+        "industry": "Crypto",
+        "country": "United States",
+        "stage": "Series D",
+        "source": "https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/"
+      },
+      {
         "date": "2026-09-30",
         "company": "Blaize",
         "num_laid_off": null,
@@ -138,7 +148,7 @@
     ]
   },
   "insights": [
-    "2026-W40 includes 2 public layoff events and 525 reported layoffs.",
+    "2026-W40 includes 3 public layoff events and 525 reported layoffs.",
     "The largest company contributor is Workday with 525 reported layoffs.",
     "The leading named industry is HR with 525 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

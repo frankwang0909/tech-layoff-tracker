@@ -6,16 +6,16 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-02",
   "canonical_url": "/reports/monthly/2026-06.html",
   "kpis": {
-    "total_laid_off": 26460,
+    "total_laid_off": 26663,
     "event_count": 50,
-    "headcount_event_count": 29,
+    "headcount_event_count": 30,
     "company_count": 50,
     "country_count": 11,
     "industry_count": 24,
-    "average_layoffs_per_headcount_event": 912.41,
+    "average_layoffs_per_headcount_event": 888.77,
     "median_layoffs_per_headcount_event": 100.0,
     "high_intensity_event_count": 7
   },
@@ -24,8 +24,8 @@
       "period": "2026-05",
       "total_laid_off": 24242,
       "event_count": 49,
-      "total_laid_off_delta": 2218,
-      "total_laid_off_pct_change": 0.0915,
+      "total_laid_off_delta": 2421,
+      "total_laid_off_pct_change": 0.0999,
       "event_count_delta": 1,
       "event_count_pct_change": 0.0204,
       "note": null
@@ -34,8 +34,8 @@
       "period": "2025-06",
       "total_laid_off": 1606,
       "event_count": 16,
-      "total_laid_off_delta": 24854,
-      "total_laid_off_pct_change": 15.4757,
+      "total_laid_off_delta": 25057,
+      "total_laid_off_pct_change": 15.6021,
       "event_count_delta": 34,
       "event_count_pct_change": 2.125,
       "note": null
@@ -52,11 +52,11 @@
         "total_laid_off": 1500
       },
       {
-        "company": "Paytm",
+        "company": "Lastminute",
         "total_laid_off": 400
       },
       {
-        "company": "Lastminute",
+        "company": "Paytm",
         "total_laid_off": 400
       },
       {
@@ -80,8 +80,8 @@
         "total_laid_off": 250
       },
       {
-        "company": "Artlist",
-        "total_laid_off": 200
+        "company": "Snyk",
+        "total_laid_off": 203
       }
     ],
     "industry_top": [
@@ -118,18 +118,18 @@
         "total_laid_off": 300
       },
       {
-        "industry": "Real Estate",
-        "total_laid_off": 250
+        "industry": "Security",
+        "total_laid_off": 283
       },
       {
-        "industry": "Healthcare",
-        "total_laid_off": 218
+        "industry": "Real Estate",
+        "total_laid_off": 250
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 24446
+        "total_laid_off": 24649
       },
       {
         "country": "India",
@@ -174,6 +174,10 @@
         "total_laid_off": 372
       },
       {
+        "stage": "Series F",
+        "total_laid_off": 273
+      },
+      {
         "stage": "Series C",
         "total_laid_off": 239
       },
@@ -182,20 +186,16 @@
         "total_laid_off": 235
       },
       {
-        "stage": "Series A",
+        "stage": "Series B",
         "total_laid_off": 100
       },
       {
-        "stage": "Series B",
+        "stage": "Series A",
         "total_laid_off": 100
       },
       {
         "stage": "Series E",
         "total_laid_off": 100
-      },
-      {
-        "stage": "Series F",
-        "total_laid_off": 70
       }
     ],
     "layoff_pct_distribution": [
@@ -205,7 +205,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 8
+        "event_count": 9
       },
       {
         "bucket": "25-49%",
@@ -314,14 +314,14 @@
         "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
       },
       {
-        "date": "2026-06-16",
-        "company": "Artlist",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.4,
-        "industry": "Media",
-        "country": "Israel",
-        "stage": "Unknown",
-        "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": 203,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
       }
     ],
     "recent_events": [
@@ -447,13 +447,23 @@
       },
       {
         "date": "2026-06-24",
-        "company": "Snyk",
+        "company": "Elastic",
         "num_laid_off": null,
-        "percentage_laid_off": null,
+        "percentage_laid_off": 0.07,
+        "industry": "Data",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+      },
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": 203,
+        "percentage_laid_off": 0.2,
         "industry": "Security",
         "country": "United States",
         "stage": "Series F",
-        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+        "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
       },
       {
         "date": "2026-06-24",
@@ -464,16 +474,6 @@
         "country": "Israel",
         "stage": "Unknown",
         "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
-      },
-      {
-        "date": "2026-06-24",
-        "company": "Elastic",
-        "num_laid_off": null,
-        "percentage_laid_off": 0.07,
-        "industry": "Data",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
       },
       {
         "date": "2026-06-23",
@@ -600,7 +600,7 @@
     ]
   },
   "insights": [
-    "2026-06 includes 50 public layoff events and 26,460 reported layoffs.",
+    "2026-06 includes 50 public layoff events and 26,663 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Transportation with 1,600 reported layoffs.",
     "7 events report a layoff percentage of 25% or higher."

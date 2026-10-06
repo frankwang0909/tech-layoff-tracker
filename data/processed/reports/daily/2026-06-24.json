@@ -6,17 +6,17 @@
     "start": "2026-06-24",
     "end": "2026-06-24"
   },
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-02",
   "canonical_url": "/reports/daily/2026-06-24.html",
   "kpis": {
-    "total_laid_off": 0,
+    "total_laid_off": 203,
     "event_count": 3,
-    "headcount_event_count": 0,
+    "headcount_event_count": 1,
     "company_count": 3,
     "country_count": 2,
     "industry_count": 2,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "average_layoffs_per_headcount_event": 203.0,
+    "median_layoffs_per_headcount_event": 203.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,8 +24,8 @@
       "period": "2026-06-23",
       "total_laid_off": 21054,
       "event_count": 3,
-      "total_laid_off_delta": -21054,
-      "total_laid_off_pct_change": -1.0,
+      "total_laid_off_delta": -20851,
+      "total_laid_off_pct_change": -0.9904,
       "event_count_delta": 0,
       "event_count_pct_change": 0.0,
       "note": null
@@ -34,18 +34,38 @@
       "period": "2025-06-24",
       "total_laid_off": 75,
       "event_count": 4,
-      "total_laid_off_delta": -75,
-      "total_laid_off_pct_change": -1.0,
+      "total_laid_off_delta": 128,
+      "total_laid_off_pct_change": 1.7067,
       "event_count_delta": -1,
       "event_count_pct_change": -0.25,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Snyk",
+        "total_laid_off": 203
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Security",
+        "total_laid_off": 203
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 203
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Series F",
+        "total_laid_off": 203
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
@@ -53,7 +73,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "25-49%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": 203,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-06-24",
+        "company": "Snyk",
+        "num_laid_off": 203,
+        "percentage_laid_off": 0.2,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series F",
+        "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
+      },
       {
         "date": "2026-06-24",
         "company": "Cyberbit",
@@ -91,22 +132,14 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
-      },
-      {
-        "date": "2026-06-24",
-        "company": "Snyk",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Security",
-        "country": "United States",
-        "stage": "Series F",
-        "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-06-24 includes 3 public layoff events and 0 reported layoffs."
+    "2026-06-24 includes 3 public layoff events and 203 reported layoffs.",
+    "The largest company contributor is Snyk with 203 reported layoffs.",
+    "The leading named industry is Security with 203 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

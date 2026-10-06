@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-02",
+    "company": "Anchorage Digital",
+    "num_laid_off": null,
+    "percentage_laid_off": 0.17,
+    "industry": "Crypto",
+    "country": "United States",
+    "stage": "Series D",
+    "source": "https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/"
+  },
+  {
     "date": "2026-09-30",
     "company": "Blaize",
     "num_laid_off": null,
@@ -108,15 +118,5 @@
     "country": "United States",
     "stage": "Series B",
     "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
-  },
-  {
-    "date": "2026-09-14",
-    "company": "Oracle",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Other",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
   }
 ]

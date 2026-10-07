@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-06",
+    "company": "Hubspot",
+    "num_laid_off": 660,
+    "percentage_laid_off": 0.07,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.hubspot.com/company-news/company-update"
+  },
+  {
     "date": "2026-10-02",
     "company": "Anchorage Digital",
     "num_laid_off": null,
@@ -91,16 +101,6 @@
   },
   {
     "date": "2026-09-17",
-    "company": "Trustly",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "Sweden",
-    "stage": "Acquired",
-    "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
-  },
-  {
-    "date": "2026-09-17",
     "company": "Bluevine",
     "num_laid_off": 80,
     "percentage_laid_off": null,
@@ -110,13 +110,13 @@
     "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
   },
   {
-    "date": "2026-09-15",
-    "company": "Pulley",
-    "num_laid_off": null,
-    "percentage_laid_off": 1.0,
+    "date": "2026-09-17",
+    "company": "Trustly",
+    "num_laid_off": 200,
+    "percentage_laid_off": null,
     "industry": "Finance",
-    "country": "United States",
-    "stage": "Series B",
-    "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+    "country": "Sweden",
+    "stage": "Acquired",
+    "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
   }
 ]

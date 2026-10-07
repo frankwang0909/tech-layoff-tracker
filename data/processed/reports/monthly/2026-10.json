@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-10-02",
-    "end": "2026-10-02"
+    "end": "2026-10-06"
   },
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-06",
   "canonical_url": "/reports/monthly/2026-10.html",
   "kpis": {
-    "total_laid_off": 0,
-    "event_count": 1,
-    "headcount_event_count": 0,
-    "company_count": 1,
+    "total_laid_off": 660,
+    "event_count": 2,
+    "headcount_event_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
-    "average_layoffs_per_headcount_event": null,
-    "median_layoffs_per_headcount_event": null,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 660.0,
+    "median_layoffs_per_headcount_event": 660.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,32 +24,52 @@
       "period": "2026-09",
       "total_laid_off": 6947,
       "event_count": 31,
-      "total_laid_off_delta": -6947,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -30,
-      "event_count_pct_change": -0.9677,
+      "total_laid_off_delta": -6287,
+      "total_laid_off_pct_change": -0.905,
+      "event_count_delta": -29,
+      "event_count_pct_change": -0.9355,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-10",
       "total_laid_off": 19240,
       "event_count": 25,
-      "total_laid_off_delta": -19240,
-      "total_laid_off_pct_change": -1.0,
-      "event_count_delta": -24,
-      "event_count_pct_change": -0.96,
+      "total_laid_off_delta": -18580,
+      "total_laid_off_pct_change": -0.9657,
+      "event_count_delta": -23,
+      "event_count_pct_change": -0.92,
       "note": null
     }
   },
   "charts": {
-    "company_top": [],
-    "industry_top": [],
-    "country_top": [],
-    "stage_top": [],
+    "company_top": [
+      {
+        "company": "Hubspot",
+        "total_laid_off": 660
+      }
+    ],
+    "industry_top": [
+      {
+        "industry": "Marketing",
+        "total_laid_off": 660
+      }
+    ],
+    "country_top": [
+      {
+        "country": "United States",
+        "total_laid_off": 660
+      }
+    ],
+    "stage_top": [
+      {
+        "stage": "Post-IPO",
+        "total_laid_off": 660
+      }
+    ],
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 0
+        "event_count": 1
       },
       {
         "bucket": "10-24%",
@@ -70,8 +90,29 @@
     ]
   },
   "tables": {
-    "largest_events": [],
+    "largest_events": [
+      {
+        "date": "2026-10-06",
+        "company": "Hubspot",
+        "num_laid_off": 660,
+        "percentage_laid_off": 0.07,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.hubspot.com/company-news/company-update"
+      }
+    ],
     "recent_events": [
+      {
+        "date": "2026-10-06",
+        "company": "Hubspot",
+        "num_laid_off": 660,
+        "percentage_laid_off": 0.07,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.hubspot.com/company-news/company-update"
+      },
       {
         "date": "2026-10-02",
         "company": "Anchorage Digital",
@@ -86,7 +127,9 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-10 includes 1 public layoff events and 0 reported layoffs."
+    "2026-10 includes 2 public layoff events and 660 reported layoffs.",
+    "The largest company contributor is Hubspot with 660 reported layoffs.",
+    "The leading named industry is Marketing with 660 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

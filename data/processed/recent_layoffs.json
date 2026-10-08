@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-07",
+    "company": "Amazon",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "United States",
+    "stage": "Post-IPO",
+    "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+  },
+  {
     "date": "2026-10-06",
     "company": "Hubspot",
     "num_laid_off": 660,
@@ -38,6 +48,16 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+  },
+  {
+    "date": "2026-09-28",
+    "company": "Klaviyo",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Marketing",
+    "country": "United States",
+    "stage": "Unknown",
+    "source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html"
   },
   {
     "date": "2026-09-23",
@@ -98,25 +118,5 @@
     "country": "United States",
     "stage": "Series E",
     "source": "https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/"
-  },
-  {
-    "date": "2026-09-17",
-    "company": "Bluevine",
-    "num_laid_off": 80,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "India",
-    "stage": "Unknown",
-    "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
-  },
-  {
-    "date": "2026-09-17",
-    "company": "Trustly",
-    "num_laid_off": 200,
-    "percentage_laid_off": null,
-    "industry": "Finance",
-    "country": "Sweden",
-    "stage": "Acquired",
-    "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
   }
 ]

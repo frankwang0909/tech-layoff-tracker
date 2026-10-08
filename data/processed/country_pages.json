@@ -7,11 +7,11 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-10-06"
+      "end": "2026-10-07"
     },
     "kpis": {
       "total_laid_off": 208853,
-      "event_count": 404,
+      "event_count": 406,
       "headcount_event_count": 266,
       "company_count": 302,
       "country_count": 1,
@@ -155,6 +155,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-10-07",
+          "company": "Amazon",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+        },
+        {
           "date": "2026-10-06",
           "company": "Hubspot",
           "num_laid_off": 660,
@@ -195,6 +205,16 @@
           "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
         },
         {
+          "date": "2026-09-28",
+          "company": "Klaviyo",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Marketing",
+          "country": "United States",
+          "stage": "Unknown",
+          "source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html"
+        },
+        {
           "date": "2026-09-23",
           "company": "Intel",
           "num_laid_off": 52,
@@ -206,16 +226,6 @@
         },
         {
           "date": "2026-09-22",
-          "company": "Expedia",
-          "num_laid_off": 58,
-          "percentage_laid_off": null,
-          "industry": "Travel",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
-        },
-        {
-          "date": "2026-09-22",
           "company": "Microsoft",
           "num_laid_off": 500,
           "percentage_laid_off": null,
@@ -223,6 +233,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
+        },
+        {
+          "date": "2026-09-22",
+          "company": "Expedia",
+          "num_laid_off": 58,
+          "percentage_laid_off": null,
+          "industry": "Travel",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
         },
         {
           "date": "2026-09-21",
@@ -276,26 +296,6 @@
         },
         {
           "date": "2026-09-03",
-          "company": "PayPal",
-          "num_laid_off": 251,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
-        },
-        {
-          "date": "2026-09-03",
-          "company": "Zscaler",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.03,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
-        },
-        {
-          "date": "2026-09-03",
           "company": "The Trade Desk",
           "num_laid_off": 585,
           "percentage_laid_off": 0.15,
@@ -306,7 +306,7 @@
         }
       ]
     },
-    "summary": "United States has 208,853 reported tech layoffs across 404 public events from 2025-01-02 to 2026-10-06."
+    "summary": "United States has 208,853 reported tech layoffs across 406 public events from 2025-01-02 to 2026-10-07."
   },
   {
     "type": "country",
@@ -2216,16 +2216,16 @@
     "canonical_url": "/countries/kenya.html",
     "date_range": {
       "start": "2026-04-16",
-      "end": "2026-04-16"
+      "end": "2026-09-14"
     },
     "kpis": {
       "total_laid_off": 1108,
-      "event_count": 1,
+      "event_count": 2,
       "headcount_event_count": 1,
-      "company_count": 1,
+      "company_count": 2,
       "country_count": 1,
-      "industry_count": 1,
-      "high_intensity_event_count": 0
+      "industry_count": 2,
+      "high_intensity_event_count": 1
     },
     "charts": {
       "monthly_trend": [
@@ -2244,6 +2244,16 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-09-14",
+          "company": "Twiga",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "Food",
+          "country": "Kenya",
+          "stage": "Series C",
+          "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
+        },
+        {
           "date": "2026-04-16",
           "company": "Sama",
           "num_laid_off": 1108,
@@ -2255,7 +2265,7 @@
         }
       ]
     },
-    "summary": "Kenya has 1,108 reported tech layoffs across 1 public events from 2026-04-16 to 2026-04-16."
+    "summary": "Kenya has 1,108 reported tech layoffs across 2 public events from 2026-04-16 to 2026-09-14."
   },
   {
     "type": "country",

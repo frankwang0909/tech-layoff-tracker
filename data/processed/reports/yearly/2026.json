@@ -4,20 +4,20 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-10-06"
+    "end": "2026-10-07"
   },
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
     "total_laid_off": 131382,
-    "event_count": 353,
+    "event_count": 356,
     "headcount_event_count": 227,
-    "company_count": 314,
+    "company_count": 316,
     "country_count": 31,
     "industry_count": 29,
     "average_layoffs_per_headcount_event": 578.78,
     "median_layoffs_per_headcount_event": 128.0,
-    "high_intensity_event_count": 73
+    "high_intensity_event_count": 74
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 333,
       "total_laid_off_delta": 8776,
       "total_laid_off_pct_change": 0.0716,
-      "event_count_delta": 20,
-      "event_count_pct_change": 0.0601,
+      "event_count_delta": 23,
+      "event_count_pct_change": 0.0691,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 333,
       "total_laid_off_delta": 8776,
       "total_laid_off_pct_change": 0.0716,
-      "event_count_delta": 20,
-      "event_count_pct_change": 0.0601,
+      "event_count_delta": 23,
+      "event_count_pct_change": 0.0691,
       "note": null
     }
   },
@@ -338,6 +338,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-10-07",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+      },
+      {
         "date": "2026-10-06",
         "company": "Hubspot",
         "num_laid_off": 660,
@@ -376,6 +386,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      },
+      {
+        "date": "2026-09-28",
+        "company": "Klaviyo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html"
       },
       {
         "date": "2026-09-23",
@@ -478,6 +498,16 @@
         "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
       },
       {
+        "date": "2026-09-14",
+        "company": "Twiga",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Kenya",
+        "stage": "Series C",
+        "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
+      },
+      {
         "date": "2026-09-11",
         "company": "Bitcoin Suisse",
         "num_laid_off": 60,
@@ -506,36 +536,6 @@
         "country": "United States",
         "stage": "Acquired",
         "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
-      },
-      {
-        "date": "2026-09-08",
-        "company": "Neo Financial",
-        "num_laid_off": 102,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "Canada",
-        "stage": "Series D",
-        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
-      },
-      {
-        "date": "2026-09-08",
-        "company": "Samsung",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Hardware",
-        "country": "India",
-        "stage": "Post-IPO",
-        "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
-      },
-      {
-        "date": "2026-09-07",
-        "company": "Harrison.ai",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Healthcare",
-        "country": "Australia",
-        "stage": "Series C",
-        "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+      },
+      {
+        "date": "2026-09-14",
+        "company": "Twiga",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Kenya",
+        "stage": "Series C",
+        "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
       },
       {
         "date": "2026-08-24",
@@ -628,24 +638,14 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
-      },
-      {
-        "date": "2026-06-26",
-        "company": "JiviAI",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Healthcare",
-        "country": "India",
-        "stage": "Seed",
-        "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
       }
     ]
   },
   "insights": [
-    "2026 includes 353 public layoff events and 131,382 reported layoffs.",
+    "2026 includes 356 public layoff events and 131,382 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
-    "73 events report a layoff percentage of 25% or higher."
+    "74 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

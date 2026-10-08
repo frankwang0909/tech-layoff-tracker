@@ -3,18 +3,18 @@
   "period": "2026-W40",
   "status": "final",
   "date_range": {
-    "start": "2026-09-29",
+    "start": "2026-09-28",
     "end": "2026-10-02"
   },
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "canonical_url": "/reports/weekly/2026-W40.html",
   "kpis": {
     "total_laid_off": 525,
-    "event_count": 3,
+    "event_count": 4,
     "headcount_event_count": 1,
-    "company_count": 3,
+    "company_count": 4,
     "country_count": 1,
-    "industry_count": 3,
+    "industry_count": 4,
     "average_layoffs_per_headcount_event": 525.0,
     "median_layoffs_per_headcount_event": 525.0,
     "high_intensity_event_count": 1
@@ -26,8 +26,8 @@
       "event_count": 5,
       "total_laid_off_delta": -181,
       "total_laid_off_pct_change": -0.2564,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.4,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.2,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 5,
       "total_laid_off_delta": -325,
       "total_laid_off_pct_change": -0.3824,
-      "event_count_delta": -2,
-      "event_count_pct_change": -0.4,
+      "event_count_delta": -1,
+      "event_count_pct_change": -0.2,
       "note": null
     }
   },
@@ -132,6 +132,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
+      },
+      {
+        "date": "2026-09-28",
+        "company": "Klaviyo",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html"
       }
     ],
     "high_intensity_events": [
@@ -148,7 +158,7 @@
     ]
   },
   "insights": [
-    "2026-W40 includes 3 public layoff events and 525 reported layoffs.",
+    "2026-W40 includes 4 public layoff events and 525 reported layoffs.",
     "The largest company contributor is Workday with 525 reported layoffs.",
     "The leading named industry is HR with 525 reported layoffs.",
     "1 events report a layoff percentage of 25% or higher."

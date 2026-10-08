@@ -4,17 +4,17 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-10-06",
-    "end": "2026-10-06"
+    "end": "2026-10-07"
   },
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "canonical_url": "/reports/weekly/2026-W41.html",
   "kpis": {
     "total_laid_off": 660,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 1,
-    "company_count": 1,
+    "company_count": 2,
     "country_count": 1,
-    "industry_count": 1,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": 660.0,
     "median_layoffs_per_headcount_event": 660.0,
     "high_intensity_event_count": 0
@@ -23,11 +23,11 @@
     "previous_period": {
       "period": "2026-W40",
       "total_laid_off": 525,
-      "event_count": 3,
+      "event_count": 4,
       "total_laid_off_delta": 135,
       "total_laid_off_pct_change": 0.2571,
       "event_count_delta": -2,
-      "event_count_pct_change": -0.6667,
+      "event_count_pct_change": -0.5,
       "note": null
     },
     "same_period_last_year": {
@@ -104,6 +104,16 @@
     ],
     "recent_events": [
       {
+        "date": "2026-10-07",
+        "company": "Amazon",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "United States",
+        "stage": "Post-IPO",
+        "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+      },
+      {
         "date": "2026-10-06",
         "company": "Hubspot",
         "num_laid_off": 660,
@@ -117,7 +127,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W41 includes 1 public layoff events and 660 reported layoffs.",
+    "2026-W41 includes 2 public layoff events and 660 reported layoffs.",
     "The largest company contributor is Hubspot with 660 reported layoffs.",
     "The leading named industry is Marketing with 660 reported layoffs."
   ],

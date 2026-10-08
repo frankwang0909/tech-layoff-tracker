@@ -1,8 +1,10 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Amazon,Seattle,,2026-10-07,,Retail,https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division,Post-IPO,8100.0,United States,2026-10-08T04:08:06.000Z
 Hubspot,Boston,660.0,2026-10-06,0.07,Marketing,https://www.hubspot.com/company-news/company-update,Post-IPO,100.0,United States,2026-10-06T20:10:38.000Z
 Anchorage Digital,SF Bay Area,,2026-10-02,0.17,Crypto,https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/,Series D,487.0,United States,2026-10-06T00:14:30.000Z
 Blaize,SF Bay Area,,2026-09-30,0.26,AI,https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/,Post-IPO,307.0,United States,2026-10-01T03:40:46.000Z
 Workday,SF Bay Area,525.0,2026-09-29,0.025,HR,https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team,Post-IPO,230.0,United States,2026-10-01T03:35:52.000Z
+Klaviyo,Boston,,2026-09-28,,Marketing,https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html,Unknown,778.0,United States,2026-10-07T15:49:51.000Z
 Thinkific,"Vancouver, Non-U.S.",96.0,2026-09-23,,Education,https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow,Post-IPO,22.0,Canada,2026-09-24T02:30:21.000Z
 Intel,Sacramento,52.0,2026-09-23,,Hardware,https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/,Post-IPO,12.0,United States,2026-09-23T23:29:21.000Z
 Microsoft,Seattle,500.0,2026-09-22,,Other,https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9,Post-IPO,1.0,United States,2026-09-23T23:38:23.000Z
@@ -13,6 +15,7 @@ Trustly,"Stockholm, Non-U.S.",200.0,2026-09-17,,Finance,https://tech.eu/2026/09/
 Bluevine,"Bengaluru, Non-U.S.",80.0,2026-09-17,,Finance,https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279,Unknown,769.0,India,2026-09-17T17:47:40.000Z
 Pulley,SF Bay Area,,2026-09-15,1.0,Finance,https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9,Series B,50.0,United States,2026-09-16T21:06:36.000Z
 Oracle,SF Bay Area,,2026-09-14,,Other,https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9,Post-IPO,,United States,2026-09-16T21:16:50.000Z
+Twiga,"Nairobi, Non-U.S.",,2026-09-14,1.0,Food,https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/,Series C,157.0,Kenya,2026-10-08T04:06:38.000Z
 Bitcoin Suisse,"Zurich, Non-U.S.",60.0,2026-09-11,0.5,Crypto,https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/,Series A,,Switzerland,2026-09-14T16:53:23.000Z
 Booksy,"Warsaw, Non-U.S.",200.0,2026-09-10,0.2,Consumer,https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/,Series B,204.0,Poland,2026-09-14T16:51:07.000Z
 PhonePe,SF Bay Area,7.0,2026-09-10,,Finance,https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms,Acquired,3200.0,United States,2026-09-14T16:54:44.000Z

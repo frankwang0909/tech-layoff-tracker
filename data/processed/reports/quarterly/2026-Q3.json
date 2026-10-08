@@ -6,18 +6,18 @@
     "start": "2026-07-01",
     "end": "2026-09-30"
   },
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "canonical_url": "/reports/quarterly/2026-Q3.html",
   "kpis": {
     "total_laid_off": 21502,
-    "event_count": 120,
+    "event_count": 122,
     "headcount_event_count": 72,
-    "company_count": 105,
-    "country_count": 20,
+    "company_count": 107,
+    "country_count": 21,
     "industry_count": 27,
     "average_layoffs_per_headcount_event": 298.64,
     "median_layoffs_per_headcount_event": 124.5,
-    "high_intensity_event_count": 29
+    "high_intensity_event_count": 30
   },
   "comparisons": {
     "previous_period": {
@@ -26,8 +26,8 @@
       "event_count": 135,
       "total_laid_off_delta": -34488,
       "total_laid_off_pct_change": -0.616,
-      "event_count_delta": -15,
-      "event_count_pct_change": -0.1111,
+      "event_count_delta": -13,
+      "event_count_pct_change": -0.0963,
       "note": null
     },
     "same_period_last_year": {
@@ -36,8 +36,8 @@
       "event_count": 86,
       "total_laid_off_delta": -6052,
       "total_laid_off_pct_change": -0.2196,
-      "event_count_delta": 34,
-      "event_count_pct_change": 0.3953,
+      "event_count_delta": 36,
+      "event_count_pct_change": 0.4186,
       "note": null
     }
   },
@@ -358,14 +358,14 @@
         "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
       },
       {
-        "date": "2026-09-23",
-        "company": "Thinkific",
-        "num_laid_off": 96,
+        "date": "2026-09-28",
+        "company": "Klaviyo",
+        "num_laid_off": null,
         "percentage_laid_off": null,
-        "industry": "Education",
-        "country": "Canada",
-        "stage": "Post-IPO",
-        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
+        "industry": "Marketing",
+        "country": "United States",
+        "stage": "Unknown",
+        "source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html"
       },
       {
         "date": "2026-09-23",
@@ -376,6 +376,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
+      },
+      {
+        "date": "2026-09-23",
+        "company": "Thinkific",
+        "num_laid_off": 96,
+        "percentage_laid_off": null,
+        "industry": "Education",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
       },
       {
         "date": "2026-09-22",
@@ -458,6 +468,16 @@
         "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
       },
       {
+        "date": "2026-09-14",
+        "company": "Twiga",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Kenya",
+        "stage": "Series C",
+        "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
+      },
+      {
         "date": "2026-09-11",
         "company": "Bitcoin Suisse",
         "num_laid_off": 60,
@@ -489,16 +509,6 @@
       },
       {
         "date": "2026-09-08",
-        "company": "Neo Financial",
-        "num_laid_off": 102,
-        "percentage_laid_off": 0.1,
-        "industry": "Finance",
-        "country": "Canada",
-        "stage": "Series D",
-        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
-      },
-      {
-        "date": "2026-09-08",
         "company": "Samsung",
         "num_laid_off": 80,
         "percentage_laid_off": null,
@@ -506,6 +516,16 @@
         "country": "India",
         "stage": "Post-IPO",
         "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+      },
+      {
+        "date": "2026-09-08",
+        "company": "Neo Financial",
+        "num_laid_off": 102,
+        "percentage_laid_off": 0.1,
+        "industry": "Finance",
+        "country": "Canada",
+        "stage": "Series D",
+        "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
       },
       {
         "date": "2026-09-07",
@@ -516,26 +536,6 @@
         "country": "Australia",
         "stage": "Series C",
         "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
-      },
-      {
-        "date": "2026-09-06",
-        "company": "PayPal",
-        "num_laid_off": 70,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "Israel",
-        "stage": "Post-IPO",
-        "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
-      },
-      {
-        "date": "2026-09-03",
-        "company": "The Trade Desk",
-        "num_laid_off": 585,
-        "percentage_laid_off": 0.15,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
       }
     ],
     "high_intensity_events": [
@@ -548,6 +548,16 @@
         "country": "United States",
         "stage": "Series B",
         "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+      },
+      {
+        "date": "2026-09-14",
+        "company": "Twiga",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Kenya",
+        "stage": "Series C",
+        "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
       },
       {
         "date": "2026-09-03",
@@ -628,24 +638,14 @@
         "country": "Israel",
         "stage": "Series C",
         "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
-      },
-      {
-        "date": "2026-08-12",
-        "company": "Convictional",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Other",
-        "country": "Canada",
-        "stage": "Series B",
-        "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
       }
     ]
   },
   "insights": [
-    "2026-Q3 includes 120 public layoff events and 21,502 reported layoffs.",
+    "2026-Q3 includes 122 public layoff events and 21,502 reported layoffs.",
     "The largest company contributor is Microsoft with 5,300 reported layoffs.",
     "The leading named industry is Transportation with 3,621 reported layoffs.",
-    "29 events report a layoff percentage of 25% or higher."
+    "30 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

@@ -4,18 +4,18 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-10-07"
+    "end": "2026-10-08"
   },
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 131382,
-    "event_count": 356,
-    "headcount_event_count": 227,
-    "company_count": 316,
+    "total_laid_off": 131687,
+    "event_count": 359,
+    "headcount_event_count": 229,
+    "company_count": 319,
     "country_count": 31,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 578.78,
+    "average_layoffs_per_headcount_event": 575.05,
     "median_layoffs_per_headcount_event": 128.0,
     "high_intensity_event_count": 74
   },
@@ -24,20 +24,20 @@
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 8776,
-      "total_laid_off_pct_change": 0.0716,
-      "event_count_delta": 23,
-      "event_count_pct_change": 0.0691,
+      "total_laid_off_delta": 9081,
+      "total_laid_off_pct_change": 0.0741,
+      "event_count_delta": 26,
+      "event_count_pct_change": 0.0781,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 8776,
-      "total_laid_off_pct_change": 0.0716,
-      "event_count_delta": 23,
-      "event_count_pct_change": 0.0691,
+      "total_laid_off_delta": 9081,
+      "total_laid_off_pct_change": 0.0741,
+      "event_count_delta": 26,
+      "event_count_pct_change": 0.0781,
       "note": null
     }
   },
@@ -103,7 +103,7 @@
       },
       {
         "industry": "Finance",
-        "total_laid_off": 11257
+        "total_laid_off": 11292
       },
       {
         "industry": "Transportation",
@@ -115,7 +115,7 @@
       },
       {
         "industry": "Security",
-        "total_laid_off": 3281
+        "total_laid_off": 3551
       },
       {
         "industry": "Marketing",
@@ -129,7 +129,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 106097
+        "total_laid_off": 106367
       },
       {
         "country": "India",
@@ -137,7 +137,7 @@
       },
       {
         "country": "Israel",
-        "total_laid_off": 4611
+        "total_laid_off": 4646
       },
       {
         "country": "Australia",
@@ -195,7 +195,7 @@
       },
       {
         "stage": "Series E",
-        "total_laid_off": 1134
+        "total_laid_off": 1169
       },
       {
         "stage": "Series D",
@@ -217,7 +217,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 60
+        "event_count": 62
       },
       {
         "bucket": "25-49%",
@@ -338,6 +338,26 @@
     ],
     "recent_events": [
       {
+        "date": "2026-10-08",
+        "company": "Flock Safety",
+        "num_laid_off": 270,
+        "percentage_laid_off": 0.18,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series I",
+        "source": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+      },
+      {
+        "date": "2026-10-08",
+        "company": "HoneyBook",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.14,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/syg9pbhizx"
+      },
+      {
         "date": "2026-10-07",
         "company": "Amazon",
         "num_laid_off": null,
@@ -346,6 +366,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+      },
+      {
+        "date": "2026-10-07",
+        "company": "Hopper",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor"
       },
       {
         "date": "2026-10-06",
@@ -506,36 +536,6 @@
         "country": "Kenya",
         "stage": "Series C",
         "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
-      },
-      {
-        "date": "2026-09-11",
-        "company": "Bitcoin Suisse",
-        "num_laid_off": 60,
-        "percentage_laid_off": 0.5,
-        "industry": "Crypto",
-        "country": "Switzerland",
-        "stage": "Series A",
-        "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
-      },
-      {
-        "date": "2026-09-10",
-        "company": "Booksy",
-        "num_laid_off": 200,
-        "percentage_laid_off": 0.2,
-        "industry": "Consumer",
-        "country": "Poland",
-        "stage": "Series B",
-        "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
-      },
-      {
-        "date": "2026-09-10",
-        "company": "PhonePe",
-        "num_laid_off": 7,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Acquired",
-        "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
       }
     ],
     "high_intensity_events": [
@@ -642,7 +642,7 @@
     ]
   },
   "insights": [
-    "2026 includes 356 public layoff events and 131,382 reported layoffs.",
+    "2026 includes 359 public layoff events and 131,687 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
     "The leading named industry is Retail with 20,200 reported layoffs.",
     "74 events report a layoff percentage of 25% or higher."

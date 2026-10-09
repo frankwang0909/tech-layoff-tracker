@@ -1,37 +1,37 @@
 {
-  "report_type": "weekly",
-  "period": "2026-W41",
-  "status": "rolling",
+  "report_type": "daily",
+  "period": "2026-10-08",
+  "status": "final",
   "date_range": {
-    "start": "2026-10-06",
+    "start": "2026-10-08",
     "end": "2026-10-08"
   },
   "updated_at": "2026-10-08",
-  "canonical_url": "/reports/weekly/2026-W41.html",
+  "canonical_url": "/reports/daily/2026-10-08.html",
   "kpis": {
-    "total_laid_off": 965,
-    "event_count": 5,
-    "headcount_event_count": 3,
-    "company_count": 5,
-    "country_count": 3,
-    "industry_count": 5,
-    "average_layoffs_per_headcount_event": 321.67,
-    "median_layoffs_per_headcount_event": 270.0,
+    "total_laid_off": 305,
+    "event_count": 2,
+    "headcount_event_count": 2,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
+    "average_layoffs_per_headcount_event": 152.5,
+    "median_layoffs_per_headcount_event": 152.5,
     "high_intensity_event_count": 0
   },
   "comparisons": {
     "previous_period": {
-      "period": "2026-W40",
-      "total_laid_off": 525,
-      "event_count": 4,
-      "total_laid_off_delta": 440,
-      "total_laid_off_pct_change": 0.8381,
-      "event_count_delta": 1,
-      "event_count_pct_change": 0.25,
+      "period": "2026-10-07",
+      "total_laid_off": 0,
+      "event_count": 2,
+      "total_laid_off_delta": 305,
+      "total_laid_off_pct_change": null,
+      "event_count_delta": 0,
+      "event_count_pct_change": 0.0,
       "note": null
     },
     "same_period_last_year": {
-      "period": "2025-W41",
+      "period": "2025-10-08",
       "total_laid_off": null,
       "event_count": null,
       "total_laid_off_delta": null,
@@ -44,10 +44,6 @@
   "charts": {
     "company_top": [
       {
-        "company": "Hubspot",
-        "total_laid_off": 660
-      },
-      {
         "company": "Flock Safety",
         "total_laid_off": 270
       },
@@ -57,10 +53,6 @@
       }
     ],
     "industry_top": [
-      {
-        "industry": "Marketing",
-        "total_laid_off": 660
-      },
       {
         "industry": "Security",
         "total_laid_off": 270
@@ -73,7 +65,7 @@
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 930
+        "total_laid_off": 270
       },
       {
         "country": "Israel",
@@ -81,10 +73,6 @@
       }
     ],
     "stage_top": [
-      {
-        "stage": "Post-IPO",
-        "total_laid_off": 660
-      },
       {
         "stage": "Series I",
         "total_laid_off": 270
@@ -97,7 +85,7 @@
     "layoff_pct_distribution": [
       {
         "bucket": "<10%",
-        "event_count": 1
+        "event_count": 0
       },
       {
         "bucket": "10-24%",
@@ -119,16 +107,6 @@
   },
   "tables": {
     "largest_events": [
-      {
-        "date": "2026-10-06",
-        "company": "Hubspot",
-        "num_laid_off": 660,
-        "percentage_laid_off": 0.07,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.hubspot.com/company-news/company-update"
-      },
       {
         "date": "2026-10-08",
         "company": "Flock Safety",
@@ -170,44 +148,14 @@
         "country": "Israel",
         "stage": "Series E",
         "source": "https://www.calcalistech.com/ctechnews/article/syg9pbhizx"
-      },
-      {
-        "date": "2026-10-07",
-        "company": "Amazon",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Retail",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
-      },
-      {
-        "date": "2026-10-07",
-        "company": "Hopper",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Travel",
-        "country": "Canada",
-        "stage": "Unknown",
-        "source": "https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor"
-      },
-      {
-        "date": "2026-10-06",
-        "company": "Hubspot",
-        "num_laid_off": 660,
-        "percentage_laid_off": 0.07,
-        "industry": "Marketing",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.hubspot.com/company-news/company-update"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-W41 includes 5 public layoff events and 965 reported layoffs.",
-    "The largest company contributor is Hubspot with 660 reported layoffs.",
-    "The leading named industry is Marketing with 660 reported layoffs."
+    "2026-10-08 includes 2 public layoff events and 305 reported layoffs.",
+    "The largest company contributor is Flock Safety with 270 reported layoffs.",
+    "The leading named industry is Security with 270 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

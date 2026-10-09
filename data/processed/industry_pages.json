@@ -874,13 +874,13 @@
     "canonical_url": "/industries/finance.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-09-17"
+      "end": "2026-10-08"
     },
     "kpis": {
-      "total_laid_off": 15146,
-      "event_count": 70,
-      "headcount_event_count": 45,
-      "company_count": 60,
+      "total_laid_off": 15181,
+      "event_count": 71,
+      "headcount_event_count": 46,
+      "company_count": 61,
       "country_count": 12,
       "industry_count": 1,
       "high_intensity_event_count": 19
@@ -962,6 +962,10 @@
         {
           "month": "2026-09",
           "total_laid_off": 930
+        },
+        {
+          "month": "2026-10",
+          "total_laid_off": 35
         }
       ],
       "company_top": [
@@ -994,11 +998,11 @@
           "total_laid_off": 400
         },
         {
-          "company": "Stripe",
+          "company": "Wise",
           "total_laid_off": 300
         },
         {
-          "company": "Wise",
+          "company": "Stripe",
           "total_laid_off": 300
         },
         {
@@ -1009,6 +1013,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-10-08",
+          "company": "HoneyBook",
+          "num_laid_off": 35,
+          "percentage_laid_off": 0.14,
+          "industry": "Finance",
+          "country": "Israel",
+          "stage": "Series E",
+          "source": "https://www.calcalistech.com/ctechnews/article/syg9pbhizx"
+        },
         {
           "date": "2026-09-17",
           "company": "Trustly",
@@ -1148,20 +1162,10 @@
           "country": "India",
           "stage": "Unknown",
           "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
-        },
-        {
-          "date": "2026-06-16",
-          "company": "Robinhood",
-          "num_laid_off": 290,
-          "percentage_laid_off": 0.1,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
         }
       ]
     },
-    "summary": "Finance has 15,146 reported tech layoffs across 70 public events from 2025-01-02 to 2026-09-17."
+    "summary": "Finance has 15,181 reported tech layoffs across 71 public events from 2025-01-02 to 2026-10-08."
   },
   {
     "type": "industry",
@@ -1962,13 +1966,13 @@
     "canonical_url": "/industries/security.html",
     "date_range": {
       "start": "2025-01-07",
-      "end": "2026-09-03"
+      "end": "2026-10-08"
     },
     "kpis": {
-      "total_laid_off": 4919,
-      "event_count": 38,
-      "headcount_event_count": 29,
-      "company_count": 32,
+      "total_laid_off": 5189,
+      "event_count": 39,
+      "headcount_event_count": 30,
+      "company_count": 33,
       "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 6
@@ -2038,6 +2042,10 @@
         {
           "month": "2026-08",
           "total_laid_off": 373
+        },
+        {
+          "month": "2026-10",
+          "total_laid_off": 270
         }
       ],
       "company_top": [
@@ -2046,11 +2054,11 @@
           "total_laid_off": 1100
         },
         {
-          "company": "CrowdStrike",
+          "company": "Cyberark",
           "total_laid_off": 500
         },
         {
-          "company": "Cyberark",
+          "company": "CrowdStrike",
           "total_laid_off": 500
         },
         {
@@ -2066,6 +2074,10 @@
           "total_laid_off": 300
         },
         {
+          "company": "Flock Safety",
+          "total_laid_off": 270
+        },
+        {
           "company": "Arctic Wolf",
           "total_laid_off": 250
         },
@@ -2076,15 +2088,21 @@
         {
           "company": "Snyk",
           "total_laid_off": 203
-        },
-        {
-          "company": "Okta",
-          "total_laid_off": 180
         }
       ]
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-10-08",
+          "company": "Flock Safety",
+          "num_laid_off": 270,
+          "percentage_laid_off": 0.18,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series I",
+          "source": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+        },
         {
           "date": "2026-09-03",
           "company": "Zscaler",
@@ -2157,16 +2175,6 @@
         },
         {
           "date": "2026-06-24",
-          "company": "Snyk",
-          "num_laid_off": 203,
-          "percentage_laid_off": 0.2,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Series F",
-          "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
-        },
-        {
-          "date": "2026-06-24",
           "company": "Cyberbit",
           "num_laid_off": null,
           "percentage_laid_off": null,
@@ -2174,6 +2182,16 @@
           "country": "Israel",
           "stage": "Unknown",
           "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
+        },
+        {
+          "date": "2026-06-24",
+          "company": "Snyk",
+          "num_laid_off": 203,
+          "percentage_laid_off": 0.2,
+          "industry": "Security",
+          "country": "United States",
+          "stage": "Series F",
+          "source": "https://www.calcalistech.com/ctechnews/article/c48f8h988"
         },
         {
           "date": "2026-05-29",
@@ -2224,20 +2242,10 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://blog.cloudflare.com/building-for-the-future/"
-        },
-        {
-          "date": "2026-05-06",
-          "company": "Arctic Wolf",
-          "num_laid_off": 250,
-          "percentage_laid_off": 0.1,
-          "industry": "Security",
-          "country": "United States",
-          "stage": "Unknown",
-          "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
         }
       ]
     },
-    "summary": "Security has 4,919 reported tech layoffs across 38 public events from 2025-01-07 to 2026-09-03."
+    "summary": "Security has 5,189 reported tech layoffs across 39 public events from 2025-01-07 to 2026-10-08."
   },
   {
     "type": "industry",
@@ -5615,14 +5623,14 @@
     "canonical_url": "/industries/travel.html",
     "date_range": {
       "start": "2025-02-04",
-      "end": "2026-09-22"
+      "end": "2026-10-07"
     },
     "kpis": {
       "total_laid_off": 1103,
-      "event_count": 13,
+      "event_count": 14,
       "headcount_event_count": 7,
-      "company_count": 7,
-      "country_count": 4,
+      "company_count": 8,
+      "country_count": 5,
       "industry_count": 1,
       "high_intensity_event_count": 3
     },
@@ -5686,6 +5694,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-10-07",
+          "company": "Hopper",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Travel",
+          "country": "Canada",
+          "stage": "Unknown",
+          "source": "https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor"
+        },
         {
           "date": "2026-09-22",
           "company": "Expedia",
@@ -5818,7 +5836,7 @@
         }
       ]
     },
-    "summary": "Travel has 1,103 reported tech layoffs across 13 public events from 2025-02-04 to 2026-09-22."
+    "summary": "Travel has 1,103 reported tech layoffs across 14 public events from 2025-02-04 to 2026-10-07."
   },
   {
     "type": "industry",

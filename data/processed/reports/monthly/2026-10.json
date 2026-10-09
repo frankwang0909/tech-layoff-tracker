@@ -4,19 +4,19 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-10-02",
-    "end": "2026-10-07"
+    "end": "2026-10-08"
   },
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "canonical_url": "/reports/monthly/2026-10.html",
   "kpis": {
-    "total_laid_off": 660,
-    "event_count": 3,
-    "headcount_event_count": 1,
-    "company_count": 3,
-    "country_count": 1,
-    "industry_count": 3,
-    "average_layoffs_per_headcount_event": 660.0,
-    "median_layoffs_per_headcount_event": 660.0,
+    "total_laid_off": 965,
+    "event_count": 6,
+    "headcount_event_count": 3,
+    "company_count": 6,
+    "country_count": 3,
+    "industry_count": 6,
+    "average_layoffs_per_headcount_event": 321.67,
+    "median_layoffs_per_headcount_event": 270.0,
     "high_intensity_event_count": 0
   },
   "comparisons": {
@@ -24,20 +24,20 @@
       "period": "2026-09",
       "total_laid_off": 6947,
       "event_count": 33,
-      "total_laid_off_delta": -6287,
-      "total_laid_off_pct_change": -0.905,
-      "event_count_delta": -30,
-      "event_count_pct_change": -0.9091,
+      "total_laid_off_delta": -5982,
+      "total_laid_off_pct_change": -0.8611,
+      "event_count_delta": -27,
+      "event_count_pct_change": -0.8182,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-10",
       "total_laid_off": 19240,
       "event_count": 25,
-      "total_laid_off_delta": -18580,
-      "total_laid_off_pct_change": -0.9657,
-      "event_count_delta": -22,
-      "event_count_pct_change": -0.88,
+      "total_laid_off_delta": -18275,
+      "total_laid_off_pct_change": -0.9498,
+      "event_count_delta": -19,
+      "event_count_pct_change": -0.76,
       "note": null
     }
   },
@@ -46,24 +46,52 @@
       {
         "company": "Hubspot",
         "total_laid_off": 660
+      },
+      {
+        "company": "Flock Safety",
+        "total_laid_off": 270
+      },
+      {
+        "company": "HoneyBook",
+        "total_laid_off": 35
       }
     ],
     "industry_top": [
       {
         "industry": "Marketing",
         "total_laid_off": 660
+      },
+      {
+        "industry": "Security",
+        "total_laid_off": 270
+      },
+      {
+        "industry": "Finance",
+        "total_laid_off": 35
       }
     ],
     "country_top": [
       {
         "country": "United States",
-        "total_laid_off": 660
+        "total_laid_off": 930
+      },
+      {
+        "country": "Israel",
+        "total_laid_off": 35
       }
     ],
     "stage_top": [
       {
         "stage": "Post-IPO",
         "total_laid_off": 660
+      },
+      {
+        "stage": "Series I",
+        "total_laid_off": 270
+      },
+      {
+        "stage": "Series E",
+        "total_laid_off": 35
       }
     ],
     "layoff_pct_distribution": [
@@ -73,7 +101,7 @@
       },
       {
         "bucket": "10-24%",
-        "event_count": 0
+        "event_count": 2
       },
       {
         "bucket": "25-49%",
@@ -100,9 +128,49 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.hubspot.com/company-news/company-update"
+      },
+      {
+        "date": "2026-10-08",
+        "company": "Flock Safety",
+        "num_laid_off": 270,
+        "percentage_laid_off": 0.18,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series I",
+        "source": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+      },
+      {
+        "date": "2026-10-08",
+        "company": "HoneyBook",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.14,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/syg9pbhizx"
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-10-08",
+        "company": "Flock Safety",
+        "num_laid_off": 270,
+        "percentage_laid_off": 0.18,
+        "industry": "Security",
+        "country": "United States",
+        "stage": "Series I",
+        "source": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
+      },
+      {
+        "date": "2026-10-08",
+        "company": "HoneyBook",
+        "num_laid_off": 35,
+        "percentage_laid_off": 0.14,
+        "industry": "Finance",
+        "country": "Israel",
+        "stage": "Series E",
+        "source": "https://www.calcalistech.com/ctechnews/article/syg9pbhizx"
+      },
       {
         "date": "2026-10-07",
         "company": "Amazon",
@@ -112,6 +180,16 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+      },
+      {
+        "date": "2026-10-07",
+        "company": "Hopper",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor"
       },
       {
         "date": "2026-10-06",
@@ -137,7 +215,7 @@
     "high_intensity_events": []
   },
   "insights": [
-    "2026-10 includes 3 public layoff events and 660 reported layoffs.",
+    "2026-10 includes 6 public layoff events and 965 reported layoffs.",
     "The largest company contributor is Hubspot with 660 reported layoffs.",
     "The leading named industry is Marketing with 660 reported layoffs."
   ],

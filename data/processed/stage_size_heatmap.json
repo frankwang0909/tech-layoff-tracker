@@ -44,12 +44,12 @@
     {
       "stage": "Series D+",
       "size_bucket": "<100",
-      "event_count": 34
+      "event_count": 35
     },
     {
       "stage": "Series D+",
       "size_bucket": "100-499",
-      "event_count": 40
+      "event_count": 41
     },
     {
       "stage": "Series D+",

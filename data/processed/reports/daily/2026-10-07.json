@@ -6,15 +6,15 @@
     "start": "2026-10-07",
     "end": "2026-10-07"
   },
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "canonical_url": "/reports/daily/2026-10-07.html",
   "kpis": {
     "total_laid_off": 0,
-    "event_count": 1,
+    "event_count": 2,
     "headcount_event_count": 0,
-    "company_count": 1,
-    "country_count": 1,
-    "industry_count": 1,
+    "company_count": 2,
+    "country_count": 2,
+    "industry_count": 2,
     "average_layoffs_per_headcount_event": null,
     "median_layoffs_per_headcount_event": null,
     "high_intensity_event_count": 0
@@ -26,8 +26,8 @@
       "event_count": 1,
       "total_laid_off_delta": -660,
       "total_laid_off_pct_change": -1.0,
-      "event_count_delta": 0,
-      "event_count_pct_change": 0.0,
+      "event_count_delta": 1,
+      "event_count_pct_change": 1.0,
       "note": null
     },
     "same_period_last_year": {
@@ -81,12 +81,22 @@
         "country": "United States",
         "stage": "Post-IPO",
         "source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division"
+      },
+      {
+        "date": "2026-10-07",
+        "company": "Hopper",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Travel",
+        "country": "Canada",
+        "stage": "Unknown",
+        "source": "https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor"
       }
     ],
     "high_intensity_events": []
   },
   "insights": [
-    "2026-10-07 includes 1 public layoff events and 0 reported layoffs."
+    "2026-10-07 includes 2 public layoff events and 0 reported layoffs."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

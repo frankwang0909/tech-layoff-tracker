@@ -1,5 +1,8 @@
 ﻿company,location_hq,num_laid_off,date,percentage_laid_off,industry,source,stage,funds_raised_millions,country,date_added
+Flock Safety,Atlanta,270.0,2026-10-08,0.18,Security,https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/,Series I,1200.0,United States,2026-10-09T01:41:29.000Z
+HoneyBook,"Tel Aviv, Non-U.S.",35.0,2026-10-08,0.14,Finance,https://www.calcalistech.com/ctechnews/article/syg9pbhizx,Series E,498.0,Israel,2026-10-09T01:40:18.000Z
 Amazon,Seattle,,2026-10-07,,Retail,https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division,Post-IPO,8100.0,United States,2026-10-08T04:08:06.000Z
+Hopper,"Montreal, Non-U.S.",,2026-10-07,,Travel,https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor,Unknown,730.0,Canada,2026-10-08T20:19:40.000Z
 Hubspot,Boston,660.0,2026-10-06,0.07,Marketing,https://www.hubspot.com/company-news/company-update,Post-IPO,100.0,United States,2026-10-06T20:10:38.000Z
 Anchorage Digital,SF Bay Area,,2026-10-02,0.17,Crypto,https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/,Series D,487.0,United States,2026-10-06T00:14:30.000Z
 Blaize,SF Bay Area,,2026-09-30,0.26,AI,https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/,Post-IPO,307.0,United States,2026-10-01T03:40:46.000Z

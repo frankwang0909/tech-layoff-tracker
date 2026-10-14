@@ -7,16 +7,16 @@
     "canonical_url": "/countries/united-states.html",
     "date_range": {
       "start": "2025-01-02",
-      "end": "2026-10-08"
+      "end": "2026-10-13"
     },
     "kpis": {
       "total_laid_off": 209123,
-      "event_count": 407,
+      "event_count": 409,
       "headcount_event_count": 267,
-      "company_count": 303,
+      "company_count": 305,
       "country_count": 1,
       "industry_count": 30,
-      "high_intensity_event_count": 61
+      "high_intensity_event_count": 62
     },
     "charts": {
       "monthly_trend": [
@@ -155,6 +155,26 @@
     "tables": {
       "recent_events": [
         {
+          "date": "2026-10-13",
+          "company": "Character.AI",
+          "num_laid_off": null,
+          "percentage_laid_off": 1.0,
+          "industry": "AI",
+          "country": "United States",
+          "stage": "Series A",
+          "source": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+        },
+        {
+          "date": "2026-10-12",
+          "company": "Airtable",
+          "num_laid_off": null,
+          "percentage_laid_off": null,
+          "industry": "Product",
+          "country": "United States",
+          "stage": "Acquired",
+          "source": "https://x.com/fedesimio/status/2109713695165329511"
+        },
+        {
           "date": "2026-10-08",
           "company": "Flock Safety",
           "num_laid_off": 270,
@@ -236,16 +256,6 @@
         },
         {
           "date": "2026-09-22",
-          "company": "Microsoft",
-          "num_laid_off": 500,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
-        },
-        {
-          "date": "2026-09-22",
           "company": "Expedia",
           "num_laid_off": 58,
           "percentage_laid_off": null,
@@ -253,6 +263,16 @@
           "country": "United States",
           "stage": "Post-IPO",
           "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
+        },
+        {
+          "date": "2026-09-22",
+          "company": "Microsoft",
+          "num_laid_off": 500,
+          "percentage_laid_off": null,
+          "industry": "Other",
+          "country": "United States",
+          "stage": "Post-IPO",
+          "source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
         },
         {
           "date": "2026-09-21",
@@ -283,30 +303,10 @@
           "country": "United States",
           "stage": "Series B",
           "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
-        },
-        {
-          "date": "2026-09-14",
-          "company": "Oracle",
-          "num_laid_off": null,
-          "percentage_laid_off": null,
-          "industry": "Other",
-          "country": "United States",
-          "stage": "Post-IPO",
-          "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
-        },
-        {
-          "date": "2026-09-10",
-          "company": "PhonePe",
-          "num_laid_off": 7,
-          "percentage_laid_off": null,
-          "industry": "Finance",
-          "country": "United States",
-          "stage": "Acquired",
-          "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
         }
       ]
     },
-    "summary": "United States has 209,123 reported tech layoffs across 407 public events from 2025-01-02 to 2026-10-08."
+    "summary": "United States has 209,123 reported tech layoffs across 409 public events from 2025-01-02 to 2026-10-13."
   },
   {
     "type": "country",
@@ -1312,12 +1312,12 @@
     "canonical_url": "/countries/canada.html",
     "date_range": {
       "start": "2025-02-05",
-      "end": "2026-10-07"
+      "end": "2026-10-13"
     },
     "kpis": {
-      "total_laid_off": 3443,
-      "event_count": 27,
-      "headcount_event_count": 16,
+      "total_laid_off": 3693,
+      "event_count": 28,
+      "headcount_event_count": 17,
       "company_count": 21,
       "country_count": 1,
       "industry_count": 15,
@@ -1364,12 +1364,20 @@
         {
           "month": "2026-09",
           "total_laid_off": 198
+        },
+        {
+          "month": "2026-10",
+          "total_laid_off": 250
         }
       ],
       "company_top": [
         {
           "company": "OpenText",
           "total_laid_off": 2000
+        },
+        {
+          "company": "Lightspeed Commerce",
+          "total_laid_off": 350
         },
         {
           "company": "SSense",
@@ -1400,10 +1408,6 @@
           "total_laid_off": 102
         },
         {
-          "company": "Lightspeed Commerce",
-          "total_laid_off": 100
-        },
-        {
           "company": "Thinkific",
           "total_laid_off": 96
         }
@@ -1411,6 +1415,16 @@
     },
     "tables": {
       "recent_events": [
+        {
+          "date": "2026-10-13",
+          "company": "Lightspeed Commerce",
+          "num_laid_off": 250,
+          "percentage_laid_off": null,
+          "industry": "Retail",
+          "country": "Canada",
+          "stage": "Post-IPO",
+          "source": "https://www.theglobeandmail.com/business/article-montreal-software-lightspeed-job-cuts/"
+        },
         {
           "date": "2026-10-07",
           "company": "Hopper",
@@ -1550,20 +1564,10 @@
           "country": "Canada",
           "stage": "Series A",
           "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
-        },
-        {
-          "date": "2026-02-11",
-          "company": "Dayforce",
-          "num_laid_off": null,
-          "percentage_laid_off": 0.05,
-          "industry": "HR",
-          "country": "Canada",
-          "stage": "Post-IPO",
-          "source": "Internal memo"
         }
       ]
     },
-    "summary": "Canada has 3,443 reported tech layoffs across 27 public events from 2025-02-05 to 2026-10-07."
+    "summary": "Canada has 3,693 reported tech layoffs across 28 public events from 2025-02-05 to 2026-10-13."
   },
   {
     "type": "country",

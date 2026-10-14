@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-10-02",
-    "end": "2026-10-08"
+    "end": "2026-10-13"
   },
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-13",
   "canonical_url": "/reports/monthly/2026-10.html",
   "kpis": {
-    "total_laid_off": 965,
-    "event_count": 6,
-    "headcount_event_count": 3,
-    "company_count": 6,
-    "country_count": 3,
-    "industry_count": 6,
-    "average_layoffs_per_headcount_event": 321.67,
-    "median_layoffs_per_headcount_event": 270.0,
-    "high_intensity_event_count": 0
+    "total_laid_off": 1215,
+    "event_count": 10,
+    "headcount_event_count": 4,
+    "company_count": 10,
+    "country_count": 4,
+    "industry_count": 9,
+    "average_layoffs_per_headcount_event": 303.75,
+    "median_layoffs_per_headcount_event": 260.0,
+    "high_intensity_event_count": 2
   },
   "comparisons": {
     "previous_period": {
       "period": "2026-09",
       "total_laid_off": 6947,
       "event_count": 33,
-      "total_laid_off_delta": -5982,
-      "total_laid_off_pct_change": -0.8611,
-      "event_count_delta": -27,
-      "event_count_pct_change": -0.8182,
+      "total_laid_off_delta": -5732,
+      "total_laid_off_pct_change": -0.8251,
+      "event_count_delta": -23,
+      "event_count_pct_change": -0.697,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025-10",
       "total_laid_off": 19240,
       "event_count": 25,
-      "total_laid_off_delta": -18275,
-      "total_laid_off_pct_change": -0.9498,
-      "event_count_delta": -19,
-      "event_count_pct_change": -0.76,
+      "total_laid_off_delta": -18025,
+      "total_laid_off_pct_change": -0.9369,
+      "event_count_delta": -15,
+      "event_count_pct_change": -0.6,
       "note": null
     }
   },
@@ -50,6 +50,10 @@
       {
         "company": "Flock Safety",
         "total_laid_off": 270
+      },
+      {
+        "company": "Lightspeed Commerce",
+        "total_laid_off": 250
       },
       {
         "company": "HoneyBook",
@@ -66,6 +70,10 @@
         "total_laid_off": 270
       },
       {
+        "industry": "Retail",
+        "total_laid_off": 250
+      },
+      {
         "industry": "Finance",
         "total_laid_off": 35
       }
@@ -76,6 +84,10 @@
         "total_laid_off": 930
       },
       {
+        "country": "Canada",
+        "total_laid_off": 250
+      },
+      {
         "country": "Israel",
         "total_laid_off": 35
       }
@@ -83,7 +95,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 660
+        "total_laid_off": 910
       },
       {
         "stage": "Series I",
@@ -140,6 +152,16 @@
         "source": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/"
       },
       {
+        "date": "2026-10-13",
+        "company": "Lightspeed Commerce",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.theglobeandmail.com/business/article-montreal-software-lightspeed-job-cuts/"
+      },
+      {
         "date": "2026-10-08",
         "company": "HoneyBook",
         "num_laid_off": 35,
@@ -151,6 +173,46 @@
       }
     ],
     "recent_events": [
+      {
+        "date": "2026-10-13",
+        "company": "Lightspeed Commerce",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.theglobeandmail.com/business/article-montreal-software-lightspeed-job-cuts/"
+      },
+      {
+        "date": "2026-10-13",
+        "company": "Character.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+      },
+      {
+        "date": "2026-10-12",
+        "company": "Airtable",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://x.com/fedesimio/status/2109713695165329511"
+      },
+      {
+        "date": "2026-10-12",
+        "company": "YoLa Fresh",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Morocco",
+        "stage": "Seed",
+        "source": "https://www.techinafrica.com/moroccan-agritech-startup-yola-fresh-shuts-down-after-failing-to-secure-funding/"
+      },
       {
         "date": "2026-10-08",
         "company": "Flock Safety",
@@ -212,12 +274,34 @@
         "source": "https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/"
       }
     ],
-    "high_intensity_events": []
+    "high_intensity_events": [
+      {
+        "date": "2026-10-13",
+        "company": "Character.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+      },
+      {
+        "date": "2026-10-12",
+        "company": "YoLa Fresh",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Morocco",
+        "stage": "Seed",
+        "source": "https://www.techinafrica.com/moroccan-agritech-startup-yola-fresh-shuts-down-after-failing-to-secure-funding/"
+      }
+    ]
   },
   "insights": [
-    "2026-10 includes 6 public layoff events and 965 reported layoffs.",
+    "2026-10 includes 10 public layoff events and 1,215 reported layoffs.",
     "The largest company contributor is Hubspot with 660 reported layoffs.",
-    "The leading named industry is Marketing with 660 reported layoffs."
+    "The leading named industry is Marketing with 660 reported layoffs.",
+    "2 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",

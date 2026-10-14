@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-13",
+    "company": "Lightspeed Commerce",
+    "num_laid_off": 250,
+    "percentage_laid_off": null,
+    "industry": "Retail",
+    "country": "Canada",
+    "stage": "Post-IPO",
+    "source": "https://www.theglobeandmail.com/business/article-montreal-software-lightspeed-job-cuts/"
+  },
+  {
+    "date": "2026-10-13",
+    "company": "Character.AI",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "AI",
+    "country": "United States",
+    "stage": "Series A",
+    "source": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+  },
+  {
+    "date": "2026-10-12",
+    "company": "Airtable",
+    "num_laid_off": null,
+    "percentage_laid_off": null,
+    "industry": "Product",
+    "country": "United States",
+    "stage": "Acquired",
+    "source": "https://x.com/fedesimio/status/2109713695165329511"
+  },
+  {
+    "date": "2026-10-12",
+    "company": "YoLa Fresh",
+    "num_laid_off": null,
+    "percentage_laid_off": 1.0,
+    "industry": "Food",
+    "country": "Morocco",
+    "stage": "Seed",
+    "source": "https://www.techinafrica.com/moroccan-agritech-startup-yola-fresh-shuts-down-after-failing-to-secure-funding/"
+  },
+  {
     "date": "2026-10-08",
     "company": "Flock Safety",
     "num_laid_off": 270,
@@ -78,45 +118,5 @@
     "country": "United States",
     "stage": "Post-IPO",
     "source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team"
-  },
-  {
-    "date": "2026-09-28",
-    "company": "Klaviyo",
-    "num_laid_off": null,
-    "percentage_laid_off": null,
-    "industry": "Marketing",
-    "country": "United States",
-    "stage": "Unknown",
-    "source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html"
-  },
-  {
-    "date": "2026-09-23",
-    "company": "Thinkific",
-    "num_laid_off": 96,
-    "percentage_laid_off": null,
-    "industry": "Education",
-    "country": "Canada",
-    "stage": "Post-IPO",
-    "source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow"
-  },
-  {
-    "date": "2026-09-23",
-    "company": "Intel",
-    "num_laid_off": 52,
-    "percentage_laid_off": null,
-    "industry": "Hardware",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/"
-  },
-  {
-    "date": "2026-09-22",
-    "company": "Expedia",
-    "num_laid_off": 58,
-    "percentage_laid_off": null,
-    "industry": "Travel",
-    "country": "United States",
-    "stage": "Post-IPO",
-    "source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/"
   }
 ]

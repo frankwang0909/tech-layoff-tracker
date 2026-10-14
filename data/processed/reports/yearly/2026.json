@@ -4,40 +4,40 @@
   "status": "rolling",
   "date_range": {
     "start": "2026-01-05",
-    "end": "2026-10-08"
+    "end": "2026-10-13"
   },
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-13",
   "canonical_url": "/reports/yearly/2026.html",
   "kpis": {
-    "total_laid_off": 131687,
-    "event_count": 359,
-    "headcount_event_count": 229,
-    "company_count": 319,
-    "country_count": 31,
+    "total_laid_off": 131937,
+    "event_count": 363,
+    "headcount_event_count": 230,
+    "company_count": 322,
+    "country_count": 32,
     "industry_count": 29,
-    "average_layoffs_per_headcount_event": 575.05,
-    "median_layoffs_per_headcount_event": 128.0,
-    "high_intensity_event_count": 74
+    "average_layoffs_per_headcount_event": 573.64,
+    "median_layoffs_per_headcount_event": 130.5,
+    "high_intensity_event_count": 76
   },
   "comparisons": {
     "previous_period": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 9081,
-      "total_laid_off_pct_change": 0.0741,
-      "event_count_delta": 26,
-      "event_count_pct_change": 0.0781,
+      "total_laid_off_delta": 9331,
+      "total_laid_off_pct_change": 0.0761,
+      "event_count_delta": 30,
+      "event_count_pct_change": 0.0901,
       "note": null
     },
     "same_period_last_year": {
       "period": "2025",
       "total_laid_off": 122606,
       "event_count": 333,
-      "total_laid_off_delta": 9081,
-      "total_laid_off_pct_change": 0.0741,
-      "event_count_delta": 26,
-      "event_count_pct_change": 0.0781,
+      "total_laid_off_delta": 9331,
+      "total_laid_off_pct_change": 0.0761,
+      "event_count_delta": 30,
+      "event_count_pct_change": 0.0901,
       "note": null
     }
   },
@@ -91,7 +91,7 @@
       },
       {
         "industry": "Retail",
-        "total_laid_off": 20200
+        "total_laid_off": 20450
       },
       {
         "industry": "Consumer",
@@ -157,7 +157,7 @@
       },
       {
         "country": "Canada",
-        "total_laid_off": 1167
+        "total_laid_off": 1417
       },
       {
         "country": "Kenya",
@@ -171,7 +171,7 @@
     "stage_top": [
       {
         "stage": "Post-IPO",
-        "total_laid_off": 110350
+        "total_laid_off": 110600
       },
       {
         "stage": "Unknown",
@@ -338,6 +338,46 @@
     ],
     "recent_events": [
       {
+        "date": "2026-10-13",
+        "company": "Lightspeed Commerce",
+        "num_laid_off": 250,
+        "percentage_laid_off": null,
+        "industry": "Retail",
+        "country": "Canada",
+        "stage": "Post-IPO",
+        "source": "https://www.theglobeandmail.com/business/article-montreal-software-lightspeed-job-cuts/"
+      },
+      {
+        "date": "2026-10-13",
+        "company": "Character.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+      },
+      {
+        "date": "2026-10-12",
+        "company": "Airtable",
+        "num_laid_off": null,
+        "percentage_laid_off": null,
+        "industry": "Product",
+        "country": "United States",
+        "stage": "Acquired",
+        "source": "https://x.com/fedesimio/status/2109713695165329511"
+      },
+      {
+        "date": "2026-10-12",
+        "company": "YoLa Fresh",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Morocco",
+        "stage": "Seed",
+        "source": "https://www.techinafrica.com/moroccan-agritech-startup-yola-fresh-shuts-down-after-failing-to-secure-funding/"
+      },
+      {
         "date": "2026-10-08",
         "company": "Flock Safety",
         "num_laid_off": 270,
@@ -496,49 +536,29 @@
         "country": "Sweden",
         "stage": "Acquired",
         "source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/"
-      },
-      {
-        "date": "2026-09-17",
-        "company": "Bluevine",
-        "num_laid_off": 80,
-        "percentage_laid_off": null,
-        "industry": "Finance",
-        "country": "India",
-        "stage": "Unknown",
-        "source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279"
-      },
-      {
-        "date": "2026-09-15",
-        "company": "Pulley",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Finance",
-        "country": "United States",
-        "stage": "Series B",
-        "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
-      },
-      {
-        "date": "2026-09-14",
-        "company": "Oracle",
-        "num_laid_off": null,
-        "percentage_laid_off": null,
-        "industry": "Other",
-        "country": "United States",
-        "stage": "Post-IPO",
-        "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
-      },
-      {
-        "date": "2026-09-14",
-        "company": "Twiga",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Food",
-        "country": "Kenya",
-        "stage": "Series C",
-        "source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/"
       }
     ],
     "high_intensity_events": [
+      {
+        "date": "2026-10-13",
+        "company": "Character.AI",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "AI",
+        "country": "United States",
+        "stage": "Series A",
+        "source": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+      },
+      {
+        "date": "2026-10-12",
+        "company": "YoLa Fresh",
+        "num_laid_off": null,
+        "percentage_laid_off": 1.0,
+        "industry": "Food",
+        "country": "Morocco",
+        "stage": "Seed",
+        "source": "https://www.techinafrica.com/moroccan-agritech-startup-yola-fresh-shuts-down-after-failing-to-secure-funding/"
+      },
       {
         "date": "2026-09-15",
         "company": "Pulley",
@@ -618,34 +638,14 @@
         "country": "United States",
         "stage": "Seed",
         "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
-      },
-      {
-        "date": "2026-08-19",
-        "company": "BlocPower",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Energy",
-        "country": "United States",
-        "stage": "Unknown",
-        "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
-      },
-      {
-        "date": "2026-08-23",
-        "company": "Wi-Charge",
-        "num_laid_off": null,
-        "percentage_laid_off": 1.0,
-        "industry": "Manufacturing",
-        "country": "Israel",
-        "stage": "Series C",
-        "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
       }
     ]
   },
   "insights": [
-    "2026 includes 359 public layoff events and 131,687 reported layoffs.",
+    "2026 includes 363 public layoff events and 131,937 reported layoffs.",
     "The largest company contributor is Oracle with 21,000 reported layoffs.",
-    "The leading named industry is Retail with 20,200 reported layoffs.",
-    "74 events report a layoff percentage of 25% or higher."
+    "The leading named industry is Retail with 20,450 reported layoffs.",
+    "76 events report a layoff percentage of 25% or higher."
   ],
   "methodology_notes": [
     "Rows with invalid dates are excluded from period reports.",
